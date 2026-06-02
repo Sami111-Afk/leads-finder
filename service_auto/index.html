@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal Service E.C. | Service Auto & ITP Calea Moșilor</title>
+    <!-- Font modern Google Fonts (Plus Jakarta Sans & Space Grotesk) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            /* Culori stil auto-sport/industrial (negru asfalt, orange racing intens, text contrastant) */
+            --primary: #ea580c;        /* Portocaliu curse */
+            --primary-hover: #c2410c;
+            --accent: #fbbf24;         /* Galben ITP/avertizare */
+            --secondary: #0f172a;      /* Negru asfalt închis */
+            --background: #f8fafc;     
+            --surface: #ffffff;
+            --text-dark: #0f172a;
+            --text-light: #64748b;
+            --white: #ffffff;
+            --border-radius: 12px;
+            --font-display: 'Space Grotesk', sans-serif;
+            --font-body: 'Plus Jakarta Sans', sans-serif;
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-body);
+            background-color: var(--background);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        /* Header Dinamic */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(15, 23, 42, 0.95);
+            border-bottom: 2px solid var(--primary);
+            z-index: 1000;
+            padding: 15px 0;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: var(--font-display);
+            font-weight: 700;
+            font-size: 1.35rem;
+            color: var(--white);
+            text-decoration: none;
+            letter-spacing: -0.5px;
+        }
+
+        .logo span {
+            color: var(--primary);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 25px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.8);
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: var(--transition);
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        /* Butoane */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--primary);
+            color: var(--white);
+            padding: 12px 24px;
+            border-radius: var(--border-radius);
+            font-family: var(--font-display);
+            font-weight: 700;
+            text-decoration: none;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(234, 88, 12, 0.2);
+            gap: 8px;
+        }
+
+        .btn:hover {
+            background-color: var(--primary-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 18px rgba(234, 88, 12, 0.35);
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            color: var(--white);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            box-shadow: none;
+        }
+
+        .btn-secondary:hover {
+            background-color: rgba(255, 255, 255, 0.05);
+            border-color: var(--white);
+            transform: translateY(-2px);
+        }
+
+        /* Hero */
+        .hero {
+            padding: 180px 0 100px 0;
+            background-color: var(--secondary);
+            color: var(--white);
+            display: grid;
+            grid-template-columns: 1.15fr 0.85fr;
+            gap: 60px;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(234, 88, 12, 0.05) 0%, rgba(15, 23, 42, 0) 100%);
+            z-index: 1;
+        }
+
+        .hero-content {
+            max-width: 550px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .badge {
+            display: inline-block;
+            background-color: rgba(234, 88, 12, 0.15);
+            color: var(--primary);
+            border: 1px solid var(--primary);
+            padding: 6px 14px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            margin-bottom: 24px;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        .hero h1 {
+            font-family: var(--font-display);
+            font-size: 3.25rem;
+            font-weight: 700;
+            line-height: 1.15;
+            margin-bottom: 24px;
+        }
+
+        .hero h1 span {
+            color: var(--primary);
+        }
+
+        .hero p {
+            font-size: 1.05rem;
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 35px;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 16px;
+        }
+
+        .hero-image {
+            width: 100%;
+            height: 380px;
+            object-fit: cover;
+            border-radius: var(--border-radius);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            border: 2px solid rgba(255, 255, 255, 0.05);
+            position: relative;
+            z-index: 2;
+        }
+
+        /* Servicii */
+        .services {
+            padding: 100px 0;
+            background-color: var(--white);
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto 60px auto;
+        }
+
+        .section-header h2 {
+            font-family: var(--font-display);
+            font-size: 2.25rem;
+            font-weight: 700;
+            color: var(--secondary);
+            margin-bottom: 15px;
+        }
+
+        .section-header p {
+            color: var(--text-light);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background-color: var(--background);
+            padding: 35px 25px;
+            border-radius: var(--border-radius);
+            border: 1px solid rgba(0, 0, 0, 0.03);
+            transition: var(--transition);
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.04);
+            border-color: rgba(234, 88, 12, 0.1);
+        }
+
+        .card-icon {
+            font-size: 2rem;
+            margin-bottom: 15px;
+            display: inline-block;
+            color: var(--primary);
+        }
+
+        .card h3 {
+            font-family: var(--font-display);
+            font-size: 1.25rem;
+            margin-bottom: 10px;
+            color: var(--secondary);
+        }
+
+        .card p {
+            font-size: 0.9rem;
+            color: var(--text-light);
+        }
+
+        /* Tarife */
+        .pricing {
+            padding: 90px 0;
+            background-color: var(--background);
+        }
+
+        .pricing-box {
+            background-color: var(--white);
+            border-radius: var(--border-radius);
+            padding: 30px 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
+            border: 1px solid rgba(0, 0, 0, 0.04);
+        }
+
+        .pricing-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px 0;
+            border-bottom: 1px solid #f1f5f9;
+        }
+
+        .pricing-row:last-child {
+            border-bottom: none;
+        }
+
+        .pricing-name {
+            font-weight: 600;
+            color: var(--secondary);
+        }
+
+        .pricing-val {
+            font-weight: 700;
+            color: var(--primary);
+            font-family: var(--font-display);
+        }
+
+        /* Contact & Locatie */
+        .contact {
+            padding: 100px 0;
+            background-color: var(--white);
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .contact-details h2 {
+            font-family: var(--font-display);
+            font-size: 2.25rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .contact-details p {
+            color: var(--text-light);
+            margin-bottom: 35px;
+        }
+
+        .info-row {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .info-icon {
+            width: 44px;
+            height: 44px;
+            background-color: rgba(234, 88, 12, 0.08);
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            font-size: 1.1rem;
+        }
+
+        .info-text strong {
+            display: block;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            color: var(--text-light);
+        }
+
+        .info-text span {
+            font-weight: 600;
+            color: var(--secondary);
+        }
+
+        .form-box {
+            background-color: var(--background);
+            padding: 40px;
+            border-radius: var(--border-radius);
+            border: 1px solid rgba(0, 0, 0, 0.03);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 600;
+            font-size: 0.85rem;
+            margin-bottom: 6px;
+            color: var(--secondary);
+        }
+
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            border-radius: 8px;
+            background-color: var(--white);
+            font-family: var(--font-body);
+            font-size: 0.95rem;
+            transition: var(--transition);
+        }
+
+        .form-group input:focus, .form-group textarea:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 4px rgba(234, 88, 12, 0.1);
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--secondary);
+            color: rgba(255, 255, 255, 0.4);
+            padding: 50px 0;
+            text-align: center;
+            font-size: 0.9rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        footer strong {
+            color: var(--white);
+        }
+
+        @media (max-width: 800px) {
+            .hero {
+                grid-template-columns: 1fr;
+                padding-top: 130px;
+                text-align: center;
+                gap: 40px;
+            }
+            .hero-content {
+                margin: 0 auto;
+            }
+            .hero h1 {
+                font-size: 2.25rem;
+            }
+            .hero-buttons {
+                justify-content: center;
+            }
+            .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            .nav-links {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <a href="#" class="logo">Universal <span>Service E.C.</span></a>
+            
+            <ul class="nav-links">
+                <li><a href="#servicii">Servicii</a></li>
+                <li><a href="#preturi">Tarife</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            
+            <a href="tel:0734174025" class="btn" style="padding: 10px 20px; font-size: 0.85rem;">📞 0734 174 025</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <span class="badge">Service Auto & Stație ITP Autorizată R.A.R</span>
+            <h1>Reparații auto rapide și <span>Stație ITP</span> pe Calea Moșilor.</h1>
+            <p>ITP pe loc pentru autoturisme, vulcanizare și mecanică auto completă. Echipă de profesioniști și echipamente moderne pentru mașina ta, chiar în Sectorul 2.</p>
+            
+            <div class="hero-buttons">
+                <a href="tel:0734174025" class="btn">Programează-te</a>
+                <a href="#preturi" class="btn btn-secondary">Prețuri ITP</a>
+            </div>
+        </div>
+        
+        <div>
+            <!-- Imagine service auto din Unsplash -->
+            <img src="https://images.unsplash.com/photo-1486006920555-c77dce18193b?auto=format&fit=crop&w=600&q=80" alt="Universal Service E.C. Calea Mosilor" class="hero-image">
+        </div>
+    </section>
+
+    <!-- Servicii -->
+    <section id="servicii" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Servicii Oferite</h2>
+                <p>Oferim servicii integrate pentru întreținerea și reparația autoturismului tău.</p>
+            </div>
+            
+            <div class="grid">
+                <div class="card">
+                    <div class="card-icon">🚗</div>
+                    <h3>Stație ITP</h3>
+                    <p>Inspecție Tehnică Periodică rapidă pentru autoturisme și utilitare ușoare, autorizată complet de R.A.R.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">⚙️</div>
+                    <h3>Mecanică & Diagnoză</h3>
+                    <p>Revizii complete, diagnosticare erori computerizate, reparații motor, sisteme de frânare și suspensie.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🔧</div>
+                    <h3>Vulcanizare & Anvelope</h3>
+                    <p>Schimb anvelope sezonier, echilibrare roți profesională, reparații pene de anvelopă și hotel de anvelope.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prețuri -->
+    <section id="preturi" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tarife Servicii Comune</h2>
+                <p>Prețuri transparente și competitive pentru principalele noastre operațiuni din service.</p>
+            </div>
+            
+            <div class="pricing-box">
+                <div class="pricing-row">
+                    <span class="pricing-name">Inspecție Tehnică Periodică (ITP) - Autoturism Benzină / Motorină</span>
+                    <span class="pricing-val">150 RON</span>
+                </div>
+                <div class="pricing-row">
+                    <span class="pricing-name">Inspecție Tehnică Periodică (ITP) - Autoturism 4x4 / Utilitară</span>
+                    <span class="pricing-val">180 RON</span>
+                </div>
+                <div class="pricing-row">
+                    <span class="pricing-name">Diagnoză Computerizată (citire & ștergere erori)</span>
+                    <span class="pricing-val">100 RON</span>
+                </div>
+                <div class="pricing-row">
+                    <span class="pricing-name">Schimb Ulei + Filtre (manoperă de bază)</span>
+                    <span class="pricing-val">120 RON</span>
+                </div>
+                <div class="pricing-row">
+                    <span class="pricing-name">Schimb Complet Anvelope (4 roți, demontat, montat, echilibrat)</span>
+                    <span class="pricing-val">140 - 180 RON</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Harta -->
+    <section id="contact" class="contact">
+        <div class="container contact-grid">
+            <div class="contact-details">
+                <h2>Contact & Programări</h2>
+                <p>Suntem situați pe Calea Moșilor nr. 140. Te poți programa telefonic pentru mecanică, ITP sau vulcanizare.*</p>
+                
+                <div class="info-row">
+                    <div class="info-icon">📍</div>
+                    <div class="info-text">
+                        <strong>Adresă Service</strong>
+                        <span>Calea Moșilor Nr. 140, Sector 2, București</span>
+                    </div>
+                </div>
+                <div class="info-row">
+                    <div class="info-icon">📞</div>
+                    <div class="info-text">
+                        <strong>Telefon Mobil (Recomandat)</strong>
+                        <span>0734 174 025</span>
+                    </div>
+                </div>
+                <div class="info-row">
+                    <div class="info-icon">☎️</div>
+                    <div class="info-text">
+                        <strong>Telefon Fix / Office</strong>
+                        <span>021.315.33.25</span>
+                    </div>
+                </div>
+                <div class="info-row">
+                    <div class="info-icon">📧</div>
+                    <div class="info-text">
+                        <strong>E-mail</strong>
+                        <span>universalservice.ec@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-box">
+                <h3 style="margin-bottom: 20px; font-family: var(--font-display);">Programare Rapidă</h3>
+                <form action="#" onsubmit="event.preventDefault(); alert('Solicitare trimisă! Vă vom suna în cel mai scurt timp pentru confirmarea programării.');">
+                    <div class="form-group">
+                        <label for="name">Nume Complet</label>
+                        <input type="text" id="name" required placeholder="Numele tău">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Număr Telefon</label>
+                        <input type="tel" id="phone" required placeholder="07xx xxx xxx">
+                    </div>
+                    <div class="form-group">
+                        <label for="car">Model Autoturism & Serviciu Dorit</label>
+                        <textarea id="car" rows="3" placeholder="ex: Dacia Logan, doresc programare pentru ITP..."></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="width: 100%;">Trimite Solicitare</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 <strong>Universal Service E.C. SRL</strong>. Toate drepturile rezervate.</p>
+            <p style="font-size: 0.8rem; margin-top: 15px; opacity: 0.5;">Propus și creat de Savu Mihai Samuel - PFA Servicii IT.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

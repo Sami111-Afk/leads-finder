@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atelier Croitorie & Retuș CLN | Bulevardul Carol I</title>
+    <!-- Font modern Google Fonts (Lora & Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            /* Culori elegante, inspirate din industria textilă (indigo profund pentru cusături, in brut/neutral cald) */
+            --primary: #4f46e5;        /* Indigo elegant */
+            --primary-hover: #4338ca;
+            --accent: #b45309;         /* Cupru/Chihlimbar textil */
+            --secondary: #0f172a;      /* Slate închis */
+            --background: #fafaf9;     /* Crem textil cald */
+            --surface: #ffffff;
+            --text-dark: #0f172a;
+            --text-light: #64748b;
+            --white: #ffffff;
+            --border-radius: 12px;
+            --font-display: 'Lora', serif;
+            --font-body: 'Plus Jakarta Sans', sans-serif;
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-body);
+            background-color: var(--background);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        /* Header Elegant */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(250, 250, 249, 0.85);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border-bottom: 1px solid rgba(15, 23, 42, 0.05);
+            z-index: 1000;
+            padding: 20px 0;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: var(--font-display);
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: var(--secondary);
+            text-decoration: none;
+            font-style: italic;
+        }
+
+        .logo span {
+            color: var(--primary);
+            font-style: normal;
+            font-weight: 800;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-light);
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: var(--transition);
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        /* Butoane */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--primary);
+            color: var(--white);
+            padding: 12px 24px;
+            border-radius: var(--border-radius);
+            font-weight: 600;
+            text-decoration: none;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(79, 70, 229, 0.15);
+            gap: 8px;
+        }
+
+        .btn:hover {
+            background-color: var(--primary-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 18px rgba(79, 70, 229, 0.25);
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            color: var(--secondary);
+            border: 2px solid rgba(15, 23, 42, 0.1);
+            box-shadow: none;
+        }
+
+        .btn-secondary:hover {
+            background-color: rgba(15, 23, 42, 0.02);
+            border-color: var(--secondary);
+            transform: translateY(-2px);
+        }
+
+        /* Hero */
+        .hero {
+            padding: 180px 0 100px 0;
+            display: grid;
+            grid-template-columns: 1.1fr 0.9fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .hero-content {
+            max-width: 550px;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            background-color: rgba(79, 70, 229, 0.08);
+            color: var(--primary);
+            padding: 6px 14px;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            margin-bottom: 24px;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        .hero h1 {
+            font-family: var(--font-display);
+            font-size: 3.25rem;
+            font-weight: 700;
+            line-height: 1.15;
+            color: var(--secondary);
+            margin-bottom: 24px;
+        }
+
+        .hero h1 span {
+            font-style: italic;
+            color: var(--accent);
+            font-weight: 400;
+        }
+
+        .hero p {
+            font-size: 1.05rem;
+            color: var(--text-light);
+            margin-bottom: 35px;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 16px;
+        }
+
+        .hero-image-container {
+            position: relative;
+        }
+
+        .hero-image {
+            width: 100%;
+            height: 420px;
+            object-fit: cover;
+            border-radius: 16px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Despre */
+        .about-section {
+            padding: 80px 0;
+            background-color: var(--white);
+            border-top: 1px solid rgba(15, 23, 42, 0.05);
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .about-card {
+            padding: 30px;
+            background-color: var(--background);
+            border-radius: var(--border-radius);
+            text-align: center;
+        }
+
+        .about-icon {
+            font-size: 2rem;
+            margin-bottom: 15px;
+            display: inline-block;
+        }
+
+        .about-card h3 {
+            font-family: var(--font-display);
+            font-size: 1.25rem;
+            margin-bottom: 10px;
+        }
+
+        .about-card p {
+            font-size: 0.9rem;
+            color: var(--text-light);
+        }
+
+        /* Servicii & Tarife */
+        .services-section {
+            padding: 100px 0;
+            background-color: var(--background);
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto 50px auto;
+        }
+
+        .section-header h2 {
+            font-family: var(--font-display);
+            font-size: 2.25rem;
+            font-weight: 700;
+            color: var(--secondary);
+            margin-bottom: 15px;
+        }
+
+        .section-header p {
+            color: var(--text-light);
+            font-size: 1rem;
+        }
+
+        .table-container {
+            background-color: var(--white);
+            border-radius: var(--border-radius);
+            padding: 30px 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
+            border: 1px solid rgba(0, 0, 0, 0.04);
+        }
+
+        .table-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 18px 0;
+            border-bottom: 1px solid #f1f5f9;
+            align-items: center;
+        }
+
+        .table-row:last-child {
+            border-bottom: none;
+        }
+
+        .service-name {
+            font-weight: 600;
+            color: var(--secondary);
+        }
+
+        .service-time {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            background-color: #f1f5f9;
+            padding: 3px 8px;
+            border-radius: 4px;
+            margin-left: 15px;
+        }
+
+        .service-price {
+            font-weight: 700;
+            color: var(--primary);
+            font-size: 1.05rem;
+        }
+
+        /* Contact */
+        .contact-section {
+            padding: 100px 0;
+            background-color: var(--white);
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .contact-details h2 {
+            font-family: var(--font-display);
+            font-size: 2.25rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .contact-details p {
+            color: var(--text-light);
+            margin-bottom: 35px;
+        }
+
+        .info-row {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 25px;
+        }
+
+        .info-icon {
+            width: 44px;
+            height: 44px;
+            background-color: rgba(79, 70, 229, 0.08);
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            font-size: 1.1rem;
+        }
+
+        .info-text strong {
+            display: block;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            color: var(--text-light);
+            letter-spacing: 0.5px;
+        }
+
+        .info-text span {
+            font-weight: 600;
+            color: var(--secondary);
+        }
+
+        .map-box {
+            background-color: var(--background);
+            border-radius: 16px;
+            height: 350px;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
+        }
+
+        .map-pin {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-8px); }
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--secondary);
+            color: rgba(255, 255, 255, 0.5);
+            padding: 50px 0;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        footer strong {
+            color: var(--white);
+        }
+
+        @media (max-width: 800px) {
+            .hero {
+                grid-template-columns: 1fr;
+                padding-top: 130px;
+                text-align: center;
+                gap: 40px;
+            }
+            .hero-content {
+                margin: 0 auto;
+            }
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            .hero-buttons {
+                justify-content: center;
+            }
+            .about-grid {
+                grid-template-columns: 1fr;
+            }
+            .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            .nav-links {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <a href="#" class="logo">Croitorie <span>Carol 40</span></a>
+            
+            <ul class="nav-links">
+                <li><a href="#beneficii">De ce noi</a></li>
+                <li><a href="#servicii">Tarife Retuș</a></li>
+                <li><a href="#contact">Locație</a></li>
+            </ul>
+            
+            <a href="tel:0791454387" class="btn btn-secondary" style="padding: 8px 18px; font-size: 0.85rem;">Sună: 0791 454 387</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <span class="badge">Atelier Retuș & Modificări | Bd. Carol I</span>
+            <h1>Hainele tale, ajustate <span>perfect</span> pentru tine.</h1>
+            <p>Scurtat, strâmtat, ajustări de costume și rochii sau înlocuiri fermoare. Servicii rapide de croitorie și retușuri profesionale, chiar în centrul Bucureștiului.</p>
+            
+            <div class="hero-buttons">
+                <a href="tel:0791454387" class="btn">Sună pentru Detalii</a>
+                <a href="#servicii" class="btn btn-secondary">Listă Prețuri</a>
+            </div>
+        </div>
+        
+        <div class="hero-image-container container">
+            <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=800&q=80" alt="Atelier Croitorie Carol 40" class="hero-image">
+        </div>
+    </section>
+
+    <!-- De ce noi -->
+    <section id="beneficii" class="about-section">
+        <div class="container about-grid">
+            <div class="about-card">
+                <span class="about-icon">⚡</span>
+                <h3>Retușuri Rapide</h3>
+                <p>Modificări simple (tivit blugi, strâmtat) gata în 24 de ore pentru a nu-ți bloca programul.</p>
+            </div>
+            <div class="about-card">
+                <span class="about-icon">🪡</span>
+                <h3>Calitate Garantată</h3>
+                <p>Lucrăm cu echipamente profesionale și ațe rezistente, respectând cusăturile originale.</p>
+            </div>
+            <div class="about-card">
+                <span class="about-icon">📍</span>
+                <h3>Locație Centrală</h3>
+                <p>Atelierul se află pe Bd. Carol I nr. 40, extrem de ușor de accesat de pe Rosetti sau Universitate.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicii & Tarife -->
+    <section id="servicii" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tarife Orientative Retușuri</h2>
+                <p>Prețuri transparente pentru cele mai frecvente modificări vestimentare efectuate în atelierul nostru.</p>
+            </div>
+            
+            <div class="table-container">
+                <div class="table-row">
+                    <div>
+                        <span class="service-name">Scurtat blugi / pantaloni (tiv simplu)</span>
+                        <span class="service-time">24h</span>
+                    </div>
+                    <span class="service-price">25 RON</span>
+                </div>
+                <div class="table-row">
+                    <div>
+                        <span class="service-name">Scurtat pantaloni de costum (tiv invizibil)</span>
+                        <span class="service-time">24-48h</span>
+                    </div>
+                    <span class="service-price">35 RON</span>
+                </div>
+                <div class="table-row">
+                    <div>
+                        <span class="service-name">Înlocuit fermoar (pantaloni / blugi) *</span>
+                        <span class="service-time">24h</span>
+                    </div>
+                    <span class="service-price">30 RON</span>
+                </div>
+                <div class="table-row">
+                    <div>
+                        <span class="service-name">Înlocuit fermoar geacă / palton *</span>
+                        <span class="service-time">48h</span>
+                    </div>
+                    <span class="service-price">45 - 60 RON</span>
+                </div>
+                <div class="table-row">
+                    <div>
+                        <span class="service-name">Strâmtat / Ajustat sacou sau cămașă</span>
+                        <span class="service-time">48-72h</span>
+                    </div>
+                    <span class="service-price">50 - 80 RON</span>
+                </div>
+                <div class="table-row">
+                    <div>
+                        <span class="service-name">Ajustat rochie de seară (simplu)</span>
+                        <span class="service-time">48-72h</span>
+                    </div>
+                    <span class="service-price">de la 60 RON</span>
+                </div>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--text-light); text-align: center; margin-top: 20px;">* Prețul nu include fermoarul (îl puteți aduce dumneavoastră sau îl putem asigura noi contra-cost).</p>
+        </div>
+    </section>
+
+    <!-- Contact & Locatie -->
+    <section id="contact" class="contact-section">
+        <div class="container contact-grid">
+            <div class="contact-details">
+                <h2>Te așteptăm la atelier</h2>
+                <p>Niciun retuș nu este prea mic sau prea complex. Vino direct cu produsele la noi la o probă rapidă și vom găsi cea mai bună soluție de ajustare.</p>
+                
+                <div class="info-row">
+                    <div class="info-icon">📍</div>
+                    <div class="info-text">
+                        <strong>Adresă Atelier</strong>
+                        <span>Bulevardul Carol I, Nr. 40, Sector 2, București</span>
+                    </div>
+                </div>
+                <div class="info-row">
+                    <div class="info-icon">📞</div>
+                    <div class="info-text">
+                        <strong>Telefon</strong>
+                        <span>0791 454 387</span>
+                    </div>
+                </div>
+                <div class="info-row">
+                    <div class="info-icon">🕒</div>
+                    <div class="info-text">
+                        <strong>Program de Lucru</strong>
+                        <span>Luni - Vineri: 10:00 - 18:00 | Sâmbătă - Duminică: Închis</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="map-box">
+                <div class="map-pin">📍</div>
+                <h3>Bulevardul Carol I Nr. 40</h3>
+                <p>Aproape de Piața Rosetti, la parter.</p>
+                <a href="https://maps.google.com/?q=Bulevardul+Carol+I+40,+Bucuresti" target="_blank" class="btn btn-secondary">Deschide în Google Maps</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 <strong>Croitorie Si Retus Cln</strong>. Toate drepturile rezervate.</p>
+            <p style="font-size: 0.8rem; margin-top: 15px; opacity: 0.5;">Propus și creat de Savu Mihai Samuel - PFA Servicii IT.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

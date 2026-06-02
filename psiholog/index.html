@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabinet Psihologie Alma Stoianovici | Piața Rosetti</title>
+    <!-- Font modern Google Fonts (Merriweather & Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            /* Culori zen, relaxante (verde salvie/teal profund și nuanțe de nisip cald) */
+            --primary: #0d9488;        /* Teal/Turcoaz calm */
+            --primary-hover: #0f766e;
+            --accent: #b45309;         /* Accent cald cupru */
+            --secondary: #111827;      /* Cărbune închis */
+            --background: #fbfbf9;     /* Nisip foarte deschis */
+            --surface: #ffffff;
+            --text-dark: #1f2937;
+            --text-light: #6b7280;
+            --white: #ffffff;
+            --border-radius: 16px;
+            --font-display: 'Merriweather', serif;
+            --font-body: 'Plus Jakarta Sans', sans-serif;
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-body);
+            background-color: var(--background);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 960px;
+            margin: 0 auto;
+        }
+
+        /* Header Minimalist */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(251, 251, 249, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(17, 24, 39, 0.05);
+            z-index: 1000;
+            padding: 20px 0;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: var(--font-display);
+            font-weight: 700;
+            font-size: 1.35rem;
+            color: var(--secondary);
+            text-decoration: none;
+        }
+
+        .logo span {
+            color: var(--primary);
+            font-weight: 400;
+            font-style: italic;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 25px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-light);
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: var(--transition);
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        /* Butoane */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--primary);
+            color: var(--white);
+            padding: 12px 24px;
+            border-radius: var(--border-radius);
+            font-weight: 600;
+            text-decoration: none;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(13, 148, 136, 0.15);
+        }
+
+        .btn:hover {
+            background-color: var(--primary-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 18px rgba(13, 148, 136, 0.25);
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            color: var(--secondary);
+            border: 2px solid rgba(17, 24, 39, 0.1);
+            box-shadow: none;
+        }
+
+        .btn-secondary:hover {
+            background-color: rgba(17, 24, 39, 0.02);
+            border-color: var(--secondary);
+            transform: translateY(-2px);
+        }
+
+        /* Hero */
+        .hero {
+            padding: 180px 0 100px 0;
+            display: grid;
+            grid-template-columns: 1.15fr 0.85fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .hero-content {
+            max-width: 530px;
+        }
+
+        .badge {
+            display: inline-block;
+            background-color: rgba(13, 148, 136, 0.08);
+            color: var(--primary);
+            padding: 6px 14px;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-bottom: 24px;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        .hero h1 {
+            font-family: var(--font-display);
+            font-size: 3rem;
+            font-weight: 700;
+            line-height: 1.2;
+            color: var(--secondary);
+            margin-bottom: 24px;
+            letter-spacing: -0.5px;
+        }
+
+        .hero h1 span {
+            font-weight: 300;
+            font-style: italic;
+            color: var(--primary);
+        }
+
+        .hero p {
+            font-size: 1.05rem;
+            color: var(--text-light);
+            margin-bottom: 35px;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 16px;
+        }
+
+        .hero-image {
+            width: 100%;
+            height: 380px;
+            object-fit: cover;
+            border-radius: 120px 24px 120px 24px; /* Taiere organica relaxanta */
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.04);
+        }
+
+        /* Sectiunea Terapie / Servicii */
+        .therapy-info {
+            padding: 90px 0;
+            background-color: var(--white);
+            border-top: 1px solid rgba(17, 24, 39, 0.03);
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto 60px auto;
+        }
+
+        .section-header h2 {
+            font-family: var(--font-display);
+            font-size: 2.25rem;
+            font-weight: 700;
+            color: var(--secondary);
+            margin-bottom: 15px;
+        }
+
+        .section-header p {
+            color: var(--text-light);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background-color: var(--background);
+            padding: 35px 25px;
+            border-radius: var(--border-radius);
+            border: 1px solid rgba(0, 0, 0, 0.02);
+            transition: var(--transition);
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 15px 30px rgba(13, 148, 136, 0.05);
+            background-color: var(--white);
+            border-color: rgba(13, 148, 136, 0.1);
+        }
+
+        .card-icon {
+            font-size: 1.75rem;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+
+        .card h3 {
+            font-family: var(--font-display);
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            color: var(--secondary);
+        }
+
+        .card p {
+            font-size: 0.9rem;
+            color: var(--text-light);
+        }
+
+        /* Tarife */
+        .pricing {
+            padding: 90px 0;
+            background-color: var(--background);
+        }
+
+        .pricing-box {
+            background-color: var(--white);
+            border-radius: var(--border-radius);
+            padding: 30px 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
+            border: 1px solid rgba(0, 0, 0, 0.04);
+        }
+
+        .pricing-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px 0;
+            border-bottom: 1px solid #f3f4f6;
+        }
+
+        .pricing-row:last-child {
+            border-bottom: none;
+        }
+
+        .pricing-name {
+            font-weight: 600;
+            color: var(--secondary);
+        }
+
+        .pricing-time {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            margin-left: 10px;
+        }
+
+        .pricing-val {
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        /* Contact & Formular */
+        .contact {
+            padding: 100px 0;
+            background-color: var(--white);
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .contact-details h2 {
+            font-family: var(--font-display);
+            font-size: 2.25rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .contact-details p {
+            color: var(--text-light);
+            margin-bottom: 35px;
+        }
+
+        .info-row {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .info-icon {
+            width: 44px;
+            height: 44px;
+            background-color: rgba(13, 148, 136, 0.08);
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            font-size: 1.1rem;
+        }
+
+        .info-text strong {
+            display: block;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            color: var(--text-light);
+        }
+
+        .info-text span {
+            font-weight: 600;
+            color: var(--secondary);
+        }
+
+        .form-box {
+            background-color: var(--background);
+            padding: 40px;
+            border-radius: var(--border-radius);
+            border: 1px solid rgba(0, 0, 0, 0.03);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 600;
+            font-size: 0.85rem;
+            margin-bottom: 6px;
+            color: var(--secondary);
+        }
+
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            border-radius: 8px;
+            background-color: var(--white);
+            font-family: var(--font-body);
+            font-size: 0.95rem;
+            transition: var(--transition);
+        }
+
+        .form-group input:focus, .form-group textarea:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 4px rgba(13, 148, 136, 0.1);
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--secondary);
+            color: rgba(255, 255, 255, 0.5);
+            padding: 50px 0;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        footer strong {
+            color: var(--white);
+        }
+
+        @media (max-width: 800px) {
+            .hero {
+                grid-template-columns: 1fr;
+                padding-top: 130px;
+                text-align: center;
+                gap: 40px;
+            }
+            .hero-content {
+                margin: 0 auto;
+            }
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            .hero-buttons {
+                justify-content: center;
+            }
+            .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            .nav-links {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <a href="#" class="logo">Alma <span>Stoianovici</span></a>
+            
+            <ul class="nav-links">
+                <li><a href="#terapie">Servicii Terapie</a></li>
+                <li><a href="#preturi">Tarife</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            
+            <a href="tel:0727060750" class="btn btn-secondary" style="padding: 8px 18px; font-size: 0.85rem;">Sună: 0727 060 750</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <span class="badge">Cabinet Individual de Psihoterapie | Piața Rosetti</span>
+            <h1>Regăsește-ți <span>echilibrul</span> și liniștea interioară.</h1>
+            <p>Un spațiu sigur, confidențial și cald, creat pentru a te ghida în momentele dificile, pentru a depăși anxietatea, stresul sau pentru a-ți îmbunătăți relațiile.</p>
+            
+            <div class="hero-buttons">
+                <a href="#contact" class="btn">Solicită Consultație</a>
+                <a href="#terapie" class="btn btn-secondary">Servicii Oferite</a>
+            </div>
+        </div>
+        
+        <div>
+            <!-- Imagine relaxanta / terapeutica din Unsplash -->
+            <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=600&q=80" alt="Cabinet Psihologie Alma Stoianovici" class="hero-image">
+        </div>
+    </section>
+
+    <!-- Servicii -->
+    <section id="terapie" class="therapy-info">
+        <div class="container">
+            <div class="section-header">
+                <h2>Servicii Psihologice</h2>
+                <p>Ofer sprijin specializat adaptat nevoilor tale unice, utilizând metode terapeutice validate științific.</p>
+            </div>
+            
+            <div class="grid">
+                <div class="card">
+                    <span class="card-icon">🌱</span>
+                    <h3>Terapie Individuală</h3>
+                    <p>Consiliere axată pe depășirea anxietății, a stărilor depresive, a atacurilor de panică sau a gestionării burnout-ului.</p>
+                </div>
+                <div class="card">
+                    <span class="card-icon">👥</span>
+                    <h3>Terapie de Cuplu</h3>
+                    <p>Ghidaj specializat pentru îmbunătățirea comunicării, rezolvarea conflictelor și reconstruirea intimității în cuplu.</p>
+                </div>
+                <div class="card">
+                    <span class="card-icon">💻</span>
+                    <h3>Terapie Online</h3>
+                    <p>Ședințe de consiliere desfășurate de la distanță, oferind același nivel de confidențialitate și eficiență.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tarife -->
+    <section id="preturi" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tarife Ședințe</h2>
+                <p>O investiție directă în sănătatea ta emoțională și mintală. Tarife transparente pentru serviciile oferite.</p>
+            </div>
+            
+            <div class="pricing-box">
+                <div class="pricing-row">
+                    <div>
+                        <span class="pricing-name">Ședință Terapie Individuală (Cabinet / Online)</span>
+                        <span class="pricing-time">50 minute</span>
+                    </div>
+                    <span class="pricing-val">200 RON</span>
+                </div>
+                <div class="pricing-row">
+                    <div>
+                        <span class="pricing-name">Ședință Terapie de Cuplu</span>
+                        <span class="pricing-time">80 minute</span>
+                    </div>
+                    <span class="pricing-val">300 RON</span>
+                </div>
+                <div class="pricing-row">
+                    <div>
+                        <span class="pricing-name">Consiliere Psihologică și Evaluare</span>
+                        <span class="pricing-time">50 minute</span>
+                    </div>
+                    <span class="pricing-val">220 RON</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Harta -->
+    <section id="contact" class="contact">
+        <div class="container contact-grid">
+            <div class="contact-details">
+                <h2>Programări Cabinet</h2>
+                <p>Cabinetul este situat ultracentral, în zona Piața Rosetti, oferind un cadru liniștit, izolat fonic și confortabil pentru discuții.*</p>
+                
+                <div class="info-row">
+                    <div class="info-icon">📍</div>
+                    <div class="info-text">
+                        <strong>Adresă Cabinet</strong>
+                        <span>Piața C. A. Rosetti, Sector 2, București</span>
+                    </div>
+                </div>
+                <div class="info-row">
+                    <div class="info-icon">📞</div>
+                    <div class="info-text">
+                        <strong>Telefon programări</strong>
+                        <span>0727 060 750</span>
+                    </div>
+                </div>
+                <div class="info-row">
+                    <div class="info-icon">🕒</div>
+                    <div class="info-text">
+                        <strong>Program de Lucru</strong>
+                        <span>Luni - Vineri: 09:00 - 20:00 (Doar cu programare prealabilă)</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-box">
+                <h3 style="margin-bottom: 20px; font-family: var(--font-display);">Trimite o solicitare</h3>
+                <form action="#" onsubmit="event.preventDefault(); alert('Solicitare trimisă! Vă voi contacta telefonic în cel mai scurt timp.');">
+                    <div class="form-group">
+                        <label for="name">Nume Complet</label>
+                        <input type="text" id="name" required placeholder="Numele tău">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Număr de Telefon</label>
+                        <input type="tel" id="phone" required placeholder="07xx xxx xxx">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Detalii / Preferință interval orar</label>
+                        <textarea id="message" rows="3" placeholder="Menționează dacă preferi ședințe la cabinet sau online..."></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="width: 100%;">Solicită Programare</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Cabinet Psihologie <strong>Alma Stoianovici</strong>. Toate drepturile rezervate.</p>
+            <p style="font-size: 0.8rem; margin-top: 15px; opacity: 0.5;">Propus și creat de Savu Mihai Samuel - PFA Servicii IT.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
