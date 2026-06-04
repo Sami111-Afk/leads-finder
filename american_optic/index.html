@@ -1540,11 +1540,25 @@
 
     <!-- Form redirection to WhatsApp & Verification JS -->
     <script>
-        // Forțăm browserul să nu restaureze poziția de scroll anterioară și să încarce pagina de la început (sus)
+        // Forțăm browserul să nu restaureze poziția de scroll anterioară
         if ('scrollRestoration' in history) {
             history.scrollRestoration = 'manual';
         }
         window.scrollTo(0, 0);
+
+        // Resetăm scroll-ul la top după încărcarea elementelor (imagini, fonturi) pentru a preveni auto-scroll-ul pe mobil
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                if (!window.location.hash) {
+                    window.scrollTo(0, 0);
+                }
+            }, 50);
+            setTimeout(function() {
+                if (!window.location.hash) {
+                    window.scrollTo(0, 0);
+                }
+            }, 150);
+        });
 
         let verified = false;
 
