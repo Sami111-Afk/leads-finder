@@ -702,6 +702,17 @@
             font-size: 0.95rem;
         }
 
+        .address-link {
+            color: var(--text-light);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .address-link:hover {
+            color: var(--primary);
+            text-decoration: underline;
+        }
+
         /* FORM BOX & TEXTAREA */
         .form-box {
             background-color: var(--surface);
@@ -1036,7 +1047,11 @@
                     <div class="info-icon">📍</div>
                     <div class="info-text">
                         <strong>Adresă Magazin</strong>
-                        <span>Calea Moșilor nr. 288, Sector 2, București</span>
+                        <span>
+                            <a href="https://www.google.com/maps/search/?api=1&query=American+Optic+Calea+Mo%C8%99ilor+288+Bucure%C8%99ti" target="_blank" rel="noopener noreferrer" class="address-link">
+                                Calea Moșilor nr. 288, Sector 2, București
+                            </a>
+                        </span>
                     </div>
                 </div>
                 
