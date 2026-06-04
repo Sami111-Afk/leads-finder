@@ -8,6 +8,52 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Structured Data (JSON-LD) for Local Business SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Optician",
+      "name": "American Optic",
+      "image": "https://americanoptic.ro/images/logo.webp",
+      "@id": "https://americanoptic.ro/#optician",
+      "url": "https://americanoptic.ro",
+      "telephone": "+40763600001",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Calea Moșilor nr. 288, Sector 2",
+        "addressLocality": "București",
+        "postalCode": "020898",
+        "addressCountry": "RO"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 44.4468,
+        "longitude": 26.1147
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "09:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "09:00",
+          "closes": "13:00"
+        }
+      ]
+    }
+    </script>
     
     <style>
         /* ==================================================
@@ -647,10 +693,64 @@
             font-weight: 900;
         }
 
+        /* TESTIMONIALE SECTION */
+        .testimonials {
+            padding: 80px 0;
+            background-color: var(--background-alt);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+        .testimonial-card {
+            background-color: var(--surface);
+            padding: 30px;
+            border-radius: var(--border-radius-md);
+            border: 1px solid var(--border-color);
+            box-shadow: var(--shadow-sm);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: var(--transition);
+        }
+        .testimonial-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+        }
+        .testimonial-stars {
+            color: #fbbf24;
+            font-size: 1.2rem;
+            margin-bottom: 12px;
+        }
+        .testimonial-text {
+            color: var(--text-light);
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-weight: 700;
+            font-size: 0.9rem;
+            color: var(--secondary);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .testimonial-author::before {
+            content: "";
+            display: inline-block;
+            width: 12px;
+            height: 2px;
+            background-color: var(--primary);
+        }
+
         /* CONTACT SECTION & FORM */
         .contact {
             padding: 80px 0;
-            background-color: var(--background-alt);
+            background-color: var(--background);
         }
 
         .contact-grid {
@@ -715,7 +815,7 @@
 
         /* FORM BOX & TEXTAREA */
         .form-box {
-            background-color: var(--surface);
+            background-color: var(--background-alt);
             border-radius: var(--border-radius-md);
             padding: 30px;
             border: 1px solid var(--border-color);
@@ -852,7 +952,7 @@
                 padding: 40px 0 40px;
                 text-align: center;
             }
-            .hero-grid, .services-grid, .contact-grid, .cabinet-grid, .cabinet-gallery {
+            .hero-grid, .services-grid, .contact-grid, .cabinet-grid, .cabinet-gallery, .testimonials-grid {
                 grid-template-columns: 1fr;
                 gap: 30px;
             }
@@ -922,7 +1022,7 @@
     <header>
         <div class="container header-content">
             <a href="#" class="logo-container">
-                <img src="./images/logo.jpeg" alt="American Optic Logo" class="logo-img">
+                <img src="./images/logo.webp" alt="American Optic Logo" class="logo-img">
             </a>
             <ul class="nav-links">
                 <li><a href="#servicii">Servicii</a></li>
@@ -954,7 +1054,7 @@
                     </div>
                 </div>
                 <div class="hero-img-container">
-                    <img src="./images/poza-1outside.jpeg" alt="Magazinul American Optic Exterior" class="hero-img">
+                    <img src="./images/poza-1outside.webp" alt="Magazinul American Optic Exterior" class="hero-img">
                 </div>
             </div>
 
@@ -1009,15 +1109,15 @@
         <div class="container cabinet-grid">
             <div class="cabinet-gallery">
                 <div class="gallery-item featured">
-                    <img src="./images/cabinet-1.jpeg" alt="Showroom American Optic Calea Moșilor">
+                    <img src="./images/cabinet-1.webp" alt="Showroom American Optic Calea Moșilor">
                     <div class="gallery-caption">Showroom American Optic - Rame și Lentile</div>
                 </div>
                 <div class="gallery-item">
-                    <img src="./images/poza-2-inside.jpeg" alt="Aparatură Shin-Nippon American Optic">
+                    <img src="./images/poza-2-inside.webp" alt="Aparatură Shin-Nippon American Optic">
                     <div class="gallery-caption">Aparatură Shin-Nippon - Determinare Dioptrii</div>
                 </div>
                 <div class="gallery-item">
-                    <img src="./images/cabinet-2.jpeg" alt="Zonă de Consultare American Optic">
+                    <img src="./images/cabinet-2.webp" alt="Zonă de Consultare American Optic">
                     <div class="gallery-caption">Zonă Consultare și Așteptare</div>
                 </div>
             </div>
@@ -1036,6 +1136,39 @@
         </div>
     </section>
 
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Ce Spun Clienții Noștri</h2>
+                <p>Opinia clienților noștri este cea mai bună carte de vizită. Iată câteva recenzii de la cei care ne-au trecut pragul:</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div>
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"Servicii de optică excelente! Ramele sunt rezistente și au prețuri foarte corecte. Doamna doctor a fost extrem de răbdătoare la consult."</p>
+                    </div>
+                    <div class="testimonial-author">Andrei M.</div>
+                </div>
+                <div class="testimonial-card">
+                    <div>
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"Cabinet foarte curat, dotat cu aparate noi. Recomand cu încredere ochelarii progresivi făcuți aici, m-am adaptat foarte repede."</p>
+                    </div>
+                    <div class="testimonial-author">Elena Vasilescu</div>
+                </div>
+                <div class="testimonial-card">
+                    <div>
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"Ochelarii de soare cu dioptrie au ieșit superbi. Personal foarte amabil și orientat către nevoile clientului."</p>
+                    </div>
+                    <div class="testimonial-author">Mihai Samuel</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Contact & Harta -->
     <section id="contact" class="contact">
         <div class="container contact-grid">
@@ -1047,14 +1180,19 @@
                     <div class="info-icon">📍</div>
                     <div class="info-text">
                         <strong>Adresă Magazin</strong>
-                        <span style="display: block; margin-bottom: 8px;">
+                        <span style="display: block; margin-bottom: 12px;">
                             <a href="https://www.google.com/maps/search/?api=1&query=American+Optic+Calea+Mo%C8%99ilor+288+Bucure%C8%99ti" target="_blank" rel="noopener noreferrer" class="address-link">
                                 Calea Moșilor nr. 288, Sector 2, București
                             </a>
                         </span>
-                        <a href="https://www.google.com/maps/search/?api=1&query=American+Optic+Calea+Mo%C8%99ilor+288+Bucure%C8%99ti" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding: 6px 16px; min-height: 38px; font-size: 0.85rem; border-radius: var(--border-radius-sm); display: inline-flex; align-items: center; gap: 6px; box-shadow: none; font-weight: 700;">
-                            🗺️ Deschide în Google Maps
-                        </a>
+                        <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+                            <a href="https://www.google.com/maps/search/?api=1&query=American+Optic+Calea+Mo%C8%99ilor+288+Bucure%C8%99ti" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding: 6px 16px; min-height: 38px; font-size: 0.85rem; border-radius: var(--border-radius-sm); display: inline-flex; align-items: center; gap: 6px; box-shadow: none; font-weight: 700;">
+                                🗺️ Google Maps
+                            </a>
+                            <a href="https://waze.com/ul?q=Calea+Mosilor+288+Bucuresti" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding: 6px 16px; min-height: 38px; font-size: 0.85rem; border-radius: var(--border-radius-sm); display: inline-flex; align-items: center; gap: 6px; box-shadow: none; font-weight: 700;">
+                                🚙 Waze
+                            </a>
+                        </div>
                     </div>
                 </div>
                 
