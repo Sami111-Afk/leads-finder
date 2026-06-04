@@ -1676,7 +1676,6 @@
             const phone = document.getElementById('phone').value;
             const service = document.getElementById('service').value;
             const description = document.getElementById('description').value;
-            const submitBtn = document.getElementById('submitBtn');
 
             const message = `Bună ziua! Doresc să mă programez la American Optic:\n\n` + 
                             `• Nume: ${name}\n` + 
@@ -1684,44 +1683,11 @@
                             `• Serviciu: ${service}\n` + 
                             `• Detalii: ${description}`;
 
-            // Dezactivăm butonul în timpul trimiterii pentru a evita dubla trimitere
-            const originalText = submitBtn.textContent;
-            submitBtn.textContent = 'Se trimite programarea...';
-            submitBtn.disabled = true;
+            const encodedMessage = encodeURIComponent(message);
+            const whatsappUrl = `https://wa.me/40763600001?text=${encodedMessage}`;
 
-            // Trimitem lead-ul prin email via Formspree în fundal
-            // NOTĂ: Înlocuiți 'xvgodqzz' cu ID-ul real de formular de la Formspree al clientului
-            fetch('https://formspree.io/f/xvgodqzz', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Accept': 'application/json'
-                },
-                body: JSON.stringify({
-                    Nume: name,
-                    Telefon: `${prefix} ${phone}`,
-                    Serviciu: service,
-                    Mesaj: description
-                })
-            })
-            .then(() => {
-                // Redirecționăm utilizatorul pe WhatsApp pentru confirmare imediată
-                const encodedMessage = encodeURIComponent(message);
-                const whatsappUrl = `https://wa.me/40763600001?text=${encodedMessage}`;
-                window.open(whatsappUrl, '_blank');
-            })
-            .catch(error => {
-                console.error('Eroare la trimiterea pe email:', error);
-                // În caz de eroare de rețea, tot redirecționăm pe WhatsApp pentru a nu pierde programarea
-                const encodedMessage = encodeURIComponent(message);
-                const whatsappUrl = `https://wa.me/40763600001?text=${encodedMessage}`;
-                window.open(whatsappUrl, '_blank');
-            })
-            .finally(() => {
-                // Re-activăm butonul
-                submitBtn.textContent = originalText;
-                submitBtn.disabled = false;
-            });
+            // Redirecționăm utilizatorul direct în WhatsApp (evită deschiderea unui tab gol pe mobil)
+            window.location.href = whatsappUrl;
         }
     </script>
 
