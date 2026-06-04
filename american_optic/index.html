@@ -1540,6 +1540,12 @@
 
     <!-- Form redirection to WhatsApp & Verification JS -->
     <script>
+        // Forțăm browserul să nu restaureze poziția de scroll anterioară și să încarce pagina de la început (sus)
+        if ('scrollRestoration' in history) {
+            history.scrollRestoration = 'manual';
+        }
+        window.scrollTo(0, 0);
+
         let verified = false;
 
         document.addEventListener('DOMContentLoaded', function() {
