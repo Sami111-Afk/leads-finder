@@ -37,11 +37,7 @@ def deploy(project_path, domain):
 
 # Lista cu folderele de mockup și domeniile Surge dorite
 deploys = [
-    ("./teds_beauty_studio", "teds-beauty-mosilor.surge.sh"),
-    ("./animal_plus", "animal-plus-mosilor.surge.sh"),
-    ("./brilliant_roses", "brilliant-roses-mosilor.surge.sh"),
-    ("./boston_shoes", "boston-shoes-carol.surge.sh"),
-    ("./grande_pet_salon", "grande-pet-mosilor.surge.sh")
+    ("./american_optic", "american-optic-mosilor.surge.sh")
 ]
 
 print("=== START DEPLOYMENT PE SURGE.SH ===")
