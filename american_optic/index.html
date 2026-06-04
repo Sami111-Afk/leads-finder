@@ -52,7 +52,7 @@
             color: var(--text-dark);
             line-height: 1.6;
             overflow-x: hidden;
-            padding-bottom: 80px; 
+            /* Fără padding-bottom la nivel de body pentru a elimina spațiul alb gol de sub footer */
         }
 
         .container {
@@ -790,7 +790,10 @@
         /* RESPONSIVENESS PE TELEFON */
         @media (max-width: 768px) {
             header {
-                padding: 8px 0;
+                position: absolute !important; /* Pe mobil header-ul defilează natural cu pagina, nu mai stă fix, prevenind suprapunerea inestetică */
+                padding: 14px 0;
+                box-shadow: none !important;
+                border-bottom: 1px solid var(--border-color) !important;
             }
             .header-content {
                 justify-content: center;
@@ -856,6 +859,9 @@
             .modal-content {
                 padding: 20px;
                 max-height: 85vh;
+            }
+            footer {
+                padding: 40px 0 100px !important; /* Spațiu în subsol pe mobil ca textul legal să nu fie acoperit de bara sticky, păstrând fundalul închis complet până jos */
             }
         }
     </style>
