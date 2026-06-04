@@ -112,17 +112,12 @@
 
         /* HEADER - Premium Solid & Stable */
         header {
-            position: sticky;
-            top: 0;
-            left: 0;
+            position: relative;
             width: 100%;
-            background: rgba(255, 255, 255, 0.96);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
+            background: var(--white);
             border-bottom: 1px solid var(--border-color);
-            box-shadow: 0 4px 20px rgba(15, 23, 42, 0.05);
             z-index: 1000;
-            padding: 12px 0;
+            padding: 16px 0;
             transition: var(--transition);
         }
 
@@ -970,18 +965,16 @@
         /* RESPONSIVENESS PE TELEFON */
         @media (max-width: 768px) {
             header {
-                position: sticky !important;
-                top: 0 !important;
-                background: rgba(255, 255, 255, 0.96) !important;
-                backdrop-filter: blur(12px) !important;
-                -webkit-backdrop-filter: blur(12px) !important;
-                padding: 10px 0;
-                box-shadow: 0 4px 15px rgba(15, 23, 42, 0.05) !important;
+                position: relative !important;
+                background: var(--white) !important;
+                padding: 12px 0;
+                box-shadow: none !important;
                 border-bottom: 1px solid var(--border-color) !important;
             }
             .header-content {
                 justify-content: space-between;
                 width: 100%;
+                padding: 0 16px;
             }
             .header-content .btn {
                 display: none;
