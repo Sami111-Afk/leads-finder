@@ -558,6 +558,94 @@
             font-size: 0.85rem;
         }
 
+        /* Validare telefon și Slider securitate */
+        .phone-input-container {
+            display: flex;
+            gap: 8px;
+        }
+        .prefix-select {
+            width: auto !important;
+            flex-shrink: 0;
+            background-color: var(--white) !important;
+            padding: 0 10px !important;
+            font-weight: 700;
+            border: 1px solid rgba(220, 38, 38, 0.15);
+            border-radius: var(--border-radius-sm);
+            color: var(--text-dark) !important;
+        }
+        .phone-input-container input {
+            flex-grow: 1;
+        }
+        .security-slider-container {
+            margin-top: 20px;
+            width: 100%;
+        }
+        .security-slider-track {
+            position: relative;
+            width: 100%;
+            height: 52px;
+            background-color: #f1f5f9;
+            border: 1px solid #cbd5e1;
+            border-radius: 50px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            user-select: none;
+            touch-action: none;
+        }
+        .security-slider-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 0;
+            background-color: #22c55e;
+            transition: background-color 0.25s;
+        }
+        .security-slider-handle {
+            position: absolute;
+            left: 3px;
+            top: 3px;
+            width: 44px;
+            height: 44px;
+            background-color: var(--white);
+            border-radius: 50%;
+            box-shadow: 0 2px 8px rgba(15, 23, 42, 0.15);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: grab;
+            z-index: 10;
+        }
+        .security-slider-handle:active {
+            cursor: grabbing;
+        }
+        .security-slider-text {
+            position: relative;
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: #64748b;
+            z-index: 5;
+            pointer-events: none;
+            transition: color 0.2s;
+        }
+        .slider-icon {
+            font-size: 1.1rem;
+            display: inline-block;
+            line-height: 1;
+        }
+        .btn-submit {
+            opacity: 0.5 !important;
+            cursor: not-allowed !important;
+            box-shadow: none !important;
+        }
+        .btn-submit:not(:disabled) {
+            opacity: 1 !important;
+            cursor: pointer !important;
+            box-shadow: 0 4px 14px rgba(220, 38, 38, 0.2) !important;
+        }
+
         /* RESPONSIVENESS PE TELEFON */
         @media (max-width: 768px) {
             .nav-links {
@@ -752,7 +840,17 @@
                     </div>
                     <div class="form-group">
                         <label for="phone">Număr Telefon</label>
-                        <input type="tel" id="phone" required placeholder="07xx xxx xxx">
+                        <div class="phone-input-container">
+                            <select id="countryPrefix" class="prefix-select">
+                                <option value="+40">🇷🇴 +40</option>
+                                <option value="+39">🇮🇹 +39</option>
+                                <option value="+34">🇪🇸 +34</option>
+                                <option value="+49">🇩🇪 +49</option>
+                                <option value="+44">🇬🇧 +44</option>
+                                <option value="+33">🇫🇷 +33</option>
+                            </select>
+                            <input type="tel" id="phone" required placeholder="7xx xxx xxx" pattern="[0-9]{9}" inputmode="numeric" title="Introduceți exact 9 cifre (ex: 763600001)">
+                        </div>
                     </div>
                     <div class="form-group">
                         <label for="service">Serviciu Dorit</label>
@@ -767,7 +865,19 @@
                         <label for="description">Mesaj / Detalii suplimentare</label>
                         <textarea id="description" required placeholder="Ex: Doresc o programare în cursul după-amiezii..."></textarea>
                     </div>
-                    <button type="submit" class="btn" style="width: 100%; margin-top: 10px;">Trimite Solicitare WhatsApp</button>
+
+                    <!-- Slider de Securitate -->
+                    <div class="security-slider-container">
+                        <div class="security-slider-track" id="sliderTrack">
+                            <div class="security-slider-bg" id="sliderBg"></div>
+                            <div class="security-slider-handle" id="sliderHandle">
+                                <span class="slider-icon">🔒</span>
+                            </div>
+                            <span class="security-slider-text" id="sliderText">Glisează pentru verificare</span>
+                        </div>
+                    </div>
+
+                    <button type="submit" id="submitBtn" class="btn btn-submit" style="width: 100%; margin-top: 15px;" disabled>Trimite Solicitare WhatsApp</button>
                 </form>
             </div>
         </div>
@@ -787,18 +897,122 @@
         </div>
     </footer>
 
-    <!-- Form redirection to WhatsApp -->
+    <!-- Form redirection to WhatsApp & Validation -->
     <script>
+        let verified = false;
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const handle = document.getElementById('sliderHandle');
+            const track = document.getElementById('sliderTrack');
+            const bg = document.getElementById('sliderBg');
+            const text = document.getElementById('sliderText');
+            const submitBtn = document.getElementById('submitBtn');
+            const phoneInput = document.getElementById('phone');
+            
+            // Formatare automată & Validare număr telefon
+            phoneInput.addEventListener('input', function(e) {
+                let val = e.target.value.replace(/\D/g, ''); // doar cifre
+                if (val.startsWith('0')) {
+                    val = val.substring(1); // elimină 0 de la început
+                }
+                if (val.length > 9) {
+                    val = val.substring(0, 9); // limită la 9 cifre
+                }
+                e.target.value = val;
+            });
+
+            // Logică Slider de Securitate
+            let isDragging = false;
+            let startX = 0;
+            let maxDrag = 0;
+
+            function initSlider() {
+                maxDrag = track.clientWidth - handle.clientWidth - 6; // margini de 3px stânga/dreapta
+            }
+
+            window.addEventListener('resize', initSlider);
+            // Inițializăm după ce se încarcă layout-ul
+            setTimeout(initSlider, 300);
+
+            function onStart(x) {
+                if (verified) return;
+                isDragging = true;
+                startX = x - handle.offsetLeft;
+                handle.style.transition = 'none';
+                bg.style.transition = 'none';
+            }
+
+            function onMove(x) {
+                if (!isDragging || verified) return;
+                let left = x - startX;
+                if (left < 3) left = 3;
+                if (left > maxDrag) left = maxDrag;
+
+                handle.style.left = left + 'px';
+                bg.style.width = (left + 22) + 'px'; // Umple fundalul în spatele mânerului
+            }
+
+            function onEnd() {
+                if (!isDragging || verified) return;
+                isDragging = false;
+                const currentLeft = parseInt(handle.style.left) || 3;
+
+                if (currentLeft >= maxDrag - 5) {
+                    // Succes!
+                    verified = true;
+                    handle.style.transition = 'left 0.2s ease';
+                    bg.style.transition = 'width 0.2s ease';
+                    handle.style.left = maxDrag + 'px';
+                    bg.style.width = '100%';
+                    handle.querySelector('.slider-icon').textContent = '🔓';
+                    text.textContent = 'Verificat!';
+                    text.style.color = '#ffffff';
+                    submitBtn.disabled = false;
+                    submitBtn.classList.remove('btn-submit');
+                } else {
+                    // Resetare la început
+                    handle.style.transition = 'left 0.25s ease';
+                    bg.style.transition = 'width 0.25s ease';
+                    handle.style.left = '3px';
+                    bg.style.width = '0px';
+                }
+            }
+
+            // Mouse Events
+            handle.addEventListener('mousedown', function(e) {
+                onStart(e.clientX);
+            });
+            document.addEventListener('mousemove', function(e) {
+                onMove(e.clientX);
+            });
+            document.addEventListener('mouseup', onEnd);
+
+            // Touch Events (pentru ecrane tactile)
+            handle.addEventListener('touchstart', function(e) {
+                onStart(e.touches[0].clientX);
+            });
+            document.addEventListener('touchmove', function(e) {
+                onMove(e.touches[0].clientX);
+            });
+            document.addEventListener('touchend', onEnd);
+        });
+
         function sendToWhatsApp(event) {
             event.preventDefault();
+            if (!verified) {
+                alert('Vă rugăm să glisați bara de securitate pentru a debloca trimiterea.');
+                return;
+            }
+
             const name = document.getElementById('name').value;
+            const prefix = document.getElementById('countryPrefix').value;
             const phone = document.getElementById('phone').value;
             const service = document.getElementById('service').value;
             const description = document.getElementById('description').value;
 
             const message = `Bună ziua! Doresc să mă programez la American Optic:\n\n` + 
                             `• Nume: ${name}\n` + 
-                            `• Telefon: ${phone}\n` + 
+                            `• Telefon: ${prefix} ${phone}\n` + 
                             `• Serviciu: ${service}\n` + 
                             `• Detalii: ${description}`;
 
