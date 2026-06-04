@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>American Optic - Optică Medicală & Oftalmologie Calea Moșilor București</title>
+    <title>American Optic | Cabinet Optică Medicală București</title>
+    <meta name="description" content="Servicii de optică medicală, consultații gratuite și o gamă largă de ochelari de vedere la American Optic Calea Moșilor, București.">
+    <link rel="icon" type="image/webp" href="./images/logo.webp">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -802,13 +804,13 @@
             font-size: 0.95rem;
         }
 
-        .address-link {
+        .address-link, .phone-link {
             color: var(--text-light);
             text-decoration: none;
             transition: var(--transition);
         }
 
-        .address-link:hover {
+        .address-link:hover, .phone-link:hover {
             color: var(--primary);
             text-decoration: underline;
         }
@@ -1021,7 +1023,7 @@
     <!-- Header -->
     <header>
         <div class="container header-content">
-            <a href="#" class="logo-container">
+            <a href="index.html" class="logo-container">
                 <img src="./images/logo.webp" alt="American Optic Logo" class="logo-img">
             </a>
             <ul class="nav-links">
@@ -1200,7 +1202,10 @@
                     <div class="info-icon">📞</div>
                     <div class="info-text">
                         <strong>Telefoane programări</strong>
-                        <span>0763 600 001 (Mobil / WhatsApp)<br>021 316 0261 (Fix)</span>
+                        <span>
+                            <a href="tel:0763600001" class="phone-link">0763 600 001</a> (Mobil / WhatsApp)<br>
+                            <a href="tel:0213160261" class="phone-link">021 316 0261</a> (Fix)
+                        </span>
                     </div>
                 </div>
 
@@ -1405,6 +1410,7 @@
             const phone = document.getElementById('phone').value;
             const service = document.getElementById('service').value;
             const description = document.getElementById('description').value;
+            const submitBtn = document.getElementById('submitBtn');
 
             const message = `Bună ziua! Doresc să mă programez la American Optic:\n\n` + 
                             `• Nume: ${name}\n` + 
@@ -1412,9 +1418,44 @@
                             `• Serviciu: ${service}\n` + 
                             `• Detalii: ${description}`;
 
-            const encodedMessage = encodeURIComponent(message);
-            const whatsappUrl = `https://wa.me/40763600001?text=${encodedMessage}`;
-            window.open(whatsappUrl, '_blank');
+            // Dezactivăm butonul în timpul trimiterii pentru a evita dubla trimitere
+            const originalText = submitBtn.textContent;
+            submitBtn.textContent = 'Se trimite programarea...';
+            submitBtn.disabled = true;
+
+            // Trimitem lead-ul prin email via Formspree în fundal
+            // NOTĂ: Înlocuiți 'xvgodqzz' cu ID-ul real de formular de la Formspree al clientului
+            fetch('https://formspree.io/f/xvgodqzz', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: JSON.stringify({
+                    Nume: name,
+                    Telefon: `${prefix} ${phone}`,
+                    Serviciu: service,
+                    Mesaj: description
+                })
+            })
+            .then(() => {
+                // Redirecționăm utilizatorul pe WhatsApp pentru confirmare imediată
+                const encodedMessage = encodeURIComponent(message);
+                const whatsappUrl = `https://wa.me/40763600001?text=${encodedMessage}`;
+                window.open(whatsappUrl, '_blank');
+            })
+            .catch(error => {
+                console.error('Eroare la trimiterea pe email:', error);
+                // În caz de eroare de rețea, tot redirecționăm pe WhatsApp pentru a nu pierde programarea
+                const encodedMessage = encodeURIComponent(message);
+                const whatsappUrl = `https://wa.me/40763600001?text=${encodedMessage}`;
+                window.open(whatsappUrl, '_blank');
+            })
+            .finally(() => {
+                // Re-activăm butonul
+                submitBtn.textContent = originalText;
+                submitBtn.disabled = false;
+            });
         }
     </script>
 
