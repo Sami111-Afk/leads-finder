@@ -772,6 +772,14 @@
             margin-bottom: 20px;
             font-style: italic;
         }
+        .testimonial-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 16px;
+            border-top: 1px solid var(--border-color);
+            padding-top: 12px;
+        }
         .testimonial-author {
             font-weight: 700;
             font-size: 0.9rem;
@@ -786,6 +794,20 @@
             width: 12px;
             height: 2px;
             background-color: var(--primary);
+        }
+        .testimonial-link {
+            font-size: 0.75rem;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 700;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            transition: var(--transition);
+        }
+        .testimonial-link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
         }
 
         /* CONTACT SECTION & FORM */
@@ -1045,9 +1067,33 @@
                 padding: 40px 0 40px;
                 text-align: center;
             }
-            .hero-grid, .services-grid, .contact-grid, .cabinet-grid, .cabinet-gallery, .testimonials-grid {
+            .hero-grid, .services-grid, .contact-grid, .cabinet-grid, .cabinet-gallery {
                 grid-template-columns: 1fr;
                 gap: 30px;
+            }
+            .testimonials-grid {
+                display: flex !important;
+                overflow-x: auto !important;
+                scroll-snap-type: x mandatory !important;
+                scroll-behavior: smooth !important;
+                -webkit-overflow-scrolling: touch !important;
+                gap: 16px !important;
+                padding: 10px 4px 20px !important;
+                width: 100% !important;
+            }
+            .testimonials-grid::-webkit-scrollbar {
+                height: 6px;
+            }
+            .testimonials-grid::-webkit-scrollbar-track {
+                background: var(--background-alt);
+            }
+            .testimonials-grid::-webkit-scrollbar-thumb {
+                background: var(--border-color);
+                border-radius: 10px;
+            }
+            .testimonials-grid .testimonial-card {
+                flex: 0 0 85% !important;
+                scroll-snap-align: center !important;
             }
             .hero-features {
                 display: inline-block;
@@ -1247,63 +1293,90 @@
                         <div class="testimonial-stars">★★★★★</div>
                         <p class="testimonial-text">"Mulți medici oftalmologi au greșit dioptriile până am ajuns aici. La acest cabinet am primit în sfârșit prescripția corectă și servicii excelente."</p>
                     </div>
-                    <div class="testimonial-author">Daniel M.</div>
+                    <div class="testimonial-footer">
+                        <span class="testimonial-author">Daniel M.</span>
+                        <a href="https://citymaps.ro" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: CityMaps 🔗</a>
+                    </div>
                 </div>
                 <div class="testimonial-card">
                     <div>
                         <div class="testimonial-stars">★★★★★</div>
                         <p class="testimonial-text">"Serviciile de optică sunt de o calitate foarte bună. Personalul este amabil, extrem de atent la detalii și dornic să ajute."</p>
                     </div>
-                    <div class="testimonial-author">Sorina T.</div>
+                    <div class="testimonial-footer">
+                        <span class="testimonial-author">Sorina T.</span>
+                        <a href="https://citymaps.ro" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: CityMaps 🔗</a>
+                    </div>
                 </div>
                 <div class="testimonial-card">
                     <div>
                         <div class="testimonial-stars">★★★★★</div>
                         <p class="testimonial-text">"Am fost foarte mulțumit de calitatea ochelarilor și de rapiditatea cu care au fost gata. Rame rezistente și prețuri corecte."</p>
                     </div>
-                    <div class="testimonial-author">George P.</div>
+                    <div class="testimonial-footer">
+                        <span class="testimonial-author">George P.</span>
+                        <a href="https://google.com/maps" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
+                    </div>
                 </div>
                 <div class="testimonial-card">
                     <div>
                         <div class="testimonial-stars">★★★★★</div>
                         <p class="testimonial-text">"Recomand acest cabinet cu drag! Raport calitate-preț excelent pentru rame și lentile, mult mai bun decât la marile lanțuri de optică."</p>
                     </div>
-                    <div class="testimonial-author">Andreea S.</div>
+                    <div class="testimonial-footer">
+                        <span class="testimonial-author">Andreea S.</span>
+                        <a href="https://google.com/maps" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
+                    </div>
                 </div>
                 <div class="testimonial-card">
                     <div>
                         <div class="testimonial-stars">★★★★★</div>
                         <p class="testimonial-text">"Ochelarii de soare cu dioptrie au ieșit superbi. O gamă mare de rame din care să alegi și servicii rapide."</p>
                     </div>
-                    <div class="testimonial-author">Cristian R.</div>
+                    <div class="testimonial-footer">
+                        <span class="testimonial-author">Cristian R.</span>
+                        <a href="https://google.com/maps" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
+                    </div>
                 </div>
                 <div class="testimonial-card">
                     <div>
                         <div class="testimonial-stars">★★★★★</div>
                         <p class="testimonial-text">"Lentilele sunt de o calitate excepțională, m-am adaptat foarte repede la noii ochelari. Servicii profesionale și cabinet curat."</p>
                     </div>
-                    <div class="testimonial-author">Raluca B.</div>
+                    <div class="testimonial-footer">
+                        <span class="testimonial-author">Raluca B.</span>
+                        <a href="https://google.com/maps" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
+                    </div>
                 </div>
                 <div class="testimonial-card">
                     <div>
                         <div class="testimonial-stars">★★★★★</div>
                         <p class="testimonial-text">"Promptitudine și seriozitate. M-au ajutat cu multă răbdare să aleg ramele potrivite pentru fizionomia mea. Recomand!"</p>
                     </div>
-                    <div class="testimonial-author">Maria V.</div>
+                    <div class="testimonial-footer">
+                        <span class="testimonial-author">Maria V.</span>
+                        <a href="https://google.com/maps" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
+                    </div>
                 </div>
                 <div class="testimonial-card">
                     <div>
                         <div class="testimonial-stars">★★★★★</div>
                         <p class="testimonial-text">"Cabinet foarte curat și bine organizat. Ochelarii de vedere au fost gata repede și văd perfect cu ei. Un serviciu impecabil."</p>
                     </div>
-                    <div class="testimonial-author">Vlad I.</div>
+                    <div class="testimonial-footer">
+                        <span class="testimonial-author">Vlad I.</span>
+                        <a href="https://google.com/maps" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
+                    </div>
                 </div>
                 <div class="testimonial-card">
                     <div>
                         <div class="testimonial-stars">★★★★★</div>
                         <p class="testimonial-text">"Control precis, ochelari montați impecabil și personal prietenos. Recomand cu încredere serviciile de optică medicală."</p>
                     </div>
-                    <div class="testimonial-author">Marius N.</div>
+                    <div class="testimonial-footer">
+                        <span class="testimonial-author">Marius N.</span>
+                        <a href="https://google.com/maps" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
+                    </div>
                 </div>
             </div>
         </div>
