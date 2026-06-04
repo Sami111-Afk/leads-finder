@@ -371,6 +371,50 @@
             color: var(--primary);
         }
 
+        /* Mobil Menu Toggle Button */
+        .menu-toggle {
+            display: none;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 24px;
+            height: 18px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            z-index: 1010;
+            padding: 0;
+        }
+
+        .hamburger-bar {
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: var(--secondary);
+            border-radius: 2px;
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        /* Overlay blur efect premium */
+        .nav-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background: rgba(15, 23, 42, 0.4);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            z-index: 999;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+        }
+
+        .nav-overlay.overlay-active {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
         /* BUTOANE */
         .btn {
             background-color: var(--primary);
@@ -936,7 +980,8 @@
                 border-bottom: 1px solid var(--border-color) !important;
             }
             .header-content {
-                justify-content: center;
+                justify-content: space-between;
+                width: 100%;
             }
             .header-content .btn {
                 display: none;
@@ -944,8 +989,61 @@
             .logo-img {
                 height: 42px;
             }
+            .menu-toggle {
+                display: flex;
+            }
             .nav-links {
-                display: none;
+                display: flex;
+                flex-direction: column;
+                position: fixed;
+                top: 0;
+                right: 0;
+                width: 280px;
+                height: 100vh;
+                background-color: var(--surface);
+                box-shadow: -4px 0 25px rgba(15, 23, 42, 0.15);
+                padding: 100px 30px;
+                gap: 24px;
+                transform: translateX(100%);
+                transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+                z-index: 1000;
+                align-items: flex-start;
+                margin: 0;
+            }
+            .nav-links.nav-active {
+                transform: translateX(0);
+            }
+            .nav-links li {
+                width: 100%;
+                list-style: none;
+            }
+            .nav-links a {
+                display: block;
+                font-size: 1.1rem;
+                padding: 8px 0;
+                border-bottom: 1px solid var(--border-color);
+                width: 100%;
+            }
+            .nav-links a.btn {
+                background-color: var(--primary);
+                color: var(--white) !important;
+                text-align: center;
+                border-radius: var(--border-radius-sm) !important;
+                padding: 12px;
+                border-bottom: none;
+                margin-top: 10px;
+                box-shadow: none;
+            }
+            .menu-toggle.toggle-active .hamburger-bar:nth-child(1) {
+                transform: translateY(8px) rotate(45deg);
+                background-color: var(--primary);
+            }
+            .menu-toggle.toggle-active .hamburger-bar:nth-child(2) {
+                opacity: 0;
+            }
+            .menu-toggle.toggle-active .hamburger-bar:nth-child(3) {
+                transform: translateY(-8px) rotate(-45deg);
+                background-color: var(--primary);
             }
             .sticky-mobile-bar {
                 display: flex;
@@ -1026,7 +1124,12 @@
             <a href="index.html" class="logo-container">
                 <img src="./images/logo.webp" alt="American Optic Logo" class="logo-img">
             </a>
-            <ul class="nav-links">
+            <button class="menu-toggle" id="menuToggle" aria-label="Deschide meniul">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
                 <li><a href="#servicii">Servicii</a></li>
                 <li><a href="#cabinet">Cabinetul Nostru</a></li>
                 <li><a href="#contact">Program & Contact</a></li>
@@ -1374,6 +1477,41 @@
         let verified = false;
 
         document.addEventListener('DOMContentLoaded', function() {
+            // Logică Meniu Mobil Premium (Slide-in)
+            const menuToggle = document.getElementById('menuToggle');
+            const navLinks = document.getElementById('navLinks');
+            const body = document.body;
+            
+            // Creăm dinamic overlay-ul pentru a păstra HTML-ul curat
+            const overlay = document.createElement('div');
+            overlay.className = 'nav-overlay';
+            body.appendChild(overlay);
+
+            function toggleMenu() {
+                menuToggle.classList.toggle('toggle-active');
+                navLinks.classList.toggle('nav-active');
+                overlay.classList.toggle('overlay-active');
+                
+                if (navLinks.classList.contains('nav-active')) {
+                    body.style.overflow = 'hidden';
+                } else {
+                    body.style.overflow = '';
+                }
+            }
+
+            menuToggle.addEventListener('click', toggleMenu);
+            overlay.addEventListener('click', toggleMenu);
+
+            // Închidem meniul când se dă click pe un link
+            const navItems = navLinks.querySelectorAll('a');
+            navItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    if (navLinks.classList.contains('nav-active')) {
+                        toggleMenu();
+                    }
+                });
+            });
+
             const checkContainer = document.getElementById('securityCheckBtn');
             const text = document.getElementById('securityText');
             const submitBtn = document.getElementById('submitBtn');
