@@ -14,16 +14,17 @@
            SISTEM DE DESIGN PREMIUM - RED & NAVY BRANDING
            ================================================== */
         :root {
-            --primary: #dc2626;       /* Roșu aprins conform firmei luminoase */
-            --primary-hover: #b91c1c;
-            --secondary: #172554;     /* Albastru închis / Navy asortat cu logo-ul */
-            --secondary-hover: #1e3a8a;
+            --primary: #be123c;       /* Crimson/Ruby Red (High Contrast & Professional) */
+            --primary-hover: #9f1239;
+            --secondary: #0f172a;     /* Deep Navy / Charcoal (matches logo navy and footer) */
+            --secondary-hover: #1e293b;
             --dark: #0f172a;
-            --background: #fff5f5;    /* Fundal cald cu tentă foarte discretă de roșu */
+            --background: #ffffff;    /* Pure white background for modern aesthetic */
+            --background-alt: #f8fafc;/* Light cool grey for section alternation */
             --surface: #ffffff;
-            --text-dark: #0f172a;
-            --text-light: #475569;
-            --border-color: #fee2e2;
+            --text-dark: #0f172a;     /* High contrast body/heading text */
+            --text-light: #334155;    /* High contrast secondary text (Slate-700) */
+            --border-color: #e2e8f0;  /* Clean neutral borders */
             --white: #ffffff;
             --border-radius-lg: 24px;
             --border-radius-md: 16px;
@@ -44,6 +45,7 @@
 
         html {
             scroll-behavior: smooth;
+            overscroll-behavior-y: none; /* Stops elastic bounce background issues */
         }
 
         body {
@@ -52,7 +54,6 @@
             color: var(--text-dark);
             line-height: 1.6;
             overflow-x: hidden;
-            /* Fără padding-bottom la nivel de body pentru a elimina spațiul alb gol de sub footer */
         }
 
         .container {
@@ -63,15 +64,18 @@
 
         /* HEADER - Premium Solid & Stable */
         header {
-            position: fixed;
+            position: sticky;
             top: 0;
             left: 0;
             width: 100%;
-            background: #ffffff;
+            background: rgba(255, 255, 255, 0.96);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
             border-bottom: 1px solid var(--border-color);
-            box-shadow: 0 4px 20px rgba(15, 23, 42, 0.04);
+            box-shadow: 0 4px 20px rgba(15, 23, 42, 0.05);
             z-index: 1000;
             padding: 12px 0;
+            transition: var(--transition);
         }
 
         /* Validare telefon și Checkbox premium de securitate */
@@ -85,7 +89,7 @@
             background-color: var(--white) !important;
             padding: 0 10px !important;
             font-weight: 700;
-            border: 1px solid rgba(220, 38, 38, 0.15);
+            border: 1px solid var(--border-color);
             border-radius: var(--border-radius-sm);
             color: var(--text-dark) !important;
         }
@@ -96,8 +100,8 @@
             display: flex;
             align-items: center;
             gap: 12px;
-            background-color: #f8fafc;
-            border: 1px solid #e2e8f0;
+            background-color: var(--background-alt);
+            border: 1px solid var(--border-color);
             border-radius: var(--border-radius-sm);
             padding: 14px 18px;
             margin-top: 20px;
@@ -107,7 +111,7 @@
         }
         .security-check-container:hover {
             border-color: var(--primary);
-            background-color: #fff5f5;
+            background-color: var(--white);
         }
         .custom-checkbox {
             position: relative;
@@ -190,7 +194,7 @@
         .btn-submit:not(:disabled) {
             opacity: 1 !important;
             cursor: pointer !important;
-            box-shadow: 0 4px 14px rgba(220, 38, 38, 0.2) !important;
+            box-shadow: 0 4px 14px rgba(190, 18, 60, 0.2) !important;
         }
 
         /* MODAL LEGAL & PRIVACY */
@@ -335,14 +339,14 @@
             justify-content: center;
             gap: 8px;
             transition: var(--transition);
-            box-shadow: 0 4px 14px rgba(220, 38, 38, 0.2);
+            box-shadow: 0 4px 14px rgba(190, 18, 60, 0.2);
             min-height: 48px;
         }
 
         .btn:hover, .btn:active {
             background-color: var(--primary-hover);
             transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(220, 38, 38, 0.35);
+            box-shadow: 0 6px 20px rgba(190, 18, 60, 0.35);
         }
 
         .btn-outline {
@@ -359,8 +363,8 @@
 
         /* HERO SECTION */
         .hero {
-            padding: 150px 0 70px;
-            background: radial-gradient(circle at 90% 10%, rgba(220, 38, 38, 0.04), transparent 50%);
+            padding: 60px 0 70px;
+            background: radial-gradient(circle at 90% 10%, rgba(190, 18, 60, 0.04), transparent 50%);
         }
 
         .hero-grid {
@@ -372,7 +376,7 @@
 
         .badge {
             display: inline-block;
-            background-color: rgba(220, 38, 38, 0.08);
+            background-color: rgba(190, 18, 60, 0.08);
             color: var(--primary);
             padding: 6px 14px;
             border-radius: 50px;
@@ -487,7 +491,7 @@
         /* SERVICES SECTION */
         .services {
             padding: 80px 0;
-            background-color: var(--white);
+            background-color: var(--background-alt);
         }
 
         .section-header {
@@ -515,11 +519,12 @@
         }
 
         .service-card {
-            background-color: var(--background);
+            background-color: var(--surface);
             border-radius: var(--border-radius-md);
             padding: 35px;
             border: 1px solid var(--border-color);
             transition: var(--transition);
+            box-shadow: var(--shadow-sm);
         }
 
         .service-card:hover {
@@ -550,13 +555,63 @@
         /* CABINET GALLERY SECTION */
         .cabinet-info-section {
             padding: 80px 0;
+            background-color: var(--background);
         }
 
         .cabinet-grid {
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1.15fr 0.85fr;
             gap: 40px;
             align-items: center;
+        }
+
+        /* Cabinet Gallery Styles */
+        .cabinet-gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
+        }
+        .gallery-item {
+            position: relative;
+            border-radius: var(--border-radius-md);
+            overflow: hidden;
+            border: 4px solid var(--white);
+            box-shadow: var(--shadow-md);
+            transition: var(--transition);
+            aspect-ratio: 4 / 3;
+        }
+        .gallery-item.featured {
+            grid-row: span 2;
+            aspect-ratio: auto;
+            height: 100%;
+            min-height: 380px;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition);
+            display: block;
+        }
+        .gallery-item:hover img {
+            transform: scale(1.03);
+        }
+        .gallery-caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: linear-gradient(transparent, rgba(15, 23, 42, 0.85));
+            color: var(--white);
+            padding: 20px 16px 12px;
+            font-size: 0.95rem;
+            font-weight: 700;
+            opacity: 0;
+            transition: var(--transition);
+            pointer-events: none;
+        }
+        .gallery-item:hover .gallery-caption {
+            opacity: 1;
         }
 
         .cabinet-text h2 {
@@ -592,18 +647,10 @@
             font-weight: 900;
         }
 
-        .cabinet-img {
-            width: 100%;
-            height: auto;
-            border-radius: var(--border-radius-md);
-            border: 6px solid var(--white);
-            box-shadow: var(--shadow-md);
-        }
-
         /* CONTACT SECTION & FORM */
         .contact {
             padding: 80px 0;
-            background-color: var(--white);
+            background-color: var(--background-alt);
         }
 
         .contact-grid {
@@ -633,7 +680,7 @@
 
         .info-icon {
             font-size: 1.3rem;
-            background-color: rgba(220, 38, 38, 0.08);
+            background-color: rgba(190, 18, 60, 0.08);
             color: var(--primary);
             padding: 10px;
             border-radius: 50%;
@@ -657,7 +704,7 @@
 
         /* FORM BOX & TEXTAREA */
         .form-box {
-            background-color: var(--background);
+            background-color: var(--surface);
             border-radius: var(--border-radius-md);
             padding: 30px;
             border: 1px solid var(--border-color);
@@ -690,7 +737,7 @@
             height: 48px;
             padding: 0 16px;
             border-radius: var(--border-radius-sm);
-            border: 1px solid rgba(220, 38, 38, 0.15);
+            border: 1px solid var(--border-color);
             background-color: var(--white);
             font-family: var(--font-main);
             font-size: 0.95rem;
@@ -706,7 +753,7 @@
 
         .form-group input:focus, .form-group select:focus, .form-group textarea:focus {
             border-color: var(--primary);
-            box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.1);
+            box-shadow: 0 0 0 3px rgba(190, 18, 60, 0.1);
         }
 
         /* STICKY BAR MOBIL */
@@ -763,46 +810,26 @@
             font-size: 0.85rem;
         }
 
-        /* Validare telefon și Checkbox de securitate */
-        .phone-input-container {
-            display: flex;
-            gap: 8px;
-        }
-        .prefix-select {
-            width: auto !important;
-            height: 48px !important;
-            flex-shrink: 0;
-            background-color: var(--white) !important;
-            padding: 0 10px !important;
-            font-weight: 700;
-            border: 1px solid rgba(220, 38, 38, 0.15);
-            border-radius: var(--border-radius-sm);
-            color: var(--text-dark) !important;
-        }
-        .phone-input-container input {
-            flex-grow: 1;
-        }
-        .security-slider-container {
-            margin-top: 20px;
-            width: 100%;
-        }
-
         /* RESPONSIVENESS PE TELEFON */
         @media (max-width: 768px) {
             header {
-                position: absolute !important; /* Pe mobil header-ul defilează natural cu pagina, nu mai stă fix, prevenind suprapunerea inestetică */
-                padding: 14px 0;
-                box-shadow: none !important;
+                position: sticky !important;
+                top: 0 !important;
+                background: rgba(255, 255, 255, 0.96) !important;
+                backdrop-filter: blur(12px) !important;
+                -webkit-backdrop-filter: blur(12px) !important;
+                padding: 10px 0;
+                box-shadow: 0 4px 15px rgba(15, 23, 42, 0.05) !important;
                 border-bottom: 1px solid var(--border-color) !important;
             }
             .header-content {
                 justify-content: center;
             }
             .header-content .btn {
-                display: none; /* Ascundem butonul de sunat din antet pe mobil (există bara sticky jos) */
+                display: none;
             }
             .logo-img {
-                height: 42px; /* Logo mai mic pe mobil pentru a preveni overflow-ul */
+                height: 42px;
             }
             .nav-links {
                 display: none;
@@ -811,10 +838,10 @@
                 display: flex;
             }
             .hero {
-                padding: 110px 0 40px;
+                padding: 40px 0 40px;
                 text-align: center;
             }
-            .hero-grid, .services-grid, .contact-grid, .cabinet-grid {
+            .hero-grid, .services-grid, .contact-grid, .cabinet-grid, .cabinet-gallery {
                 grid-template-columns: 1fr;
                 gap: 30px;
             }
@@ -860,8 +887,20 @@
                 padding: 20px;
                 max-height: 85vh;
             }
+            .cabinet-gallery {
+                grid-template-columns: 1fr;
+                gap: 12px;
+            }
+            .gallery-item.featured {
+                grid-row: auto;
+                min-height: 240px;
+                aspect-ratio: 4 / 3;
+            }
+            .gallery-item {
+                aspect-ratio: 4 / 3;
+            }
             footer {
-                padding: 40px 0 100px !important; /* Spațiu în subsol pe mobil ca textul legal să nu fie acoperit de bara sticky, păstrând fundalul închis complet până jos */
+                padding: 40px 0 100px !important;
             }
         }
     </style>
@@ -899,7 +938,7 @@
                     </ul>
 
                     <div class="hero-buttons">
-                        <a href="#contact" class="btn">Programează un Consult</a>
+                        <a href="#contact" class="btn">Programează o Consultație</a>
                         <a href="#servicii" class="btn btn-outline">Vezi Servicii</a>
                     </div>
                 </div>
@@ -911,11 +950,11 @@
             <!-- Promotie in-store -->
             <div class="promo-banner">
                 <div class="promo-content">
-                    <h3>Pachete Promoțională Complete</h3>
+                    <h3>Pachete Promoționale Complete</h3>
                     <p>Beneficiați de servicii integrate de la examinare optometrică la montaj direct în magazin:</p>
                     <div class="promo-options">
-                        <span class="promo-tag">Consult + Ramă + Lentile PL-AR Incluse</span>
-                        <span class="promo-tag">Consult + Ramă + Lentile Heliomate Incluse</span>
+                        <span class="promo-tag">Consultație + Ramă + Lentile PL + AR</span>
+                        <span class="promo-tag">Consultație + Ramă + Lentile Heliomate</span>
                     </div>
                 </div>
             </div>
@@ -957,8 +996,19 @@
     <!-- Cabinet Info Section -->
     <section id="cabinet" class="cabinet-info-section">
         <div class="container cabinet-grid">
-            <div class="cabinet-img-container">
-                <img src="./images/poza-2-inside.jpeg" alt="Cabinet Dotări Interioare" class="cabinet-img">
+            <div class="cabinet-gallery">
+                <div class="gallery-item featured">
+                    <img src="./images/cabinet-1.jpeg" alt="Showroom American Optic Calea Moșilor">
+                    <div class="gallery-caption">Showroom American Optic - Rame și Lentile</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./images/poza-2-inside.jpeg" alt="Aparatură Shin-Nippon American Optic">
+                    <div class="gallery-caption">Aparatură Shin-Nippon - Determinare Dioptrii</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./images/cabinet-2.jpeg" alt="Zonă de Consultare American Optic">
+                    <div class="gallery-caption">Zonă Consultare și Așteptare</div>
+                </div>
             </div>
             <div class="cabinet-text">
                 <div class="badge">Echipamente Profesionale</div>
