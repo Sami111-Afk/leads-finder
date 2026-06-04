@@ -61,19 +61,224 @@
             margin: 0 auto;
         }
 
-        /* HEADER - Premium Glassmorphism */
+        /* HEADER - Premium Solid & Stable */
         header {
             position: fixed;
             top: 0;
             left: 0;
             width: 100%;
-            background: rgba(255, 255, 255, 0.85);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
+            background: #ffffff;
             border-bottom: 1px solid var(--border-color);
+            box-shadow: 0 4px 20px rgba(15, 23, 42, 0.04);
             z-index: 1000;
             padding: 12px 0;
+        }
+
+        /* Validare telefon și Checkbox premium de securitate */
+        .phone-input-container {
+            display: flex;
+            gap: 8px;
+        }
+        .prefix-select {
+            width: auto !important;
+            flex-shrink: 0;
+            background-color: var(--white) !important;
+            padding: 0 10px !important;
+            font-weight: 700;
+            border: 1px solid rgba(220, 38, 38, 0.15);
+            border-radius: var(--border-radius-sm);
+            color: var(--text-dark) !important;
+        }
+        .phone-input-container input {
+            flex-grow: 1;
+        }
+        .security-check-container {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            background-color: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: var(--border-radius-sm);
+            padding: 14px 18px;
+            margin-top: 20px;
+            cursor: pointer;
+            user-select: none;
             transition: var(--transition);
+        }
+        .security-check-container:hover {
+            border-color: var(--primary);
+            background-color: #fff5f5;
+        }
+        .custom-checkbox {
+            position: relative;
+            width: 24px;
+            height: 24px;
+            border: 2px solid #cbd5e1;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--white);
+            transition: var(--transition);
+            flex-shrink: 0;
+        }
+        .security-check-container.loading .custom-checkbox {
+            border-color: transparent;
+            background-color: transparent;
+        }
+        .spinner-ring {
+            display: none;
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            border: 3px solid #cbd5e1;
+            border-radius: 50%;
+            border-top-color: var(--primary);
+            animation: spin 0.8s linear infinite;
+        }
+        .security-check-container.loading .spinner-ring {
+            display: block;
+        }
+        .checkmark-svg {
+            display: none;
+            width: 24px;
+            height: 24px;
+            stroke: #22c55e;
+            stroke-width: 4;
+            stroke-miterlimit: 10;
+            animation: fill .4s ease-in-out forwards;
+        }
+        .security-check-container.success .checkmark-svg {
+            display: block;
+        }
+        .security-check-container.success .custom-checkbox {
+            border-color: transparent;
+            background-color: transparent;
+        }
+        .checkmark-circle {
+            stroke-dasharray: 166;
+            stroke-dashoffset: 166;
+            stroke-width: 4;
+            stroke-miterlimit: 10;
+            stroke: #22c55e;
+            fill: none;
+            animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+        }
+        .checkmark-check {
+            transform-origin: 50% 50%;
+            stroke-dasharray: 48;
+            stroke-dashoffset: 48;
+            stroke: #22c55e;
+            animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.6s forwards;
+        }
+        .security-check-text {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: #475569;
+            transition: var(--transition);
+        }
+        .security-check-container.success .security-check-text {
+            color: #16a34a;
+            font-weight: 700;
+        }
+
+        .btn-submit {
+            opacity: 0.5 !important;
+            cursor: not-allowed !important;
+            box-shadow: none !important;
+        }
+        .btn-submit:not(:disabled) {
+            opacity: 1 !important;
+            cursor: pointer !important;
+            box-shadow: 0 4px 14px rgba(220, 38, 38, 0.2) !important;
+        }
+
+        /* MODAL LEGAL & PRIVACY */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(15, 23, 42, 0.6);
+            backdrop-filter: blur(4px);
+            z-index: 2000;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .modal-overlay.active {
+            display: flex;
+            opacity: 1;
+        }
+        .modal-content {
+            background-color: var(--white);
+            border-radius: var(--border-radius-md);
+            padding: 30px;
+            width: 90%;
+            max-width: 600px;
+            max-height: 80vh;
+            overflow-y: auto;
+            position: relative;
+            box-shadow: var(--shadow-lg);
+            transform: scale(0.9);
+            transition: transform 0.3s ease;
+        }
+        .modal-overlay.active .modal-content {
+            transform: scale(1);
+        }
+        .modal-close {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            background: none;
+            border: none;
+            font-size: 1.8rem;
+            cursor: pointer;
+            color: var(--text-light);
+            line-height: 1;
+        }
+        .modal-close:hover {
+            color: var(--primary);
+        }
+        .modal-content h3 {
+            font-size: 1.4rem;
+            font-weight: 800;
+            color: var(--secondary);
+            margin-bottom: 20px;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 10px;
+        }
+        .modal-body h4 {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin: 15px 0 6px;
+        }
+        .modal-body p {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+        .modal-body ul {
+            padding-left: 20px;
+            margin-bottom: 15px;
+        }
+        .modal-body li {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            margin-bottom: 6px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        @keyframes stroke {
+            100% { stroke-dashoffset: 0; }
         }
 
         .header-content {
@@ -735,11 +940,11 @@
             <!-- Promotie in-store -->
             <div class="promo-banner">
                 <div class="promo-content">
-                    <h3>Campanie Promoțională Activă</h3>
-                    <p>Profită de ofertele speciale de sezon direct în cabinetul nostru din Calea Moșilor:</p>
+                    <h3>Pachete Promoțională Complete</h3>
+                    <p>Beneficiați de servicii integrate de la examinare optometrică la montaj direct în magazin:</p>
                     <div class="promo-options">
-                        <span class="promo-tag">Consult + Ramă + Lentile PL-AR = 150 RON</span>
-                        <span class="promo-tag">Consult + Ramă + Lentile Heliomate = 250 RON</span>
+                        <span class="promo-tag">Consult + Ramă + Lentile PL-AR Incluse</span>
+                        <span class="promo-tag">Consult + Ramă + Lentile Heliomate Incluse</span>
                     </div>
                 </div>
             </div>
@@ -866,18 +1071,19 @@
                         <textarea id="description" required placeholder="Ex: Doresc o programare în cursul după-amiezii..."></textarea>
                     </div>
 
-                    <!-- Slider de Securitate -->
-                    <div class="security-slider-container">
-                        <div class="security-slider-track" id="sliderTrack">
-                            <div class="security-slider-bg" id="sliderBg"></div>
-                            <div class="security-slider-handle" id="sliderHandle">
-                                <span class="slider-icon">🔒</span>
-                            </div>
-                            <span class="security-slider-text" id="sliderText">Glisează pentru verificare</span>
+                    <!-- Checkbox de Securitate Premium -->
+                    <div class="security-check-container" id="securityCheckBtn">
+                        <div class="custom-checkbox">
+                            <svg class="checkmark-svg" viewBox="0 0 52 52">
+                                <circle class="checkmark-circle" cx="26" cy="26" r="25" fill="none"/>
+                                <path class="checkmark-check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                            </svg>
+                            <div class="spinner-ring"></div>
                         </div>
+                        <span class="security-check-text" id="securityText">Confirm programarea (Securizat)</span>
                     </div>
 
-                    <button type="submit" id="submitBtn" class="btn btn-submit" style="width: 100%; margin-top: 15px;" disabled>Trimite Solicitare WhatsApp</button>
+                    <button type="submit" id="submitBtn" class="btn btn-submit" style="width: 100%; margin-top: 20px;" disabled>Trimite Solicitare WhatsApp</button>
                 </form>
             </div>
         </div>
@@ -889,23 +1095,63 @@
         <a href="https://wa.me/40763600001" class="btn-sticky btn-sticky-whatsapp" target="_blank">💬 WhatsApp</a>
     </div>
 
-    <!-- Footer -->
+    <!-- Footer obligatoriu legal în România -->
     <footer>
         <div class="container">
-            <p>&copy; 2026 <strong>American Optic</strong>. Toate drepturile rezervate.</p>
-            <p style="font-size: 0.8rem; margin-top: 15px; opacity: 0.5;">Creat și administrat de Savu Mihai Samuel - PFA Servicii IT.</p>
+            <p style="font-weight: 700; font-size: 1rem; margin-bottom: 8px;">American Optic S.R.L.</p>
+            <p style="font-size: 0.8rem; opacity: 0.8; margin-bottom: 16px;">
+                CUI: RO16434537 | Reg. Com: J40/8064/2004 | Punct de lucru: Calea Moșilor nr. 288, București
+            </p>
+            <p style="font-size: 0.85rem; margin-bottom: 24px; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
+                <a href="#" id="privacyLink" style="color: var(--white); text-decoration: underline;">Politica de Confidențialitate (GDPR)</a> |
+                <a href="https://anpc.ro/" target="_blank" rel="noopener noreferrer" style="color: var(--white); text-decoration: underline;">ANPC</a> |
+                <a href="https://ec.europa.eu/consumers/odr/" target="_blank" rel="noopener noreferrer" style="color: var(--white); text-decoration: underline;">Protecția Consumatorilor (SOL)</a>
+            </p>
+            <p style="font-size: 0.75rem; opacity: 0.5; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 15px; line-height: 1.4;">
+                &copy; 2026 American Optic. Toate drepturile rezervate. <br>
+                Creat și administrat de Savu Mihai Samuel - PFA Servicii IT.
+            </p>
         </div>
     </footer>
 
-    <!-- Form redirection to WhatsApp & Validation -->
+    <!-- Modal GDPR / Politică de Confidențialitate -->
+    <div class="modal-overlay" id="privacyModal">
+        <div class="modal-content">
+            <button class="modal-close" id="closeModalBtn">&times;</button>
+            <h3>Politica de Confidențialitate (GDPR)</h3>
+            <div class="modal-body">
+                <p>Prezenta Politică de Confidențialitate explică modul în care **American Optic S.R.L.** (CUI RO16434537, Reg. Com. J40/8064/2004, Adresă punct de lucru: Calea Moșilor nr. 288, București) colectează și prelucrează datele dumneavoastră cu caracter personal atunci când utilizați formularul de programări de pe site-ul nostru.</p>
+                
+                <h4>1. Ce date colectăm?</h4>
+                <p>Prin intermediul formularului de solicitare programare pe WhatsApp, colectăm următoarele date:</p>
+                <ul>
+                    <li>Numele complet (pentru identificarea programării);</li>
+                    <li>Numărul de telefon (pentru a vă putea contacta de confirmare);</li>
+                    <li>Serviciul solicitat și detaliile adiționale oferite voluntar.</li>
+                </ul>
+
+                <h4>2. Scopul prelucrării</h4>
+                <p>Datele colectate sunt folosite exclusiv în scopul organizării programărilor medicale și optice în cabinetul nostru. Nu transmitem aceste date către terți și nu le utilizăm în scopuri de marketing fără acordul dumneavoastră explicit.</p>
+
+                <h4>3. Redirecționarea pe WhatsApp</h4>
+                <p>Acest site utilizează redirecționarea directă prin serviciul WhatsApp Web/App. Datele completate de dumneavoastră sunt transmise securizat prin preluarea acestora de către platforma WhatsApp direct pe numărul de contact al magazinului nostru (0763 600 001).</p>
+
+                <h4>4. Drepturile dumneavoastră</h4>
+                <p>Conform Regulamentului GDPR, beneficiați de dreptul de acces, rectificare sau ștergere a datelor dumneavoastră din registrele noastre de programări. Pentru exercitarea acestor drepturi, ne puteți contacta direct în magazin sau la numărul de telefon afișat.</p>
+            </div>
+            <div style="text-align: right; margin-top: 20px;">
+                <button class="btn" id="closeModalBtn2">Am înțeles</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Form redirection to WhatsApp & Verification JS -->
     <script>
         let verified = false;
 
         document.addEventListener('DOMContentLoaded', function() {
-            const handle = document.getElementById('sliderHandle');
-            const track = document.getElementById('sliderTrack');
-            const bg = document.getElementById('sliderBg');
-            const text = document.getElementById('sliderText');
+            const checkContainer = document.getElementById('securityCheckBtn');
+            const text = document.getElementById('securityText');
             const submitBtn = document.getElementById('submitBtn');
             const phoneInput = document.getElementById('phone');
             
@@ -921,86 +1167,59 @@
                 e.target.value = val;
             });
 
-            // Logică Slider de Securitate
-            let isDragging = false;
-            let startX = 0;
-            let maxDrag = 0;
+            // Logică Checkbox de Securitate Premium
+            checkContainer.addEventListener('click', function() {
+                if (verified || checkContainer.classList.contains('loading')) return;
 
-            function initSlider() {
-                maxDrag = track.clientWidth - handle.clientWidth - 6; // margini de 3px stânga/dreapta
-            }
+                // Inițiem animația de încărcare (spinner)
+                checkContainer.classList.add('loading');
+                text.textContent = 'Se verifică conexiunea...';
 
-            window.addEventListener('resize', initSlider);
-            // Inițializăm după ce se încarcă layout-ul
-            setTimeout(initSlider, 300);
-
-            function onStart(x) {
-                if (verified) return;
-                isDragging = true;
-                startX = x - handle.offsetLeft;
-                handle.style.transition = 'none';
-                bg.style.transition = 'none';
-            }
-
-            function onMove(x) {
-                if (!isDragging || verified) return;
-                let left = x - startX;
-                if (left < 3) left = 3;
-                if (left > maxDrag) left = maxDrag;
-
-                handle.style.left = left + 'px';
-                bg.style.width = (left + 22) + 'px'; // Umple fundalul în spatele mânerului
-            }
-
-            function onEnd() {
-                if (!isDragging || verified) return;
-                isDragging = false;
-                const currentLeft = parseInt(handle.style.left) || 3;
-
-                if (currentLeft >= maxDrag - 5) {
-                    // Succes!
+                setTimeout(function() {
+                    checkContainer.classList.remove('loading');
+                    checkContainer.classList.add('success');
+                    text.textContent = 'Verificare de securitate reușită!';
                     verified = true;
-                    handle.style.transition = 'left 0.2s ease';
-                    bg.style.transition = 'width 0.2s ease';
-                    handle.style.left = maxDrag + 'px';
-                    bg.style.width = '100%';
-                    handle.querySelector('.slider-icon').textContent = '🔓';
-                    text.textContent = 'Verificat!';
-                    text.style.color = '#ffffff';
                     submitBtn.disabled = false;
                     submitBtn.classList.remove('btn-submit');
-                } else {
-                    // Resetare la început
-                    handle.style.transition = 'left 0.25s ease';
-                    bg.style.transition = 'width 0.25s ease';
-                    handle.style.left = '3px';
-                    bg.style.width = '0px';
-                }
+                }, 850);
+            });
+
+            // Logică Modal GDPR
+            const privacyLink = document.getElementById('privacyLink');
+            const privacyModal = document.getElementById('privacyModal');
+            const closeBtn1 = document.getElementById('closeModalBtn');
+            const closeBtn2 = document.getElementById('closeModalBtn2');
+
+            function openModal() {
+                privacyModal.classList.add('active');
+                document.body.style.overflow = 'hidden';
             }
 
-            // Mouse Events
-            handle.addEventListener('mousedown', function(e) {
-                onStart(e.clientX);
-            });
-            document.addEventListener('mousemove', function(e) {
-                onMove(e.clientX);
-            });
-            document.addEventListener('mouseup', onEnd);
+            function closeModal() {
+                privacyModal.classList.remove('active');
+                document.body.style.overflow = 'auto';
+            }
 
-            // Touch Events (pentru ecrane tactile)
-            handle.addEventListener('touchstart', function(e) {
-                onStart(e.touches[0].clientX);
+            privacyLink.addEventListener('click', function(e) {
+                e.preventDefault();
+                openModal();
             });
-            document.addEventListener('touchmove', function(e) {
-                onMove(e.touches[0].clientX);
+
+            closeBtn1.addEventListener('click', closeModal);
+            closeBtn2.addEventListener('click', closeModal);
+
+            privacyModal.addEventListener('click', function(e) {
+                if (e.target === privacyModal) {
+                    closeModal();
+                }
             });
-            document.addEventListener('touchend', onEnd);
         });
 
         function sendToWhatsApp(event) {
             event.preventDefault();
             if (!verified) {
-                alert('Vă rugăm să glisați bara de securitate pentru a debloca trimiterea.');
+                alert('Vă rugăm să bifați verificarea de securitate înainte de a trimite.');
                 return;
             }
 
