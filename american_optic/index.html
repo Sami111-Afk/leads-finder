@@ -984,6 +984,188 @@
             font-size: 0.85rem;
         }
 
+        /* BRAND FRAMES & LENS TECHNOLOGY SECTION */
+        .products-tech {
+            background-color: var(--white);
+            padding: 80px 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .products-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.25fr;
+            gap: 40px;
+            align-items: flex-start;
+        }
+        .frames-showcase {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+        .frame-card {
+            display: grid;
+            grid-template-columns: 130px 1fr;
+            gap: 20px;
+            background-color: var(--background-alt);
+            padding: 16px;
+            border-radius: var(--border-radius-md);
+            border: 1px solid var(--border-color);
+            transition: var(--transition);
+        }
+        .frame-card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+        }
+        .frame-img-box {
+            border-radius: var(--border-radius-sm);
+            overflow: hidden;
+            border: 2px solid var(--white);
+            box-shadow: var(--shadow-sm);
+            aspect-ratio: 1 / 1;
+        }
+        .frame-img-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition);
+        }
+        .frame-card:hover .frame-img-box img {
+            transform: scale(1.05);
+        }
+        .frame-info h4 {
+            font-size: 1.1rem;
+            color: var(--text-dark);
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+        .frame-info p {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            line-height: 1.5;
+        }
+        .lenses-tech-box {
+            position: sticky;
+            top: 20px;
+        }
+        .tech-card {
+            background-color: var(--white);
+            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+        }
+        .tech-header-banner {
+            position: relative;
+            width: 100%;
+            height: 200px;
+            background-color: var(--background-alt);
+            overflow: hidden;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .tech-banner-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .video-tag {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            background-color: var(--primary);
+            color: var(--white);
+            padding: 4px 12px;
+            border-radius: 50px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            box-shadow: var(--shadow-sm);
+            text-transform: uppercase;
+        }
+        .tech-content-grid {
+            display: grid;
+            grid-template-columns: 1.3fr 1fr;
+            gap: 24px;
+            padding: 30px;
+        }
+        .tech-info h3 {
+            font-size: 1.4rem;
+            color: var(--text-dark);
+            margin: 10px 0 12px;
+            font-weight: 800;
+            line-height: 1.25;
+        }
+        .tech-info p {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+        .lens-benefits {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        .benefit-item {
+            display: flex;
+            gap: 12px;
+            align-items: flex-start;
+        }
+        .benefit-icon {
+            font-size: 1.2rem;
+            line-height: 1;
+            padding: 8px;
+            background-color: rgba(190, 18, 60, 0.06);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 36px;
+            height: 36px;
+            flex-shrink: 0;
+        }
+        .benefit-item strong {
+            display: block;
+            font-size: 0.9rem;
+            color: var(--text-dark);
+            margin-bottom: 2px;
+        }
+        .benefit-item span {
+            font-size: 0.83rem;
+            color: var(--text-light);
+            line-height: 1.4;
+        }
+        .tech-video-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .phone-mockup {
+            position: relative;
+            width: 100%;
+            max-width: 190px;
+            aspect-ratio: 9 / 16;
+            background: #111827;
+            border: 8px solid #374151;
+            border-radius: 24px;
+            box-shadow: var(--shadow-lg), 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+        .phone-video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        .phone-screen-glare {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 50%);
+            pointer-events: none;
+        }
+
         /* RESPONSIVENESS PE TELEFON */
         @media (max-width: 768px) {
             header {
@@ -1152,6 +1334,31 @@
             footer {
                 padding: 40px 0 100px !important;
             }
+
+            /* PRODUCTS & TECH MOBILE RESPONSIVENESS */
+            .products-grid {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+            .tech-content-grid {
+                grid-template-columns: 1fr;
+                gap: 24px;
+                padding: 20px;
+            }
+            .tech-video-box {
+                margin-top: 10px;
+            }
+            .phone-mockup {
+                max-width: 170px;
+            }
+            .frame-card {
+                grid-template-columns: 90px 1fr;
+                gap: 16px;
+                padding: 12px;
+            }
+            .tech-header-banner {
+                height: 160px;
+            }
         }
     </style>
 </head>
@@ -1170,6 +1377,7 @@
             </button>
             <ul class="nav-links" id="navLinks">
                 <li><a href="#servicii">Servicii</a></li>
+                <li><a href="#tehnologie-stil">Rame & Lentile</a></li>
                 <li><a href="#cabinet">Cabinetul Nostru</a></li>
                 <li><a href="#contact">Program & Contact</a></li>
                 <li><a href="tel:0763600001" class="btn">Sună Acum</a></li>
@@ -1244,6 +1452,102 @@
                     <h3>Prescriere Lentile de Contact</h3>
                     <p>Determinare parametri, recomandare tip de lentilă de contact (zilnică/lunară) și instruire completă pentru montare și întreținere.</p>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rame & Lentile Section -->
+    <section id="tehnologie-stil" class="products-tech">
+        <div class="container">
+            <div class="section-header">
+                <h2>Rame de Brand & Lentile Premium</h2>
+                <p>Descoperiți stilul care vi se potrivește și tehnologia care vă protejează ochii. Vă punem la dispoziție rame exclusiviste și lentile inteligente de ultimă generație.</p>
+            </div>
+            <div class="products-grid">
+                
+                <!-- Rame Showcase -->
+                <div class="frames-showcase">
+                    <div class="frame-card">
+                        <div class="frame-img-box">
+                            <img src="./images/new-photo-1.webp" alt="Rame de Brand Exclusiviste">
+                        </div>
+                        <div class="frame-info">
+                            <h4>Branduri Exclusiviste</h4>
+                            <p>Colecții selecte de rame pentru ochelari de la producători renumiți internațional, îmbinând eleganța, finisajele premium și materialele de cea mai înaltă calitate.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="frame-card">
+                        <div class="frame-img-box">
+                            <img src="./images/new-photo-2.webp" alt="Design Clasic și Minimalist">
+                        </div>
+                        <div class="frame-info">
+                            <h4>Design Clasic & Minimalist</h4>
+                            <p>Rame ușoare, confortabile și durabile, ideale pentru purtarea zilnică. Modele ergonomice care se adaptează perfect fizionomiei tale fără a face compromisuri la stil.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="frame-card">
+                        <div class="frame-img-box">
+                            <img src="./images/new-photo-4.webp" alt="Colecții de Designer">
+                        </div>
+                        <div class="frame-info">
+                            <h4>Colecții de Designer</h4>
+                            <p>Descoperă rame de ochelari cu detalii rafinate și accente moderne, precum brandurile premium din portofoliul nostru (Ana Hickmann, Christie's etc.), așezate elegant pe pat de bujori naturali în showroom-ul nostru.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lentile Tech Showcase -->
+                <div class="lenses-tech-box">
+                    <div class="tech-card">
+                        <div class="tech-header-banner">
+                            <img src="./images/new-photo-3.webp" alt="Tehnologie Lentile Inteligente" class="tech-banner-img">
+                            <span class="video-tag">Noutate 2026</span>
+                        </div>
+                        <div class="tech-content-grid">
+                            <div class="tech-info">
+                                <span class="badge">Tehnologie Activă</span>
+                                <h3>Lentile Photochromice de Ultimă Generație</h3>
+                                <p>Lentilele noastre inteligente se adaptează instantaneu la schimbările de lumină: complet clare în interior și închise rapid la exterior pentru o protecție UV 100% și confort vizual maxim.</p>
+                                
+                                <div class="lens-benefits">
+                                    <div class="benefit-item">
+                                        <span class="benefit-icon">☀️</span>
+                                        <div>
+                                            <strong>Adaptare Rapidă (Transitions Gen S)</strong>
+                                            <span>Tranziție extrem de rapidă de la clar la închis în doar câteva secunde sub acțiunea razelor UV.</span>
+                                        </div>
+                                    </div>
+                                    <div class="benefit-item">
+                                        <span class="benefit-icon">🛡️</span>
+                                        <div>
+                                            <strong>Protecție Completă UV & Blue Light</strong>
+                                            <span>Filtrează eficient lumina albastră dăunătoare de la ecrane și blochează razele ultraviolete nocive ale soarelui.</span>
+                                        </div>
+                                    </div>
+                                    <div class="benefit-item">
+                                        <span class="benefit-icon">🎨</span>
+                                        <div>
+                                            <strong>Gamă Variată de Culori</strong>
+                                            <span>Disponibile în nuanțe moderne (Smarald, Safir, Chihlimbar, Gri, Maro) pentru a se potrivi perfect cu rama aleasă.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tech-video-box">
+                                <div class="phone-mockup">
+                                    <video class="phone-video" autoplay loop muted playsinline poster="./images/new-photo-3.webp">
+                                        <source src="./images/video_opt.mp4" type="video/mp4">
+                                        Browserul tău nu suportă redarea video.
+                                    </video>
+                                    <div class="phone-screen-glare"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
