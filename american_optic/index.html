@@ -3,9 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Analytics (GA4) — INLOCUIESTE ambele "G-XXXXXXXXXX" cu ID-ul tau din analytics.google.com -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+
     <title>American Optic | Cabinet Optică Medicală București</title>
     <meta name="description" content="Servicii de optică medicală, consultații gratuite și o gamă largă de ochelari de vedere la American Optic Calea Moșilor, București.">
+    <link rel="canonical" href="https://americanoptic.ro/">
+    <meta name="theme-color" content="#be123c">
     <link rel="icon" type="image/webp" href="./images/logo.webp">
+
+    <!-- Open Graph (preview frumos cand se da link pe WhatsApp / Facebook) -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="American Optic">
+    <meta property="og:title" content="American Optic | Cabinet Optică Medicală București">
+    <meta property="og:description" content="Optică medicală, consultații gratuite și ochelari de vedere pe Calea Moșilor, București. Programează-te rapid pe WhatsApp.">
+    <meta property="og:url" content="https://americanoptic.ro/">
+    <meta property="og:image" content="https://americanoptic.ro/images/poza-1outside.webp">
+    <meta property="og:image:alt" content="Cabinetul American Optic, Calea Moșilor, București">
+    <meta property="og:locale" content="ro_RO">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="American Optic | Cabinet Optică Medicală București">
+    <meta name="twitter:description" content="Optică medicală, consultații gratuite și ochelari de vedere pe Calea Moșilor, București.">
+    <meta name="twitter:image" content="https://americanoptic.ro/images/poza-1outside.webp">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1991,6 +2019,11 @@
 
             const encodedMessage = encodeURIComponent(message);
             const whatsappUrl = `https://wa.me/40763600001?text=${encodedMessage}`;
+
+            // Inregistram in Google Analytics ca s-a cerut o programare (conversie / lead)
+            if (typeof gtag === 'function') {
+                gtag('event', 'generate_lead', { method: 'whatsapp_form', service: service });
+            }
 
             // Redirecționăm utilizatorul direct în WhatsApp (evită deschiderea unui tab gol pe mobil)
             window.location.href = whatsappUrl;
