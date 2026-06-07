@@ -4,13 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Google Analytics (GA4) - American Optic -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L4S0N1QNQ1"></script>
+    <!-- Google Analytics (GA4) - se incarca DOAR dupa consimtamant (vezi banner cookies) -->
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-L4S0N1QNQ1');
+      // GA NU porneste aici. Se incarca din JS-ul de jos, doar dupa ce userul apasa "Accept".
     </script>
 
     <!-- Marcam ca JS e activ; CSS-ul de reveal se aplica doar atunci (fallback fara JS = continut vizibil) -->
@@ -1438,6 +1436,79 @@
             }
         }
 
+        /* ==================================================
+           COOKIE CONSENT BANNER (GA porneste doar la Accept)
+           ================================================== */
+        .cookie-banner {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            right: 20px;
+            max-width: 480px;
+            margin: 0 auto;
+            background: var(--white);
+            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius-md);
+            box-shadow: var(--shadow-lg);
+            padding: 20px 22px;
+            z-index: 1900;
+            transform: translateY(180%);
+            transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .cookie-banner.show {
+            transform: translateY(0);
+        }
+        .cookie-banner p {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            line-height: 1.5;
+            margin-bottom: 14px;
+        }
+        .cookie-banner a {
+            color: var(--primary);
+            font-weight: 600;
+            text-decoration: underline;
+        }
+        .cookie-actions {
+            display: flex;
+            gap: 10px;
+        }
+        .cookie-actions button {
+            flex: 1;
+            padding: 11px 16px;
+            border-radius: var(--border-radius-sm);
+            font-family: var(--font-main);
+            font-weight: 700;
+            font-size: 0.85rem;
+            cursor: pointer;
+            border: none;
+            transition: var(--transition);
+        }
+        .cookie-accept {
+            background: var(--primary);
+            color: var(--white);
+        }
+        .cookie-accept:hover {
+            background: var(--primary-hover);
+        }
+        .cookie-reject {
+            background: var(--background-alt);
+            color: var(--text-dark);
+            border: 1px solid var(--border-color);
+        }
+        .cookie-reject:hover {
+            background: var(--border-color);
+        }
+        @media (max-width: 768px) {
+            /* ridicam banner-ul deasupra barei sticky de jos (Suna/WhatsApp) */
+            .cookie-banner {
+                bottom: 88px;
+                left: 12px;
+                right: 12px;
+                padding: 16px 18px;
+            }
+        }
+
         /* Respectam preferinta utilizatorului pentru mai putina miscare */
         @media (prefers-reduced-motion: reduce) {
             html { scroll-behavior: auto; }
@@ -1858,6 +1929,15 @@
         </div>
     </section>
 
+    <!-- Cookie Consent Banner -->
+    <div class="cookie-banner" id="cookieBanner" role="dialog" aria-label="Consimțământ cookie-uri">
+        <p>Folosim cookie-uri de analiză (Google Analytics) ca să înțelegem cum este folosit site-ul. Le activăm <strong>doar cu acordul tău</strong>. Detalii în <a href="#" id="cookiePrivacyLink">Politica de Confidențialitate</a>.</p>
+        <div class="cookie-actions">
+            <button type="button" class="cookie-reject" id="cookieReject">Refuz</button>
+            <button type="button" class="cookie-accept" id="cookieAccept">Accept</button>
+        </div>
+    </div>
+
     <!-- Sticky Mobile Action Bar -->
     <div class="sticky-mobile-bar">
         <a href="tel:0763600001" class="btn-sticky btn-sticky-call">📞 Sună Acum</a>
@@ -1907,6 +1987,9 @@
 
                 <h4>4. Drepturile dumneavoastră</h4>
                 <p>Conform Regulamentului GDPR, beneficiați de dreptul de acces, rectificare sau ștergere a datelor dumneavoastră din registrele noastre de programări. Pentru exercitarea acestor drepturi, ne puteți contacta direct în magazin sau la numărul de telefon afișat.</p>
+
+                <h4>5. Cookie-uri și analiză</h4>
+                <p>Acest site utilizează cookie-uri de analiză prin Google Analytics (GA4) pentru a măsura, în mod anonim și agregat, modul în care vizitatorii folosesc site-ul. Aceste cookie-uri sunt activate <strong>numai după acordul dumneavoastră explicit</strong>, exprimat prin butonul „Accept" din banner-ul de cookie-uri. Dacă alegeți „Refuz", niciun cookie de analiză nu este instalat. Cookie-urile strict necesare funcționării site-ului nu necesită consimțământ.</p>
             </div>
             <div style="text-align: right; margin-top: 20px;">
                 <button class="btn" id="closeModalBtn2">Am înțeles</button>
@@ -2055,6 +2138,43 @@
                 // Fallback (browsere foarte vechi): aratam tot, fara animatie
                 revealTargets.forEach(function(el) { el.classList.add('is-visible'); });
             }
+
+            // ===== Cookie consent: GA porneste DOAR dupa "Accept" =====
+            const GA_ID = 'G-L4S0N1QNQ1';
+            function loadGoogleAnalytics() {
+                if (window.__gaLoaded) return;
+                window.__gaLoaded = true;
+                const s = document.createElement('script');
+                s.async = true;
+                s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+                document.head.appendChild(s);
+                gtag('js', new Date());
+                gtag('config', GA_ID);
+            }
+
+            const cookieBanner = document.getElementById('cookieBanner');
+            const consent = localStorage.getItem('cookie_consent');
+
+            if (consent === 'accepted') {
+                loadGoogleAnalytics();
+            } else if (consent !== 'rejected') {
+                // niciun raspuns inca -> aratam banner-ul
+                setTimeout(function() { cookieBanner.classList.add('show'); }, 800);
+            }
+
+            document.getElementById('cookieAccept').addEventListener('click', function() {
+                localStorage.setItem('cookie_consent', 'accepted');
+                cookieBanner.classList.remove('show');
+                loadGoogleAnalytics();
+            });
+            document.getElementById('cookieReject').addEventListener('click', function() {
+                localStorage.setItem('cookie_consent', 'rejected');
+                cookieBanner.classList.remove('show');
+            });
+            document.getElementById('cookiePrivacyLink').addEventListener('click', function(e) {
+                e.preventDefault();
+                openModal();
+            });
         });
 
         function sendToWhatsApp(event) {
