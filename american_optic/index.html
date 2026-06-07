@@ -13,6 +13,9 @@
       gtag('config', 'G-L4S0N1QNQ1');
     </script>
 
+    <!-- Marcam ca JS e activ; CSS-ul de reveal se aplica doar atunci (fallback fara JS = continut vizibil) -->
+    <script>document.documentElement.classList.add('js');</script>
+
     <title>American Optic | Cabinet Optică Medicală București</title>
     <meta name="description" content="Servicii de optică medicală, consultații gratuite și o gamă largă de ochelari de vedere la American Optic Calea Moșilor, București.">
     <link rel="canonical" href="https://americanoptic.ro/">
@@ -1173,38 +1176,6 @@
             color: var(--text-light);
             line-height: 1.4;
         }
-        .tech-video-box {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .phone-mockup {
-            position: relative;
-            width: 100%;
-            max-width: 190px;
-            aspect-ratio: 9 / 16;
-            background: #111827;
-            border: 8px solid #374151;
-            border-radius: 24px;
-            box-shadow: var(--shadow-lg), 0 10px 25px -5px rgba(0, 0, 0, 0.3);
-            overflow: hidden;
-        }
-        .phone-video {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
-        .phone-screen-glare {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 50%);
-            pointer-events: none;
-        }
-
         /* RESPONSIVENESS PE TELEFON */
         @media (max-width: 768px) {
             header {
@@ -1384,12 +1355,6 @@
                 gap: 24px;
                 padding: 20px;
             }
-            .tech-video-box {
-                margin-top: 10px;
-            }
-            .phone-mockup {
-                max-width: 170px;
-            }
             .frame-card {
                 grid-template-columns: 90px 1fr;
                 gap: 16px;
@@ -1397,6 +1362,94 @@
             }
             .tech-header-banner {
                 height: 160px;
+            }
+        }
+
+        /* TABLETA & LAPTOP MIC (769px - 1024px) - evitam inghesuirea */
+        @media (min-width: 769px) and (max-width: 1024px) {
+            .container {
+                width: 92%;
+            }
+            /* Testimoniale: 3 coloane sunt prea inguste pe tableta -> 2 */
+            .testimonials-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            /* Rame & Lentile: cardul tech se sufoca langa rame -> o coloana */
+            .products-grid {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+            .lenses-tech-box {
+                position: static; /* nu mai e sticky cand e pe o coloana */
+            }
+            /* Rama tech revine la 2 coloane (info + beneficii) cand are loc */
+            .frames-showcase {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px;
+            }
+        }
+
+        /* ==================================================
+           SCROLL REVEAL + MICRO-ANIMATII (premium, light)
+           Doar opacity + transform => ruleaza pe GPU, zero jank
+           ================================================== */
+        .js .reveal {
+            opacity: 0;
+            transform: translateY(24px);
+            transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1),
+                        transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .js .reveal.is-visible {
+            opacity: 1;
+            transform: none;
+        }
+
+        /* Stagger pentru grid-uri: copiii apar unul dupa altul */
+        .js .reveal-group > * {
+            opacity: 0;
+            transform: translateY(24px);
+            transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1),
+                        transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .js .reveal-group.is-visible > * {
+            opacity: 1;
+            transform: none;
+        }
+        .js .reveal-group.is-visible > *:nth-child(1) { transition-delay: 0.05s; }
+        .js .reveal-group.is-visible > *:nth-child(2) { transition-delay: 0.13s; }
+        .js .reveal-group.is-visible > *:nth-child(3) { transition-delay: 0.21s; }
+        .js .reveal-group.is-visible > *:nth-child(4) { transition-delay: 0.29s; }
+        .js .reveal-group.is-visible > *:nth-child(5) { transition-delay: 0.37s; }
+        .js .reveal-group.is-visible > *:nth-child(n+6) { transition-delay: 0.45s; }
+
+        /* Fix hover "lipicios" pe touch (iOS): pe ecrane fara hover real
+           anulam ridicarea care altfel ramane blocata dupa tap */
+        @media (hover: none) {
+            .service-card:hover,
+            .frame-card:hover,
+            .testimonial-card:hover {
+                transform: none;
+                box-shadow: var(--shadow-sm);
+                border-color: var(--border-color);
+            }
+            .gallery-item:hover img {
+                transform: none;
+            }
+        }
+
+        /* Respectam preferinta utilizatorului pentru mai putina miscare */
+        @media (prefers-reduced-motion: reduce) {
+            html { scroll-behavior: auto; }
+            .js .reveal,
+            .js .reveal-group > * {
+                opacity: 1 !important;
+                transform: none !important;
+                transition: none !important;
+            }
+            * {
+                animation-duration: 0.001ms !important;
+                animation-iteration-count: 1 !important;
             }
         }
     </style>
@@ -1428,7 +1481,7 @@
     <section class="hero">
         <div class="container">
             <div class="hero-grid">
-                <div class="hero-content">
+                <div class="hero-content reveal">
                     <div class="badge">Optică Medicală & Oftalmologie</div>
                     <h1>Consultații profesionale & <span>Ochelari de top</span></h1>
                     <p>La cabinetul American Optic din Calea Moșilor te bucuri de determinări computerizate precise ale dioptriilor și soluții optice personalizate pentru sănătatea ochilor tăi.</p>
@@ -1444,13 +1497,13 @@
                         <a href="#servicii" class="btn btn-outline">Vezi Servicii</a>
                     </div>
                 </div>
-                <div class="hero-img-container">
+                <div class="hero-img-container reveal">
                     <img src="./images/poza-1outside.webp" alt="Magazinul American Optic Exterior" class="hero-img">
                 </div>
             </div>
 
             <!-- Promotie in-store -->
-            <div class="promo-banner">
+            <div class="promo-banner reveal">
                 <div class="promo-content">
                     <h3>Pachete Promoționale Complete</h3>
                     <p>Beneficiați de servicii integrate de la examinare optometrică la montaj direct în magazin:</p>
@@ -1466,11 +1519,11 @@
     <!-- Services -->
     <section id="servicii" class="services">
         <div class="container">
-            <div class="section-header">
+            <div class="section-header reveal">
                 <h2>Serviciile Noastre Medicale & Optice</h2>
                 <p>Echipamente medicale de ultimă oră și specialiști pregătiți să îți ofere cele mai bune recomandări pentru o vedere excelentă.</p>
             </div>
-            <div class="services-grid">
+            <div class="services-grid reveal-group">
                 <div class="service-card">
                     <span class="service-icon">👁️</span>
                     <h3>Consult Oftalmologic</h3>
@@ -1498,14 +1551,14 @@
     <!-- Rame & Lentile Section -->
     <section id="tehnologie-stil" class="products-tech">
         <div class="container">
-            <div class="section-header">
+            <div class="section-header reveal">
                 <h2>Rame de Brand & Lentile Premium</h2>
                 <p>Descoperiți stilul care vi se potrivește și tehnologia care vă protejează ochii. Vă punem la dispoziție rame exclusiviste și lentile inteligente de ultimă generație.</p>
             </div>
             <div class="products-grid">
                 
                 <!-- Rame Showcase -->
-                <div class="frames-showcase">
+                <div class="frames-showcase reveal-group">
                     <div class="frame-card">
                         <div class="frame-img-box">
                             <img src="./images/new-photo-1.webp" alt="Rame de Brand Exclusiviste" loading="lazy">
@@ -1538,7 +1591,7 @@
                 </div>
 
                 <!-- Lentile Tech Showcase -->
-                <div class="lenses-tech-box">
+                <div class="lenses-tech-box reveal">
                     <div class="tech-card">
                         <div class="tech-header-banner">
                             <img src="./images/new-photo-3.webp" alt="Tehnologie Lentile Inteligente" class="tech-banner-img" loading="lazy">
@@ -1585,7 +1638,7 @@
     <!-- Cabinet Info Section -->
     <section id="cabinet" class="cabinet-info-section">
         <div class="container cabinet-grid">
-            <div class="cabinet-gallery">
+            <div class="cabinet-gallery reveal-group">
                 <div class="gallery-item featured">
                     <img src="./images/cabinet-1.webp" alt="Showroom American Optic Calea Moșilor" loading="lazy">
                     <div class="gallery-caption">Showroom American Optic - Rame și Lentile</div>
@@ -1599,7 +1652,7 @@
                     <div class="gallery-caption">Zonă Consultare și Așteptare</div>
                 </div>
             </div>
-            <div class="cabinet-text">
+            <div class="cabinet-text reveal">
                 <div class="badge">Echipamente Profesionale</div>
                 <h2>Cabinetul Nostru din Calea Moșilor</h2>
                 <p>Te întâmpinăm într-un mediu clinic deosebit, complet dotat cu aparate de autorefractometrie computerizată Shin-Nippon pentru o acuratețe maximă în determinarea dioptriilor.</p>
@@ -1617,101 +1670,97 @@
     <!-- Testimonials Section -->
     <section class="testimonials">
         <div class="container">
-            <div class="section-header">
+            <div class="section-header reveal">
                 <h2>Ce Spun Clienții Noștri</h2>
                 <p>Opinia clienților noștri este cea mai bună carte de vizită. Iată recenzii reale de la cei care au beneficiat de serviciile cabinetului nostru:</p>
             </div>
-            <div class="testimonials-grid">
+            <div class="testimonials-grid reveal">
                 <div class="testimonial-card">
                     <div>
                         <div class="testimonial-stars">★★★★★</div>
-                        <p class="testimonial-text">"Mulți medici oftalmologi au greșit dioptriile până am ajuns aici. La acest cabinet am primit în sfârșit prescripția corectă și servicii excelente."</p>
+                        <p class="testimonial-text">"Merg la ei de 6 ani. Sunt profesioniști."</p>
                     </div>
                     <div class="testimonial-footer">
-                        <span class="testimonial-author">Daniel M.</span>
-                        <a href="https://www.google.com/search?q=American+Optic+Calea+Mosilor+288+recenzii" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
+                        <span class="testimonial-author">Filofteia Mihai</span>
+                        <a href="https://share.google/Ki2XGWkiJVC9SVVd0" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
                     </div>
                 </div>
                 <div class="testimonial-card">
                     <div>
                         <div class="testimonial-stars">★★★★★</div>
-                        <p class="testimonial-text">"Serviciile de optică sunt de o calitate foarte bună. Personalul este amabil, extrem de atent la detalii și dornic să ajute."</p>
+                        <p class="testimonial-text">"Am găsit aici amabilitate și profesionalism, ochelarii foarte bine executați, dna doctor m-a consultat cu atenție și răbdare. Recomand cu mare plăcere. O să mai revin."</p>
                     </div>
                     <div class="testimonial-footer">
-                        <span class="testimonial-author">Sorina T.</span>
-                        <a href="https://www.google.com/search?q=American+Optic+Calea+Mosilor+288+recenzii" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
+                        <span class="testimonial-author">Flori V</span>
+                        <a href="https://share.google/lxE7z3raNzoBmRQCe" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
                     </div>
                 </div>
                 <div class="testimonial-card">
                     <div>
                         <div class="testimonial-stars">★★★★★</div>
-                        <p class="testimonial-text">"Am fost foarte mulțumit de calitatea ochelarilor și de rapiditatea cu care au fost gata. Rame rezistente și prețuri corecte."</p>
+                        <p class="testimonial-text">"Foarte amabilă și profesionistă dna. doctor, o recomand cu mare încredere."</p>
                     </div>
                     <div class="testimonial-footer">
-                        <span class="testimonial-author">George P.</span>
-                        <a href="https://www.google.com/search?q=American+Optic+Calea+Mosilor+recenzii" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
+                        <span class="testimonial-author">R (R)</span>
+                        <a href="https://share.google/yu87VrSAX0hKusR3I" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
                     </div>
                 </div>
                 <div class="testimonial-card">
                     <div>
                         <div class="testimonial-stars">★★★★★</div>
-                        <p class="testimonial-text">"Recomand acest cabinet cu drag! Raport calitate-preț excelent pentru rame și lentile, mult mai bun decât la marile lanțuri de optică."</p>
+                        <p class="testimonial-text">"Minunat! Doamna doctor m-a ajutat să îmi rezolv problema! Recomand!"</p>
                     </div>
                     <div class="testimonial-footer">
-                        <span class="testimonial-author">Andreea S.</span>
-                        <a href="https://www.google.com/search?q=American+Optic+Bucuresti+recenzii" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
+                        <span class="testimonial-author">Iustin Constantinescu</span>
+                        <a href="https://share.google/9AFF85jXuyrsDr2wJ" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
                     </div>
                 </div>
                 <div class="testimonial-card">
                     <div>
                         <div class="testimonial-stars">★★★★★</div>
-                        <p class="testimonial-text">"Ochelarii de soare cu dioptrie au ieșit superbi. O gamă mare de rame din care să alegi și servicii rapide."</p>
+                        <p class="testimonial-text">"Servicii excelente! Mulți medici oftalmologi au greșit dioptriile până am ajuns aici. O experiență excelentă. Recomand!"</p>
                     </div>
                     <div class="testimonial-footer">
-                        <span class="testimonial-author">Cristian R.</span>
-                        <a href="https://www.google.com/search?q=American+Optic+pareri" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
+                        <span class="testimonial-author">Andrei Marinescu</span>
+                        <a href="https://share.google/vDarYRcnRmVSX799s" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
                     </div>
                 </div>
                 <div class="testimonial-card">
                     <div>
                         <div class="testimonial-stars">★★★★★</div>
-                        <p class="testimonial-text">"Lentilele sunt de o calitate excepțională, m-am adaptat foarte repede la noii ochelari. Servicii profesionale și cabinet curat."</p>
+                        <p class="testimonial-text">"D-na dr. este excepțională, iar serviciile de optică sunt foarte bune."</p>
                     </div>
                     <div class="testimonial-footer">
-                        <span class="testimonial-author">Raluca B.</span>
-                        <a href="https://www.google.com/search?q=American+Optic+cabinet+oftalmologic" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
+                        <span class="testimonial-author">mihail vornicov</span>
+                        <a href="https://share.google/r80Mkh7BwcNLpYPtU" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
                     </div>
                 </div>
                 <div class="testimonial-card">
                     <div>
                         <div class="testimonial-stars">★★★★★</div>
-                        <p class="testimonial-text">"Promptitudine și seriozitate. M-au ajutat cu multă răbdare să aleg ramele potrivite pentru fizionomia mea. Recomand!"</p>
+                        <p class="testimonial-text">"Excelent!"</p>
                     </div>
                     <div class="testimonial-footer">
-                        <span class="testimonial-author">Maria V.</span>
-                        <a href="https://www.google.com/search?q=American+Optic+optica+medicala" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
+                        <span class="testimonial-author">unom oviata</span>
+                        <a href="https://share.google/ge2LXhIQBN7rvMO8t" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
                     </div>
                 </div>
                 <div class="testimonial-card">
                     <div>
                         <div class="testimonial-stars">★★★★★</div>
-                        <p class="testimonial-text">"Cabinet foarte curat și bine organizat. Ochelarii de vedere au fost gata repede și văd perfect cu ei. Un serviciu impecabil."</p>
+                        <p class="testimonial-text">"Consultații profesionale la prețuri bune."</p>
                     </div>
                     <div class="testimonial-footer">
-                        <span class="testimonial-author">Vlad I.</span>
-                        <a href="https://www.google.com/search?q=Cristal+American+Optic+Bucuresti" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
+                        <span class="testimonial-author">Stefan Sovarel</span>
+                        <a href="https://share.google/6hk8A6MJPegcvolpv" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
                     </div>
                 </div>
-                <div class="testimonial-card">
-                    <div>
-                        <div class="testimonial-stars">★★★★★</div>
-                        <p class="testimonial-text">"Control precis, ochelari montați impecabil și personal prietenos. Recomand cu încredere serviciile de optică medicală."</p>
-                    </div>
-                    <div class="testimonial-footer">
-                        <span class="testimonial-author">Marius N.</span>
-                        <a href="https://www.google.com/search?q=American+Optic+SRL+recenzii" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
-                    </div>
-                </div>
+            </div>
+
+            <div class="reveal" style="text-align: center; margin-top: 36px;">
+                <a href="https://share.google/Ki2XGWkiJVC9SVVd0" target="_blank" rel="noopener noreferrer" class="btn btn-outline google-reviews-cta" style="border-radius: 50px;">
+                    ⭐ Vezi toate recenziile pe Google
+                </a>
             </div>
         </div>
     </section>
@@ -1719,7 +1768,7 @@
     <!-- Contact & Harta -->
     <section id="contact" class="contact">
         <div class="container contact-grid">
-            <div class="contact-info">
+            <div class="contact-info reveal">
                 <h2>Locație și Program direct</h2>
                 <p>Te așteptăm în cabinetul nostru din Calea Moșilor. Ne poți suna direct sau ne poți trimite o solicitare de programare rapidă direct pe WhatsApp.</p>
                 
@@ -1763,7 +1812,7 @@
                 </div>
             </div>
             
-            <div class="form-box">
+            <div class="form-box reveal">
                 <h3>Solicită Programare pe WhatsApp</h3>
                 <form onsubmit="sendToWhatsApp(event)">
                     <div class="form-group">
@@ -1773,14 +1822,7 @@
                     <div class="form-group">
                         <label for="phone">Număr Telefon</label>
                         <div class="phone-input-container">
-                            <select id="countryPrefix" class="prefix-select">
-                                <option value="+40">🇷🇴 +40</option>
-                                <option value="+39">🇮🇹 +39</option>
-                                <option value="+34">🇪🇸 +34</option>
-                                <option value="+49">🇩🇪 +49</option>
-                                <option value="+44">🇬🇧 +44</option>
-                                <option value="+33">🇫🇷 +33</option>
-                            </select>
+                            <span class="prefix-select" aria-hidden="true" style="display: inline-flex; align-items: center;">🇷🇴 +40</span>
                             <input type="tel" id="phone" required placeholder="7xx xxx xxx" pattern="[0-9]{9}" inputmode="numeric" title="Introduceți exact 9 cifre (ex: 763600001)">
                         </div>
                     </div>
@@ -1996,6 +2038,23 @@
                     closeModal();
                 }
             });
+
+            // ===== Scroll-reveal premium (IntersectionObserver) =====
+            const revealTargets = document.querySelectorAll('.reveal, .reveal-group');
+            if ('IntersectionObserver' in window) {
+                const revealObserver = new IntersectionObserver(function(entries, obs) {
+                    entries.forEach(function(entry) {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('is-visible');
+                            obs.unobserve(entry.target); // animam o singura data
+                        }
+                    });
+                }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+                revealTargets.forEach(function(el) { revealObserver.observe(el); });
+            } else {
+                // Fallback (browsere foarte vechi): aratam tot, fara animatie
+                revealTargets.forEach(function(el) { el.classList.add('is-visible'); });
+            }
         });
 
         function sendToWhatsApp(event) {
@@ -2006,7 +2065,7 @@
             }
 
             const name = document.getElementById('name').value;
-            const prefix = document.getElementById('countryPrefix').value;
+            const prefix = '+40';
             const phone = document.getElementById('phone').value;
             const service = document.getElementById('service').value;
             const description = document.getElementById('description').value;
