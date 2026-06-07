@@ -20,6 +20,9 @@
     <meta name="theme-color" content="#be123c">
     <link rel="icon" type="image/webp" href="./images/logo.webp">
 
+    <!-- Preload imaginea hero (LCP) ca sa se incarce prima, mai ales pe mobil -->
+    <link rel="preload" as="image" href="./images/poza-1outside.webp" fetchpriority="high">
+
     <!-- Open Graph (preview frumos cand se da link pe WhatsApp / Facebook) -->
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="American Optic">
@@ -1568,8 +1571,8 @@
                         <a href="#servicii" class="btn btn-outline">Vezi Servicii</a>
                     </div>
                 </div>
-                <div class="hero-img-container reveal">
-                    <img src="./images/poza-1outside.webp" alt="Magazinul American Optic Exterior" class="hero-img">
+                <div class="hero-img-container">
+                    <img src="./images/poza-1outside.webp" alt="Magazinul American Optic Exterior" class="hero-img" fetchpriority="high" width="1200" height="1600">
                 </div>
             </div>
 
