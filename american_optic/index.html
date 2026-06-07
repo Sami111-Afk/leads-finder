@@ -41,7 +41,9 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font incarcat asincron, ca sa nu blocheze randarea (FCP) -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"></noscript>
 
     <!-- Structured Data (JSON-LD) for Local Business SEO -->
     <script type="application/ld+json">
@@ -1534,7 +1536,7 @@
     <header>
         <div class="container header-content">
             <a href="index.html" class="logo-container">
-                <img src="./images/logo.webp" alt="American Optic Logo" class="logo-img">
+                <img src="./images/logo.webp" alt="American Optic Logo" class="logo-img" width="400" height="274">
             </a>
             <button class="menu-toggle" id="menuToggle" aria-label="Deschide meniul">
                 <span class="hamburger-bar"></span>
@@ -1572,7 +1574,7 @@
                     </div>
                 </div>
                 <div class="hero-img-container">
-                    <img src="./images/poza-1outside.webp" alt="Magazinul American Optic Exterior" class="hero-img" fetchpriority="high" width="1200" height="1600">
+                    <img src="./images/poza-1outside.webp" alt="Magazinul American Optic Exterior" class="hero-img" fetchpriority="high" width="825" height="1100">
                 </div>
             </div>
 
@@ -1635,7 +1637,7 @@
                 <div class="frames-showcase reveal-group">
                     <div class="frame-card">
                         <div class="frame-img-box">
-                            <img src="./images/new-photo-1.webp" alt="Rame de Brand Exclusiviste" loading="lazy">
+                            <img src="./images/new-photo-1.webp" alt="Rame de Brand Exclusiviste" loading="lazy" width="619" height="1100">
                         </div>
                         <div class="frame-info">
                             <h4>Branduri Exclusiviste</h4>
@@ -1645,7 +1647,7 @@
                     
                     <div class="frame-card">
                         <div class="frame-img-box">
-                            <img src="./images/new-photo-2.webp" alt="Design Clasic și Minimalist" loading="lazy">
+                            <img src="./images/new-photo-2.webp" alt="Design Clasic și Minimalist" loading="lazy" width="619" height="1100">
                         </div>
                         <div class="frame-info">
                             <h4>Design Clasic & Minimalist</h4>
@@ -1655,7 +1657,7 @@
                     
                     <div class="frame-card">
                         <div class="frame-img-box">
-                            <img src="./images/new-photo-4.webp" alt="Colecții de Designer" loading="lazy">
+                            <img src="./images/new-photo-4.webp" alt="Colecții de Designer" loading="lazy" width="619" height="1100">
                         </div>
                         <div class="frame-info">
                             <h4>Colecții de Designer</h4>
@@ -1668,7 +1670,7 @@
                 <div class="lenses-tech-box reveal">
                     <div class="tech-card">
                         <div class="tech-header-banner">
-                            <img src="./images/new-photo-3.webp" alt="Tehnologie Lentile Inteligente" class="tech-banner-img" loading="lazy">
+                            <img src="./images/new-photo-3.webp" alt="Tehnologie Lentile Inteligente" class="tech-banner-img" loading="lazy" width="1100" height="619">
                             <span class="video-tag">Noutate 2026</span>
                         </div>
                         <div class="tech-content-grid" style="grid-template-columns: 1fr;">
@@ -1714,15 +1716,15 @@
         <div class="container cabinet-grid">
             <div class="cabinet-gallery reveal-group">
                 <div class="gallery-item featured">
-                    <img src="./images/cabinet-1.webp" alt="Showroom American Optic Calea Moșilor" loading="lazy">
+                    <img src="./images/cabinet-1.webp" alt="Showroom American Optic Calea Moșilor" loading="lazy" width="1100" height="619">
                     <div class="gallery-caption">Showroom American Optic - Rame și Lentile</div>
                 </div>
                 <div class="gallery-item">
-                    <img src="./images/poza-2-inside.webp" alt="Aparatură Shin-Nippon American Optic" loading="lazy">
+                    <img src="./images/poza-2-inside.webp" alt="Aparatură Shin-Nippon American Optic" loading="lazy" width="825" height="1100">
                     <div class="gallery-caption">Aparatură Shin-Nippon - Determinare Dioptrii</div>
                 </div>
                 <div class="gallery-item">
-                    <img src="./images/cabinet-2.webp" alt="Zonă de Consultare American Optic" loading="lazy">
+                    <img src="./images/cabinet-2.webp" alt="Zonă de Consultare American Optic" loading="lazy" width="1100" height="619">
                     <div class="gallery-caption">Zonă Consultare și Așteptare</div>
                 </div>
             </div>
