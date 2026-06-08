@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Kairos Pizza - Pizza pe Vatră și Paste Proaspete București</title>
+    <title>A&G Translator - Traduceri Autorizate & Legalizate București Carol I</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,15 +11,14 @@
     
     <style>
         :root {
-            --primary: #dc2626;       /* Roșu tomată / Deep Red */
-            --primary-hover: #b91c1c;
-            --secondary: #1c1917;     /* Stone închis / Warm Charcoal */
-            --secondary-hover: #0c0a09;
-            --background: #fffbeb;    /* Crem cald / Blat pizza */
+            --primary: #1d4ed8;       /* Albastru regal premium / Royal Blue */
+            --primary-hover: #1e40af;
+            --secondary: #1e293b;     /* Steel Slate / Navy */
+            --background: #f0f9ff;    /* Bej albăstrui foarte pal deschis */
             --surface: #ffffff;
-            --text-dark: #1c1917;
-            --text-light: #57534e;
-            --border-color: #f5f5f4;
+            --text-dark: #1e293b;
+            --text-light: #475569;
+            --border-color: #e2e8f0;
             --white: #ffffff;
             --border-radius-lg: 24px;
             --border-radius-md: 16px;
@@ -27,9 +26,9 @@
             --font-main: 'Plus Jakarta Sans', sans-serif;
             --font-display: 'Playfair Display', serif;
             --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-            --shadow-sm: 0 4px 12px rgba(220, 38, 38, 0.03);
-            --shadow-md: 0 12px 30px rgba(220, 38, 38, 0.06);
-            --shadow-lg: 0 20px 40px rgba(220, 38, 38, 0.1);
+            --shadow-sm: 0 4px 12px rgba(29, 78, 216, 0.03);
+            --shadow-md: 0 12px 30px rgba(29, 78, 216, 0.06);
+            --shadow-lg: 0 20px 40px rgba(29, 78, 216, 0.1);
         }
 
         * {
@@ -63,10 +62,10 @@
             top: 0;
             left: 0;
             width: 100%;
-            background: rgba(255, 251, 235, 0.85);
+            background: rgba(240, 249, 255, 0.85);
             backdrop-filter: blur(12px);
             -webkit-backdrop-filter: blur(12px);
-            border-bottom: 1px solid rgba(220, 38, 38, 0.1);
+            border-bottom: 1px solid rgba(29, 78, 216, 0.1);
             z-index: 1000;
             padding: 16px 0;
             transition: var(--transition);
@@ -81,7 +80,7 @@
         .logo {
             font-family: var(--font-display);
             font-weight: 700;
-            font-size: 1.4rem;
+            font-size: 1.3rem;
             color: var(--secondary);
             text-decoration: none;
             letter-spacing: -0.5px;
@@ -125,14 +124,14 @@
             justify-content: center;
             gap: 8px;
             transition: var(--transition);
-            box-shadow: 0 4px 14px rgba(220, 38, 38, 0.2);
+            box-shadow: 0 4px 14px rgba(29, 78, 216, 0.2);
             min-height: 48px;
         }
 
         .btn:hover, .btn:active {
             background-color: var(--primary-hover);
             transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(220, 38, 38, 0.3);
+            box-shadow: 0 6px 20px rgba(29, 78, 216, 0.3);
         }
 
         .btn-outline {
@@ -150,7 +149,7 @@
 
         .hero {
             padding: 140px 0 70px;
-            background: radial-gradient(circle at 90% 10%, rgba(220, 38, 38, 0.08), transparent 50%);
+            background: radial-gradient(circle at 90% 10%, rgba(29, 78, 216, 0.08), transparent 50%);
         }
 
         .hero-grid {
@@ -162,7 +161,7 @@
 
         .badge {
             display: inline-block;
-            background-color: rgba(220, 38, 38, 0.08);
+            background-color: rgba(29, 78, 216, 0.08);
             color: var(--primary);
             padding: 6px 14px;
             border-radius: 50px;
@@ -246,28 +245,27 @@
             background-color: var(--background);
             border-radius: var(--border-radius-md);
             padding: 30px;
-            border: 1px solid var(--border-color);
+            border: 1px solid rgba(29, 78, 216, 0.05);
             transition: var(--transition);
         }
 
         .service-card:hover {
             transform: translateY(-5px);
-            border-color: var(--primary);
             box-shadow: var(--shadow-md);
+            border-color: rgba(29, 78, 216, 0.15);
         }
 
         .service-icon {
-            font-size: 2rem;
-            color: var(--primary);
+            font-size: 2.5rem;
             margin-bottom: 20px;
             display: inline-block;
         }
 
         .service-card h3 {
-            font-family: var(--font-display);
-            font-size: 1.3rem;
+            font-size: 1.25rem;
             color: var(--secondary);
-            margin-bottom: 10px;
+            margin-bottom: 12px;
+            font-weight: 700;
         }
 
         .service-card p {
@@ -283,31 +281,36 @@
         .pricing-list-container {
             max-width: 800px;
             margin: 0 auto;
-            background: var(--white);
-            padding: 30px;
-            border-radius: var(--border-radius-md);
-            box-shadow: var(--shadow-sm);
-            border: 1px solid var(--border-color);
+            background-color: var(--white);
+            border-radius: var(--border-radius-lg);
+            padding: 40px;
+            box-shadow: var(--shadow-md);
         }
 
         .pricing-row {
             display: flex;
             justify-content: space-between;
+            align-items: center;
             padding: 16px 0;
-            border-bottom: 1px solid var(--border-color);
+            border-bottom: 1px dashed var(--border-color);
         }
 
         .pricing-row:last-child {
             border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .pricing-row:first-child {
+            padding-top: 0;
         }
 
         .pricing-name {
             font-weight: 600;
-            color: var(--text-dark);
+            color: var(--secondary);
         }
 
         .pricing-price {
-            font-weight: 700;
+            font-weight: 800;
             color: var(--primary);
         }
 
@@ -318,46 +321,47 @@
 
         .contact-grid {
             display: grid;
-            grid-template-columns: 1.1fr 0.9fr;
-            gap: 40px;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: start;
         }
 
         .contact-info h2 {
             font-family: var(--font-display);
-            font-size: clamp(1.8rem, 4vw, 2.4rem);
+            font-size: 2.2rem;
             color: var(--secondary);
-            margin-bottom: 15px;
+            margin-bottom: 18px;
         }
 
         .contact-info p {
             color: var(--text-light);
-            margin-bottom: 30px;
+            margin-bottom: 35px;
         }
 
         .info-row {
             display: flex;
             gap: 16px;
-            margin-bottom: 24px;
+            margin-bottom: 25px;
             align-items: flex-start;
         }
 
         .info-icon {
-            font-size: 1.3rem;
-            background-color: rgba(220, 38, 38, 0.08);
-            color: var(--primary);
-            padding: 10px;
+            font-size: 1.5rem;
+            background-color: rgba(29, 78, 216, 0.08);
+            width: 48px;
+            height: 48px;
             border-radius: 50%;
-            line-height: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             flex-shrink: 0;
         }
 
         .info-text strong {
             display: block;
             color: var(--secondary);
-            margin-bottom: 2px;
-            font-size: 0.9rem;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
+            font-size: 1rem;
+            margin-bottom: 4px;
         }
 
         .info-text span {
@@ -367,89 +371,47 @@
 
         .form-box {
             background-color: var(--background);
-            border-radius: var(--border-radius-md);
-            padding: 30px;
-            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius-lg);
+            padding: 40px;
+            border: 1px solid rgba(29, 78, 216, 0.05);
             box-shadow: var(--shadow-sm);
         }
 
         .form-box h3 {
-            font-family: var(--font-display);
-            font-size: 1.4rem;
+            font-size: 1.5rem;
             color: var(--secondary);
-            margin-bottom: 20px;
+            margin-bottom: 25px;
+            font-weight: 700;
         }
 
         .form-group {
-            margin-bottom: 16px;
+            margin-bottom: 20px;
         }
 
         .form-group label {
             display: block;
-            font-weight: 700;
-            font-size: 0.8rem;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            margin-bottom: 6px;
-            color: var(--text-dark);
+            margin-bottom: 8px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--secondary);
         }
 
-        .form-group input, .form-group textarea {
+        .form-group input, .form-group textarea, .form-group select {
             width: 100%;
             padding: 12px 16px;
             border-radius: var(--border-radius-sm);
-            border: 1px solid rgba(220, 38, 38, 0.1);
+            border: 1px solid var(--border-color);
             background-color: var(--white);
             font-family: var(--font-main);
             font-size: 1rem;
+            color: var(--text-dark);
             outline: none;
             transition: var(--transition);
         }
 
-        .form-group input:focus, .form-group textarea:focus {
+        .form-group input:focus, .form-group textarea:focus, .form-group select:focus {
             border-color: var(--primary);
-            box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.1);
-        }
-
-        .sticky-mobile-bar {
-            display: none;
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            background: rgba(255, 255, 255, 0.9);
-            backdrop-filter: blur(16px);
-            -webkit-backdrop-filter: blur(16px);
-            border-top: 1px solid var(--border-color);
-            padding: 12px 16px;
-            z-index: 999;
-            box-shadow: 0 -8px 30px rgba(0, 0, 0, 0.05);
-            justify-content: space-between;
-            gap: 10px;
-        }
-
-        .sticky-mobile-bar .btn-sticky {
-            flex: 1;
-            min-height: 48px;
-            border-radius: 50px;
-            font-weight: 700;
-            font-size: 0.9rem;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            gap: 6px;
-            text-decoration: none;
-            transition: var(--transition);
-        }
-
-        .btn-sticky-call {
-            background-color: var(--secondary);
-            color: var(--white);
-        }
-
-        .btn-sticky-whatsapp {
-            background-color: #25d366;
-            color: var(--white);
+            box-shadow: 0 0 0 3px rgba(29, 78, 216, 0.15);
         }
 
         footer {
@@ -460,44 +422,88 @@
         }
 
         footer p {
-            opacity: 0.8;
-            font-size: 0.85rem;
+            opacity: 0.7;
+            font-size: 0.95rem;
+        }
+
+        /* Sticky Mobile Action Bar */
+        .sticky-mobile-bar {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: var(--white);
+            border-top: 1px solid var(--border-color);
+            padding: 12px 16px;
+            z-index: 999;
+            box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.05);
+        }
+
+        .btn-sticky {
+            flex: 1;
+            text-align: center;
+            padding: 12px 0;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.95rem;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            min-height: 48px;
+        }
+
+        .btn-sticky-call {
+            background-color: transparent;
+            border: 2px solid var(--primary);
+            color: var(--primary);
+        }
+
+        .btn-sticky-whatsapp {
+            background-color: #25d366;
+            color: var(--white);
+            border: none;
+            box-shadow: 0 4px 10px rgba(37, 211, 102, 0.3);
+        }
+
+        /* Responsive */
+        @media (max-width: 992px) {
+            .hero-grid, .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            .hero-img-container {
+                order: -1;
+            }
+            .services-grid {
+                grid-template-columns: 1fr 1fr;
+            }
         }
 
         @media (max-width: 768px) {
+            header {
+                padding: 12px 0;
+            }
             .nav-links {
                 display: none;
             }
-
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
             .sticky-mobile-bar {
                 display: flex;
+                gap: 12px;
             }
-
-            .hero {
-                padding: 100px 0 40px;
-                text-align: center;
+            .pricing-list-container {
+                padding: 24px;
             }
-
-            .hero-grid, .services-grid, .contact-grid {
-                grid-template-columns: 1fr;
-                gap: 30px;
+            .contact-info h2 {
+                font-size: 1.8rem;
             }
-
-            .hero-buttons {
-                justify-content: center;
-            }
-
-            .hero-img-container {
-                order: -1;
-                margin-bottom: 10px;
-            }
-
-            .hero-img {
-                max-width: 320px;
-            }
-
             .form-box {
-                padding: 20px;
+                padding: 24px;
             }
         }
     </style>
@@ -507,13 +513,14 @@
     <!-- Header -->
     <header>
         <div class="container header-content">
-            <a href="#" class="logo">🍕 Kairos <span>Pizza</span></a>
+            <a href="#" class="logo">A&G <span>Translator</span></a>
             <ul class="nav-links">
-                <li><a href="#servicii">Meniu</a></li>
-                <li><a href="#preturi">Prețuri pizza</a></li>
-                <li><a href="#contact">Contact & Locație</a></li>
-                <li><a href="tel:0768007507" class="btn">Comandă Telefon</a></li>
+                <li><a href="#servicii">Servicii</a></li>
+                <li><a href="#preturi">Tarife</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="tel:0722198663" class="btn btn-outline" style="padding: 8px 18px; min-height: auto;">📞 0722 198 663</a></li>
             </ul>
+            <a href="#contact" class="btn" style="padding: 10px 20px; font-size: 0.85rem; min-height: 40px;">Cere Oferă</a>
         </div>
     </header>
 
@@ -521,16 +528,16 @@
     <section class="hero">
         <div class="container hero-grid">
             <div class="hero-content">
-                <div class="badge">Pizzerie de cartier / Orhideelor</div>
-                <h1>Pizza proaspătă pe vatră și <span>paste delicioase</span></h1>
-                <p>Preparăm zilnic pizza cu sos aromat de roșii și ingrediente de calitate coaptă pe vatră la temperatură înaltă. Poți comanda direct pe WhatsApp pentru a o ridica fierbinte și proaspătă de la sediul nostru din Șoseaua Orhideelor!</p>
+                <div class="badge">Birou de Traduceri Autorizate & Legalizate</div>
+                <h1>Traduceri de Precizie pentru <span>Documentele Tale</span></h1>
+                <p>Ai nevoie de o traducere autorizată pentru studii, muncă, acte auto sau contracte comerciale? La A&G Translator oferim servicii profesionale rapide în limbile engleză, franceză, germană, italiană și spaniolă, cu legalizare notarială rapidă chiar pe Bd. Carol I, București.</p>
                 <div class="hero-buttons">
-                    <a href="#contact" class="btn">Plasează Comanda pe WhatsApp</a>
-                    <a href="#servicii" class="btn btn-outline">Meniu Produse</a>
+                    <a href="#contact" class="btn">Solicită Traducere pe WhatsApp 💬</a>
+                    <a href="#servicii" class="btn btn-outline">Vezi Servicii</a>
                 </div>
             </div>
             <div class="hero-img-container">
-                <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80" alt="Kairos Pizza Orhideelor" class="hero-img">
+                <img src="https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=600&q=80" alt="Traduceri Autorizate Acte" class="hero-img">
             </div>
         </div>
     </section>
@@ -539,24 +546,24 @@
     <section id="servicii" class="services">
         <div class="container">
             <div class="section-header">
-                <h2>Din Meniul Nostru</h2>
-                <p>Rețete tradiționale italienești preparate rapid cu ingrediente de calitate.</p>
+                <h2>Serviciile Noastre</h2>
+                <p>Ne asigurăm că documentele dumneavoastră sunt traduse corect, respectând terminologia specifică și normele legale.</p>
             </div>
             <div class="services-grid">
                 <div class="service-card">
-                    <span class="service-icon">🍕</span>
-                    <h3>Pizza pe Vatră</h3>
-                    <p>Multe sortimente de pizza de 32cm, coapte tradițional pe vatră cu mozzarella din belșug.</p>
+                    <span class="service-icon">📑</span>
+                    <h3>Traduceri Autorizate</h3>
+                    <p>Traduceri oficiale purtând semnătura și ștampila traducătorului autorizat de Ministerul Justiției. Acte de stare civilă, certificate, diplome.</p>
                 </div>
                 <div class="service-card">
-                    <span class="service-icon">🍝</span>
-                    <h3>Paste Autentice</h3>
-                    <p>Paste carbonara aromate, quattro formaggi cremoase sau penne bolognese realizate pe loc.</p>
+                    <span class="service-icon">⚖️</span>
+                    <h3>Traduceri Legalizate</h3>
+                    <p>Efectuăm traducerea și ne ocupăm de toate formalitățile pentru legalizarea notarială a documentelor traduse, economisind timpul dumneavoastră.</p>
                 </div>
                 <div class="service-card">
-                    <span class="service-icon">📦</span>
-                    <h3>Ridicare Rapidă</h3>
-                    <p>Pregătim comanda ta în maximum 20 de minute. Totul este ambalat corespunzător pentru a rămâne cald.</p>
+                    <span class="service-icon">🌍</span>
+                    <h3>Limbaje de Specialitate</h3>
+                    <p>Traduceri specializate din domeniile juridic (contracte, decizii judecătorești), medical (fișe de analize, adeverințe) și tehnic / economic.</p>
                 </div>
             </div>
         </div>
@@ -566,33 +573,29 @@
     <section id="preturi" class="pricing">
         <div class="container">
             <div class="section-header">
-                <h2>Prețuri Preparate</h2>
-                <p>Mâncare gustoasă și caldă la prețuri rezonabile. Realizate pe loc din ingrediente selectate.</p>
+                <h2>Tarife Orientative</h2>
+                <p>Prețuri calculate per pagină standard (2000 de caractere cu spații). Oferim discounturi pentru volume mari.</p>
             </div>
             <div class="pricing-list-container">
                 <div class="pricing-row">
-                    <span class="pricing-name">Pizza Margherita (sos roșii, mozzarella, oregano) - 32cm</span>
-                    <span class="pricing-price">26 RON</span>
+                    <span class="pricing-name">Traducere Engleză / Franceză / Italiană</span>
+                    <span class="pricing-price">de la 35 RON / pagină</span>
                 </div>
                 <div class="pricing-row">
-                    <span class="pricing-name">Pizza Diavola (sos roșii, mozzarella, salam picant) - 32cm</span>
-                    <span class="pricing-price">32 RON</span>
+                    <span class="pricing-name">Traducere Germană / Spaniolă</span>
+                    <span class="pricing-price">de la 45 RON / pagină</span>
                 </div>
                 <div class="pricing-row">
-                    <span class="pricing-name">Pizza Quattro Stagioni (sos roșii, şuncă, ciuperci, măsline) - 32cm</span>
-                    <span class="pricing-price">34 RON</span>
+                    <span class="pricing-name">Legalizare notarială (per document)</span>
+                    <span class="pricing-price">de la 50 RON</span>
                 </div>
                 <div class="pricing-row">
-                    <span class="pricing-name">Pizza Casei Kairos (bogată, specialitatea bucătarului) - 32cm</span>
-                    <span class="pricing-price">36 RON</span>
+                    <span class="pricing-name">Traduceri acte auto standard (pachet)</span>
+                    <span class="pricing-price">de la 100 RON</span>
                 </div>
                 <div class="pricing-row">
-                    <span class="pricing-name">Paste Spaghetti Carbonara (bacon, smântână, parmezan)</span>
-                    <span class="pricing-price">28 RON</span>
-                </div>
-                <div class="pricing-row">
-                    <span class="pricing-name">Paste Penne Quattro Formaggi (4 tipuri de brânză fine)</span>
-                    <span class="pricing-price">30 RON</span>
+                    <span class="pricing-name">Apostilare / Supralegalizare acte</span>
+                    <span class="pricing-price">de la 100 RON</span>
                 </div>
             </div>
         </div>
@@ -602,22 +605,22 @@
     <section id="contact" class="contact">
         <div class="container contact-grid">
             <div class="contact-info">
-                <h2>Unde ne găsești?</h2>
-                <p>Te așteptăm la sediul nostru din Șoseaua Orhideelor nr. 12C, Sector 6, pentru a ridica produsele tale preferate proaspăt coapte.</p>
+                <h2>Contact & Programări</h2>
+                <p>Biroul nostru este situat central, foarte aproape de Piața Rosetti și Bulevardul Carol I.</p>
                 
                 <div class="info-row">
                     <div class="info-icon">📍</div>
                     <div class="info-text">
-                        <strong>Adresă Pizzerie</strong>
-                        <span>Şoseaua Orhideelor nr. 12C, Sector 6, București</span>
+                        <strong>Adresă Birou</strong>
+                        <span>Bulevardul Carol I nr. 76, Bloc 76, Parter, Sector 2, București</span>
                     </div>
                 </div>
                 
                 <div class="info-row">
                     <div class="info-icon">📞</div>
                     <div class="info-text">
-                        <strong>Telefon Comenzi</strong>
-                        <span>0768 007 507</span>
+                        <strong>Telefon Contact</strong>
+                        <span>0722 198 663</span>
                     </div>
                 </div>
 
@@ -625,27 +628,40 @@
                     <div class="info-icon">🕒</div>
                     <div class="info-text">
                         <strong>Orar Funcționare</strong>
-                        <span>Luni - Duminică: 11:00 - 22:30</span>
+                        <span>Luni - Vineri: 09:00 - 18:00 | Sâmbătă - Duminică: Închis</span>
                     </div>
                 </div>
             </div>
             
             <div class="form-box">
-                <h3>Comandă Rapidă</h3>
+                <h3>Cere Estimare de Preț / Termen</h3>
                 <form id="whatsapp-form">
                     <div class="form-group">
                         <label for="name">Nume Complet</label>
                         <input type="text" id="name" required placeholder="Numele tău">
                     </div>
                     <div class="form-group">
-                        <label for="phone">Telefon</label>
+                        <label for="phone">Telefon contact</label>
                         <input type="tel" id="phone" required placeholder="07xx xxx xxx">
                     </div>
                     <div class="form-group">
-                        <label for="details">Ce dorești să comanzi (meniuri, sosuri, băuturi)</label>
-                        <textarea id="details" rows="3" required placeholder="Doresc 1 Pizza Diavola cu sos dulce și 1 porție de Paste Carbonara pentru ridicare..."></textarea>
+                        <label for="source-lang">Limba Sursă & Țintă</label>
+                        <input type="text" id="source-lang" required placeholder="ex: Din Engleză în Română">
                     </div>
-                    <button type="submit" class="btn" style="width: 100%; margin-top: 10px;">Trimite Comanda pe WhatsApp 💬</button>
+                    <div class="form-group">
+                        <label for="service">Tip Document / Serviciu</label>
+                        <select id="service">
+                            <option>Traducere Autorizată (fără legalizare)</option>
+                            <option>Traducere Legalizată Notarial</option>
+                            <option>Traducere Juridică / Tehnică / Medicală</option>
+                            <option>Supralegalizare / Apostilă</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="details">Descrie actul și numărul de pagini</label>
+                        <textarea id="details" rows="3" required placeholder="Am un certificat de naștere din UK și o diplomă de bacalaureat de tradus în română și legalizat notarial..."></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="width: 100%; margin-top: 10px;">Trimite Solicitare pe WhatsApp 💬</button>
                 </form>
             </div>
         </div>
@@ -653,15 +669,15 @@
 
     <!-- Sticky Mobile Action Bar -->
     <div class="sticky-mobile-bar">
-        <a href="tel:0768007507" class="btn-sticky btn-sticky-call">📞 Sună Acum</a>
-        <a href="https://wa.me/40768007507" class="btn-sticky btn-sticky-whatsapp" target="_blank">💬 WhatsApp</a>
+        <a href="tel:0722198663" class="btn-sticky btn-sticky-call">📞 Sună Acum</a>
+        <a href="https://wa.me/40722198663" class="btn-sticky btn-sticky-whatsapp" target="_blank">💬 WhatsApp</a>
     </div>
 
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2026 <strong>Kairos Pizza</strong>. Toate drepturile rezervate.</p>
-            <p style="font-size: 0.8rem; margin-top: 15px; opacity: 0.5;">Design conceptualizat pentru propunerea digitală locală.</p>
+            <p>&copy; 2026 <strong>A&G Translator</strong>. Toate drepturile rezervate.</p>
+            <p style="font-size: 0.8rem; margin-top: 15px; opacity: 0.5;">Design propus pentru modernizarea digitală a afacerii.</p>
         </div>
     </footer>
 
@@ -670,9 +686,11 @@
             e.preventDefault();
             const name = encodeURIComponent(document.getElementById('name').value);
             const phone = encodeURIComponent(document.getElementById('phone').value);
+            const lang = encodeURIComponent(document.getElementById('source-lang').value);
+            const service = encodeURIComponent(document.getElementById('service').value);
             const details = encodeURIComponent(document.getElementById('details').value);
-            const text = `Bună ziua, mă numesc ${name} (Tel: ${phone}). Doresc să comand: ${details}`;
-            window.open(`https://wa.me/40768007507?text=${text}`, '_blank');
+            const text = `Bună ziua, mă numesc ${name} (Tel: ${phone}). Aș dori o estimare pentru traducerea "${lang}" (${service}): ${details}`;
+            window.open(`https://wa.me/40722198663?text=${text}`, '_blank');
         });
     </script>
 </body>

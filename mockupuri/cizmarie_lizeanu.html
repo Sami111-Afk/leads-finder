@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Cizmărie & Marochinărie Lizeanu - Servicii Profesionale de Încălțăminte și Reparații</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary: #92400e;       /* Maro piele / Amber */
+            --primary-hover: #78350f;
+            --secondary: #1e293b;     /* Navy/Slate închis */
+            --background: #fdf8f6;    /* Bej pal cald */
+            --surface: #ffffff;
+            --text-dark: #1e293b;
+            --text-light: #64748b;
+            --border-color: #e2e8f0;
+            --white: #ffffff;
+            --border-radius-lg: 24px;
+            --border-radius-md: 16px;
+            --border-radius-sm: 8px;
+            --font-main: 'Plus Jakarta Sans', sans-serif;
+            --font-display: 'Playfair Display', serif;
+            --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+            --shadow-sm: 0 4px 12px rgba(146, 64, 14, 0.03);
+            --shadow-md: 0 12px 30px rgba(146, 64, 14, 0.06);
+            --shadow-lg: 0 20px 40px rgba(146, 64, 14, 0.1);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-main);
+            background-color: var(--background);
+            color: var(--text-dark);
+            line-height: 1.6;
+            overflow-x: hidden;
+            padding-bottom: 80px; 
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(253, 248, 246, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(146, 64, 14, 0.1);
+            z-index: 1000;
+            padding: 16px 0;
+            transition: var(--transition);
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: var(--font-display);
+            font-weight: 700;
+            font-size: 1.3rem;
+            color: var(--secondary);
+            text-decoration: none;
+            letter-spacing: -0.5px;
+        }
+
+        .logo span {
+            color: var(--primary);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 24px;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-dark);
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: var(--transition);
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        .btn {
+            background-color: var(--primary);
+            color: var(--white) !important;
+            padding: 12px 28px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.95rem;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: var(--transition);
+            box-shadow: 0 4px 14px rgba(146, 64, 14, 0.2);
+            min-height: 48px;
+        }
+
+        .btn:hover, .btn:active {
+            background-color: var(--primary-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(146, 64, 14, 0.3);
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            color: var(--secondary) !important;
+            border: 2px solid var(--secondary);
+            box-shadow: none;
+        }
+
+        .btn-outline:hover, .btn-outline:active {
+            background-color: var(--secondary);
+            color: var(--white) !important;
+            box-shadow: none;
+        }
+
+        .hero {
+            padding: 140px 0 70px;
+            background: radial-gradient(circle at 90% 10%, rgba(146, 64, 14, 0.08), transparent 50%);
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .badge {
+            display: inline-block;
+            background-color: rgba(146, 64, 14, 0.08);
+            color: var(--primary);
+            padding: 6px 14px;
+            border-radius: 50px;
+            font-size: 0.75rem;
+            font-weight: 800;
+            margin-bottom: 18px;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        .hero h1 {
+            font-family: var(--font-display);
+            font-size: clamp(2.2rem, 5vw, 3.2rem);
+            font-weight: 700;
+            line-height: 1.15;
+            color: var(--secondary);
+            margin-bottom: 18px;
+        }
+
+        .hero h1 span {
+            color: var(--primary);
+            font-style: italic;
+        }
+
+        .hero p {
+            font-size: clamp(0.95rem, 2vw, 1.05rem);
+            color: var(--text-light);
+            margin-bottom: 30px;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .hero-img-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .hero-img {
+            width: 100%;
+            max-width: 480px;
+            height: auto;
+            border-radius: var(--border-radius-md);
+            box-shadow: var(--shadow-md);
+            border: 6px solid var(--white);
+        }
+
+        .services {
+            padding: 80px 0;
+            background-color: var(--white);
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto 50px;
+        }
+
+        .section-header h2 {
+            font-family: var(--font-display);
+            font-size: clamp(1.8rem, 4vw, 2.4rem);
+            color: var(--secondary);
+            margin-bottom: 12px;
+        }
+
+        .section-header p {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .service-card {
+            background-color: var(--background);
+            border-radius: var(--border-radius-md);
+            padding: 30px;
+            border: 1px solid rgba(146, 64, 14, 0.05);
+            transition: var(--transition);
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-md);
+            border-color: rgba(146, 64, 14, 0.15);
+        }
+
+        .service-icon {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+
+        .service-card h3 {
+            font-size: 1.25rem;
+            color: var(--secondary);
+            margin-bottom: 12px;
+            font-weight: 700;
+        }
+
+        .service-card p {
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+
+        .pricing {
+            padding: 80px 0;
+            background-color: var(--background);
+        }
+
+        .pricing-list-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: var(--white);
+            border-radius: var(--border-radius-lg);
+            padding: 40px;
+            box-shadow: var(--shadow-md);
+        }
+
+        .pricing-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px 0;
+            border-bottom: 1px dashed var(--border-color);
+        }
+
+        .pricing-row:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .pricing-row:first-child {
+            padding-top: 0;
+        }
+
+        .pricing-name {
+            font-weight: 600;
+            color: var(--secondary);
+        }
+
+        .pricing-price {
+            font-weight: 800;
+            color: var(--primary);
+        }
+
+        .contact {
+            padding: 80px 0;
+            background-color: var(--white);
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: start;
+        }
+
+        .contact-info h2 {
+            font-family: var(--font-display);
+            font-size: 2.2rem;
+            color: var(--secondary);
+            margin-bottom: 18px;
+        }
+
+        .contact-info p {
+            color: var(--text-light);
+            margin-bottom: 35px;
+        }
+
+        .info-row {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 25px;
+            align-items: flex-start;
+        }
+
+        .info-icon {
+            font-size: 1.5rem;
+            background-color: rgba(146, 64, 14, 0.08);
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .info-text strong {
+            display: block;
+            color: var(--secondary);
+            font-size: 1rem;
+            margin-bottom: 4px;
+        }
+
+        .info-text span {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+
+        .form-box {
+            background-color: var(--background);
+            border-radius: var(--border-radius-lg);
+            padding: 40px;
+            border: 1px solid rgba(146, 64, 14, 0.05);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .form-box h3 {
+            font-size: 1.5rem;
+            color: var(--secondary);
+            margin-bottom: 25px;
+            font-weight: 700;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--secondary);
+        }
+
+        .form-group input, .form-group textarea, .form-group select {
+            width: 100%;
+            padding: 12px 16px;
+            border-radius: var(--border-radius-sm);
+            border: 1px solid var(--border-color);
+            background-color: var(--white);
+            font-family: var(--font-main);
+            font-size: 1rem;
+            color: var(--text-dark);
+            outline: none;
+            transition: var(--transition);
+        }
+
+        .form-group input:focus, .form-group textarea:focus, .form-group select:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(146, 64, 14, 0.15);
+        }
+
+        footer {
+            background-color: var(--secondary);
+            color: var(--white);
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        footer p {
+            opacity: 0.7;
+            font-size: 0.95rem;
+        }
+
+        /* Sticky Mobile Action Bar */
+        .sticky-mobile-bar {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: var(--white);
+            border-top: 1px solid var(--border-color);
+            padding: 12px 16px;
+            z-index: 999;
+            box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.05);
+        }
+
+        .btn-sticky {
+            flex: 1;
+            text-align: center;
+            padding: 12px 0;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.95rem;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            min-height: 48px;
+        }
+
+        .btn-sticky-call {
+            background-color: transparent;
+            border: 2px solid var(--primary);
+            color: var(--primary);
+        }
+
+        .btn-sticky-whatsapp {
+            background-color: #25d366;
+            color: var(--white);
+            border: none;
+            box-shadow: 0 4px 10px rgba(37, 211, 102, 0.3);
+        }
+
+        /* Responsive */
+        @media (max-width: 992px) {
+            .hero-grid, .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            .hero-img-container {
+                order: -1;
+            }
+            .services-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            header {
+                padding: 12px 0;
+            }
+            .nav-links {
+                display: none;
+            }
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+            .sticky-mobile-bar {
+                display: flex;
+                gap: 12px;
+            }
+            .pricing-list-container {
+                padding: 24px;
+            }
+            .contact-info h2 {
+                font-size: 1.8rem;
+            }
+            .form-box {
+                padding: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <a href="#" class="logo">Cizmărie <span>Lizeanu</span></a>
+            <ul class="nav-links">
+                <li><a href="#servicii">Servicii</a></li>
+                <li><a href="#preturi">Tarife</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="tel:0727703463" class="btn btn-outline" style="padding: 8px 18px; min-height: auto;">📞 0727 703 463</a></li>
+            </ul>
+            <a href="#contact" class="btn" style="padding: 10px 20px; font-size: 0.85rem; min-height: 40px;">Cere Estimare</a>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <div class="badge">Meșteșug Tradițional & Precizie</div>
+                <h1>Încalță-te cu <span>Încredere</span>, de Restul Ne Ocupăm Noi</h1>
+                <p>Reparăm și recondiționăm încălțăminte de orice tip și articole de marochinărie fină. Lucrăm cu piele naturală, materiale premium și adezivi profesionali de înaltă rezistență, chiar în zona Lizeanu, București.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn">Cere Estimare pe WhatsApp 💬</a>
+                    <a href="#servicii" class="btn btn-outline">Vezi Servicii</a>
+                </div>
+            </div>
+            <div class="hero-img-container">
+                <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=600&q=80" alt="Cizmărie Reparatii Incaltaminte" class="hero-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="servicii" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Serviciile Noastre</h2>
+                <p>Redăm viață pantofilor, cizmelor și accesoriilor dumneavoastră preferate prin servicii profesionale de reparații și finisare.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <span class="service-icon">👞</span>
+                    <h3>Reparații Încălțăminte</h3>
+                    <p>Înlocuire flecuri, pingele, cusături manuale și mecanice, lipire profesională, schimbare fermoare cizme și lărgire calapoade.</p>
+                </div>
+                <div class="service-card">
+                    <span class="service-icon">👜</span>
+                    <h3>Marochinărie & Genți</h3>
+                    <p>Recondiționăm genți, curele, portofele și genți de voiaj. Schimbăm catarame, curele rupte, fermoare și elemente metalice decorative.</p>
+                </div>
+                <div class="service-card">
+                    <span class="service-icon">🎨</span>
+                    <h3>Vopsire & Recondiționare</h3>
+                    <p>Vopsire profesională a pielii naturale, refacere culori decolorate, curățare profundă de pete, impermeabilizare și hidratare.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="preturi" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tarife Orientative</h2>
+                <p>Oferim prețuri corecte și manoperă de calitate. Estimarea finală se face la primirea produsului.</p>
+            </div>
+            <div class="pricing-list-container">
+                <div class="pricing-row">
+                    <span class="pricing-name">Înlocuit flecuri (pereche)</span>
+                    <span class="pricing-price">de la 35 RON</span>
+                </div>
+                <div class="pricing-row">
+                    <span class="pricing-name">Cusătură de întărire / Lipire simplă</span>
+                    <span class="pricing-price">de la 15 RON</span>
+                </div>
+                <div class="pricing-row">
+                    <span class="pricing-name">Schimbat fermoar cizmă sau gheată</span>
+                    <span class="pricing-price">de la 45 RON</span>
+                </div>
+                <div class="pricing-row">
+                    <span class="pricing-name">Vopsit & Recondiționat pantofi piele</span>
+                    <span class="pricing-price">de la 60 RON</span>
+                </div>
+                <div class="pricing-row">
+                    <span class="pricing-name">Reparații genți (cataramă / curea / fermoar)</span>
+                    <span class="pricing-price">de la 30 RON</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Harta -->
+    <section id="contact" class="contact">
+        <div class="container contact-grid">
+            <div class="contact-info">
+                <h2>Unde Ne Găsești?</h2>
+                <p>Atelierul nostru este situat convenabil în Sectorul 2, gata să vă ajute cu orice problemă.</p>
+                
+                <div class="info-row">
+                    <div class="info-icon">📍</div>
+                    <div class="info-text">
+                        <strong>Adresă Atelier</strong>
+                        <span>Str. Lizeanu, nr. 15, Sector 2, București</span>
+                    </div>
+                </div>
+                
+                <div class="info-row">
+                    <div class="info-icon">📞</div>
+                    <div class="info-text">
+                        <strong>Telefon Contact</strong>
+                        <span>0727 703 463</span>
+                    </div>
+                </div>
+
+                <div class="info-row">
+                    <div class="info-icon">🕒</div>
+                    <div class="info-text">
+                        <strong>Orar Funcționare</strong>
+                        <span>Luni - Vineri: 08:30 - 18:00 | Sâmbătă: 09:00 - 13:00 | Duminică: Închis</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-box">
+                <h3>Cere Estimare Preț pe WhatsApp</h3>
+                <form id="whatsapp-form">
+                    <div class="form-group">
+                        <label for="name">Nume Complet</label>
+                        <input type="text" id="name" required placeholder="Numele tău">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telefon contact</label>
+                        <input type="tel" id="phone" required placeholder="07xx xxx xxx">
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Tip Produs / Serviciu</label>
+                        <select id="service">
+                            <option>Reparație Încălțăminte (pantofi/cizme)</option>
+                            <option>Reparație Marochinărie (geantă/curea)</option>
+                            <option>Vopsire / Curățare Piele</option>
+                            <option>Altă solicitare</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="details">Descrie problema (ex: fermoar rupt, flec uzat)</label>
+                        <textarea id="details" rows="3" required placeholder="Doresc să schimb flecurile la o pereche de ghete și să repar o cusătură la o geantă..."></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="width: 100%; margin-top: 10px;">Trimite Solicitare pe WhatsApp 💬</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sticky Mobile Action Bar -->
+    <div class="sticky-mobile-bar">
+        <a href="tel:0727703463" class="btn-sticky btn-sticky-call">📞 Sună Acum</a>
+        <a href="https://wa.me/40727703463" class="btn-sticky btn-sticky-whatsapp" target="_blank">💬 WhatsApp</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 <strong>Cizmărie & Marochinărie Lizeanu</strong>. Toate drepturile rezervate.</p>
+            <p style="font-size: 0.8rem; margin-top: 15px; opacity: 0.5;">Design propus pentru modernizarea digitală a afacerii.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('whatsapp-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const name = encodeURIComponent(document.getElementById('name').value);
+            const phone = encodeURIComponent(document.getElementById('phone').value);
+            const service = encodeURIComponent(document.getElementById('service').value);
+            const details = encodeURIComponent(document.getElementById('details').value);
+            const text = `Bună ziua, mă numesc ${name} (Tel: ${phone}). Aș dori o estimare de preț pentru serviciul "${service}": ${details}`;
+            window.open(`https://wa.me/40727703463?text=${text}`, '_blank');
+        });
+    </script>
+</body>
+</html>

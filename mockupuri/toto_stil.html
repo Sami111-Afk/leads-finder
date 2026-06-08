@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Savuro Salon - Coafor, Manichiură și Machiaj Profesional București</title>
+    <title>Toto Stil - Salon de Cosmetică și Frizerie Canină Berceni București</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,15 +11,14 @@
     
     <style>
         :root {
-            --primary: #a855f7;       /* Orchid Purple / Lavandă */
-            --primary-hover: #9333ea;
-            --secondary: #1e1b4b;     /* Deep Indigo / Violet regal */
-            --secondary-hover: #0f0b36;
-            --background: #faf5ff;    /* Bej-lavandă deschis */
+            --primary: #0d9488;       /* Teal / Turcoaz închis premium */
+            --primary-hover: #0f766e;
+            --secondary: #451a03;     /* Maro ciocolată cald / Brown */
+            --background: #f0fdfa;    /* Bej-turcoaz foarte pal deschis */
             --surface: #ffffff;
-            --text-dark: #1e1b4b;
-            --text-light: #6b7280;
-            --border-color: #f3e8ff;
+            --text-dark: #451a03;
+            --text-light: #5f370e;
+            --border-color: #ccfbf1;
             --white: #ffffff;
             --border-radius-lg: 24px;
             --border-radius-md: 16px;
@@ -27,9 +26,9 @@
             --font-main: 'Plus Jakarta Sans', sans-serif;
             --font-display: 'Playfair Display', serif;
             --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-            --shadow-sm: 0 4px 12px rgba(168, 85, 247, 0.03);
-            --shadow-md: 0 12px 30px rgba(168, 85, 247, 0.06);
-            --shadow-lg: 0 20px 40px rgba(168, 85, 247, 0.1);
+            --shadow-sm: 0 4px 12px rgba(13, 148, 136, 0.03);
+            --shadow-md: 0 12px 30px rgba(13, 148, 136, 0.06);
+            --shadow-lg: 0 20px 40px rgba(13, 148, 136, 0.1);
         }
 
         * {
@@ -63,10 +62,10 @@
             top: 0;
             left: 0;
             width: 100%;
-            background: rgba(250, 245, 255, 0.85);
+            background: rgba(240, 253, 250, 0.85);
             backdrop-filter: blur(12px);
             -webkit-backdrop-filter: blur(12px);
-            border-bottom: 1px solid rgba(168, 85, 247, 0.1);
+            border-bottom: 1px solid rgba(13, 148, 136, 0.15);
             z-index: 1000;
             padding: 16px 0;
             transition: var(--transition);
@@ -81,7 +80,7 @@
         .logo {
             font-family: var(--font-display);
             font-weight: 700;
-            font-size: 1.4rem;
+            font-size: 1.3rem;
             color: var(--secondary);
             text-decoration: none;
             letter-spacing: -0.5px;
@@ -125,14 +124,14 @@
             justify-content: center;
             gap: 8px;
             transition: var(--transition);
-            box-shadow: 0 4px 14px rgba(168, 85, 247, 0.2);
+            box-shadow: 0 4px 14px rgba(13, 148, 136, 0.2);
             min-height: 48px;
         }
 
         .btn:hover, .btn:active {
             background-color: var(--primary-hover);
             transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(168, 85, 247, 0.3);
+            box-shadow: 0 6px 20px rgba(13, 148, 136, 0.3);
         }
 
         .btn-outline {
@@ -150,7 +149,7 @@
 
         .hero {
             padding: 140px 0 70px;
-            background: radial-gradient(circle at 90% 10%, rgba(168, 85, 247, 0.08), transparent 50%);
+            background: radial-gradient(circle at 90% 10%, rgba(13, 148, 136, 0.08), transparent 50%);
         }
 
         .hero-grid {
@@ -162,7 +161,7 @@
 
         .badge {
             display: inline-block;
-            background-color: rgba(168, 85, 247, 0.08);
+            background-color: rgba(13, 148, 136, 0.08);
             color: var(--primary);
             padding: 6px 14px;
             border-radius: 50px;
@@ -246,28 +245,27 @@
             background-color: var(--background);
             border-radius: var(--border-radius-md);
             padding: 30px;
-            border: 1px solid var(--border-color);
+            border: 1px solid rgba(13, 148, 136, 0.05);
             transition: var(--transition);
         }
 
         .service-card:hover {
             transform: translateY(-5px);
-            border-color: var(--primary);
             box-shadow: var(--shadow-md);
+            border-color: rgba(13, 148, 136, 0.15);
         }
 
         .service-icon {
-            font-size: 2rem;
-            color: var(--primary);
+            font-size: 2.5rem;
             margin-bottom: 20px;
             display: inline-block;
         }
 
         .service-card h3 {
-            font-family: var(--font-display);
-            font-size: 1.3rem;
+            font-size: 1.25rem;
             color: var(--secondary);
-            margin-bottom: 10px;
+            margin-bottom: 12px;
+            font-weight: 700;
         }
 
         .service-card p {
@@ -283,31 +281,36 @@
         .pricing-list-container {
             max-width: 800px;
             margin: 0 auto;
-            background: var(--white);
-            padding: 30px;
-            border-radius: var(--border-radius-md);
-            box-shadow: var(--shadow-sm);
-            border: 1px solid var(--border-color);
+            background-color: var(--white);
+            border-radius: var(--border-radius-lg);
+            padding: 40px;
+            box-shadow: var(--shadow-md);
         }
 
         .pricing-row {
             display: flex;
             justify-content: space-between;
+            align-items: center;
             padding: 16px 0;
-            border-bottom: 1px solid var(--border-color);
+            border-bottom: 1px dashed var(--border-color);
         }
 
         .pricing-row:last-child {
             border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .pricing-row:first-child {
+            padding-top: 0;
         }
 
         .pricing-name {
             font-weight: 600;
-            color: var(--text-dark);
+            color: var(--secondary);
         }
 
         .pricing-price {
-            font-weight: 700;
+            font-weight: 800;
             color: var(--primary);
         }
 
@@ -318,46 +321,47 @@
 
         .contact-grid {
             display: grid;
-            grid-template-columns: 1.1fr 0.9fr;
-            gap: 40px;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: start;
         }
 
         .contact-info h2 {
             font-family: var(--font-display);
-            font-size: clamp(1.8rem, 4vw, 2.4rem);
+            font-size: 2.2rem;
             color: var(--secondary);
-            margin-bottom: 15px;
+            margin-bottom: 18px;
         }
 
         .contact-info p {
             color: var(--text-light);
-            margin-bottom: 30px;
+            margin-bottom: 35px;
         }
 
         .info-row {
             display: flex;
             gap: 16px;
-            margin-bottom: 24px;
+            margin-bottom: 25px;
             align-items: flex-start;
         }
 
         .info-icon {
-            font-size: 1.3rem;
-            background-color: rgba(168, 85, 247, 0.08);
-            color: var(--primary);
-            padding: 10px;
+            font-size: 1.5rem;
+            background-color: rgba(13, 148, 136, 0.08);
+            width: 48px;
+            height: 48px;
             border-radius: 50%;
-            line-height: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             flex-shrink: 0;
         }
 
         .info-text strong {
             display: block;
             color: var(--secondary);
-            margin-bottom: 2px;
-            font-size: 0.9rem;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
+            font-size: 1rem;
+            margin-bottom: 4px;
         }
 
         .info-text span {
@@ -367,89 +371,47 @@
 
         .form-box {
             background-color: var(--background);
-            border-radius: var(--border-radius-md);
-            padding: 30px;
-            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius-lg);
+            padding: 40px;
+            border: 1px solid rgba(13, 148, 136, 0.05);
             box-shadow: var(--shadow-sm);
         }
 
         .form-box h3 {
-            font-family: var(--font-display);
-            font-size: 1.4rem;
+            font-size: 1.5rem;
             color: var(--secondary);
-            margin-bottom: 20px;
+            margin-bottom: 25px;
+            font-weight: 700;
         }
 
         .form-group {
-            margin-bottom: 16px;
+            margin-bottom: 20px;
         }
 
         .form-group label {
             display: block;
-            font-weight: 700;
-            font-size: 0.8rem;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            margin-bottom: 6px;
-            color: var(--text-dark);
+            margin-bottom: 8px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--secondary);
         }
 
-        .form-group input, .form-group textarea {
+        .form-group input, .form-group textarea, .form-group select {
             width: 100%;
             padding: 12px 16px;
             border-radius: var(--border-radius-sm);
-            border: 1px solid rgba(168, 85, 247, 0.1);
+            border: 1px solid var(--border-color);
             background-color: var(--white);
             font-family: var(--font-main);
             font-size: 1rem;
+            color: var(--text-dark);
             outline: none;
             transition: var(--transition);
         }
 
-        .form-group input:focus, .form-group textarea:focus {
+        .form-group input:focus, .form-group textarea:focus, .form-group select:focus {
             border-color: var(--primary);
-            box-shadow: 0 0 0 3px rgba(168, 85, 247, 0.1);
-        }
-
-        .sticky-mobile-bar {
-            display: none;
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            background: rgba(255, 255, 255, 0.9);
-            backdrop-filter: blur(16px);
-            -webkit-backdrop-filter: blur(16px);
-            border-top: 1px solid var(--border-color);
-            padding: 12px 16px;
-            z-index: 999;
-            box-shadow: 0 -8px 30px rgba(0, 0, 0, 0.05);
-            justify-content: space-between;
-            gap: 10px;
-        }
-
-        .sticky-mobile-bar .btn-sticky {
-            flex: 1;
-            min-height: 48px;
-            border-radius: 50px;
-            font-weight: 700;
-            font-size: 0.9rem;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            gap: 6px;
-            text-decoration: none;
-            transition: var(--transition);
-        }
-
-        .btn-sticky-call {
-            background-color: var(--secondary);
-            color: var(--white);
-        }
-
-        .btn-sticky-whatsapp {
-            background-color: #25d366;
-            color: var(--white);
+            box-shadow: 0 0 0 3px rgba(13, 148, 136, 0.15);
         }
 
         footer {
@@ -460,44 +422,88 @@
         }
 
         footer p {
-            opacity: 0.8;
-            font-size: 0.85rem;
+            opacity: 0.7;
+            font-size: 0.95rem;
+        }
+
+        /* Sticky Mobile Action Bar */
+        .sticky-mobile-bar {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: var(--white);
+            border-top: 1px solid var(--border-color);
+            padding: 12px 16px;
+            z-index: 999;
+            box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.05);
+        }
+
+        .btn-sticky {
+            flex: 1;
+            text-align: center;
+            padding: 12px 0;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.95rem;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            min-height: 48px;
+        }
+
+        .btn-sticky-call {
+            background-color: transparent;
+            border: 2px solid var(--primary);
+            color: var(--primary);
+        }
+
+        .btn-sticky-whatsapp {
+            background-color: #25d366;
+            color: var(--white);
+            border: none;
+            box-shadow: 0 4px 10px rgba(37, 211, 102, 0.3);
+        }
+
+        /* Responsive */
+        @media (max-width: 992px) {
+            .hero-grid, .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            .hero-img-container {
+                order: -1;
+            }
+            .services-grid {
+                grid-template-columns: 1fr 1fr;
+            }
         }
 
         @media (max-width: 768px) {
+            header {
+                padding: 12px 0;
+            }
             .nav-links {
                 display: none;
             }
-
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
             .sticky-mobile-bar {
                 display: flex;
+                gap: 12px;
             }
-
-            .hero {
-                padding: 100px 0 40px;
-                text-align: center;
+            .pricing-list-container {
+                padding: 24px;
             }
-
-            .hero-grid, .services-grid, .contact-grid {
-                grid-template-columns: 1fr;
-                gap: 30px;
+            .contact-info h2 {
+                font-size: 1.8rem;
             }
-
-            .hero-buttons {
-                justify-content: center;
-            }
-
-            .hero-img-container {
-                order: -1;
-                margin-bottom: 10px;
-            }
-
-            .hero-img {
-                max-width: 320px;
-            }
-
             .form-box {
-                padding: 20px;
+                padding: 24px;
             }
         }
     </style>
@@ -507,13 +513,14 @@
     <!-- Header -->
     <header>
         <div class="container header-content">
-            <a href="#" class="logo">✨ Savuro <span>Salon</span></a>
+            <a href="#" class="logo">Toto <span>Stil</span></a>
             <ul class="nav-links">
                 <li><a href="#servicii">Servicii</a></li>
                 <li><a href="#preturi">Tarife</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="tel:0727968589" class="btn">Fă o Programare</a></li>
+                <li><a href="tel:0731858000" class="btn btn-outline" style="padding: 8px 18px; min-height: auto;">📞 0731 858 000</a></li>
             </ul>
+            <a href="#contact" class="btn" style="padding: 10px 20px; font-size: 0.85rem; min-height: 40px;">Fă o Programare</a>
         </div>
     </header>
 
@@ -521,16 +528,16 @@
     <section class="hero">
         <div class="container hero-grid">
             <div class="hero-content">
-                <div class="badge">Salon Înfrumusețare / Sector 5</div>
-                <h1>Frumusețe și stil <span>croite special pentru tine</span></h1>
-                <p>Te invităm să te relaxezi și să te lași răsfățată de experții noștri în frumusețe. De la tunsori moderne și balayage impecabil, la servicii complete de manichiură și machiaj profesional de seară. Totul la standarde înalte în zona Panduri.</p>
+                <div class="badge">Salon & Cosmetică Canină Premium</div>
+                <h1>Răsfăț și Îngrijire pentru <span>Cel Mai Bun Prieten</span></h1>
+                <p>La Toto Stil, credem că fiecare cățel merită să se simtă curat, iubit și răsfățat. Oferim servicii profesionale de tuns, spălat, descâlcit și toaletaj complet fără sedare sau stres, chiar în zona Berceni, Sectorul 4.</p>
                 <div class="hero-buttons">
-                    <a href="#contact" class="btn">Programare rapidă WhatsApp</a>
-                    <a href="#servicii" class="btn btn-outline">Vezi Lista Prețuri</a>
+                    <a href="#contact" class="btn">Programează-te pe WhatsApp 💬</a>
+                    <a href="#servicii" class="btn btn-outline">Vezi Servicii</a>
                 </div>
             </div>
             <div class="hero-img-container">
-                <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=600&q=80" alt="Savuro Salon Beauty" class="hero-img">
+                <img src="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&w=600&q=80" alt="Cosmetica Canina Frizerie Caine" class="hero-img">
             </div>
         </div>
     </section>
@@ -539,24 +546,24 @@
     <section id="servicii" class="services">
         <div class="container">
             <div class="section-header">
-                <h2>Răsfăț și Servicii Complete</h2>
-                <p>Oferim tratamente de top cu produse profesionale pentru a-ți evidenția strălucirea naturală.</p>
+                <h2>Serviciile Noastre</h2>
+                <p>Oferim pachete complete de grooming, adaptate nevoilor specifice ale blănii și rasei cățelușului tău.</p>
             </div>
             <div class="services-grid">
                 <div class="service-card">
-                    <span class="service-icon">💇‍♀️</span>
-                    <h3>Hair Styling</h3>
-                    <p>Tunsori personalizate, vopsit clasic, balayage, tratamente de refacere capilară și coafat pentru orice eveniment.</p>
+                    <span class="service-icon">✂️</span>
+                    <h3>Tuns Profesional</h3>
+                    <p>Tuns din foarfecă sau mașină, adaptat rasei sau cerințelor stăpânului. Igienizarea lăbuțelor, abdomenului și zonei intime inclusă.</p>
                 </div>
                 <div class="service-card">
-                    <span class="service-icon">💅</span>
-                    <h3>Manichiură & Pedichiură</h3>
-                    <p>Stilizare unghii cu gel, ojă semipermanentă clasică sau Apex, pedichiură estetică și tratamente cu parafină caldă.</p>
+                    <span class="service-icon">🛁</span>
+                    <h3>Spălat & Răsfăț</h3>
+                    <p>Spălare cu șampoane profesionale adaptate tipului de blană, masaj relaxant, uscare rapidă și periat profund pentru descâlcire.</p>
                 </div>
                 <div class="service-card">
-                    <span class="service-icon">💄</span>
-                    <h3>Cosmetică & Machiaj</h3>
-                    <p>Machiaj profesional de zi, seară sau mireasă, pensat profesional, stilizare sprâncene și gene.</p>
+                    <span class="service-icon">🐾</span>
+                    <h3>Îngrijire Completă</h3>
+                    <p>Tăiat unghii cu clește special, curățat ochi și urechi, vidat glande și hidratare cu uleiuri speciale pentru pernuțele lăbuțelor.</p>
                 </div>
             </div>
         </div>
@@ -566,33 +573,29 @@
     <section id="preturi" class="pricing">
         <div class="container">
             <div class="section-header">
-                <h2>Lista de Tarife</h2>
-                <p>Servicii premium la prețuri corecte. Iată tarifele noastre de bază orientative.</p>
+                <h2>Tarife Orientative</h2>
+                <p>Tarife variate în funcție de talia și starea blănii cățelului. Lucrăm cu atenție sporită pentru confortul lor.</p>
             </div>
             <div class="pricing-list-container">
                 <div class="pricing-row">
-                    <span class="pricing-name">Tuns damă + Spălat + Coafat lejer</span>
-                    <span class="pricing-price">de la 80 RON</span>
-                </div>
-                <div class="pricing-row">
-                    <span class="pricing-name">Tuns bărbați + Spălat + Stilizat</span>
-                    <span class="pricing-price">45 RON</span>
-                </div>
-                <div class="pricing-row">
-                    <span class="pricing-name">Vopsit clasic + Tratament (fără vopsea inclusă)</span>
+                    <span class="pricing-name">Pachet complet talie mică (ex: Bichon, Yorkie, Pomeranian)</span>
                     <span class="pricing-price">de la 120 RON</span>
                 </div>
                 <div class="pricing-row">
-                    <span class="pricing-name">Manichiură clasică cu ojă semipermanentă</span>
-                    <span class="pricing-price">de la 90 RON</span>
+                    <span class="pricing-name">Pachet complet talie medie (ex: Cocker, Fox Terrier)</span>
+                    <span class="pricing-price">de la 160 RON</span>
                 </div>
                 <div class="pricing-row">
-                    <span class="pricing-name">Construcție unghii gel (Nivel scurt/mediu)</span>
-                    <span class="pricing-price">de la 150 RON</span>
+                    <span class="pricing-name">Spălat + Uscat simplu (talie mică)</span>
+                    <span class="pricing-price">de la 60 RON</span>
                 </div>
                 <div class="pricing-row">
-                    <span class="pricing-name">Machiaj profesional de seară (produse de lux)</span>
-                    <span class="pricing-price">de la 180 RON</span>
+                    <span class="pricing-name">Tăiat unghii + Curățat urechi</span>
+                    <span class="pricing-price">de la 40 RON</span>
+                </div>
+                <div class="pricing-row">
+                    <span class="pricing-name">Descâlcit blană foarte afectată (per oră)</span>
+                    <span class="pricing-price">50 RON</span>
                 </div>
             </div>
         </div>
@@ -602,22 +605,22 @@
     <section id="contact" class="contact">
         <div class="container contact-grid">
             <div class="contact-info">
-                <h2>Unde ne găsești?</h2>
-                <p>Te așteptăm cu drag în atmosfera primitoare a salonului nostru din Strada Panduri nr. 28, Sector 5. Se recomandă programare prealabilă.</p>
+                <h2>Locație & Programări</h2>
+                <p>Suntem situați pe Strada Nițu Vasile, foarte aproape de intrarea în cartierul Berceni. Vă așteptăm cu drag!</p>
                 
                 <div class="info-row">
                     <div class="info-icon">📍</div>
                     <div class="info-text">
                         <strong>Adresă Salon</strong>
-                        <span>Strada Panduri nr. 28, Sector 5, București</span>
+                        <span>Str. Nițu Vasile nr. 69, Sector 4, București (zona Berceni)</span>
                     </div>
                 </div>
                 
                 <div class="info-row">
                     <div class="info-icon">📞</div>
                     <div class="info-text">
-                        <strong>Telefon Programări</strong>
-                        <span>0727 968 589</span>
+                        <strong>Telefon Contact</strong>
+                        <span>0731 858 000</span>
                     </div>
                 </div>
 
@@ -625,16 +628,16 @@
                     <div class="info-icon">🕒</div>
                     <div class="info-text">
                         <strong>Orar Funcționare</strong>
-                        <span>Luni - Vineri: 09:00 - 20:00 | Sâmbătă: 09:00 - 17:00 | Duminică: Închis</span>
+                        <span>Luni - Sâmbătă: 09:00 - 19:00 | Duminică: Închis</span>
                     </div>
                 </div>
             </div>
             
             <div class="form-box">
-                <h3>Solicită o Programare</h3>
+                <h3>Programează o Ședință de Răsfăț</h3>
                 <form id="whatsapp-form">
                     <div class="form-group">
-                        <label for="name">Nume Complet</label>
+                        <label for="name">Nume Stăpân</label>
                         <input type="text" id="name" required placeholder="Numele tău">
                     </div>
                     <div class="form-group">
@@ -642,10 +645,23 @@
                         <input type="tel" id="phone" required placeholder="07xx xxx xxx">
                     </div>
                     <div class="form-group">
-                        <label for="details">Serviciile dorite / Dată & Oră preferate</label>
-                        <textarea id="details" rows="3" required placeholder="Doresc un vopsit balayage și manichiură semipermanentă pentru vineri după ora 16:00..."></textarea>
+                        <label for="dog-breed">Rasa & Talia Cățelului</label>
+                        <input type="text" id="dog-breed" required placeholder="ex: Bichon Maltez, 5kg">
                     </div>
-                    <button type="submit" class="btn" style="width: 100%; margin-top: 10px;">Trimite Solicitare pe WhatsApp 💬</button>
+                    <div class="form-group">
+                        <label for="service">Pachet Grooming</label>
+                        <select id="service">
+                            <option>Pachet Complet (Tuns + Spălat + Unghii + Urechi)</option>
+                            <option>Doar Spălat + Periat</option>
+                            <option>Doar Tuns Igienic</option>
+                            <option>Tratament Descâlcire / Subpăr</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="details">Detalii despre comportament sau cerințe speciale</label>
+                        <textarea id="details" rows="3" required placeholder="Este sensibil la uscătorul de păr, doresc un tuns mai scurt pe corp..."></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="width: 100%; margin-top: 10px;">Trimite Solicitarea pe WhatsApp 💬</button>
                 </form>
             </div>
         </div>
@@ -653,15 +669,15 @@
 
     <!-- Sticky Mobile Action Bar -->
     <div class="sticky-mobile-bar">
-        <a href="tel:0727968589" class="btn-sticky btn-sticky-call">📞 Sună Acum</a>
-        <a href="https://wa.me/40727968589" class="btn-sticky btn-sticky-whatsapp" target="_blank">💬 WhatsApp</a>
+        <a href="tel:0731858000" class="btn-sticky btn-sticky-call">📞 Sună Acum</a>
+        <a href="https://wa.me/40731858000" class="btn-sticky btn-sticky-whatsapp" target="_blank">💬 WhatsApp</a>
     </div>
 
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2026 <strong>Savuro Salon</strong>. Toate drepturile rezervate.</p>
-            <p style="font-size: 0.8rem; margin-top: 15px; opacity: 0.5;">Propunere de pagină web de prezentare mobil-friendly.</p>
+            <p>&copy; 2026 <strong>Toto Stil Berceni</strong>. Toate drepturile rezervate.</p>
+            <p style="font-size: 0.8rem; margin-top: 15px; opacity: 0.5;">Design propus pentru modernizarea digitală a afacerii.</p>
         </div>
     </footer>
 
@@ -670,9 +686,11 @@
             e.preventDefault();
             const name = encodeURIComponent(document.getElementById('name').value);
             const phone = encodeURIComponent(document.getElementById('phone').value);
+            const breed = encodeURIComponent(document.getElementById('dog-breed').value);
+            const service = encodeURIComponent(document.getElementById('service').value);
             const details = encodeURIComponent(document.getElementById('details').value);
-            const text = `Bună ziua, mă numesc ${name} (Tel: ${phone}). Doresc o programare pentru următoarele servicii: ${details}`;
-            window.open(`https://wa.me/40727968589?text=${text}`, '_blank');
+            const text = `Bună ziua, mă numesc ${name} (Tel: ${phone}). Aș dori o programare de cosmetică pentru cățelul meu (${breed}) la pachetul "${service}": ${details}`;
+            window.open(`https://wa.me/40731858000?text=${text}`, '_blank');
         });
     </script>
 </body>
