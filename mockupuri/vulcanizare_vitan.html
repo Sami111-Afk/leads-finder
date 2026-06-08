@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Vulcanizare Vitan Non-Stop & Vulcanizare Mobilă București</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary: #eab308;       /* Galben reflectorizant / Safety Yellow */
+            --primary-hover: #ca8a04;
+            --secondary: #1c1917;     /* Stone / Cărbune cald */
+            --secondary-hover: #0c0a09;
+            --background: #0c0a09;    /* Fundal negru profund */
+            --surface: #1c1917;       /* Suprafață carduri */
+            --text-dark: #fafaf9;     /* Text deschis pe fundal închis */
+            --text-light: #a8a29e;    /* Text gri secundar */
+            --border-color: #2e2a24;
+            --white: #ffffff;
+            --border-radius-lg: 24px;
+            --border-radius-md: 16px;
+            --border-radius-sm: 8px;
+            --font-main: 'Plus Jakarta Sans', sans-serif;
+            --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+            --shadow-sm: 0 4px 12px rgba(234, 179, 8, 0.05);
+            --shadow-md: 0 12px 30px rgba(0, 0, 0, 0.5);
+            --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.7);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-main);
+            background-color: var(--background);
+            color: var(--text-dark);
+            line-height: 1.6;
+            overflow-x: hidden;
+            padding-bottom: 80px; 
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(12, 10, 9, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border-color);
+            z-index: 1000;
+            padding: 16px 0;
+            transition: var(--transition);
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-weight: 800;
+            font-size: 1.4rem;
+            color: var(--white);
+            text-decoration: none;
+            letter-spacing: -0.5px;
+        }
+
+        .logo span {
+            color: var(--primary);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 24px;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-light);
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: var(--transition);
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        .btn {
+            background-color: var(--primary);
+            color: var(--secondary) !important;
+            padding: 12px 28px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.95rem;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: var(--transition);
+            box-shadow: 0 4px 14px rgba(234, 179, 8, 0.3);
+            min-height: 48px;
+        }
+
+        .btn:hover, .btn:active {
+            background-color: var(--primary-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(234, 179, 8, 0.4);
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            color: var(--white) !important;
+            border: 2px solid var(--primary);
+            box-shadow: none;
+        }
+
+        .btn-outline:hover, .btn-outline:active {
+            background-color: var(--primary);
+            color: var(--secondary) !important;
+            box-shadow: none;
+        }
+
+        .hero {
+            padding: 140px 0 70px;
+            background: radial-gradient(circle at 90% 10%, rgba(234, 179, 8, 0.1), transparent 50%);
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .badge {
+            display: inline-block;
+            background-color: rgba(234, 179, 8, 0.15);
+            color: var(--primary);
+            padding: 6px 14px;
+            border-radius: 50px;
+            font-size: 0.75rem;
+            font-weight: 800;
+            margin-bottom: 18px;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        .hero h1 {
+            font-size: clamp(2.2rem, 5vw, 3.2rem);
+            font-weight: 800;
+            line-height: 1.15;
+            color: var(--white);
+            margin-bottom: 18px;
+        }
+
+        .hero h1 span {
+            color: var(--primary);
+        }
+
+        .hero p {
+            font-size: clamp(0.95rem, 2vw, 1.05rem);
+            color: var(--text-light);
+            margin-bottom: 30px;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .hero-img-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .hero-img {
+            width: 100%;
+            max-width: 480px;
+            height: auto;
+            border-radius: var(--border-radius-md);
+            box-shadow: var(--shadow-md);
+            border: 6px solid var(--surface);
+        }
+
+        .services {
+            padding: 80px 0;
+            background-color: var(--surface);
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto 50px;
+        }
+
+        .section-header h2 {
+            font-size: clamp(1.8rem, 4vw, 2.4rem);
+            color: var(--white);
+            margin-bottom: 12px;
+            font-weight: 800;
+        }
+
+        .section-header p {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .service-card {
+            background-color: var(--background);
+            border-radius: var(--border-radius-md);
+            padding: 30px;
+            border: 1px solid var(--border-color);
+            transition: var(--transition);
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary);
+            box-shadow: var(--shadow-md);
+        }
+
+        .service-icon {
+            font-size: 2rem;
+            color: var(--primary);
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+
+        .service-card h3 {
+            font-size: 1.3rem;
+            color: var(--white);
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .service-card p {
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+
+        .pricing {
+            padding: 80px 0;
+            background-color: var(--background);
+        }
+
+        .pricing-list-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--surface);
+            padding: 30px;
+            border-radius: var(--border-radius-md);
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--border-color);
+        }
+
+        .pricing-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 16px 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .pricing-row:last-child {
+            border-bottom: none;
+        }
+
+        .pricing-name {
+            font-weight: 600;
+            color: var(--white);
+        }
+
+        .pricing-price {
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .contact {
+            padding: 80px 0;
+            background-color: var(--surface);
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1.1fr 0.9fr;
+            gap: 40px;
+        }
+
+        .contact-info h2 {
+            font-size: clamp(1.8rem, 4vw, 2.4rem);
+            color: var(--white);
+            margin-bottom: 15px;
+            font-weight: 800;
+        }
+
+        .contact-info p {
+            color: var(--text-light);
+            margin-bottom: 30px;
+        }
+
+        .info-row {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 24px;
+            align-items: flex-start;
+        }
+
+        .info-icon {
+            font-size: 1.3rem;
+            background-color: rgba(234, 179, 8, 0.15);
+            color: var(--primary);
+            padding: 10px;
+            border-radius: 50%;
+            line-height: 1;
+            flex-shrink: 0;
+        }
+
+        .info-text strong {
+            display: block;
+            color: var(--white);
+            margin-bottom: 2px;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .info-text span {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+
+        .form-box {
+            background-color: var(--background);
+            border-radius: var(--border-radius-md);
+            padding: 30px;
+            border: 1px solid var(--border-color);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .form-box h3 {
+            font-size: 1.4rem;
+            color: var(--white);
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .form-group {
+            margin-bottom: 16px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 700;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+            color: var(--text-light);
+        }
+
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 12px 16px;
+            border-radius: var(--border-radius-sm);
+            border: 1px solid var(--border-color);
+            background-color: var(--surface);
+            font-family: var(--font-main);
+            color: var(--white);
+            font-size: 1rem;
+            outline: none;
+            transition: var(--transition);
+        }
+
+        .form-group input:focus, .form-group textarea:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(234, 179, 8, 0.2);
+        }
+
+        .sticky-mobile-bar {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(24, 24, 27, 0.9);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border-top: 1px solid var(--border-color);
+            padding: 12px 16px;
+            z-index: 999;
+            box-shadow: 0 -8px 30px rgba(0, 0, 0, 0.5);
+            justify-content: space-between;
+            gap: 10px;
+        }
+
+        .sticky-mobile-bar .btn-sticky {
+            flex: 1;
+            min-height: 48px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .btn-sticky-call {
+            background-color: var(--surface);
+            color: var(--white);
+            border: 1px solid var(--border-color);
+        }
+
+        .btn-sticky-whatsapp {
+            background-color: #25d366;
+            color: var(--white);
+        }
+
+        footer {
+            background-color: var(--secondary);
+            color: var(--text-light);
+            padding: 40px 0;
+            text-align: center;
+            border-top: 1px solid var(--border-color);
+        }
+
+        footer p {
+            opacity: 0.8;
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .sticky-mobile-bar {
+                display: flex;
+            }
+
+            .hero {
+                padding: 100px 0 40px;
+                text-align: center;
+            }
+
+            .hero-grid, .services-grid, .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            .hero-buttons {
+                justify-content: center;
+            }
+
+            .hero-img-container {
+                order: -1;
+                margin-bottom: 10px;
+            }
+
+            .hero-img {
+                max-width: 320px;
+            }
+
+            .form-box {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <a href="#" class="logo">🛞 Vulcanizare <span>Vitan</span></a>
+            <ul class="nav-links">
+                <li><a href="#servicii">Servicii</a></li>
+                <li><a href="#preturi">Prețuri</a></li>
+                <li><a href="#contact">Contact & Locație</a></li>
+                <li><a href="tel:0735533000" class="btn">Sună Acum</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <div class="badge">Vulcanizare Non-Stop & Mobilă / Sector 3</div>
+                <h1>Vulcanizare non-stop și <span>asistență mobilă 24/7</span></h1>
+                <p>Ai făcut pană în București sau Ilfov? Suntem vulcanizarea ta de încredere din Calea Vitan. Oferim servicii fixe la atelier și asistență mobilă non-stop la locația ta. Timp de intervenție rapid și profesionalism garantat!</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn">Cheamă Vulcanizarea Mobilă</a>
+                    <a href="#servicii" class="btn btn-outline">Servicii Atelier</a>
+                </div>
+            </div>
+            <div class="hero-img-container">
+                <img src="https://images.unsplash.com/photo-1578844251758-2f71da64c96f?auto=format&fit=crop&w=600&q=80" alt="Vulcanizare Vitan Servicii" class="hero-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="servicii" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Servicii Vulcanizare</h2>
+                <p>Intervenții rapide 24 de ore din 24, direct pe teren sau la atelierul nostru din Vitan.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <span class="service-icon">🛠️</span>
+                    <h3>Vulcanizare Non-Stop</h3>
+                    <p>Reparăm anvelope tăiate, înțepate sau cu pierderi de aer. Montat, dejantat și echilibrat computerizat roți.</p>
+                </div>
+                <div class="service-card">
+                    <span class="service-icon">🚚</span>
+                    <h3>Vulcanizare Mobilă 24/7</h3>
+                    <p>Autoutilitară complet echipată se deplasează la tine acasă, la birou sau pe drum pentru asistență rapidă la pană.</p>
+                </div>
+                <div class="service-card">
+                    <span class="service-icon">⚡</span>
+                    <h3>Jante & Senzori TPMS</h3>
+                    <p>Îndreptat jante din aliaj sau tablă deformate și programare, înlocuire sau calibrare senzori presiune TPMS.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="preturi" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Prețuri Servicii</h2>
+                <p>Tarife transparente pentru servicii de vulcanizare la atelier și deplasări în regim mobil.</p>
+            </div>
+            <div class="pricing-list-container">
+                <div class="pricing-row">
+                    <span class="pricing-name">Deplasare Vulcanizare Mobilă (București)</span>
+                    <span class="pricing-price">de la 120 RON</span>
+                </div>
+                <div class="pricing-row">
+                    <span class="pricing-name">Schimb set anvelope complet (4 roți, tablă R13-R16)</span>
+                    <span class="pricing-price">de la 100 RON</span>
+                </div>
+                <div class="pricing-row">
+                    <span class="pricing-name">Schimb set anvelope complet (4 roți, aliaj R16-R18)</span>
+                    <span class="pricing-price">de la 130 RON</span>
+                </div>
+                <div class="pricing-row">
+                    <span class="pricing-name">Echilibrat roată (plumb inclus)</span>
+                    <span class="pricing-price">25 RON / roată</span>
+                </div>
+                <div class="pricing-row">
+                    <span class="pricing-name">Reparație pană la atelier (șnur / petic)</span>
+                    <span class="pricing-price">de la 30 RON</span>
+                </div>
+                <div class="pricing-row">
+                    <span class="pricing-name">Îndreptat jantă aliaj (în funcție de deformare)</span>
+                    <span class="pricing-price">de la 100 RON / jantă</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Harta -->
+    <section id="contact" class="contact">
+        <div class="container contact-grid">
+            <div class="contact-info">
+                <h2>Contact & Urgențe 24/7</h2>
+                <p>Atelierul nostru fix se află pe Calea Vitan nr. 273. Pentru asistența mobilă, te rugăm să transmiți locația ta exactă prin WhatsApp sau să ne apelezi.</p>
+                
+                <div class="info-row">
+                    <div class="info-icon">📍</div>
+                    <div class="info-text">
+                        <strong>Adresă Atelier</strong>
+                        <span>Calea Vitan nr. 273, Sector 3, București</span>
+                    </div>
+                </div>
+                
+                <div class="info-row">
+                    <div class="info-icon">📞</div>
+                    <div class="info-text">
+                        <strong>Telefon Urgențe / Mobilă</strong>
+                        <span>0735 533 000</span>
+                    </div>
+                </div>
+
+                <div class="info-row">
+                    <div class="info-icon">🕒</div>
+                    <div class="info-text">
+                        <strong>Program de Lucru</strong>
+                        <span>Deschis Non-Stop (24 ore, Luni - Duminică)</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-box">
+                <h3>Solicită Asistență Rapidă</h3>
+                <form id="whatsapp-form">
+                    <div class="form-group">
+                        <label for="name">Nume Complet</label>
+                        <input type="text" id="name" required placeholder="Numele tău">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telefon contact</label>
+                        <input type="tel" id="phone" required placeholder="07xx xxx xxx">
+                    </div>
+                    <div class="form-group">
+                        <label for="details">Unde te afli (Locație) / Ce problemă ai</label>
+                        <textarea id="details" rows="3" required placeholder="Am pană la roata dreapta spate pe Splaiul Unirii nr. 10, am nevoie de vulcanizare mobilă..."></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="width: 100%; margin-top: 10px;">Solicită Intervenție pe WhatsApp 💬</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sticky Mobile Action Bar -->
+    <div class="sticky-mobile-bar">
+        <a href="tel:0735533000" class="btn-sticky btn-sticky-call">📞 Sună Acum</a>
+        <a href="https://wa.me/40735533000" class="btn-sticky btn-sticky-whatsapp" target="_blank">💬 WhatsApp</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 <strong>Vulcanizare Vitan</strong>. Toate drepturile rezervate.</p>
+            <p style="font-size: 0.8rem; margin-top: 15px; opacity: 0.5;">Design realizat pentru propunerea digitală locală.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('whatsapp-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const name = encodeURIComponent(document.getElementById('name').value);
+            const phone = encodeURIComponent(document.getElementById('phone').value);
+            const details = encodeURIComponent(document.getElementById('details').value);
+            const text = `Bună ziua, mă numesc ${name} (Tel: ${phone}). Am nevoie de asistență/vulcanizare: ${details}`;
+            window.open(`https://wa.me/40735533000?text=${text}`, '_blank');
+        });
+    </script>
+</body>
+</html>
