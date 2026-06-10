@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Turbo Wash Dudești - Spălătorie Auto Manuală & Cosmetică Auto București</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@600;800;900&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary: #ea580c;       /* Portocaliu dinamic */
+            --primary-hover: #c2410c;
+            --secondary: #0f172a;     /* Slate închis */
+            --background: #fff7ed;    /* Portocaliu-crem foarte deschis */
+            --surface: #ffffff;
+            --accent: #2563eb;        /* Albastru apă / spumă */
+            --text-dark: #0f172a;
+            --text-light: #475569;
+            --border-color: #ffedd5;
+            --white: #ffffff;
+            --border-radius-lg: 24px;
+            --border-radius-md: 16px;
+            --border-radius-sm: 8px;
+            --font-main: 'Plus Jakarta Sans', sans-serif;
+            --font-display: 'Outfit', sans-serif;
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            --shadow-sm: 0 4px 12px rgba(234, 88, 12, 0.03);
+            --shadow-md: 0 12px 30px rgba(234, 88, 12, 0.06);
+            --shadow-lg: 0 20px 40px rgba(234, 88, 12, 0.12);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-main);
+            background-color: var(--background);
+            color: var(--text-dark);
+            line-height: 1.6;
+            overflow-x: hidden;
+            padding-bottom: 80px; 
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes pulse-accent {
+            0% { box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.4); }
+            70% { box-shadow: 0 0 0 10px rgba(37, 99, 235, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(37, 99, 235, 0); }
+        }
+
+        @keyframes wave {
+            0%, 100% { transform: translateY(0) scaleY(1); }
+            50% { transform: translateY(-5px) scaleY(1.05); }
+        }
+
+        .animate-fade-up {
+            animation: fadeInUp 0.8s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+        }
+
+        .delay-1 { animation-delay: 0.2s; opacity: 0; animation-fill-mode: forwards; }
+        .delay-2 { animation-delay: 0.4s; opacity: 0; animation-fill-mode: forwards; }
+        .delay-3 { animation-delay: 0.6s; opacity: 0; animation-fill-mode: forwards; }
+
+        /* HEADER */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(255, 247, 237, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(234, 88, 12, 0.1);
+            z-index: 1000;
+            padding: 16px 0;
+            transition: var(--transition);
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: var(--font-display);
+            font-weight: 900;
+            font-size: 1.45rem;
+            color: var(--secondary);
+            text-decoration: none;
+            letter-spacing: -0.5px;
+        }
+
+        .logo span {
+            color: var(--primary);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 24px;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-dark);
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: var(--transition);
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        /* BUTTONS */
+        .btn {
+            background-color: var(--primary);
+            color: var(--white) !important;
+            padding: 12px 28px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.95rem;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: var(--transition);
+            box-shadow: 0 4px 14px rgba(234, 88, 12, 0.2);
+            min-height: 48px;
+        }
+
+        .btn:hover, .btn:active {
+            background-color: var(--primary-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(234, 88, 12, 0.3);
+        }
+
+        .btn-accent {
+            background-color: var(--accent);
+            box-shadow: 0 4px 14px rgba(37, 99, 235, 0.25);
+            animation: pulse-accent 2s infinite;
+        }
+
+        .btn-accent:hover {
+            background-color: #1d4ed8;
+            box-shadow: 0 6px 20px rgba(37, 99, 235, 0.35);
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            color: var(--secondary) !important;
+            border: 2px solid var(--secondary);
+            box-shadow: none;
+        }
+
+        .btn-outline:hover, .btn-outline:active {
+            background-color: var(--secondary);
+            color: var(--white) !important;
+        }
+
+        /* HERO */
+        .hero {
+            padding: 140px 0 70px;
+            background: radial-gradient(circle at 90% 20%, rgba(234, 88, 12, 0.08), transparent 45%);
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1.15fr 0.85fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .badge {
+            display: inline-block;
+            background-color: rgba(234, 88, 12, 0.08);
+            color: var(--primary);
+            padding: 6px 14px;
+            border-radius: 50px;
+            font-size: 0.75rem;
+            font-weight: 800;
+            margin-bottom: 18px;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        .hero h1 {
+            font-family: var(--font-display);
+            font-size: clamp(2.2rem, 5vw, 3.4rem);
+            font-weight: 900;
+            line-height: 1.15;
+            color: var(--secondary);
+            margin-bottom: 18px;
+        }
+
+        .hero h1 span {
+            color: var(--primary);
+        }
+
+        .hero p {
+            font-size: clamp(0.95rem, 2vw, 1.1rem);
+            color: var(--text-light);
+            margin-bottom: 30px;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .hero-img-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .hero-graphics {
+            width: 100%;
+            max-width: 400px;
+            height: 350px;
+            background: linear-gradient(135deg, var(--secondary) 0%, #1e293b 100%);
+            border-radius: var(--border-radius-lg);
+            position: relative;
+            box-shadow: var(--shadow-lg);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: var(--white);
+            padding: 40px;
+            text-align: center;
+            border: 6px solid var(--white);
+            animation: wave 4s infinite ease-in-out;
+        }
+
+        .hero-graphics-icon {
+            font-size: 5rem;
+            margin-bottom: 15px;
+        }
+
+        .hero-graphics h3 {
+            font-family: var(--font-display);
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            color: #fbbf24;
+        }
+
+        .hero-graphics p {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 0.95rem;
+        }
+
+        /* SERVICES */
+        .services {
+            padding: 80px 0;
+            background-color: var(--white);
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto 50px;
+        }
+
+        .section-header h2 {
+            font-family: var(--font-display);
+            font-size: clamp(1.8rem, 4vw, 2.4rem);
+            color: var(--secondary);
+            margin-bottom: 12px;
+        }
+
+        .section-header p {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .service-card {
+            background-color: var(--background);
+            border-radius: var(--border-radius-md);
+            padding: 30px;
+            border: 1px solid var(--border-color);
+            transition: var(--transition);
+        }
+
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-lg);
+            border-color: var(--primary);
+        }
+
+        .service-icon {
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+
+        .service-card h3 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--secondary);
+            margin-bottom: 10px;
+        }
+
+        .service-card p {
+            color: var(--text-light);
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+
+        .service-price {
+            font-weight: 700;
+            color: var(--primary);
+            font-size: 1.05rem;
+            border-top: 1px dashed rgba(234, 88, 12, 0.15);
+            padding-top: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .service-price span {
+            color: var(--accent);
+        }
+
+        /* WHY US */
+        .why-us {
+            padding: 80px 0;
+            background-color: var(--background);
+            border-top: 1px solid var(--border-color);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .why-us-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+        }
+
+        .why-us-features {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .feature-item {
+            display: flex;
+            gap: 16px;
+            background: var(--white);
+            padding: 20px;
+            border-radius: var(--border-radius-md);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .feature-check {
+            background-color: rgba(234, 88, 12, 0.1);
+            color: var(--primary);
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+
+        .feature-text h4 {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: var(--secondary);
+            margin-bottom: 4px;
+        }
+
+        .feature-text p {
+            color: var(--text-light);
+            font-size: 0.85rem;
+        }
+
+        /* CONTACT & FORM */
+        .contact {
+            padding: 80px 0;
+            background-color: var(--white);
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.1fr;
+            gap: 40px;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .contact-info h2 {
+            font-family: var(--font-display);
+            font-size: clamp(1.8rem, 4vw, 2.4rem);
+            color: var(--secondary);
+            margin-bottom: 15px;
+        }
+
+        .contact-info p {
+            color: var(--text-light);
+            margin-bottom: 30px;
+        }
+
+        .info-row {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 20px;
+            align-items: flex-start;
+        }
+
+        .info-icon {
+            width: 44px;
+            height: 44px;
+            background-color: var(--background);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            color: var(--primary);
+            flex-shrink: 0;
+        }
+
+        .info-text strong {
+            display: block;
+            font-size: 0.95rem;
+            color: var(--secondary);
+        }
+
+        .info-text span {
+            font-size: 0.9rem;
+            color: var(--text-light);
+        }
+
+        .form-box {
+            background-color: var(--background);
+            border-radius: var(--border-radius-lg);
+            padding: 40px;
+            border: 1px solid var(--border-color);
+            box-shadow: var(--shadow-md);
+        }
+
+        .form-box h3 {
+            font-family: var(--font-display);
+            font-size: 1.4rem;
+            color: var(--secondary);
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 16px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--secondary);
+            margin-bottom: 6px;
+        }
+
+        .form-group input, .form-group select, .form-group textarea {
+            width: 100%;
+            padding: 12px 16px;
+            border: 1px solid rgba(234, 88, 12, 0.15);
+            background-color: var(--white);
+            border-radius: var(--border-radius-sm);
+            font-family: var(--font-main);
+            font-size: 0.9rem;
+            color: var(--text-dark);
+            outline: none;
+            transition: var(--transition);
+        }
+
+        .form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(234, 88, 12, 0.15);
+        }
+
+        /* STICKY ACTIONS FOR MOBILE */
+        .sticky-mobile-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-top: 1px solid #e2e8f0;
+            padding: 12px 20px;
+            display: flex;
+            gap: 12px;
+            z-index: 999;
+            box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.05);
+        }
+
+        .btn-sticky {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 14px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            text-decoration: none;
+            min-height: 48px;
+        }
+
+        .btn-sticky-call {
+            background-color: var(--secondary);
+            color: var(--white);
+        }
+
+        .btn-sticky-whatsapp {
+            background-color: #25d366;
+            color: var(--white);
+            box-shadow: 0 4px 12px rgba(37, 211, 102, 0.2);
+        }
+
+        .btn-sticky-whatsapp:hover, .btn-sticky-whatsapp:active {
+            background-color: #128c7e;
+        }
+
+        /* FOOTER */
+        footer {
+            background-color: var(--secondary);
+            color: var(--white);
+            padding: 40px 0;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        footer p {
+            opacity: 0.8;
+            margin-bottom: 8px;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 992px) {
+            .hero-grid, .why-us-grid, .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            .hero {
+                padding: 120px 0 50px;
+                text-align: center;
+            }
+
+            .hero-buttons {
+                justify-content: center;
+            }
+
+            .hero-img-container {
+                order: -1;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .nav-links {
+                display: none;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .form-box {
+                padding: 24px 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <a href="#" class="logo">Turbo<span>Wash</span></a>
+            <ul class="nav-links">
+                <li><a href="#servicii">Servicii</a></li>
+                <li><a href="#despre">De Ce Noi</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="tel:0730135612" class="btn btn-outline" style="min-height: 40px; padding: 8px 18px; font-size: 0.85rem;">📞 Sună Acum</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text animate-fade-up">
+                <span class="badge">Spălătorie Auto Manuală Calea Dudești</span>
+                <h1>Curățare impecabilă și cosmetică auto profesională</h1>
+                <p>La Turbo Wash Dudești oferim spălare manuală detaliată interior-exterior, spălare motor, ceruire profesională și cosmetizare tapiserii. Rapiditate, atenție la detalii și cele mai bune soluții active.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-accent">📅 Rezervă o Spălare</a>
+                    <a href="tel:0730135612" class="btn btn-outline">📞 Sună Acum</a>
+                </div>
+            </div>
+            <div class="hero-img-container animate-fade-up delay-1">
+                <div class="hero-graphics">
+                    <div class="hero-graphics-icon">💦🚗</div>
+                    <h3>Turbo Wash</h3>
+                    <p>Cosmetică Auto & Spălare Manuală</p>
+                    <div style="margin-top: 20px; font-size: 0.85rem; color: #fbbf24; font-weight: 700;">
+                        Calea Dudești nr. 140, Sector 3
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicii" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Serviciile Noastre</h2>
+                <p>Menținem mașina ta curată și strălucitoare în toate anotimpurile.</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Serviciul 1 -->
+                <div class="service-card animate-fade-up delay-1">
+                    <span class="service-icon">🧼</span>
+                    <h3>Pachet Spălat Clasic</h3>
+                    <p>Spălare manuală exterior cu spumă activă, curățare jante, ștergere geamuri, aspirare interior detaliată și curățare plastice.</p>
+                    <div class="service-price">Timp: ~25 minute <span>De la 45 LEI</span></div>
+                </div>
+
+                <!-- Serviciul 2 -->
+                <div class="service-card animate-fade-up delay-2">
+                    <span class="service-icon">✨</span>
+                    <h3>Cosmetică & Tapiserie</h3>
+                    <p>Curățare chimică scaune, banchetă și plafon, eliminare mirosuri neplăcute, tratament hidratare piele, igienizare climă.</p>
+                    <div class="service-price">Timp: În funcție de mașină <span>De la 150 LEI</span></div>
+                </div>
+
+                <!-- Serviciul 3 -->
+                <div class="service-card animate-fade-up delay-3">
+                    <span class="service-icon">🛡️</span>
+                    <h3>Ceară & Protecție</h3>
+                    <p>Aplicare ceară lichidă de protecție la spălare, curățare profesională compartiment motor, tratament hidrofob parbriz.</p>
+                    <div class="service-price">Timp: +10 minute <span>De la 25 LEI</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section id="despre" class="why-us">
+        <div class="container why-us-grid">
+            <div class="why-us-text">
+                <span class="badge">Atenție La Detalii</span>
+                <h2 style="font-family: var(--font-display); font-size: 2.2rem; color: var(--secondary); margin-bottom: 18px;">
+                    De ce să speli mașina la Turbo Wash?
+                </h2>
+                <p style="color: var(--text-light); margin-bottom: 25px;">
+                    Folosim doar lavete curate din microfibră pentru uscare și detergenți biodegradabili de la producători renumiți (Ma-Fra, Sonax) care nu atacă vopseaua sau elementele cromate ale mașinii tale.
+                </p>
+                <a href="#contact" class="btn">Programări rapide pe WhatsApp 💬</a>
+            </div>
+            
+            <div class="why-us-features">
+                <div class="feature-item">
+                    <div class="feature-check">✓</div>
+                    <div class="feature-text">
+                        <h4>Fără Timp Pierdut</h4>
+                        <p>Poți trimite o solicitare de programare pentru a evita cozile la spălătorie.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-check">✓</div>
+                    <div class="feature-text">
+                        <h4>Soluții Calitative</h4>
+                        <p>Spumă activă premium care înmoaie murdăria fără a deteriora lacul vopselei.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-check">✓</div>
+                    <div class="feature-text">
+                        <h4>Aspirator Industrial</h4>
+                        <p>Eliminăm praful și firimiturile din cele mai greu accesibile zone ale tapiseriei.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Booking Section -->
+    <section id="contact" class="contact">
+        <div class="container contact-grid">
+            <div class="contact-info">
+                <h2>Programări spălare sau cosmetică</h2>
+                <p>Completează formularul de alături pentru a te programa la spălat. Detaliile vor fi transmise direct pe WhatsApp pentru o confirmare rapidă. Astfel eviți așteptarea la rând!</p>
+                
+                <div class="info-rows">
+                    <div class="info-row">
+                        <div class="info-icon">📍</div>
+                        <div class="info-text">
+                            <strong>Locația Noastră</strong>
+                            <span>Calea Dudești nr. 140, Sector 3, București (Zona Dudești / Vitan)</span>
+                        </div>
+                    </div>
+
+                    <div class="info-row">
+                        <div class="info-icon">📞</div>
+                        <div class="info-text">
+                            <strong>Telefon Contact</strong>
+                            <span>0730 135 612</span>
+                        </div>
+                    </div>
+
+                    <div class="info-row">
+                        <div class="info-icon">🕒</div>
+                        <div class="info-text">
+                            <strong>Orar de Funcționare</strong>
+                            <span>Luni - Duminică: 08:00 - 22:00 (Deschis în fiecare zi)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-box">
+                <h3>Programează-ți Spălarea</h3>
+                <form id="whatsapp-form">
+                    <div class="form-group">
+                        <label for="name">Nume Complet</label>
+                        <input type="text" id="name" required placeholder="Numele tău">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Număr Telefon</label>
+                        <input type="tel" id="phone" required placeholder="07xx xxx xxx">
+                    </div>
+                    <div class="form-group">
+                        <label for="car-model">Model Mașină / Tip (ex: SUV, Sedan)</label>
+                        <input type="text" id="car-model" required placeholder="Ex: VW Golf, Duster (SUV)">
+                    </div>
+                    <div class="form-group">
+                        <label for="wash-type">Tip Pachet Spălare</label>
+                        <select id="wash-type" required>
+                            <option value="" disabled selected>Selectează serviciul...</option>
+                            <option value="Spalat clasic Interior + Exterior">Spălat Clasic (Interior + Exterior)</option>
+                            <option value="Doar exterior sau doar interior">Doar Exterior sau Doar Interior</option>
+                            <option value="Curatare tapiserie chimica / cosmetica">Cosmetică Tapiserie (Detaliat)</option>
+                            <option value="Spalat motor / Altele">Spălat Motor / Ceară protecție</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="preferred-time">Ora și Ziua dorită</label>
+                        <input type="text" id="preferred-time" required placeholder="Ex: Azi la ora 16:30 sau Mâine dimineață la 09:00">
+                    </div>
+                    <button type="submit" class="btn btn-accent" style="width: 100%; margin-top: 10px;">Programează pe WhatsApp 💬</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sticky Mobile Action Bar -->
+    <div class="sticky-mobile-bar">
+        <a href="tel:0730135612" class="btn-sticky btn-sticky-call">📞 Sună Acum</a>
+        <a href="https://wa.me/40730135612" class="btn-sticky btn-sticky-whatsapp" target="_blank">💬 WhatsApp</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 <strong>Turbo Wash Dudești București</strong>. Toate drepturile rezervate.</p>
+            <p style="font-size: 0.8rem; margin-top: 15px; opacity: 0.5;">Prototip de website optimizat pentru servicii auto locale.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('whatsapp-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const name = encodeURIComponent(document.getElementById('name').value);
+            const phone = encodeURIComponent(document.getElementById('phone').value);
+            const car = encodeURIComponent(document.getElementById('car-model').value);
+            const wash = encodeURIComponent(document.getElementById('wash-type').value);
+            const time = encodeURIComponent(document.getElementById('preferred-time').value);
+            
+            const text = `Bună ziua! Numele meu este ${name} (Tel: ${phone}). Aș dori o programare la spălătorie pentru mașina: ${car}. Pachet dorit: ${wash}. Interval propus: ${time}. Este liber?`;
+            window.open(`https://wa.me/40730135612?text=${text}`, '_blank');
+        });
+    </script>
+</body>
+</html>
