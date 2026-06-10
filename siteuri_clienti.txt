@@ -10,6 +10,7 @@
 *   Program de Lucru: Luni - Sâmbătă: 08:30 - 23:00 | Duminică: 10:00 - 23:00
 *   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/rosetti_brasserie.html
 *   Stare: Local închis pe .business.site, are nevoie de un site propriu.
+*   Gândire Pitch (Site Expirat): (Deoarece Google a desființat site-urile gratuite .business.site, restaurantul și-a pierdut singura pagină unde clienții le vedeau meniul. Pitch-ul speculează direct această pierdere recentă și le oferă o soluție modernă de meniu digital cu comenzi/rezervări rapide prin WhatsApp.)
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am remarcat restaurantul dumneavoastră de pe Strada Maria Rosetti nr. 24, dar am observat că site-ul dumneavoastră web nu mai este funcțional (cel de tip business.site care s-a închis). Pentru a ajuta clienții din zonă să vă găsească meniul, orarul și să poată cere o rezervare rapid direct pe WhatsApp, am creat un prototip de site mobil premium adaptat brandului dumneavoastră. Îl puteți vedea live la acest link:
 https://sami111-afk.github.io/leads-finder/mockupuri/rosetti_brasserie.html
@@ -38,6 +39,7 @@ Dacă doriți să îl personalizăm și să îl lansăm oficial, vă ajut cu mar
 *   Program de Lucru: Luni - Vineri: 08:00 - 16:00 | Sâmbătă: 10:00 - 13:00 | Duminică: Închis
 *   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/cizmarie_neagu.html
 *   Stare: Activ, site-ul .business.site este expirat.
+*   Gândire Pitch (Site Expirat): (Aici, atelierul avea un site simplu pe Google Business Profile care a încetat să funcționeze. Ne adresăm cizmarului evidențiind că recenziile lui bune sunt greu de fructificat online acum și îi oferim un mod prin care clienții să-i poată trimite poze direct pe WhatsApp cu încălțămintea ce trebuie reparată, salvându-le timp.)
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Căutând un atelier bun de reparații încălțăminte în zona Vasile Lascăr / Piața Rosetti, am găsit recomandările excelente pentru atelierul dumneavoastră, dar am văzut că site-ul vechi nu mai funcționează. Am creat un prototip de site mobil modern, unde clienții pot vedea serviciile dumneavoastră de cizmărie/marochinărie și vă pot trimite poze cu defectele direct pe WhatsApp pentru o estimare rapidă. Îl puteți accesa live la acest link:
 https://sami111-afk.github.io/leads-finder/mockupuri/cizmarie_neagu.html
@@ -136,6 +138,7 @@ Dacă vă place cum arată și doriți să îl lansăm oficial, m-aș bucura să
 *   Program de Lucru: Luni - Vineri: 08:00 - 18:00 | Sâmbătă: 08:00 - 14:00 | Duminică: Închis
 *   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/universal_service.html
 *   Stare: Activ, site-ul vechi universalserviceec.ro este inactiv în prezent.
+*   Gândire Pitch (Site Expirat): (Atelierul auto are un site vechi complet nefuncțional. Pitch-ul speculează nevoia urgentă a șoferilor din Sectorul 2 de a se programa rapid la ITP sau revizii de pe mobil și le propune înlocuirea site-ului mort cu un prototip centrat pe apeluri și rezervări rapide pe WhatsApp.)
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am observat stația dumneavoastră ITP și service-ul auto Universal Service de pe Calea Moșilor nr. 140, dar am văzut că site-ul dumneavoastră vechi nu mai funcționează. Pentru ca șoferii din cartier să vă poată găsi rapid serviciile, tarifele și să se poată programa la ITP sau revizii direct pe WhatsApp, am creat un prototip de site mobil modern. Îl puteți vedea live la acest link:
 https://sami111-afk.github.io/leads-finder/mockupuri/universal_service.html
@@ -178,6 +181,7 @@ Dacă vă doriți să îl lansăm ca site oficial al pizzeriei și să îl compl
 *   Program de Lucru: Luni - Vineri: 08:00 - 21:00 | Sâmbătă: 09:00 - 15:00 | Duminică: 09:00 - 13:00
 *   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/serrene_beauty.html
 *   Stare: Activ, site-ul vechi este expirat.
+*   Gândire Pitch (Site Expirat): (Centrul de masaj și remodelare are site-ul expirat de ceva timp, deși listarea lor locală este activă. Pitch-ul subliniază că potențialii clienți caută servicii de remodelare în zona Hristo Botev și propune un site mobil premium, mult mai potrivit pentru imagini de tip înainte/după și tarife clare.)
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local. Căutând un salon de masaj în zona Hristo Botev / Piața Rosetti, am remarcat centrul dumneavoastră SerRene, dar am văzut că site-ul web pe care îl aveați nu mai funcționează. Pentru ca clienții interesați de masaj cu bambus sau remodelare corporală să vă poată descoperi serviciile și să trimită cereri de programare rapid pe WhatsApp, am creat un prototip elegant de site mobil. Îl puteți vizualiza live la acest link:
 https://sami111-afk.github.io/leads-finder/mockupuri/serrene_beauty.html
@@ -276,8 +280,152 @@ Dacă doriți să îl lansăm ca site oficial, m-aș bucura tare mult să vă aj
 *   Program de Lucru: Luni - Vineri: 08:30 - 20:30 | Sâmbătă: 09:00 - 17:00 | Duminică: Închis
 *   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/salon_amsy.html
 *   Stare: Activ, site-ul vechi amsysalon.ro este expirat și nefuncțional.
+*   Gândire Pitch (Site Expirat): (Atelierul / salonul are domeniul vechi amsysalon.ro închis/inactiv, însă datele de contact de pe Google Maps funcționează. Propunerea este de a reînvia imaginea online a salonului printr-un portofoliu curat pe mobil, pe care să-l poată lega direct de vechiul domeniu sau folosi în social media.)
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local. Am observat salonul dumneavoastră Amsy de pe Bulevardul Hristo Botev nr. 11, dar am văzut că site-ul dumneavoastră vechi amsysalon.ro nu mai funcționează. Pentru ca persoanele din zonă care caută coafor, cosmetică sau manichiură să vă poată găsi cu ușurință serviciile, programul și să poată cere programări direct pe WhatsApp, am creat un prototip elegant de site mobil. Îl puteți accesa live aici:
 https://sami111-afk.github.io/leads-finder/mockupuri/salon_amsy.html
 
 Dacă doriți să îl adaptăm cu serviciile și prețurile voastre și să îl punem pe vechiul domeniu ca site oficial, vă ajut cu drag. O zi minunată!
+
+--------------------------------------------------------------------------------
+⚖️ 21. Birou Notarial Georgescu & Buje (Servicii Notariale)
+--------------------------------------------------------------------------------
+*   Locație: Strada C.A. Rosetti nr. 7, Ap. 1, Parter, Sector 1, București
+*   Telefon: 021 313 86 44 / 0722 747 978
+*   Program de Lucru: Luni - Vineri: 09:00 - 17:00 | Sâmbătă - Duminică: Închis
+*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/notariat_rosetti.html
+*   Stare: Activ, nu deține site oficial.
+*   Pitch (Mesaj WhatsApp de trimis / Apel):
+Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am observat societatea dumneavoastră profesională notarială de pe Strada C.A. Rosetti nr. 7, dar am văzut că nu dețineți un site web oficial de prezentare. Am conceput un prototip modern de site web de prezentare pentru biroul dumneavoastră notarial, complet adaptat, unde clienții pot vedea orarul, locația exactă pe hartă, serviciile oferite și pot trimite cereri de programări sau documente direct pe email sau WhatsApp. Îl puteți vedea live aici:
+https://sami111-afk.github.io/leads-finder/mockupuri/notariat_rosetti.html
+
+Dacă doriți să îl lansăm ca site oficial, vă ajut cu mare drag. O zi excelentă!
+
+--------------------------------------------------------------------------------
+🌸 22. Florăria Rosetti (Buchete & Aranjamente Florale)
+--------------------------------------------------------------------------------
+*   Locație: Piața Rosetti nr. 7, Sector 2, București
+*   Telefon: 0763 327 299
+*   Program de Lucru: Luni - Sâmbătă: 08:00 - 20:00 | Duminică: 09:00 - 15:00
+*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/floraria_rosetti.html
+*   Stare: Are un site extrem de slab și învechit pe o platformă gratuită Webnode (subdomeniu neprofesionist).
+*   Gândire Pitch (Site Slab): (Deoarece site-ul lor actual este un subdomeniu Webnode greu de citit de pe telefon și fără funcționalități de comandă directă, aceștia pierd clienți din cartier care vor să cumpere rapid un buchet de flori. Pitch-ul se bazează pe oferirea unui site mobil premium care scurtează drumul clientului direct la o comandă pe WhatsApp.)
+*   Pitch (Mesaj WhatsApp de trimis):
+Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am văzut superbele buchete de la Florăria Rosetti din Piața Rosetti, dar am observat că site-ul dumneavoastră actual este găzduit pe o platformă gratuită Webnode, fiind greu de navigat de pe telefon și fără posibilitatea de a comanda direct. Pentru a atrage mai mulți clienți locali care vor să comande rapid buchete sau aranjamente florale pe WhatsApp, am creat un prototip de site mobil premium. Îl puteți accesa live la acest link:
+https://sami111-afk.github.io/leads-finder/mockupuri/floraria_rosetti.html
+
+Dacă vă place designul și doriți să îl adaptăm și să îl punem pe un domeniu propriu, vă ajut cu mare drag. O zi minunată!
+
+--------------------------------------------------------------------------------
+🔧 23. S&M Auto Service (Diagnostică & Reparații Auto)
+--------------------------------------------------------------------------------
+*   Locație: Strada Traian nr. 126, Sector 2, București
+*   Telefon: 0731 344 154
+*   Program de Lucru: Luni - Vineri: 08:30 - 18:00 | Sâmbătă: 09:00 - 14:00 | Duminică: Închis
+*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/sm_auto_service.html
+*   Stare: Activ, nu deține niciun site web propriu.
+*   Pitch (Mesaj WhatsApp de trimis):
+Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am observat service-ul dumneavoastră auto S&M de pe Strada Traian, dar am văzut că nu aveți un site web de prezentare. Am construit un prototip modern de site mobil adaptat brandului dumneavoastră, unde șoferii din zonă pot vedea serviciile (mecanică, diagnoză, climă), programul și vă pot trimite cereri de programare rapid pe WhatsApp. Îl puteți vedea live la acest link:
+https://sami111-afk.github.io/leads-finder/mockupuri/sm_auto_service.html
+
+Dacă doriți să îl personalizăm cu tarifele exacte și să îl lansăm as site oficial, vă ajut cu drag. O zi excelentă!
+
+--------------------------------------------------------------------------------
+☕ 24. Ivy Coffee Shop (Cafenea de Specialitate)
+--------------------------------------------------------------------------------
+*   Locație: Bulevardul Carol I nr. 23, Sector 2, București
+*   Telefon: 0745 208 098
+*   Program de Lucru: Luni - Vineri: 07:30 - 18:00 | Sâmbătă - Duminică: 08:30 - 18:30
+*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/ivy_coffee_shop.html
+*   Stare: Activă, nu are site web propriu (doar pagini de social media).
+*   Pitch (Mesaj WhatsApp de trimis):
+Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Sunt un mare iubitor al cafelei de specialitate și trec des pe lângă Ivy Coffee Shop de pe Bulevardul Carol I, dar am observat că nu aveți un site propriu pentru clienți. Am conceput un prototip elegant și minimalist de site mobil, unde clienții pot vedea meniul, orarul și pot plasa pre-comenzi rapide pentru ridicare direct pe WhatsApp. Îl puteți vedea live aici:
+https://sami111-afk.github.io/leads-finder/mockupuri/ivy_coffee_shop.html
+
+Dacă vă doriți să îl lansăm oficial ca site al cafenelei, vă ajut cu mare drag. O zi minunată!
+
+--------------------------------------------------------------------------------
+🏋️ 25. Aro Club / Jazzercise (Aerobic & Fitness Studio)
+--------------------------------------------------------------------------------
+*   Locație: Bulevardul Carol I nr. 31-33, Sector 2, București
+*   Telefon: 021 317 82 68
+*   Program de Lucru: Luni - Vineri: 08:00 - 21:00 | Sâmbătă: 09:00 - 14:00 | Duminică: Închis
+*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/aro_club.html
+*   Stare: Activ, nu deține site web (doar pagină de Facebook).
+*   Pitch (Apel telefonic / Mesaj Email):
+Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am văzut studioul dumneavoastră de sport și aerobic Aro Club / Jazzercise de pe Bulevardul Carol I, dar am observat că în prezent nu aveți un site web de prezentare a claselor și a abonamentelor. Pentru a atrage noi membri din cartier și a facilita înscrierile rapide prin formulare, am creat un prototip de site mobil foarte energic și modern. Îl puteți accesa live la acest link:
+https://sami111-afk.github.io/leads-finder/mockupuri/aro_club.html
+
+Dacă doriți să îl adaptăm cu programul exact și abonamentele dumneavoastră pentru a-l lansa oficial, vă ajut cu mare drag. O zi excelentă!
+
+--------------------------------------------------------------------------------
+🖨️ 26. Activ Document (Centru Copiere & Traduceri)
+--------------------------------------------------------------------------------
+*   Locație: Calea Moșilor nr. 217, Sector 2, București
+*   Telefon: 021 211 68 11
+*   Program de Lucru: Luni - Vineri: 09:00 - 18:00 | Sâmbătă - Duminică: Închis
+*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/activ_document.html
+*   Stare: Site-ul oficial activdocument.ro este nefuncțional/inactiv.
+*   Gândire Pitch (Site Expirat): (Deoarece site-ul activdocument.ro nu mai funcționează, clienții fideli și noii clienți din cartier nu mai pot găsi orarul sau cotațiile de preț online. Pitch-ul propune repunerea în funcțiune a site-ului cu un model modern ce permite clienților să încarce documente spre printare sau estimare rapidă.)
+*   Pitch (Mesaj Email / Apel):
+Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am remarcat centrul dumneavoastră de copiere și traduceri Activ Document de pe Calea Moșilor, dar am observat că site-ul dumneavoastră activdocument.ro nu mai este funcțional. Pentru ca locuitorii și firmele din zonă să vă poată trimite fișiere la printat sau acte pentru traduceri direct prin email sau formulare online, am creat un prototip modern de site mobil. Îl puteți accesa la acest link:
+https://sami111-afk.github.io/leads-finder/mockupuri/activ_document.html
+
+Dacă doriți să îl punem ca site oficial pe domeniul dumneavoastră existent, vă ajut cu mare plăcere. O zi bună!
+
+--------------------------------------------------------------------------------
+🚲 27. COCO The Bike Mechanic (Service Biciclete & Bike Fitting)
+--------------------------------------------------------------------------------
+*   Locație: Strada Frederic Chopin nr. 46, Sector 2, București
+*   Telefon: Nespecificat (Contact prin Facebook Messenger / Pagina de Facebook)
+*   Program de Lucru: Luni - Vineri: 10:00 - 19:00 | Sâmbătă - Duminică: Închis
+*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/coco_bike_mechanic.html
+*   Stare: Activ, funcționează exclusiv prin intermediul unei pagini de Facebook (fără site).
+*   Pitch (Mesaj pe Facebook Messenger):
+Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2 și pasionat de ciclism. Am auzit doar recenzii excelente despre calitatea serviciilor dumneavoastră de mecanică de biciclete și bike fitting de pe Strada Frederic Chopin, dar am observat că nu aveți un site oficial (clienții vă pot contacta doar prin Facebook). Pentru a vă prezenta profesional pachetele de revizii, serviciul de bike fitting și a primi rezervări organizate, am construit un prototip de site mobil premium cu design industrial. Îl puteți vedea live aici:
+https://sami111-afk.github.io/leads-finder/mockupuri/coco_bike_mechanic.html
+
+Dacă doriți să îl lansăm ca site oficial, m-aș bucura tare mult să vă ajut. O zi excelentă și spor la pedalat!
+
+--------------------------------------------------------------------------------
+🧼 28. Brothers Eco Clean (Curățătorie Ecologică)
+--------------------------------------------------------------------------------
+*   Locație: Calea Moșilor nr. 235, Sector 2, București
+*   Telefon: 0750 247 465
+*   Program de Lucru: Luni - Vineri: 08:00 - 20:00 | Sâmbătă: 09:00 - 16:00 | Duminică: Închis
+*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/brothers_eco_clean.html
+*   Stare: Activă, nu deține site web propriu.
+*   Pitch (Mesaj WhatsApp de trimis):
+Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am observat curățătoria dumneavoastră Brothers Eco Clean de pe Calea Moșilor nr. 235, dar am văzut că nu aveți un site web de prezentare. Pentru ca clienții din Sectorul 2 să afle de serviciile ecologice Wet Cleaning și să poată comanda rapid preluarea hainelor de la domiciliu pe WhatsApp, am creat un prototip fresh de site mobil. Îl puteți vizualiza la acest link:
+https://sami111-afk.github.io/leads-finder/mockupuri/brothers_eco_clean.html
+
+Dacă doriți să îl personalizăm cu tarifele dumneavoastră exacte și să îl lansăm ca site oficial, vă ajut cu drag. O zi minunată!
+
+--------------------------------------------------------------------------------
+🍕 29. Saporia Pizza Bar (Pizzerie Artizanală)
+--------------------------------------------------------------------------------
+*   Locație: Calea Moșilor nr. 122, Sector 2, București
+*   Telefon: 0730 723 475
+*   Program de Lucru: Marți - Duminică: 12:00 - 23:00 | Luni: Închis
+*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/saporia_pizza_bar.html
+*   Stare: Activă, nu deține un site web propriu.
+*   Pitch (Mesaj WhatsApp de trimis):
+Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am remarcat pizza voastră deosebită de la Saporia Pizza Bar de pe Calea Moșilor, dar am observat că nu aveți un site web de prezentare. Pentru ca clienții din cartier să poată vedea meniul, cocktailurile, orarul și să vă poată trimite cereri de rezervări de mese direct pe WhatsApp fără comisioane intermediare, am creat un prototip de site mobil foarte modern și cald. Îl puteți accesa live aici:
+https://sami111-afk.github.io/leads-finder/mockupuri/saporia_pizza_bar.html
+
+Dacă doriți să îl folosim ca site oficial al pizzeriei, vă ajut cu mare plăcere. O zi excelentă!
+
+--------------------------------------------------------------------------------
+🌐 30. Galaxy Expert (Birou de Traduceri Autorizate)
+--------------------------------------------------------------------------------
+*   Locație: Calea Moșilor nr. 256, Parter, Sector 2, București
+*   Telefon: 0742 001 501
+*   Program de Lucru: Luni - Vineri: 09:00 - 17:30 | Sâmbătă - Duminică: Închis
+*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/galaxy_expert.html
+*   Stare: Activ, nu deține site web de prezentare propriu.
+*   Pitch (Mesaj WhatsApp de trimis):
+Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am văzut biroul dumneavoastră de traduceri autorizate Galaxy Expert de pe Calea Moșilor nr. 256, dar am observat că nu aveți un site web propriu. Pentru ca persoanele care au nevoie de traduceri autorizate sau legalizate în Sectorul 2 să poată trimite documentele direct prin formulare online sau WhatsApp pentru cotații de preț, am creat un prototip modern de site mobil. Îl puteți accesa live la acest link:
+https://sami111-afk.github.io/leads-finder/mockupuri/galaxy_expert.html
+
+Dacă doriți să îl personalizăm și să îl lansăm ca site oficial, vă ajut cu mare drag. O zi excelentă!
+

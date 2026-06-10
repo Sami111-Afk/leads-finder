@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Birou Notarial Georgescu & Buje - București | Servicii Notariale Premium</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        /* ==================================================
+           SISTEM DE DESIGN UPGRADAT - PREMIUM DARK OBSIDIAN & GOLD
+           ================================================== */
+        :root {
+            --primary: #0a0a0c;       /* Deep Obsidian Black */
+            --primary-light: #121217; /* Surface Dark */
+            --primary-card: rgba(26, 26, 36, 0.6);
+            --accent: #d4af37;        /* Luxury Gold */
+            --accent-gradient: linear-gradient(135deg, #f3e8ff 0%, #d4af37 50%, #aa7c11 100%);
+            --gold-light: rgba(212, 175, 55, 0.1);
+            --text-dark: #f8fafc;
+            --text-light: #94a3b8;
+            --border-color: rgba(212, 175, 55, 0.15);
+            --white: #ffffff;
+            --border-radius-lg: 28px;
+            --border-radius-md: 18px;
+            --border-radius-sm: 10px;
+            --font-main: 'Outfit', sans-serif;
+            --font-display: 'Playfair Display', serif;
+            --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-main);
+            background-color: var(--primary);
+            color: var(--text-dark);
+            line-height: 1.6;
+            overflow-x: hidden;
+            padding-bottom: 90px;
+        }
+
+        /* Blobs decorative în fundal */
+        .bg-blob {
+            position: absolute;
+            width: 350px;
+            height: 350px;
+            border-radius: 50%;
+            filter: blur(100px);
+            z-index: -1;
+            opacity: 0.15;
+        }
+        .blob-1 {
+            background-color: var(--accent);
+            top: 10%;
+            right: -10%;
+        }
+        .blob-2 {
+            background-color: #6d28d9; /* Royal Purple */
+            bottom: 20%;
+            left: -10%;
+        }
+
+        .container {
+            width: 92%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* ANIMATII DE INTRARE */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-fade-in {
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
+
+        /* HEADER - Glassmorphism ultra-subtire */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(10, 10, 12, 0.7);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border-color);
+            z-index: 1000;
+            padding: 20px 0;
+            transition: var(--transition);
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: var(--font-display);
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: var(--white);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo span {
+            color: var(--accent);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 32px;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-light);
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: var(--transition);
+        }
+
+        .nav-links a:hover {
+            color: var(--accent);
+        }
+
+        /* BUTOANE */
+        .btn {
+            background: linear-gradient(135deg, #ca8a04 0%, var(--accent) 100%);
+            color: var(--primary) !important;
+            padding: 14px 32px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.95rem;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            transition: var(--transition);
+            box-shadow: 0 8px 20px rgba(212, 175, 55, 0.25);
+            min-height: 48px;
+        }
+
+        .btn:hover, .btn:active {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 28px rgba(212, 175, 55, 0.4);
+            filter: brightness(1.1);
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            color: var(--accent) !important;
+            border: 2px solid var(--accent);
+            box-shadow: none;
+        }
+
+        .btn-outline:hover, .btn-outline:active {
+            background-color: rgba(212, 175, 55, 0.08);
+            transform: translateY(-2px);
+            box-shadow: none;
+        }
+
+        /* HERO SECTION */
+        .hero {
+            padding: 180px 0 90px;
+            position: relative;
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1.15fr 0.85fr;
+            gap: 50px;
+            align-items: center;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background-color: var(--gold-light);
+            color: var(--accent);
+            border: 1px solid var(--border-color);
+            padding: 8px 18px;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            margin-bottom: 24px;
+            letter-spacing: 0.8px;
+            text-transform: uppercase;
+        }
+
+        .hero h1 {
+            font-family: var(--font-display);
+            font-size: clamp(2.4rem, 5.5vw, 3.6rem);
+            font-weight: 700;
+            line-height: 1.15;
+            color: var(--white);
+            margin-bottom: 22px;
+        }
+
+        .hero h1 span {
+            background: var(--accent-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            font-size: clamp(1.0rem, 2vw, 1.15rem);
+            color: var(--text-light);
+            margin-bottom: 35px;
+            max-width: 620px;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .hero-img-container {
+            display: flex;
+            justify-content: center;
+            position: relative;
+        }
+
+        .hero-img-container::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 15px;
+            left: 15px;
+            border: 2px solid var(--accent);
+            border-radius: var(--border-radius-md);
+            z-index: 1;
+            transition: var(--transition);
+        }
+
+        .hero-img-container:hover::before {
+            top: 8px;
+            left: 8px;
+        }
+
+        .hero-img {
+            width: 100%;
+            max-width: 450px;
+            height: auto;
+            border-radius: var(--border-radius-md);
+            box-shadow: var(--shadow-lg);
+            z-index: 2;
+            position: relative;
+        }
+
+        /* SERVICES SECTION */
+        .services {
+            padding: 100px 0;
+            background-color: var(--primary-light);
+            position: relative;
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 650px;
+            margin: 0 auto 60px;
+        }
+
+        .section-header h2 {
+            font-family: var(--font-display);
+            font-size: clamp(2.0rem, 4vw, 2.6rem);
+            color: var(--white);
+            margin-bottom: 16px;
+        }
+
+        .section-header h2 span {
+            color: var(--accent);
+        }
+
+        .section-header p {
+            color: var(--text-light);
+            font-size: 1.0rem;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .service-card {
+            background-color: var(--primary-card);
+            backdrop-filter: blur(10px);
+            border-radius: var(--border-radius-md);
+            padding: 35px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: var(--accent-gradient);
+            opacity: 0;
+            transition: var(--transition);
+        }
+
+        .service-card:hover {
+            transform: translateY(-8px);
+            border-color: var(--accent);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .service-card:hover::before {
+            opacity: 1;
+        }
+
+        .service-icon {
+            font-size: 2.2rem;
+            color: var(--accent);
+            margin-bottom: 24px;
+            display: inline-block;
+        }
+
+        .service-card h3 {
+            font-family: var(--font-display);
+            font-size: 1.35rem;
+            color: var(--white);
+            margin-bottom: 14px;
+        }
+
+        .service-card p {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+
+        /* CONTACT SECTION */
+        .contact {
+            padding: 100px 0;
+            position: relative;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1.1fr 0.9fr;
+            gap: 50px;
+        }
+
+        .contact-info h2 {
+            font-family: var(--font-display);
+            font-size: clamp(2.0rem, 4vw, 2.6rem);
+            color: var(--white);
+            margin-bottom: 18px;
+        }
+
+        .contact-info p {
+            color: var(--text-light);
+            margin-bottom: 35px;
+            font-size: 1.0rem;
+        }
+
+        .info-row {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 28px;
+            align-items: flex-start;
+        }
+
+        .info-icon {
+            font-size: 1.3rem;
+            background-color: var(--gold-light);
+            color: var(--accent);
+            border: 1px solid var(--border-color);
+            padding: 12px;
+            border-radius: 50%;
+            width: 48px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .info-text strong {
+            display: block;
+            color: var(--white);
+            margin-bottom: 4px;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+        }
+
+        .info-text span {
+            color: var(--text-light);
+            font-size: 1.0rem;
+        }
+
+        .form-box {
+            background-color: var(--primary-light);
+            border-radius: var(--border-radius-lg);
+            padding: 40px;
+            border: 1px solid var(--border-color);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .form-box h3 {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            color: var(--white);
+            margin-bottom: 24px;
+            letter-spacing: -0.5px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 600;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            margin-bottom: 8px;
+            color: var(--accent);
+        }
+
+        .form-group input, .form-group select {
+            width: 100%;
+            height: 52px;
+            padding: 0 18px;
+            border-radius: var(--border-radius-sm);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            background-color: rgba(10, 10, 12, 0.5);
+            font-family: var(--font-main);
+            font-size: 1.0rem;
+            color: var(--white);
+            outline: none;
+            transition: var(--transition);
+        }
+
+        .form-group input:focus, .form-group select:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.15);
+        }
+
+        /* STICKY BOTTOM BAR */
+        .sticky-mobile-bar {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(10, 10, 12, 0.85);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-top: 1px solid var(--border-color);
+            padding: 14px 20px;
+            z-index: 999;
+            box-shadow: 0 -8px 30px rgba(0, 0, 0, 0.5);
+            justify-content: space-between;
+            gap: 12px;
+        }
+
+        .sticky-mobile-bar .btn-sticky {
+            flex: 1;
+            min-height: 50px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.95rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .btn-sticky-call {
+            background-color: var(--white);
+            color: var(--primary);
+        }
+
+        .btn-sticky-whatsapp {
+            background-color: #25d366;
+            color: var(--white);
+        }
+
+        footer {
+            background-color: var(--primary-light);
+            color: var(--text-light);
+            padding: 50px 0;
+            text-align: center;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        footer p {
+            opacity: 0.7;
+            font-size: 0.9rem;
+        }
+
+        /* MEDIA QUERIES */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .sticky-mobile-bar {
+                display: flex;
+            }
+
+            .hero {
+                padding: 130px 0 50px;
+                text-align: center;
+            }
+
+            .hero-grid, .services-grid, .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 35px;
+            }
+
+            .hero-buttons {
+                justify-content: center;
+            }
+
+            .hero-img-container {
+                order: -1;
+                margin-bottom: 15px;
+            }
+
+            .hero-img-container::before {
+                display: none;
+            }
+
+            .hero-img {
+                max-width: 300px;
+            }
+
+            .form-box {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Blobs in BG -->
+    <div class="bg-blob blob-1"></div>
+    <div class="bg-blob blob-2"></div>
+
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <a href="#" class="logo">⚖️ Georgescu <span>& Buje</span></a>
+            <ul class="nav-links">
+                <li><a href="#servicii">Servicii Notariale</a></li>
+                <li><a href="#contact">Locație & Contact</a></li>
+                <li><a href="tel:0213138644" class="btn">Sună Acum</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container hero-grid animate-fade-in">
+            <div class="hero-content">
+                <div class="badge"><i class="fa-solid fa-gavel"></i> Societate Profesională Notarială</div>
+                <h1>Legalitate și Securitate pentru <span>Actele Tale</span></h1>
+                <p>Biroul notarial din Strada C.A. Rosetti nr. 7 vă asigură asistență specializată, redactare și autentificare documente, proceduri succesorale și legalizări. Oferim servicii sigure și rapide în centrul Bucureștiului.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn"><i class="fa-regular fa-calendar-check"></i> Programează Vizită</a>
+                    <a href="#servicii" class="btn btn-outline">Vezi Serviciile</a>
+                </div>
+            </div>
+            <div class="hero-img-container">
+                <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=600&q=80" alt="Birou Notarial Rosetti Georgescu & Buje" class="hero-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="servicii" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Servicii Notariale <span>Autentice</span></h2>
+                <p>O gamă completă de servicii desfășurate în deplină conformitate cu legislația din România.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <span class="service-icon"><i class="fa-solid fa-file-signature"></i></span>
+                    <h3>Autentificări Acte</h3>
+                    <p>Autentificăm acte de vânzare-cumpărare, donații, schimburi imobiliare, ipoteci, contracte de partaj, comodat, împrumuturi și procuri speciale.</p>
+                </div>
+                <div class="service-card">
+                    <span class="service-icon"><i class="fa-solid fa-users-rectangle"></i></span>
+                    <h3>Succesiuni & Moșteniri</h3>
+                    <p>Dezbaterea procedurilor succesorale, stabilirea moștenitorilor, a cotelor și a masei succesorale, eliberarea certificatelor de moștenitor.</p>
+                </div>
+                <div class="service-card">
+                    <span class="service-icon"><i class="fa-solid fa-stamp"></i></span>
+                    <h3>Legalizări & Declarații</h3>
+                    <p>Legalizări copii de pe documente originale, legalizări semnături, certificări de fapte, declarații pe proprie răspundere și procuri de călătorie.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Harta -->
+    <section id="contact" class="contact">
+        <div class="container contact-grid">
+            <div class="contact-info">
+                <h2>Informații Contact & Program</h2>
+                <p>Biroul nostru este situat la parter, oferind acces facil. Ne puteți vizita în timpul programului de lucru sau puteți programa o întâlnire din timp.</p>
+                
+                <div class="info-row">
+                    <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <div class="info-text">
+                        <strong>Adresă Birou</strong>
+                        <span>Strada C.A. Rosetti nr. 7, Ap. 1, Parter, Sector 1, București</span>
+                    </div>
+                </div>
+                
+                <div class="info-row">
+                    <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+                    <div class="info-text">
+                        <strong>Telefoane Contact</strong>
+                        <span>021 313 86 44 | 0722 747 978 | 0733 941 848</span>
+                    </div>
+                </div>
+
+                <div class="info-row">
+                    <div class="info-icon"><i class="fa-solid fa-clock"></i></div>
+                    <div class="info-text">
+                        <strong>Orar Funcționare</strong>
+                        <span>Luni - Vineri: 09:00 - 17:00 | Sâmbătă - Duminică: Închis</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-box">
+                <h3>Solicită Programare / Act</h3>
+                <form action="#" onsubmit="event.preventDefault(); alert('Solicitarea dumneavoastră a fost trimisă! Vă vom contacta telefonic pentru a stabili documentele necesare.');">
+                    <div class="form-group">
+                        <label for="name">Nume Complet</label>
+                        <input type="text" id="name" required placeholder="Numele dumneavoastră">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telefon</label>
+                        <input type="tel" id="phone" required placeholder="07xx xxx xxx">
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Tip Act / Procedură</label>
+                        <select id="service">
+                            <option>Autentificare Act Imobiliar / Procură</option>
+                            <option>Dezbatere Moștenire (Succesiune)</option>
+                            <option>Legalizare Copie Document</option>
+                            <option>Alt Serviciu Notarial</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn" style="width: 100%; margin-top: 10px;">Trimite Solicitarea</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sticky Mobile Action Bar -->
+    <div class="sticky-mobile-bar">
+        <a href="tel:0213138644" class="btn-sticky btn-sticky-call"><i class="fa-solid fa-phone"></i> Sună Acum</a>
+        <a href="https://wa.me/40722747978?text=Buna%20ziua%21%20Doresc%20sa%20stabilesc%20o%20programare%20pentru%20un%20serviciu%20notarial." class="btn-sticky btn-sticky-whatsapp" target="_blank"><i class="fa-brands fa-whatsapp"></i> Scrie pe WhatsApp</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 <strong>B.N.P. Gabriela Georgescu și Alexandru Buje</strong>. Toate drepturile rezervate.</p>
+            <p style="font-size: 0.8rem; margin-top: 15px; opacity: 0.4;">Propus și creat de Savu Mihai Samuel - PFA Servicii IT.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
