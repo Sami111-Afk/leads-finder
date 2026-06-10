@@ -61,18 +61,12 @@ https://sami111-afk.github.io/leads-finder/mockupuri/nabreej_caffe.html
 Dacă doriți să îl punem ca site oficial și să îl adaptăm cu meniul vostru complet, vă ajut cu drag. O zi faină!
 
 --------------------------------------------------------------------------------
-🧼 5. SoftWash Rosetti (Curățătorie Ecologică)
+🧼 5. SoftWash Rosetti (Curățătorie Ecologică) — ❌ DESCALIFICAT
 --------------------------------------------------------------------------------
 *   Locație: Strada Maria Rosetti nr. 38, Sector 2, București
 *   Telefon: 0726 473 683
-*   Program de Lucru: Luni - Vineri: 08:00 - 19:00 | Sâmbătă: 08:00 - 16:00 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/softwash.html
-*   Stare: Activ, nu deține site propriu.
-*   Pitch (Mesaj WhatsApp de trimis):
-Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am văzut curățătoria dumneavoastră ecologică SoftWash de pe Strada Maria Rosetti nr. 38, dar am observat că nu aveți un site web propriu. Pentru ca clienții din zonă să vă găsească serviciile de Wet Cleaning și să poată comanda preluarea/livrarea hainelor direct pe WhatsApp, am creat un prototip fresh de site mobil. Îl puteți vedea live la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/softwash.html
-
-Dacă doriți să îl folosim ca site oficial și să îl personalizăm cu prețurile și datele exacte, vă ajut cu mare drag. O zi excelentă!
+*   ❌ MOTIV DESCALIFICARE: Firma ARE deja un site propriu funcțional și profesional (https://softwash.ro). NU este un lead valid — pitch-ul "nu aveți site" ar fi greșit și ar arăta neserios. (Verificat manual: 2026-06-10)
+*   Mockup eliminat din pipeline (softwash.html șters). NU trimite pitch acestei firme.
 
 --------------------------------------------------------------------------------
 ⚖️ 6. Notariat Carol 55 (Raluca de Herbay & Raluca Baldan)
@@ -110,6 +104,7 @@ Dacă doriți să îl adaptăm cu detaliile exacte și să îl lansăm ca site o
 *   Program de Lucru: Luni - Vineri: 07:00 - 22:00 | Sâmbătă - Duminică: 09:00 - 18:00
 *   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/arena_fitness.html
 *   Stare: Activă, nu are un site web propriu de prezentare.
+*   ⚠️ DE VERIFICAT MANUAL ÎNAINTE DE PITCH: există domeniul arenafitnessclub.ro — confirmă dacă aparține ACESTEI săli (Logofăt Luca Stroici) sau alteia cu același nume. Dacă e a lor, NU folosi pitch-ul "nu aveți site". (Notat: 2026-06-10)
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Cunoscând serviciile sportive oferite de Arena Fitness Club de pe strada Logofăt Luca Stroici, am observat că în prezent nu aveți un site web activ de prezentare a facilităților, orarului și tarifelor. Pentru a atrage noi clienți din cartier și a facilita înscrierile rapide, am conceput un prototip de site mobil foarte dinamic și modern. Îl puteți vedea live la acest link:
 https://sami111-afk.github.io/leads-finder/mockupuri/arena_fitness.html
@@ -995,3 +990,144 @@ Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sector
 https://sami111-afk.github.io/leads-finder/mockupuri/atelier_bijuterii_mosilor.html
 
 Dacă doriți să îl lansăm ca site oficial, m-aș bucura tare mult să colaborăm. O zi excelentă!
+
+--------------------------------------------------------------------------------
+🧵 71. Croitorie și Retuș Cln (Ajustări Vestimentare)
+--------------------------------------------------------------------------------
+*   Locație: Bulevardul Carol I nr. 40-42, Sector 2, București
+*   Telefon: 0791 454 387
+*   Program de Lucru: Luni - Vineri: 10:00 - 18:00 | Sâmbătă: 11:00 - 14:00 | Duminică: Închis
+*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/croitorie_cln_carol.html
+*   Stare: Activă, nu deține site web propriu (prezență doar în directoare locale).
+*   Pitch (Mesaj WhatsApp de trimis):
+Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am găsit referințele excelente pentru atelierul dumneavoastră Croitorie Cln de pe Bulevardul Carol I, dar am observat că nu dețineți un site propriu de prezentare a serviciilor și modificărilor pe care le efectuați. Pentru ca viitorii clienți din cartier să poată vedea orarul, locația exactă și să vă trimită poze cu hainele de ajustat pe WhatsApp, am creat un prototip de site mobil premium. Îl puteți vedea live aici:
+https://sami111-afk.github.io/leads-finder/mockupuri/croitorie_cln_carol.html
+
+Dacă doriți să îl adaptăm cu prețurile dumneavoastră exacte și să îl lansăm oficial, vă ajut cu mare drag. O zi minunată!
+
+--------------------------------------------------------------------------------
+🛋️ 72. Tucoim S.R.L. (Atelier Tapițerie & Recondiționare)
+--------------------------------------------------------------------------------
+*   Locație: Calea Moșilor nr. 96, Parter, Sector 2, București
+*   Telefon: 0722 240 059
+*   Program de Lucru: Luni - Vineri: 09:00 - 18:00 | Sâmbătă: 09:00 - 14:00 | Duminică: Închis
+*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/tapiterie_tucoim.html
+*   Stare: Activă, nu deține site web propriu (doar directoare comerciale).
+*   Pitch (Mesaj WhatsApp de trimis / Telefon):
+Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am observat calitatea serviciilor oferite de atelierul dumneavoastră de tapițerie Tucoim de pe Calea Moșilor, dar am văzut că nu aveți un site web de prezentare. Am construit un prototip modern de site mobil adaptat brandului dumneavoastră, unde clienții pot studia materialele folosite, tipurile de retapițări (canapele, fotolii, scaune) și vă pot trimite direct fotografii pe WhatsApp pentru o estimare rapidă de preț. Îl puteți accesa live aici:
+https://sami111-afk.github.io/leads-finder/mockupuri/tapiterie_tucoim.html
+
+Dacă vă doriți să îl lansăm ca site oficial, vă ajut cu mare plăcere. O zi excelentă!
+
+--------------------------------------------------------------------------------
+📄 73. Xerox - Asigurări - Acte Auto (Servicii Copiere & Broker)
+--------------------------------------------------------------------------------
+*   Locație: Calea Moșilor nr. 262, Bloc 8, Parter, Sector 2, București
+*   Telefon: 0728 300 768
+*   Program de Lucru: Luni - Vineri: 09:00 - 18:00 | Sâmbătă: 09:00 - 13:00 | Duminică: Închis
+*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/xerox_asigurari_mosilor.html
+*   Stare: Activ, nu deține un site web propriu dedicat (prezență doar în baze de date).
+*   Pitch (Mesaj WhatsApp de trimis / Apel telefonic):
+Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Trecând prin zona Moșilor nr. 262, am observat punctul dumneavoastră de Xerox și Asigurări, dar am remarcat că nu aveți o pagină web proprie de prezentare a serviciilor și a actelor auto pe care le redactați. Pentru ca persoanele care caută RCA pe loc sau multiplicări de documente în Sectorul 2 să vă găsească mult mai ușor și să poată trimite cereri pe WhatsApp, am creat un prototip de site mobil modern. Îl puteți vedea live la acest link:
+https://sami111-afk.github.io/leads-finder/mockupuri/xerox_asigurari_mosilor.html
+
+Dacă doriți să îl personalizăm și să îl publicăm oficial, m-aș bucura tare mult să vă ajut. O zi bună!
+
+--------------------------------------------------------------------------------
+📚 74. Ant’Art (Anticariat Colecții & Carte Veche)
+--------------------------------------------------------------------------------
+*   Locație: Bulevardul Hristo Botev nr. 31, Sector 3, București
+*   Telefon: 0745 981 068
+*   Program de Lucru: Luni - Sâmbătă: 10:00 - 19:00 | Duminică: Închis
+*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/anticariat_ant_art.html
+*   Stare: Activ, nu are site web de prezentare (prezență limitată în directoare de cultură).
+*   Pitch (Mesaj WhatsApp de trimis / Email):
+Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în București. Căutând recenzii pentru anticariate de carte veche în zona Hristo Botev, am găsit mențiunile bune pentru Ant’Art, dar am observat că nu aveți un site oficial de prezentare a colecțiilor sau un mod simplu prin care clienții să vă poată propune cărți spre achiziție. Am creat un prototip elegant pe mobil în culori calde (bookstore design), unde pasionații vă pot explora serviciile de evaluări biblioteci și colecții de cărți vechi și vă pot apela direct. Îl puteți accesa la:
+https://sami111-afk.github.io/leads-finder/mockupuri/anticariat_ant_art.html
+
+Dacă doriți să îl adaptăm și să îl lansăm oficial pentru iubitorii de cultură, vă ajut cu drag. O zi liniștită!
+
+--------------------------------------------------------------------------------
+🍞 75. LOAF (Brutărie Artizanală & Pâine cu Maia)
+--------------------------------------------------------------------------------
+*   Locație: Strada Vasile Lascăr nr. 83, Sector 2, București
+*   Telefon: 0744 401 200
+*   Program de Lucru: Luni - Vineri: 08:00 - 19:00 | Sâmbătă: 08:00 - 15:00 | Duminică: Închis
+*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/brutarie_loaf.html
+*   Stare: Activă, nu are site web propriu (doar recenzii pe directoare culinare).
+*   Pitch (Mesaj WhatsApp de trimis / Telefon):
+Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Sunt un mare consumator al pâinii artizanale cu maia LOAF de pe strada Vasile Lascăr nr. 83, dar am observat că nu aveți un site propriu de prezentare a sortimentelor și a patiseriei proaspete pe care le coaceți zilnic. Pentru ca clienții din cartier să vă poată vedea catalogul de specialități, programul cald și să vă sune direct pentru rezervări de pâine/croissante, am construit un prototip elegant și cald de site mobil. Îl puteți vedea live aici:
+https://sami111-afk.github.io/leads-finder/mockupuri/brutarie_loaf.html
+
+Dacă vă place cum arată și doriți să îl adaptăm și să îl lansăm ca site oficial al brutăriei, vă ajut cu mare drag. O zi minunată!
+
+--------------------------------------------------------------------------------
+🧼 76. Too Clean (Curățătorie & Spălătorie Ecologică)
+--------------------------------------------------------------------------------
+*   Locație: Strada Nerva Traian nr. 16, Sector 3, București
+*   Telefon: 0723 494 234
+*   Program de Lucru: Luni - Vineri: 08:00 - 20:00 | Sâmbătă: 09:00 - 15:00 | Duminică: Închis
+*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/curatatorie_too_clean.html
+*   Stare: Activă, nu are site web de prezentare propriu (prezență doar în ghiduri locale).
+*   Pitch (Mesaj WhatsApp de trimis):
+Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local. Am observat spălătoria ecologică Too Clean de pe Strada Nerva Traian, dar am văzut că în prezent nu aveți un site web de prezentare a serviciilor și tarifelor ecologice (Wet Cleaning). Pentru ca clienții din zonă care au nevoie de curățat costume de mătase sau geci de puf să vă poată găsi orarul exact, adresa și să poată trimite solicitări pe WhatsApp, am creat un prototip fresh de site mobil. Îl puteți accesa la acest link:
+https://sami111-afk.github.io/leads-finder/mockupuri/curatatorie_too_clean.html
+
+Dacă doriți să îl folosim ca site-ul oficial al curățătoriei dumneavoastră, vă pot ajuta cu plăcere. O zi minunată!
+
+--------------------------------------------------------------------------------
+💻 77. Service PC Laptop & GSM (Reparații Calculatoare & Telefoane)
+--------------------------------------------------------------------------------
+*   Locație: Strada Vasile Lascăr nr. 134, Sector 2, București
+*   Telefon: 0747 388 167
+*   Program de Lucru: Luni - Vineri: 09:00 - 19:00 | Sâmbătă: 10:00 - 14:00 | Duminică: Închis
+*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/service_pc_lascar.html
+*   Stare: Activ, nu deține site web propriu (înregistrat în ghiduri de servicii IT).
+*   Pitch (Mesaj WhatsApp de trimis):
+Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Căutând recomandări pentru servicii rapide de reparații laptopuri pe strada Vasile Lascăr, am găsit recenziile bune ale atelierului dumneavoastră de reparații PC și GSM, dar am observat că nu aveți un site web. Pentru ca persoanele din cartier care au ecrane sparte de laptop sau probleme software să vă poată trimite cereri rapide pe WhatsApp cu defectele constatate, am creat un prototip de site mobil extrem de modern. Îl puteți vedea live la acest link:
+https://sami111-afk.github.io/leads-finder/mockupuri/service_pc_lascar.html
+
+Dacă doriți să îl adaptăm cu serviciile exacte și să îl lansăm ca site oficial, vă ajut cu drag. O zi excelentă!
+
+--------------------------------------------------------------------------------
+🦷 78. Cabinet Stomatologic Canin Serv (Servicii Stomatologice)
+--------------------------------------------------------------------------------
+*   Locație: Strada Vasile Lascăr nr. 209, bloc 31A, scara 2, ap. 48, Sector 2, București
+*   Telefon: 0726 337 389 / 021 211 41 75
+*   Program de Lucru: Luni - Vineri: 09:00 - 18:00 | Sâmbătă: 09:00 - 13:00 | Duminică: Închis
+*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/stomatologie_canin_serv.html
+*   Stare: Activ, nu deține site web propriu (domeniul caninserv.ro este expirat/dead).
+*   Gândire Pitch (Site Expirat): (Cabinetul a deținut domeniul caninserv.ro, însă acesta este expirat și inoperabil, privându-i de atragerea de pacienți noi online din zona Vasile Lascăr / Ștefan cel Mare. Pitch-ul speculează importanța deținerii unui portal mobil modern pentru servicii stomatologice rapide și contact WhatsApp.)
+*   Pitch (Mesaj WhatsApp de trimis / Email):
+Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am remarcat activitatea cabinetului dumneavoastră stomatologic Canin Serv de pe Vasile Lascăr, dar am observat că vechiul site caninserv.ro nu mai funcționează. Pentru ca pacienții din Sectorul 2 care au nevoie de tratamente stomatologice să vă poată regăsi orarul, adresa cabinetului și să se poată programa la consultații direct pe WhatsApp de pe smartphone, am creat un prototip modern de site mobil. Îl puteți vedea live aici:
+https://sami111-afk.github.io/leads-finder/mockupuri/stomatologie_canin_serv.html
+
+Dacă doriți să repunem site-ul în funcțiune pe vechiul sau pe un nou domeniu, vă ajut cu mare drag. O zi bună!
+
+--------------------------------------------------------------------------------
+⚖️ 79. SPN Notar Public Sassu Raluca Iulia & Opran Ioana Mihaela (Servicii Notariale)
+--------------------------------------------------------------------------------
+*   Locație: Calea Moșilor nr. 217, bl. 23, sc. A, et. 4, ap. 13, Sector 2, București
+*   Telefon: 021 210 01 42 / 021 610 25 06
+*   Program de Lucru: Luni - Vineri: 09:00 - 17:00 | Sâmbătă - Duminică: Închis
+*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/notariat_sassu_opran.html
+*   Stare: Active, nu dețin un site web propriu oficial (prezență doar în baze de date notariale generale).
+*   Pitch (Apel telefonic / Mesaj WhatsApp / Email):
+Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am observat activitatea biroului dumneavoastră notarial de pe Calea Moșilor nr. 217, dar am remarcat că nu aveți un site oficial propriu de prezentare a serviciilor și orarului. Pentru ca viitorii clienți care au nevoie de tranzacții imobiliare, succesiuni sau legalizări în zona Rosetti / Moșilor să vă poată accesa cu ușurință și să poată trimite cereri sau documente de pe telefon, am creat un prototip de site mobil foarte elegant și structurat. Îl puteți vizualiza la acest link:
+https://sami111-afk.github.io/leads-finder/mockupuri/notariat_sassu_opran.html
+
+Dacă vă doriți să îl folosim ca site oficial pentru biroul dumneavoastră, vă stau la dispoziție cu mare drag. O zi excelentă!
+
+--------------------------------------------------------------------------------
+👓 80. Optica Maria (Cabinet Optică Medicală & Ochelari)
+--------------------------------------------------------------------------------
+*   Locație: Calea Moșilor nr. 260, Sector 2, București
+*   Telefon: 021 210 22 27
+*   Program de Lucru: Luni - Vineri: 09:30 - 18:30 | Sâmbătă: 09:30 - 14:30 | Duminică: Închis
+*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/optica_maria_mosilor.html
+*   Stare: Activă, nu are site web de prezentare propriu (prezență limitată în directoare de specialitate).
+*   Pitch (Mesaj WhatsApp de trimis / Apel telefonic):
+Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am observat magazinul dumneavoastră Optica Maria de pe Calea Moșilor, dar am observat că nu aveți un site web propriu. Pentru ca persoanele din cartier care au nevoie de consultații optometrice sau ochelari să vă poată găsi cu ușurință programul, ramele disponibile și să se poată programa la măsurarea dioptriilor direct de pe smartphone, am creat un prototip modern de site mobil. Îl puteți accesa live aici:
+https://sami111-afk.github.io/leads-finder/mockupuri/optica_maria_mosilor.html
+
+Dacă doriți să îl personalizăm și să îl publicăm ca site oficial al cabinetului dumneavoastră, vă pot ajuta cu mare drag. O zi excelentă!
