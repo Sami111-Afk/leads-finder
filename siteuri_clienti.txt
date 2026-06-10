@@ -301,6 +301,7 @@ Dacă doriți să îl lansăm ca site oficial, vă ajut cu mare drag. O zi excel
 *   Program de Lucru: Luni - Sâmbătă: 08:00 - 20:00 | Duminică: 09:00 - 15:00
 *   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/floraria_rosetti.html
 *   Stare: Are un site extrem de slab și învechit pe o platformă gratuită Webnode (subdomeniu neprofesionist).
+*   🟡 VERIFICĂ ÎNAINTE DE PITCH: există domeniul propriu florariarosetti.com cu magazin online (ex. /magazin/buchete-personalizate) — pare site funcțional, nu un simplu subdomeniu Webnode. Confirmă starea reală a site-ului; dacă e ok, NU folosi premisa "site slab/Webnode". (Notat: 2026-06-10)
 *   Gândire Pitch (Site Slab): (Deoarece site-ul lor actual este un subdomeniu Webnode greu de citit de pe telefon și fără funcționalități de comandă directă, aceștia pierd clienți din cartier care vor să cumpere rapid un buchet de flori. Pitch-ul se bazează pe oferirea unui site mobil premium care scurtează drumul clientului direct la o comandă pe WhatsApp.)
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am văzut superbele buchete de la Florăria Rosetti din Piața Rosetti, dar am observat că site-ul dumneavoastră actual este găzduit pe o platformă gratuită Webnode, fiind greu de navigat de pe telefon și fără posibilitatea de a comanda direct. Pentru a atrage mai mulți clienți locali care vor să comande rapid buchete sau aranjamente florale pe WhatsApp, am creat un prototip de site mobil premium. Îl puteți accesa live la acest link:
@@ -309,18 +310,12 @@ https://sami111-afk.github.io/leads-finder/mockupuri/floraria_rosetti.html
 Dacă vă place designul și doriți să îl adaptăm și să îl punem pe un domeniu propriu, vă ajut cu mare drag. O zi minunată!
 
 --------------------------------------------------------------------------------
-🔧 23. S&M Auto Service (Diagnostică & Reparații Auto)
+🔧 23. S&M Auto Service (Diagnostică & Reparații Auto) — ❌ DESCALIFICAT
 --------------------------------------------------------------------------------
 *   Locație: Strada Traian nr. 126, Sector 2, București
 *   Telefon: 0731 344 154
-*   Program de Lucru: Luni - Vineri: 08:30 - 18:00 | Sâmbătă: 09:00 - 14:00 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/sm_auto_service.html
-*   Stare: Activ, nu deține niciun site web propriu.
-*   Pitch (Mesaj WhatsApp de trimis):
-Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am observat service-ul dumneavoastră auto S&M de pe Strada Traian, dar am văzut că nu aveți un site web de prezentare. Am construit un prototip modern de site mobil adaptat brandului dumneavoastră, unde șoferii din zonă pot vedea serviciile (mecanică, diagnoză, climă), programul și vă pot trimite cereri de programare rapid pe WhatsApp. Îl puteți vedea live la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/sm_auto_service.html
-
-Dacă doriți să îl personalizăm cu tarifele exacte și să îl lansăm as site oficial, vă ajut cu drag. O zi excelentă!
+*   ❌ MOTIV DESCALIFICARE: Firma ARE deja site propriu funcțional (https://smautoservice.ro). NU este lead valid. (Verificat manual: 2026-06-10)
+*   Mockup eliminat din pipeline (sm_auto_service.html șters). NU trimite pitch acestei firme.
 
 --------------------------------------------------------------------------------
 ☕ 24. Ivy Coffee Shop (Cafenea de Specialitate)
@@ -330,6 +325,7 @@ Dacă doriți să îl personalizăm cu tarifele exacte și să îl lansăm as si
 *   Program de Lucru: Luni - Vineri: 07:30 - 18:00 | Sâmbătă - Duminică: 08:30 - 18:30
 *   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/ivy_coffee_shop.html
 *   Stare: Activă, nu are site web propriu (doar pagini de social media).
+*   🟡 TELEFON DE VERIFICAT: în registru e 0745 208 098, dar listările online (near-place etc.) arată 0755 210 748. Confirmă numărul corect înainte de a trimite pitch-ul. Firma e reală și confirmată (Ivy Specialty Coffee, Carol I 23). (Notat: 2026-06-10)
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Sunt un mare iubitor al cafelei de specialitate și trec des pe lângă Ivy Coffee Shop de pe Bulevardul Carol I, dar am observat că nu aveți un site propriu pentru clienți. Am conceput un prototip elegant și minimalist de site mobil, unde clienții pot vedea meniul, orarul și pot plasa pre-comenzi rapide pentru ridicare direct pe WhatsApp. Îl puteți vedea live aici:
 https://sami111-afk.github.io/leads-finder/mockupuri/ivy_coffee_shop.html
@@ -351,19 +347,12 @@ https://sami111-afk.github.io/leads-finder/mockupuri/aro_club.html
 Dacă doriți să îl adaptăm cu programul exact și abonamentele dumneavoastră pentru a-l lansa oficial, vă ajut cu mare drag. O zi excelentă!
 
 --------------------------------------------------------------------------------
-🖨️ 26. Activ Document (Centru Copiere & Traduceri)
+🖨️ 26. Activ Document (Centru Copiere & Traduceri) — ❌ DESCALIFICAT
 --------------------------------------------------------------------------------
 *   Locație: Calea Moșilor nr. 217, Sector 2, București
 *   Telefon: 021 211 68 11
-*   Program de Lucru: Luni - Vineri: 09:00 - 18:00 | Sâmbătă - Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/activ_document.html
-*   Stare: Site-ul oficial activdocument.ro este nefuncțional/inactiv.
-*   Gândire Pitch (Site Expirat): (Deoarece site-ul activdocument.ro nu mai funcționează, clienții fideli și noii clienți din cartier nu mai pot găsi orarul sau cotațiile de preț online. Pitch-ul propune repunerea în funcțiune a site-ului cu un model modern ce permite clienților să încarce documente spre printare sau estimare rapidă.)
-*   Pitch (Mesaj Email / Apel):
-Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am remarcat centrul dumneavoastră de copiere și traduceri Activ Document de pe Calea Moșilor, dar am observat că site-ul dumneavoastră activdocument.ro nu mai este funcțional. Pentru ca locuitorii și firmele din zonă să vă poată trimite fișiere la printat sau acte pentru traduceri direct prin email sau formulare online, am creat un prototip modern de site mobil. Îl puteți accesa la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/activ_document.html
-
-Dacă doriți să îl punem ca site oficial pe domeniul dumneavoastră existent, vă ajut cu mare plăcere. O zi bună!
+*   ❌ MOTIV DESCALIFICARE: Site-ul activdocument.ro NU este mort — e VIU și actualizat (conținut 2025, magazin online, multiple locații). Premisa "site nefuncțional" e falsă. NU este lead valid. (Verificat manual cu WebFetch: 2026-06-10)
+*   Mockup eliminat din pipeline (activ_document.html șters). NU trimite pitch acestei firme.
 
 --------------------------------------------------------------------------------
 🚲 27. COCO The Bike Mechanic (Service Biciclete & Bike Fitting)
@@ -380,18 +369,12 @@ https://sami111-afk.github.io/leads-finder/mockupuri/coco_bike_mechanic.html
 Dacă doriți să îl lansăm ca site oficial, m-aș bucura tare mult să vă ajut. O zi excelentă și spor la pedalat!
 
 --------------------------------------------------------------------------------
-🧼 28. Brothers Eco Clean (Curățătorie Ecologică)
+🧼 28. Brothers Eco Clean (Curățătorie Ecologică) — ❌ DESCALIFICAT
 --------------------------------------------------------------------------------
-*   Locație: Calea Moșilor nr. 235, Sector 2, București
-*   Telefon: 0750 247 465
-*   Program de Lucru: Luni - Vineri: 08:00 - 20:00 | Sâmbătă: 09:00 - 16:00 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/brothers_eco_clean.html
-*   Stare: Activă, nu deține site web propriu.
-*   Pitch (Mesaj WhatsApp de trimis):
-Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am observat curățătoria dumneavoastră Brothers Eco Clean de pe Calea Moșilor nr. 235, dar am văzut că nu aveți un site web de prezentare. Pentru ca clienții din Sectorul 2 să afle de serviciile ecologice Wet Cleaning și să poată comanda rapid preluarea hainelor de la domiciliu pe WhatsApp, am creat un prototip fresh de site mobil. Îl puteți vizualiza la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/brothers_eco_clean.html
-
-Dacă doriți să îl personalizăm cu tarifele dumneavoastră exacte și să îl lansăm ca site oficial, vă ajut cu drag. O zi minunată!
+*   Locație: Calea Moșilor nr. 235, Sector 2, București (DATE INCERTE — vezi mai jos)
+*   Telefon: 0750 247 465 (DATE INCERTE)
+*   ❌ MOTIV DESCALIFICARE: (1) Firma ARE site propriu (https://curatatoriedehaine.ro, legat de pagina lor de Facebook). (2) Datele din registru nu se potrivesc: căutarea arată adresa reală B-dul Decebal nr. 4, Sector 3 și telefon 0741 520 052, NU Calea Moșilor 235. Posibil firmă confundată/date halucinate. NU este lead valid. (Verificat manual: 2026-06-10)
+*   Mockup eliminat din pipeline (brothers_eco_clean.html șters). NU trimite pitch acestei firme.
 
 --------------------------------------------------------------------------------
 🍕 29. Saporia Pizza Bar (Pizzerie Artizanală)
@@ -401,6 +384,7 @@ Dacă doriți să îl personalizăm cu tarifele dumneavoastră exacte și să î
 *   Program de Lucru: Marți - Duminică: 12:00 - 23:00 | Luni: Închis
 *   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/saporia_pizza_bar.html
 *   Stare: Activă, nu deține un site web propriu.
+*   🟡 Verifică saporia.ro înainte de pitch (au handle Instagram @saporia.ro — confirmă că nu au și un site pe acel domeniu). Firma e reală și confirmată (Calea Moșilor 122, pe Wolt). (Notat: 2026-06-10)
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am remarcat pizza voastră deosebită de la Saporia Pizza Bar de pe Calea Moșilor, dar am observat că nu aveți un site web de prezentare. Pentru ca clienții din cartier să poată vedea meniul, cocktailurile, orarul și să vă poată trimite cereri de rezervări de mese direct pe WhatsApp fără comisioane intermediare, am creat un prototip de site mobil foarte modern și cald. Îl puteți accesa live aici:
 https://sami111-afk.github.io/leads-finder/mockupuri/saporia_pizza_bar.html
@@ -408,18 +392,12 @@ https://sami111-afk.github.io/leads-finder/mockupuri/saporia_pizza_bar.html
 Dacă doriți să îl folosim ca site oficial al pizzeriei, vă ajut cu mare plăcere. O zi excelentă!
 
 --------------------------------------------------------------------------------
-🌐 30. Galaxy Expert (Birou de Traduceri Autorizate)
+🌐 30. Galaxy Expert (Birou de Traduceri Autorizate) — ❌ DESCALIFICAT
 --------------------------------------------------------------------------------
 *   Locație: Calea Moșilor nr. 256, Parter, Sector 2, București
 *   Telefon: 0742 001 501
-*   Program de Lucru: Luni - Vineri: 09:00 - 17:30 | Sâmbătă - Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/galaxy_expert.html
-*   Stare: Activ, nu deține site web de prezentare propriu.
-*   Pitch (Mesaj WhatsApp de trimis):
-Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am văzut biroul dumneavoastră de traduceri autorizate Galaxy Expert de pe Calea Moșilor nr. 256, dar am observat că nu aveți un site web propriu. Pentru ca persoanele care au nevoie de traduceri autorizate sau legalizate în Sectorul 2 să poată trimite documentele direct prin formulare online sau WhatsApp pentru cotații de preț, am creat un prototip modern de site mobil. Îl puteți accesa live la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/galaxy_expert.html
-
-Dacă doriți să îl personalizăm și să îl lansăm ca site oficial, vă ajut cu mare drag. O zi excelentă!
+*   ❌ MOTIV DESCALIFICARE: (1) Numele real al firmei de la Moșilor 256 este "Galaxy Translations - Birou de Traduceri SRL" (din 2000), nu "Galaxy Expert". (2) Are deja prezență web proprie (galaxytranslations / 123traduceri.ro). NU este lead valid cu pitch-ul "nu aveți site". (Verificat manual: 2026-06-10)
+*   Mockup eliminat din pipeline (galaxy_expert.html șters). NU trimite pitch acestei firme.
 
 
 --------------------------------------------------------------------------------
