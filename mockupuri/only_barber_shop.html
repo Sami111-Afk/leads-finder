@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Only Barber Shop - București | Frizerie & Barberie Premium Calea Moșilor</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        /* ==================================================
+           SISTEM DE DESIGN - TOBACCO GOLD & MIDNIGHT CHARCOAL
+           ================================================== */
+        :root {
+            --primary: #0a0a0c;       /* Midnight Black */
+            --primary-light: #121217; /* Slate Dark Surface */
+            --primary-card: rgba(22, 22, 28, 0.6);
+            --accent: #b89047;        /* Tobacco Gold */
+            --accent-hover: #d2a95e;
+            --accent-gradient: linear-gradient(135deg, #e3c080 0%, #b89047 50%, #8c6827 100%);
+            --tobacco-light: rgba(184, 144, 71, 0.08);
+            --text-dark: #f8fafc;
+            --text-light: #cbd5e1;
+            --border-color: rgba(184, 144, 71, 0.18);
+            --white: #ffffff;
+            --border-radius-lg: 20px;
+            --border-radius-md: 14px;
+            --border-radius-sm: 8px;
+            --font-main: 'Outfit', sans-serif;
+            --font-display: 'Montserrat', sans-serif;
+            --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-main);
+            background-color: var(--primary);
+            color: var(--text-dark);
+            line-height: 1.6;
+            overflow-x: hidden;
+            padding-bottom: 90px;
+        }
+
+        /* Decorative background blobs */
+        .bg-blob {
+            position: absolute;
+            width: 360px;
+            height: 360px;
+            border-radius: 50%;
+            filter: blur(130px);
+            z-index: -1;
+            opacity: 0.15;
+        }
+        .blob-1 {
+            background-color: var(--accent);
+            top: 5%;
+            right: -5%;
+        }
+        .blob-2 {
+            background-color: #4b5563; /* Charcoal Gray */
+            bottom: 25%;
+            left: -5%;
+        }
+
+        .container {
+            width: 92%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(25px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-fade-in {
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
+
+        /* HEADER */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(10, 10, 12, 0.85);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border-color);
+            z-index: 1000;
+            padding: 18px 0;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: var(--font-display);
+            font-weight: 900;
+            font-size: 1.5rem;
+            color: var(--white);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            letter-spacing: -0.5px;
+            text-transform: uppercase;
+        }
+
+        .logo span {
+            color: var(--accent);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 28px;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-light);
+            font-weight: 600;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            transition: var(--transition);
+        }
+
+        .nav-links a:hover {
+            color: var(--accent);
+        }
+
+        /* BUTOANE */
+        .btn {
+            background: var(--accent-gradient);
+            color: var(--primary) !important;
+            padding: 13px 28px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.95rem;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: var(--transition);
+            box-shadow: 0 6px 18px rgba(184, 144, 71, 0.25);
+            min-height: 46px;
+        }
+
+        .btn:hover, .btn:active {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 24px rgba(184, 144, 71, 0.45);
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            color: var(--accent) !important;
+            border: 2px solid var(--accent);
+            box-shadow: none;
+        }
+
+        .btn-outline:hover, .btn-outline:active {
+            background-color: var(--tobacco-light);
+            transform: translateY(-2px);
+        }
+
+        /* HERO SECTION */
+        .hero {
+            padding: 170px 0 80px;
+            position: relative;
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 45px;
+            align-items: center;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background-color: var(--tobacco-light);
+            color: var(--accent);
+            border: 1px solid var(--border-color);
+            padding: 8px 16px;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        .hero h1 {
+            font-family: var(--font-display);
+            font-size: clamp(2.2rem, 5vw, 3.4rem);
+            font-weight: 900;
+            line-height: 1.15;
+            color: var(--white);
+            margin-bottom: 20px;
+            letter-spacing: -1px;
+            text-transform: uppercase;
+        }
+
+        .hero h1 span {
+            background: var(--accent-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            font-size: clamp(1.0rem, 2vw, 1.15rem);
+            color: var(--text-light);
+            margin-bottom: 30px;
+            max-width: 600px;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .hero-img-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .hero-img {
+            width: 100%;
+            max-width: 380px;
+            height: auto;
+            border-radius: var(--border-radius-md);
+            box-shadow: 0 15px 35px rgba(184, 144, 71, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        /* PRICE LIST SECTION */
+        .prices {
+            padding: 90px 0;
+            background-color: var(--primary-light);
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 650px;
+            margin: 0 auto 55px;
+        }
+
+        .section-header h2 {
+            font-family: var(--font-display);
+            font-size: clamp(1.8rem, 4vw, 2.4rem);
+            color: var(--white);
+            margin-bottom: 15px;
+            letter-spacing: -0.5px;
+            text-transform: uppercase;
+        }
+
+        .section-header h2 span {
+            color: var(--accent);
+        }
+
+        .section-header p {
+            color: var(--text-light);
+        }
+
+        .price-list {
+            max-width: 800px;
+            margin: 0 auto;
+            display: grid;
+            gap: 20px;
+        }
+
+        .price-row-item {
+            background-color: var(--primary-card);
+            border: 1px solid rgba(255, 255, 255, 0.03);
+            border-radius: var(--border-radius-md);
+            padding: 22px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: var(--transition);
+        }
+
+        .price-row-item:hover {
+            border-color: var(--accent);
+            transform: translateX(5px);
+        }
+
+        .price-item-info h3 {
+            font-family: var(--font-display);
+            font-size: 1.15rem;
+            color: var(--white);
+            margin-bottom: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .price-item-info p {
+            font-size: 0.9rem;
+            color: #94a3b8;
+        }
+
+        .price-value {
+            font-family: var(--font-display);
+            font-weight: 800;
+            font-size: 1.3rem;
+            color: var(--accent);
+        }
+
+        /* CONTACT SECTION */
+        .contact {
+            padding: 90px 0;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1.15fr 0.85fr;
+            gap: 40px;
+        }
+
+        .contact-info h2 {
+            font-family: var(--font-display);
+            font-size: clamp(1.8rem, 4vw, 2.4rem);
+            color: var(--white);
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+        .contact-info p {
+            color: var(--text-light);
+            margin-bottom: 30px;
+        }
+
+        .info-row {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 24px;
+            align-items: flex-start;
+        }
+
+        .info-icon {
+            font-size: 1.2rem;
+            background-color: var(--tobacco-light);
+            color: var(--accent);
+            border: 1px solid var(--border-color);
+            padding: 12px;
+            border-radius: 50%;
+            width: 44px;
+            height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .info-text strong {
+            display: block;
+            color: var(--white);
+            margin-bottom: 4px;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .info-text span {
+            color: var(--text-light);
+        }
+
+        .form-box {
+            background-color: var(--primary-light);
+            border-radius: var(--border-radius-lg);
+            padding: 35px;
+            border: 1px solid var(--border-color);
+        }
+
+        .form-box h3 {
+            font-family: var(--font-display);
+            font-size: 1.30rem;
+            color: var(--white);
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        .form-group {
+            margin-bottom: 18px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 700;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+            color: var(--accent);
+        }
+
+        .form-group input, .form-group select {
+            width: 100%;
+            height: 48px;
+            padding: 0 15px;
+            border-radius: var(--border-radius-sm);
+            border: 1px solid rgba(184, 144, 71, 0.1);
+            background-color: rgba(10, 10, 12, 0.6);
+            font-family: var(--font-main);
+            font-size: 0.95rem;
+            color: var(--white);
+            outline: none;
+            transition: var(--transition);
+        }
+
+        .form-group input:focus, .form-group select:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px rgba(184, 144, 71, 0.15);
+        }
+
+        /* STICKY BOTTOM BAR */
+        .sticky-mobile-bar {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(10, 10, 12, 0.95);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-top: 1px solid var(--border-color);
+            padding: 12px 20px;
+            z-index: 999;
+            justify-content: space-between;
+            gap: 12px;
+        }
+
+        .sticky-mobile-bar .btn-sticky {
+            flex: 1;
+            min-height: 48px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .btn-sticky-call {
+            background-color: var(--white);
+            color: var(--primary);
+        }
+
+        .btn-sticky-whatsapp {
+            background-color: #25d366;
+            color: var(--white);
+        }
+
+        footer {
+            background-color: var(--primary-light);
+            color: var(--text-light);
+            padding: 45px 0;
+            text-align: center;
+            border-top: 1px solid rgba(255, 255, 255, 0.04);
+        }
+
+        footer p {
+            opacity: 0.7;
+            font-size: 0.85rem;
+        }
+
+        /* MEDIA QUERIES */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .sticky-mobile-bar {
+                display: flex;
+            }
+
+            .hero {
+                padding: 120px 0 45px;
+                text-align: center;
+            }
+
+            .hero-grid, .price-list, .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            .hero-buttons {
+                justify-content: center;
+            }
+
+            .hero-img-container {
+                margin-bottom: 10px;
+            }
+
+            .hero-img {
+                max-width: 280px;
+            }
+
+            .form-box {
+                padding: 25px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="bg-blob blob-1"></div>
+    <div class="bg-blob blob-2"></div>
+
+    <header>
+        <div class="container header-content">
+            <a href="#" class="logo"><i class="fa-solid fa-scissors"></i> Only <span>Barber Shop</span></a>
+            <ul class="nav-links">
+                <li><a href="#preturi">Servicii & Tarife</a></li>
+                <li><a href="#contact">Locație & Program</a></li>
+                <li><a href="tel:0727586585" class="btn">Sună Acum</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-grid animate-fade-in">
+            <div class="hero-content">
+                <div class="badge"><i class="fa-solid fa-mustache"></i> Barber Shop Clasic & Modern</div>
+                <h1>Stil Masculin fără <span>Compromisuri</span></h1>
+                <p>Pe Calea Moșilor nr. 217, Only Barber Shop definește look-ul bărbatului modern. De la tuns clasic fade, până la bărbierit tradițional cu prosop cald și stilizare barbă – oferim precizie, atenție și o atmosferă relaxată.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn"><i class="fa-regular fa-calendar-check"></i> Programează-te Online</a>
+                    <a href="#preturi" class="btn btn-outline">Vezi Tarifele</a>
+                </div>
+            </div>
+            <div class="hero-img-container">
+                <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=500&q=80" alt="Only Barber Shop Haircut" class="hero-img">
+            </div>
+        </div>
+    </section>
+
+    <section id="preturi" class="prices">
+        <div class="container">
+            <div class="section-header">
+                <h2>Servicii <span>& Listă de Prețuri</span></h2>
+                <p>Folosim doar produse profesionale de top pentru îngrijirea părului și a bărbii tale.</p>
+            </div>
+            <div class="price-list">
+                <div class="price-row-item">
+                    <div class="price-item-info">
+                        <h3>Tuns Simplu / Fade</h3>
+                        <p>Tuns din foarfecă și mașină, spălat, masaj capilar și stilizare cu ceară/pomadă.</p>
+                    </div>
+                    <span class="price-value">60 RON</span>
+                </div>
+                <div class="price-row-item">
+                    <div class="price-item-info">
+                        <h3>Tuns & Stilizare Barbă</h3>
+                        <p>Contur barbă cu briciul, aranjare lungime, ulei hidratant și prosop cald relaxant.</p>
+                    </div>
+                    <span class="price-value">85 RON</span>
+                </div>
+                <div class="price-row-item">
+                    <div class="price-item-info">
+                        <h3>Bărbierit Tradițional (Hot Towel Shave)</h3>
+                        <p>Bărbierit complet cu briciul cu lamă de unică folosință, tratament cu prosoape calde și loțiune after-shave.</p>
+                    </div>
+                    <span class="price-value">50 RON</span>
+                </div>
+                <div class="price-row-item">
+                    <div class="price-item-info">
+                        <h3>Pachet Complet (Hair & Beard)</h3>
+                        <p>Tuns fade, spălat, tuns și tratat barbă, stilizare completă, plus o băutură din partea casei.</p>
+                    </div>
+                    <span class="price-value">120 RON</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container contact-grid">
+            <div class="contact-info">
+                <h2>Te așteptăm la Only</h2>
+                <p>Suntem situați pe Calea Moșilor nr. 217. Îți punem la dispoziție parcare în zonă, cafea proaspătă și muzică bună pe fundal. Te poți programa direct sau poți veni walk-in în funcție de disponibilitate.</p>
+                
+                <div class="info-row">
+                    <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <div class="info-text">
+                        <strong>Locație Salon</strong>
+                        <span>Calea Moșilor nr. 217, Sector 2, București</span>
+                    </div>
+                </div>
+                
+                <div class="info-row">
+                    <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+                    <div class="info-text">
+                        <strong>Telefon Rezervări</strong>
+                        <span>0727 586 585</span>
+                    </div>
+                </div>
+
+                <div class="info-row">
+                    <div class="info-icon"><i class="fa-solid fa-clock"></i></div>
+                    <div class="info-text">
+                        <strong>Orar de Funcționare</strong>
+                        <span>Luni - Sâmbătă: 10:00 - 21:00 | Duminică: Închis</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-box">
+                <h3>Solicită o Programare rapidă</h3>
+                <form action="#" onsubmit="event.preventDefault(); alert('Cererea de programare a fost înregistrată! Te vom contacta prin apel sau WhatsApp în maxim 15 minute pentru confirmare.');">
+                    <div class="form-group">
+                        <label for="name">Nume Complet</label>
+                        <input type="text" id="name" required placeholder="Numele dumneavoastră">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telefon WhatsApp</label>
+                        <input type="tel" id="phone" required placeholder="07xx xxx xxx">
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Alege Serviciul</label>
+                        <select id="service">
+                            <option>Tuns Simplu / Fade (60 RON)</option>
+                            <option>Tuns & Stilizare Barbă (85 RON)</option>
+                            <option>Bărbierit Tradițional Prosop Cald (50 RON)</option>
+                            <option>Pachet Complet Hair & Beard (120 RON)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="date-time">Data & Ora dorită</label>
+                        <input type="text" id="date-time" required placeholder="ex: Maine la ora 14:00">
+                    </div>
+                    <button type="submit" class="btn" style="width: 100%; margin-top: 10px;">Trimite Rezervare</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="sticky-mobile-bar">
+        <a href="tel:0727586585" class="btn-sticky btn-sticky-call"><i class="fa-solid fa-phone"></i> Sună Acum</a>
+        <a href="https://wa.me/40727586585?text=Buna%20ziua%21%20Doresc%20sa%20stabilesc%20o%20programare%20la%20Only%20Barber%20Shop." class="btn-sticky btn-sticky-whatsapp" target="_blank"><i class="fa-brands fa-whatsapp"></i> Scrie pe WhatsApp</a>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 <strong>Only Barber Shop București</strong>. Toate drepturile rezervate.</p>
+            <p style="font-size: 0.8rem; margin-top: 15px; opacity: 0.4;">Prototip de site propus și creat de Savu Mihai Samuel - PFA Servicii IT.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
