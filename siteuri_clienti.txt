@@ -664,6 +664,7 @@ Dacă doriți să îl adaptăm și să îl publicăm oficial pe domeniul dumneav
 *   Program de Lucru: Luni - Vineri: 08:30 - 20:00 | Sâmbătă: 08:30 - 15:00 | Duminică: Închis
 *   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/elis_beauty_center.html
 *   Stare: Activ, fostele site-uri elis-sprancene.ro și elis-beautycenter.ro sunt în prezent inactive/expirate.
+*   🟡 ATENȚIE (incert): Există un domeniu VIU elisbeauty.ro (salon "Elis Beauty"), dar afișează altă adresă (Strada Pescarilor 11) și alt telefon (+40 761 761 734) — nu corespunde locației Vasile Lascăr 214 / telefoanelor din registru. Posibil alt salon cu nume similar SAU aceeași afacere relocată/rebranduită. Confirmă telefonic identitatea și statutul site-ului ÎNAINTE de a trimite pitch-ul, ca să nu pitchezi cuiva care are deja site. (Notat: 2026-06-10)
 *   Gândire Pitch (Site Expirat): (Deoarece fostele lor site-uri elis-sprancene.ro și elis-beautycenter.ro sunt complet nefuncționale, afacerea a rămas fără identitate online proprie. Pitch-ul speculează direct această pierdere, oferindu-le un prototip elegant pe mobil gata de a fi publicat pentru a recâștiga clienții.)
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am observat că fostele site-uri ale salonului dumneavoastră Elis Beauty Center (elis-sprancene.ro și elis-beautycenter.ro) nu mai funcționează. Pentru a vă ajuta să vă refaceți rapid prezența online, astfel încât clientele din zonă să vă poată vedea din nou tarifele de stilizare sprâncene și cosmetică și să se poată programa simplu pe WhatsApp, am creat un prototip modern de site mobil. Îl puteți vedea live aici:
@@ -672,19 +673,12 @@ https://sami111-afk.github.io/leads-finder/mockupuri/elis_beauty_center.html
 Dacă doriți să îl personalizăm și să îl publicăm oficial, vă ajut cu mare drag. O zi excelentă!
 
 --------------------------------------------------------------------------------
-🍃 52. Cabinet Psihoterapie Claudiu Manea (Psiholog & Psihoterapeut)
+🍃 52. Cabinet Psihoterapie Claudiu Manea (Psiholog & Psihoterapeut) — ❌ DESCALIFICAT
 --------------------------------------------------------------------------------
 *   Locație: Strada Vasile Lascăr nr. 5-7, Sector 2, București
 *   Telefon: 0769 043 798
-*   Program de Lucru: Luni - Vineri: 08:00 - 20:00 | Sâmbătă - Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/psiholog_claudiu_manea.html
-*   Stare: Activ, nu deține site web funcțional (domeniul cabinetclaudiumanea.ro este inoperabil în prezent).
-*   Gândire Pitch (Site Expirat): (Fostul domeniu cabinetclaudiumanea.ro este inactiv, blocând pacienții care caută terapie adleriană în Sectorul 2. Pitch-ul evidențiază necesitatea relansării imaginii online a cabinetului și propune un prototip calm, cu butoane directe de programare și opțiune pentru ședințe online.)
-*   Pitch (Mesaj WhatsApp de trimis / Email):
-Bună ziua, domnule Claudiu Manea! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am observat activitatea cabinetului dumneavoastră de psihoterapie de pe strada Vasile Lascăr, dar am remarcat că site-ul dumneavoastră anterior cabinetclaudiumanea.ro nu mai funcționează. Pentru ca pacienții care caută sprijin psihologic sau terapie de cuplu în București să vă găsească specializările și să poată programa o ședință (în cabinet sau online) direct de pe mobil, am conceput un prototip elegant și calm de site personal. Îl puteți accesa live aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/psiholog_claudiu_manea.html
-
-Dacă vă doriți să îl adaptăm cu serviciile exacte și să îl lansăm oficial pe fostul sau pe un nou domeniu, vă ajut cu drag. O zi liniștită!
+*   ❌ MOTIV DESCALIFICARE: Cabinetul deține deja un site propriu funcțional și actualizat la domeniul cabinetclaudiumanea.ro (confirmat VIU prin WebFetch: site activ, branding 2026, "Psihologia Alinierii", testimoniale, pagini de contact, ședințe online globale). Premisa din registru că domeniul ar fi "inoperabil" era GREȘITĂ. (Verificat manual: 2026-06-10)
+*   Mockup eliminat din pipeline (psiholog_claudiu_manea.html șters). NU trimite pitch acestei firme.
 
 --------------------------------------------------------------------------------
 🌱 53. Cabinet Individual de Psihologie Tudor Lucian Constantin (Cabinet Psihologie)
@@ -694,6 +688,7 @@ Dacă vă doriți să îl adaptăm cu serviciile exacte și să îl lansăm ofic
 *   Program de Lucru: Luni - Vineri: 09:00 - 20:00 (cu programare)
 *   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/psiholog_tudor_constantin.html
 *   Stare: Activ, nu deține un site web personal (doar profil pe platforma IPEFE).
+*   🟡 ATENȚIE (incert): Psihologul "Tudor Lucian Constantin" apare în directoare cu cabinet pe Str. Paleologu nr. 28, sector 3 — NU pe Vasile Lascăr 3 sector 2 (la Vasile Lascăr 5-7 este cabinetul Claudiu Manea). Există un domeniu psiholog-tudor-lucian.ro dar este MORT (nu se rezolvă DNS — confirmat). Verifică adresa exactă și că e persoana corectă înainte de pitch. (Notat: 2026-06-10)
 *   Pitch (Mesaj WhatsApp / SMS de trimis):
 Bună ziua, domnule Tudor Lucian Constantin! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am găsiti referințele bune pentru cabinetul dumneavoastră de psihoterapie de pe Vasile Lascăr, dar am observat că nu aveți un site web personal de prezentare (pacienții vă găsesc doar în directoare). Am creat un prototip modern de site mobil adaptat specializării dumneavoastră în terapie EFT (focalizată pe emoții), oferind clienților posibilitatea de a înțelege metodele dumneavoastră și de a cere o programare rapid direct pe WhatsApp. Îl puteți accesa live la:
 https://sami111-afk.github.io/leads-finder/mockupuri/psiholog_tudor_constantin.html
