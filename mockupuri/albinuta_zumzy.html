@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Albinuța Zumzy - Magazin Apicol & Miere Naturală București</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary: #d97706;       /* Galben-miere / Chihlimbar */
+            --primary-hover: #b45309;
+            --primary-rgb: 217, 119, 6;
+            --secondary: #1e1b4b;     /* Indigo închis pentru contrast */
+            --background: #fffbeb;    /* Crem-chihlimbar cald */
+            --surface: #ffffff;
+            --text-dark: #1e1b4b;
+            --text-light: #5c5975;
+            --border-color: #fef3c7;
+            --white: #ffffff;
+            --border-radius-lg: 24px;
+            --border-radius-md: 16px;
+            --border-radius-sm: 8px;
+            --font-main: 'Plus Jakarta Sans', sans-serif;
+            --font-display: 'Playfair Display', serif; /* Font elegant pentru tradiție */
+            --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+            --shadow-sm: 0 4px 12px rgba(217, 119, 6, 0.03);
+            --shadow-md: 0 12px 30px rgba(217, 119, 6, 0.06);
+            --shadow-lg: 0 20px 40px rgba(217, 119, 6, 0.1);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-main);
+            background-color: var(--background);
+            color: var(--text-dark);
+            line-height: 1.6;
+            overflow-x: hidden;
+            padding-bottom: 80px; 
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-fade-in {
+            animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+        }
+        .delay-100 { animation-delay: 100ms; }
+        .delay-200 { animation-delay: 200ms; }
+        .delay-300 { animation-delay: 300ms; }
+        .delay-400 { animation-delay: 400ms; }
+
+        @keyframes pulse-whatsapp {
+            0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5); }
+            70% { box-shadow: 0 0 0 10px rgba(37, 211, 102, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+        }
+
+        @keyframes pulse-primary {
+            0% { box-shadow: 0 0 0 0 rgba(217, 119, 6, 0.5); }
+            70% { box-shadow: 0 0 0 10px rgba(217, 119, 6, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(217, 119, 6, 0); }
+        }
+
+        .pulse-wa {
+            animation: pulse-whatsapp 2s infinite;
+        }
+
+        .pulse-primary-btn {
+            animation: pulse-primary 2.5s infinite;
+        }
+
+        /* Header */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(255, 251, 235, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border-color);
+            z-index: 1000;
+            padding: 16px 0;
+            transition: var(--transition);
+        }
+
+        header.header-scrolled {
+            padding: 10px 0;
+            background: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            border-bottom-color: var(--primary);
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: var(--font-display);
+            font-weight: 700;
+            font-size: 1.4rem;
+            color: var(--secondary);
+            text-decoration: none;
+            letter-spacing: -0.5px;
+        }
+
+        .logo span {
+            color: var(--primary);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 24px;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-dark);
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: var(--transition);
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        .btn {
+            background-color: var(--primary);
+            color: var(--white) !important;
+            padding: 12px 28px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.95rem;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: var(--transition);
+            box-shadow: 0 4px 14px rgba(217, 119, 6, 0.2);
+            min-height: 48px;
+        }
+
+        .btn:hover, .btn:active {
+            background-color: var(--primary-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(217, 119, 6, 0.3);
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            color: var(--primary) !important;
+            border: 2px solid var(--primary);
+            box-shadow: none;
+        }
+
+        .btn-outline:hover, .btn-outline:active {
+            background-color: var(--primary);
+            color: var(--white) !important;
+            box-shadow: none;
+        }
+
+        /* Hero */
+        .hero {
+            padding: 160px 0 80px;
+            background: radial-gradient(circle at 90% 10%, rgba(217, 119, 6, 0.08), transparent 50%);
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1.1fr 0.9fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .badge {
+            display: inline-block;
+            background-color: rgba(217, 119, 6, 0.08);
+            color: var(--primary);
+            padding: 6px 14px;
+            border-radius: 50px;
+            font-size: 0.75rem;
+            font-weight: 800;
+            margin-bottom: 18px;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        .hero h1 {
+            font-family: var(--font-display);
+            font-size: clamp(2.2rem, 5vw, 3.2rem);
+            font-weight: 700;
+            line-height: 1.15;
+            color: var(--secondary);
+            margin-bottom: 18px;
+        }
+
+        .hero h1 span {
+            color: var(--primary);
+            font-style: italic;
+        }
+
+        .hero p {
+            font-size: clamp(0.95rem, 2vw, 1.05rem);
+            color: var(--text-light);
+            margin-bottom: 30px;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .hero-img-container {
+            display: flex;
+            justify-content: center;
+            position: relative;
+        }
+
+        .hero-img {
+            width: 100%;
+            max-width: 480px;
+            height: auto;
+            border-radius: var(--border-radius-md);
+            box-shadow: var(--shadow-md);
+            border: 6px solid var(--white);
+            transition: var(--transition);
+        }
+
+        .hero-img:hover {
+            transform: scale(1.02);
+            box-shadow: var(--shadow-lg);
+        }
+
+        /* Services */
+        .services {
+            padding: 80px 0;
+            background-color: var(--white);
+            border-top: 1px solid var(--border-color);
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto 50px;
+        }
+
+        .section-header h2 {
+            font-family: var(--font-display);
+            font-size: clamp(1.8rem, 4vw, 2.4rem);
+            color: var(--secondary);
+            margin-bottom: 12px;
+        }
+
+        .section-header p {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .service-card {
+            background-color: #fffbeb;
+            border-radius: var(--border-radius-md);
+            padding: 30px;
+            border: 1px solid var(--border-color);
+            transition: var(--transition);
+        }
+
+        .service-card:hover {
+            transform: translateY(-8px) scale(1.02);
+            border-color: var(--primary);
+            box-shadow: var(--shadow-md);
+        }
+
+        .service-icon {
+            font-size: 2.2rem;
+            color: var(--primary);
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+
+        .service-card h3 {
+            font-family: var(--font-display);
+            font-size: 1.3rem;
+            color: var(--secondary);
+            margin-bottom: 10px;
+        }
+
+        .service-card p {
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+
+        /* Pricing */
+        .pricing {
+            padding: 80px 0;
+            background-color: var(--background);
+            border-top: 1px solid var(--border-color);
+        }
+
+        .pricing-list-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--white);
+            padding: 30px;
+            border-radius: var(--border-radius-md);
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--border-color);
+        }
+
+        .pricing-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 18px 0;
+            border-bottom: 1px solid var(--border-color);
+            align-items: center;
+        }
+
+        .pricing-row:last-child {
+            border-bottom: none;
+        }
+
+        .pricing-name {
+            font-weight: 600;
+            color: var(--secondary);
+        }
+
+        .pricing-price {
+            font-family: var(--font-display);
+            font-weight: 700;
+            color: var(--primary);
+            font-size: 1.1rem;
+        }
+
+        /* Contact & Harta */
+        .contact {
+            padding: 80px 0;
+            background-color: var(--white);
+            border-top: 1px solid var(--border-color);
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1.1fr 0.9fr;
+            gap: 40px;
+        }
+
+        .contact-info h2 {
+            font-family: var(--font-display);
+            font-size: clamp(1.8rem, 4vw, 2.4rem);
+            color: var(--secondary);
+            margin-bottom: 15px;
+        }
+
+        .contact-info p {
+            color: var(--text-light);
+            margin-bottom: 30px;
+        }
+
+        .info-row {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 24px;
+            align-items: flex-start;
+        }
+
+        .info-icon {
+            font-size: 1.3rem;
+            background-color: rgba(217, 119, 6, 0.08);
+            color: var(--primary);
+            padding: 10px;
+            border-radius: 50%;
+            line-height: 1;
+            flex-shrink: 0;
+        }
+
+        .info-text strong {
+            display: block;
+            color: var(--secondary);
+            margin-bottom: 2px;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .info-text span {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+
+        .form-box {
+            background-color: var(--background);
+            border-radius: var(--border-radius-md);
+            padding: 30px;
+            border: 1px solid var(--border-color);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .form-box h3 {
+            font-family: var(--font-display);
+            font-size: 1.4rem;
+            color: var(--secondary);
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 16px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 700;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+        }
+
+        .form-group input, .form-group select, .form-group textarea {
+            width: 100%;
+            padding: 12px 16px;
+            border-radius: var(--border-radius-sm);
+            border: 1px solid var(--border-color);
+            background-color: var(--white);
+            font-family: var(--font-main);
+            font-size: 0.95rem;
+            outline: none;
+            transition: var(--transition);
+        }
+
+        .form-group textarea {
+            resize: vertical;
+        }
+
+        .form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(217, 119, 6, 0.1);
+        }
+
+        /* Floating Mobile Action Bar */
+        .sticky-mobile-bar {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border-top: 1px solid var(--border-color);
+            padding: 12px 16px;
+            z-index: 999;
+            box-shadow: 0 -8px 30px rgba(30, 27, 75, 0.08);
+            justify-content: space-between;
+            gap: 10px;
+        }
+
+        .sticky-mobile-bar .btn-sticky {
+            flex: 1;
+            min-height: 48px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            text-decoration: none;
+            transition: var(--transition);
+            font-family: var(--font-display);
+        }
+
+        .btn-sticky-call {
+            background-color: var(--secondary);
+            color: var(--white);
+        }
+
+        .btn-sticky-whatsapp {
+            background-color: #25d366;
+            color: var(--white);
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--secondary);
+            color: var(--white);
+            padding: 40px 0;
+            text-align: center;
+            border-top: 1px solid var(--border-color);
+        }
+
+        footer p {
+            opacity: 0.8;
+            font-size: 0.85rem;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .sticky-mobile-bar {
+                display: flex;
+            }
+
+            .hero {
+                padding: 100px 0 40px;
+                text-align: center;
+            }
+
+            .hero-grid, .services-grid, .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            .hero-buttons {
+                justify-content: center;
+            }
+
+            .hero-img-container {
+                order: -1;
+                margin-bottom: 10px;
+            }
+
+            .hero-img {
+                max-width: 320px;
+            }
+
+            .form-box {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <a href="#" class="logo">🐝 Albinuța <span>Zumzy</span></a>
+            <ul class="nav-links">
+                <li><a href="#servicii">Produse</a></li>
+                <li><a href="#preturi">Prețuri</a></li>
+                <li><a href="#contact">Locație & Contact</a></li>
+                <li><a href="tel:0734491198" class="btn pulse-primary-btn">Sună Acum</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content animate-fade-in">
+                <div class="badge animate-fade-in delay-100">Magazin Apicol & Miere 100% Naturală</div>
+                <h1 class="animate-fade-in delay-200">Sănătate pură direct de la <span>producător local</span></h1>
+                <p class="animate-fade-in delay-300">Miere proaspătă de salcâm, tei, polifloră sau mană, neprocesată termic, polen crud, tinctură de propolis și păstură. Magazin specializat în Piața Veteranilor, oferind și accesorii complete pentru apicultori.</p>
+                <div class="hero-buttons animate-fade-in delay-400">
+                    <a href="#contact" class="btn">Comandă Rapidă</a>
+                    <a href="#servicii" class="btn btn-outline">Vezi Produsele</a>
+                </div>
+            </div>
+            <div class="hero-img-container animate-fade-in delay-200">
+                <img src="https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=600&q=80" alt="Miere naturală Albinuța Zumzy" class="hero-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="servicii" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Ce găsești la noi?</h2>
+                <p>O gamă variată de produse apicole cu proprietăți terapeutice excepționale și accesorii pentru stupină.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <span class="service-icon">🍯</span>
+                    <h3>Miere 100% Pură</h3>
+                    <p>Sortimente delicioase din producție proprie: salcâm, tei, polifloră, rapiță și mană forestieră, nepasteurizate.</p>
+                </div>
+                <div class="service-card">
+                    <span class="service-icon">🐝</span>
+                    <h3>Apiterapie & Imunitate</h3>
+                    <p>Polen proaspăt, păstură, lăptișor de matcă crud și tinctură de propolis concentrată, recunoscute terapeutic.</p>
+                </div>
+                <div class="service-card">
+                    <span class="service-icon">🪵</span>
+                    <h3>Echipamente Apicole</h3>
+                    <p>Unelte pentru apicultură, afumătoare, rame din lemn, faguri artificiali de ceară și accesorii pentru stupi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="preturi" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Prețuri Orientative</h2>
+                <p>Prețuri de producător pentru o alimentație curată și un sistem imunitar puternic.</p>
+            </div>
+            <div class="pricing-list-container">
+                <div class="pricing-row">
+                    <span class="pricing-name">Miere Polifloră Naturală (Borcan 1 Kg)</span>
+                    <span class="pricing-price">de la 35 RON</span>
+                </div>
+                <div class="pricing-row">
+                    <span class="pricing-name">Miere de Salcâm extra fină (Borcan 1 Kg)</span>
+                    <span class="pricing-price">de la 50 RON</span>
+                </div>
+                <div class="pricing-row">
+                    <span class="pricing-name">Tinctură de Propolis 30% (Sticluță 30ml)</span>
+                    <span class="pricing-price">15 RON</span>
+                </div>
+                <div class="pricing-row">
+                    <span class="pricing-name">Polen crud de primăvară (Pungă 500g)</span>
+                    <span class="pricing-price">35 RON</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Harta -->
+    <section id="contact" class="contact">
+        <div class="container contact-grid">
+            <div class="contact-info">
+                <h2>Hai în Piața Veteranilor!</h2>
+                <p>Te așteptăm cu drag la magazinul nostru pentru a degusta sortimentele noastre de miere. Vrei să îți pregătim o comandă? Scrie-ne direct pe WhatsApp.</p>
+                
+                <div class="info-row">
+                    <div class="info-icon">📍</div>
+                    <div class="info-text">
+                        <strong>Adresă Magazin</strong>
+                        <span>Bd. Iuliu Maniu 78-92, Piața Veteranilor, Modulul 12, Sector 6, București</span>
+                    </div>
+                </div>
+                
+                <div class="info-row">
+                    <div class="info-icon">📞</div>
+                    <div class="info-text">
+                        <strong>Telefon Contact</strong>
+                        <span>0734 491 198</span>
+                    </div>
+                </div>
+
+                <div class="info-row">
+                    <div class="info-icon">🕒</div>
+                    <div class="info-text">
+                        <strong>Orar Funcționare</strong>
+                        <span>Luni - Vineri: 09:00 - 17:00 | Sâmbătă - Duminică: 09:00 - 13:00</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-box">
+                <h3>Comandă Rapidă / Întrebare</h3>
+                <form id="whatsapp-form">
+                    <div class="form-group">
+                        <label for="name">Nume Complet</label>
+                        <input type="text" id="name" required placeholder="Numele tău">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telefon contact</label>
+                        <input type="tel" id="phone" required placeholder="07xx xxx xxx">
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Ce produse te interesează?</label>
+                        <select id="service">
+                            <option>Miere de salcâm / tei / polifloră</option>
+                            <option>Produse imunitate (polen/propolis)</option>
+                            <option>Echipamente / rame apicole</option>
+                            <option>Altă întrebare</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="details">Cantități / Detalii comandă</label>
+                        <textarea id="details" rows="3" required placeholder="Ex: Aș dori 2 borcane de miere de salcâm și o sticluță de tinctură de propolis, le pot ridica mâine la prânz?"></textarea>
+                    </div>
+                    <button type="submit" class="btn pulse-wa" style="width: 100%; margin-top: 10px; background-color: #25d366; box-shadow: 0 4px 14px rgba(37, 211, 102, 0.2);">Trimite pe WhatsApp 💬</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sticky Mobile Action Bar -->
+    <div class="sticky-mobile-bar">
+        <a href="tel:0734491198" class="btn-sticky btn-sticky-call">📞 Sună Acum</a>
+        <a href="https://wa.me/40734491198" class="btn-sticky btn-sticky-whatsapp pulse-wa" target="_blank">💬 WhatsApp</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 <strong>Magazin Apicol Albinuța Zumzy</strong>. Toate drepturile rezervate.</p>
+            <p style="font-size: 0.8rem; margin-top: 15px; opacity: 0.5;">Propus în cadrul programului local de sprijin și digitalizare a micilor producători.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Shrink header on scroll
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('header-scrolled');
+            } else {
+                header.classList.remove('header-scrolled');
+            }
+        });
+
+        // Handle Form Submit
+        document.getElementById('whatsapp-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const name = encodeURIComponent(document.getElementById('name').value);
+            const phone = encodeURIComponent(document.getElementById('phone').value);
+            const service = encodeURIComponent(document.getElementById('service').value);
+            const details = encodeURIComponent(document.getElementById('details').value);
+            
+            const text = `Bună ziua! Numele meu este ${name} (Tel: ${phone}). Aș dori să comand: ${service}. Detalii comandă: ${details}`;
+            window.open(`https://wa.me/40734491198?text=${text}`, '_blank');
+        });
+    </script>
+</body>
+</html>
