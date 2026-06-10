@@ -599,18 +599,19 @@ https://sami111-afk.github.io/leads-finder/mockupuri/artis_anticariat.html
 Dacă doriți să îl personalizăm și să îl publicăm ca site oficial al anticariatului, vă pot ajuta cu plăcere. O zi minunată!
 
 --------------------------------------------------------------------------------
-🥾 43. Cizmărie Neagu Dan (Reparații Încălțăminte & Marochinărie)
+🏥 43. Centrul de Recuperare Pas cu Pas (Centru Kinetoterapie & Fizioterapie)
 --------------------------------------------------------------------------------
-*   Locație: Strada Vasile Lascăr nr. 79, Sector 2, București
-*   Telefon: Nespecificat (Contact fizic la atelier)
-*   Program de Lucru: Luni - Vineri: 09:00 - 18:00 | Sâmbătă: 09:00 - 13:00 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/cizmarie_lascar.html
-*   Stare: Atelier tradițional activ pe Vasile Lascăr, nu deține site web.
-*   Pitch (Vizită fizică cu prototipul pe telefon):
-Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator în Sectorul 2. Am văzut atelierul dumneavoastră de cizmărie și reparații marochinărie de pe Vasile Lascăr, dar am observat că pe internet clienții nu vă pot găsi programul de lucru sau tarifele estimative, neavând un site oficial. Pentru ca locuitorii din cartier care au nevoie de reparații rapide la pantofi sau genți să vă găsească imediat pe telefon și să vă sune direct, am creat un prototip de site mobil foarte curat și practic. Îl puteți vedea pe telefon la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/cizmarie_lascar.html
+*   Locație: Bulevardul Carol I nr. 54, Sector 2, București
+*   Telefon: 0721 626 269
+*   Program de Lucru: Luni - Vineri: 08:00 - 20:00 | Sâmbătă - Duminică: Închis
+*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/pas_cu_pas_recuperare.html
+*   Stare: Activ, nu deține un site web funcțional (vechiul domeniu centruderecuperare.ro este nefuncțional/inactiv).
+*   Gândire Pitch (Site Expirat): (Centrul a deținut un site pe domeniul centruderecuperare.ro, dar acesta a expirat/este inactiv, privându-i de o modalitate facilă de programare a pacienților. Pitch-ul le propune restabilirea prezenței online cu o pagină modernă și rapidă axată pe butoane directe de programare și WhatsApp.)
+*   Pitch (Mesaj WhatsApp de trimis):
+Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am remarcat activitatea deosebită a Centrului de Recuperare Pas cu Pas de pe Bulevardul Carol I, dar am observat că site-ul dumneavoastră oficial centruderecuperare.ro nu mai este funcțional. Pentru ca pacienții din cartier să poată studia serviciile de kinetoterapie, fizioterapie și masaj și să poată solicita o programare direct de pe smartphone, am creat un prototip modern de site mobil. Îl puteți accesa la acest link:
+https://sami111-afk.github.io/leads-finder/mockupuri/pas_cu_pas_recuperare.html
 
-Dacă doriți să îl adaptăm și să îl publicăm ca site oficial pe internet, vă pot ajuta cu drag. O zi bună și spor la lucru!
+Dacă doriți să îl adaptăm cu programul și prețurile dumneavoastră exacte și să îl punem ca site oficial, vă ajut cu mare drag. O zi bună!
 
 --------------------------------------------------------------------------------
 💅 44. NATY'S BEAUTY CENTER (Salon Coafor & Cosmetică)
