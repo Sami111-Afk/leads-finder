@@ -401,32 +401,20 @@ Dacă doriți să îl folosim ca site oficial al pizzeriei, vă ajut cu mare pl�
 
 
 --------------------------------------------------------------------------------
-🍛 31. Isha Restaurant (Restaurant Indian & Nepalez)
+🍛 31. Isha Restaurant (Restaurant Indian & Nepalez) — ❌ DESCALIFICAT
 --------------------------------------------------------------------------------
 *   Locație: Strada Vasile Lascăr nr. 81, Sector 2, București
 *   Telefon: 0753 673 963
-*   Program de Lucru: Luni - Duminică: 12:00 - 22:30
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/isha_restaurant.html
-*   Stare: Activ, nu are site web de prezentare (doar pagină de Facebook).
-*   Pitch (Mesaj WhatsApp de trimis):
-Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am mâncat preparate delicioase de la restaurantul dumneavoastră Isha de pe Vasile Lascăr, dar am observat că nu aveți un site oficial (clienții găsesc greu meniul complet sau adresa exactă online). Pentru ca iubitorii de mâncare indiană și nepaleză din București să poată vizualiza meniul, programul și să rezerve o masă direct de pe telefon, am creat un prototip de site mobil foarte elegant și cald. Îl puteți vedea live la:
-https://sami111-afk.github.io/leads-finder/mockupuri/isha_restaurant.html
-
-Dacă doriți să îl personalizăm și să îl lansăm ca site oficial, vă pot ajuta cu drag. O zi excelentă!
+*   ❌ MOTIV DESCALIFICARE: Firma ARE deja site propriu funcțional (https://isha.restaurant cu meniu online la /meniuonline/), confirmat prin Tripadvisor și căutare web; telefonul 0753 673 963 se potrivește exact. Premisa "nu are site" din registru era greșită. (Verificat manual: 2026-06-10)
+*   Mockup eliminat din pipeline (isha_restaurant.html șters). NU trimite pitch acestei firme.
 
 --------------------------------------------------------------------------------
-🏺 32. Sertar Magic (Boutique de Antichități & Vintage)
+🏺 32. Sertar Magic (Boutique de Antichități & Vintage) — ❌ DESCALIFICAT
 --------------------------------------------------------------------------------
 *   Locație: Bulevardul Carol I, nr. 59, Sector 2, București
 *   Telefon: 0769 845 872 / 0747 388 576
-*   Program de Lucru: Luni - Vineri: 12:00 - 19:00 | Sâmbătă: 12:00 - 17:00 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/sertar_magic.html
-*   Stare: Activ, magazin fizic unic de antichități, nu are un site de prezentare.
-*   Pitch (Mesaj WhatsApp de trimis):
-Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Trec des pe lângă magazinul dumneavoastră de antichități Sertar Magic de pe Bulevardul Carol I și admir selecția deosebită de obiecte vintage, dar am observat că nu aveți un site web propriu. Pentru a vă prezenta showroom-ul și a le permite colecționarilor să vadă imagini cu ultimele noutăți aduse în magazin direct de pe telefon, am conceput un prototip de site mobil foarte elegant, cu estetică clasică. Îl puteți vedea aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/sertar_magic.html
-
-Dacă doriți să îl transformăm în site-ul dumneavoastră oficial, vă ajut cu mare plăcere. O zi minunată!
+*   ❌ MOTIV DESCALIFICARE: Firma ARE deja site propriu funcțional cu magazin online (https://sertarmagic.ro), confirmat VIU prin WebFetch — afișează adresa Bulevardul Carol I nr. 59, programul identic, inventar de produse și contact. Premisa "nu are site" din registru era greșită. (Verificat manual: 2026-06-10)
+*   Mockup eliminat din pipeline (sertar_magic.html șters). NU trimite pitch acestei firme.
 
 --------------------------------------------------------------------------------
 💈 33. Only Barber Shop (Frizerie / Barber Shop)
@@ -436,6 +424,7 @@ Dacă doriți să îl transformăm în site-ul dumneavoastră oficial, vă ajut 
 *   Program de Lucru: Luni - Sâmbătă: 10:00 - 21:00 | Duminică: Închis
 *   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/only_barber_shop.html
 *   Stare: Activ, nu are site web oficial (doar pagină de social media).
+*   🔴 NECONFIRMAT: Nu am găsit nicio dovadă că această firmă există la datele din registru. La Calea Moșilor nr. 217 figurează alt business (Oriental Cuts - măcelărie libaneză); numele "Only Barber Shop" + telefonul 0727 586 585 nu apar în niciun directoar, social media sau Google Maps. Posibil halucinat de AI. Verifică telefonic înainte de a trimite pitch. (Notat: 2026-06-10)
 *   Pitch (Mesaj WhatsApp / SMS):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am remarcat frizeria dumneavoastră Only Barber Shop de pe Calea Moșilor, dar am observat că nu aveți un site web pentru programări online sau prezentarea portofoliului. Pentru a le permite clienților să vadă galeria foto, prețurile serviciilor și să se programeze direct, am creat un prototip de site mobil modern, optimizat pentru telefoane. Îl puteți vizualiza la acest link:
 https://sami111-afk.github.io/leads-finder/mockupuri/only_barber_shop.html
@@ -492,6 +481,7 @@ Dacă doriți să îl adaptăm pentru salonul dumneavoastră și să îl lansăm
 *   Program de Lucru: Marți - Duminică: 14:00 - 22:00 | Luni: Închis
 *   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/ceai_la_metoc.html
 *   Stare: Ceainărie oază celebră în cartier, dar funcționează fără site web propriu (doar prin pagina de Facebook).
+*   🟡 FLAG: Firma există clar și NU are site propriu (confirmat - doar Facebook/Tripadvisor/ialoc.ro), lead valid. DAR telefonul nu se potrivește: registrul are 0732 522 789, iar sursele web indică +40 773 922 324 (email gradinametoc@gmail.com). Verifică numărul corect înainte de pitch. (Notat: 2026-06-10)
 *   Pitch (Mesaj pe Facebook Messenger):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator în zonă și un mare admirator al ceainăriei și grădinii dumneavoastră Ceai la Metoc de pe Strada Popa Rusu. Am observat că în prezent nu aveți un site web oficial (mulți oaspeți noi caută pe Google meniul de ceaiuri sau orarul și găsesc doar pagini de social media). Pentru a păstra farmecul poetic al ceainăriei și online, am creat un prototip de site mobil foarte cald și primitor, în nuanțe naturale de ceai și frunze. Îl puteți accesa live aici:
 https://sami111-afk.github.io/leads-finder/mockupuri/ceai_la_metoc.html
@@ -520,6 +510,7 @@ Dacă doriți să îl lansăm ca site oficial pentru a atrage mai multe apeluri 
 *   Program de Lucru: Luni - Vineri: 09:30 - 18:30 | Sâmbătă: 10:00 - 14:00 | Duminică: Închis
 *   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/pc_shop_mosilor.html
 *   Stare: Activ, oferă servicii IT locale pe Calea Moșilor, dar nu deține un site de prezentare dedicat.
+*   🔴 NECONFIRMAT: Nu am găsit nicio dovadă că "PC Shop Moșilor" există la Calea Moșilor nr. 300 cu telefonul 0770 990 492 - nu apare în Cylex, directoare IT, Facebook sau Google Maps. Posibil halucinat de AI. Verifică telefonic înainte de a trimite pitch. (Notat: 2026-06-10)
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am remarcat atelierul dumneavoastră PC Shop de pe Calea Moșilor nr. 300, dar am văzut că nu aveți un site web de prezentare a serviciilor și tarifelor. Pentru ca utilizatorii din Sectorul 2 care au nevoie de curățare laptop, diagnosticare sau asamblare calculatoare să poată lua legătura rapid cu dumneavoastră direct de pe mobil, am creat un prototip de site modern, cu tentă dark-tech. Îl puteți accesa la:
 https://sami111-afk.github.io/leads-finder/mockupuri/pc_shop_mosilor.html
