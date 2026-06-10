@@ -810,19 +810,12 @@ https://sami111-afk.github.io/leads-finder/mockupuri/itimpex_marochinarie.html
 Dacă doriți să îl lansăm ca site oficial, vă ajut cu mare drag. O zi excelentă!
 
 --------------------------------------------------------------------------------
-🧥 62. Grand Modell (Atelier Blănărie & Confecții Piele)
+🧥 62. Grand Modell (Atelier Blănărie & Confecții Piele) — ❌ DESCALIFICAT
 --------------------------------------------------------------------------------
 *   Locație: Calea Moșilor nr. 86, Sector 2, București
 *   Telefon: 0722 655 110 / 021 311 00 25
-*   Program de Lucru: Luni - Vineri: 10:00 - 18:00 | Sâmbătă - Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/grand_modell.html
-*   Stare: Activ, fostul site hainedeblana.ro este expirat/dead.
-*   Gândire Pitch (Site Expirat): (Atelierul a deținut domeniul hainedeblana.ro, însă acesta este expirat de mult timp, afacerea rămânând doar cu listările locale. Pitch-ul le propune refacerea identității online premium pe mobil cu accent pe recondiționarea și restilizarea blănurilor naturale, salvând o meserie tradițională în format digital modern.)
-*   Pitch (Mesaj WhatsApp de trimis):
-Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am remarcat activitatea atelierului dumneavoastră Grand Modell de pe Calea Moșilor, dar am observat că site-ul anterior hainedeblana.ro nu mai este funcțional. Pentru a reface prezența digitală și a le permite clienților să vadă serviciile de restilizare blănuri sau reparații geci de piele direct de pe telefon și să vă sune simplu, am creat un prototip modern de site mobil. Îl puteți vizualiza live aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/grand_modell.html
-
-Dacă doriți să repunem site-ul pe picioare, vă ajut cu mare plăcere. O zi minunată!
+*   ❌ MOTIV DESCALIFICARE: Domeniul hainedeblana.ro NU este expirat — e activ și servește conținutul lor (pagina /servicii/ cu lista de servicii blănărie, plus pagina de Facebook se numește hainedeblana.ro). Premisa "site mort" e falsă. NU este lead valid. (Verificat manual: 2026-06-10)
+*   Mockup eliminat din pipeline (grand_modell.html șters). NU trimite pitch acestei firme.
 
 --------------------------------------------------------------------------------
 ⚖️ 63. Birou Individual Notarial Gabură Maria (Servicii Notariale)
@@ -860,6 +853,7 @@ Dacă doriți să îl lansăm ca site oficial, m-aș bucura tare mult să vă aj
 *   Program de Lucru: Luni - Vineri: 09:00 - 18:00 | Sâmbătă - Duminică: Închis
 *   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/avocat_lie_dan.html
 *   Stare: Activ, nu deține site web de prezentare (doar în tabloul Baroului București).
+*   🟡 LINK MORT: fișierul mockupuri/avocat_lie_dan.html NU există în repo — link-ul de mai sus dă 404. Firma e REALĂ și confirmată (Ilie A.C. Dan-Lucian, definitiv în Baroul București din 2006), deci e lead bun, dar trebuie generat mockup-ul înainte de pitch. (Notat: 2026-06-10)
 *   Pitch (Mesaj WhatsApp de trimis / Email):
 Bună ziua, domnule avocat Ilie Dan-Lucian! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am observat cabinetul dumneavoastră de avocatură de pe strada Maria Rosetti, dar am remarcat că nu aveți un site web propriu de prezentare a serviciilor dumneavoastră juridice civile și comerciale. Pentru a le permite clienților să vă găsească cu ușurință domeniile de expertiză și să poată solicita o consultație juridică de pe mobil, am creat un prototip de site mobil sobru și profesional. Îl puteți accesa aici:
 https://sami111-afk.github.io/leads-finder/mockupuri/avocat_lie_dan.html
@@ -867,18 +861,12 @@ https://sami111-afk.github.io/leads-finder/mockupuri/avocat_lie_dan.html
 Dacă doriți să îl lansăm oficial ca site-ul cabinetului dumneavoastră, vă stau la dispoziție cu drag. O zi bună!
 
 --------------------------------------------------------------------------------
-🔧 66. S & M Auto Service (Atelier Reparații Auto Multibrand)
+🔧 66. S & M Auto Service (Atelier Reparații Auto Multibrand) — ❌ DESCALIFICAT (DUPLICAT)
 --------------------------------------------------------------------------------
 *   Locație: Strada Traian nr. 126, Sector 3, București
 *   Telefon: 0722 739 367
-*   Program de Lucru: Luni - Vineri: 08:30 - 18:00 | Sâmbătă: 09:00 - 14:00 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/sm_auto_service.html
-*   Stare: Activ, nu deține site web (deține doar o pagină simplă de Facebook).
-*   Pitch (Mesaj WhatsApp de trimis / Mesaj Facebook Messenger):
-Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local. Am observat atelierul dumneavoastră S & M Auto Service de pe Strada Traian nr. 126, dar am văzut că nu dețineți un site web propriu de prezentare a serviciilor și tarifelor. Pentru ca șoferii din Sectorul 3 care au nevoie de mecanică, revizii sau tinichigerie să vă poată găsi rapid orarul, locația exactă și să poată trimite cereri de programări pe WhatsApp, am conceput un prototip modern de site mobil. Îl puteți vedea live la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/sm_auto_service.html
-
-Dacă vă doriți să îl folosim ca site oficial pentru a atrage clienți noi, vă ajut cu mare drag. O zi bună!
+*   ❌ MOTIV DESCALIFICARE: Este aceeași firmă ca #23 (S&M Auto Service, Strada Traian 126) — intrare DUPLICAT. Firma ARE deja site propriu (https://smautoservice.ro). NU este lead valid. (Verificat manual: 2026-06-10)
+*   Mockup eliminat din pipeline (sm_auto_service.html șters încă de la #23). NU trimite pitch acestei firme.
 
 --------------------------------------------------------------------------------
 🌸 67. Florăria Provence (Florărie Artizanală & Decorațiuni)
@@ -930,6 +918,7 @@ Dacă doriți să îl adaptăm și să îl publicăm oficial ca site-ul cofetăr
 *   Program de Lucru: Luni - Vineri: 11:00 - 19:00 | Sâmbătă - Duminică: Închis
 *   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/atelier_bijuterii_mosilor.html
 *   Stare: Activ, nu deține site web propriu (prezență doar în directoare comerciale).
+*   🔴 NECONFIRMAT — posibil halucinat: căutarea NU a găsit niciun atelier de bijuterii cu acest nume la Calea Moșilor 268 (acolo figurează #16 Navi Group și #19 Metalo-Casnica — adresă reutilizată suspect). Atelierele de sudură laser găsite sunt în altă zonă (ex. Accent Bijuterii, Piața Romană). Confirmă existența reală înainte de orice pitch. (Notat: 2026-06-10)
 *   Pitch (Mesaj WhatsApp de trimis / Apel telefonic):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Căutând recomandări pentru reparații pe loc de bijuterii pe Calea Moșilor, am găsit recenziile excelente pentru atelierul dumneavoastră, dar am observat că nu aveți un site web propriu. Pentru ca clienții din cartier să poată vedea rapid serviciile (sudură laser, modificări verighete, curățare) și orarul și să vă poată contacta pe WhatsApp, am construit un prototip modern de site mobil. Îl puteți accesa live aici:
 https://sami111-afk.github.io/leads-finder/mockupuri/atelier_bijuterii_mosilor.html
