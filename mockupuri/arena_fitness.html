@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Arena Fitness Club - Sală Fitness & Aerobic Sector 2</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+    
+    <style>
+        /* ==================================================
+           SISTEM DE DESIGN - DINAMIC, ENERGETIC, PREMIUM
+           ================================================== */
+        :root {
+            --primary: #ea580c;       /* Portocaliu energetic */
+            --primary-hover: #c2410c;
+            --secondary: #0f172a;     /* Slate inchis / Gri inchis */
+            --background: #fdf8f6;    /* Peach/Orange wash foarte deschis */
+            --surface: #ffffff;
+            --text-dark: #0f172a;
+            --text-light: #475569;
+            --border-color: #ffedd5;  /* Fine peach border */
+            --white: #ffffff;
+            --border-radius-lg: 24px;
+            --border-radius-md: 16px;
+            --border-radius-sm: 8px;
+            --font-main: 'Plus Jakarta Sans', sans-serif;
+            --font-display: 'Playfair Display', serif;
+            --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+            --shadow-sm: 0 4px 12px rgba(234, 88, 12, 0.03);
+            --shadow-md: 0 12px 30px rgba(234, 88, 12, 0.06);
+            --shadow-lg: 0 20px 40px rgba(234, 88, 12, 0.1);
+        }
+
+        /* Reset rapid și optimizare randare mobil */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-main);
+            background-color: var(--background);
+            color: var(--text-dark);
+            line-height: 1.6;
+            overflow-x: hidden;
+            padding-bottom: 80px; 
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* HEADER */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(253, 248, 246, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border-color);
+            z-index: 1000;
+            padding: 16px 0;
+            transition: var(--transition);
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: var(--font-main);
+            font-weight: 800;
+            font-size: 1.4rem;
+            color: var(--secondary);
+            text-decoration: none;
+            letter-spacing: -0.5px;
+        }
+
+        .logo span {
+            color: var(--primary);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 24px;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-dark);
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: var(--transition);
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        /* BUTOANE */
+        .btn {
+            background-color: var(--primary);
+            color: var(--white) !important;
+            padding: 12px 28px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.95rem;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: var(--transition);
+            box-shadow: 0 4px 14px rgba(234, 88, 12, 0.2);
+            min-height: 48px;
+        }
+
+        .btn:hover, .btn:active {
+            background-color: var(--primary-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(234, 88, 12, 0.3);
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            color: var(--secondary) !important;
+            border: 2px solid var(--secondary);
+            box-shadow: none;
+        }
+
+        .btn-outline:hover, .btn-outline:active {
+            background-color: var(--secondary);
+            color: var(--white) !important;
+            box-shadow: none;
+        }
+
+        /* HERO */
+        .hero {
+            padding: 140px 0 70px;
+            background: radial-gradient(circle at 90% 10%, rgba(234, 88, 12, 0.05), transparent 50%);
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .badge {
+            display: inline-block;
+            background-color: rgba(234, 88, 12, 0.08);
+            color: var(--primary);
+            padding: 6px 14px;
+            border-radius: 50px;
+            font-size: 0.75rem;
+            font-weight: 800;
+            margin-bottom: 18px;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        .hero h1 {
+            font-size: clamp(2.2rem, 5vw, 3.2rem);
+            font-weight: 800;
+            line-height: 1.15;
+            color: var(--secondary);
+            margin-bottom: 18px;
+            letter-spacing: -1px;
+        }
+
+        .hero h1 span {
+            color: var(--primary);
+        }
+
+        .hero p {
+            font-size: clamp(0.95rem, 2vw, 1.05rem);
+            color: var(--text-light);
+            margin-bottom: 30px;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .hero-img-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .hero-img {
+            width: 100%;
+            max-width: 480px;
+            height: auto;
+            border-radius: var(--border-radius-md);
+            box-shadow: var(--shadow-md);
+            border: 6px solid var(--white);
+        }
+
+        /* SERVICES */
+        .services {
+            padding: 80px 0;
+            background-color: var(--white);
+            border-top: 1px solid var(--border-color);
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto 50px;
+        }
+
+        .section-header h2 {
+            font-size: clamp(1.8rem, 4vw, 2.4rem);
+            font-weight: 800;
+            color: var(--secondary);
+            margin-bottom: 12px;
+            letter-spacing: -0.5px;
+        }
+
+        .section-header p {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .service-card {
+            background-color: var(--background);
+            border-radius: var(--border-radius-md);
+            padding: 30px;
+            border: 1px solid var(--border-color);
+            transition: var(--transition);
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary);
+            box-shadow: var(--shadow-md);
+        }
+
+        .service-icon {
+            font-size: 2rem;
+            color: var(--primary);
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+
+        .service-card h3 {
+            font-weight: 700;
+            font-size: 1.3rem;
+            color: var(--secondary);
+            margin-bottom: 10px;
+        }
+
+        .service-card p {
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+
+        /* CONTACT */
+        .contact {
+            padding: 80px 0;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1.1fr 0.9fr;
+            gap: 40px;
+        }
+
+        .contact-info h2 {
+            font-size: clamp(1.8rem, 4vw, 2.4rem);
+            font-weight: 800;
+            color: var(--secondary);
+            margin-bottom: 15px;
+            letter-spacing: -0.5px;
+        }
+
+        .contact-info p {
+            color: var(--text-light);
+            margin-bottom: 30px;
+        }
+
+        .info-row {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 24px;
+            align-items: flex-start;
+        }
+
+        .info-icon {
+            font-size: 1.3rem;
+            background-color: rgba(234, 88, 12, 0.08);
+            color: var(--primary);
+            padding: 10px;
+            border-radius: 50%;
+            line-height: 1;
+            flex-shrink: 0;
+        }
+
+        .info-text strong {
+            display: block;
+            color: var(--secondary);
+            margin-bottom: 2px;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .info-text span {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+
+        /* Formular */
+        .form-box {
+            background-color: var(--white);
+            border-radius: var(--border-radius-md);
+            padding: 30px;
+            border: 1px solid var(--border-color);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .form-box h3 {
+            font-size: 1.4rem;
+            color: var(--secondary);
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 16px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 700;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+        }
+
+        .form-group input, .form-group select {
+            width: 100%;
+            height: 48px;
+            padding: 0 16px;
+            border-radius: var(--border-radius-sm);
+            border: 1px solid var(--border-color);
+            background-color: var(--background);
+            font-family: var(--font-main);
+            font-size: 0.95rem;
+            outline: none;
+            transition: var(--transition);
+        }
+
+        .form-group input:focus, .form-group select:focus {
+            border-color: var(--primary);
+            background-color: var(--white);
+            box-shadow: 0 0 0 3px rgba(234, 88, 12, 0.1);
+        }
+
+        /* STICKY MOBILE BAR */
+        .sticky-mobile-bar {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(253, 248, 246, 0.95);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border-top: 1px solid var(--border-color);
+            padding: 12px 16px;
+            z-index: 999;
+            box-shadow: 0 -8px 30px rgba(15, 23, 42, 0.08);
+            justify-content: space-between;
+            gap: 10px;
+        }
+
+        .sticky-mobile-bar .btn-sticky {
+            flex: 1;
+            min-height: 48px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .btn-sticky-call {
+            background-color: var(--secondary);
+            color: var(--white);
+        }
+
+        .btn-sticky-whatsapp {
+            background-color: #25d366;
+            color: var(--white);
+        }
+
+        /* FOOTER */
+        footer {
+            background-color: var(--secondary);
+            color: var(--white);
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        footer p {
+            opacity: 0.8;
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .sticky-mobile-bar {
+                display: flex;
+            }
+
+            .hero {
+                padding: 100px 0 40px;
+                text-align: center;
+            }
+
+            .hero-grid, .services-grid, .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            .hero-buttons {
+                justify-content: center;
+            }
+
+            .hero-img-container {
+                order: -1;
+                margin-bottom: 10px;
+            }
+
+            .hero-img {
+                max-width: 320px;
+            }
+
+            .form-box {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <a href="#" class="logo">🏋️ Arena <span>Fitness</span></a>
+            <ul class="nav-links">
+                <li><a href="#servicii">Facilități</a></li>
+                <li><a href="#contact">Contact & Locație</a></li>
+                <li><a href="tel:0722213976" class="btn">Înscrie-te Acum</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <div class="badge">Sală de Cartier Sector 2</div>
+                <h1>Transformă-ți corpul la <span>Arena Fitness Club</span></h1>
+                <p>O sală dedicată succesului tău, echipată cu aparate moderne de forță, o zonă de cardio extinsă și antrenori personali pregătiți să te ghideze spre cele mai bune rezultate. Te așteptăm pe Strada Logofăt Luca Stroici nr. 2.</p>
+                <div class="hero-buttons">
+                    <a href="https://wa.me/40722213976" class="btn">Cere Ofertă Abonament</a>
+                    <a href="#servicii" class="btn btn-outline">Vezi Facilitățile</a>
+                </div>
+            </div>
+            <div class="hero-img-container">
+                <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=600&q=80" alt="Arena Fitness Gym interior workout" class="hero-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="servicii" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Ce Îți Oferim</h2>
+                <p>Tot ce ai nevoie pentru antrenamente eficiente, într-o atmosferă prietenoasă și motivantă.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <span class="service-icon">💪</span>
+                    <h3>Zonă Forță & Free Weights</h3>
+                    <p>O gamă largă de gantere, discuri, bare olimpice și aparate moderne pentru dezvoltarea musculaturii.</p>
+                </div>
+                <div class="service-card">
+                    <span class="service-icon">🏃</span>
+                    <h3>Zonă Cardio</h3>
+                    <p>Benzi de alergat profesionale, biciclete eliptice, stepper-uri și biciclete spinning pentru rezistență și slăbit.</p>
+                </div>
+                <div class="service-card">
+                    <span class="service-icon">👟</span>
+                    <h3>Personal Training</h3>
+                    <p>Lucrează unu-la-unu cu un antrenor personal pentru realizarea unui program optim de exerciții și nutriție.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Harta -->
+    <section id="contact" class="contact">
+        <div class="container contact-grid">
+            <div class="contact-info">
+                <h2>Program & Abonamente</h2>
+                <p>Suntem situați la doar câteva minute de mers pe jos de Piața Rosetti și Bulevardul Carol I. Trimite-ne un mesaj pe WhatsApp sau sună-ne direct pentru orice detalii sau tarife.</p>
+                
+                <div class="info-row">
+                    <div class="info-icon">📍</div>
+                    <div class="info-text">
+                        <strong>Adresă Sală</strong>
+                        <span>Strada Logofăt Luca Stroici nr. 2, Sector 2, București</span>
+                    </div>
+                </div>
+                
+                <div class="info-row">
+                    <div class="info-icon">📞</div>
+                    <div class="info-text">
+                        <strong>Telefon Contact</strong>
+                        <span>0722 213 976</span>
+                    </div>
+                </div>
+
+                <div class="info-row">
+                    <div class="info-icon">🕒</div>
+                    <div class="info-text">
+                        <strong>Orar Funcționare</strong>
+                        <span>Luni - Vineri: 07:00 - 22:00 | Sâmbătă - Duminică: 09:00 - 18:00</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-box">
+                <h3>Solicită o Ședință Gratuită</h3>
+                <form action="#" onsubmit="event.preventDefault(); alert('Solicitare trimisă! Vă așteptăm în sală pentru primul antrenament gratuit.');">
+                    <div class="form-group">
+                        <label for="name">Nume Complet</label>
+                        <input type="text" id="name" required placeholder="Numele tău">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telefon</label>
+                        <input type="tel" id="phone" required placeholder="07xx xxx xxx">
+                    </div>
+                    <div class="form-group">
+                        <label for="goal">Obiectivul tău</label>
+                        <select id="goal">
+                            <option>Slăbire & Tonifiere</option>
+                            <option>Masă Musculară & Forță</option>
+                            <option>Antrenament de Sănătate / Condiție fizică</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn" style="width: 100%; margin-top: 10px;">Înscrie-te la Ședința Gratuită</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sticky Mobile Action Bar -->
+    <div class="sticky-mobile-bar">
+        <a href="tel:0722213976" class="btn-sticky btn-sticky-call">📞 Sună Acum</a>
+        <a href="https://wa.me/40722213976" class="btn-sticky btn-sticky-whatsapp" target="_blank">💬 Scrie pe WhatsApp</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 <strong>Arena Fitness Club București</strong>. Toate drepturile rezervate.</p>
+            <p style="font-size: 0.8rem; margin-top: 15px; opacity: 0.5;">Propus și creat de Savu Mihai Samuel - PFA Servicii IT.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
