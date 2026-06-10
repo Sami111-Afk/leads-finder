@@ -926,18 +926,12 @@ https://sami111-afk.github.io/leads-finder/mockupuri/atelier_bijuterii_mosilor.h
 Dacă doriți să îl lansăm ca site oficial, m-aș bucura tare mult să colaborăm. O zi excelentă!
 
 --------------------------------------------------------------------------------
-🧵 71. Croitorie și Retuș Cln (Ajustări Vestimentare)
+🧵 71. Croitorie și Retuș Cln (Ajustări Vestimentare) — ❌ DESCALIFICAT
 --------------------------------------------------------------------------------
 *   Locație: Bulevardul Carol I nr. 40-42, Sector 2, București
 *   Telefon: 0791 454 387
-*   Program de Lucru: Luni - Vineri: 10:00 - 18:00 | Sâmbătă: 11:00 - 14:00 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/croitorie_cln_carol.html
-*   Stare: Activă, nu deține site web propriu (prezență doar în directoare locale).
-*   Pitch (Mesaj WhatsApp de trimis):
-Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am găsit referințele excelente pentru atelierul dumneavoastră Croitorie Cln de pe Bulevardul Carol I, dar am observat că nu dețineți un site propriu de prezentare a serviciilor și modificărilor pe care le efectuați. Pentru ca viitorii clienți din cartier să poată vedea orarul, locația exactă și să vă trimită poze cu hainele de ajustat pe WhatsApp, am creat un prototip de site mobil premium. Îl puteți vedea live aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/croitorie_cln_carol.html
-
-Dacă doriți să îl adaptăm cu prețurile dumneavoastră exacte și să îl lansăm oficial, vă ajut cu mare drag. O zi minunată!
+*   ❌ MOTIV DESCALIFICARE: Firma deține deja site web propriu funcțional — https://croitorie-retuserie.ro/ (domeniu propriu cu pagini /about, /contact, /portfolio, premiat Top 100 of Romania). Adresa (Carol I 40) și telefonul (0791 454 387) coincid exact cu cele din registru. (Verificat manual: 2026-06-10)
+*   Mockup eliminat din pipeline (croitorie_cln_carol.html șters). NU trimite pitch acestei firme.
 
 --------------------------------------------------------------------------------
 🛋️ 72. Tucoim S.R.L. (Atelier Tapițerie & Recondiționare)
@@ -975,6 +969,7 @@ Dacă doriți să îl personalizăm și să îl publicăm oficial, m-aș bucura 
 *   Program de Lucru: Luni - Sâmbătă: 10:00 - 19:00 | Duminică: Închis
 *   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/anticariat_ant_art.html
 *   Stare: Activ, nu are site web de prezentare (prezență limitată în directoare de cultură).
+*   🟡 INCERT: Articole de presă din 2014-2015 (artline.ro, agentiadecarte.ro, curentul.info) semnalau riscul de evacuare a anticariatului de la adresa Hristo Botev 31 după 18 ani de activitate; nu am putut confirma că anticariatul mai funcționează la această adresă în 2026. Telefonul din registru (0745 981 068) nu apare în surse. Verifică telefonic existența/adresa înainte de pitch. Nu deține site propriu (doar directoare). (Notat: 2026-06-10)
 *   Pitch (Mesaj WhatsApp de trimis / Email):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în București. Căutând recenzii pentru anticariate de carte veche în zona Hristo Botev, am găsit mențiunile bune pentru Ant’Art, dar am observat că nu aveți un site oficial de prezentare a colecțiilor sau un mod simplu prin care clienții să vă poată propune cărți spre achiziție. Am creat un prototip elegant pe mobil în culori calde (bookstore design), unde pasionații vă pot explora serviciile de evaluări biblioteci și colecții de cărți vechi și vă pot apela direct. Îl puteți accesa la:
 https://sami111-afk.github.io/leads-finder/mockupuri/anticariat_ant_art.html
@@ -1046,6 +1041,7 @@ Dacă doriți să repunem site-ul în funcțiune pe vechiul sau pe un nou domeni
 *   Program de Lucru: Luni - Vineri: 09:00 - 17:00 | Sâmbătă - Duminică: Închis
 *   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/notariat_sassu_opran.html
 *   Stare: Active, nu dețin un site web propriu oficial (prezență doar în baze de date notariale generale).
+*   🟡 INCERT (ADRESĂ DIFERITĂ): Majoritatea directoarelor (deschis.ro, cylex.ro, firmania.ro, nearfinderro) listează sediul biroului notarial la Strada Baba Novac nr. 7, Bl. M2, Sc. C, Ap. 24, Sector 3 — NU la Calea Moșilor 217 ca în registru. Adresa din registru apare doar pe câteva directoare (notariatpublic.com). Notarii există real (Opran Ioana din 1995, Sassu Raluca din 2004) și nu dețin site propriu. Confirmă adresa exactă înainte de pitch. (Notat: 2026-06-10)
 *   Pitch (Apel telefonic / Mesaj WhatsApp / Email):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am observat activitatea biroului dumneavoastră notarial de pe Calea Moșilor nr. 217, dar am remarcat că nu aveți un site oficial propriu de prezentare a serviciilor și orarului. Pentru ca viitorii clienți care au nevoie de tranzacții imobiliare, succesiuni sau legalizări în zona Rosetti / Moșilor să vă poată accesa cu ușurință și să poată trimite cereri sau documente de pe telefon, am creat un prototip de site mobil foarte elegant și structurat. Îl puteți vizualiza la acest link:
 https://sami111-afk.github.io/leads-finder/mockupuri/notariat_sassu_opran.html
