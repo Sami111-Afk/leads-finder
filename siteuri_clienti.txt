@@ -539,6 +539,7 @@ Dacă vă place designul și doriți să îl adaptăm și să îl lansăm oficia
 *   Program de Lucru: Luni - Sâmbătă: 08:00 - 20:00 | Duminică: Închis
 *   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/raywal_patiserie.html
 *   Stare: Activ, nu deține site web propriu.
+*   🟡 NUME/PROFIL DE VERIFICAT: Listările online (Instagram, Cylex, Deschis.ro) la Calea Moșilor 105 cu telefonul 0730 777 221 arată "Rawyal Brunch & Cakes" — local raw-vegan, NU patiserie/cofetărie clasică, iar pe Instagram apare ca temporar închis. Confirmă denumirea exactă și dacă mai funcționează înainte de pitch. Nu are site propriu (doar Instagram/directoare). (Notat: 2026-06-10)
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am remarcat patiseria dumneavoastră clasică Raywal de pe Calea Moșilor, dar am observat că nu aveți un site web de prezentare. Pentru ca clienții din cartier să poată vedea meniul zilnic, prăjiturile proaspete și să plaseze comenzi sau platouri pentru evenimente direct de pe smartphone, am creat un prototip modern de site mobil. Îl puteți accesa la acest link:
 https://sami111-afk.github.io/leads-finder/mockupuri/raywal_patiserie.html
@@ -582,6 +583,7 @@ Dacă doriți să îl adaptăm cu programul și prețurile dumneavoastră exacte
 *   Program de Lucru: Luni - Sâmbătă: 09:00 - 20:00 | Duminică: Închis
 *   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/natys_beauty_center.html
 *   Stare: Salon cosmetic activ în zona Rosetti, nu are site web propriu.
+*   🟡 ADRESĂ/TELEFON DE VERIFICAT: Listările online (bizoo.ro) arată Naty's Beauty Center la Str. Vasile Lascăr nr. 18, ap. 25 (lângă Piața Rosetti), cu telefoanele 0213116383 / 0768565026 — diferite de cele din registru (nr. 1-3, tel 0746 209 533). Confirmă adresa și numărul corect înainte de pitch. Nu are site propriu (doar directoare). (Notat: 2026-06-10)
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am văzut salonul dumneavoastră Naty's Beauty Center de pe Vasile Lascăr, dar am observat că nu aveți un site web oficial pentru prezentarea portofoliului sau a listei de prețuri. Pentru ca clientele din zona Rosetti și Moșilor să poată vedea serviciile, prețurile și să se programeze rapid la coafor, cosmetică sau unghii de pe telefon, am construit un prototip elegant de site mobil. Îl puteți vedea aici:
 https://sami111-afk.github.io/leads-finder/mockupuri/natys_beauty_center.html
@@ -603,18 +605,12 @@ https://sami111-afk.github.io/leads-finder/mockupuri/lamor_masaj.html
 Dacă doriți să îl folosim ca site oficial pentru a atrage mai mulți clienți în salon, vă pot ajuta cu plăcere. O zi minunată!
 
 --------------------------------------------------------------------------------
-🧠 46. Cabinet Individual de Psihologie Valentina Predan (Cabinet Psihologie)
+🧠 46. Cabinet Individual de Psihologie Valentina Predan (Cabinet Psihologie) — ❌ DESCALIFICAT
 --------------------------------------------------------------------------------
 *   Locație: Strada Vasile Lascăr nr. 3, Parter, Sector 2, București
 *   Telefon: 0724 881 401
-*   Program de Lucru: Luni - Vineri: 09:00 - 20:00 (Cu programare prealabilă)
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/psiholog_valentina_predan.html
-*   Stare: Cabinet individual activ, nu deține site web propriu (doar directoare profesionale).
-*   Pitch (Mesaj pe email / telefon):
-Bună ziua, doamna Valentina Predan! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am observat cabinetul dumneavoastră de psihologie de pe Vasile Lascăr nr. 3, dar am remarcat că în prezent nu aveți un site oficial de prezentare pentru pacienți. Pentru ca persoanele care caută sprijin psihologic sau psihoterapie în Sectorul 2 să poată citi detalii despre specializările dumneavoastră și să poată solicita o ședință (fizică sau online) direct de pe mobil, am conceput un prototip elegant și liniștitor de site personal. Îl puteți vedea aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/psiholog_valentina_predan.html
-
-Dacă doriți să îl adaptăm și să îl publicăm oficial, vă ajut cu mare plăcere. O zi excelentă!
+*   ❌ MOTIV DESCALIFICARE: Are deja site propriu funcțional, psiholog-expert.ro (confirmat viu, adresa Vasile Lascăr 3 și telefonul 0724 881 401 coincid). (Verificat manual: 2026-06-10)
+*   Mockup eliminat din pipeline (psiholog_valentina_predan.html șters). NU trimite pitch acestei firme.
 
 --------------------------------------------------------------------------------
 🌱 47. Cabinet Individual de Psihologie Stefiuc Andreea (Cabinet Psihologie)
@@ -631,18 +627,12 @@ https://sami111-afk.github.io/leads-finder/mockupuri/psiholog_andreea_stefiuc.ht
 Dacă doriți să îl folosim ca site oficial al cabinetului dumneavoastră, m-aș bucura să vă ajut cu publicarea. O zi minunată!
 
 --------------------------------------------------------------------------------
-☀️ 48. Cabinet Psihologie Andone Viviana (Cabinet Psihoterapie)
+☀️ 48. Cabinet Psihologie Andone Viviana (Cabinet Psihoterapie) — ❌ DESCALIFICAT
 --------------------------------------------------------------------------------
 *   Locație: Piața Rosetti nr. 6, et. 3, ap. 5, Sector 2, București
 *   Telefon: 0742 401 900
-*   Program de Lucru: Luni - Vineri: 09:00 - 20:00 (Cu programare)
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/psiholog_viviana_andone.html
-*   Stare: Cabinet activ situat în Piața Rosetti, nu are site web de prezentare propriu.
-*   Pitch (Mesaj WhatsApp de trimis):
-Bună ziua, doamna Viviana Andone! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am observat cabinetul dumneavoastră de psihoterapie din Piața Rosetti nr. 6, dar am văzut că nu aveți un site web de prezentare a terapiilor oferite. Pentru a consolida imaginea profesională a cabinetului și a le permite clienților să vă contacteze direct pentru programări pe WhatsApp, am creat un prototip de site mobil cald și minimalist, în tonuri solare. Îl puteți vizualiza aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/psiholog_viviana_andone.html
-
-Dacă doriți să îl personalizăm cu detaliile dumneavoastră exacte și să îl lansăm ca site oficial, vă ajut cu drag. O zi excelentă!
+*   ❌ MOTIV DESCALIFICARE: Are deja site propriu funcțional, vivianaandone.ro (confirmat viu, adresa Piața Rosetti 6 et.3 ap.5 și telefonul 0742 401 900 coincid exact). (Verificat manual: 2026-06-10)
+*   Mockup eliminat din pipeline (psiholog_viviana_andone.html șters). NU trimite pitch acestei firme.
 
 --------------------------------------------------------------------------------
 🧩 49. Cabinet Psihoterapie Bederu Angela (Cabinet Psihoterapie)
@@ -659,18 +649,12 @@ https://sami111-afk.github.io/leads-finder/mockupuri/psiholog_angela_bederu.html
 Dacă doriți să îl adaptăm și să îl publicăm oficial pe domeniul dumneavoastră, vă stau la dispoziție cu mare drag. O zi bună!
 
 --------------------------------------------------------------------------------
-🌊 50. Cabinet Psiholog Dan Alexandru (Cabinet Psihologie Clinică & Terapie)
+🌊 50. Cabinet Psiholog Dan Alexandru (Cabinet Psihologie Clinică & Terapie) — ❌ DESCALIFICAT
 --------------------------------------------------------------------------------
 *   Locație: Calea Moșilor nr. 296, Sector 2, București
 *   Telefon: 0736 078 966
-*   Program de Lucru: Luni - Vineri: 09:00 - 20:00 (Cu programare)
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/psiholog_dan_alexandru.html
-*   Stare: Cabinet activ în zona Moșilor, nu are site web (doar pagină de Facebook).
-*   Pitch (Mesaj de trimis pe Facebook Messenger / WhatsApp):
-Bună ziua, domnule Dan Alexandru! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am văzut pagina dumneavoastră de Facebook pentru Cabinetul de Psihologie, dar am remarcat că nu aveți un site oficial de prezentare a serviciilor clinice și de terapie. Pentru ca pacienții din Sectorul 2 să poată citi structurat despre specializările dumneavoastră și să solicite programări simplu de pe mobil, am creat un prototip modern de site de prezentare. Îl puteți accesa la:
-https://sami111-afk.github.io/leads-finder/mockupuri/psiholog_dan_alexandru.html
-
-Dacă doriți să îl lansăm ca site oficial al cabinetului dumneavoastră, m-aș bucura tare mult să vă ajut. O zi excelentă!
+*   ❌ MOTIV DESCALIFICARE: Are deja site propriu funcțional, psihologalexandrudan.ro (confirmat viu, telefonul 0736 078 966 coincide exact). (Verificat manual: 2026-06-10)
+*   Mockup eliminat din pipeline (psiholog_dan_alexandru.html șters). NU trimite pitch acestei firme.
 
 --------------------------------------------------------------------------------
 ✨ 51. Elis Beauty Center (Salon Înfrumusețare & Modelare Sprâncene)
