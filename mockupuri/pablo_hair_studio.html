@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Pablo Hair Studio - Salon Coafură, Frizerie & Stilistică București</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary: #db2777;       /* Glam rose pink */
+            --primary-hover: #be185d;
+            --secondary: #111827;     /* Luxury charcoal black */
+            --background: #fff1f2;    /* Soft pink/rose tint */
+            --surface: #ffffff;
+            --accent: #d97706;        /* Gold metallic */
+            --text-dark: #111827;
+            --text-light: #4b5563;
+            --border-color: #fce7f3;
+            --white: #ffffff;
+            --border-radius-lg: 24px;
+            --border-radius-md: 16px;
+            --border-radius-sm: 8px;
+            --font-main: 'Montserrat', sans-serif;
+            --font-display: 'Playfair Display', serif;
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            --shadow-sm: 0 4px 12px rgba(219, 39, 119, 0.03);
+            --shadow-md: 0 12px 30px rgba(219, 39, 119, 0.06);
+            --shadow-lg: 0 20px 40px rgba(219, 39, 119, 0.12);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-main);
+            background-color: var(--background);
+            color: var(--text-dark);
+            line-height: 1.6;
+            overflow-x: hidden;
+            padding-bottom: 80px; 
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes float-luxury {
+            0%, 100% { transform: translateY(0) rotate(0); }
+            50% { transform: translateY(-8px) rotate(-1deg); }
+        }
+
+        @keyframes goldGlow {
+            0% { box-shadow: 0 0 0 0 rgba(217, 119, 6, 0.4); }
+            70% { box-shadow: 0 0 0 10px rgba(217, 119, 6, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(217, 119, 6, 0); }
+        }
+
+        .animate-fade-up {
+            animation: fadeInUp 0.8s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+        }
+
+        .delay-1 { animation-delay: 0.15s; opacity: 0; animation-fill-mode: forwards; }
+        .delay-2 { animation-delay: 0.3s; opacity: 0; animation-fill-mode: forwards; }
+        .delay-3 { animation-delay: 0.45s; opacity: 0; animation-fill-mode: forwards; }
+
+        /* HEADER */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(255, 241, 242, 0.88);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(219, 39, 119, 0.08);
+            z-index: 1000;
+            padding: 16px 0;
+            transition: var(--transition);
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: var(--font-display);
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: var(--secondary);
+            text-decoration: none;
+            letter-spacing: 0.5px;
+        }
+
+        .logo span {
+            color: var(--primary);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 24px;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-dark);
+            font-weight: 600;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: var(--transition);
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        /* BUTTONS */
+        .btn {
+            background-color: var(--primary);
+            color: var(--white) !important;
+            padding: 12px 28px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            letter-spacing: 0.5px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: var(--transition);
+            box-shadow: 0 4px 14px rgba(219, 39, 119, 0.2);
+            min-height: 48px;
+        }
+
+        .btn:hover, .btn:active {
+            background-color: var(--primary-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(219, 39, 119, 0.3);
+        }
+
+        .btn-accent {
+            background-color: var(--secondary);
+            color: var(--white) !important;
+            box-shadow: 0 4px 14px rgba(17, 24, 39, 0.2);
+        }
+
+        .btn-accent:hover {
+            background-color: #1f2937;
+        }
+
+        .btn-gold {
+            background-color: var(--accent);
+            color: var(--white) !important;
+            box-shadow: 0 4px 14px rgba(217, 119, 6, 0.2);
+            animation: goldGlow 2s infinite;
+        }
+
+        .btn-gold:hover {
+            background-color: #b45309;
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            color: var(--secondary) !important;
+            border: 2px solid var(--secondary);
+            box-shadow: none;
+        }
+
+        .btn-outline:hover, .btn-outline:active {
+            background-color: var(--secondary);
+            color: var(--white) !important;
+        }
+
+        /* HERO */
+        .hero {
+            padding: 150px 0 80px;
+            background: radial-gradient(circle at 10% 20%, rgba(219, 39, 119, 0.08), transparent 45%);
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1.1fr 0.9fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .badge {
+            display: inline-block;
+            background-color: rgba(219, 39, 119, 0.08);
+            color: var(--primary);
+            padding: 6px 14px;
+            border-radius: 50px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            margin-bottom: 18px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .hero h1 {
+            font-family: var(--font-display);
+            font-size: clamp(2.2rem, 5vw, 3.4rem);
+            font-weight: 700;
+            line-height: 1.2;
+            color: var(--secondary);
+            margin-bottom: 18px;
+        }
+
+        .hero h1 span {
+            color: var(--primary);
+            border-bottom: 2px solid var(--primary);
+        }
+
+        .hero p {
+            font-size: clamp(0.95rem, 2vw, 1.05rem);
+            color: var(--text-light);
+            margin-bottom: 30px;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .hero-img-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .hero-graphics {
+            width: 100%;
+            max-width: 400px;
+            height: 360px;
+            background: linear-gradient(135deg, var(--secondary) 0%, #111827 100%);
+            border-radius: var(--border-radius-lg);
+            position: relative;
+            box-shadow: var(--shadow-lg);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: var(--white);
+            padding: 40px;
+            text-align: center;
+            border: 6px solid var(--white);
+            animation: float-luxury 6s ease-in-out infinite;
+        }
+
+        .hero-graphics-icon {
+            font-size: 5rem;
+            margin-bottom: 15px;
+        }
+
+        .hero-graphics h3 {
+            font-family: var(--font-display);
+            font-size: 1.7rem;
+            margin-bottom: 10px;
+            color: var(--accent);
+        }
+
+        .hero-graphics p {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 0.95rem;
+            letter-spacing: 0.5px;
+        }
+
+        /* SERVICES */
+        .services {
+            padding: 90px 0;
+            background-color: var(--white);
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto 55px;
+        }
+
+        .section-header h2 {
+            font-family: var(--font-display);
+            font-size: clamp(1.8rem, 4vw, 2.5rem);
+            color: var(--secondary);
+            margin-bottom: 12px;
+        }
+
+        .section-header p {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .service-card {
+            background-color: var(--background);
+            border-radius: var(--border-radius-md);
+            padding: 35px 30px;
+            border: 1px solid var(--border-color);
+            transition: var(--transition);
+        }
+
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-lg);
+            border-color: var(--primary);
+        }
+
+        .service-icon {
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+
+        .service-card h3 {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--secondary);
+            margin-bottom: 10px;
+        }
+
+        .service-card p {
+            color: var(--text-light);
+            font-size: 0.95rem;
+            margin-bottom: 15px;
+        }
+
+        .service-price {
+            font-weight: 700;
+            color: var(--primary);
+            font-size: 1.05rem;
+            border-top: 1px dashed var(--border-color);
+            padding-top: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .service-price span {
+            color: var(--accent);
+        }
+
+        /* WHY US */
+        .why-us {
+            padding: 90px 0;
+            background-color: var(--background);
+            border-top: 1px solid var(--border-color);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .why-us-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+        }
+
+        .why-us-features {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .feature-item {
+            display: flex;
+            gap: 16px;
+            background: var(--white);
+            padding: 22px;
+            border-radius: var(--border-radius-md);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .feature-check {
+            background-color: rgba(219, 39, 119, 0.08);
+            color: var(--primary);
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+
+        .feature-text h4 {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: var(--secondary);
+            margin-bottom: 4px;
+        }
+
+        .feature-text p {
+            color: var(--text-light);
+            font-size: 0.85rem;
+        }
+
+        /* CONTACT & FORM */
+        .contact {
+            padding: 90px 0;
+            background-color: var(--white);
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.1fr;
+            gap: 40px;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .contact-info h2 {
+            font-family: var(--font-display);
+            font-size: clamp(1.8rem, 4vw, 2.5rem);
+            color: var(--secondary);
+            margin-bottom: 15px;
+        }
+
+        .contact-info p {
+            color: var(--text-light);
+            margin-bottom: 30px;
+        }
+
+        .info-row {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 20px;
+            align-items: flex-start;
+        }
+
+        .info-icon {
+            width: 44px;
+            height: 44px;
+            background-color: var(--background);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
+            color: var(--primary);
+            flex-shrink: 0;
+            border: 1px solid var(--border-color);
+        }
+
+        .info-text strong {
+            display: block;
+            font-size: 0.95rem;
+            color: var(--secondary);
+        }
+
+        .info-text span {
+            font-size: 0.9rem;
+            color: var(--text-light);
+        }
+
+        .form-box {
+            background-color: var(--background);
+            border-radius: var(--border-radius-lg);
+            padding: 40px;
+            border: 1px solid var(--border-color);
+            box-shadow: var(--shadow-md);
+        }
+
+        .form-box h3 {
+            font-family: var(--font-display);
+            font-size: 1.45rem;
+            color: var(--secondary);
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 16px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--secondary);
+            margin-bottom: 6px;
+        }
+
+        .form-group input, .form-group select, .form-group textarea {
+            width: 100%;
+            padding: 12px 16px;
+            border: 1px solid var(--border-color);
+            background-color: var(--white);
+            border-radius: var(--border-radius-sm);
+            font-family: var(--font-main);
+            font-size: 0.9rem;
+            color: var(--text-dark);
+            outline: none;
+            transition: var(--transition);
+        }
+
+        .form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(219, 39, 119, 0.15);
+        }
+
+        /* STICKY ACTIONS FOR MOBILE */
+        .sticky-mobile-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.92);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-top: 1px solid var(--border-color);
+            padding: 12px 20px;
+            display: flex;
+            gap: 12px;
+            z-index: 999;
+            box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.05);
+        }
+
+        .btn-sticky {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 14px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            text-decoration: none;
+            min-height: 48px;
+        }
+
+        .btn-sticky-call {
+            background-color: var(--secondary);
+            color: var(--white);
+        }
+
+        .btn-sticky-whatsapp {
+            background-color: #25d366;
+            color: var(--white);
+            box-shadow: 0 4px 12px rgba(37, 211, 102, 0.2);
+        }
+
+        .btn-sticky-whatsapp:hover, .btn-sticky-whatsapp:active {
+            background-color: #128c7e;
+        }
+
+        /* FOOTER */
+        footer {
+            background-color: var(--secondary);
+            color: var(--white);
+            padding: 40px 0;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        footer p {
+            opacity: 0.8;
+            margin-bottom: 8px;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 992px) {
+            .hero-grid, .why-us-grid, .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            .hero {
+                padding: 120px 0 50px;
+                text-align: center;
+            }
+
+            .hero-buttons {
+                justify-content: center;
+            }
+
+            .hero-img-container {
+                order: -1;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .nav-links {
+                display: none;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .form-box {
+                padding: 24px 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <a href="#" class="logo">Pablo<span>HairStudio</span></a>
+            <ul class="nav-links">
+                <li><a href="#servicii">Servicii</a></li>
+                <li><a href="#despre">De Ce Noi</a></li>
+                <li><a href="#contact">Programări</a></li>
+            </ul>
+            <a href="tel:0764457851" class="btn btn-outline" style="min-height: 40px; padding: 8px 18px; font-size: 0.85rem;">📞 Suna Salon</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text animate-fade-up">
+                <span class="badge">Atelier Stilistică Calea Călărași</span>
+                <h1>Stilul tău, definit de <span>profesioniști</span></h1>
+                <p>La Pablo Hair Studio de pe Calea Călărași nr. 177, transformăm fiecare tunsoare și culoare într-o declarație de stil. Folosim exclusiv produse profesionale premium pentru a-ți pune în valoare frumusețea naturală.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-gold">📅 Programează-te Rapid</a>
+                    <a href="tel:0764457851" class="btn btn-outline">📞 Sună Direct</a>
+                </div>
+            </div>
+            <div class="hero-img-container animate-fade-up delay-1">
+                <div class="hero-graphics">
+                    <div class="hero-graphics-icon">💇‍♀️✨</div>
+                    <h3>Pablo Hair Studio</h3>
+                    <p>Coafură, Vopsit & Barbering</p>
+                    <div style="margin-top: 20px; font-size: 0.85rem; color: var(--accent); font-weight: 700;">
+                        Calea Călărași nr. 177, Sector 3
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicii" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Serviciile Noastre</h2>
+                <p>Oferim servicii profesionale complete pentru femei și bărbați, adaptate stilului tău.</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Serviciul 1 -->
+                <div class="service-card animate-fade-up delay-1">
+                    <span class="service-icon">💇‍♀️</span>
+                    <h3>Coafat & Tuns Damă</h3>
+                    <p>Tunsori moderne, coafat de zi/eveniment (bucle, îndreptat, cocuri), tratamente cu keratină și protecție termică.</p>
+                    <div class="service-price">Tuns & Coafat: <span>De la 80 LEI</span></div>
+                </div>
+
+                <!-- Serviciul 2 -->
+                <div class="service-card animate-fade-up delay-2">
+                    <span class="service-icon">🎨</span>
+                    <h3>Vopsit & Balayage</h3>
+                    <p>Colorare profesională (Wella, L'Oreal), tehnici moderne (Balayage, BabyLights, Ombre), decolorare blândă fără degradare.</p>
+                    <div class="service-price">Vopsit tehnic: <span>De la 150 LEI</span></div>
+                </div>
+
+                <!-- Serviciul 3 -->
+                <div class="service-card animate-fade-up delay-3">
+                    <span class="service-icon">💈</span>
+                    <h3>Styling & Tuns Bărbați</h3>
+                    <p>Tunsori clasice sau moderne (fade, undercut), aranjat barbă, bărbierit tradițional cu prosoape calde și tratament scalp.</p>
+                    <div class="service-price">Tuns + Barbă: <span>De la 50 LEI</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section id="despre" class="why-us">
+        <div class="container why-us-grid">
+            <div class="why-us-text">
+                <span class="badge">Standarde Premium</span>
+                <h2 style="font-family: var(--font-display); font-size: 2.2rem; color: var(--secondary); margin-bottom: 18px;">
+                    O experiență relaxantă, rezultate perfecte
+                </h2>
+                <p style="color: var(--text-light); margin-bottom: 25px;">
+                    Fiecare vizită la salonul nostru este un moment de răsfăț. Oferim consultanță gratuită înainte de orice serviciu pentru a alege împreună tunsoarea sau nuanța care îți avantajează trăsăturile feței și tipul de păr.
+                </p>
+                <a href="#contact" class="btn btn-accent">Solicită o programare pe WhatsApp 💬</a>
+            </div>
+            
+            <div class="why-us-features">
+                <div class="feature-item">
+                    <div class="feature-check">✓</div>
+                    <div class="feature-text">
+                        <h4>Stiliști Pasionați</h4>
+                        <p>Echipa noastră participă constant la cursuri de specializare și trenduri noi.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-check">✓</div>
+                    <div class="feature-text">
+                        <h4>Produse Profesionale</h4>
+                        <p>Folosim vopsele și tratamente profesionale ce hrănesc firul de păr în profunzime.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-check">✓</div>
+                    <div class="feature-text">
+                        <h4>Atmosferă Elegantă</h4>
+                        <p>Design modern, muzică relaxantă și o cafea excelentă oferită din partea casei.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Booking Section -->
+    <section id="contact" class="contact">
+        <div class="container contact-grid">
+            <div class="contact-info">
+                <h2>Rezervă un interval orar</h2>
+                <p>Completează formularul de alături pentru a ne trimite dorința ta de programare. Aceasta va fi transmisă instant pe WhatsApp pentru a-ți confirma rapid disponibilitatea stiliștilor noștri.</p>
+                
+                <div class="info-rows">
+                    <div class="info-row">
+                        <div class="info-icon">📍</div>
+                        <div class="info-text">
+                            <strong>Locația Noastră</strong>
+                            <span>Calea Călărași nr. 177, Sector 3, București (Zona Piața Muncii / Calea Călărași)</span>
+                        </div>
+                    </div>
+
+                    <div class="info-row">
+                        <div class="info-icon">📞</div>
+                        <div class="info-text">
+                            <strong>Telefon Rezervări</strong>
+                            <span>0764 457 851</span>
+                        </div>
+                    </div>
+
+                    <div class="info-row">
+                        <div class="info-icon">🕒</div>
+                        <div class="info-text">
+                            <strong>Orar Funcționare</strong>
+                            <span>Luni - Sâmbătă: 09:00 - 20:00 | Duminică: Închis</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-box">
+                <h3>Cere O Programare Rapidă</h3>
+                <form id="whatsapp-form">
+                    <div class="form-group">
+                        <label for="name">Nume Complet</label>
+                        <input type="text" id="name" required placeholder="Numele tău">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Număr Telefon</label>
+                        <input type="tel" id="phone" required placeholder="07xx xxx xxx">
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Serviciul Dorit</label>
+                        <select id="service" required>
+                            <option value="" disabled selected>Selectează serviciul...</option>
+                            <option value="Tuns + Coafat Dama">Tuns + Coafat Damă</option>
+                            <option value="Vopsit complet / Balayage">Vopsit Profesional / Balayage</option>
+                            <option value="Tratament par / Keratina">Tratament Păr (Keratină, Hidratare)</option>
+                            <option value="Tuns + Styling Barbati">Tuns + Styling Bărbați</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="date-time">Data și Intervalul orar dorit</label>
+                        <input type="text" id="date-time" required placeholder="Ex: Vineri, 12 Iunie, în jur de ora 16:00">
+                    </div>
+                    <button type="submit" class="btn btn-gold" style="width: 100%; margin-top: 10px;">Trimite Solicitarea pe WhatsApp 💬</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sticky Mobile Action Bar -->
+    <div class="sticky-mobile-bar">
+        <a href="tel:0764457851" class="btn-sticky btn-sticky-call">📞 Sună Acum</a>
+        <a href="https://wa.me/40764457851" class="btn-sticky btn-sticky-whatsapp" target="_blank">💬 WhatsApp</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 <strong>Pablo Hair Studio București</strong>. Toate drepturile rezervate.</p>
+            <p style="font-size: 0.8rem; margin-top: 15px; opacity: 0.5;">Prototip de website premium realizat ca propunere de digitalizare.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('whatsapp-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const name = encodeURIComponent(document.getElementById('name').value);
+            const phone = encodeURIComponent(document.getElementById('phone').value);
+            const service = encodeURIComponent(document.getElementById('service').value);
+            const dateTime = encodeURIComponent(document.getElementById('date-time').value);
+            
+            const text = `Bună ziua! Numele meu este ${name} (Tel: ${phone}). Aș dori o programare la Pablo Hair Studio pentru serviciul: ${service}. Interval dorit: ${dateTime}. Aveți liber?`;
+            window.open(`https://wa.me/40764457851?text=${text}`, '_blank');
+        });
+    </script>
+</body>
+</html>
