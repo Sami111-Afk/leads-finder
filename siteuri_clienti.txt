@@ -148,6 +148,7 @@ Dacă doriți să îl adaptăm cu tarifele exacte și să îl lansăm ca site of
 *   Program de Lucru: Luni - Vineri: 09:00 - 18:00 | Sâmbătă - Duminică: Închis
 *   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/avocat_marica.html
 *   Stare: Activ, nu deține un site propriu de prezentare.
+*   🔴 NECONFIRMAT — VERIFICĂ ÎNAINTE DE PITCH: la adresa B-dul Carol I 37 căutarea a găsit alt cabinet ("Daniel Stoicescu - Cabinet Avocat"), nu "Marica Daniela", iar telefonul (0724 010 000) pare generic. Posibil date inexacte sau halucinate. Confirmă existența firmei înainte să trimiți. (Verificat: 2026-06-10)
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am observat cabinetul dumneavoastră de avocatură de pe Bulevardul Carol I nr. 37, dar am văzut că nu dețineți un site web de prezentare. Pentru ca viitorii clienți care caută asistență juridică în zona Piața Rosetti / Universitate să vă poată găsi cu ușurință domeniile de expertiză, datele de contact și să poată cere o consultație rapid pe WhatsApp, am creat un prototip de site mobil premium. Îl puteți vedea live la acest link:
 https://sami111-afk.github.io/leads-finder/mockupuri/avocat_marica.html
@@ -212,18 +213,12 @@ https://sami111-afk.github.io/leads-finder/mockupuri/anticariat_pravalia.html
 Dacă doriți să îl lansăm ca site oficial al magazinului, vă ajut cu mare drag. O zi deosebită!
 
 --------------------------------------------------------------------------------
-🔑 16. Navi Group Copiere Chei (Lăcătuș & Deblocări)
+🔑 16. Navi Group Copiere Chei (Lăcătuș & Deblocări) — ❌ DESCALIFICAT
 --------------------------------------------------------------------------------
 *   Locație: Calea Moșilor nr. 268, Sector 2, București
 *   Telefon: 0722 317 599
-*   Program de Lucru: Luni - Vineri: 09:00 - 18:00 | Sâmbătă: 10:00 - 13:00 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/deblocari_chei_navi.html
-*   Stare: Activ, nu deține site web propriu.
-*   Pitch (Mesaj WhatsApp de trimis):
-Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am văzut atelierul dumneavoastră Navi Group de copiat chei și deblocări uși de pe Calea Moșilor nr. 268, dar am observat că nu aveți un site web propriu. Pentru ca persoanele care au nevoie urgentă de lăcătuș în Sectorul 2 sau vor să multiplice o cheie auto cu cip să vă poată găsi rapid tarifele, locația și să vă trimită poze pe WhatsApp înainte de a veni, am creat un prototip de site mobil foarte dinamic. Îl puteți testa live aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/deblocari_chei_navi.html
-
-Dacă doriți să îl lansăm oficial, m-aș bucura tare mult să colaborăm. O zi excelentă!
+*   ❌ MOTIV DESCALIFICARE: Firma ARE deja un site propriu funcțional, chiar magazin online complet (https://navigroup.ro). NU este lead valid — pitch-ul "nu aveți site" ar fi greșit. (Verificat manual: 2026-06-10)
+*   Mockup eliminat din pipeline (deblocari_chei_navi.html șters). NU trimite pitch acestei firme.
 
 --------------------------------------------------------------------------------
 🧼 17. Nido Car Wash & Detailing (Spălătorie Auto)
@@ -261,6 +256,7 @@ Dacă vă doriți să îl adaptăm cu meniul vostru complet de prăjituri și s�
 *   Program de Lucru: Luni - Vineri: 09:00 - 17:00 | Sâmbătă - Duminică: Închis
 *   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/metalo_casnica.html
 *   Stare: Activă, nu deține site web de prezentare.
+*   🟡 ATENȚIE LA PITCH: cooperativa-mamă ARE site (https://metalocasnica.ro) care listează toate unitățile, inclusiv Unitatea 99. Unitatea în sine nu are site propriu, dar e reprezentată online — NU folosi formularea "nu aveți prezență web". Pitch-ul corect: "un site dedicat DOAR unității voastre / cartierului". (Notat: 2026-06-10)
 *   Pitch (Mesaj WhatsApp de trimis / Apel):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Cunosc atelierul dumneavoastră cooperativ Metalo-Casnica (Unitatea 99) de pe Calea Moșilor nr. 268 și serviciile utile de reparații electrocasnice pe care le oferiți, dar am observat că nu aveți o prezență web proprie. Pentru ca locuitorii din cartier care au nevoie de reparații de aspiratoare, roboți de bucătărie sau servicii la domiciliu pentru mașini de spălat să vă poată găsi cu ușurință programul, adresa și să vă sune direct, am creat un prototip de site mobil simplu și clar. Îl puteți vedea live la acest link:
 https://sami111-afk.github.io/leads-finder/mockupuri/metalo_casnica.html
@@ -275,6 +271,7 @@ Dacă doriți să îl lansăm ca site oficial, m-aș bucura tare mult să vă aj
 *   Program de Lucru: Luni - Vineri: 08:30 - 20:30 | Sâmbătă: 09:00 - 17:00 | Duminică: Închis
 *   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/salon_amsy.html
 *   Stare: Activ, site-ul vechi amsysalon.ro este expirat și nefuncțional.
+*   🟡 Confirmă datele înainte de pitch: salonul apare listat (ex. Divahair) deci pare real, dar are prezență online slabă — verifică telefonul/adresa exactă pe Google Maps înainte să trimiți. (Notat: 2026-06-10)
 *   Gândire Pitch (Site Expirat): (Atelierul / salonul are domeniul vechi amsysalon.ro închis/inactiv, însă datele de contact de pe Google Maps funcționează. Propunerea este de a reînvia imaginea online a salonului printr-un portofoliu curat pe mobil, pe care să-l poată lega direct de vechiul domeniu sau folosi în social media.)
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local. Am observat salonul dumneavoastră Amsy de pe Bulevardul Hristo Botev nr. 11, dar am văzut că site-ul dumneavoastră vechi amsysalon.ro nu mai funcționează. Pentru ca persoanele din zonă care caută coafor, cosmetică sau manichiură să vă poată găsi cu ușurință serviciile, programul și să poată cere programări direct pe WhatsApp, am creat un prototip elegant de site mobil. Îl puteți accesa live aici:
