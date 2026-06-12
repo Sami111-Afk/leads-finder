@@ -525,9 +525,14 @@
             }
         }
     
+        
         /* ==================================================
-           UPGRADE VIZUAL 2026  (additiv, nu modifica designul existent)
+           UPGRADE PREMIUM 2026  (additiv, optimizat pentru telefoane)
            ================================================== */
+        html {
+            scroll-behavior: smooth;
+        }
+
         @media (prefers-reduced-motion: no-preference) {
             .hero-content > *, .hero-img-container, .hero-img {
                 animation: upFadeIn .75s cubic-bezier(.2,.7,.2,1) both;
@@ -541,26 +546,98 @@
             .anim-in.is-visible{opacity:1;transform:none}
         }
         @keyframes upFadeIn{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
-        .btn{position:relative;overflow:hidden}
+
+        /* Buton: efect de luciu (shine) la hover + feedback activ tactil */
+        .btn{position:relative;overflow:hidden;transition:transform 0.15s ease, box-shadow 0.15s ease}
         .btn::after{content:"";position:absolute;top:0;left:-130%;width:55%;height:100%;
             background:linear-gradient(120deg,transparent,rgba(255,255,255,.35),transparent);
             transform:skewX(-20deg);transition:left .6s ease;pointer-events:none}
         .btn:hover::after{left:150%}
-        .service-card{position:relative;overflow:hidden}
+        .btn:active{transform:scale(0.96)}
+
+        /* Card serviciu: accent gradient sus + lift mai fin */
+        .service-card{position:relative;overflow:hidden;transition:transform 0.3s ease, box-shadow 0.3s ease}
         .service-card::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;
             background:linear-gradient(90deg,var(--primary),transparent);
             transform:scaleX(0);transform-origin:left;transition:transform .4s ease}
         .service-card:hover::before{transform:scaleX(1)}
         .service-card:hover .service-icon{transform:scale(1.12) rotate(-4deg)}
         .service-icon{transition:transform .3s ease}
+
+        /* Imagine hero: zoom subtil la hover */
         .hero-img{transition:transform .5s ease, box-shadow .5s ease}
         .hero-img:hover{transform:translateY(-5px) scale(1.012)}
+
+        /* Polish global: scrollbar + selectie branduite */
         ::-webkit-scrollbar{width:10px}
         ::-webkit-scrollbar-track{background:transparent}
         ::-webkit-scrollbar-thumb{background:var(--primary);border-radius:10px;
             border:3px solid var(--background)}
         ::selection{background:var(--primary);color:#fff}
-    </style>
+
+        /* Polish modern pentru input-uri */
+        input, textarea, select {
+            transition: border-color 0.2s ease, box-shadow 0.2s ease !important;
+        }
+        input:focus, textarea:focus, select:focus {
+            outline: none !important;
+            border-color: var(--primary) !important;
+            box-shadow: 0 0 0 4px color-mix(in srgb, var(--primary) 18%, transparent) !important;
+        }
+
+        /* Optimizări mobile PREMIUM */
+        @media (max-width: 768px) {
+            /* Previne auto-zoom-ul iOS pe input-uri */
+            input, textarea, select { font-size: 16px !important; }
+            
+            /* Feedback tactil instant la atingere */
+            .btn-sticky:active { transform: scale(0.95) !important; }
+            .service-card:active { transform: translateY(-2px) scale(0.98) !important; }
+            
+            /* Glassmorphism premium pentru Sticky Mobile Bar */
+            .sticky-mobile-bar {
+                background: color-mix(in srgb, var(--background) 85%, transparent) !important;
+                backdrop-filter: blur(20px) saturate(190%) !important;
+                -webkit-backdrop-filter: blur(20px) saturate(190%) !important;
+                border-top: 1px solid rgba(128, 128, 128, 0.15) !important;
+                box-shadow: 0 -12px 35px rgba(0, 0, 0, 0.08) !important;
+                padding: 12px 18px !important;
+                animation: slideUpMobileBar 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+                animation-delay: 0.5s;
+            }
+            
+            /* Butoane mobile moderne stil floating */
+            .sticky-mobile-bar .btn-sticky {
+                border-radius: 14px !important;
+                font-weight: 600 !important;
+                font-size: 0.92rem !important;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.06) !important;
+                transition: transform 0.1s ease !important;
+            }
+            
+            .btn-sticky-call {
+                background: linear-gradient(135deg, var(--secondary), var(--primary)) !important;
+                color: #fff !important;
+                border: none !important;
+            }
+            
+            .btn-sticky-whatsapp {
+                background: linear-gradient(135deg, #25D366, #075E54) !important;
+                color: #fff !important;
+                border: none !important;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header .logo { font-size: 1.15rem !important; }
+            .header-content { padding: 10px 15px !important; }
+        }
+
+        @keyframes slideUpMobileBar {
+            from { transform: translateY(100%); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+</style>
 </head>
 <body>
 
@@ -729,8 +806,9 @@
     </footer>
 
 
+    
     <script>
-    /* UPGRADE VIZUAL 2026 - scroll reveal */
+    /* UPGRADE PREMIUM 2026 - scroll reveal */
     (function(){
         if (!('IntersectionObserver' in window)) return;
         if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
