@@ -8,12 +8,10 @@
 *   Locație: Strada Maria Rosetti nr. 24, Sector 2, București
 *   Telefon: 0744 542 612
 *   Program de Lucru: Luni - Sâmbătă: 08:30 - 23:00 | Duminică: 10:00 - 23:00
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/rosetti_brasserie.html
 *   Stare: Local închis pe .business.site, are nevoie de un site propriu.
 *   Gândire Pitch (Site Expirat): (Deoarece Google a desființat site-urile gratuite .business.site, restaurantul și-a pierdut singura pagină unde clienții le vedeau meniul. Pitch-ul speculează direct această pierdere recentă și le oferă o soluție modernă de meniu digital cu comenzi/rezervări rapide prin WhatsApp.)
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am remarcat restaurantul dumneavoastră de pe Strada Maria Rosetti nr. 24, dar am observat că site-ul dumneavoastră web nu mai este funcțional (cel de tip business.site care s-a închis). Pentru a ajuta clienții din zonă să vă găsească meniul, orarul și să poată cere o rezervare rapid direct pe WhatsApp, am creat un prototip de site mobil premium adaptat brandului dumneavoastră. Îl puteți vedea live la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/rosetti_brasserie.html
 
 Dacă vă place și doriți să îl lansăm ca site oficial, vă ajut cu mare drag. O zi minunată!
 
@@ -23,11 +21,9 @@ Dacă vă place și doriți să îl lansăm ca site oficial, vă ajut cu mare dr
 *   Locație: Calea Moșilor nr. 308, Sector 2, București
 *   Telefon: 0735 721 144
 *   Program de Lucru: Luni - Vineri: 10:00 - 19:00 | Sâmbătă: 10:00 - 14:00 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/top_phone_gsm.html
 *   Stare: Activ, nu deține niciun site sau pagină proprie dedicată.
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Căutând recomandări pentru reparații de telefoane pe Calea Moșilor, am văzut recenziile bune pentru magazinul dumneavoastră, dar am observat că nu aveți un site web propriu. Pentru ca persoanele din zonă care au nevoie de reparații de ecrane sau baterii să vă găsească rapid serviciile, tarifele și să poată trimite cereri de deviz pe WhatsApp, am creat un prototip modern de site mobil de prezentare. Îl puteți vedea live aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/top_phone_gsm.html
 
 Dacă doriți să îl personalizăm și să îl lansăm oficial, vă ajut cu mare drag. O zi excelentă!
 
@@ -37,12 +33,10 @@ Dacă doriți să îl personalizăm și să îl lansăm oficial, vă ajut cu mar
 *   Locație: Strada Vasile Lascăr nr. 79, Sector 2, București
 *   Telefon: 0745 189 078
 *   Program de Lucru: Luni - Vineri: 08:00 - 16:00 | Sâmbătă: 10:00 - 13:00 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/cizmarie_neagu.html
 *   Stare: Activ, site-ul .business.site este expirat.
 *   Gândire Pitch (Site Expirat): (Aici, atelierul avea un site simplu pe Google Business Profile care a încetat să funcționeze. Ne adresăm cizmarului evidențiind că recenziile lui bune sunt greu de fructificat online acum și îi oferim un mod prin care clienții să-i poată trimite poze direct pe WhatsApp cu încălțămintea ce trebuie reparată, salvându-le timp.)
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Căutând un atelier bun de reparații încălțăminte în zona Vasile Lascăr / Piața Rosetti, am găsit recomandările excelente pentru atelierul dumneavoastră, dar am văzut că site-ul vechi nu mai funcționează. Am creat un prototip de site mobil modern, unde clienții pot vedea serviciile dumneavoastră de cizmărie/marochinărie și vă pot trimite poze cu defectele direct pe WhatsApp pentru o estimare rapidă. Îl puteți accesa live la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/cizmarie_neagu.html
 
 Dacă vă place cum arată și doriți să îl adaptăm cu tarifele exacte și să îl lansăm ca site oficial, m-aș bucura tare mult să vă ajut. O zi minunată!
 
@@ -52,11 +46,9 @@ Dacă vă place cum arată și doriți să îl adaptăm cu tarifele exacte și s
 *   Locație: Strada Maria Rosetti nr. 24, Sector 2, București
 *   Telefon: 0799 832 902
 *   Program de Lucru: Luni - Duminică: 14:30 - 02:00
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/nabreej_caffe.html
 *   Stare: Activ, nu deține site oficial (doar listări terțe).
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am observat lounge-ul dumneavoastră deosebit Nabreej de pe Strada Maria Rosetti nr. 24, dar am văzut că nu dețineți un site web de prezentare. Am creat un prototip modern de site pe temă închisă premium (dark mode), dedicat expunerii atmosferei, specificului și rezervărilor rapides direct pe WhatsApp sau telefon. Îl puteți testa live aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/nabreej_caffe.html
 
 Dacă doriți să îl punem ca site oficial și să îl adaptăm cu meniul vostru complet, vă ajut cu drag. O zi faină!
 
@@ -74,11 +66,9 @@ Dacă doriți să îl punem ca site oficial și să îl adaptăm cu meniul vostr
 *   Locație: Bulevardul Carol I nr. 55-55 bis, Parter, Sector 2, București
 *   Telefon: 021 312 07 73
 *   Program de Lucru: Luni - Joi: 09:00 - 17:00 | Vineri: 09:00 - 16:00 | Sâmbătă - Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/notariat_herbay.html
 *   Stare: Activ, nu deține un site propriu oficial.
 *   Pitch (Mesaj E-mail de trimis / Pitch Telefonic):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am observat societatea dumneavoastră profesională notarială de pe Bulevardul Carol I nr. 55, dar am văzut că nu dețineți un site web oficial de prezentare. Am conceput un prototip modern de site web de prezentare pentru biroul dumneavoastră notarial, complet adaptat, unde clienții pot vedea orarul, adresa exactă, serviciile oferite și pot trimite cereri de programări sau documente direct pe email-ul dumneavoastră. Îl puteți vedea live aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/notariat_herbay.html
 
 Dacă doriți să îl adaptăm și să îl lansăm ca site oficial, vă ajut cu mare drag. O zi excelentă!
 
@@ -102,12 +92,10 @@ Dacă doriți să îl adaptăm cu detaliile exacte și să îl lansăm ca site o
 *   Locație: Strada Logofăt Luca Stroici nr. 2, Sector 2, București
 *   Telefon: 0722 213 976
 *   Program de Lucru: Luni - Vineri: 07:00 - 22:00 | Sâmbătă - Duminică: 09:00 - 18:00
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/arena_fitness.html
 *   Stare: Activă, nu are un site web propriu de prezentare.
 *   ⚠️ DE VERIFICAT MANUAL ÎNAINTE DE PITCH: există domeniul arenafitnessclub.ro — confirmă dacă aparține ACESTEI săli (Logofăt Luca Stroici) sau alteia cu același nume. Dacă e a lor, NU folosi pitch-ul "nu aveți site". (Notat: 2026-06-10)
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Cunoscând serviciile sportive oferite de Arena Fitness Club de pe strada Logofăt Luca Stroici, am observat că în prezent nu aveți un site web activ de prezentare a facilităților, orarului și tarifelor. Pentru a atrage noi clienți din cartier și a facilita înscrierile rapide, am conceput un prototip de site mobil foarte dinamic și modern. Îl puteți vedea live la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/arena_fitness.html
 
 Dacă vă place și doriți să îl personalizăm cu pachetele voastre de abonamente și să îl lansăm ca site oficial, vă ajut cu drag. O zi excelentă!
 
@@ -117,11 +105,9 @@ Dacă vă place și doriți să îl personalizăm cu pachetele voastre de abonam
 *   Locație: Calea Moșilor nr. 217, Sector 2, București
 *   Telefon: 0730 309 000
 *   Program de Lucru: Luni - Vineri: 09:00 - 18:00 | Sâmbătă - Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/inventograf.html
 *   Stare: Activ, nu deține un site web propriu dedicat.
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Trecând des pe Calea Moșilor, cunosc centrul dumneavoastră Inventograf de copiere și ștampile, dar am observat că nu aveți un site web de prezentare propriu. Am creat un prototip modern de site mobil, unde clienții pot vedea rapid produsele (ștampile, servicii papetărie, copiere, laminare) și vă pot trimite documente spre printat sau comenzi de ștampile direct pe WhatsApp-ul dumneavoastră. Îl puteți accesa live aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/inventograf.html
 
 Dacă vă place cum arată și doriți să îl lansăm oficial, m-aș bucura să colaborăm. O zi excelentă!
 
@@ -131,12 +117,10 @@ Dacă vă place cum arată și doriți să îl lansăm oficial, m-aș bucura să
 *   Locație: Calea Moșilor nr. 140, Sector 2, București
 *   Telefon: 0734 174 025
 *   Program de Lucru: Luni - Vineri: 08:00 - 18:00 | Sâmbătă: 08:00 - 14:00 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/universal_service.html
 *   Stare: Activ, site-ul vechi universalserviceec.ro este inactiv în prezent.
 *   Gândire Pitch (Site Expirat): (Atelierul auto are un site vechi complet nefuncțional. Pitch-ul speculează nevoia urgentă a șoferilor din Sectorul 2 de a se programa rapid la ITP sau revizii de pe mobil și le propune înlocuirea site-ului mort cu un prototip centrat pe apeluri și rezervări rapide pe WhatsApp.)
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am observat stația dumneavoastră ITP și service-ul auto Universal Service de pe Calea Moșilor nr. 140, dar am văzut că site-ul dumneavoastră vechi nu mai funcționează. Pentru ca șoferii din cartier să vă poată găsi rapid serviciile, tarifele și să se poată programa la ITP sau revizii direct pe WhatsApp, am creat un prototip de site mobil modern. Îl puteți vedea live la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/universal_service.html
 
 Dacă doriți să îl adaptăm cu tarifele exacte și să îl lansăm ca site oficial, vă ajut cu mare drag. O zi bună și spor la treabă!
 
@@ -146,12 +130,10 @@ Dacă doriți să îl adaptăm cu tarifele exacte și să îl lansăm ca site of
 *   Locație: Bulevardul Carol I nr. 37, Sector 2, București
 *   Telefon: 0724 010 000
 *   Program de Lucru: Luni - Vineri: 09:00 - 18:00 | Sâmbătă - Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/avocat_marica.html
 *   Stare: Activ, nu deține un site propriu de prezentare.
 *   🔴 NECONFIRMAT — VERIFICĂ ÎNAINTE DE PITCH: la adresa B-dul Carol I 37 căutarea a găsit alt cabinet ("Daniel Stoicescu - Cabinet Avocat"), nu "Marica Daniela", iar telefonul (0724 010 000) pare generic. Posibil date inexacte sau halucinate. Confirmă existența firmei înainte să trimiți. (Verificat: 2026-06-10)
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am observat cabinetul dumneavoastră de avocatură de pe Bulevardul Carol I nr. 37, dar am văzut că nu dețineți un site web de prezentare. Pentru ca viitorii clienți care caută asistență juridică în zona Piața Rosetti / Universitate să vă poată găsi cu ușurință domeniile de expertiză, datele de contact și să poată cere o consultație rapid pe WhatsApp, am creat un prototip de site mobil premium. Îl puteți vedea live la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/avocat_marica.html
 
 Dacă vă place cum arată și doriți să îl adaptăm și să îl lansăm ca site oficial, m-aș bucura tare mult să vă ajut. O zi excelentă!
 
@@ -161,11 +143,9 @@ Dacă vă place cum arată și doriți să îl adaptăm și să îl lansăm ca s
 *   Locație: Piața C. A. Rosetti nr. 3, Sector 2, București
 *   Telefon: 0723 258 673
 *   Program de Lucru: Luni - Vineri: 08:00 - 17:00 | Sâmbătă - Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/buoni_e_bravi.html
 *   Stare: Activă, nu are site web propriu (doar pagini de livrare Wolt/Glovo).
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Sunt un mare fan al pizzeriei dumneavoastră Buoni e Bravi de la Piața Rosetti, dar am observat că nu aveți un site propriu de prezentare (clienții vă găsesc doar pe Wolt sau Glovo). Pentru ca oamenii din zonă să vă vadă meniul complet, orarul, adresa și să vă poată apela direct sau comanda pe WhatsApp fără comisioanele aplicațiilor de livrare, am conceput un prototip modern de site mobil. Îl puteți accesa live aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/buoni_e_bravi.html
 
 Dacă vă doriți să îl lansăm ca site oficial al pizzeriei și să îl completăm cu preparatele voastre, vă ajut cu mare drag. O zi minunată!
 
@@ -175,12 +155,10 @@ Dacă vă doriți să îl lansăm ca site oficial al pizzeriei și să îl compl
 *   Locație: Bulevardul Hristo Botev nr. 6, Sector 3, București
 *   Telefon: 0755 333 733
 *   Program de Lucru: Luni - Vineri: 08:00 - 21:00 | Sâmbătă: 09:00 - 15:00 | Duminică: 09:00 - 13:00
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/serrene_beauty.html
 *   Stare: Activ, site-ul vechi este expirat.
 *   Gândire Pitch (Site Expirat): (Centrul de masaj și remodelare are site-ul expirat de ceva timp, deși listarea lor locală este activă. Pitch-ul subliniază că potențialii clienți caută servicii de remodelare în zona Hristo Botev și propune un site mobil premium, mult mai potrivit pentru imagini de tip înainte/după și tarife clare.)
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local. Căutând un salon de masaj în zona Hristo Botev / Piața Rosetti, am remarcat centrul dumneavoastră SerRene, dar am văzut că site-ul web pe care îl aveați nu mai funcționează. Pentru ca clienții interesați de masaj cu bambus sau remodelare corporală să vă poată descoperi serviciile și să trimită cereri de programare rapid pe WhatsApp, am creat un prototip elegant de site mobil. Îl puteți vizualiza live la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/serrene_beauty.html
 
 Dacă doriți să îl personalizăm cu tarifele actuale și să îl lansăm ca noul site oficial al salonului, vă ajut cu mare plăcere. O zi minunată!
 
@@ -190,11 +168,9 @@ Dacă doriți să îl personalizăm cu tarifele actuale și să îl lansăm ca n
 *   Locație: Calea Moșilor nr. 235, Sector 2, București
 *   Telefon: 0732 465 898
 *   Program de Lucru: Luni - Vineri: 09:00 - 17:00 | Sâmbătă - Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/ceasornicarie_mosilor.html
 *   Stare: Activ, nu deține niciun site web propriu.
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am remarcat recenziile foarte bune pentru serviciile dumneavoastră de ceasornicărie de pe Calea Moșilor, dar am observat că nu dețineți un site web de prezentare. Pentru ca clienții din București care au nevoie de reparații de precizie sau schimb de baterie/curea să vă poată găsi orarul, adresa și să vă poată trimite poze cu ceasul defect direct pe WhatsApp pentru o evaluare rapidă, am construit un prototip modern de site mobil. Îl puteți accesa aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/ceasornicarie_mosilor.html
 
 Dacă vă doriți să îl lansăm oficial, m-ar bucura mult să colaborăm. O zi excelentă și spor la treabă!
 
@@ -204,11 +180,9 @@ Dacă vă doriți să îl lansăm oficial, m-ar bucura mult să colaborăm. O zi
 *   Locație: Bulevardul Carol I nr. 40, Sector 2, București
 *   Telefon: 0786 300 000
 *   Program de Lucru: Luni - Vineri: 10:00 - 18:00 | Sâmbătă: 10:00 - 14:00 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/anticariat_pravalia.html
 *   Stare: Activ, nu deține un site web propriu de prezentare.
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am văzut magazinul dumneavoastră de colecții și antichități Prăvălia nr. 2 de pe Bulevardul Carol I, dar am observat că nu aveți un site web propriu. Pentru ca persoanele care vor să vândă sau să evalueze monede vechi, medalii sau tablouri să poată afla ce achiziționați și să vă poată trimite poze direct pe WhatsApp pentru o evaluare rapidă, am realizat un prototip elegant de site mobil. Îl puteți vedea live la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/anticariat_pravalia.html
 
 Dacă doriți să îl lansăm ca site oficial al magazinului, vă ajut cu mare drag. O zi deosebită!
 
@@ -226,11 +200,9 @@ Dacă doriți să îl lansăm ca site oficial al magazinului, vă ajut cu mare d
 *   Locație: Strada Ardeleni nr. 8, Sector 2, București
 *   Telefon: 0721 376 321
 *   Program de Lucru: Luni - Duminică: 09:30 - 19:30
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/nido_car_wash.html
 *   Stare: Activă, nu deține niciun site web propriu dedicat.
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am remarcat serviciile excelente de detailing și spălare auto oferite de Nido de pe Strada Ardeleni nr. 8, dar am observat că nu aveți un site web propriu de prezentare a pachetelor. Pentru ca șoferii din cartier să poată vedea rapid tarifele voastre pentru detailing, curățare tapițerie, spălare motor și să poată cere programări direct pe WhatsApp, am creat un prototip de site mobil fresh și modern. Îl puteți vedea live aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/nido_car_wash.html
 
 Dacă vă place și doriți să îl lansăm ca site oficial, vă ajut cu drag. O zi minunată!
 
@@ -240,11 +212,9 @@ Dacă vă place și doriți să îl lansăm ca site oficial, vă ajut cu drag. O
 *   Locație: Calea Moșilor nr. 272, Sector 2, București
 *   Telefon: 0754 555 455
 *   Program de Lucru: Luni - Duminică: 08:00 - 20:00
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/cofetaria_sweven.html
 *   Stare: Activă, nu deține un site web propriu (doar listări pe aplicații de livrări).
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am văzut cofetăria dumneavoastră Sweven de pe Calea Moșilor nr. 272 și prăjiturile raw-vegane deosebite pe care le oferiți, dar am observat că nu aveți un site web de prezentare propriu. Am conceput un prototip de site mobil foarte elegant, unde clienții pot vedea specialitățile voastre artizanale și raw-vegane și vă pot plasa comenzi directe de torturi festive sau prăjituri pe WhatsApp. Îl puteți accesa live la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/cofetaria_sweven.html
 
 Dacă vă doriți să îl adaptăm cu meniul vostru complet de prăjituri și să îl lansăm oficial, vă ajut cu mare drag. O zi excelentă!
 
@@ -254,12 +224,10 @@ Dacă vă doriți să îl adaptăm cu meniul vostru complet de prăjituri și s�
 *   Locație: Calea Moșilor nr. 268, Sector 2, București
 *   Telefon: 021 210 80 75
 *   Program de Lucru: Luni - Vineri: 09:00 - 17:00 | Sâmbătă - Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/metalo_casnica.html
 *   Stare: Activă, nu deține site web de prezentare.
 *   🟡 ATENȚIE LA PITCH: cooperativa-mamă ARE site (https://metalocasnica.ro) care listează toate unitățile, inclusiv Unitatea 99. Unitatea în sine nu are site propriu, dar e reprezentată online — NU folosi formularea "nu aveți prezență web". Pitch-ul corect: "un site dedicat DOAR unității voastre / cartierului". (Notat: 2026-06-10)
 *   Pitch (Mesaj WhatsApp de trimis / Apel):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Cunosc atelierul dumneavoastră cooperativ Metalo-Casnica (Unitatea 99) de pe Calea Moșilor nr. 268 și serviciile utile de reparații electrocasnice pe care le oferiți, dar am observat că nu aveți o prezență web proprie. Pentru ca locuitorii din cartier care au nevoie de reparații de aspiratoare, roboți de bucătărie sau servicii la domiciliu pentru mașini de spălat să vă poată găsi cu ușurință programul, adresa și să vă sune direct, am creat un prototip de site mobil simplu și clar. Îl puteți vedea live la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/metalo_casnica.html
 
 Dacă doriți să îl lansăm ca site oficial, m-aș bucura tare mult să vă ajut. O zi bună!
 
@@ -269,13 +237,11 @@ Dacă doriți să îl lansăm ca site oficial, m-aș bucura tare mult să vă aj
 *   Locație: Bulevardul Hristo Botev nr. 11, Sector 3, București
 *   Telefon: 021 310 43 78
 *   Program de Lucru: Luni - Vineri: 08:30 - 20:30 | Sâmbătă: 09:00 - 17:00 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/salon_amsy.html
 *   Stare: Activ, site-ul vechi amsysalon.ro este expirat și nefuncțional.
 *   🟡 Confirmă datele înainte de pitch: salonul apare listat (ex. Divahair) deci pare real, dar are prezență online slabă — verifică telefonul/adresa exactă pe Google Maps înainte să trimiți. (Notat: 2026-06-10)
 *   Gândire Pitch (Site Expirat): (Atelierul / salonul are domeniul vechi amsysalon.ro închis/inactiv, însă datele de contact de pe Google Maps funcționează. Propunerea este de a reînvia imaginea online a salonului printr-un portofoliu curat pe mobil, pe care să-l poată lega direct de vechiul domeniu sau folosi în social media.)
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local. Am observat salonul dumneavoastră Amsy de pe Bulevardul Hristo Botev nr. 11, dar am văzut că site-ul dumneavoastră vechi amsysalon.ro nu mai funcționează. Pentru ca persoanele din zonă care caută coafor, cosmetică sau manichiură să vă poată găsi cu ușurință serviciile, programul și să poată cere programări direct pe WhatsApp, am creat un prototip elegant de site mobil. Îl puteți accesa live aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/salon_amsy.html
 
 Dacă doriți să îl adaptăm cu serviciile și prețurile voastre și să îl punem pe vechiul domeniu ca site oficial, vă ajut cu drag. O zi minunată!
 
@@ -285,11 +251,9 @@ Dacă doriți să îl adaptăm cu serviciile și prețurile voastre și să îl 
 *   Locație: Strada C.A. Rosetti nr. 7, Ap. 1, Parter, Sector 1, București
 *   Telefon: 021 313 86 44 / 0722 747 978
 *   Program de Lucru: Luni - Vineri: 09:00 - 17:00 | Sâmbătă - Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/notariat_rosetti.html
 *   Stare: Activ, nu deține site oficial.
 *   Pitch (Mesaj WhatsApp de trimis / Apel):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am observat societatea dumneavoastră profesională notarială de pe Strada C.A. Rosetti nr. 7, dar am văzut că nu dețineți un site web oficial de prezentare. Am conceput un prototip modern de site web de prezentare pentru biroul dumneavoastră notarial, complet adaptat, unde clienții pot vedea orarul, locația exactă pe hartă, serviciile oferite și pot trimite cereri de programări sau documente direct pe email sau WhatsApp. Îl puteți vedea live aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/notariat_rosetti.html
 
 Dacă doriți să îl lansăm ca site oficial, vă ajut cu mare drag. O zi excelentă!
 
@@ -299,13 +263,11 @@ Dacă doriți să îl lansăm ca site oficial, vă ajut cu mare drag. O zi excel
 *   Locație: Piața Rosetti nr. 7, Sector 2, București
 *   Telefon: 0763 327 299
 *   Program de Lucru: Luni - Sâmbătă: 08:00 - 20:00 | Duminică: 09:00 - 15:00
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/floraria_rosetti.html
 *   Stare: Are un site extrem de slab și învechit pe o platformă gratuită Webnode (subdomeniu neprofesionist).
 *   🟡 VERIFICĂ ÎNAINTE DE PITCH: există domeniul propriu florariarosetti.com cu magazin online (ex. /magazin/buchete-personalizate) — pare site funcțional, nu un simplu subdomeniu Webnode. Confirmă starea reală a site-ului; dacă e ok, NU folosi premisa "site slab/Webnode". (Notat: 2026-06-10)
 *   Gândire Pitch (Site Slab): (Deoarece site-ul lor actual este un subdomeniu Webnode greu de citit de pe telefon și fără funcționalități de comandă directă, aceștia pierd clienți din cartier care vor să cumpere rapid un buchet de flori. Pitch-ul se bazează pe oferirea unui site mobil premium care scurtează drumul clientului direct la o comandă pe WhatsApp.)
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am văzut superbele buchete de la Florăria Rosetti din Piața Rosetti, dar am observat că site-ul dumneavoastră actual este găzduit pe o platformă gratuită Webnode, fiind greu de navigat de pe telefon și fără posibilitatea de a comanda direct. Pentru a atrage mai mulți clienți locali care vor să comande rapid buchete sau aranjamente florale pe WhatsApp, am creat un prototip de site mobil premium. Îl puteți accesa live la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/floraria_rosetti.html
 
 Dacă vă place designul și doriți să îl adaptăm și să îl punem pe un domeniu propriu, vă ajut cu mare drag. O zi minunată!
 
@@ -323,12 +285,10 @@ Dacă vă place designul și doriți să îl adaptăm și să îl punem pe un do
 *   Locație: Bulevardul Carol I nr. 23, Sector 2, București
 *   Telefon: 0745 208 098
 *   Program de Lucru: Luni - Vineri: 07:30 - 18:00 | Sâmbătă - Duminică: 08:30 - 18:30
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/ivy_coffee_shop.html
 *   Stare: Activă, nu are site web propriu (doar pagini de social media).
 *   🟡 TELEFON DE VERIFICAT: în registru e 0745 208 098, dar listările online (near-place etc.) arată 0755 210 748. Confirmă numărul corect înainte de a trimite pitch-ul. Firma e reală și confirmată (Ivy Specialty Coffee, Carol I 23). (Notat: 2026-06-10)
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Sunt un mare iubitor al cafelei de specialitate și trec des pe lângă Ivy Coffee Shop de pe Bulevardul Carol I, dar am observat că nu aveți un site propriu pentru clienți. Am conceput un prototip elegant și minimalist de site mobil, unde clienții pot vedea meniul, orarul și pot plasa pre-comenzi rapide pentru ridicare direct pe WhatsApp. Îl puteți vedea live aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/ivy_coffee_shop.html
 
 Dacă vă doriți să îl lansăm oficial ca site al cafenelei, vă ajut cu mare drag. O zi minunată!
 
@@ -338,11 +298,9 @@ Dacă vă doriți să îl lansăm oficial ca site al cafenelei, vă ajut cu mare
 *   Locație: Bulevardul Carol I nr. 31-33, Sector 2, București
 *   Telefon: 021 317 82 68
 *   Program de Lucru: Luni - Vineri: 08:00 - 21:00 | Sâmbătă: 09:00 - 14:00 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/aro_club.html
 *   Stare: Activ, nu deține site web (doar pagină de Facebook).
 *   Pitch (Apel telefonic / Mesaj Email):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am văzut studioul dumneavoastră de sport și aerobic Aro Club / Jazzercise de pe Bulevardul Carol I, dar am observat că în prezent nu aveți un site web de prezentare a claselor și a abonamentelor. Pentru a atrage noi membri din cartier și a facilita înscrierile rapide prin formulare, am creat un prototip de site mobil foarte energic și modern. Îl puteți accesa live la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/aro_club.html
 
 Dacă doriți să îl adaptăm cu programul exact și abonamentele dumneavoastră pentru a-l lansa oficial, vă ajut cu mare drag. O zi excelentă!
 
@@ -360,11 +318,9 @@ Dacă doriți să îl adaptăm cu programul exact și abonamentele dumneavoastr�
 *   Locație: Strada Frederic Chopin nr. 46, Sector 2, București
 *   Telefon: Nespecificat (Contact prin Facebook Messenger / Pagina de Facebook)
 *   Program de Lucru: Luni - Vineri: 10:00 - 19:00 | Sâmbătă - Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/coco_bike_mechanic.html
 *   Stare: Activ, funcționează exclusiv prin intermediul unei pagini de Facebook (fără site).
 *   Pitch (Mesaj pe Facebook Messenger):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2 și pasionat de ciclism. Am auzit doar recenzii excelente despre calitatea serviciilor dumneavoastră de mecanică de biciclete și bike fitting de pe Strada Frederic Chopin, dar am observat că nu aveți un site oficial (clienții vă pot contacta doar prin Facebook). Pentru a vă prezenta profesional pachetele de revizii, serviciul de bike fitting și a primi rezervări organizate, am construit un prototip de site mobil premium cu design industrial. Îl puteți vedea live aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/coco_bike_mechanic.html
 
 Dacă doriți să îl lansăm ca site oficial, m-aș bucura tare mult să vă ajut. O zi excelentă și spor la pedalat!
 
@@ -382,12 +338,10 @@ Dacă doriți să îl lansăm ca site oficial, m-aș bucura tare mult să vă aj
 *   Locație: Calea Moșilor nr. 122, Sector 2, București
 *   Telefon: 0730 723 475
 *   Program de Lucru: Marți - Duminică: 12:00 - 23:00 | Luni: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/saporia_pizza_bar.html
 *   Stare: Activă, nu deține un site web propriu.
 *   🟡 Verifică saporia.ro înainte de pitch (au handle Instagram @saporia.ro — confirmă că nu au și un site pe acel domeniu). Firma e reală și confirmată (Calea Moșilor 122, pe Wolt). (Notat: 2026-06-10)
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am remarcat pizza voastră deosebită de la Saporia Pizza Bar de pe Calea Moșilor, dar am observat că nu aveți un site web de prezentare. Pentru ca clienții din cartier să poată vedea meniul, cocktailurile, orarul și să vă poată trimite cereri de rezervări de mese direct pe WhatsApp fără comisioane intermediare, am creat un prototip de site mobil foarte modern și cald. Îl puteți accesa live aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/saporia_pizza_bar.html
 
 Dacă doriți să îl folosim ca site oficial al pizzeriei, vă ajut cu mare plăcere. O zi excelentă!
 
@@ -422,12 +376,10 @@ Dacă doriți să îl folosim ca site oficial al pizzeriei, vă ajut cu mare pl�
 *   Locație: Calea Moșilor nr. 217, Sector 2, București
 *   Telefon: 0727 586 585
 *   Program de Lucru: Luni - Sâmbătă: 10:00 - 21:00 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/only_barber_shop.html
 *   Stare: Activ, nu are site web oficial (doar pagină de social media).
 *   🔴 NECONFIRMAT: Nu am găsit nicio dovadă că această firmă există la datele din registru. La Calea Moșilor nr. 217 figurează alt business (Oriental Cuts - măcelărie libaneză); numele "Only Barber Shop" + telefonul 0727 586 585 nu apar în niciun directoar, social media sau Google Maps. Posibil halucinat de AI. Verifică telefonic înainte de a trimite pitch. (Notat: 2026-06-10)
 *   Pitch (Mesaj WhatsApp / SMS):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am remarcat frizeria dumneavoastră Only Barber Shop de pe Calea Moșilor, dar am observat că nu aveți un site web pentru programări online sau prezentarea portofoliului. Pentru a le permite clienților să vadă galeria foto, prețurile serviciilor și să se programeze direct, am creat un prototip de site mobil modern, optimizat pentru telefoane. Îl puteți vizualiza la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/only_barber_shop.html
 
 Dacă doriți să îl adaptăm cu echipa și orarul dumneavoastră și să îl punem ca site oficial, vă ajut cu drag. O zi bună!
 
@@ -465,11 +417,9 @@ Dacă doriți să îl adaptăm cu noul meniu și să îl publicăm oficial, vă 
 *   Locație: Calea Moșilor nr. 160, Sector 2, București
 *   Telefon: 0745 908 980
 *   Program de Lucru: Luni - Sâmbătă: 09:00 - 20:00 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/nellys_beauty_salon.html
 *   Stare: Activ, nu deține site web propriu (sau deține doar listări externe și anunțuri).
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am observat salonul dumneavoastră Nelly's Beauty Salon de pe Calea Moșilor nr. 160, dar am văzut că nu aveți un site web de prezentare a serviciilor de coafat, împletituri afro și cosmetică. Pentru ca clientele din zonă să poată consulta tarifele, galeria de împletituri și să se poată programa direct de pe smartphone, am creat un prototip modern de site mobil. Îl puteți accesa la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/nellys_beauty_salon.html
 
 Dacă doriți să îl adaptăm pentru salonul dumneavoastră și să îl lansăm ca site oficial, vă ajut cu mare drag. O zi excelentă!
 
@@ -479,12 +429,10 @@ Dacă doriți să îl adaptăm pentru salonul dumneavoastră și să îl lansăm
 *   Locație: Strada Popa Rusu, nr. 21, Sector 2, București
 *   Telefon: 0732 522 789
 *   Program de Lucru: Marți - Duminică: 14:00 - 22:00 | Luni: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/ceai_la_metoc.html
 *   Stare: Ceainărie oază celebră în cartier, dar funcționează fără site web propriu (doar prin pagina de Facebook).
 *   🟡 FLAG: Firma există clar și NU are site propriu (confirmat - doar Facebook/Tripadvisor/ialoc.ro), lead valid. DAR telefonul nu se potrivește: registrul are 0732 522 789, iar sursele web indică +40 773 922 324 (email gradinametoc@gmail.com). Verifică numărul corect înainte de pitch. (Notat: 2026-06-10)
 *   Pitch (Mesaj pe Facebook Messenger):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator în zonă și un mare admirator al ceainăriei și grădinii dumneavoastră Ceai la Metoc de pe Strada Popa Rusu. Am observat că în prezent nu aveți un site web oficial (mulți oaspeți noi caută pe Google meniul de ceaiuri sau orarul și găsesc doar pagini de social media). Pentru a păstra farmecul poetic al ceainăriei și online, am creat un prototip de site mobil foarte cald și primitor, în nuanțe naturale de ceai și frunze. Îl puteți accesa live aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/ceai_la_metoc.html
 
 Dacă doriți să îl adaptăm cu meniul dumneavoastră și să îl publicăm oficial, vă ajut cu mare plăcere. O zi minunată în grădină!
 
@@ -494,11 +442,9 @@ Dacă doriți să îl adaptăm cu meniul dumneavoastră și să îl publicăm of
 *   Locație: Strada Vasile Lascăr nr. 57, Sector 2, București
 *   Telefon: 0735 066 999
 *   Program de Lucru: Luni - Duminică: NON-STOP (Serviciu Mobil Urgențe)
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/vulcanizare_lascar.html
 *   Stare: Serviciu activ de vulcanizare mobilă de urgență, dar nu deține site web (doar listare Google Maps).
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am văzut serviciul dumneavoastră de vulcanizare mobilă din Strada Vasile Lascăr, dar am remarcat că nu aveți un site web de prezentare. Fiind vorba de intervenții de urgență, un site optimizat pe mobil este crucial ca șoferii aflați în pană în Sectorul 2 să vă poată suna sau trimite locația pe WhatsApp dintr-un singur click. De aceea, am creat un prototip de site mobil foarte rapid și vizibil. Îl puteți testa la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/vulcanizare_lascar.html
 
 Dacă doriți să îl lansăm ca site oficial pentru a atrage mai multe apeluri rapide de la clienți aflați în pană, vă pot ajutor. O zi excelentă și spor!
 
@@ -508,12 +454,10 @@ Dacă doriți să îl lansăm ca site oficial pentru a atrage mai multe apeluri 
 *   Locație: Calea Moșilor nr. 300, Sector 2, București
 *   Telefon: 0770 990 492
 *   Program de Lucru: Luni - Vineri: 09:30 - 18:30 | Sâmbătă: 10:00 - 14:00 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/pc_shop_mosilor.html
 *   Stare: Activ, oferă servicii IT locale pe Calea Moșilor, dar nu deține un site de prezentare dedicat.
 *   🔴 NECONFIRMAT: Nu am găsit nicio dovadă că "PC Shop Moșilor" există la Calea Moșilor nr. 300 cu telefonul 0770 990 492 - nu apare în Cylex, directoare IT, Facebook sau Google Maps. Posibil halucinat de AI. Verifică telefonic înainte de a trimite pitch. (Notat: 2026-06-10)
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am remarcat atelierul dumneavoastră PC Shop de pe Calea Moșilor nr. 300, dar am văzut că nu aveți un site web de prezentare a serviciilor și tarifelor. Pentru ca utilizatorii din Sectorul 2 care au nevoie de curățare laptop, diagnosticare sau asamblare calculatoare să poată lua legătura rapid cu dumneavoastră direct de pe mobil, am creat un prototip de site modern, cu tentă dark-tech. Îl puteți accesa la:
-https://sami111-afk.github.io/leads-finder/mockupuri/pc_shop_mosilor.html
 
 Dacă doriți să îl folosim ca site oficial pentru a atrage clienți noi din zonă, vă ajut cu plăcere. O zi bună!
 
@@ -523,11 +467,9 @@ Dacă doriți să îl folosim ca site oficial pentru a atrage clienți noi din z
 *   Locație: Piața C.A. Rosetti nr. 4, Sector 2, București
 *   Telefon: Nespecificat (Contact prin Instagram / Social Media)
 *   Program de Lucru: Luni - Vineri: 08:00 - 18:00 | Sâmbătă - Duminică: 09:00 - 18:00
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/sotto_coffee.html
 *   Stare: Cafenea nouă, foarte estetică în Piața Rosetti, dar funcționează exclusiv prin Instagram (nu are site propriu).
 *   Pitch (Mesaj pe Instagram DM):
 Bună! Sunt Samuel, programator în Sectorul 2 și un mare fan al cafelei voastre de specialitate de la SOTTO. Cafeneaua voastră de la Piața Rosetti arată extraordinar și se simte un aer foarte premium, dar am observat că nu aveți încă un site de prezentare unde clienții să vă poată vedea ușor meniul complet de băuturi și gustări sau orarul exact. Pentru a extinde vibe-ul vostru estetic și în online, am creat un prototip de site mobil extrem de modern și curat. Îl puteți vedea live la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/sotto_coffee.html
 
 Dacă vă place designul și doriți să îl adaptăm și să îl lansăm oficial ca site-ul vostru, dați-mi un semn. O zi minunată cu cafele bune!
 
@@ -537,12 +479,10 @@ Dacă vă place designul și doriți să îl adaptăm și să îl lansăm oficia
 *   Locație: Calea Moșilor nr. 105, Sector 2, București
 *   Telefon: 0730 777 221
 *   Program de Lucru: Luni - Sâmbătă: 08:00 - 20:00 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/raywal_patiserie.html
 *   Stare: Activ, nu deține site web propriu.
 *   🟡 NUME/PROFIL DE VERIFICAT: Listările online (Instagram, Cylex, Deschis.ro) la Calea Moșilor 105 cu telefonul 0730 777 221 arată "Rawyal Brunch & Cakes" — local raw-vegan, NU patiserie/cofetărie clasică, iar pe Instagram apare ca temporar închis. Confirmă denumirea exactă și dacă mai funcționează înainte de pitch. Nu are site propriu (doar Instagram/directoare). (Notat: 2026-06-10)
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am remarcat patiseria dumneavoastră clasică Raywal de pe Calea Moșilor, dar am observat că nu aveți un site web de prezentare. Pentru ca clienții din cartier să poată vedea meniul zilnic, prăjiturile proaspete și să plaseze comenzi sau platouri pentru evenimente direct de pe smartphone, am creat un prototip modern de site mobil. Îl puteți accesa la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/raywal_patiserie.html
 
 Dacă doriți să îl adaptăm cu produsele și prețurile dumneavoastră exacte și să îl lansăm ca site oficial, vă ajut cu drag. O zi bună!
 
@@ -552,11 +492,9 @@ Dacă doriți să îl adaptăm cu produsele și prețurile dumneavoastră exacte
 *   Locație: Calea Moșilor nr. 143, Sector 2, București
 *   Telefon: Nespecificat (Contact prin email / formular / evaluări la domiciliu)
 *   Program de Lucru: Luni - Vineri: 10:00 - 18:00 | Sâmbătă: 10:00 - 14:00 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/artis_anticariat.html
 *   Stare: Activ, nu are site web de prezentare (doar listări în directoare de firme).
 *   Pitch (Mesaj Email / Formular de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am observat anticariatul dumneavoastră Artis Anticariat de pe Calea Moșilor, dar am văzut că nu aveți un site web de prezentare. Pentru ca persoanele care doresc să vândă biblioteci sau colecții de cărți din București să vă poată contacta ușor și solicita evaluări gratuite la domiciliu, am conceput un prototip elegant de site mobil. Îl puteți accesa live aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/artis_anticariat.html
 
 Dacă doriți să îl personalizăm și să îl publicăm ca site oficial al anticariatului, vă pot ajuta cu plăcere. O zi minunată!
 
@@ -566,12 +504,10 @@ Dacă doriți să îl personalizăm și să îl publicăm ca site oficial al ant
 *   Locație: Bulevardul Carol I nr. 54, Sector 2, București
 *   Telefon: 0721 626 269
 *   Program de Lucru: Luni - Vineri: 08:00 - 20:00 | Sâmbătă - Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/pas_cu_pas_recuperare.html
 *   Stare: Activ, nu deține un site web funcțional (vechiul domeniu centruderecuperare.ro este nefuncțional/inactiv).
 *   Gândire Pitch (Site Expirat): (Centrul a deținut un site pe domeniul centruderecuperare.ro, dar acesta a expirat/este inactiv, privându-i de o modalitate facilă de programare a pacienților. Pitch-ul le propune restabilirea prezenței online cu o pagină modernă și rapidă axată pe butoane directe de programare și WhatsApp.)
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am remarcat activitatea deosebită a Centrului de Recuperare Pas cu Pas de pe Bulevardul Carol I, dar am observat că site-ul dumneavoastră oficial centruderecuperare.ro nu mai este funcțional. Pentru ca pacienții din cartier să poată studia serviciile de kinetoterapie, fizioterapie și masaj și să poată solicita o programare direct de pe smartphone, am creat un prototip modern de site mobil. Îl puteți accesa la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/pas_cu_pas_recuperare.html
 
 Dacă doriți să îl adaptăm cu programul și prețurile dumneavoastră exacte și să îl punem ca site oficial, vă ajut cu mare drag. O zi bună!
 
@@ -581,12 +517,10 @@ Dacă doriți să îl adaptăm cu programul și prețurile dumneavoastră exacte
 *   Locație: Piața Rosetti - str. Vasile Lascăr nr. 1-3, Sector 2, București
 *   Telefon: 0746 209 533
 *   Program de Lucru: Luni - Sâmbătă: 09:00 - 20:00 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/natys_beauty_center.html
 *   Stare: Salon cosmetic activ în zona Rosetti, nu are site web propriu.
 *   🟡 ADRESĂ/TELEFON DE VERIFICAT: Listările online (bizoo.ro) arată Naty's Beauty Center la Str. Vasile Lascăr nr. 18, ap. 25 (lângă Piața Rosetti), cu telefoanele 0213116383 / 0768565026 — diferite de cele din registru (nr. 1-3, tel 0746 209 533). Confirmă adresa și numărul corect înainte de pitch. Nu are site propriu (doar directoare). (Notat: 2026-06-10)
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am văzut salonul dumneavoastră Naty's Beauty Center de pe Vasile Lascăr, dar am observat că nu aveți un site web oficial pentru prezentarea portofoliului sau a listei de prețuri. Pentru ca clientele din zona Rosetti și Moșilor să poată vedea serviciile, prețurile și să se programeze rapid la coafor, cosmetică sau unghii de pe telefon, am construit un prototip elegant de site mobil. Îl puteți vedea aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/natys_beauty_center.html
 
 Dacă doriți să îl adaptăm cu specialiștii și tarifele dumneavoastră și să îl lansăm ca site oficial, vă ajut cu drag. O zi minunată!
 
@@ -596,11 +530,9 @@ Dacă doriți să îl adaptăm cu specialiștii și tarifele dumneavoastră și 
 *   Locație: Strada Vasile Lascăr nr. 35, Sector 2, București
 *   Telefon: 0738 121 171
 *   Program de Lucru: Luni - Sâmbătă: 10:00 - 20:00 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/lamor_masaj.html
 *   Stare: Salon activ de masaj și wellness, nu deține site web (doar listări pe platforme).
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am văzut salonul dumneavoastră de masaj L'amor de pe Strada Vasile Lascăr, dar am observat că nu aveți un site web oficial unde clienții să poată studia tipurile de masaj (relaxare, terapeutic, drenaj) și programul. Pentru a atrage noi clienți din cartier și a simplifica rezervările direct pe WhatsApp, am creat un prototip de site mobil extrem de relaxant și premium. Îl puteți vizualiza la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/lamor_masaj.html
 
 Dacă doriți să îl folosim ca site oficial pentru a atrage mai mulți clienți în salon, vă pot ajuta cu plăcere. O zi minunată!
 
@@ -618,11 +550,9 @@ Dacă doriți să îl folosim ca site oficial pentru a atrage mai mulți clienț
 *   Locație: Strada Vasile Lascăr nr. 10, Sector 2, București
 *   Telefon: 0740 216 762
 *   Program de Lucru: Luni - Vineri: 09:00 - 20:00 (Cu programare)
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/psiholog_andreea_stefiuc.html
 *   Stare: Cabinet individual activ pe Vasile Lascăr, nu are site web propriu.
 *   Pitch (Mesaj pe email / telefon):
 Bună ziua, doamna Andreea Ștefiuc! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am văzut cabinetul dumneavoastră individual de psihologie de pe Vasile Lascăr nr. 10, dar am văzut că nu aveți un site de prezentare a serviciilor de terapie și consiliere vocațională. Pentru ca persoanele din București care au nevoie de susținere să poată lua legătura facil cu dumneavoastră și să vă trimită solicitări de programări direct pe WhatsApp, am construit un prototip modern și simplu de site mobil. Îl puteți vedea la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/psiholog_andreea_stefiuc.html
 
 Dacă doriți să îl folosim ca site oficial al cabinetului dumneavoastră, m-aș bucura să vă ajut cu publicarea. O zi minunată!
 
@@ -640,11 +570,9 @@ Dacă doriți să îl folosim ca site oficial al cabinetului dumneavoastră, m-a
 *   Locație: Calea Moșilor nr. 284, bl. 22A, sc. 2, et. 1, ap. 26, Sector 2, București
 *   Telefon: 0726 716 039
 *   Program de Lucru: Luni - Vineri: 09:30 - 20:30 (Cu programare telefonică)
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/psiholog_angela_bederu.html
 *   Stare: Cabinet individual activ, nu deține site web propriu (doar prezență pe Facebook și directoare).
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua, doamna Angela Bederu! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am observat cabinetul dumneavoastră de psihoterapie de pe Calea Moșilor, dar am observat că nu aveți un site web oficial pentru pacienți. Pentru ca persoanele care caută servicii de terapie cognitiv-comportamentală sau de cuplu în zona Moșilor să poată afla despre experiența dumneavoastră și să se poată programa direct, am creat un prototip modern și curat de site mobil. Îl puteți vedea la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/psiholog_angela_bederu.html
 
 Dacă doriți să îl adaptăm și să îl publicăm oficial pe domeniul dumneavoastră, vă stau la dispoziție cu mare drag. O zi bună!
 
@@ -662,13 +590,11 @@ Dacă doriți să îl adaptăm și să îl publicăm oficial pe domeniul dumneav
 *   Locație: Strada Vasile Lascăr nr. 214, Sector 2, București
 *   Telefon: 0723 097 153 / 021 230 61 15
 *   Program de Lucru: Luni - Vineri: 08:30 - 20:00 | Sâmbătă: 08:30 - 15:00 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/elis_beauty_center.html
 *   Stare: Activ, fostele site-uri elis-sprancene.ro și elis-beautycenter.ro sunt în prezent inactive/expirate.
 *   🟡 ATENȚIE (incert): Există un domeniu VIU elisbeauty.ro (salon "Elis Beauty"), dar afișează altă adresă (Strada Pescarilor 11) și alt telefon (+40 761 761 734) — nu corespunde locației Vasile Lascăr 214 / telefoanelor din registru. Posibil alt salon cu nume similar SAU aceeași afacere relocată/rebranduită. Confirmă telefonic identitatea și statutul site-ului ÎNAINTE de a trimite pitch-ul, ca să nu pitchezi cuiva care are deja site. (Notat: 2026-06-10)
 *   Gândire Pitch (Site Expirat): (Deoarece fostele lor site-uri elis-sprancene.ro și elis-beautycenter.ro sunt complet nefuncționale, afacerea a rămas fără identitate online proprie. Pitch-ul speculează direct această pierdere, oferindu-le un prototip elegant pe mobil gata de a fi publicat pentru a recâștiga clienții.)
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am observat că fostele site-uri ale salonului dumneavoastră Elis Beauty Center (elis-sprancene.ro și elis-beautycenter.ro) nu mai funcționează. Pentru a vă ajuta să vă refaceți rapid prezența online, astfel încât clientele din zonă să vă poată vedea din nou tarifele de stilizare sprâncene și cosmetică și să se poată programa simplu pe WhatsApp, am creat un prototip modern de site mobil. Îl puteți vedea live aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/elis_beauty_center.html
 
 Dacă doriți să îl personalizăm și să îl publicăm oficial, vă ajut cu mare drag. O zi excelentă!
 
@@ -686,12 +612,10 @@ Dacă doriți să îl personalizăm și să îl publicăm oficial, vă ajut cu m
 *   Locație: Strada Vasile Lascăr nr. 3, Sector 2, București
 *   Telefon: 0764 917 877
 *   Program de Lucru: Luni - Vineri: 09:00 - 20:00 (cu programare)
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/psiholog_tudor_constantin.html
 *   Stare: Activ, nu deține un site web personal (doar profil pe platforma IPEFE).
 *   🟡 ATENȚIE (incert): Psihologul "Tudor Lucian Constantin" apare în directoare cu cabinet pe Str. Paleologu nr. 28, sector 3 — NU pe Vasile Lascăr 3 sector 2 (la Vasile Lascăr 5-7 este cabinetul Claudiu Manea). Există un domeniu psiholog-tudor-lucian.ro dar este MORT (nu se rezolvă DNS — confirmat). Verifică adresa exactă și că e persoana corectă înainte de pitch. (Notat: 2026-06-10)
 *   Pitch (Mesaj WhatsApp / SMS de trimis):
 Bună ziua, domnule Tudor Lucian Constantin! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am găsiti referințele bune pentru cabinetul dumneavoastră de psihoterapie de pe Vasile Lascăr, dar am observat că nu aveți un site web personal de prezentare (pacienții vă găsesc doar în directoare). Am creat un prototip modern de site mobil adaptat specializării dumneavoastră în terapie EFT (focalizată pe emoții), oferind clienților posibilitatea de a înțelege metodele dumneavoastră și de a cere o programare rapid direct pe WhatsApp. Îl puteți accesa live la:
-https://sami111-afk.github.io/leads-finder/mockupuri/psiholog_tudor_constantin.html
 
 Dacă doriți să îl personalizăm și să îl publicăm oficial ca site al cabinetului dumneavoastră, m-aș bucura tare mult să vă ajut. O zi deosebită!
 
@@ -701,11 +625,9 @@ Dacă doriți să îl personalizăm și să îl publicăm oficial ca site al cab
 *   Locație: Calea Moșilor nr. 241, Sector 2, București
 *   Telefon: 0763 999 053
 *   Program de Lucru: Luni - Vineri: 10:00 - 21:00 | Sâmbătă: 09:00 - 17:00 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/teds_beauty_studio.html
 *   Stare: Activ, nu deține site web propriu (doar listări pe platforme ca Mero, Stailer, Notino).
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am observat salonul dumneavoastră TED'S Beauty Studio de pe Calea Moșilor, dar am văzut că nu aveți un site web propriu de prezentare a serviciilor și portofoliului (sunteți prezenți doar pe aplicații terțe). Pentru ca clientele din zonă să vă poată accesa direct serviciile de coafură, cosmetică și manichiură fără intermediari și să vă poată trimite solicitări rapide pe WhatsApp, am creat un prototip elegant și modern de site mobil. Îl puteți vizualiza la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/teds_beauty_studio.html
 
 Dacă doriți să îl adaptăm cu tarifele actuale și să îl lansăm ca site oficial al salonului dumneavoastră, vă pot ajutor cu plăcere. O zi minunată!
 
@@ -715,12 +637,10 @@ Dacă doriți să îl adaptăm cu tarifele actuale și să îl lansăm ca site o
 *   Locație: Bulevardul Carol I nr. 37, ap. 2, Sector 2, București
 *   Telefon: 0722 657 407
 *   Program de Lucru: Luni - Vineri: 09:00 - 21:00 | Sâmbătă: 09:00 - 14:00 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/exclusive_antiaging_center.html
 *   Stare: Activ, site-ul web exclusiveantiagingcenter.ro este nefuncțional/inactiv.
 *   Gândire Pitch (Site Expirat): (Atelierul de estetică și-a pierdut prezența web deoarece site-ul lor principal exclusiveantiagingcenter.ro nu mai funcționează. Pitch-ul propune înlocuirea acestuia cu o pagină web mobilă premium care pune în evidență tehnologiile lor anti-aging de top și facilitează rezervările pe WhatsApp.)
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local. Am observat centrul dumneavoastră de estetică și remodelare Exclusive Anti Aging de pe Bulevardul Carol I, dar am văzut că site-ul dumneavoastră oficial exclusiveantiagingcenter.ro este inactiv. Pentru a restabili rapid imaginea digitală a brandului dumneavoastră premium și a le permite clienților să vă descopere tratamentele și să solicite programări rapide direct de pe telefon, am construit un prototip modern de site mobil. Îl puteți accesa live la:
-https://sami111-afk.github.io/leads-finder/mockupuri/exclusive_antiaging_center.html
 
 Dacă vă place și doriți să îl repunem pe domeniul dumneavoastră, vă pot ajuta cu mare drag. O zi excelentă!
 
@@ -730,11 +650,9 @@ Dacă vă place și doriți să îl repunem pe domeniul dumneavoastră, vă pot 
 *   Locație: Strada Hristo Botev nr. 4, Sector 3, București
 *   Telefon: 021 310 24 24
 *   Program de Lucru: Luni - Vineri: 09:00 - 19:00 | Sâmbătă: 09:00 - 15:00 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/helen_beauty.html
 *   Stare: Activ, nu deține site web propriu (doar listări pe platforme).
 *   Pitch (Apel telefonic / Mesaj Email):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în zona Rosetti / Carol I. Am observat salonul dumneavoastră Helen Beauty de pe strada Hristo Botev nr. 4, dar am văzut că nu aveți un site web dedicat de prezentare a serviciilor și terapiilor speciale (cum ar fi tratamentele capilare cu caviar sau acupunctura cosmetică). Pentru ca clienții din cartier să vă poată găsi cu ușurință programul, adresa, gama de produse bio și să vă sune direct de pe telefon pentru programări, am creat un prototip de site mobil foarte elegant și curat. Îl puteți vedea live la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/helen_beauty.html
 
 Dacă doriți să îl personalizăm și să îl publicăm oficial, vă ajut cu mare drag. O zi minunată!
 
@@ -744,12 +662,10 @@ Dacă doriți să îl personalizăm și să îl publicăm oficial, vă ajut cu m
 *   Locație: Strada Traian nr. 212, Sector 2, București
 *   Telefon: 0740 320 540 / 031 106 4597
 *   Program de Lucru: Luni - Vineri: 09:00 - 21:00 | Sâmbătă: 09:00 - 18:00 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/salon_karla.html
 *   Stare: Activ, fostul site salonkarla.ro este complet inoperabil/inactiv în prezent.
 *   Gândire Pitch (Site Expirat): (Salonul avea un domeniu dedicat salonkarla.ro care a expirat. Ne adresăm salonului subliniind importanța ca noile cliente care caută recenzii sau styling în zona Foișorul de Foc să aibă un site stabil și curat pe mobil pentru a face programări directe pe WhatsApp.)
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am observat salonul dumneavoastră de înfrumusețare Karla de pe Strada Traian, dar am văzut că site-ul dumneavoastră vechi salonkarla.ro nu mai este activ. Pentru a reface rapid legătura cu clientele din cartier, permițându-le să vă consulte serviciile de coafură, cosmetică și manichiură direct de pe smartphone și să se programeze pe WhatsApp, am construit un prototip modern de site mobil. Îl puteți accesa live aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/salon_karla.html
 
 Dacă doriți să repunem site-ul în funcțiune pe vechiul domeniu, vă pot ajuta cu plăcere. O zi minunată!
 
@@ -759,11 +675,9 @@ Dacă doriți să repunem site-ul în funcțiune pe vechiul domeniu, vă pot aju
 *   Locație: Strada Traian nr. 246, Sector 2, București
 *   Telefon: 0726 526 097
 *   Program de Lucru: Luni - Vineri: 12:00 - 21:00 | Sâmbătă - Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/do_beauty_slim_spa.html
 *   Stare: Activ, nu deține site web propriu (doar listări pe platforme de reduceri/directoare).
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am remarcat recenziile bune pentru serviciile dumneavoastră de masaj cu bambus și remodelare corporală Do Beauty Slim de pe Strada Traian, dar am văzut că nu dețineți un site web de prezentare propriu. Am creat un prototip de site mobil extrem de proaspăt și modern, unde clientele pot studia ofertele dumneavoastră speciale de SPA și masaj anticelulitic și vă pot contacta direct pentru programări rapide pe WhatsApp sau telefon. Îl puteți vedea live la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/do_beauty_slim_spa.html
 
 Dacă doriți să îl adaptăm cu tarifele exacte și să îl lansăm ca site oficial al salonului, vă ajut cu mare drag. O zi excelentă!
 
@@ -773,11 +687,9 @@ Dacă doriți să îl adaptăm cu tarifele exacte și să îl lansăm ca site of
 *   Locație: Strada Vasile Lascăr nr. 111, Sector 2, București
 *   Telefon: 0766 645 594
 *   Program de Lucru: Luni - Vineri: 09:00 - 19:00 | Sâmbătă: 09:00 - 14:00 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/vea_croitorie.html
 *   Stare: Activ, nu deține site web propriu (doar listări pe platforme).
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am văzut atelierul dumneavoastră de croitorie și ajustări rapide VEA de pe Strada Vasile Lascăr nr. 111, dar am observat că nu aveți un site web de prezentare a serviciilor. Pentru ca persoanele din cartier care au nevoie rapid de retușat îmbrăcăminte, schimbat fermoare sau alte servicii textile să vă poată găsi cu ușurință adresa, programul și să vă contacteze direct pe WhatsApp înainte de a veni, am conceput un prototip modern de site mobil. Îl puteți accesa live la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/vea_croitorie.html
 
 Dacă doriți să îl folosim ca site oficial al atelierului dumneavoastră, vă pot ajuta cu plăcere. O zi bună!
 
@@ -787,11 +699,9 @@ Dacă doriți să îl folosim ca site oficial al atelierului dumneavoastră, vă
 *   Locație: Calea Moșilor nr. 294, Sector 2, București
 *   Telefon: 0766 979 230
 *   Program de Lucru: Luni - Vineri: 10:00 - 19:00 | Sâmbătă: 10:00 - 17:00 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/croitorie_feily.html
 *   Stare: Activ, nu deține un site web de prezentare (doar listări pe social media / Facebook).
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am remarcat calitatea serviciilor oferite de atelierul dumneavoastră Croitorie Feily de pe Calea Moșilor, dar am observat că nu aveți un site web propriu de prezentare a serviciilor și retușurilor pe care le executați. Am creat un prototip de site mobil premium cu o estetică modernă, unde clienții pot vedea rapid tipurile de reparații pe care le faceți (de la rochii elegante la geci de piele) și vă pot trimite poze pentru o estimare rapidă pe WhatsApp. Îl puteți vedea live aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/croitorie_feily.html
 
 Dacă doriți să îl lansăm ca site-ul oficial al croitoriei dumneavoastră, m-aș bucura tare mult să vă ajut. O zi deosebită!
 
@@ -801,11 +711,9 @@ Dacă doriți să îl lansăm ca site-ul oficial al croitoriei dumneavoastră, m
 *   Locație: Strada Popa Rusu nr. 27, Sector 2, București
 *   Telefon: 021 211 96 96
 *   Program de Lucru: Luni - Vineri: 08:30 - 17:30 | Sâmbătă - Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/itimpex_marochinarie.html
 *   Stare: Activă, nu deține site web propriu (doar listare de directoare).
 *   Pitch (Mesaj WhatsApp de trimis / Apel telefonic):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am găsit recenziile bune pentru atelierul dumneavoastră de marochinărie de pe Strada Popa Rusu nr. 27, dar am observat că nu aveți un site de prezentare a serviciilor de reparații și recondiționări genți/încălțăminte. Pentru ca clienții din cartier să poată vedea orarul, serviciile și să vă trimită rapid poze cu produsele defecte pe WhatsApp, am creat un prototip de site mobil premium. Îl puteți vedea live la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/itimpex_marochinarie.html
 
 Dacă doriți să îl lansăm ca site oficial, vă ajut cu mare drag. O zi excelentă!
 
@@ -823,11 +731,9 @@ Dacă doriți să îl lansăm ca site oficial, vă ajut cu mare drag. O zi excel
 *   Locație: Calea Moșilor nr. 294, bloc 42, scara B, etaj 1, ap. 43, Sector 2, București
 *   Telefon: 0730 098 186 / 021 211 13 53
 *   Program de Lucru: Luni - Vineri: 09:00 - 16:30 | Sâmbătă - Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/notariat_gabura.html
 *   Stare: Activ, nu deține un site web propriu dedicat (doar listări generale).
 *   Pitch (Apel telefonic / Mesaj WhatsApp):
 Bună ziua, doamna notar Maria Gabură! Numele meu este Savu Mihai Samuel, sunt programator local. Am observat biroul dumneavoastră notarial de pe Calea Moșilor, dar am remarcat că nu dețineți un site oficial de prezentare pentru clienți. Pentru ca persoanele care au nevoie de succesiuni, tranzacții sau legalizări să vă găsească rapid adresa exactă, orarul și să vă poată trimite cereri directe de pe smartphone, am creat un prototip elegant și sobru de site mobil. Îl puteți accesa live la:
-https://sami111-afk.github.io/leads-finder/mockupuri/notariat_gabura.html
 
 Dacă doriți să îl adaptăm și să îl publicăm oficial, vă ajut cu mare drag. O zi excelentă!
 
@@ -837,11 +743,9 @@ Dacă doriți să îl adaptăm și să îl publicăm oficial, vă ajut cu mare d
 *   Locație: Strada Vasile Lascăr nr. 27, Sector 2, București
 *   Telefon: 0744 584 617
 *   Program de Lucru: Luni - Vineri: 09:00 - 19:00 | Sâmbătă - Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/stomatologie_dr_ganea.html
 *   Stare: Activ, nu are site web propriu (doar directoare stomatologice).
 *   Pitch (Mesaj WhatsApp de trimis / Telefon):
 Bună ziua, domnule doctor Ganea! Numele meu este Savu Mihai Samuel, sunt programator local. Căutând un cabinet stomatologic bun în zona Vasile Lascăr, am găsit cabinetul dumneavoastră, dar am observat că nu aveți un site web de prezentare. Am construit un prototip modern de site mobil, axat pe încredere și programări facile direct pe WhatsApp sau telefon, ideal pentru pacienții din Sectorul 2 care au nevoie de tratamente sau igienizări. Îl puteți accesa aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/stomatologie_dr_ganea.html
 
 Dacă doriți să îl lansăm ca site oficial, m-aș bucura tare mult să vă ajut. O zi deosebită!
 
@@ -851,12 +755,9 @@ Dacă doriți să îl lansăm ca site oficial, m-aș bucura tare mult să vă aj
 *   Locație: Strada Maria Rosetti nr. 8, etaj 4, ap. 9, Sector 2, București
 *   Telefon: 0751 155 707
 *   Program de Lucru: Luni - Vineri: 09:00 - 18:00 | Sâmbătă - Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/avocat_lie_dan.html
 *   Stare: Activ, nu deține site web de prezentare (doar în tabloul Baroului București).
-*   🟡 LINK MORT: fișierul mockupuri/avocat_lie_dan.html NU există în repo — link-ul de mai sus dă 404. Firma e REALĂ și confirmată (Ilie A.C. Dan-Lucian, definitiv în Baroul București din 2006), deci e lead bun, dar trebuie generat mockup-ul înainte de pitch. (Notat: 2026-06-10)
 *   Pitch (Mesaj WhatsApp de trimis / Email):
 Bună ziua, domnule avocat Ilie Dan-Lucian! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am observat cabinetul dumneavoastră de avocatură de pe strada Maria Rosetti, dar am remarcat că nu aveți un site web propriu de prezentare a serviciilor dumneavoastră juridice civile și comerciale. Pentru a le permite clienților să vă găsească cu ușurință domeniile de expertiză și să poată solicita o consultație juridică de pe mobil, am creat un prototip de site mobil sobru și profesional. Îl puteți accesa aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/avocat_lie_dan.html
 
 Dacă doriți să îl lansăm oficial ca site-ul cabinetului dumneavoastră, vă stau la dispoziție cu drag. O zi bună!
 
@@ -874,11 +775,9 @@ Dacă doriți să îl lansăm oficial ca site-ul cabinetului dumneavoastră, vă
 *   Locație: Strada Traian nr. 169, Sector 2, București
 *   Telefon: 0748 240 631
 *   Program de Lucru: Luni - Sâmbătă: 08:00 - 20:00 | Duminică: 08:00 - 14:00
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/floraria_provence.html
 *   Stare: Activă, nu are site web de prezentare (doar pagină de Facebook / directoare).
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am observat minunata dumneavoastră florărie Provence de pe Strada Traian nr. 169, dar am văzut că nu aveți un site web de prezentare a buchetelor și aranjamentelor pe care le realizați. Pentru ca clienții din cartier să poată comanda buchete custom direct pe WhatsApp sau să ceară oferte pentru evenimente direct de pe mobil, am creat un prototip elegant și fresh de site mobil. Îl puteți vedea la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/floraria_provence.html
 
 Dacă doriți să îl lansăm oficial pentru a crește vânzările locale, vă ajut cu mare plăcere. O zi minunată!
 
@@ -888,11 +787,9 @@ Dacă doriți să îl lansăm oficial pentru a crește vânzările locale, vă a
 *   Locație: Calea Moșilor nr. 300, Sector 2, București
 *   Telefon: 0730 556 762
 *   Program de Lucru: Luni - Vineri: 09:00 - 20:00 | Sâmbătă: 09:00 - 16:00 | Duminică: 10:00 - 14:00
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/animal_plus_vet.html
 *   Stare: Activ, nu deține site web propriu (are doar directoare medicale locale).
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Cunosc activitatea diversificată a cabinetului Animal Plus de pe Calea Moșilor, dar am observat că nu aveți un site web de prezentare a serviciilor voastre (veterinar, pet shop și cosmetice canine). Am creat un prototip modern de site mobil, extrem de prietenos, unde stăpânii de animale pot găsi orarul, serviciile și se pot programa la consultații sau toaletaj direct pe WhatsApp. Îl puteți accesa live aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/animal_plus_vet.html
 
 Dacă doriți să îl folosim ca site oficial pentru cabinet, vă ajut cu drag. O zi excelentă!
 
@@ -902,11 +799,9 @@ Dacă doriți să îl folosim ca site oficial pentru cabinet, vă ajut cu drag. 
 *   Locație: Strada Vasile Lascăr nr. 212, Sector 2, București
 *   Telefon: 0757 013 453
 *   Program de Lucru: Luni - Vineri: 10:00 - 20:00 | Sâmbătă: 10:00 - 18:00 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/lolita_boutique.html
 *   Stare: Activă, nu deține site web propriu (doar listări pe social media).
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am observat dulcele dumneavoastră boutique Lolita de pe Strada Vasile Lascăr, dar am remarcat că nu aveți un site propriu de prezentare a produselor și serviciilor de Candy Bar. Pentru ca clienții să vă poată vedea catalogul de torturi personalizate, prețurile și să vă poată trimite comenzi rapide direct pe WhatsApp, am creat un prototip de site mobil extrem de apetisant și elegant. Îl puteți vizualiza la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/lolita_boutique.html
 
 Dacă doriți să îl adaptăm și să îl publicăm oficial ca site-ul cofetăriei dumneavoastră, vă ajut cu mare drag. O zi dulce!
 
@@ -916,12 +811,10 @@ Dacă doriți să îl adaptăm și să îl publicăm oficial ca site-ul cofetăr
 *   Locație: Calea Moșilor nr. 268, Sector 2, București
 *   Telefon: 0744 347 211
 *   Program de Lucru: Luni - Vineri: 11:00 - 19:00 | Sâmbătă - Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/atelier_bijuterii_mosilor.html
 *   Stare: Activ, nu deține site web propriu (prezență doar în directoare comerciale).
 *   🔴 NECONFIRMAT — posibil halucinat: căutarea NU a găsit niciun atelier de bijuterii cu acest nume la Calea Moșilor 268 (acolo figurează #16 Navi Group și #19 Metalo-Casnica — adresă reutilizată suspect). Atelierele de sudură laser găsite sunt în altă zonă (ex. Accent Bijuterii, Piața Romană). Confirmă existența reală înainte de orice pitch. (Notat: 2026-06-10)
 *   Pitch (Mesaj WhatsApp de trimis / Apel telefonic):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Căutând recomandări pentru reparații pe loc de bijuterii pe Calea Moșilor, am găsit recenziile excelente pentru atelierul dumneavoastră, dar am observat că nu aveți un site web propriu. Pentru ca clienții din cartier să poată vedea rapid serviciile (sudură laser, modificări verighete, curățare) și orarul și să vă poată contacta pe WhatsApp, am construit un prototip modern de site mobil. Îl puteți accesa live aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/atelier_bijuterii_mosilor.html
 
 Dacă doriți să îl lansăm ca site oficial, m-aș bucura tare mult să colaborăm. O zi excelentă!
 
@@ -939,11 +832,9 @@ Dacă doriți să îl lansăm ca site oficial, m-aș bucura tare mult să colabo
 *   Locație: Calea Moșilor nr. 96, Parter, Sector 2, București
 *   Telefon: 0722 240 059
 *   Program de Lucru: Luni - Vineri: 09:00 - 18:00 | Sâmbătă: 09:00 - 14:00 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/tapiterie_tucoim.html
 *   Stare: Activă, nu deține site web propriu (doar directoare comerciale).
 *   Pitch (Mesaj WhatsApp de trimis / Telefon):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am observat calitatea serviciilor oferite de atelierul dumneavoastră de tapițerie Tucoim de pe Calea Moșilor, dar am văzut că nu aveți un site web de prezentare. Am construit un prototip modern de site mobil adaptat brandului dumneavoastră, unde clienții pot studia materialele folosite, tipurile de retapițări (canapele, fotolii, scaune) și vă pot trimite direct fotografii pe WhatsApp pentru o estimare rapidă de preț. Îl puteți accesa live aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/tapiterie_tucoim.html
 
 Dacă vă doriți să îl lansăm ca site oficial, vă ajut cu mare plăcere. O zi excelentă!
 
@@ -953,11 +844,9 @@ Dacă vă doriți să îl lansăm ca site oficial, vă ajut cu mare plăcere. O 
 *   Locație: Calea Moșilor nr. 262, Bloc 8, Parter, Sector 2, București
 *   Telefon: 0728 300 768
 *   Program de Lucru: Luni - Vineri: 09:00 - 18:00 | Sâmbătă: 09:00 - 13:00 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/xerox_asigurari_mosilor.html
 *   Stare: Activ, nu deține un site web propriu dedicat (prezență doar în baze de date).
 *   Pitch (Mesaj WhatsApp de trimis / Apel telefonic):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Trecând prin zona Moșilor nr. 262, am observat punctul dumneavoastră de Xerox și Asigurări, dar am remarcat că nu aveți o pagină web proprie de prezentare a serviciilor și a actelor auto pe care le redactați. Pentru ca persoanele care caută RCA pe loc sau multiplicări de documente în Sectorul 2 să vă găsească mult mai ușor și să poată trimite cereri pe WhatsApp, am creat un prototip de site mobil modern. Îl puteți vedea live la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/xerox_asigurari_mosilor.html
 
 Dacă doriți să îl personalizăm și să îl publicăm oficial, m-aș bucura tare mult să vă ajut. O zi bună!
 
@@ -967,12 +856,10 @@ Dacă doriți să îl personalizăm și să îl publicăm oficial, m-aș bucura 
 *   Locație: Bulevardul Hristo Botev nr. 31, Sector 3, București
 *   Telefon: 0745 981 068
 *   Program de Lucru: Luni - Sâmbătă: 10:00 - 19:00 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/anticariat_ant_art.html
 *   Stare: Activ, nu are site web de prezentare (prezență limitată în directoare de cultură).
 *   🟡 INCERT: Articole de presă din 2014-2015 (artline.ro, agentiadecarte.ro, curentul.info) semnalau riscul de evacuare a anticariatului de la adresa Hristo Botev 31 după 18 ani de activitate; nu am putut confirma că anticariatul mai funcționează la această adresă în 2026. Telefonul din registru (0745 981 068) nu apare în surse. Verifică telefonic existența/adresa înainte de pitch. Nu deține site propriu (doar directoare). (Notat: 2026-06-10)
 *   Pitch (Mesaj WhatsApp de trimis / Email):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în București. Căutând recenzii pentru anticariate de carte veche în zona Hristo Botev, am găsit mențiunile bune pentru Ant’Art, dar am observat că nu aveți un site oficial de prezentare a colecțiilor sau un mod simplu prin care clienții să vă poată propune cărți spre achiziție. Am creat un prototip elegant pe mobil în culori calde (bookstore design), unde pasionații vă pot explora serviciile de evaluări biblioteci și colecții de cărți vechi și vă pot apela direct. Îl puteți accesa la:
-https://sami111-afk.github.io/leads-finder/mockupuri/anticariat_ant_art.html
 
 Dacă doriți să îl adaptăm și să îl lansăm oficial pentru iubitorii de cultură, vă ajut cu drag. O zi liniștită!
 
@@ -982,11 +869,9 @@ Dacă doriți să îl adaptăm și să îl lansăm oficial pentru iubitorii de c
 *   Locație: Strada Vasile Lascăr nr. 83, Sector 2, București
 *   Telefon: 0744 401 200
 *   Program de Lucru: Luni - Vineri: 08:00 - 19:00 | Sâmbătă: 08:00 - 15:00 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/brutarie_loaf.html
 *   Stare: Activă, nu are site web propriu (doar recenzii pe directoare culinare).
 *   Pitch (Mesaj WhatsApp de trimis / Telefon):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Sunt un mare consumator al pâinii artizanale cu maia LOAF de pe strada Vasile Lascăr nr. 83, dar am observat că nu aveți un site propriu de prezentare a sortimentelor și a patiseriei proaspete pe care le coaceți zilnic. Pentru ca clienții din cartier să vă poată vedea catalogul de specialități, programul cald și să vă sune direct pentru rezervări de pâine/croissante, am construit un prototip elegant și cald de site mobil. Îl puteți vedea live aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/brutarie_loaf.html
 
 Dacă vă place cum arată și doriți să îl adaptăm și să îl lansăm ca site oficial al brutăriei, vă ajut cu mare drag. O zi minunată!
 
@@ -996,11 +881,9 @@ Dacă vă place cum arată și doriți să îl adaptăm și să îl lansăm ca s
 *   Locație: Strada Nerva Traian nr. 16, Sector 3, București
 *   Telefon: 0723 494 234
 *   Program de Lucru: Luni - Vineri: 08:00 - 20:00 | Sâmbătă: 09:00 - 15:00 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/curatatorie_too_clean.html
 *   Stare: Activă, nu are site web de prezentare propriu (prezență doar în ghiduri locale).
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local. Am observat spălătoria ecologică Too Clean de pe Strada Nerva Traian, dar am văzut că în prezent nu aveți un site web de prezentare a serviciilor și tarifelor ecologice (Wet Cleaning). Pentru ca clienții din zonă care au nevoie de curățat costume de mătase sau geci de puf să vă poată găsi orarul exact, adresa și să poată trimite solicitări pe WhatsApp, am creat un prototip fresh de site mobil. Îl puteți accesa la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/curatatorie_too_clean.html
 
 Dacă doriți să îl folosim ca site-ul oficial al curățătoriei dumneavoastră, vă pot ajuta cu plăcere. O zi minunată!
 
@@ -1010,11 +893,9 @@ Dacă doriți să îl folosim ca site-ul oficial al curățătoriei dumneavoastr
 *   Locație: Strada Vasile Lascăr nr. 134, Sector 2, București
 *   Telefon: 0747 388 167
 *   Program de Lucru: Luni - Vineri: 09:00 - 19:00 | Sâmbătă: 10:00 - 14:00 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/service_pc_lascar.html
 *   Stare: Activ, nu deține site web propriu (înregistrat în ghiduri de servicii IT).
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Căutând recomandări pentru servicii rapide de reparații laptopuri pe strada Vasile Lascăr, am găsit recenziile bune ale atelierului dumneavoastră de reparații PC și GSM, dar am observat că nu aveți un site web. Pentru ca persoanele din cartier care au ecrane sparte de laptop sau probleme software să vă poată trimite cereri rapide pe WhatsApp cu defectele constatate, am creat un prototip de site mobil extrem de modern. Îl puteți vedea live la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/service_pc_lascar.html
 
 Dacă doriți să îl adaptăm cu serviciile exacte și să îl lansăm ca site oficial, vă ajut cu drag. O zi excelentă!
 
@@ -1024,12 +905,10 @@ Dacă doriți să îl adaptăm cu serviciile exacte și să îl lansăm ca site 
 *   Locație: Strada Vasile Lascăr nr. 209, bloc 31A, scara 2, ap. 48, Sector 2, București
 *   Telefon: 0726 337 389 / 021 211 41 75
 *   Program de Lucru: Luni - Vineri: 09:00 - 18:00 | Sâmbătă: 09:00 - 13:00 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/stomatologie_canin_serv.html
 *   Stare: Activ, nu deține site web propriu (domeniul caninserv.ro este expirat/dead).
 *   Gândire Pitch (Site Expirat): (Cabinetul a deținut domeniul caninserv.ro, însă acesta este expirat și inoperabil, privându-i de atragerea de pacienți noi online din zona Vasile Lascăr / Ștefan cel Mare. Pitch-ul speculează importanța deținerii unui portal mobil modern pentru servicii stomatologice rapide și contact WhatsApp.)
 *   Pitch (Mesaj WhatsApp de trimis / Email):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am remarcat activitatea cabinetului dumneavoastră stomatologic Canin Serv de pe Vasile Lascăr, dar am observat că vechiul site caninserv.ro nu mai funcționează. Pentru ca pacienții din Sectorul 2 care au nevoie de tratamente stomatologice să vă poată regăsi orarul, adresa cabinetului și să se poată programa la consultații direct pe WhatsApp de pe smartphone, am creat un prototip modern de site mobil. Îl puteți vedea live aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/stomatologie_canin_serv.html
 
 Dacă doriți să repunem site-ul în funcțiune pe vechiul sau pe un nou domeniu, vă ajut cu mare drag. O zi bună!
 
@@ -1039,12 +918,10 @@ Dacă doriți să repunem site-ul în funcțiune pe vechiul sau pe un nou domeni
 *   Locație: Calea Moșilor nr. 217, bl. 23, sc. A, et. 4, ap. 13, Sector 2, București
 *   Telefon: 021 210 01 42 / 021 610 25 06
 *   Program de Lucru: Luni - Vineri: 09:00 - 17:00 | Sâmbătă - Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/notariat_sassu_opran.html
 *   Stare: Active, nu dețin un site web propriu oficial (prezență doar în baze de date notariale generale).
 *   🟡 INCERT (ADRESĂ DIFERITĂ): Majoritatea directoarelor (deschis.ro, cylex.ro, firmania.ro, nearfinderro) listează sediul biroului notarial la Strada Baba Novac nr. 7, Bl. M2, Sc. C, Ap. 24, Sector 3 — NU la Calea Moșilor 217 ca în registru. Adresa din registru apare doar pe câteva directoare (notariatpublic.com). Notarii există real (Opran Ioana din 1995, Sassu Raluca din 2004) și nu dețin site propriu. Confirmă adresa exactă înainte de pitch. (Notat: 2026-06-10)
 *   Pitch (Apel telefonic / Mesaj WhatsApp / Email):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am observat activitatea biroului dumneavoastră notarial de pe Calea Moșilor nr. 217, dar am remarcat că nu aveți un site oficial propriu de prezentare a serviciilor și orarului. Pentru ca viitorii clienți care au nevoie de tranzacții imobiliare, succesiuni sau legalizări în zona Rosetti / Moșilor să vă poată accesa cu ușurință și să poată trimite cereri sau documente de pe telefon, am creat un prototip de site mobil foarte elegant și structurat. Îl puteți vizualiza la acest link:
-https://sami111-afk.github.io/leads-finder/mockupuri/notariat_sassu_opran.html
 
 Dacă vă doriți să îl folosim ca site oficial pentru biroul dumneavoastră, vă stau la dispoziție cu mare drag. O zi excelentă!
 
@@ -1054,11 +931,9 @@ Dacă vă doriți să îl folosim ca site oficial pentru biroul dumneavoastră, 
 *   Locație: Calea Moșilor nr. 260, Sector 2, București
 *   Telefon: 021 210 22 27
 *   Program de Lucru: Luni - Vineri: 09:30 - 18:30 | Sâmbătă: 09:30 - 14:30 | Duminică: Închis
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/optica_maria_mosilor.html
 *   Stare: Activă, nu are site web de prezentare propriu (prezență limitată în directoare de specialitate).
 *   Pitch (Mesaj WhatsApp de trimis / Apel telefonic):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am observat magazinul dumneavoastră Optica Maria de pe Calea Moșilor, dar am observat că nu aveți un site web propriu. Pentru ca persoanele din cartier care au nevoie de consultații optometrice sau ochelari să vă poată găsi cu ușurință programul, ramele disponibile și să se poată programa la măsurarea dioptriilor direct de pe smartphone, am creat un prototip modern de site mobil. Îl puteți accesa live aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/optica_maria_mosilor.html
 
 Dacă doriți să îl personalizăm și să îl publicăm ca site oficial al cabinetului dumneavoastră, vă pot ajuta cu mare drag. O zi excelentă!
 
@@ -1074,11 +949,9 @@ Dacă doriți să îl personalizăm și să îl publicăm ca site oficial al cab
 *   Locație: Strada C.A. Rosetti nr. 42, Sector 2, București (Piața Rosetti)
 *   Telefon: 0766 674 505
 *   Program de Lucru: De confirmat (programări telefonic)
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/psiholog_berdei_roxana.html
 *   Stare: ✅ LEAD NOU — confirmat real (listat pe la-psiholog.ro), NU deține site web propriu. Categorie cu conversie mare (cabinet psihoterapie), chiar în zona centrală a proiectului (Piața Rosetti). Servicii: terapie sistemică pentru copii/cupluri/familii, hipnoză clinică, terapie ericksoniană. (Mockup de generat)
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua, doamna psiholog Berdei! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Căutând un cabinet de psihoterapie în zona Piața Rosetti, am găsit recomandările bune pentru serviciile dumneavoastră de terapie sistemică, dar am observat că nu aveți un site web de prezentare propriu. Am creat un prototip de site mobil cald și discret, unde clienții vă pot vedea tipurile de terapie, orarul și vă pot trimite o cerere de programare direct pe WhatsApp. Îl puteți vedea live aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/psiholog_berdei_roxana.html
 
 Dacă vă place și doriți să îl adaptăm și să îl lansăm oficial, vă ajut cu mare drag. O zi liniștită!
 
@@ -1088,11 +961,9 @@ Dacă vă place și doriți să îl adaptăm și să îl lansăm oficial, vă aj
 *   Locație: Strada Virgil Lazarovici nr. 34, Sector 2, București (Vatra Luminoasă)
 *   Telefon: 0741 577 954 (email: luminitaiordache@yahoo.com)
 *   Program de Lucru: De confirmat (programări telefonic)
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/psiholog_iordache_luminita.html
 *   Stare: ✅ LEAD NOU — confirmat real (medatlas.ro, romedic.ro, cabinete-medicale-bucuresti.ro), NU deține site web propriu. Categorie cu conversie mare (logopedie + psihologie clinică copii, inclusiv tulburări din spectru autist). (Mockup de generat)
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua, doamna Iordache! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am găsit recomandările excelente pentru cabinetul dumneavoastră de logopedie și psihologie pentru copii, dar am observat că nu aveți un site web de prezentare propriu. Pentru ca părinții care caută terapie logopedică sau evaluări să vă găsească ușor serviciile, orarul și să vă scrie direct pe WhatsApp, am creat un prototip de site mobil cald și prietenos. Îl puteți vedea live aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/psiholog_iordache_luminita.html
 
 Dacă doriți să îl adaptăm cu detaliile exacte și să îl lansăm oficial, vă ajut cu mare drag. O zi frumoasă!
 
@@ -1102,12 +973,10 @@ Dacă doriți să îl adaptăm cu detaliile exacte și să îl lansăm oficial, 
 *   Locație: Calea Moșilor nr. 253, Sector 2, București
 *   Telefon: 0752 262 861 / 021 210 67 41
 *   Program de Lucru: De confirmat (programări telefonic)
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/salon_mosilor_253.html
 *   Stare: ✅ LEAD NOU — confirmat real (pagină de Facebook „coaformosilor", listări directoare), NU deține site web propriu. Categorie beauty = conversie mare. (Mockup de generat)
 *   🟡 VERIFICĂ ÎNAINTE DE PITCH: există domeniul coafor-mosilor.ro, dar pare să fie al ALTUI salon („Salon Coafor Moșilor", Strada Vaselor 56). Confirmă pe Google Maps că NU e al acestui salon înainte să folosești premisa „nu aveți site".
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am observat salonul dumneavoastră de pe Calea Moșilor nr. 253, dar am văzut că nu aveți un site web propriu de prezentare. Pentru ca persoanele din cartier care caută coafor, cosmetică sau manichiură să vă vadă serviciile, prețurile și să poată cere o programare direct pe WhatsApp, am creat un prototip elegant de site mobil. Îl puteți vedea live aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/salon_mosilor_253.html
 
 Dacă vă place și doriți să îl lansăm oficial, vă ajut cu drag. O zi minunată!
 
@@ -1117,11 +986,9 @@ Dacă vă place și doriți să îl lansăm oficial, vă ajut cu drag. O zi minu
 *   Locație: Strada Vasile Lascăr nr. 192, Sector 2, București
 *   Telefon: 🟡 DE PRELUAT de pe pagina de Facebook (facebook.com/melsmiledent) sau Google Maps (nu apare în directoare)
 *   Program de Lucru: De confirmat
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/stomatologie_mel_smile.html
 *   Stare: ✅ LEAD NOU — confirmat real (Facebook „melsmiledent" + directoare bucuresti365/ghidul), NU deține site web propriu (nu există melsmiledent.ro). Categorie cu conversie bună (stomatologie). (Mockup de generat)
 *   Pitch (Mesaj WhatsApp / Facebook Messenger):
 Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am observat cabinetul dumneavoastră stomatologic Mel Smile Dent de pe Vasile Lascăr nr. 192, dar am văzut că nu aveți un site web propriu (sunteți prezenți doar pe Facebook). Pentru ca pacienții din zonă să vă găsească ușor serviciile, orarul și să se poată programa direct pe WhatsApp, am creat un prototip modern de site mobil, axat pe încredere și programări rapide. Îl puteți vedea live aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/stomatologie_mel_smile.html
 
 Dacă vă place și doriți să îl lansăm ca site oficial al cabinetului, vă ajut cu mare drag. O zi excelentă!
 
@@ -1131,11 +998,9 @@ Dacă vă place și doriți să îl lansăm ca site oficial al cabinetului, vă 
 *   Locație: Șoseaua Mihai Bravu nr. 182, Bloc 220, Sector 2, București
 *   Telefon: 🟡 DE PRELUAT de pe Google Maps / near-place (nu e afișat complet în directoare)
 *   Program de Lucru: De confirmat
-*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/psiholog_gabriela_preda.html
 *   Stare: ✅ LEAD NOU — confirmat real (medatlas.ro, near-place, findhealthclinics — „Psiholog Principal Supervizor Logoped"), NU deține site web propriu. Categorie cu conversie mare (logopedie + psihologie). (Mockup de generat)
 *   Pitch (Mesaj WhatsApp de trimis):
 Bună ziua, doamna Preda! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2. Am găsit recomandările bune pentru cabinetul dumneavoastră de logopedie și psihologie, dar am observat că nu aveți un site web de prezentare propriu. Pentru ca pacienții (copii și adulți) să vă găsească ușor serviciile, orarul și să vă poată scrie direct pe WhatsApp, am creat un prototip de site mobil cald și clar. Îl puteți vedea live aici:
-https://sami111-afk.github.io/leads-finder/mockupuri/psiholog_gabriela_preda.html
 
 Dacă doriți să îl adaptăm și să îl lansăm oficial, vă ajut cu mare drag. O zi frumoasă!
 
