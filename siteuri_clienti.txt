@@ -4400,7 +4400,7 @@ Dacă doriți să îl folosim ca site oficial, vă pot ajuta cu drag. O zi bună
 🍽️ 336. Terasă & Bistro Dristor
 --------------------------------------------------------------------------------
 *   Locație: Strada Dristorului nr. 82, Sector 3, București
-*   Telefon: 0725 889 403
+*   Telefon: 0725 889 405
 *   Program de Lucru: Luni - Duminică: 10:00 - 22:00
 *   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/bistro_terasa_dristor.html
 *   Stare: Activ, nu deține site web propriu.
