@@ -1,0 +1,65 @@
+================================================================================
+📋 LISTĂ CLIENȚI GĂSIȚI DE CLAUDE — LEADS-FINDER BUCUREȘTI (FOOD / MENIU QR)
+================================================================================
+Notă: listă separată, generată automat. Toate firmele sunt REALE, verificate pe
+net (apar doar în directoare/social, fără site web propriu) și NU se regăsesc în
+siteuri_clienti.txt sau tested_leads.txt. Mockup live pe GitHub Pages.
+================================================================================
+
+--------------------------------------------------------------------------------
+🍵 1. SanThé Fitoceainărie (Ceainărie / Centrul Vechi)
+--------------------------------------------------------------------------------
+*   Locație: Strada Lipscani nr. 104, Centrul Vechi, Sector 3, București
+*   Telefon: 0730 370 290
+*   Program de Lucru: Joi - Duminică: 14:00 - 20:00 (în afara orelor, deschis pentru evenimente private)
+*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/santhe_fitoceainarie_lipscani.html
+*   Stare: Activ, NU deține site web propriu dedicat (apare doar pe o subpagină a asociației-mamă Down Plus București + Facebook/Instagram și portaluri de rezervări). Proiect social de incluziune pentru tineri cu sindrom Down.
+*   Pitch (Mesaj WhatsApp de trimis):
+Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 2/3. Am descoperit fitoceainăria SanThé de pe Lipscani și proiectul minunat din spatele ei, dar am observat că nu aveți un site web propriu dedicat ceainăriei. Pentru ca oamenii din zonă să vă găsească rapid programul, meniul și să poată rezerva o masă sau spațiul pentru evenimente direct pe WhatsApp, am creat un prototip de site mobil premium, adaptat atmosferei calde a locului. Îl puteți vedea live aici:
+https://sami111-afk.github.io/leads-finder/mockupuri/santhe_fitoceainarie_lipscani.html
+
+Dacă vă place și doriți să îl adaptăm cu meniul complet și să îl lansăm ca site oficial, vă ajut cu mare drag. O zi minunată!
+
+--------------------------------------------------------------------------------
+🍰 2. Cofetăria Cimma (Cofetărie de cartier / Rahova)
+--------------------------------------------------------------------------------
+*   Locație: Strada Teiuș nr. 43, Rahova, Sector 5, București
+*   Telefon: 021 420 98 44
+*   Program de Lucru: (de confirmat — neafișat public; menționat ca deschis zilnic)
+*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/cofetaria_cimma_teius.html
+*   Stare: Activ, NU deține site web propriu (apare doar în directoare locale: eva.ro, ghidul.ro etc.). Telefon fix → contact recomandat telefonic.
+*   Pitch (Pitch Telefonic / la fața locului):
+Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local. Căutând o cofetărie bună în Rahova, am găsit Cofetăria Cimma de pe strada Teiuș, dar am observat că nu aveți un site web propriu. Pentru ca persoanele din zonă să vă găsească rapid produsele, programul și să poată cere o ofertă pentru un tort la comandă, am creat un prototip modern de site mobil de prezentare. Îl puteți vedea live aici:
+https://sami111-afk.github.io/leads-finder/mockupuri/cofetaria_cimma_teius.html
+
+Dacă vă place și doriți să îl adaptăm cu produsele și prețurile exacte și să îl lansăm ca site oficial, vă ajut cu mare drag. O zi excelentă!
+
+--------------------------------------------------------------------------------
+🥧 3. La Căruța cu Plăcinte (Plăcintărie tradițională / Piața Arsenalului)
+--------------------------------------------------------------------------------
+*   Locație: Calea 13 Septembrie nr. 90, Piața Arsenalului, Sector 5, București
+*   Telefon: 0729 472 500
+*   Program de Lucru: Luni - Vineri: 10:00 - 18:00
+*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/la_caruta_cu_placinte_arsenalului.html
+*   Stare: Activ, site-ul vechi `la-caruta-cu-placinte.business.site` este EXPIRAT (Google a desființat platforma .business.site în 2024). Promovat acum doar prin Facebook (@placintaineu) / Instagram. Lead ideal — pitch pe site-ul pierdut.
+*   Gândire Pitch (Site Expirat): Avea un site gratuit Google Business care s-a închis. Pitch-ul speculează direct pierderea recentă a singurei pagini unde clienții vedeau plăcintele și oferă o soluție modernă cu comandă rapidă pe telefon/WhatsApp.
+*   Pitch (Mesaj WhatsApp / Telefonic de trimis):
+Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în Sectorul 5. Am observat căruța dumneavoastră cu plăcinte din Piața Arsenalului, dar am văzut că site-ul vechi (cel de tip business.site) nu mai funcționează, de când Google a închis platforma. Pentru ca oamenii din zonă să vă găsească rapid sortimentele, programul și să poată comanda direct, am creat un prototip de site mobil premium adaptat brandului dumneavoastră. Îl puteți vedea live la acest link:
+https://sami111-afk.github.io/leads-finder/mockupuri/la_caruta_cu_placinte_arsenalului.html
+
+Dacă vă place și doriți să îl lansăm ca site oficial cu meniul complet, vă ajut cu mare drag. O zi minunată!
+
+--------------------------------------------------------------------------------
+🍬 4. Dulciuri Minunate (Cofetărie / laborator propriu, Sector 6)
+--------------------------------------------------------------------------------
+*   Locație: Strada Preciziei nr. 34, Hala D2, Sector 6, București
+*   Telefon: 0732 117 044
+*   Program de Lucru: Luni: 09:00 - 16:00 | Marți - Joi: 07:00 - 16:00 | Vineri - Sâmbătă: 07:00 - 19:00 | Duminică: 09:00 - 15:00
+*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/dulciuri_minunate_preciziei.html
+*   Stare: Activ, NU deține site web propriu (prezență doar pe FoodYas + Facebook). Verificat 2026-06-12.
+*   Pitch (Mesaj WhatsApp de trimis):
+Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local. Căutând un laborator bun de cofetărie în Sectorul 6, am găsit Dulciuri Minunate de pe strada Preciziei, dar am observat că nu aveți un site web de prezentare propriu. Pentru ca persoanele din zonă să vă găsească rapid produsele, programul și să poată cere o ofertă pentru un tort sau candy bar direct pe WhatsApp, am creat un prototip de site mobil premium adaptat brandului dumneavoastră. Îl puteți testa live la acest link:
+https://sami111-afk.github.io/leads-finder/mockupuri/dulciuri_minunate_preciziei.html
+
+Dacă doriți să îl adaptăm cu produsele și prețurile exacte și să îl lansăm ca site oficial, vă ajut cu mare drag. O zi excelentă!
+
