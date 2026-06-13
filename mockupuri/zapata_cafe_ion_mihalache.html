@@ -2,117 +2,178 @@
 <html lang="ro">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zapata Cafe - Prăjitorie de Cafea & Cafenea Non-Stop, Piața Victoriei</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+    
+<!-- INJECTED PREMIUM OVERRIDES START -->
     <style>
         :root {
-            --primary: #b45309;
-            --primary-hover: #92400e;
-            --secondary: #2b1a0f;
-            --background: #fbf7f2;
-            --surface: #ffffff;
-            --text-dark: #2b1a0f;
-            --text-light: #6f6157;
-            --border-color: rgba(0,0,0,0.08);
-            --white: #ffffff;
-            --border-radius-lg: 24px;
-            --border-radius-md: 16px;
-            --border-radius-sm: 8px;
-            --font-main: 'Plus Jakarta Sans', sans-serif;
-            --font-display: 'Playfair Display', serif;
-            --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-            --shadow-sm: 0 4px 12px rgba(0,0,0,0.02);
-            --shadow-md: 0 12px 30px rgba(0,0,0,0.05);
+            --primary: #2563eb !important;
+            --primary-rgb: 37, 99, 235 !important;
+            --primary-hover: color-mix(in srgb, var(--primary) 85%, black) !important;
+            --secondary: #0f172a !important;
+            --background: #eff6ff !important;
+            --text-dark: #0f172a !important;
+            --white: #ffffff !important;
         }
-        * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
-        html { scroll-behavior: smooth; }
-        body { font-family: var(--font-main); background-color: var(--background); color: var(--text-dark); line-height: 1.6; overflow-x: hidden; padding-bottom: 80px; animation: fadeInBody 0.6s ease; }
-        @keyframes fadeInBody { from { opacity: 0; } to { opacity: 1; } }
-        .container { width: 90%; max-width: 1100px; margin: 0 auto; }
-        header { position: fixed; top: 0; left: 0; width: 100%; background: rgba(255,255,255,0.85); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid var(--border-color); z-index: 1000; padding: 16px 0; transition: var(--transition); }
-        .header-content { display: flex; justify-content: space-between; align-items: center; }
-        .logo { font-family: var(--font-display); font-weight: 700; font-size: 1.35rem; color: var(--secondary); text-decoration: none; display: flex; align-items: center; gap: 8px; }
-        .nav-links { display: flex; list-style: none; gap: 24px; align-items: center; }
-        .nav-links a { color: var(--text-dark); text-decoration: none; font-size: 0.95rem; font-weight: 600; transition: var(--transition); }
-        .nav-links a:hover { color: var(--primary); }
-        .btn { background-color: var(--primary); color: var(--white) !important; padding: 12px 28px; border-radius: 100px; border: none; font-weight: 700; font-size: 0.95rem; cursor: pointer; transition: var(--transition); box-shadow: 0 4px 14px rgba(0,0,0,0.05); display: inline-flex; align-items: center; justify-content: center; text-decoration: none; }
-        .btn:hover { background-color: var(--primary-hover); transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.1); }
-        .btn-outline { background-color: transparent; border: 2px solid var(--primary); color: var(--primary) !important; box-shadow: none; }
-        .btn-outline:hover { background-color: var(--primary); color: var(--white) !important; }
-        .hero { padding: 160px 0 80px; position: relative; }
-        .hero-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 60px; align-items: center; }
-        .badge { background-color: var(--white); border: 1px solid var(--border-color); padding: 8px 16px; border-radius: 100px; display: inline-flex; align-items: center; gap: 8px; font-size: 0.85rem; font-weight: 700; margin-bottom: 24px; box-shadow: var(--shadow-sm); }
-        .hero h1 { font-family: var(--font-display); font-size: 3.2rem; font-weight: 700; line-height: 1.15; margin-bottom: 24px; color: var(--secondary); }
-        .hero h1 span { color: var(--primary); font-style: italic; }
-        .hero p { font-size: 1.1rem; color: var(--text-light); margin-bottom: 36px; max-width: 540px; }
-        .hero-buttons { display: flex; gap: 16px; }
-        .hero-img-container { position: relative; }
-        .hero-img { width: 100%; border-radius: var(--border-radius-lg); box-shadow: var(--shadow-md); }
-        .glow-blob { position: absolute; width: 300px; height: 300px; border-radius: 50%; background-color: var(--primary); filter: blur(120px); opacity: 0.12; z-index: -1; pointer-events: none; }
-        .glow-1 { top: 10%; left: -100px; }
-        .glow-2 { bottom: 10%; right: -100px; }
-        .services { padding: 80px 0; background-color: var(--white); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color); }
-        .section-header { text-align: center; max-width: 600px; margin: 0 auto 50px; }
-        .section-header h2 { font-family: var(--font-display); font-size: 2.2rem; margin-bottom: 16px; color: var(--secondary); }
-        .section-header p { color: var(--text-light); }
-        .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
-        .service-card { padding: 40px 30px; border-radius: var(--border-radius-md); border: 1px solid var(--border-color); transition: var(--transition); background-color: var(--white); }
-        .service-card:hover { transform: translateY(-8px); box-shadow: var(--shadow-md); border-color: transparent; }
-        .service-icon { font-size: 2.5rem; margin-bottom: 24px; display: inline-block; }
-        .service-card h3 { font-size: 1.25rem; margin-bottom: 12px; color: var(--secondary); }
-        .service-card p { color: var(--text-light); font-size: 0.95rem; }
-        .contact { padding: 100px 0; position: relative; }
-        .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start; }
-        .contact-info h2 { font-family: var(--font-display); font-size: 2.2rem; margin-bottom: 20px; color: var(--secondary); }
-        .contact-info > p { color: var(--text-light); margin-bottom: 40px; }
-        .info-row { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 28px; }
-        .info-icon { width: 44px; height: 44px; border-radius: 12px; background-color: var(--background); color: var(--primary); display: flex; align-items: center; justify-content: center; font-size: 1.1rem; font-weight: 700; flex-shrink: 0; }
-        .info-text h4 { font-size: 1.05rem; margin-bottom: 4px; color: var(--secondary); }
-        .info-text p { color: var(--text-light); font-size: 0.95rem; }
-        .form-box { background-color: var(--white); padding: 40px; border-radius: var(--border-radius-lg); box-shadow: var(--shadow-md); border: 1px solid var(--border-color); }
-        .form-box h3 { font-size: 1.4rem; margin-bottom: 24px; color: var(--secondary); }
-        .form-group { margin-bottom: 20px; }
-        .form-group label { display: block; margin-bottom: 8px; font-size: 0.9rem; font-weight: 700; color: var(--text-dark); }
-        .form-group input, .form-group select, .form-group textarea { width: 100%; padding: 14px 18px; border-radius: 12px; border: 1px solid var(--border-color); background-color: var(--background); font-family: var(--font-main); font-size: 0.95rem; color: var(--text-dark); transition: var(--transition); }
-        footer { background-color: var(--secondary); color: var(--white); padding: 60px 0; text-align: center; border-top: 1px solid var(--border-color); }
-        footer p { opacity: 0.7; font-size: 0.95rem; }
-        @media (max-width: 992px) {
-            .hero-grid { grid-template-columns: 1fr; gap: 40px; text-align: center; }
-            .hero h1 { font-size: 2.6rem; }
-            .hero p { margin: 0 auto 36px; }
-            .hero-buttons { justify-content: center; }
-            .services-grid { grid-template-columns: 1fr; }
-            .contact-grid { grid-template-columns: 1fr; gap: 50px; }
+        
+        /* Premium sticky glass header overrides */
+        header {
+            position: sticky !important;
+            top: 0 !important;
+            background: rgba(255, 255, 255, 0.75) !important;
+            backdrop-filter: blur(16px) !important;
+            -webkit-backdrop-filter: blur(16px) !important;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.5) !important;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.02) !important;
+            z-index: 1000 !important;
+            transition: all 0.25s ease;
         }
-        @media (max-width: 768px) { .nav-links { display: none; } }
-        @media (prefers-reduced-motion: no-preference) {
-            .hero-content > *, .hero-img-container, .hero-img { animation: upFadeIn .75s cubic-bezier(.2,.7,.2,1) both; }
-            .anim-in { opacity: 0; transform: translateY(26px); transition: opacity .8s cubic-bezier(.2,.7,.2,1), transform .8s cubic-bezier(.2,.7,.2,1); }
-            .anim-in.is-visible { opacity: 1; transform: none; }
+        
+        /* Float Glow Blobs in Background */
+        .glow-blob {
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(var(--primary-rgb), 0.15) 0%, rgba(var(--primary-rgb), 0) 70%);
+            border-radius: 50%;
+            filter: blur(120px);
+            z-index: -2;
+            pointer-events: none;
+            opacity: 0.8;
+            animation: float-glow 16s ease-in-out infinite alternate;
         }
-        @keyframes upFadeIn { from { opacity: 0; transform: translateY(22px); } to { opacity: 1; transform: none; } }
-        .btn { position: relative; overflow: hidden; }
-        .btn::after { content: ""; position: absolute; top: 0; left: -130%; width: 55%; height: 100%; background: linear-gradient(120deg, transparent, rgba(255,255,255,.35), transparent); transform: skewX(-20deg); transition: left .6s ease; pointer-events: none; }
-        .btn:hover::after { left: 150%; }
-        .btn:active { transform: scale(0.96); }
-        .service-card:hover .service-icon { transform: scale(1.12) rotate(-4deg); }
-        .service-icon { transition: transform .3s ease; }
-        ::-webkit-scrollbar { width: 10px; }
-        ::-webkit-scrollbar-thumb { background: var(--primary); border-radius: 10px; border: 3px solid var(--background); }
-        ::selection { background: var(--primary); color: white; }
-        .sticky-mobile-bar { display: none; position: fixed; bottom: 0; left: 0; width: 100%; z-index: 9999; padding: 12px 18px; gap: 12px; box-sizing: border-box; }
-        @media (max-width: 768px) {
-            input, textarea, select { font-size: 16px !important; }
-            .sticky-mobile-bar { display: flex !important; background: color-mix(in srgb, var(--background) 85%, transparent); backdrop-filter: blur(20px) saturate(190%); -webkit-backdrop-filter: blur(20px) saturate(190%); border-top: 1px solid rgba(128,128,128,0.15); box-shadow: 0 -12px 35px rgba(0,0,0,0.08); animation: slideUpMobileBar 0.6s cubic-bezier(0.16,1,0.3,1) both; animation-delay: 0.5s; }
-            .sticky-mobile-bar .btn-sticky { flex: 1; padding: 14px; border-radius: 14px; font-weight: 600; font-size: 0.92rem; text-decoration: none; display: inline-flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(0,0,0,0.06); }
-            .btn-sticky-call { background: linear-gradient(135deg, var(--secondary), var(--primary)); color: white; }
-            .btn-sticky-whatsapp { background: linear-gradient(135deg, #25D366, #075E54); color: white; }
+        .glow-1 { top: 5%; left: -150px; }
+        .glow-2 { top: 35%; right: -150px; animation-delay: -8s; }
+        
+        @keyframes float-glow {
+            0% { transform: translate(0, 0) scale(1); }
+            100% { transform: translate(50px, -50px) scale(1.1); }
         }
-        @keyframes slideUpMobileBar { from { transform: translateY(100%); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+
+        /* Hero image float & hover depth */
+        .hero-img {
+            animation: float-image 7s ease-in-out infinite;
+            transition: transform 0.5s ease, box-shadow 0.5s ease !important;
+        }
+        .hero-img:hover {
+            transform: scale(1.03) rotate(0.5deg) !important;
+            box-shadow: 0 30px 60px rgba(var(--primary-rgb), 0.25) !important;
+        }
+        @keyframes float-image {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        /* Button pulsing and glossy sheen */
+        .btn:not(.btn-outline) {
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(var(--primary-rgb), 0.25) !important;
+            animation: button-pulse 4s infinite;
+        }
+        .btn:not(.btn-outline):hover {
+            transform: translateY(-2px) scale(1.03) !important;
+            box-shadow: 0 12px 28px rgba(var(--primary-rgb), 0.4) !important;
+        }
+        @keyframes button-pulse {
+            0%, 100% { box-shadow: 0 8px 20px rgba(var(--primary-rgb), 0.25); }
+            50% { box-shadow: 0 8px 30px rgba(var(--primary-rgb), 0.5); }
+        }
+
+        /* Service and testimonial glass cards with glow */
+        .service-card, .testimonial-card {
+            background: rgba(255, 255, 255, 0.75) !important;
+            backdrop-filter: blur(12px) !important;
+            -webkit-backdrop-filter: blur(12px) !important;
+            border: 1px solid rgba(255, 255, 255, 0.5) !important;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.03) !important;
+            transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.3s ease !important;
+        }
+        .service-card:hover, .testimonial-card:hover {
+            transform: translateY(-8px) scale(1.02) !important;
+            border-color: var(--primary) !important;
+            box-shadow: 0 20px 40px rgba(var(--primary-rgb), 0.12) !important;
+        }
+        
+        .form-box {
+            background: rgba(255, 255, 255, 0.82) !important;
+            backdrop-filter: blur(16px) !important;
+            -webkit-backdrop-filter: blur(16px) !important;
+            border: 1px solid rgba(255, 255, 255, 0.6) !important;
+            box-shadow: 0 16px 48px rgba(0, 0, 0, 0.06) !important;
+        }
+        
+        /* Cookie Banner styling */
+        .cookie-banner {
+            position: fixed;
+            bottom: -200px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 90%;
+            max-width: 600px;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.8);
+            padding: 20px 24px;
+            border-radius: 20px;
+            box-shadow: 0 20px 50px rgba(15, 23, 42, 0.15);
+            z-index: 9999;
+            transition: bottom 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .cookie-banner.show { bottom: 30px; }
+        .cookie-banner p { font-size: 0.9rem; color: #334155; line-height: 1.5; margin: 0; }
+        .cookie-banner a { color: var(--primary); text-decoration: underline; font-weight: 600; }
+        .cookie-actions { display: flex; gap: 12px; justify-content: flex-end; }
+        .cookie-actions button { padding: 8px 20px; border-radius: 10px; font-size: 0.85rem; font-weight: 700; cursor: pointer; min-height: 38px; }
+        .cookie-accept { background: var(--primary); color: var(--white); border: none; box-shadow: 0 4px 12px rgba(var(--primary-rgb), 0.2); }
+        .cookie-accept:hover { transform: translateY(-1px); box-shadow: 0 6px 16px rgba(var(--primary-rgb), 0.3); }
+        .cookie-reject { background: transparent; color: #475569; border: 1px solid #cbd5e1; }
+        .cookie-reject:hover { background: rgba(0, 0, 0, 0.02); border-color: #94a3b8; }
+        
+        /* Modal GDPR overlay */
+        .modal-overlay {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(15, 23, 42, 0.6);
+            backdrop-filter: blur(8px);
+            display: flex; align-items: center; justify-content: center;
+            opacity: 0; pointer-events: none; z-index: 99999;
+            transition: opacity 0.3s ease;
+        }
+        .modal-overlay.active { opacity: 1; pointer-events: auto; }
+        .modal-content {
+            background: #ffffff;
+            width: 90%; max-width: 650px;
+            padding: 35px; border-radius: 24px;
+            box-shadow: 0 25px 60px rgba(0,0,0,0.15);
+            position: relative; max-height: 85vh; overflow: hidden;
+            display: flex; flex-direction: column;
+        }
+        .modal-close {
+            position: absolute; top: 20px; right: 20px;
+            background: none; border: none; font-size: 2rem;
+            cursor: pointer; color: #64748b;
+        }
+        .modal-body { overflow-y: auto; margin-top: 15px; font-size: 0.95rem; line-height: 1.6; color: #334155; }
+        .modal-body h4 { margin-top: 20px; color: var(--secondary); font-size: 1.1rem; }
+        .modal-body p { margin-bottom: 12px; }
+        
+        @media (max-width: 480px) {
+            .cookie-banner { bottom: -300px; padding: 16px; width: 95%; }
+            .cookie-banner.show { bottom: 85px; }
+            .cookie-actions { flex-direction: column; gap: 8px; }
+            .cookie-actions button { width: 100%; }
+        }
     </style>
+<!-- INJECTED PREMIUM OVERRIDES END -->
 </head>
 <body>
     <div class="glow-blob glow-1"></div>
@@ -219,7 +280,14 @@
             <p>&copy; 2026 <strong>Zapata Cafe</strong>. Toate drepturile rezervate.</p>
             <p style="font-size: 0.8rem; margin-top: 15px; opacity: 0.5;">Propus și creat de Savu Mihai Samuel - PFA Servicii IT.</p>
         </div>
-    </footer>
+    
+            <p style="font-size: 0.85rem; margin-top: 15px; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
+                <a href="#" id="privacyLink" style="color: var(--white); text-decoration: underline;">Politica de Confidențialitate (GDPR)</a> |
+                <a href="https://anpc.ro/" target="_blank" rel="noopener noreferrer" style="color: var(--white); text-decoration: underline;">ANPC</a> |
+                <a href="https://ec.europa.eu/consumers/odr/" target="_blank" rel="noopener noreferrer" style="color: var(--white); text-decoration: underline;">SOL</a>
+            </p>
+        
+</footer>
 
     <script>
     (function(){
@@ -231,5 +299,122 @@
         els.forEach(function(el){ io.observe(el); });
     })();
     </script>
+
+    <!-- Cookie Consent Banner -->
+    <div class="cookie-banner" id="cookieBanner" role="dialog" aria-label="Consimțământ cookie-uri">
+        <p>Folosim cookie-uri de analiză (Google Analytics) ca să înțelegem cum este folosit site-ul. Le activăm <strong>doar cu acordul tău</strong>. Detalii în <a href="#" id="cookiePrivacyLink">Politica de Confidențialitate</a>.</p>
+        <div class="cookie-actions">
+            <button type="button" class="cookie-reject" id="cookieReject">Refuz</button>
+            <button type="button" class="cookie-accept" id="cookieAccept">Accept</button>
+        </div>
+    </div>
+    
+    <!-- Modal GDPR / Politică de Confidențialitate -->
+    <div class="modal-overlay" id="privacyModal">
+        <div class="modal-content">
+            <button class="modal-close" id="closeModalBtn">&times;</button>
+            <h3>Politica de Confidențialitate (GDPR)</h3>
+            <div class="modal-body">
+                <p>Prezenta Politică de Confidențialitate explică modul în care **Zapata Cafe - Prăjitorie de Cafea & Cafenea Non-Stop, Piața Victoriei** (Adresă punct de lucru: Bulevardul Ion Mihalache nr. 23, Piața Victoriei, Sector 1, București) colectează și prelucrează datele dumneavoastră cu caracter personal atunci când utilizați formularul de solicitare de pe site-ul nostru.</p>
+                
+                <h4>1. Ce date colectăm?</h4>
+                <p>Prin intermediul formularelor de contact, colectăm următoarele date oferite voluntar: numele complet, numărul de telefon și serviciul dorit.</p>
+                
+                <h4>2. Scopul prelucrării</h4>
+                <p>Datele sunt utilizate exclusiv pentru a vă putea contacta și a vă oferi serviciile solicitate. Datele nu sunt înstrăinate către terți.</p>
+                
+                <h4>3. Preluarea datelor prin WhatsApp</h4>
+                <p>Datele trimise prin formular sunt procesate securizat și pot fi redirecționate către serviciul WhatsApp direct pe numărul de contact al firmei: 0734442211.</p>
+                
+                <h4>4. Drepturile dumneavoastră</h4>
+                <p>Conform GDPR, beneficiați de dreptul de acces, rectificare, ștergere sau restricționare a prelucrării datelor dumneavoastră. Pentru detalii, ne puteți contacta direct.</p>
+                
+                <h4>5. Cookie-uri și analiză</h4>
+                <p>Acest site utilizează cookie-uri de analiză Google Analytics pentru statistici de trafic. Acestea sunt dezactivate prin definiție și sunt încărcate <strong>doar în baza consimțământului dumneavoastră explicit</strong> prin apăsarea butonului „Accept".</p>
+            </div>
+            <div style="text-align: right; margin-top: 20px;">
+                <button class="btn" id="closeModalBtn2">Am înțeles</button>
+            </div>
+        </div>
+    </div>
+    
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){ dataLayer.push(arguments); }
+            
+            const cookieBanner = document.getElementById('cookieBanner');
+            const consent = localStorage.getItem('cookie_consent');
+
+            function loadGoogleAnalytics() {
+                if (window.__gaLoaded) return;
+                window.__gaLoaded = true;
+                const s = document.createElement('script');
+                s.async = true;
+                s.src = 'https://www.googletagmanager.com/gtag/js?id=G-LEAD-ANALYTICS';
+                document.head.appendChild(s);
+                gtag('js', new Date());
+                gtag('config', 'G-LEAD-ANALYTICS');
+            }
+
+            if (consent === 'accepted') {
+                loadGoogleAnalytics();
+            } else if (consent !== 'rejected') {
+                setTimeout(function() { 
+                    if (cookieBanner) cookieBanner.classList.add('show'); 
+                }, 800);
+            }
+
+            const acceptBtn = document.getElementById('cookieAccept');
+            const rejectBtn = document.getElementById('cookieReject');
+            const privacyLink = document.getElementById('cookiePrivacyLink');
+            const privacyLinkFooter = document.getElementById('privacyLink');
+            const privacyModal = document.getElementById('privacyModal');
+            const closeModalBtn = document.getElementById('closeModalBtn');
+            const closeModalBtn2 = document.getElementById('closeModalBtn2');
+
+            if (acceptBtn) {
+                acceptBtn.addEventListener('click', function() {
+                    localStorage.setItem('cookie_consent', 'accepted');
+                    if (cookieBanner) cookieBanner.classList.remove('show');
+                    loadGoogleAnalytics();
+                });
+            }
+            if (rejectBtn) {
+                rejectBtn.addEventListener('click', function() {
+                    localStorage.setItem('cookie_consent', 'rejected');
+                    if (cookieBanner) cookieBanner.classList.remove('show');
+                });
+            }
+            
+            function openPrivacyModal(e) {
+                e.preventDefault();
+                if (privacyModal) {
+                    privacyModal.classList.add('active');
+                    document.body.style.overflow = 'hidden';
+                }
+            }
+            
+            function closePrivacyModal() {
+                if (privacyModal) {
+                    privacyModal.classList.remove('active');
+                    document.body.style.overflow = 'auto';
+                }
+            }
+
+            if (privacyLink) privacyLink.addEventListener('click', openPrivacyModal);
+            if (privacyLinkFooter) privacyLinkFooter.addEventListener('click', openPrivacyModal);
+            if (closeModalBtn) closeModalBtn.addEventListener('click', closePrivacyModal);
+            if (closeModalBtn2) closeModalBtn2.addEventListener('click', closePrivacyModal);
+            
+            if (privacyModal) {
+                privacyModal.addEventListener('click', function(e) {
+                    if (e.target === privacyModal) closePrivacyModal();
+                });
+            }
+        });
+    </script>
+    
 </body>
 </html>
