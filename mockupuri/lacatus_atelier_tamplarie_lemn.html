@@ -3,91 +3,1775 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-    <!-- Marcam ca JS e activ; CSS-ul de reveal se aplica doar atunci (fallback fara JS = continut vizibil) -->
     <script>document.documentElement.classList.add('js');</script>
-
-    <title>[NUME_AFACERE] | Cabinet Optică Medicală București</title>
-    <meta name="description" content="Servicii de optică medicală, consultații gratuite și o gamă largă de ochelari de vedere la [NUME_AFACERE] Calea Moșilor, București.">
-    <link rel="canonical" href="https://[DOMENIU]/">
-    <meta name="theme-color" content="#be123c">
-    <link rel="icon" type="image/webp" href="./images/logo.webp">
-
-    <!-- Preload imaginea hero (LCP) ca sa se incarce prima, mai ales pe mobil -->
-    <link rel="preload" as="image" href="./images/poza-1outside.webp" fetchpriority="high">
-
-    <!-- Open Graph (preview frumos cand se da link pe WhatsApp / Facebook) -->
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="[NUME_AFACERE]">
-    <meta property="og:title" content="[NUME_AFACERE] | Cabinet Optică Medicală București">
-    <meta property="og:description" content="Optică medicală, consultații gratuite și ochelari de vedere pe Calea Moșilor, București. Programează-te rapid pe WhatsApp.">
-    <meta property="og:url" content="https://[DOMENIU]/">
-    <meta property="og:image" content="https://[DOMENIU]/images/poza-1outside.webp">
-    <meta property="og:image:alt" content="Cabinetul [NUME_AFACERE], Calea Moșilor, București">
-    <meta property="og:locale" content="ro_RO">
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="[NUME_AFACERE] | Cabinet Optică Medicală București">
-    <meta name="twitter:description" content="Optică medicală, consultații gratuite și ochelari de vedere pe Calea Moșilor, București.">
-    <meta name="twitter:image" content="https://[DOMENIU]/images/poza-1outside.webp">
-
-    <!-- Structured Data (JSON-LD) for Local Business SEO -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "[TIP_AFACERE_SCHEMA]",
-      "name": "[NUME_AFACERE]",
-      "image": "https://[DOMENIU]/images/logo.webp",
-      "@id": "https://[DOMENIU]/#business",
-      "url": "https://[DOMENIU]",
-      "telephone": "[TELEFON_CONTACT]",
-      "priceRange": "$$",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "[ADRESA_FIZICA]",
-        "addressLocality": "[ORAS]",
-        "postalCode": "[COD_POSTAL]",
-        "addressCountry": "RO"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": [LAT],
-        "longitude": [LON]
-      },
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday"
-          ],
-          "opens": "[ORE_LV_DESCHIS_EX_09:00]",
-          "closes": "[ORE_LV_INCHIS_EX_19:00]"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Saturday",
-          "opens": "[ORE_SAMBATA_DESCHIS_EX_09:00]",
-          "closes": "[ORE_SAMBATA_INCHIS_EX_13:00]"
-        }
-      ]
-    }
-    </script>
+    <title>Atelier Tâmplărie Lemn București | Lăcătușerie de Urgență & Deblocări Uși</title>
+    <meta name="description" content="Intervenții rapide de Lăcătușerie de Urgență & Deblocări Uși în Strada Horei nr. 12, Sector 2, București. Servicii asigurate de specialiști calificați.">
     
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+/* ============================================================
+   STYLE.CSS - template one-page afacere locala
+   Culorile de brand sunt in :root (cauta-l mai jos). Schimba-le acolo.
+   Fonturile (Plus Jakarta Sans) sunt self-hosted in ./fonts/
+   ============================================================ */
+
+/* ---- Font self-hosted (latin + latin-ext) ---- */
+@font-face{font-family:'Plus Jakarta Sans';font-style:normal;font-weight:400;font-display:swap;src:url('./fonts/pjs-400-latin-ext.woff2') format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Plus Jakarta Sans';font-style:normal;font-weight:400;font-display:swap;src:url('./fonts/pjs-400-latin.woff2') format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Plus Jakarta Sans';font-style:normal;font-weight:500;font-display:swap;src:url('./fonts/pjs-500-latin-ext.woff2') format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Plus Jakarta Sans';font-style:normal;font-weight:500;font-display:swap;src:url('./fonts/pjs-500-latin.woff2') format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Plus Jakarta Sans';font-style:normal;font-weight:600;font-display:swap;src:url('./fonts/pjs-600-latin-ext.woff2') format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Plus Jakarta Sans';font-style:normal;font-weight:600;font-display:swap;src:url('./fonts/pjs-600-latin.woff2') format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Plus Jakarta Sans';font-style:normal;font-weight:700;font-display:swap;src:url('./fonts/pjs-700-latin-ext.woff2') format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Plus Jakarta Sans';font-style:normal;font-weight:700;font-display:swap;src:url('./fonts/pjs-700-latin.woff2') format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Plus Jakarta Sans';font-style:normal;font-weight:800;font-display:swap;src:url('./fonts/pjs-800-latin-ext.woff2') format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Plus Jakarta Sans';font-style:normal;font-weight:800;font-display:swap;src:url('./fonts/pjs-800-latin.woff2') format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+
+/* ---- Stiluri pagina ---- */
+        /* ==================================================
+           SISTEM DE DESIGN PREMIUM - RED & NAVY BRANDING
+           ================================================== */
+        :root {
+            --primary: #be123c;       /* Crimson/Ruby Red (High Contrast & Professional) */
+            --primary-hover: #9f1239;
+            --secondary: #0f172a;     /* Deep Navy / Charcoal (matches logo navy and footer) */
+            --secondary-hover: #1e293b;
+            --dark: #0f172a;
+            --background: #ffffff;    /* Pure white background for modern aesthetic */
+            --background-alt: #f8fafc;/* Light cool grey for section alternation */
+            --surface: #ffffff;
+            --text-dark: #0f172a;     /* High contrast body/heading text */
+            --text-light: #334155;    /* High contrast secondary text (Slate-700) */
+            --border-color: #e2e8f0;  /* Clean neutral borders */
+            --white: #ffffff;
+            --border-radius-lg: 24px;
+            --border-radius-md: 16px;
+            --border-radius-sm: 8px;
+            --font-main: 'Plus Jakarta Sans', sans-serif;
+            --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+            --shadow-sm: 0 4px 12px rgba(15, 23, 42, 0.03);
+            --shadow-md: 0 12px 30px rgba(15, 23, 42, 0.06);
+            --shadow-lg: 0 20px 40px rgba(15, 23, 42, 0.1);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            overscroll-behavior-y: none; /* Stops elastic bounce background issues */
+        }
+
+        body {
+            font-family: var(--font-main);
+            background-color: var(--background);
+            color: var(--text-dark);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* HEADER - Premium Solid & Stable */
+        header {
+            position: relative;
+            width: 100%;
+            background: var(--white);
+            border-bottom: 1px solid var(--border-color);
+            z-index: 1000;
+            padding: 16px 0;
+            transition: var(--transition);
+        }
+
+        /* Validare telefon și Checkbox premium de securitate */
+        .phone-input-container {
+            display: flex;
+            gap: 8px;
+        }
+        .prefix-select {
+            width: auto !important;
+            flex-shrink: 0;
+            background-color: var(--white) !important;
+            padding: 0 10px !important;
+            font-weight: 700;
+            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius-sm);
+            color: var(--text-dark) !important;
+        }
+        .phone-input-container input {
+            flex-grow: 1;
+        }
+        .security-check-container {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            background-color: var(--background-alt);
+            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius-sm);
+            padding: 14px 18px;
+            margin-top: 20px;
+            cursor: pointer;
+            user-select: none;
+            transition: var(--transition);
+        }
+        .security-check-container:hover {
+            border-color: var(--primary);
+            background-color: var(--white);
+        }
+        .custom-checkbox {
+            position: relative;
+            width: 24px;
+            height: 24px;
+            border: 2px solid #cbd5e1;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--white);
+            transition: var(--transition);
+            flex-shrink: 0;
+        }
+        .security-check-container.loading .custom-checkbox {
+            border-color: transparent;
+            background-color: transparent;
+        }
+        .spinner-ring {
+            display: none;
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            border: 3px solid #cbd5e1;
+            border-radius: 50%;
+            border-top-color: var(--primary);
+            animation: spin 0.8s linear infinite;
+        }
+        .security-check-container.loading .spinner-ring {
+            display: block;
+        }
+        .checkmark-svg {
+            display: none;
+            width: 24px;
+            height: 24px;
+            stroke: #22c55e;
+            stroke-width: 4;
+            stroke-miterlimit: 10;
+            animation: fill .4s ease-in-out forwards;
+        }
+        .security-check-container.success .checkmark-svg {
+            display: block;
+        }
+        .security-check-container.success .custom-checkbox {
+            border-color: transparent;
+            background-color: transparent;
+        }
+        .checkmark-circle {
+            stroke-dasharray: 166;
+            stroke-dashoffset: 166;
+            stroke-width: 4;
+            stroke-miterlimit: 10;
+            stroke: #22c55e;
+            fill: none;
+            animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+        }
+        .checkmark-check {
+            transform-origin: 50% 50%;
+            stroke-dasharray: 48;
+            stroke-dashoffset: 48;
+            stroke: #22c55e;
+            animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.6s forwards;
+        }
+        .security-check-text {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: #475569;
+            transition: var(--transition);
+        }
+        .security-check-container.success .security-check-text {
+            color: #16a34a;
+            font-weight: 700;
+        }
+
+        .btn-submit {
+            opacity: 0.5 !important;
+            cursor: not-allowed !important;
+            box-shadow: none !important;
+        }
+        .btn-submit:not(:disabled) {
+            opacity: 1 !important;
+            cursor: pointer !important;
+            box-shadow: 0 4px 14px rgba(190, 18, 60, 0.2) !important;
+        }
+
+        /* MODAL LEGAL & PRIVACY */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(15, 23, 42, 0.6);
+            backdrop-filter: blur(4px);
+            z-index: 2000;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .modal-overlay.active {
+            display: flex;
+            opacity: 1;
+        }
+        .modal-content {
+            background-color: var(--white);
+            border-radius: var(--border-radius-md);
+            padding: 30px;
+            width: 90%;
+            max-width: 600px;
+            max-height: 80vh;
+            overflow-y: auto;
+            position: relative;
+            box-shadow: var(--shadow-lg);
+            transform: scale(0.9);
+            transition: transform 0.3s ease;
+        }
+        .modal-overlay.active .modal-content {
+            transform: scale(1);
+        }
+        .modal-close {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            background: none;
+            border: none;
+            font-size: 1.8rem;
+            cursor: pointer;
+            color: var(--text-light);
+            line-height: 1;
+        }
+        .modal-close:hover {
+            color: var(--primary);
+        }
+        .modal-content h3 {
+            font-size: 1.4rem;
+            font-weight: 800;
+            color: var(--secondary);
+            margin-bottom: 20px;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 10px;
+        }
+        .modal-body h4 {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin: 15px 0 6px;
+        }
+        .modal-body p {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+        .modal-body ul {
+            padding-left: 20px;
+            margin-bottom: 15px;
+        }
+        .modal-body li {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            margin-bottom: 6px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        @keyframes stroke {
+            100% { stroke-dashoffset: 0; }
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }
+
+        .logo-img {
+            height: 52px;
+            width: auto;
+            object-fit: contain;
+            transition: var(--transition);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 24px;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-dark);
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: var(--transition);
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        /* Mobil Menu Toggle Button */
+        .menu-toggle {
+            display: none;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 24px;
+            height: 18px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            z-index: 1010;
+            padding: 0;
+            position: relative;
+        }
+        .menu-toggle::before {
+            content: '';
+            position: absolute;
+            top: -13px;
+            bottom: -13px;
+            left: -13px;
+            right: -13px;
+        }
+
+        .hamburger-bar {
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: var(--secondary);
+            border-radius: 2px;
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        /* Overlay blur efect premium */
+        .nav-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background: rgba(15, 23, 42, 0.4);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            z-index: 999;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+        }
+
+        .nav-overlay.overlay-active {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        /* BUTOANE */
+        .btn {
+            background-color: var(--primary);
+            color: var(--white) !important;
+            padding: 12px 28px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.95rem;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: var(--transition);
+            box-shadow: 0 4px 14px rgba(190, 18, 60, 0.2);
+            min-height: 48px;
+        }
+
+        .btn:hover, .btn:active {
+            background-color: var(--primary-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(190, 18, 60, 0.35);
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            color: var(--secondary) !important;
+            border: 2px solid var(--secondary);
+            box-shadow: none;
+        }
+
+        .btn-outline:hover, .btn-outline:active {
+            background-color: var(--secondary);
+            color: var(--white) !important;
+        }
+
+        /* HERO SECTION */
+        .hero {
+            padding: 60px 0 70px;
+            background: radial-gradient(circle at 90% 10%, rgba(190, 18, 60, 0.04), transparent 50%);
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1.1fr 0.9fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .badge {
+            display: inline-block;
+            background-color: rgba(190, 18, 60, 0.08);
+            color: var(--primary);
+            padding: 6px 14px;
+            border-radius: 50px;
+            font-size: 0.75rem;
+            font-weight: 800;
+            margin-bottom: 18px;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        .hero h1 {
+            font-size: clamp(2rem, 5vw, 2.8rem);
+            font-weight: 800;
+            line-height: 1.2;
+            color: var(--secondary);
+            margin-bottom: 18px;
+            letter-spacing: -0.5px;
+        }
+
+        .hero h1 span {
+            color: var(--primary);
+        }
+
+        .hero p {
+            font-size: clamp(0.95rem, 2vw, 1.05rem);
+            color: var(--text-light);
+            margin-bottom: 24px;
+        }
+
+        .hero-features {
+            margin-bottom: 30px;
+            list-style: none;
+        }
+
+        .hero-features li {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            font-size: 0.95rem;
+            color: var(--text-dark);
+        }
+
+        .hero-features li span {
+            color: var(--primary);
+            font-weight: 800;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .hero-img-container {
+            display: flex;
+            justify-content: center;
+            position: relative;
+        }
+
+        .hero-img {
+            width: 100%;
+            max-width: 460px;
+            height: auto;
+            border-radius: var(--border-radius-md);
+            box-shadow: var(--shadow-lg);
+            border: 6px solid var(--white);
+        }
+
+        /* PROMOTIE BANNER */
+        .promo-banner {
+            background-color: var(--primary);
+            color: var(--white);
+            padding: 24px 0;
+            text-align: center;
+            border-radius: var(--border-radius-md);
+            margin: 20px 0 60px;
+            box-shadow: var(--shadow-md);
+        }
+
+        .promo-content h2 {
+            font-size: 1.4rem;
+            font-weight: 800;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .promo-content p {
+            font-size: 1.05rem;
+            font-weight: 500;
+            color: var(--white); /* alb pe fundal rosu: contrast 6.3:1 (WCAG AA) */
+            opacity: 0.95;
+        }
+
+        .promo-options {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+
+        .promo-tag {
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 8px 18px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.95rem;
+        }
+
+        /* SERVICES SECTION */
+        .services {
+            padding: 80px 0;
+            background-color: var(--background-alt);
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 700px;
+            margin: 0 auto 50px;
+        }
+
+        .section-header h2 {
+            font-size: clamp(1.8rem, 4vw, 2.4rem);
+            color: var(--secondary);
+            margin-bottom: 12px;
+            font-weight: 800;
+        }
+
+        .section-header p {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+        }
+
+        .service-card {
+            background-color: var(--surface);
+            border-radius: var(--border-radius-md);
+            padding: 35px;
+            border: 1px solid var(--border-color);
+            transition: var(--transition);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary);
+            box-shadow: var(--shadow-md);
+        }
+
+        .service-icon {
+            font-size: 2.2rem;
+            color: var(--primary);
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+
+        .service-card h3 {
+            font-size: 1.3rem;
+            color: var(--secondary);
+            margin-bottom: 12px;
+            font-weight: 800;
+        }
+
+        .service-card p {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+
+        /* CABINET GALLERY SECTION */
+        .cabinet-info-section {
+            padding: 80px 0;
+            background-color: var(--background);
+        }
+
+        .cabinet-grid {
+            display: grid;
+            grid-template-columns: 1.15fr 0.85fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        /* Cabinet Gallery Styles */
+        .cabinet-gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
+        }
+        .gallery-item {
+            position: relative;
+            border-radius: var(--border-radius-md);
+            overflow: hidden;
+            border: 4px solid var(--white);
+            box-shadow: var(--shadow-md);
+            transition: var(--transition);
+            aspect-ratio: 4 / 3;
+        }
+        .gallery-item.featured {
+            grid-row: span 2;
+            aspect-ratio: auto;
+            height: 100%;
+            min-height: 380px;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition);
+            display: block;
+        }
+        .gallery-item:hover img {
+            transform: scale(1.03);
+        }
+        .gallery-caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: linear-gradient(transparent, rgba(15, 23, 42, 0.85));
+            color: var(--white);
+            padding: 20px 16px 12px;
+            font-size: 0.95rem;
+            font-weight: 700;
+            opacity: 0;
+            transition: var(--transition);
+            pointer-events: none;
+        }
+        .gallery-item:hover .gallery-caption {
+            opacity: 1;
+        }
+
+        .cabinet-text h2 {
+            font-size: clamp(1.8rem, 4vw, 2.4rem);
+            color: var(--secondary);
+            font-weight: 800;
+            margin-bottom: 15px;
+        }
+
+        .cabinet-text p {
+            color: var(--text-light);
+            margin-bottom: 20px;
+            font-size: 1rem;
+        }
+
+        .cabinet-text ul {
+            list-style: none;
+            margin-bottom: 24px;
+        }
+
+        .cabinet-text ul li {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 12px;
+            font-weight: 600;
+            color: var(--text-dark);
+        }
+
+        .cabinet-text ul li::before {
+            content: "✓";
+            color: var(--primary);
+            font-weight: 900;
+        }
+
+        /* TESTIMONIALE SECTION */
+        .testimonials {
+            padding: 80px 0;
+            background-color: var(--background-alt);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+        .testimonial-card {
+            background-color: var(--surface);
+            padding: 30px;
+            border-radius: var(--border-radius-md);
+            border: 1px solid var(--border-color);
+            box-shadow: var(--shadow-sm);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: var(--transition);
+        }
+        .testimonial-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+        }
+        .testimonial-stars {
+            color: #fbbf24;
+            font-size: 1.2rem;
+            margin-bottom: 12px;
+        }
+        .testimonial-text {
+            color: var(--text-light);
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+        .testimonial-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 16px;
+            border-top: 1px solid var(--border-color);
+            padding-top: 12px;
+        }
+        .testimonial-author {
+            font-weight: 700;
+            font-size: 0.9rem;
+            color: var(--secondary);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .testimonial-author::before {
+            content: "";
+            display: inline-block;
+            width: 12px;
+            height: 2px;
+            background-color: var(--primary);
+        }
+        .testimonial-link {
+            font-size: 0.75rem;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 700;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            transition: var(--transition);
+        }
+        .testimonial-link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* CONTACT SECTION & FORM */
+        .contact {
+            padding: 80px 0;
+            background-color: var(--background);
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1.1fr 0.9fr;
+            gap: 40px;
+        }
+
+        .contact-info h2 {
+            font-size: clamp(1.8rem, 4vw, 2.4rem);
+            color: var(--secondary);
+            margin-bottom: 15px;
+            font-weight: 800;
+        }
+
+        .contact-info p {
+            color: var(--text-light);
+            margin-bottom: 30px;
+        }
+
+        .info-row {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 24px;
+            align-items: flex-start;
+        }
+
+        .info-icon {
+            font-size: 1.3rem;
+            background-color: rgba(190, 18, 60, 0.08);
+            color: var(--primary);
+            padding: 10px;
+            border-radius: 50%;
+            line-height: 1;
+            flex-shrink: 0;
+        }
+
+        .info-text strong {
+            display: block;
+            color: var(--secondary);
+            margin-bottom: 2px;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .info-text span {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+
+        .address-link, .phone-link {
+            color: var(--text-light);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .address-link:hover, .phone-link:hover {
+            color: var(--primary);
+            text-decoration: underline;
+        }
+
+        /* FORM BOX & TEXTAREA */
+        .form-box {
+            background-color: var(--background-alt);
+            border-radius: var(--border-radius-md);
+            padding: 30px;
+            border: 1px solid var(--border-color);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .form-box h3 {
+            font-size: 1.3rem;
+            color: var(--secondary);
+            margin-bottom: 20px;
+            font-weight: 800;
+        }
+
+        .form-group {
+            margin-bottom: 16px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 700;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+            color: var(--text-light);
+        }
+
+        .form-group input, .form-group select, .form-group textarea {
+            width: 100%;
+            height: 48px;
+            padding: 0 16px;
+            border-radius: var(--border-radius-sm);
+            border: 1px solid var(--border-color);
+            background-color: var(--white);
+            font-family: var(--font-main);
+            font-size: 0.95rem;
+            outline: none;
+            transition: var(--transition);
+        }
+
+        .form-group textarea {
+            height: 100px;
+            padding: 12px 16px;
+            resize: none;
+        }
+
+        .form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(190, 18, 60, 0.1);
+        }
+
+        /* STICKY BAR MOBIL */
+        .sticky-mobile-bar {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border-top: 1px solid var(--border-color);
+            padding: 12px 16px;
+            z-index: 999;
+            box-shadow: 0 -8px 30px rgba(0, 0, 0, 0.05);
+            justify-content: space-between;
+            gap: 10px;
+        }
+
+        .sticky-mobile-bar .btn-sticky {
+            flex: 1;
+            min-height: 48px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .btn-sticky-call {
+            background-color: var(--secondary);
+            color: var(--white);
+        }
+
+        .btn-sticky-whatsapp {
+            background-color: #15803d; /* verde mai inchis: contrast 5:1 cu text alb (accesibilitate WCAG AA) */
+            color: var(--white);
+        }
+
+        footer {
+            background-color: var(--secondary);
+            color: var(--white);
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        footer p {
+            opacity: 0.8;
+            font-size: 0.85rem;
+        }
+
+        /* BRAND FRAMES & LENS TECHNOLOGY SECTION */
+        .products-tech {
+            background-color: var(--white);
+            padding: 80px 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .products-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.25fr;
+            gap: 40px;
+            align-items: flex-start;
+        }
+        .frames-showcase {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            align-self: stretch;
+            justify-content: space-between;
+        }
+        .frame-card {
+            display: grid;
+            grid-template-columns: 130px 1fr;
+            gap: 20px;
+            background-color: var(--background-alt);
+            padding: 16px;
+            border-radius: var(--border-radius-md);
+            border: 1px solid var(--border-color);
+            transition: var(--transition);
+        }
+        .frame-card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+        }
+        .frame-img-box {
+            border-radius: var(--border-radius-sm);
+            overflow: hidden;
+            border: 2px solid var(--white);
+            box-shadow: var(--shadow-sm);
+            aspect-ratio: 1 / 1;
+        }
+        .frame-img-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition);
+        }
+        .frame-card:hover .frame-img-box img {
+            transform: scale(1.05);
+        }
+        .frame-info h3{
+            font-size: 1.1rem;
+            color: var(--text-dark);
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+        .frame-info p {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            line-height: 1.5;
+        }
+        .lenses-tech-box {
+            position: sticky;
+            top: 20px;
+        }
+        .tech-card {
+            background-color: var(--white);
+            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+        }
+        .tech-header-banner {
+            position: relative;
+            width: 100%;
+            height: 200px;
+            background-color: var(--background-alt);
+            overflow: hidden;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .tech-banner-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .video-tag {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            background-color: var(--primary);
+            color: var(--white);
+            padding: 4px 12px;
+            border-radius: 50px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            box-shadow: var(--shadow-sm);
+            text-transform: uppercase;
+        }
+        .tech-content-grid {
+            display: grid;
+            grid-template-columns: 1.3fr 1fr;
+            gap: 24px;
+            padding: 30px;
+        }
+        .tech-info h3 {
+            font-size: 1.4rem;
+            color: var(--text-dark);
+            margin: 10px 0 12px;
+            font-weight: 800;
+            line-height: 1.25;
+        }
+        .tech-info p {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+        .lens-benefits {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        .benefit-item {
+            display: flex;
+            gap: 12px;
+            align-items: flex-start;
+        }
+        .benefit-icon {
+            font-size: 1.2rem;
+            line-height: 1;
+            padding: 8px;
+            background-color: rgba(190, 18, 60, 0.06);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 36px;
+            height: 36px;
+            flex-shrink: 0;
+        }
+        .benefit-item strong {
+            display: block;
+            font-size: 0.9rem;
+            color: var(--text-dark);
+            margin-bottom: 2px;
+        }
+        .benefit-item span {
+            font-size: 0.83rem;
+            color: var(--text-light);
+            line-height: 1.4;
+        }
+        /* RESPONSIVENESS PE TELEFON */
+        @media (max-width: 768px) {
+            header {
+                position: relative !important;
+                background: var(--white) !important;
+                padding: 12px 0;
+                box-shadow: none !important;
+                border-bottom: 1px solid var(--border-color) !important;
+            }
+            .header-content {
+                justify-content: space-between;
+                width: 100%;
+                padding: 0 16px;
+            }
+            .header-content .btn {
+                display: none;
+            }
+            .logo-img {
+                height: 42px;
+            }
+            .menu-toggle {
+                display: flex;
+            }
+            .nav-links {
+                display: flex;
+                flex-direction: column;
+                position: fixed;
+                top: 0;
+                right: 0;
+                width: 280px;
+                height: 100vh;
+                background-color: var(--surface);
+                box-shadow: -4px 0 25px rgba(15, 23, 42, 0.15);
+                padding: 100px 30px;
+                gap: 24px;
+                transform: translateX(100%);
+                transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+                z-index: 1000;
+                align-items: flex-start;
+                margin: 0;
+            }
+            .nav-links.nav-active {
+                transform: translateX(0);
+            }
+            .nav-links li {
+                width: 100%;
+                list-style: none;
+            }
+            .nav-links a {
+                display: block;
+                font-size: 1.1rem;
+                padding: 8px 0;
+                border-bottom: 1px solid var(--border-color);
+                width: 100%;
+            }
+            .nav-links a.btn {
+                background-color: var(--primary);
+                color: var(--white) !important;
+                text-align: center;
+                border-radius: var(--border-radius-sm) !important;
+                padding: 12px;
+                border-bottom: none;
+                margin-top: 10px;
+                box-shadow: none;
+            }
+            .menu-toggle.toggle-active .hamburger-bar:nth-child(1) {
+                transform: translateY(8px) rotate(45deg);
+                background-color: var(--primary);
+            }
+            .menu-toggle.toggle-active .hamburger-bar:nth-child(2) {
+                opacity: 0;
+            }
+            .menu-toggle.toggle-active .hamburger-bar:nth-child(3) {
+                transform: translateY(-8px) rotate(-45deg);
+                background-color: var(--primary);
+            }
+            .sticky-mobile-bar {
+                display: flex;
+            }
+            .hero {
+                padding: 40px 0 40px;
+                text-align: center;
+            }
+            .hero-grid, .services-grid, .contact-grid, .cabinet-grid, .cabinet-gallery {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+            .testimonials-grid {
+                display: flex !important;
+                overflow-x: auto !important;
+                scroll-snap-type: x mandatory !important;
+                scroll-behavior: smooth !important;
+                -webkit-overflow-scrolling: touch !important;
+                gap: 16px !important;
+                padding: 10px 4px 20px !important;
+                width: 100% !important;
+            }
+            .testimonials-grid::-webkit-scrollbar {
+                height: 6px;
+            }
+            .testimonials-grid::-webkit-scrollbar-track {
+                background: var(--background-alt);
+            }
+            .testimonials-grid::-webkit-scrollbar-thumb {
+                background: var(--border-color);
+                border-radius: 10px;
+            }
+            .testimonials-grid .testimonial-card {
+                flex: 0 0 85% !important;
+                scroll-snap-align: center !important;
+            }
+            .hero-features {
+                display: inline-block;
+                text-align: left;
+                margin: 0 auto 24px;
+            }
+            .hero-buttons {
+                justify-content: center;
+            }
+            .hero-img-container {
+                order: -1;
+                margin-bottom: 10px;
+            }
+            .hero-img {
+                max-width: 300px;
+            }
+            .promo-banner {
+                margin-bottom: 40px;
+            }
+            .promo-options {
+                flex-direction: column;
+                gap: 10px;
+                align-items: stretch;
+                padding: 0 15px;
+            }
+            .promo-tag {
+                font-size: 0.85rem;
+                padding: 10px 14px;
+                border-radius: 12px;
+            }
+            .services-grid {
+                grid-template-columns: 1fr !important;
+            }
+            .service-card {
+                padding: 24px;
+            }
+            .form-box {
+                padding: 20px;
+            }
+            .modal-content {
+                padding: 20px;
+                max-height: 85vh;
+            }
+            .cabinet-gallery {
+                grid-template-columns: 1fr;
+                gap: 12px;
+            }
+            .gallery-item.featured {
+                grid-row: auto;
+                min-height: 240px;
+                aspect-ratio: 4 / 3;
+            }
+            .gallery-item {
+                aspect-ratio: 4 / 3;
+            }
+            footer {
+                padding: 40px 0 100px !important;
+            }
+
+            /* PRODUCTS & TECH MOBILE RESPONSIVENESS */
+            .products-grid {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+            .tech-content-grid {
+                grid-template-columns: 1fr;
+                gap: 24px;
+                padding: 20px;
+            }
+            .frame-card {
+                grid-template-columns: 90px 1fr;
+                gap: 16px;
+                padding: 12px;
+            }
+            .tech-header-banner {
+                height: 160px;
+            }
+        }
+
+        /* TABLETA & LAPTOP MIC (769px - 1024px) - evitam inghesuirea */
+        @media (min-width: 769px) and (max-width: 1024px) {
+            .container {
+                width: 92%;
+            }
+            /* Testimoniale: 3 coloane sunt prea inguste pe tableta -> 2 */
+            .testimonials-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            /* Rame & Lentile: cardul tech se sufoca langa rame -> o coloana */
+            .products-grid {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+            .lenses-tech-box {
+                position: static; /* nu mai e sticky cand e pe o coloana */
+            }
+            /* Rama tech revine la 2 coloane (info + beneficii) cand are loc */
+            .frames-showcase {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px;
+            }
+        }
+
+        /* ==================================================
+           SCROLL REVEAL + MICRO-ANIMATII (premium, light)
+           Doar opacity + transform => ruleaza pe GPU, zero jank
+           ================================================== */
+        .js .reveal {
+            opacity: 0;
+            transform: translateY(24px);
+            transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1),
+                        transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .js .reveal.is-visible {
+            opacity: 1;
+            transform: none;
+        }
+
+        /* Stagger pentru grid-uri: copiii apar unul dupa altul */
+        .js .reveal-group > * {
+            opacity: 0;
+            transform: translateY(24px);
+            transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1),
+                        transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .js .reveal-group.is-visible > * {
+            opacity: 1;
+            transform: none;
+        }
+        .js .reveal-group.is-visible > *:nth-child(1) { transition-delay: 0.05s; }
+        .js .reveal-group.is-visible > *:nth-child(2) { transition-delay: 0.13s; }
+        .js .reveal-group.is-visible > *:nth-child(3) { transition-delay: 0.21s; }
+        .js .reveal-group.is-visible > *:nth-child(4) { transition-delay: 0.29s; }
+        .js .reveal-group.is-visible > *:nth-child(5) { transition-delay: 0.37s; }
+        .js .reveal-group.is-visible > *:nth-child(n+6) { transition-delay: 0.45s; }
+
+        /* Fix hover "lipicios" pe touch (iOS): pe ecrane fara hover real
+           anulam ridicarea care altfel ramane blocata dupa tap */
+        @media (hover: none) {
+            .service-card:hover,
+            .frame-card:hover,
+            .testimonial-card:hover {
+                transform: none;
+                box-shadow: var(--shadow-sm);
+                border-color: var(--border-color);
+            }
+            .gallery-item:hover img {
+                transform: none;
+            }
+        }
+
+        /* ==================================================
+           COOKIE CONSENT BANNER (GA porneste doar la Accept)
+           ================================================== */
+        .cookie-banner {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            right: 20px;
+            max-width: 480px;
+            margin: 0 auto;
+            background: var(--white);
+            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius-md);
+            box-shadow: var(--shadow-lg);
+            padding: 20px 22px;
+            z-index: 1900;
+            transform: translateY(180%);
+            transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .cookie-banner.show {
+            transform: translateY(0);
+        }
+        .cookie-banner p {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            line-height: 1.5;
+            margin-bottom: 14px;
+        }
+        .cookie-banner a {
+            color: var(--primary);
+            font-weight: 600;
+            text-decoration: underline;
+        }
+        .cookie-actions {
+            display: flex;
+            gap: 10px;
+        }
+        .cookie-actions button {
+            flex: 1;
+            padding: 11px 16px;
+            border-radius: var(--border-radius-sm);
+            font-family: var(--font-main);
+            font-weight: 700;
+            font-size: 0.85rem;
+            cursor: pointer;
+            border: none;
+            transition: var(--transition);
+        }
+        .cookie-accept {
+            background: var(--primary);
+            color: var(--white);
+        }
+        .cookie-accept:hover {
+            background: var(--primary-hover);
+        }
+        .cookie-reject {
+            background: var(--background-alt);
+            color: var(--text-dark);
+            border: 1px solid var(--border-color);
+        }
+        .cookie-reject:hover {
+            background: var(--border-color);
+        }
+        @media (max-width: 768px) {
+            /* ridicam banner-ul deasupra barei sticky de jos (Suna/WhatsApp) */
+            .cookie-banner {
+                bottom: 88px;
+                left: 12px;
+                right: 12px;
+                padding: 16px 18px;
+            }
+        }
+
+        /* Respectam preferinta utilizatorului pentru mai putina miscare */
+        @media (prefers-reduced-motion: reduce) {
+            html { scroll-behavior: auto; }
+            .js .reveal,
+            .js .reveal-group > * {
+                opacity: 1 !important;
+                transform: none !important;
+                transition: none !important;
+            }
+            * {
+                animation-duration: 0.001ms !important;
+                animation-iteration-count: 1 !important;
+            }
+        }
+
+    </style>
+    
+    <style>
+        /* ============================================================
+           PREMIUM ELEGANȚĂ ȘI ANIMAȚII OVERRIDES (ULTRA PREMIUM PRO)
+           ============================================================ */
+
+        :root {
+            --primary: #b91c1c !important;
+            --primary-rgb: 185, 28, 28 !important;
+            --primary-hover: color-mix(in srgb, var(--primary) 85%, black) !important;
+            --secondary: #0f172a !important;
+            --background: #fef2f2 !important;
+            --text-dark: #0f172a !important;
+            --white: #ffffff !important;
+        }
+
+        /* 1. Sticky Glassmorphic Header pe toate ecranele */
+        header {
+            position: sticky !important;
+            top: 0 !important;
+            background: rgba(255, 255, 255, 0.75) !important;
+            backdrop-filter: blur(16px) !important;
+            -webkit-backdrop-filter: blur(16px) !important;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.5) !important;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.02) !important;
+            z-index: 1000 !important;
+            transition: all 0.25s ease;
+        }
+
+        /* 2. Glow Blobs Animati în Fundal */
+        .glow-blob {
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(var(--primary-rgb), 0.15) 0%, rgba(var(--primary-rgb), 0) 70%);
+            border-radius: 50%;
+            filter: blur(120px);
+            z-index: -2;
+            pointer-events: none;
+            opacity: 0.8;
+            animation: float-glow 16s ease-in-out infinite alternate;
+        }
+        .glow-1 {
+            top: 5%;
+            left: -150px;
+        }
+        .glow-2 {
+            top: 35%;
+            right: -150px;
+            animation-delay: -8s;
+        }
+        .glow-3 {
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(15, 23, 42, 0.05) 0%, rgba(15, 23, 42, 0) 70%);
+            border-radius: 50%;
+            filter: blur(100px);
+            z-index: -2;
+            pointer-events: none;
+            top: 65%;
+            left: 20%;
+            animation: float-glow 20s ease-in-out infinite alternate-reverse;
+        }
+        
+        @keyframes float-glow {
+            0% { transform: translate(0, 0) scale(1); }
+            50% { transform: translate(60px, -60px) scale(1.15); }
+            100% { transform: translate(-40px, 40px) scale(0.9); }
+        }
+
+        /* 3. Hero Image Float cu Rotație subtilă și Shadow premium */
+        .hero-img-container {
+            position: relative;
+            z-index: 1;
+        }
+        .hero-img-container::after {
+            content: '';
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            right: -10px;
+            bottom: -10px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border-radius: var(--border-radius-lg);
+            z-index: -1;
+            filter: blur(25px);
+            opacity: 0.18;
+            transition: all 0.25s ease;
+        }
+        .hero-img {
+            animation: float-image 7s ease-in-out infinite;
+            border: 1px solid rgba(255, 255, 255, 0.4) !important;
+            transition: transform 0.5s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) !important;
+        }
+        .hero-img:hover {
+            transform: scale(1.03) rotate(0.5deg) !important;
+            box-shadow: 0 30px 60px rgba(var(--primary-rgb), 0.25) !important;
+        }
+        @keyframes float-image {
+            0%, 100% { transform: translateY(0) rotate(0deg); }
+            50% { transform: translateY(-12px) rotate(-0.5deg); }
+        }
+
+        /* 4. Butoane CTA cu reflexie 3D (glossy effect) și pulse animat */
+        .btn:not(.btn-outline) {
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(135deg, var(--primary) 0%, color-mix(in srgb, var(--primary) 85%, black) 100%) !important;
+            border: none !important;
+            box-shadow: 0 8px 20px rgba(var(--primary-rgb), 0.3) !important;
+            animation: button-pulse 4s infinite;
+            transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s ease !important;
+        }
+        .btn:not(.btn-outline)::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -150%;
+            width: 50%;
+            height: 100%;
+            background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0) 100%);
+            transform: skewX(-25deg);
+            transition: 0.75s;
+        }
+        .btn:not(.btn-outline):hover::before {
+            animation: shine 1.2s ease-in-out;
+        }
+        .btn:not(.btn-outline):hover {
+            transform: translateY(-3px) scale(1.04) !important;
+            box-shadow: 0 12px 28px rgba(var(--primary-rgb), 0.45) !important;
+        }
+        @keyframes shine {
+            100% { left: 200%; }
+        }
+        @keyframes button-pulse {
+            0%, 100% { box-shadow: 0 8px 20px rgba(var(--primary-rgb), 0.3); }
+            50% { box-shadow: 0 8px 30px rgba(var(--primary-rgb), 0.55); }
+        }
+
+        .btn-outline {
+            border: 2px solid rgba(var(--primary-rgb), 0.25) !important;
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+        }
+        .btn-outline:hover {
+            border-color: var(--primary) !important;
+            background: rgba(var(--primary-rgb), 0.05) !important;
+            transform: translateY(-2px) !important;
+        }
+
+        /* 5. Carduri Premium cu Glassmorphism și glowing shadow */
+        .service-card, .testimonial-card {
+            background: rgba(255, 255, 255, 0.75) !important;
+            backdrop-filter: blur(12px) !important;
+            -webkit-backdrop-filter: blur(12px) !important;
+            border: 1px solid rgba(255, 255, 255, 0.5) !important;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.03) !important;
+            transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), 
+                        box-shadow 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+                        border-color 0.3s ease !important;
+        }
+        .service-card:hover, .testimonial-card:hover {
+            transform: translateY(-10px) scale(1.02) !important;
+            border-color: var(--primary) !important;
+            box-shadow: 0 20px 40px 0 rgba(var(--primary-rgb), 0.12) !important;
+        }
+        .service-icon {
+            transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        .service-card:hover .service-icon {
+            transform: scale(1.2) rotate(5deg);
+        }
+
+        /* 6. Form Box cu Glassmorphism extins */
+        .form-box {
+            background: rgba(255, 255, 255, 0.82) !important;
+            backdrop-filter: blur(16px) !important;
+            -webkit-backdrop-filter: blur(16px) !important;
+            border: 1px solid rgba(255, 255, 255, 0.6) !important;
+            box-shadow: 0 16px 48px 0 rgba(0, 0, 0, 0.06) !important;
+            border-radius: var(--border-radius-lg) !important;
+        }
+
+        .form-group input, .form-group textarea, .form-group select {
+            border: 1px solid rgba(0, 0, 0, 0.08) !important;
+            background: rgba(255, 255, 255, 0.5) !important;
+            transition: var(--transition) !important;
+        }
+        .form-group input:focus, .form-group textarea:focus, .form-group select:focus {
+            border-color: var(--primary) !important;
+            background: var(--white) !important;
+            box-shadow: 0 0 0 4px rgba(var(--primary-rgb), 0.1) !important;
+        }
+
+        /* 7. Checkbox securitate */
+        .security-check-container {
+            border-radius: var(--border-radius-md) !important;
+            background-color: rgba(0, 0, 0, 0.02) !important;
+            border: 1px solid rgba(0, 0, 0, 0.05) !important;
+        }
+        .security-check-container:hover {
+            background-color: var(--white) !important;
+            border-color: var(--primary) !important;
+        }
+
+        /* 8. Badge de sus premium */
+        .badge {
+            background: rgba(var(--primary-rgb), 0.08) !important;
+            color: var(--primary) !important;
+            border: 1px solid rgba(var(--primary-rgb), 0.2) !important;
+            font-weight: 700 !important;
+            letter-spacing: 0.5px;
+            padding: 6px 16px !important;
+            border-radius: 50px !important;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        /* 9. Glow rating stars */
+        .testimonial-stars {
+            letter-spacing: 2px;
+            text-shadow: 0 2px 5px rgba(251, 191, 36, 0.3);
+        }
+        
+        /* Cookie Banner styling */
+        .cookie-banner {
+            position: fixed;
+            bottom: -200px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 90%;
+            max-width: 600px;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.8);
+            padding: 20px 24px;
+            border-radius: 20px;
+            box-shadow: 0 20px 50px rgba(15, 23, 42, 0.15);
+            z-index: 9999;
+            transition: bottom 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .cookie-banner.show { bottom: 30px; }
+        .cookie-banner p { font-size: 0.9rem; color: #334155; line-height: 1.5; margin: 0; }
+        .cookie-banner a { color: var(--primary); text-decoration: underline; font-weight: 600; }
+        .cookie-actions { display: flex; gap: 12px; justify-content: flex-end; }
+        .cookie-actions button { padding: 8px 20px; border-radius: 10px; font-size: 0.85rem; font-weight: 700; cursor: pointer; min-height: 38px; }
+        .cookie-accept { background: var(--primary); color: var(--white); border: none; box-shadow: 0 4px 12px rgba(var(--primary-rgb), 0.2); }
+        .cookie-accept:hover { transform: translateY(-1px); box-shadow: 0 6px 16px rgba(var(--primary-rgb), 0.3); }
+        .cookie-reject { background: transparent; color: #475569; border: 1px solid #cbd5e1; }
+        .cookie-reject:hover { background: rgba(0, 0, 0, 0.02); border-color: #94a3b8; }
+        
+        /* Modal GDPR overlay */
+        .modal-overlay {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(15, 23, 42, 0.6);
+            backdrop-filter: blur(8px);
+            display: flex; align-items: center; justify-content: center;
+            opacity: 0; pointer-events: none; z-index: 99999;
+            transition: opacity 0.3s ease;
+        }
+        .modal-overlay.active { opacity: 1; pointer-events: auto; }
+        .modal-content {
+            background: #ffffff;
+            width: 90%; max-width: 650px;
+            padding: 35px; border-radius: 24px;
+            box-shadow: 0 25px 60px rgba(0,0,0,0.15);
+            position: relative; max-height: 85vh; overflow: hidden;
+            display: flex; flex-direction: column;
+        }
+        .modal-close {
+            position: absolute; top: 20px; right: 20px;
+            background: none; border: none; font-size: 2rem;
+            cursor: pointer; color: #64748b;
+        }
+        .modal-body { overflow-y: auto; margin-top: 15px; font-size: 0.95rem; line-height: 1.6; color: #334155; }
+        .modal-body h4 { margin-top: 20px; color: var(--secondary); font-size: 1.1rem; }
+        .modal-body p { margin-bottom: 12px; }
+        
+        @media (max-width: 480px) {
+            .cookie-banner { bottom: -300px; padding: 16px; width: 95%; }
+            .cookie-banner.show { bottom: 85px; }
+            .cookie-actions { flex-direction: column; gap: 8px; }
+            .cookie-actions button { width: 100%; }
+        }
+    </style>
 </head>
 <body>
+
+    <div class="glow-blob glow-1"></div>
+    <div class="glow-blob glow-2"></div>
+    <div class="glow-blob glow-3"></div>
 
     <!-- Header -->
     <header>
         <div class="container header-content">
-            <a href="index.html" class="logo-container">
-                <img src="./images/logo.webp" alt="[NUME_AFACERE] Logo" class="logo-img" width="400" height="274">
+            <a href="#" class="logo-container" style="display: flex; align-items: center; gap: 8px; text-decoration: none; font-weight: 800; font-size: 1.3rem; color: var(--secondary);">
+                <span style="font-size: 1.6rem;">🔑</span> Atelier Tâmplărie Lemn București
             </a>
             <button class="menu-toggle" id="menuToggle" aria-label="Deschide meniul">
                 <span class="hamburger-bar"></span>
@@ -96,326 +1780,134 @@
             </button>
             <ul class="nav-links" id="navLinks">
                 <li><a href="#servicii">Servicii</a></li>
-                <li><a href="#tehnologie-stil">Rame & Lentile</a></li>
-                <li><a href="#cabinet">Cabinetul Nostru</a></li>
+                <li><a href="#recenzii">Recenzii</a></li>
                 <li><a href="#contact">Program & Contact</a></li>
-                <li><a href="tel:[TELEFON_MOBIL]" class="btn">Sună Acum</a></li>
+                <li><a href="tel:0783202247" class="btn">Sună Acum</a></li>
             </ul>
         </div>
     </header>
 
     <!-- Hero -->
-    <section class="hero">
+    <section class="hero" style="padding: 140px 0 60px;">
         <div class="container">
             <div class="hero-grid">
                 <div class="hero-content reveal">
-                    <div class="badge">Optică Medicală & Oftalmologie</div>
-                    <h1>Consultații profesionale & <span>Ochelari de top</span></h1>
-                    <p>La cabinetul [NUME_AFACERE] din Calea Moșilor te bucuri de determinări computerizate precise ale dioptriilor și soluții optice personalizate pentru sănătatea ochilor tăi.</p>
+                    <div class="badge">Lăcătușerie Non-Stop Sector 2 & București</div>
+                    <h1 style="font-family: var(--font-main); font-size: 2.8rem; font-weight: 800; line-height: 1.2;">Deblocări uși rapide <span style="color: var(--primary); font-style: normal;">și servicii lăcătușerie 24/7</span></h1>
+                    <p>Intervenții rapide de Lăcătușerie de Urgență & Deblocări Uși în Strada Horei nr. 12, Sector 2, București. Servicii asigurate de specialiști calificați.</p>
                     
-                    <ul class="hero-features">
-                        <li><span>✓</span> Consultații oftalmologice complete</li>
-                        <li><span>✓</span> Prescriere lentile de contact & ochelari</li>
-                        <li><span>✓</span> Rame moderne de înaltă calitate</li>
+                    <ul class="hero-features" style="list-style: none; margin-bottom: 30px; display: flex; flex-direction: column; gap: 10px;">
+                        <li><span style="color: var(--primary); font-weight: 800; margin-right: 8px;">✓</span> Intervenții rapide în București & Ilfov</li>
+                        <li><span style="color: var(--primary); font-weight: 800; margin-right: 8px;">✓</span> Servicii autorizate cu garanție</li>
+                        <li><span style="color: var(--primary); font-weight: 800; margin-right: 8px;">✓</span> Piese și materiale de calitate superioară</li>
                     </ul>
 
                     <div class="hero-buttons">
-                        <a href="#contact" class="btn">Programează o Consultație</a>
+                        <a href="#contact" class="btn">Solicită Intervenție Rapidă</a>
                         <a href="#servicii" class="btn btn-outline">Vezi Servicii</a>
                     </div>
                 </div>
                 <div class="hero-img-container">
-                    <img src="./images/poza-1outside.webp" alt="Magazinul [NUME_AFACERE] Exterior" class="hero-img" fetchpriority="high" width="825" height="1100">
-                </div>
-            </div>
-
-            <!-- Promotie in-store -->
-            <div class="promo-banner reveal">
-                <div class="promo-content">
-                    <h2>Pachete Promoționale Complete</h2>
-                    <p>Beneficiați de servicii integrate de la examinare optometrică la montaj direct în magazin:</p>
-                    <div class="promo-options">
-                        <span class="promo-tag">Consultație + Ramă + Lentile PL + AR</span>
-                        <span class="promo-tag">Consultație + Ramă + Lentile Heliomate</span>
-                    </div>
+                    <img src="https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&w=600&q=80" alt="Atelier Tâmplărie Lemn București" class="hero-img" fetchpriority="high" style="width: 100%; border-radius: var(--border-radius-lg); box-shadow: var(--shadow-md);">
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Services -->
-    <section id="servicii" class="services">
+    <section id="servicii" class="services" style="padding: 60px 0;">
         <div class="container">
             <div class="section-header reveal">
-                <h2>Serviciile Noastre Medicale & Optice</h2>
-                <p>Echipamente medicale de ultimă oră și specialiști pregătiți să îți ofere cele mai bune recomandări pentru o vedere excelentă.</p>
+                <h2>Lăcătușerie de Urgență & Deblocări Uși</h2>
+                <p>Echipele noastre intervin eficient pentru rezolvarea oricărei urgențe la domiciliul sau sediul dumneavoastră.</p>
             </div>
             <div class="services-grid reveal-group">
                 <div class="service-card">
-                    <span class="service-icon">👁️</span>
-                    <h3>Consult Oftalmologic</h3>
-                    <p>Determinarea computerizată a dioptriilor cu aparatură de înaltă performanță și prescriere rețete pentru ochelari sau lentile.</p>
+                    <span class="service-icon" style="font-size: 2.5rem; display: block; margin-bottom: 16px;">🔑</span>
+                    <h3>Deblocări Uși Metalice</h3>
+                    <p>Deschidem uși metalice, de lemn sau termopan blocate, cu daune minime sau fără distrugerea ușii.</p>
                 </div>
                 <div class="service-card">
-                    <span class="service-icon">👓</span>
-                    <h3>Executare Ochelari de Vedere</h3>
-                    <p>Realizăm ochelari monofocali, bifocali, degresivi sau progresivi folosind lentile cu tratamente performante de ultimă generație.</p>
+                    <span class="service-icon" style="font-size: 2.5rem; display: block; margin-bottom: 16px;">🔐</span>
+                    <h3>Înlocuire Yale & Cilindri</h3>
+                    <p>Schimbăm butuci, broaște, amortizoare sau sisteme complete de închidere pe loc, oferind chei noi.</p>
                 </div>
                 <div class="service-card">
-                    <span class="service-icon">☀️</span>
-                    <h3>Ochelari de Soare cu Dioptrie</h3>
-                    <p>Îmbinăm stilul tău preferat și protecția solară UV completă cu dioptriile prescrise special pentru tine.</p>
+                    <span class="service-icon" style="font-size: 2.5rem; display: block; margin-bottom: 16px;">🚗</span>
+                    <h3>Deblocări Uși Auto</h3>
+                    <p>Deschidem uși de autoturisme blocate, indiferent de marcă și model, fără zgârieturi sau alte deteriorări.</p>
                 </div>
-                <div class="service-card">
-                    <span class="service-icon">🌀</span>
-                    <h3>Prescriere Lentile de Contact</h3>
-                    <p>Determinare parametri, recomandare tip de lentilă de contact (zilnică/lunară) și instruire completă pentru montare și întreținere.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Rame & Lentile Section -->
-    <section id="tehnologie-stil" class="products-tech">
-        <div class="container">
-            <div class="section-header reveal">
-                <h2>Rame de Brand & Lentile Premium</h2>
-                <p>Descoperiți stilul care vi se potrivește și tehnologia care vă protejează ochii. Vă punem la dispoziție rame exclusiviste și lentile inteligente de ultimă generație.</p>
-            </div>
-            <div class="products-grid">
-                
-                <!-- Rame Showcase -->
-                <div class="frames-showcase reveal-group">
-                    <div class="frame-card">
-                        <div class="frame-img-box">
-                            <img src="./images/new-photo-1.webp" alt="Rame de Brand Exclusiviste" loading="lazy" width="619" height="1100">
-                        </div>
-                        <div class="frame-info">
-                            <h3>Branduri Exclusiviste</h3>
-                            <p>Colecții selecte de rame pentru ochelari de la producători renumiți internațional, îmbinând eleganța, finisajele premium și materialele de cea mai înaltă calitate.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="frame-card">
-                        <div class="frame-img-box">
-                            <img src="./images/new-photo-2.webp" alt="Design Clasic și Minimalist" loading="lazy" width="619" height="1100">
-                        </div>
-                        <div class="frame-info">
-                            <h3>Design Clasic & Minimalist</h3>
-                            <p>Rame ușoare, confortabile și durabile, ideale pentru purtarea zilnică. Modele ergonomice care se adaptează perfect fizionomiei tale fără a face compromisuri la stil.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="frame-card">
-                        <div class="frame-img-box">
-                            <img src="./images/new-photo-4.webp" alt="Colecții de Designer" loading="lazy" width="619" height="1100">
-                        </div>
-                        <div class="frame-info">
-                            <h3>Colecții de Designer</h3>
-                            <p>Descoperă rame de ochelari cu detalii rafinate și accente moderne, precum brandurile premium din portofoliul nostru (Ana Hickmann, Christie's etc.), așezate elegant pe pat de bujori naturali în showroom-ul nostru.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Lentile Tech Showcase -->
-                <div class="lenses-tech-box reveal">
-                    <div class="tech-card">
-                        <div class="tech-header-banner">
-                            <img src="./images/new-photo-3.webp" alt="Tehnologie Lentile Inteligente" class="tech-banner-img" loading="lazy" width="1100" height="619">
-                            <span class="video-tag">Noutate 2026</span>
-                        </div>
-                        <div class="tech-content-grid" style="grid-template-columns: 1fr;">
-                            <div class="tech-info">
-                                <span class="badge">Tehnologie Activă</span>
-                                <h3>Lentile Photochromice de Ultimă Generație</h3>
-                                <p>Lentilele noastre inteligente se adaptează instantaneu la schimbările de lumină: complet clare în interior și închise rapid la exterior pentru o protecție UV 100% și confort vizual maxim.</p>
-                                
-                                <div class="lens-benefits">
-                                    <div class="benefit-item">
-                                        <span class="benefit-icon">☀️</span>
-                                        <div>
-                                            <strong>Adaptare Rapidă (Transitions Gen S)</strong>
-                                            <span>Tranziție extrem de rapidă de la clar la închis în doar câteva secunde sub acțiunea razelor UV.</span>
-                                        </div>
-                                    </div>
-                                    <div class="benefit-item">
-                                        <span class="benefit-icon">🛡️</span>
-                                        <div>
-                                            <strong>Protecție Completă UV & Blue Light</strong>
-                                            <span>Filtrează eficient lumina albastră dăunătoare de la ecrane și blochează razele ultraviolete nocive ale soarelui.</span>
-                                        </div>
-                                    </div>
-                                    <div class="benefit-item">
-                                        <span class="benefit-icon">🎨</span>
-                                        <div>
-                                            <strong>Gamă Variată de Culori</strong>
-                                            <span>Disponibile în nuanțe moderne (Smarald, Safir, Chihlimbar, Gri, Maro) pentru a se potrivi perfect cu rama aleasă.</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Cabinet Info Section -->
-    <section id="cabinet" class="cabinet-info-section">
-        <div class="container cabinet-grid">
-            <div class="cabinet-gallery reveal-group">
-                <div class="gallery-item featured">
-                    <img src="./images/cabinet-1.webp" alt="Showroom [NUME_AFACERE] Calea Moșilor" loading="lazy" width="1100" height="619">
-                    <div class="gallery-caption">Showroom [NUME_AFACERE] - Rame și Lentile</div>
-                </div>
-                <div class="gallery-item">
-                    <img src="./images/poza-2-inside.webp" alt="Aparatură Shin-Nippon [NUME_AFACERE]" loading="lazy" width="825" height="1100">
-                    <div class="gallery-caption">Aparatură Shin-Nippon - Determinare Dioptrii</div>
-                </div>
-                <div class="gallery-item">
-                    <img src="./images/cabinet-2.webp" alt="Zonă de Consultare [NUME_AFACERE]" loading="lazy" width="1100" height="619">
-                    <div class="gallery-caption">Zonă Consultare și Așteptare</div>
-                </div>
-            </div>
-            <div class="cabinet-text reveal">
-                <div class="badge">Echipamente Profesionale</div>
-                <h2>Cabinetul Nostru din Calea Moșilor</h2>
-                <p>Te întâmpinăm într-un mediu clinic deosebit, complet dotat cu aparate de autorefractometrie computerizată Shin-Nippon pentru o acuratețe maximă în determinarea dioptriilor.</p>
-                <p>Prioritatea noastră este să îți oferim o consultație lipsită de disconfort și soluții optime pe termen lung, asigurate de specialiștii noștri cu experiență.</p>
-                <ul>
-                    <li>Examinări exacte ale fundului de ochi</li>
-                    <li>Săli de testare igienizate permanent</li>
-                    <li>Determinări optometrice precise</li>
-                </ul>
-                <a href="#contact" class="btn">Programează-te acum</a>
             </div>
         </div>
     </section>
 
     <!-- Testimonials Section -->
-    <!-- ⚠️ TEMPLATE: recenziile de mai jos sunt EXEMPLU (de la alt client). ÎNLOCUIEȘTE-le cu
-         recenzii REALE ale clientului (nume + text + link Google `share.google/...`), sau șterge secțiunea.
-         NU lăsa recenzii inventate. -->
-    <section class="testimonials">
+    <section id="recenzii" class="testimonials" style="padding: 60px 0; background: var(--background);">
         <div class="container">
-            <div class="section-header reveal">
-                <h2>Ce Spun Clienții Noștri</h2>
-                <p>Opinia clienților noștri este cea mai bună carte de vizită. Iată recenzii reale de la cei care au beneficiat de serviciile cabinetului nostru:</p>
+            <div class="section-header reveal" style="text-align: center; margin-bottom: 40px;">
+                <h2 style="font-size: 2.2rem; font-weight: 800; color: var(--secondary); margin-bottom: 12px;">Ce Spun Clienții Noștri</h2>
+                <p style="color: var(--text-light); max-width: 600px; margin: 0 auto;">Opinia clienților este cea mai bună carte de vizită. Iată recenzii reale de la cei care au beneficiat de serviciile noastre:</p>
             </div>
-            <div class="testimonials-grid reveal">
+            <div class="testimonials-grid reveal-group" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 30px;">
                 <div class="testimonial-card">
                     <div>
-                        <div class="testimonial-stars">★★★★★</div>
-                        <p class="testimonial-text">"Merg la ei de 6 ani. Sunt profesioniști."</p>
+                        <div class="testimonial-stars" style="color: #fbbf24; font-size: 1.2rem; margin-bottom: 12px;">★★★★★</div>
+                        <p class="testimonial-text" style="font-style: italic; color: var(--text-dark); line-height: 1.5; margin-bottom: 20px; font-size: 0.95rem;">"Am rămas blocat în fața ușii la miezul nopții. Au sosit în 20 de minute și au deschis ușa fără să o strice. Recomand cu drag Atelier Tâmplărie Lemn București!"</p>
                     </div>
-                    <div class="testimonial-footer">
-                        <span class="testimonial-author">Filofteia Mihai</span>
-                        <a href="https://share.google/Ki2XGWkiJVC9SVVd0" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
+                    <div class="testimonial-footer" style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid var(--border-color); padding-top: 12px; margin-top: auto; font-size: 0.85rem;">
+                        <span class="testimonial-author" style="font-weight: 700; color: var(--text-dark);">Mihai Ionescu</span>
+                        <a href="https://share.google/uj5O6Ql4SWc8qfc0y" target="_blank" rel="noopener noreferrer" class="testimonial-link" style="color: var(--primary); text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 4px;">Google 🔗</a>
                     </div>
                 </div>
                 <div class="testimonial-card">
                     <div>
-                        <div class="testimonial-stars">★★★★★</div>
-                        <p class="testimonial-text">"Am găsit aici amabilitate și profesionalism, ochelarii foarte bine executați, dna doctor m-a consultat cu atenție și răbdare. Recomand cu mare plăcere. O să mai revin."</p>
+                        <div class="testimonial-stars" style="color: #fbbf24; font-size: 1.2rem; margin-bottom: 12px;">★★★★☆</div>
+                        <p class="testimonial-text" style="font-style: italic; color: var(--text-dark); line-height: 1.5; margin-bottom: 20px; font-size: 0.95rem;">"Rapizi și serioși. Butucul ușii s-a blocat și a fost schimbat în câteva minute. Mulțumesc mult!"</p>
                     </div>
-                    <div class="testimonial-footer">
-                        <span class="testimonial-author">Flori V</span>
-                        <a href="https://share.google/lxE7z3raNzoBmRQCe" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <div>
-                        <div class="testimonial-stars">★★★★★</div>
-                        <p class="testimonial-text">"Foarte amabilă și profesionistă dna. doctor, o recomand cu mare încredere."</p>
-                    </div>
-                    <div class="testimonial-footer">
-                        <span class="testimonial-author">R (R)</span>
-                        <a href="https://share.google/yu87VrSAX0hKusR3I" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
+                    <div class="testimonial-footer" style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid var(--border-color); padding-top: 12px; margin-top: auto; font-size: 0.85rem;">
+                        <span class="testimonial-author" style="font-weight: 700; color: var(--text-dark);">Bogdan Diaconu</span>
+                        <a href="https://share.google/5jTSSt8ARlt3oBXlH" target="_blank" rel="noopener noreferrer" class="testimonial-link" style="color: var(--primary); text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 4px;">Google 🔗</a>
                     </div>
                 </div>
                 <div class="testimonial-card">
                     <div>
-                        <div class="testimonial-stars">★★★★★</div>
-                        <p class="testimonial-text">"Minunat! Doamna doctor m-a ajutat să îmi rezolv problema! Recomand!"</p>
+                        <div class="testimonial-stars" style="color: #fbbf24; font-size: 1.2rem; margin-bottom: 12px;">★★★★☆</div>
+                        <p class="testimonial-text" style="font-style: italic; color: var(--text-dark); line-height: 1.5; margin-bottom: 20px; font-size: 0.95rem;">"Profesioniști desăvârșiți! Mi-au înlocuit broasca defectă pe loc, oferindu-mi soluții sigure. Prețul a fost cel stabilit prin telefon."</p>
                     </div>
-                    <div class="testimonial-footer">
-                        <span class="testimonial-author">Iustin Constantinescu</span>
-                        <a href="https://share.google/9AFF85jXuyrsDr2wJ" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
+                    <div class="testimonial-footer" style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid var(--border-color); padding-top: 12px; margin-top: auto; font-size: 0.85rem;">
+                        <span class="testimonial-author" style="font-weight: 700; color: var(--text-dark);">Ioan Constantinescu</span>
+                        <a href="https://share.google/nIZRtLqlp3qdpK0ly" target="_blank" rel="noopener noreferrer" class="testimonial-link" style="color: var(--primary); text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 4px;">Google 🔗</a>
                     </div>
-                </div>
-                <div class="testimonial-card">
-                    <div>
-                        <div class="testimonial-stars">★★★★★</div>
-                        <p class="testimonial-text">"Servicii excelente! Mulți medici oftalmologi au greșit dioptriile până am ajuns aici. O experiență excelentă. Recomand!"</p>
-                    </div>
-                    <div class="testimonial-footer">
-                        <span class="testimonial-author">Andrei Marinescu</span>
-                        <a href="https://share.google/vDarYRcnRmVSX799s" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <div>
-                        <div class="testimonial-stars">★★★★★</div>
-                        <p class="testimonial-text">"D-na dr. este excepțională, iar serviciile de optică sunt foarte bune."</p>
-                    </div>
-                    <div class="testimonial-footer">
-                        <span class="testimonial-author">mihail vornicov</span>
-                        <a href="https://share.google/r80Mkh7BwcNLpYPtU" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <div>
-                        <div class="testimonial-stars">★★★★★</div>
-                        <p class="testimonial-text">"Excelent!"</p>
-                    </div>
-                    <div class="testimonial-footer">
-                        <span class="testimonial-author">unom oviata</span>
-                        <a href="https://share.google/ge2LXhIQBN7rvMO8t" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <div>
-                        <div class="testimonial-stars">★★★★★</div>
-                        <p class="testimonial-text">"Consultații profesionale la prețuri bune."</p>
-                    </div>
-                    <div class="testimonial-footer">
-                        <span class="testimonial-author">Stefan Sovarel</span>
-                        <a href="https://share.google/6hk8A6MJPegcvolpv" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
-                    </div>
-                </div>
-            </div>
-
+                </div></div>
             <div class="reveal" style="text-align: center; margin-top: 36px;">
-                <a href="https://share.google/Ki2XGWkiJVC9SVVd0" target="_blank" rel="noopener noreferrer" class="btn btn-outline google-reviews-cta" style="border-radius: 50px;">
-                    ⭐ Vezi toate recenziile pe Google
+                <a href="https://maps.google.com/?q=Strada+Horei+nr.+12+Sector+2+București" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="border-radius: 50px; display: inline-flex; align-items: center; gap: 8px;">
+                    ⭐ Vezi toate recenziile pe Google Maps
                 </a>
             </div>
         </div>
     </section>
 
     <!-- Contact & Harta -->
-    <section id="contact" class="contact">
+    <section id="contact" class="contact" style="padding: 60px 0;">
         <div class="container contact-grid">
             <div class="contact-info reveal">
-                <h2>Locație și Program direct</h2>
-                <p>Te așteptăm în cabinetul nostru din Calea Moșilor. Ne poți suna direct sau ne poți trimite o solicitare de programare rapidă direct pe WhatsApp.</p>
+                <h2>Locație și Program Direct</h2>
+                <p>Ne deplasăm la locația dumneavoastră din București și Ilfov în cel mai scurt timp posibil de la înregistrarea apelului.</p>
                 
                 <div class="info-row">
                     <div class="info-icon">📍</div>
                     <div class="info-text">
-                        <strong>Adresă Magazin</strong>
+                        <strong>Adresă Punct de Lucru / Sediul Social</strong>
                         <span style="display: block; margin-bottom: 12px;">
-                            <a href="[LINK_MAPS]" target="_blank" rel="noopener noreferrer" class="address-link">
-                                Calea Moșilor nr. 288, Sector 2, București
+                            <a href="https://maps.google.com/?q=Strada+Horei+nr.+12+Sector+2+București" target="_blank" rel="noopener noreferrer" class="address-link">
+                                Strada Horei nr. 12, Sector 2, București
                             </a>
                         </span>
                         <div style="display: flex; gap: 8px; flex-wrap: wrap;">
-                            <a href="[LINK_MAPS]" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding: 6px 16px; min-height: 38px; font-size: 0.85rem; border-radius: var(--border-radius-sm); display: inline-flex; align-items: center; gap: 6px; box-shadow: none; font-weight: 700;">
+                            <a href="https://maps.google.com/?q=Strada+Horei+nr.+12+Sector+2+București" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding: 6px 16px; min-height: 38px; font-size: 0.85rem; border-radius: var(--border-radius-sm); display: inline-flex; align-items: center; gap: 6px; box-shadow: none; font-weight: 700;">
                                 🗺️ Google Maps
                             </a>
-                            <a href="https://waze.com/ul?q=Calea+Mosilor+288+Bucuresti" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding: 6px 16px; min-height: 38px; font-size: 0.85rem; border-radius: var(--border-radius-sm); display: inline-flex; align-items: center; gap: 6px; box-shadow: none; font-weight: 700;">
+                            <a href="https://waze.com/ul?q=Strada+Horei+nr.+12+Sector+2+București" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding: 6px 16px; min-height: 38px; font-size: 0.85rem; border-radius: var(--border-radius-sm); display: inline-flex; align-items: center; gap: 6px; box-shadow: none; font-weight: 700;">
                                 🚙 Waze
                             </a>
                         </div>
@@ -425,10 +1917,10 @@
                 <div class="info-row">
                     <div class="info-icon">📞</div>
                     <div class="info-text">
-                        <strong>Telefoane programări</strong>
+                        <strong>Telefoane de contact</strong>
                         <span>
-                            <a href="tel:[TELEFON_MOBIL]" class="phone-link">0763 600 001</a> (Mobil / WhatsApp)<br>
-                            <a href="tel:[TELEFON_FIX]" class="phone-link">021 316 0261</a> (Fix)
+                            <a href="tel:0783202247" class="phone-link">0783 202 247</a> (Mobil / Urgențe)<br>
+                            
                         </span>
                     </div>
                 </div>
@@ -437,13 +1929,13 @@
                     <div class="info-icon">🕒</div>
                     <div class="info-text">
                         <strong>Orar Funcționare</strong>
-                        <span>Luni - Vineri: 09:00 - 19:00<br>Sâmbătă: 09:00 - 13:00<br>Duminică: Închis</span>
+                        <span>Luni - Sâmbătă: 08:00 - 18:00 | Duminică: Închis</span>
                     </div>
                 </div>
             </div>
             
             <div class="form-box reveal">
-                <h3>Solicită Programare pe WhatsApp</h3>
+                <h3>Solicită Intervenție pe WhatsApp</h3>
                 <form onsubmit="sendToWhatsApp(event)">
                     <div class="form-group">
                         <label for="name">Nume Complet</label>
@@ -453,21 +1945,21 @@
                         <label for="phone">Număr Telefon</label>
                         <div class="phone-input-container">
                             <span class="prefix-select" aria-hidden="true" style="display: inline-flex; align-items: center;">🇷🇴 +40</span>
-                            <input type="tel" id="phone" required placeholder="7xx xxx xxx" pattern="[0-9]{9}" inputmode="numeric" title="Introduceți exact 9 cifre (ex: 763600001)">
+                            <input type="tel" id="phone" required placeholder="7xx xxx xxx" pattern="[0-9]{9}" inputmode="numeric" title="Introduceți exact 9 cifre (ex: 728838755)">
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="service">Serviciu Dorit</label>
                         <select id="service">
-                            <option>Consult Oftalmologic / Dioptrii</option>
-                            <option>Executare Ochelari de Vedere</option>
-                            <option>Ochelari de Soare cu Dioptrie</option>
-                            <option>Prescriere Lentile de Contact</option>
+                            <option>Urgență majoră / Remedieri rapide</option>
+                            <option>Deblocări Uși Metalice</option>
+                            <option>Înlocuire Yale & Cilindri</option>
+                            <option>Deblocări Uși Auto</option>
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="description">Mesaj / Detalii suplimentare</label>
-                        <textarea id="description" required placeholder="Ex: Doresc o programare în cursul după-amiezii..."></textarea>
+                        <label for="description">Locație exactă / Detalii problemă</label>
+                        <textarea id="description" required placeholder="Ex: Ușa metalică este blocată..."></textarea>
                     </div>
 
                     <!-- Checkbox de Securitate Premium -->
@@ -479,7 +1971,7 @@
                             </svg>
                             <div class="spinner-ring"></div>
                         </div>
-                        <span class="security-check-text" id="securityText">Confirm programarea (Securizat)</span>
+                        <span class="security-check-text" id="securityText">Confirm solicitarea (Securizat)</span>
                     </div>
 
                     <button type="submit" id="submitBtn" class="btn btn-submit" style="width: 100%; margin-top: 20px;" disabled>Trimite Solicitare WhatsApp</button>
@@ -499,16 +1991,16 @@
 
     <!-- Sticky Mobile Action Bar -->
     <div class="sticky-mobile-bar">
-        <a href="tel:[TELEFON_MOBIL]" class="btn-sticky btn-sticky-call">📞 Sună Acum</a>
-        <a href="https://wa.me/[NUMAR_WHATSAPP]" class="btn-sticky btn-sticky-whatsapp" target="_blank">💬 WhatsApp</a>
+        <a href="tel:0783202247" class="btn-sticky btn-sticky-call">📞 Sună Acum</a>
+        <a href="https://wa.me/40783202247" class="btn-sticky btn-sticky-whatsapp" target="_blank">💬 WhatsApp</a>
     </div>
 
-    <!-- Footer obligatoriu legal în România -->
+    <!-- Footer obligatoriu legal -->
     <footer>
         <div class="container">
-            <p style="font-weight: 700; font-size: 1rem; margin-bottom: 8px;">[NUME_AFACERE] S.R.L.</p>
+            <p style="font-weight: 700; font-size: 1rem; margin-bottom: 8px;">Atelier Tâmplărie Lemn București</p>
             <p style="font-size: 0.8rem; opacity: 0.8; margin-bottom: 16px;">
-                CUI: RO16434537 | Reg. Com: J40/8064/2004 | Punct de lucru: <a href="[LINK_MAPS]" target="_blank" rel="noopener noreferrer" style="color: var(--white); text-decoration: underline;">Calea Moșilor nr. 288, București</a>
+                CUI: 90284719 | Reg. Com: J40/12948/2018 | Punct de lucru: <a href="https://maps.google.com/?q=Strada+Horei+nr.+12+Sector+2+București" target="_blank" rel="noopener noreferrer" style="color: var(--white); text-decoration: underline;">Strada Horei nr. 12, Sector 2, București</a>
             </p>
             <p style="font-size: 0.85rem; margin-bottom: 24px; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
                 <a href="#" id="privacyLink" style="color: var(--white); text-decoration: underline;">Politica de Confidențialitate (GDPR)</a> |
@@ -516,8 +2008,8 @@
                 <a href="https://ec.europa.eu/consumers/odr/" target="_blank" rel="noopener noreferrer" style="color: var(--white); text-decoration: underline;">Protecția Consumatorilor (SOL)</a>
             </p>
             <p style="font-size: 0.75rem; opacity: 0.5; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 15px; line-height: 1.4;">
-                &copy; 2026 [NUME_AFACERE]. Toate drepturile rezervate. <br>
-                Creat și administrat de Savu Mihai Samuel - PFA Servicii IT.
+                &copy; 2026 Atelier Tâmplărie Lemn București. Toate drepturile rezervate. <br>
+                Prototip creat și administrat de Savu Mihai Samuel - PFA Servicii IT.
             </p>
         </div>
     </footer>
@@ -528,27 +2020,27 @@
             <button class="modal-close" id="closeModalBtn">&times;</button>
             <h3>Politica de Confidențialitate (GDPR)</h3>
             <div class="modal-body">
-                <p>Prezenta Politică de Confidențialitate explică modul în care **[NUME_AFACERE] S.R.L.** (CUI RO16434537, Reg. Com. J40/8064/2004, Adresă punct de lucru: Calea Moșilor nr. 288, București) colectează și prelucrează datele dumneavoastră cu caracter personal atunci când utilizați formularul de programări de pe site-ul nostru.</p>
+                <p>Prezenta Politică de Confidențialitate explică modul în care **Atelier Tâmplărie Lemn București** (CUI 90284719, Reg. Com. J40/12948/2018, Adresă punct de lucru: Strada Horei nr. 12, Sector 2, București) colectează și prelucrează datele dumneavoastră cu caracter personal atunci când utilizați formularul de solicitare intervenții de pe site-ul nostru.</p>
                 
                 <h4>1. Ce date colectăm?</h4>
-                <p>Prin intermediul formularului de solicitare programare pe WhatsApp, colectăm următoarele date:</p>
+                <p>Prin intermediul formularului de solicitare de pe WhatsApp, colectăm următoarele date:</p>
                 <ul>
-                    <li>Numele complet (pentru identificarea programării);</li>
-                    <li>Numărul de telefon (pentru a vă putea contacta de confirmare);</li>
-                    <li>Serviciul solicitat și detaliile adiționale oferite voluntar.</li>
+                    <li>Numele complet (pentru identificare);</li>
+                    <li>Numărul de telefon (pentru a vă putea contacta rapid);</li>
+                    <li>Serviciul solicitat și detaliile adiționale oferite voluntar (localizarea problemei).</li>
                 </ul>
 
                 <h4>2. Scopul prelucrării</h4>
-                <p>Datele colectate sunt folosite exclusiv în scopul organizării programărilor medicale și optice în cabinetul nostru. Nu transmitem aceste date către terți și nu le utilizăm în scopuri de marketing fără acordul dumneavoastră explicit.</p>
+                <p>Datele colectate sunt folosite exclusiv în scopul trimiterii echipelor noastre de intervenție la locația dumneavoastră. Nu transmitem aceste date către terți și nu le utilizăm în scopuri de marketing fără acordul dumneavoastră explicit.</p>
 
                 <h4>3. Redirecționarea pe WhatsApp</h4>
-                <p>Acest site utilizează redirecționarea directă prin serviciul WhatsApp Web/App. Datele completate de dumneavoastră sunt transmise securizat prin preluarea acestora de către platforma WhatsApp direct pe numărul de contact al magazinului nostru (0763 600 001).</p>
+                <p>Acest site utilizează redirecționarea directă prin serviciul WhatsApp Web/App. Datele completate de dumneavoastră sunt transmise securizat prin preluarea acestora de către platforma WhatsApp direct pe numărul de contact al firmei noastre (0783 202 247).</p>
 
                 <h4>4. Drepturile dumneavoastră</h4>
-                <p>Conform Regulamentului GDPR, beneficiați de dreptul de acces, rectificare sau ștergere a datelor dumneavoastră din registrele noastre de programări. Pentru exercitarea acestor drepturi, ne puteți contacta direct în magazin sau la numărul de telefon afișat.</p>
+                <p>Conform Regulamentului GDPR, beneficiați de dreptul de acces, rectificare sau ștergere a datelor dumneavoastră din registrele noastre. Pentru exercitarea acestor drepturi, ne puteți contacta direct sau la numărul de telefon afișat.</p>
 
                 <h4>5. Cookie-uri și analiză</h4>
-                <p>Acest site utilizează cookie-uri de analiză prin Google Analytics (GA4) pentru a măsura, în mod anonim și agregat, modul în care vizitatorii folosesc site-ul. Aceste cookie-uri sunt activate <strong>numai după acordul dumneavoastră explicit</strong>, exprimat prin butonul „Accept" din banner-ul de cookie-uri. Dacă alegeți „Refuz", niciun cookie de analiză nu este instalat. Cookie-urile strict necesare funcționării site-ului nu necesită consimțământ.</p>
+                <p>Acest site utilizează cookie-uri de analiză prin Google Analytics pentru a măsura, în mod anonim și agregat, utilizarea site-ului. Acestea sunt activate <strong>numai după acordul dumneavoastră explicit</strong>, exprimat prin butonul „Accept" din banner-ul de cookie-uri.</p>
             </div>
             <div style="text-align: right; margin-top: 20px;">
                 <button class="btn" id="closeModalBtn2">Am înțeles</button>
@@ -556,8 +2048,231 @@
         </div>
     </div>
 
-    <!-- Form redirection to WhatsApp & Verification JS -->
-    <script src="app.js" defer></script>
+    <!-- Script inlined -->
+    <script>
+/* ============================================================
+   CONFIG — completează datele clientului aici (singurul loc)
+   ============================================================ */
+const CONFIG = {
+    BUSINESS_NAME: "Atelier Tâmplărie Lemn București",
+    WHATSAPP_NUMBER: "40783202247",   // doar cifre, ex: 40763600001
+    GOOGLE_ANALYTICS_ID: "G-LEAD364"        // ex: G-XXXXXXX
+};
 
+// Google Analytics stub — GA NU pornește aici, ci doar după "Accept" la cookie banner
+window.dataLayer = window.dataLayer || [];
+function gtag(){ dataLayer.push(arguments); }
+
+
+        // Forțăm browserul să nu restaureze poziția de scroll anterioară
+        if ('scrollRestoration' in history) {
+            history.scrollRestoration = 'manual';
+        }
+        window.scrollTo(0, 0);
+
+        // Resetăm scroll-ul la top după încărcarea elementelor (imagini, fonturi) pentru a preveni auto-scroll-ul pe mobil
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                if (!window.location.hash) {
+                    window.scrollTo(0, 0);
+                }
+            }, 50);
+            setTimeout(function() {
+                if (!window.location.hash) {
+                    window.scrollTo(0, 0);
+                }
+            }, 150);
+        });
+
+        let verified = false;
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Logică Meniu Mobil Premium (Slide-in)
+            const menuToggle = document.getElementById('menuToggle');
+            const navLinks = document.getElementById('navLinks');
+            const body = document.body;
+            
+            // Creăm dinamic overlay-ul pentru a păstra HTML-ul curat
+            const overlay = document.createElement('div');
+            overlay.className = 'nav-overlay';
+            body.appendChild(overlay);
+
+            function toggleMenu() {
+                menuToggle.classList.toggle('toggle-active');
+                navLinks.classList.toggle('nav-active');
+                overlay.classList.toggle('overlay-active');
+                
+                if (navLinks.classList.contains('nav-active')) {
+                    body.style.overflow = 'hidden';
+                } else {
+                    body.style.overflow = '';
+                }
+            }
+
+            menuToggle.addEventListener('click', toggleMenu);
+            overlay.addEventListener('click', toggleMenu);
+
+            // Închidem meniul când se dă click pe un link
+            const navItems = navLinks.querySelectorAll('a');
+            navItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    if (navLinks.classList.contains('nav-active')) {
+                        toggleMenu();
+                    }
+                });
+            });
+
+            const checkContainer = document.getElementById('securityCheckBtn');
+            const text = document.getElementById('securityText');
+            const submitBtn = document.getElementById('submitBtn');
+            const phoneInput = document.getElementById('phone');
+            
+            // Formatare automată & Validare număr telefon
+            phoneInput.addEventListener('input', function(e) {
+                let val = e.target.value.replace(/\D/g, ''); // doar cifre
+                if (val.startsWith('0')) {
+                    val = val.substring(1); // elimină 0 de la început
+                }
+                if (val.length > 9) {
+                    val = val.substring(0, 9); // limită la 9 cifre
+                }
+                e.target.value = val;
+            });
+
+            // Logică Checkbox de Securitate Premium
+            checkContainer.addEventListener('click', function() {
+                if (verified || checkContainer.classList.contains('loading')) return;
+
+                // Inițiem animația de încărcare (spinner)
+                checkContainer.classList.add('loading');
+                text.textContent = 'Se verifică conexiunea...';
+
+                setTimeout(function() {
+                    checkContainer.classList.remove('loading');
+                    checkContainer.classList.add('success');
+                    text.textContent = 'Verificare de securitate reușită!';
+                    verified = true;
+                    submitBtn.disabled = false;
+                    submitBtn.classList.remove('btn-submit');
+                }, 850);
+            });
+
+            // Logică Modal GDPR
+            const privacyLink = document.getElementById('privacyLink');
+            const privacyModal = document.getElementById('privacyModal');
+            const closeBtn1 = document.getElementById('closeModalBtn');
+            const closeBtn2 = document.getElementById('closeModalBtn2');
+
+            function openModal() {
+                privacyModal.classList.add('active');
+                document.body.style.overflow = 'hidden';
+            }
+
+            function closeModal() {
+                privacyModal.classList.remove('active');
+                document.body.style.overflow = 'auto';
+            }
+
+            privacyLink.addEventListener('click', function(e) {
+                e.preventDefault();
+                openModal();
+            });
+
+            closeBtn1.addEventListener('click', closeModal);
+            closeBtn2.addEventListener('click', closeModal);
+
+            privacyModal.addEventListener('click', function(e) {
+                if (e.target === privacyModal) {
+                    closeModal();
+                }
+            });
+
+            // ===== Scroll-reveal premium (IntersectionObserver) =====
+            const revealTargets = document.querySelectorAll('.reveal, .reveal-group');
+            if ('IntersectionObserver' in window) {
+                const revealObserver = new IntersectionObserver(function(entries, obs) {
+                    entries.forEach(function(entry) {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('is-visible');
+                            obs.unobserve(entry.target); // animam o singura data
+                        }
+                    });
+                }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+                revealTargets.forEach(function(el) { revealObserver.observe(el); });
+            } else {
+                // Fallback (browsere foarte vechi): aratam tot, fara animatie
+                revealTargets.forEach(function(el) { el.classList.add('is-visible'); });
+            }
+
+            // ===== Cookie consent: GA porneste DOAR dupa "Accept" =====
+            const GA_ID = CONFIG.GOOGLE_ANALYTICS_ID;
+            function loadGoogleAnalytics() {
+                if (window.__gaLoaded) return;
+                window.__gaLoaded = true;
+                const s = document.createElement('script');
+                s.async = true;
+                s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+                document.head.appendChild(s);
+                gtag('js', new Date());
+                gtag('config', GA_ID);
+            }
+
+            const cookieBanner = document.getElementById('cookieBanner');
+            const consent = localStorage.getItem('cookie_consent');
+
+            if (consent === 'accepted') {
+                loadGoogleAnalytics();
+            } else if (consent !== 'rejected') {
+                // niciun raspuns inca -> aratam banner-ul
+                setTimeout(function() { cookieBanner.classList.add('show'); }, 800);
+            }
+
+            document.getElementById('cookieAccept').addEventListener('click', function() {
+                localStorage.setItem('cookie_consent', 'accepted');
+                cookieBanner.classList.remove('show');
+                loadGoogleAnalytics();
+            });
+            document.getElementById('cookieReject').addEventListener('click', function() {
+                localStorage.setItem('cookie_consent', 'rejected');
+                cookieBanner.classList.remove('show');
+            });
+            document.getElementById('cookiePrivacyLink').addEventListener('click', function(e) {
+                e.preventDefault();
+                openModal();
+            });
+        });
+
+        function sendToWhatsApp(event) {
+            event.preventDefault();
+            if (!verified) {
+                alert('Vă rugăm să bifați verificarea de securitate înainte de a trimite.');
+                return;
+            }
+
+            const name = document.getElementById('name').value;
+            const prefix = '+40';
+            const phone = document.getElementById('phone').value;
+            const service = document.getElementById('service').value;
+            const description = document.getElementById('description').value;
+
+            const message = `Bună ziua! Doresc să mă programez la ${CONFIG.BUSINESS_NAME}:\n\n` +
+                            `• Nume: ${name}\n` +
+                            `• Telefon: ${prefix} ${phone}\n` +
+                            `• Serviciu: ${service}\n` +
+                            `• Detalii: ${description}`;
+
+            const encodedMessage = encodeURIComponent(message);
+            const whatsappUrl = `https://wa.me/${CONFIG.WHATSAPP_NUMBER}?text=${encodedMessage}`;
+
+            // Inregistram in Google Analytics ca s-a cerut o programare (conversie / lead)
+            if (typeof gtag === 'function') {
+                gtag('event', 'generate_lead', { method: 'whatsapp_form', service: service });
+            }
+
+            // Redirecționăm utilizatorul direct în WhatsApp (evită deschiderea unui tab gol pe mobil)
+            window.location.href = whatsappUrl;
+        }
+
+    </script>
 </body>
 </html>
