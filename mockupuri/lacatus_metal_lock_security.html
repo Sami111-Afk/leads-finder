@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Marcam ca JS e activ; CSS-ul de reveal se aplica doar atunci (fallback fara JS = continut vizibil) -->
+    <script>document.documentElement.classList.add('js');</script>
+
+    <title>[NUME_AFACERE] | Cabinet Optică Medicală București</title>
+    <meta name="description" content="Servicii de optică medicală, consultații gratuite și o gamă largă de ochelari de vedere la [NUME_AFACERE] Calea Moșilor, București.">
+    <link rel="canonical" href="https://[DOMENIU]/">
+    <meta name="theme-color" content="#be123c">
+    <link rel="icon" type="image/webp" href="./images/logo.webp">
+
+    <!-- Preload imaginea hero (LCP) ca sa se incarce prima, mai ales pe mobil -->
+    <link rel="preload" as="image" href="./images/poza-1outside.webp" fetchpriority="high">
+
+    <!-- Open Graph (preview frumos cand se da link pe WhatsApp / Facebook) -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="[NUME_AFACERE]">
+    <meta property="og:title" content="[NUME_AFACERE] | Cabinet Optică Medicală București">
+    <meta property="og:description" content="Optică medicală, consultații gratuite și ochelari de vedere pe Calea Moșilor, București. Programează-te rapid pe WhatsApp.">
+    <meta property="og:url" content="https://[DOMENIU]/">
+    <meta property="og:image" content="https://[DOMENIU]/images/poza-1outside.webp">
+    <meta property="og:image:alt" content="Cabinetul [NUME_AFACERE], Calea Moșilor, București">
+    <meta property="og:locale" content="ro_RO">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="[NUME_AFACERE] | Cabinet Optică Medicală București">
+    <meta name="twitter:description" content="Optică medicală, consultații gratuite și ochelari de vedere pe Calea Moșilor, București.">
+    <meta name="twitter:image" content="https://[DOMENIU]/images/poza-1outside.webp">
+
+    <!-- Structured Data (JSON-LD) for Local Business SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "[TIP_AFACERE_SCHEMA]",
+      "name": "[NUME_AFACERE]",
+      "image": "https://[DOMENIU]/images/logo.webp",
+      "@id": "https://[DOMENIU]/#business",
+      "url": "https://[DOMENIU]",
+      "telephone": "[TELEFON_CONTACT]",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "[ADRESA_FIZICA]",
+        "addressLocality": "[ORAS]",
+        "postalCode": "[COD_POSTAL]",
+        "addressCountry": "RO"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": [LAT],
+        "longitude": [LON]
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "[ORE_LV_DESCHIS_EX_09:00]",
+          "closes": "[ORE_LV_INCHIS_EX_19:00]"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "[ORE_SAMBATA_DESCHIS_EX_09:00]",
+          "closes": "[ORE_SAMBATA_INCHIS_EX_13:00]"
+        }
+      ]
+    }
+    </script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <a href="index.html" class="logo-container">
+                <img src="./images/logo.webp" alt="[NUME_AFACERE] Logo" class="logo-img" width="400" height="274">
+            </a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Deschide meniul">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#servicii">Servicii</a></li>
+                <li><a href="#tehnologie-stil">Rame & Lentile</a></li>
+                <li><a href="#cabinet">Cabinetul Nostru</a></li>
+                <li><a href="#contact">Program & Contact</a></li>
+                <li><a href="tel:[TELEFON_MOBIL]" class="btn">Sună Acum</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content reveal">
+                    <div class="badge">Optică Medicală & Oftalmologie</div>
+                    <h1>Consultații profesionale & <span>Ochelari de top</span></h1>
+                    <p>La cabinetul [NUME_AFACERE] din Calea Moșilor te bucuri de determinări computerizate precise ale dioptriilor și soluții optice personalizate pentru sănătatea ochilor tăi.</p>
+                    
+                    <ul class="hero-features">
+                        <li><span>✓</span> Consultații oftalmologice complete</li>
+                        <li><span>✓</span> Prescriere lentile de contact & ochelari</li>
+                        <li><span>✓</span> Rame moderne de înaltă calitate</li>
+                    </ul>
+
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn">Programează o Consultație</a>
+                        <a href="#servicii" class="btn btn-outline">Vezi Servicii</a>
+                    </div>
+                </div>
+                <div class="hero-img-container">
+                    <img src="./images/poza-1outside.webp" alt="Magazinul [NUME_AFACERE] Exterior" class="hero-img" fetchpriority="high" width="825" height="1100">
+                </div>
+            </div>
+
+            <!-- Promotie in-store -->
+            <div class="promo-banner reveal">
+                <div class="promo-content">
+                    <h2>Pachete Promoționale Complete</h2>
+                    <p>Beneficiați de servicii integrate de la examinare optometrică la montaj direct în magazin:</p>
+                    <div class="promo-options">
+                        <span class="promo-tag">Consultație + Ramă + Lentile PL + AR</span>
+                        <span class="promo-tag">Consultație + Ramă + Lentile Heliomate</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="servicii" class="services">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Serviciile Noastre Medicale & Optice</h2>
+                <p>Echipamente medicale de ultimă oră și specialiști pregătiți să îți ofere cele mai bune recomandări pentru o vedere excelentă.</p>
+            </div>
+            <div class="services-grid reveal-group">
+                <div class="service-card">
+                    <span class="service-icon">👁️</span>
+                    <h3>Consult Oftalmologic</h3>
+                    <p>Determinarea computerizată a dioptriilor cu aparatură de înaltă performanță și prescriere rețete pentru ochelari sau lentile.</p>
+                </div>
+                <div class="service-card">
+                    <span class="service-icon">👓</span>
+                    <h3>Executare Ochelari de Vedere</h3>
+                    <p>Realizăm ochelari monofocali, bifocali, degresivi sau progresivi folosind lentile cu tratamente performante de ultimă generație.</p>
+                </div>
+                <div class="service-card">
+                    <span class="service-icon">☀️</span>
+                    <h3>Ochelari de Soare cu Dioptrie</h3>
+                    <p>Îmbinăm stilul tău preferat și protecția solară UV completă cu dioptriile prescrise special pentru tine.</p>
+                </div>
+                <div class="service-card">
+                    <span class="service-icon">🌀</span>
+                    <h3>Prescriere Lentile de Contact</h3>
+                    <p>Determinare parametri, recomandare tip de lentilă de contact (zilnică/lunară) și instruire completă pentru montare și întreținere.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rame & Lentile Section -->
+    <section id="tehnologie-stil" class="products-tech">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Rame de Brand & Lentile Premium</h2>
+                <p>Descoperiți stilul care vi se potrivește și tehnologia care vă protejează ochii. Vă punem la dispoziție rame exclusiviste și lentile inteligente de ultimă generație.</p>
+            </div>
+            <div class="products-grid">
+                
+                <!-- Rame Showcase -->
+                <div class="frames-showcase reveal-group">
+                    <div class="frame-card">
+                        <div class="frame-img-box">
+                            <img src="./images/new-photo-1.webp" alt="Rame de Brand Exclusiviste" loading="lazy" width="619" height="1100">
+                        </div>
+                        <div class="frame-info">
+                            <h3>Branduri Exclusiviste</h3>
+                            <p>Colecții selecte de rame pentru ochelari de la producători renumiți internațional, îmbinând eleganța, finisajele premium și materialele de cea mai înaltă calitate.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="frame-card">
+                        <div class="frame-img-box">
+                            <img src="./images/new-photo-2.webp" alt="Design Clasic și Minimalist" loading="lazy" width="619" height="1100">
+                        </div>
+                        <div class="frame-info">
+                            <h3>Design Clasic & Minimalist</h3>
+                            <p>Rame ușoare, confortabile și durabile, ideale pentru purtarea zilnică. Modele ergonomice care se adaptează perfect fizionomiei tale fără a face compromisuri la stil.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="frame-card">
+                        <div class="frame-img-box">
+                            <img src="./images/new-photo-4.webp" alt="Colecții de Designer" loading="lazy" width="619" height="1100">
+                        </div>
+                        <div class="frame-info">
+                            <h3>Colecții de Designer</h3>
+                            <p>Descoperă rame de ochelari cu detalii rafinate și accente moderne, precum brandurile premium din portofoliul nostru (Ana Hickmann, Christie's etc.), așezate elegant pe pat de bujori naturali în showroom-ul nostru.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lentile Tech Showcase -->
+                <div class="lenses-tech-box reveal">
+                    <div class="tech-card">
+                        <div class="tech-header-banner">
+                            <img src="./images/new-photo-3.webp" alt="Tehnologie Lentile Inteligente" class="tech-banner-img" loading="lazy" width="1100" height="619">
+                            <span class="video-tag">Noutate 2026</span>
+                        </div>
+                        <div class="tech-content-grid" style="grid-template-columns: 1fr;">
+                            <div class="tech-info">
+                                <span class="badge">Tehnologie Activă</span>
+                                <h3>Lentile Photochromice de Ultimă Generație</h3>
+                                <p>Lentilele noastre inteligente se adaptează instantaneu la schimbările de lumină: complet clare în interior și închise rapid la exterior pentru o protecție UV 100% și confort vizual maxim.</p>
+                                
+                                <div class="lens-benefits">
+                                    <div class="benefit-item">
+                                        <span class="benefit-icon">☀️</span>
+                                        <div>
+                                            <strong>Adaptare Rapidă (Transitions Gen S)</strong>
+                                            <span>Tranziție extrem de rapidă de la clar la închis în doar câteva secunde sub acțiunea razelor UV.</span>
+                                        </div>
+                                    </div>
+                                    <div class="benefit-item">
+                                        <span class="benefit-icon">🛡️</span>
+                                        <div>
+                                            <strong>Protecție Completă UV & Blue Light</strong>
+                                            <span>Filtrează eficient lumina albastră dăunătoare de la ecrane și blochează razele ultraviolete nocive ale soarelui.</span>
+                                        </div>
+                                    </div>
+                                    <div class="benefit-item">
+                                        <span class="benefit-icon">🎨</span>
+                                        <div>
+                                            <strong>Gamă Variată de Culori</strong>
+                                            <span>Disponibile în nuanțe moderne (Smarald, Safir, Chihlimbar, Gri, Maro) pentru a se potrivi perfect cu rama aleasă.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Cabinet Info Section -->
+    <section id="cabinet" class="cabinet-info-section">
+        <div class="container cabinet-grid">
+            <div class="cabinet-gallery reveal-group">
+                <div class="gallery-item featured">
+                    <img src="./images/cabinet-1.webp" alt="Showroom [NUME_AFACERE] Calea Moșilor" loading="lazy" width="1100" height="619">
+                    <div class="gallery-caption">Showroom [NUME_AFACERE] - Rame și Lentile</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./images/poza-2-inside.webp" alt="Aparatură Shin-Nippon [NUME_AFACERE]" loading="lazy" width="825" height="1100">
+                    <div class="gallery-caption">Aparatură Shin-Nippon - Determinare Dioptrii</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./images/cabinet-2.webp" alt="Zonă de Consultare [NUME_AFACERE]" loading="lazy" width="1100" height="619">
+                    <div class="gallery-caption">Zonă Consultare și Așteptare</div>
+                </div>
+            </div>
+            <div class="cabinet-text reveal">
+                <div class="badge">Echipamente Profesionale</div>
+                <h2>Cabinetul Nostru din Calea Moșilor</h2>
+                <p>Te întâmpinăm într-un mediu clinic deosebit, complet dotat cu aparate de autorefractometrie computerizată Shin-Nippon pentru o acuratețe maximă în determinarea dioptriilor.</p>
+                <p>Prioritatea noastră este să îți oferim o consultație lipsită de disconfort și soluții optime pe termen lung, asigurate de specialiștii noștri cu experiență.</p>
+                <ul>
+                    <li>Examinări exacte ale fundului de ochi</li>
+                    <li>Săli de testare igienizate permanent</li>
+                    <li>Determinări optometrice precise</li>
+                </ul>
+                <a href="#contact" class="btn">Programează-te acum</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <!-- ⚠️ TEMPLATE: recenziile de mai jos sunt EXEMPLU (de la alt client). ÎNLOCUIEȘTE-le cu
+         recenzii REALE ale clientului (nume + text + link Google `share.google/...`), sau șterge secțiunea.
+         NU lăsa recenzii inventate. -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Ce Spun Clienții Noștri</h2>
+                <p>Opinia clienților noștri este cea mai bună carte de vizită. Iată recenzii reale de la cei care au beneficiat de serviciile cabinetului nostru:</p>
+            </div>
+            <div class="testimonials-grid reveal">
+                <div class="testimonial-card">
+                    <div>
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"Merg la ei de 6 ani. Sunt profesioniști."</p>
+                    </div>
+                    <div class="testimonial-footer">
+                        <span class="testimonial-author">Filofteia Mihai</span>
+                        <a href="https://share.google/Ki2XGWkiJVC9SVVd0" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div>
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"Am găsit aici amabilitate și profesionalism, ochelarii foarte bine executați, dna doctor m-a consultat cu atenție și răbdare. Recomand cu mare plăcere. O să mai revin."</p>
+                    </div>
+                    <div class="testimonial-footer">
+                        <span class="testimonial-author">Flori V</span>
+                        <a href="https://share.google/lxE7z3raNzoBmRQCe" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div>
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"Foarte amabilă și profesionistă dna. doctor, o recomand cu mare încredere."</p>
+                    </div>
+                    <div class="testimonial-footer">
+                        <span class="testimonial-author">R (R)</span>
+                        <a href="https://share.google/yu87VrSAX0hKusR3I" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div>
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"Minunat! Doamna doctor m-a ajutat să îmi rezolv problema! Recomand!"</p>
+                    </div>
+                    <div class="testimonial-footer">
+                        <span class="testimonial-author">Iustin Constantinescu</span>
+                        <a href="https://share.google/9AFF85jXuyrsDr2wJ" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div>
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"Servicii excelente! Mulți medici oftalmologi au greșit dioptriile până am ajuns aici. O experiență excelentă. Recomand!"</p>
+                    </div>
+                    <div class="testimonial-footer">
+                        <span class="testimonial-author">Andrei Marinescu</span>
+                        <a href="https://share.google/vDarYRcnRmVSX799s" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div>
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"D-na dr. este excepțională, iar serviciile de optică sunt foarte bune."</p>
+                    </div>
+                    <div class="testimonial-footer">
+                        <span class="testimonial-author">mihail vornicov</span>
+                        <a href="https://share.google/r80Mkh7BwcNLpYPtU" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div>
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"Excelent!"</p>
+                    </div>
+                    <div class="testimonial-footer">
+                        <span class="testimonial-author">unom oviata</span>
+                        <a href="https://share.google/ge2LXhIQBN7rvMO8t" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div>
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"Consultații profesionale la prețuri bune."</p>
+                    </div>
+                    <div class="testimonial-footer">
+                        <span class="testimonial-author">Stefan Sovarel</span>
+                        <a href="https://share.google/6hk8A6MJPegcvolpv" target="_blank" rel="noopener noreferrer" class="testimonial-link">Sursă: Google 🔗</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="reveal" style="text-align: center; margin-top: 36px;">
+                <a href="https://share.google/Ki2XGWkiJVC9SVVd0" target="_blank" rel="noopener noreferrer" class="btn btn-outline google-reviews-cta" style="border-radius: 50px;">
+                    ⭐ Vezi toate recenziile pe Google
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Harta -->
+    <section id="contact" class="contact">
+        <div class="container contact-grid">
+            <div class="contact-info reveal">
+                <h2>Locație și Program direct</h2>
+                <p>Te așteptăm în cabinetul nostru din Calea Moșilor. Ne poți suna direct sau ne poți trimite o solicitare de programare rapidă direct pe WhatsApp.</p>
+                
+                <div class="info-row">
+                    <div class="info-icon">📍</div>
+                    <div class="info-text">
+                        <strong>Adresă Magazin</strong>
+                        <span style="display: block; margin-bottom: 12px;">
+                            <a href="[LINK_MAPS]" target="_blank" rel="noopener noreferrer" class="address-link">
+                                Calea Moșilor nr. 288, Sector 2, București
+                            </a>
+                        </span>
+                        <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+                            <a href="[LINK_MAPS]" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding: 6px 16px; min-height: 38px; font-size: 0.85rem; border-radius: var(--border-radius-sm); display: inline-flex; align-items: center; gap: 6px; box-shadow: none; font-weight: 700;">
+                                🗺️ Google Maps
+                            </a>
+                            <a href="https://waze.com/ul?q=Calea+Mosilor+288+Bucuresti" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding: 6px 16px; min-height: 38px; font-size: 0.85rem; border-radius: var(--border-radius-sm); display: inline-flex; align-items: center; gap: 6px; box-shadow: none; font-weight: 700;">
+                                🚙 Waze
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="info-row">
+                    <div class="info-icon">📞</div>
+                    <div class="info-text">
+                        <strong>Telefoane programări</strong>
+                        <span>
+                            <a href="tel:[TELEFON_MOBIL]" class="phone-link">0763 600 001</a> (Mobil / WhatsApp)<br>
+                            <a href="tel:[TELEFON_FIX]" class="phone-link">021 316 0261</a> (Fix)
+                        </span>
+                    </div>
+                </div>
+
+                <div class="info-row">
+                    <div class="info-icon">🕒</div>
+                    <div class="info-text">
+                        <strong>Orar Funcționare</strong>
+                        <span>Luni - Vineri: 09:00 - 19:00<br>Sâmbătă: 09:00 - 13:00<br>Duminică: Închis</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-box reveal">
+                <h3>Solicită Programare pe WhatsApp</h3>
+                <form onsubmit="sendToWhatsApp(event)">
+                    <div class="form-group">
+                        <label for="name">Nume Complet</label>
+                        <input type="text" id="name" required placeholder="Numele tău">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Număr Telefon</label>
+                        <div class="phone-input-container">
+                            <span class="prefix-select" aria-hidden="true" style="display: inline-flex; align-items: center;">🇷🇴 +40</span>
+                            <input type="tel" id="phone" required placeholder="7xx xxx xxx" pattern="[0-9]{9}" inputmode="numeric" title="Introduceți exact 9 cifre (ex: 763600001)">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Serviciu Dorit</label>
+                        <select id="service">
+                            <option>Consult Oftalmologic / Dioptrii</option>
+                            <option>Executare Ochelari de Vedere</option>
+                            <option>Ochelari de Soare cu Dioptrie</option>
+                            <option>Prescriere Lentile de Contact</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="description">Mesaj / Detalii suplimentare</label>
+                        <textarea id="description" required placeholder="Ex: Doresc o programare în cursul după-amiezii..."></textarea>
+                    </div>
+
+                    <!-- Checkbox de Securitate Premium -->
+                    <div class="security-check-container" id="securityCheckBtn">
+                        <div class="custom-checkbox">
+                            <svg class="checkmark-svg" viewBox="0 0 52 52">
+                                <circle class="checkmark-circle" cx="26" cy="26" r="25" fill="none"/>
+                                <path class="checkmark-check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                            </svg>
+                            <div class="spinner-ring"></div>
+                        </div>
+                        <span class="security-check-text" id="securityText">Confirm programarea (Securizat)</span>
+                    </div>
+
+                    <button type="submit" id="submitBtn" class="btn btn-submit" style="width: 100%; margin-top: 20px;" disabled>Trimite Solicitare WhatsApp</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cookie Consent Banner -->
+    <div class="cookie-banner" id="cookieBanner" role="dialog" aria-label="Consimțământ cookie-uri">
+        <p>Folosim cookie-uri de analiză (Google Analytics) ca să înțelegem cum este folosit site-ul. Le activăm <strong>doar cu acordul tău</strong>. Detalii în <a href="#" id="cookiePrivacyLink">Politica de Confidențialitate</a>.</p>
+        <div class="cookie-actions">
+            <button type="button" class="cookie-reject" id="cookieReject">Refuz</button>
+            <button type="button" class="cookie-accept" id="cookieAccept">Accept</button>
+        </div>
+    </div>
+
+    <!-- Sticky Mobile Action Bar -->
+    <div class="sticky-mobile-bar">
+        <a href="tel:[TELEFON_MOBIL]" class="btn-sticky btn-sticky-call">📞 Sună Acum</a>
+        <a href="https://wa.me/[NUMAR_WHATSAPP]" class="btn-sticky btn-sticky-whatsapp" target="_blank">💬 WhatsApp</a>
+    </div>
+
+    <!-- Footer obligatoriu legal în România -->
+    <footer>
+        <div class="container">
+            <p style="font-weight: 700; font-size: 1rem; margin-bottom: 8px;">[NUME_AFACERE] S.R.L.</p>
+            <p style="font-size: 0.8rem; opacity: 0.8; margin-bottom: 16px;">
+                CUI: RO16434537 | Reg. Com: J40/8064/2004 | Punct de lucru: <a href="[LINK_MAPS]" target="_blank" rel="noopener noreferrer" style="color: var(--white); text-decoration: underline;">Calea Moșilor nr. 288, București</a>
+            </p>
+            <p style="font-size: 0.85rem; margin-bottom: 24px; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
+                <a href="#" id="privacyLink" style="color: var(--white); text-decoration: underline;">Politica de Confidențialitate (GDPR)</a> |
+                <a href="https://anpc.ro/" target="_blank" rel="noopener noreferrer" style="color: var(--white); text-decoration: underline;">ANPC</a> |
+                <a href="https://ec.europa.eu/consumers/odr/" target="_blank" rel="noopener noreferrer" style="color: var(--white); text-decoration: underline;">Protecția Consumatorilor (SOL)</a>
+            </p>
+            <p style="font-size: 0.75rem; opacity: 0.5; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 15px; line-height: 1.4;">
+                &copy; 2026 [NUME_AFACERE]. Toate drepturile rezervate. <br>
+                Creat și administrat de Savu Mihai Samuel - PFA Servicii IT.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Modal GDPR / Politică de Confidențialitate -->
+    <div class="modal-overlay" id="privacyModal">
+        <div class="modal-content">
+            <button class="modal-close" id="closeModalBtn">&times;</button>
+            <h3>Politica de Confidențialitate (GDPR)</h3>
+            <div class="modal-body">
+                <p>Prezenta Politică de Confidențialitate explică modul în care **[NUME_AFACERE] S.R.L.** (CUI RO16434537, Reg. Com. J40/8064/2004, Adresă punct de lucru: Calea Moșilor nr. 288, București) colectează și prelucrează datele dumneavoastră cu caracter personal atunci când utilizați formularul de programări de pe site-ul nostru.</p>
+                
+                <h4>1. Ce date colectăm?</h4>
+                <p>Prin intermediul formularului de solicitare programare pe WhatsApp, colectăm următoarele date:</p>
+                <ul>
+                    <li>Numele complet (pentru identificarea programării);</li>
+                    <li>Numărul de telefon (pentru a vă putea contacta de confirmare);</li>
+                    <li>Serviciul solicitat și detaliile adiționale oferite voluntar.</li>
+                </ul>
+
+                <h4>2. Scopul prelucrării</h4>
+                <p>Datele colectate sunt folosite exclusiv în scopul organizării programărilor medicale și optice în cabinetul nostru. Nu transmitem aceste date către terți și nu le utilizăm în scopuri de marketing fără acordul dumneavoastră explicit.</p>
+
+                <h4>3. Redirecționarea pe WhatsApp</h4>
+                <p>Acest site utilizează redirecționarea directă prin serviciul WhatsApp Web/App. Datele completate de dumneavoastră sunt transmise securizat prin preluarea acestora de către platforma WhatsApp direct pe numărul de contact al magazinului nostru (0763 600 001).</p>
+
+                <h4>4. Drepturile dumneavoastră</h4>
+                <p>Conform Regulamentului GDPR, beneficiați de dreptul de acces, rectificare sau ștergere a datelor dumneavoastră din registrele noastre de programări. Pentru exercitarea acestor drepturi, ne puteți contacta direct în magazin sau la numărul de telefon afișat.</p>
+
+                <h4>5. Cookie-uri și analiză</h4>
+                <p>Acest site utilizează cookie-uri de analiză prin Google Analytics (GA4) pentru a măsura, în mod anonim și agregat, modul în care vizitatorii folosesc site-ul. Aceste cookie-uri sunt activate <strong>numai după acordul dumneavoastră explicit</strong>, exprimat prin butonul „Accept" din banner-ul de cookie-uri. Dacă alegeți „Refuz", niciun cookie de analiză nu este instalat. Cookie-urile strict necesare funcționării site-ului nu necesită consimțământ.</p>
+            </div>
+            <div style="text-align: right; margin-top: 20px;">
+                <button class="btn" id="closeModalBtn2">Am înțeles</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Form redirection to WhatsApp & Verification JS -->
+    <script src="app.js" defer></script>
+
+</body>
+</html>
