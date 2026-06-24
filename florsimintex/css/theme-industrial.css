@@ -1,0 +1,51 @@
+/* ============================================================
+   TEMĂ: INDUSTRIAL / GARAJ
+   Identitatea reală a firmei: asfalt închis, ROȘU signal + galben
+   hazard, chevroni roșu/alb (exact ca pe autospecialele lor).
+   Display: Anton. Semnătură: banda hazard + etichete tip plăcuță.
+   ============================================================ */
+:root{
+  --bg:#0d0e11; --bg2:#121419; --surface:#171a20; --surface2:#1d2027;
+  --line:#2a2e36; --text:#f3f3f0; --muted:#9aa0aa;
+  --accent:#e2231a;        /* roșu autospecială */
+  --accent2:#ffc20e;       /* galben hazard */
+  --accent-ink:#fff;
+  --wa:#25d366; --wa-ink:#0a3d1f;
+  --font-display:'Anton',Impact,'Arial Narrow Bold',sans-serif;
+  --hero-grad:linear-gradient(180deg,rgba(6,7,9,.30) 0%,rgba(6,7,9,.55) 50%,rgba(6,7,9,.94) 100%);
+}
+
+/* textură asfalt foarte subtilă, fără să încarce */
+body{
+  background-color:var(--bg);
+  background-image:
+    radial-gradient(1100px 600px at 80% -10%, rgba(226,35,26,.07), transparent 60%),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E");
+}
+
+/* SEMNĂTURĂ — banda hazard roșu/alb sub header */
+.chevron-bar{height:9px;background:repeating-linear-gradient(-45deg,var(--accent) 0 16px,#f3f3f0 16px 32px);opacity:.92}
+
+/* eyebrow/kicker — bloc hazard mic în loc de glonț generic */
+.kicker::before{content:"";width:26px;height:9px;border-radius:2px;
+  background:repeating-linear-gradient(-45deg,var(--accent) 0 5px,#f3f3f0 5px 10px)}
+
+/* titluri puțin mai „turnate" */
+.hero h1,.sec-head h2,.feature-text h2,.contact-text h2{letter-spacing:.012em}
+
+/* etichete stat = tip plăcuță / contor km */
+.stat b{font-variant-numeric:tabular-nums}
+.stat{border:1px solid var(--line);border-radius:14px;background:linear-gradient(180deg,var(--surface),transparent)}
+
+/* cardurile capătă o muchie hazard la hover */
+.card::before{content:"";position:absolute;left:0;top:0;height:4px;width:0;background:var(--accent);transition:width .35s var(--ease);z-index:2}
+.card:hover::before{width:100%}
+
+/* ticker mai „șantier" */
+.ticker{background:var(--accent2);--accent-ink:#1a1206}
+.ticker{color:#1a1206}
+
+/* linie de marcaj rutier ca despărțitor deasupra footer-ului */
+.site-foot{position:relative}
+.site-foot::before{content:"";position:absolute;top:0;left:0;right:0;height:6px;
+  background:repeating-linear-gradient(90deg,var(--accent2) 0 38px,transparent 38px 76px)}

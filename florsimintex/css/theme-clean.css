@@ -1,0 +1,56 @@
+/* ============================================================
+   TEMĂ: MODERN / CLEAN
+   Alb riguros, ROȘU = singurul accent, text bleu-cerneală.
+   Vernacular cartografic (coordonate, DN1) ca semnătură discretă.
+   Display: Plus Jakarta Sans 800 (tight). Aer mult, foto mari.
+   ============================================================ */
+:root{
+  --bg:#fbfaf7; --bg2:#f2f0ea; --surface:#ffffff; --surface2:#f5f3ee;
+  --line:#e3e0d7; --text:#15181d; --muted:#5d636d;
+  --accent:#d81e15;        /* roșu brand, unicul accent */
+  --accent2:#d81e15;
+  --accent-ink:#ffffff;
+  --wa:#1faa53; --wa-ink:#ffffff;
+  --font-display:'PJS',system-ui,sans-serif;
+  --shadow:0 24px 60px -24px rgba(20,24,30,.28);
+  --hero-grad:linear-gradient(180deg,rgba(10,12,16,.28) 0%,rgba(10,12,16,.42) 45%,rgba(10,12,16,.82) 100%);
+}
+
+body{background:var(--bg)}
+
+/* display PJS: foarte strâns + bold, ca să nu fie „neutru" */
+.hero h1,.sec-head h2,.feature-text h2,.contact-text h2,
+.brand-txt b,.foot-brand b,.card h3,.hours h3,.feature-badge b,.stat b{
+  font-weight:800;letter-spacing:-.02em;text-transform:none}
+.hero h1{letter-spacing:-.03em;line-height:1}
+.card h3{letter-spacing:-.01em}
+
+/* WA verde mai sobru pe alb */
+.btn-wa{color:#fff}
+.btn-wa svg{fill:#fff}
+
+/* SEMNĂTURĂ — fir roșu fin + coordonate (vernacular rutier/cartografic) */
+.chevron-bar{height:2px;background:var(--accent)}
+.kicker{color:var(--accent)}
+.kicker::before{content:"45.23°N · DN1";font-family:var(--font-body);font-weight:800;
+  letter-spacing:.12em;color:var(--muted);font-size:.7rem;
+  padding-right:.8rem;margin-right:.2rem;border-right:1px solid var(--line)}
+
+/* header pe alb */
+.site-head{background:color-mix(in srgb,#fff 86%,transparent);border-bottom:1px solid var(--line)}
+.brand-txt i{color:var(--muted)}
+
+/* ticker discret pe roșu */
+.ticker{border-block:0}
+
+/* carduri curate cu umbră fină, nu border greu */
+.card{border-color:var(--line);box-shadow:0 1px 0 var(--line)}
+.card:hover{box-shadow:var(--shadow)}
+.card-ico{background:color-mix(in srgb,var(--accent) 9%,#fff);}
+.area-pill,.hours,.map-cta,.review,.stat{background:var(--surface)}
+
+/* eyebrow hero rămâne roșu plin (lizibil pe foto) */
+.eyebrow{background:var(--accent)}
+
+/* footer luminos */
+.site-foot{background:var(--bg2)}
