@@ -378,6 +378,100 @@ body{
 }
 
 
+/* ---------------- DOCK (butoane flotante) ---------------- */
+.dock {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.dock-btn {
+  display: grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+  transition: transform 0.2s;
+  text-decoration: none;
+}
+.dock-btn:hover {
+  transform: scale(1.08);
+}
+.dock-btn svg {
+  width: 26px;
+  height: 26px;
+  fill: currentColor;
+}
+.dock-call {
+  background: var(--accent);
+  color: #fff;
+}
+.dock-wa {
+  background: #25d366;
+  color: #fff;
+}
+
+/* ---------------- CALLBAR (bara fixă mobil) ---------------- */
+.callbar {
+  display: none;
+}
+
+@media (max-width: 880px) {
+  .callbar {
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    box-shadow: 0 -4px 16px rgba(0,0,0,0.25);
+    background: var(--surface);
+  }
+  .callbar-call {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: var(--accent);
+    color: #fff;
+    font-size: 1.05rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 16px;
+  }
+  .callbar-call svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+  }
+  .callbar-wa {
+    flex: none;
+    display: grid;
+    place-items: center;
+    width: 62px;
+    background: #25d366;
+    color: #fff;
+    text-decoration: none;
+  }
+  .callbar-wa svg {
+    width: 26px;
+    height: 26px;
+    fill: currentColor;
+  }
+  .dock {
+    display: none;
+  }
+  body {
+    padding-bottom: 60px;
+  }
+}
+
 /* ---------------- PRICING ---------------- */
 .pricing-grid {
   display: grid;
