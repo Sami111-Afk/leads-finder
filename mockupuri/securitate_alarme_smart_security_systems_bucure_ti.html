@@ -257,7 +257,7 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
 .map-cta span{display:block;color:var(--muted);font-size:.92rem}
 
 /* ---------------- RECENZII ---------------- */
-.rating-line{display:flex;align-items:center;flex-wrap:wrap;gap:.4rem .6rem;margin-top:1rem;color:var(--muted)}
+.rating-line{display:flex;align-items:center;gap:.6rem;margin-top:1rem;color:var(--muted)}
 .rating-line b{color:var(--text)}
 .stars{display:inline-flex;gap:2px}
 .stars .star{width:18px;height:18px;fill:var(--accent2);stroke:none}
@@ -313,85 +313,6 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
 }
 @media (max-width:480px){
   .hero-actions .btn{width:100%;justify-content:center}
-}
-
-/* ============================================================
-   UPGRADE UI — hero cinematic, semnătură, carduri, hartă,
-   carusel recenzii, bară de apel mobil
-   ============================================================ */
-
-/* ---------------- HERO: far care mătură (o singură dată) ---------------- */
-.hero-sweep{position:absolute;inset:0;z-index:-1;pointer-events:none;
-  background:linear-gradient(74deg,transparent 32%,color-mix(in srgb,var(--accent2) 60%,transparent) 46%,rgba(255,255,255,.10) 50%,transparent 64%);
-  transform:translateX(-130%);animation:heroSweep 2.3s var(--ease) .35s 1 both}
-@keyframes heroSweep{to{transform:translateX(130%)}}
-
-/* ---------------- SEMNĂTURĂ: banda hazard = progres de citire ---------------- */
-.chevron-bar{position:relative;overflow:hidden}
-.chevron-bar__fill{position:absolute;inset:0 100% 0 0;display:block;
-  background:repeating-linear-gradient(-45deg,var(--accent) 0 16px,#f3f3f0 16px 32px);
-  background-size:45px 100%;will-change:right,background-position;transition:right .12s linear}
-
-/* ---------------- CARD: spotlight care urmărește cursorul + placeholder ---------------- */
-.card{transform-style:preserve-3d;will-change:transform}
-.card-glow{position:absolute;inset:0;z-index:1;pointer-events:none;opacity:0;transition:opacity .35s var(--ease);
-  background:radial-gradient(240px circle at var(--mx,50%) var(--my,50%),color-mix(in srgb,var(--accent) 22%,transparent),transparent 62%)}
-.card:hover .card-glow{opacity:1}
-.card-body{position:relative;z-index:2}
-.card-media--ph{display:grid;place-items:center;position:relative;
-  background:radial-gradient(120% 120% at 70% 10%,color-mix(in srgb,var(--accent) 12%,var(--surface2)),var(--surface2))}
-.card-media--ph .ph-ico{display:grid;place-items:center;opacity:.9}
-.card-media--ph .ph-ico svg{width:88px;height:88px;fill:none;stroke:var(--accent);stroke-width:1.6;
-  stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 8px 18px rgba(0,0,0,.4))}
-
-/* ---------------- STATS: panou tip bord de mașină ---------------- */
-.stats{position:relative}
-.stat b{font-variant-numeric:tabular-nums;font-feature-settings:"tnum" 1}
-
-/* ---------------- HARTĂ încorporată ---------------- */
-.map-embed{position:relative;border-radius:var(--r);overflow:hidden;border:1px solid var(--line);
-  margin-bottom:18px;box-shadow:var(--shadow);background:var(--surface)}
-.map-embed iframe{display:block;width:100%;height:clamp(260px,38vw,400px);border:0;
-  filter:grayscale(.35) contrast(1.05) brightness(.92)}
-.map-embed .map-pin{position:absolute;left:50%;top:46%;transform:translate(-50%,-100%);pointer-events:none;
-  color:var(--accent);filter:drop-shadow(0 6px 10px rgba(0,0,0,.5))}
-.map-embed .map-pin svg{width:34px;height:34px;fill:var(--accent);stroke:#fff;stroke-width:1.4}
-
-/* ---------------- RECENZII: carusel mobil + dots + link Google ---------------- */
-.rating-link{color:var(--accent);font-weight:700;white-space:nowrap;border-bottom:1px solid color-mix(in srgb,var(--accent) 50%,transparent)}
-.rating-link:hover{color:var(--text);border-color:currentColor}
-.review-dots{display:none}
-.reviews-all{display:inline-flex;align-items:center;gap:.5rem;margin-top:1.6rem;font-weight:700;color:var(--text);
-  border:1px solid var(--line);padding:.7em 1.2em;border-radius:999px;transition:.25s}
-.reviews-all svg{width:18px;height:18px;fill:var(--accent2);stroke:none}
-.reviews-all:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-2px)}
-
-@media (max-width:720px){
-  .reviews{display:flex;flex-wrap:nowrap;overflow-x:auto;scroll-snap-type:x mandatory;
-    gap:14px;scroll-padding-inline:var(--pad);
-    margin-inline:calc(var(--pad) * -1);padding-inline:var(--pad);padding-bottom:6px;
-    scrollbar-width:none;-webkit-overflow-scrolling:touch}
-  .reviews::-webkit-scrollbar{display:none}
-  .review{flex:0 0 84%;scroll-snap-align:center}
-  .review-dots{display:flex;gap:8px;justify-content:center;margin-top:18px}
-  .review-dots .dot{width:8px;height:8px;padding:0;border-radius:50%;
-    background:color-mix(in srgb,var(--muted) 45%,transparent);transition:width .25s var(--ease),background .25s}
-  .review-dots .dot[aria-current="true"]{background:var(--accent);width:24px;border-radius:5px}
-}
-
-/* ---------------- BARĂ FIXĂ DE APEL (mobil) ---------------- */
-.callbar{display:none}
-@media (max-width:880px){
-  .callbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:95;
-    box-shadow:0 -8px 28px rgba(0,0,0,.45);padding-bottom:env(safe-area-inset-bottom)}
-  .callbar-call{flex:1;display:flex;align-items:center;justify-content:center;gap:.55rem;
-    background:var(--accent);color:#fff;font-family:var(--font-display);letter-spacing:.04em;
-    text-transform:uppercase;font-size:1.12rem;padding:1.05em 1em}
-  .callbar-call svg{width:22px;height:22px;fill:currentColor}
-  .callbar-wa{flex:none;display:grid;place-items:center;width:66px;background:var(--wa);color:#fff}
-  .callbar-wa svg{width:30px;height:30px;fill:currentColor}
-  .dock{display:none}
-  body{padding-bottom:62px}
 }
 
 /* ============================================================
@@ -456,6 +377,252 @@ body{
   .kicker::before{animation:none}
 }
 
+
+/* ---------------- PRICING ---------------- */
+.pricing-grid {
+  display: grid;
+  gap: clamp(16px, 2vw, 24px);
+  grid-template-columns: repeat(auto-fit, minmax(295px, 1fr));
+  margin-top: 2.2rem;
+}
+.price-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  padding: 36px 28px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: transform .3s var(--ease), border-color .3s, box-shadow .3s;
+}
+.price-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--accent);
+  box-shadow: var(--shadow);
+}
+.price-card.popular {
+  border-color: var(--accent2);
+  background: color-mix(in srgb, var(--accent2) 2%, var(--surface));
+}
+.price-badge {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  background: var(--accent2);
+  color: #000;
+  font-size: 0.72rem;
+  font-weight: 800;
+  padding: 5px 12px;
+  border-radius: 99px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.price-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.45rem;
+  text-transform: uppercase;
+  margin-bottom: 0.6rem;
+  letter-spacing: 0.01em;
+}
+.price-val {
+  font-family: var(--font-display);
+  font-size: 2.4rem;
+  color: var(--accent);
+  margin-bottom: 1.6rem;
+  font-weight: 800;
+}
+.price-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2.2rem;
+  display: grid;
+  gap: 0.9rem;
+  flex: 1;
+}
+.price-features li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.96rem;
+  color: var(--muted);
+}
+.price-features svg {
+  width: 18px;
+  height: 18px;
+  stroke: var(--accent);
+  stroke-width: 3;
+  fill: none;
+  flex-shrink: 0;
+}
+.price-card .btn {
+  width: 100%;
+  justify-content: center;
+}
+
+/* ---------------- STEPS ---------------- */
+.steps-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  margin-top: 2.2rem;
+}
+.step-card {
+  background: var(--surface2);
+  border-radius: var(--r);
+  padding: 28px 24px;
+  position: relative;
+  border: 1px solid var(--line);
+  transition: border-color .3s;
+}
+.step-card:hover {
+  border-color: var(--accent);
+}
+.step-num {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  font-family: var(--font-display);
+  font-size: 3rem;
+  color: color-mix(in srgb, var(--accent) 18%, transparent);
+  line-height: 1;
+  font-weight: 800;
+}
+.step-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  margin-top: 1.4rem;
+  margin-bottom: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+.step-card p {
+  font-size: 0.94rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+/* ---------------- FAQ ---------------- */
+.faq-list {
+  max-width: 800px;
+  margin: 2.2rem auto 0;
+  display: grid;
+  gap: 14px;
+}
+.faq-item {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  overflow: hidden;
+  transition: border-color 0.25s, box-shadow 0.25s;
+}
+.faq-item:hover {
+  border-color: color-mix(in srgb, var(--accent) 45%, var(--line));
+  box-shadow: 0 4px 16px rgba(0,0,0,0.02);
+}
+.faq-item summary {
+  padding: 22px 26px;
+  font-weight: 700;
+  font-size: 1.08rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  user-select: none;
+}
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+.faq-item summary::after {
+  content: "+";
+  font-size: 1.6rem;
+  font-weight: 300;
+  transition: transform 0.25s;
+  color: var(--accent);
+}
+.faq-item[open] summary::after {
+  transform: rotate(45deg);
+}
+.faq-item p {
+  padding: 0 26px 22px;
+  color: var(--muted);
+  font-size: 0.98rem;
+  line-height: 1.65;
+}
+
+/* ---------------- LEAD FORM ---------------- */
+.lead-form-box {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  padding: clamp(24px, 4.5vw, 44px);
+  max-width: 620px;
+  margin: 2.2rem auto 0;
+  box-shadow: var(--shadow);
+  position: relative;
+  overflow: hidden;
+}
+.lead-form-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--accent), var(--accent2));
+}
+.lead-form-box h3 {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+.lead-form-box p {
+  color: var(--muted);
+  font-size: 0.94rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.form-grid {
+  display: grid;
+  gap: 1.2rem;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+.form-group label {
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text);
+}
+.form-input {
+  background: var(--surface2);
+  border: 1px solid var(--line);
+  padding: 13px 18px;
+  border-radius: 8px;
+  color: var(--text);
+  font-family: inherit;
+  font-size: 0.98rem;
+  transition: border-color 0.25s, box-shadow 0.25s;
+}
+.form-input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 15%, transparent);
+}
+.form-submit {
+  width: 100%;
+  margin-top: 1rem;
+  font-size: 1.05rem;
+  padding: 1.1em 1.5em;
+  cursor: pointer;
+}
+
 </style>
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "LocalBusiness", "name": "Smart Security Systems București", "image": "https://images.unsplash.com/photo-1581094288338-2314dddb7ecc?auto=format&fit=crop&w=1200&q=80", "telephone": "0722 990 220", "address": {"@type": "PostalAddress", "streetAddress": "Calea Rahovei nr. 182, Sector 5, București", "addressLocality": "Sector 5", "addressCountry": "RO"}}
@@ -473,9 +640,12 @@ body{
     </a>
     <nav class="nav" aria-label="Principal">
       <a href="#servicii">Servicii</a>
+      <a href="#proces">Cum lucrăm</a>
+      <a href="#preturi">Prețuri</a>
       <a href="#dece">De ce noi</a>
       <a href="#acoperire">Acoperire</a>
       <a href="#recenzii">Recenzii</a>
+      <a href="#faq">Întrebări frecvente</a>
       <a href="#contact">Contact</a>
     </nav>
     <div class="head-cta">
@@ -565,6 +735,93 @@ body{
     </div>
   </section>
 
+  <!-- ETAPE PROCES -->
+  <section class="section section-alt" id="proces">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="kicker">Cum lucrăm</p>
+        <h2>Procesul nostru de lucru</h2>
+        <p class="sub">Iată pașii simpli pe care îi urmăm pentru a ne asigura că obții rezultatul perfect.</p>
+      </header>
+      <div class="steps-grid">
+  <article class="step-card reveal">
+    <span class="step-num">1</span>
+    <h3>Solicitare Rapidă</h3>
+    <p>Ne contactați prin telefon, WhatsApp sau formularul online și ne spuneți de ce aveți nevoie.</p>
+  </article>
+  <article class="step-card reveal">
+    <span class="step-num">2</span>
+    <h3>Estimare & Detalii</h3>
+    <p>Stabilim detaliile tehnice ale lucrării și îți oferim o estimare clară și corectă de preț.</p>
+  </article>
+  <article class="step-card reveal">
+    <span class="step-num">3</span>
+    <h3>Execuție Profesională</h3>
+    <p>Specialiștii noștri intervin cu echipamente moderne și finalizează lucrarea rapid.</p>
+  </article>
+  <article class="step-card reveal">
+    <span class="step-num">4</span>
+    <h3>Recepție & Garanție</h3>
+    <p>Verificăm calitatea execuției împreună și beneficiezi de garanția oferită.</p>
+  </article>
+</div>
+    </div>
+  </section>
+
+  <!-- PACHETE PREȚURI -->
+  <section class="section" id="preturi">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="kicker">Tarife transparente</p>
+        <h2>Alege pachetul potrivit bugetului tău</h2>
+        <p class="sub">Oferim prețuri competitive, fără costuri ascunse sau surprize la final.</p>
+      </header>
+      
+    <div class="pricing-grid">
+      <article class="price-card reveal">
+        <h3>Pachet Standard</h3>
+        <div class="price-val">De la 190 RON</div>
+        <ul class="price-features">
+          <li><svg viewBox="0 0 24 24"><path d="M5 13l4 4 10-12"/></svg> Instalare Sisteme Alarmă Ajax</li>
+      <li><svg viewBox="0 0 24 24"><path d="M5 13l4 4 10-12"/></svg> Suport telefonic</li>
+      <li><svg viewBox="0 0 24 24"><path d="M5 13l4 4 10-12"/></svg> Estimare gratuită de preț</li>
+
+        </ul>
+        <a class="btn btn-ghost" href="https://wa.me/40722990220?text=Bun%C4%83%20ziua%21%20Doresc%20oferta%20pentru%20pachetul%20Standard%20de%20la%20Smart%20Security%20Systems%20Bucure%C8%99ti." target="_blank" rel="noopener">Alege pachetul</a>
+      </article>
+      
+      <article class="price-card popular reveal">
+        <span class="price-badge">Recomandat</span>
+        <h3>Pachet Premium</h3>
+        <div class="price-val">De la 390 RON</div>
+        <ul class="price-features">
+          <li><svg viewBox="0 0 24 24"><path d="M5 13l4 4 10-12"/></svg> Instalare Sisteme Alarmă Ajax</li>
+      <li><svg viewBox="0 0 24 24"><path d="M5 13l4 4 10-12"/></svg> Camere Supraveghere Video IP</li>
+      <li><svg viewBox="0 0 24 24"><path d="M5 13l4 4 10-12"/></svg> Prioritate în planificare</li>
+      <li><svg viewBox="0 0 24 24"><path d="M5 13l4 4 10-12"/></svg> Consultare detaliată</li>
+
+        </ul>
+        <a class="btn btn-call" href="https://wa.me/40722990220?text=Bun%C4%83%20ziua%21%20Doresc%20oferta%20pentru%20pachetul%20Premium%20%28Recomandat%29%20de%20la%20Smart%20Security%20Systems%20Bucure%C8%99ti." target="_blank" rel="noopener">Alege pachetul</a>
+      </article>
+      
+      <article class="price-card reveal">
+        <h3>Pachet Complet</h3>
+        <div class="price-val">La Cerere</div>
+        <ul class="price-features">
+          <li><svg viewBox="0 0 24 24"><path d="M5 13l4 4 10-12"/></svg> Instalare Sisteme Alarmă Ajax</li>
+      <li><svg viewBox="0 0 24 24"><path d="M5 13l4 4 10-12"/></svg> Camere Supraveghere Video IP</li>
+      <li><svg viewBox="0 0 24 24"><path d="M5 13l4 4 10-12"/></svg> Sisteme Control Acces & Interfoane</li>
+      <li><svg viewBox="0 0 24 24"><path d="M5 13l4 4 10-12"/></svg> Asistență premium 24/7</li>
+      <li><svg viewBox="0 0 24 24"><path d="M5 13l4 4 10-12"/></svg> Garanție extinsă inclusă</li>
+
+        </ul>
+        <a class="btn btn-ghost" href="https://wa.me/40722990220?text=Bun%C4%83%20ziua%21%20Doresc%20oferta%20pentru%20pachetul%20Complet%20/%20Custom%20de%20la%20Smart%20Security%20Systems%20Bucure%C8%99ti." target="_blank" rel="noopener">Cere cotație</a>
+      </article>
+    </div>
+    
+    </div>
+  </section>
+
   <!-- DE CE NOI -->
   <section class="section section-alt" id="dece">
     <div class="wrap feature">
@@ -642,6 +899,79 @@ body{
     </div>
   </section>
 
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="kicker">Întrebări frecvente</p>
+        <h2>Tot ce trebuie să știi</h2>
+        <p class="sub">Răspunsuri la cele mai comune întrebări despre serviciile noastre.</p>
+      </header>
+      <div class="faq-list">
+  <details class="faq-item reveal">
+    <summary>Cât durează montarea unui sistem de supraveghere complet?</summary>
+    <p>Pentru o locuință standard, instalarea camerelor și configurarea DVR/NVR-ului se finalizează într-o singură zi de lucru.</p>
+  </details>
+  <details class="faq-item reveal">
+    <summary>Pot vizualiza imaginile de pe telefon când sunt plecat?</summary>
+    <p>Da, configurăm aplicația mobilă pe telefoanele dvs. astfel încât să puteți urmări live sau înregistrările de oriunde din lume.</p>
+  </details>
+  <details class="faq-item reveal">
+    <summary>Ce se întâmplă dacă se oprește curentul electric?</summary>
+    <p>Sistemele noastre pot fi echipate cu UPS-uri și acumulatori de rezervă pentru a continua funcționarea timp de câteva ore în caz de pană.</p>
+  </details>
+  <details class="faq-item reveal">
+    <summary>Oferiți suport tehnic post-instalare?</summary>
+    <p>Desigur, asigurăm mentenanță periodică, suport tehnic telefonic și intervenții rapide în caz de defecțiuni.</p>
+  </details>
+</div>
+    </div>
+  </section>
+
+  <!-- SOLICITĂ OFERTĂ -->
+  <section class="section section-alt" id="oferta">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="kicker">Contact rapid</p>
+        <h2>Solicită o estimare gratuită de preț</h2>
+        <p class="sub">Completează datele de mai jos și trimite cererea ta direct pe WhatsApp. Îți răspundem în cel mai scurt timp!</p>
+      </header>
+      
+    <div class="lead-form-box reveal">
+      <h3>Trimite o Solicitare</h3>
+      <p>Alege serviciul dorit și trimite solicitarea direct pe WhatsApp. Te contactăm imediat!</p>
+      <form id="lead-form" data-wa="40722990220">
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="form-name">Numele Tău</label>
+            <input type="text" id="form-name" class="form-input" placeholder="ex: Popescu Ion" required>
+          </div>
+          <div class="form-group">
+            <label for="form-phone">Număr de Telefon</label>
+            <input type="tel" id="form-phone" class="form-input" placeholder="ex: 0722 111 222" required>
+          </div>
+          <div class="form-group">
+            <label for="form-service">Serviciul Solicitat</label>
+            <select id="form-service" class="form-input" required>
+              <option value="Instalare Sisteme Alarmă Ajax">Instalare Sisteme Alarmă Ajax</option>
+<option value="Camere Supraveghere Video IP">Camere Supraveghere Video IP</option>
+<option value="Sisteme Control Acces & Interfoane">Sisteme Control Acces & Interfoane</option>
+<option value="Altceva / Altele">Altceva / Altele</option>
+
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="form-message">Mesaj / Detalii suplimentare</label>
+            <textarea id="form-message" class="form-input" rows="3" placeholder="Spune-ne mai multe detalii despre proiectul tău..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-call form-submit">Trimite Solicitarea pe WhatsApp</button>
+        </div>
+      </form>
+    </div>
+    
+    </div>
+  </section>
+
   <!-- CONTACT -->
   <section class="section" id="contact">
     <div class="wrap contact">
@@ -673,7 +1003,7 @@ body{
       <span>Sector 5</span>
     </div>
     <nav class="foot-nav" aria-label="Footer">
-      <a href="#servicii">Servicii</a><a href="#acoperire">Acoperire</a><a href="#recenzii">Recenzii</a><a href="#contact">Contact</a>
+      <a href="#servicii">Servicii</a><a href="#proces">Cum lucrăm</a><a href="#preturi">Prețuri</a><a href="#faq">Întrebări frecvente</a><a href="#recenzii">Recenzii</a><a href="#contact">Contact</a>
     </nav>
     <p class="foot-legal">© <span id="y"></span> Smart Security Systems București · Toate drepturile rezervate.<br>Website de prezentare premium realizat automat.</p>
   </div>
@@ -765,137 +1095,28 @@ body{
     var onScroll = function () { head.classList.toggle('scrolled', window.scrollY > 8); };
     addEventListener('scroll', onScroll, { passive: true }); onScroll();
   }
-
-  /* parallax subtil pe hero + banda hazard ca progres de citire */
-  var heroImg = document.querySelector('.hero-media img');
-  var chevFill = document.querySelector('.chevron-bar__fill');
-  if (!reduce && (heroImg || chevFill)) {
-    var fxTick = false;
-    var runFx = function () {
-      var y = window.scrollY || 0;
-      var doc = document.documentElement;
-      var max = (doc.scrollHeight - doc.clientHeight) || 1;
-      var p = Math.min(Math.max(y / max, 0), 1);
-      if (chevFill) {
-        chevFill.style.right = (100 - p * 100).toFixed(2) + '%';
-        chevFill.style.backgroundPositionX = (-y * 0.35) + 'px';
-      }
-      if (heroImg && y < innerHeight) {
-        heroImg.style.transform = 'translate3d(0,' + (y * 0.08).toFixed(1) + 'px,0) scale(1.12)';
-      }
-      fxTick = false;
-    };
-    if (heroImg) { heroImg.style.transformOrigin = 'center'; heroImg.style.transform = 'scale(1.12)'; }
-    addEventListener('scroll', function () { if (!fxTick) { fxTick = true; requestAnimationFrame(runFx); } }, { passive: true });
-    runFx();
-  }
-
-  /* carusel recenzii pe mobil: dots + sincronizare cu swipe */
-  var track = document.getElementById('reviews-track');
-  var dotsWrap = document.querySelector('.review-dots');
-  if (track && dotsWrap) {
-    var rcards = [].slice.call(track.querySelectorAll('.review'));
-    if (rcards.length > 1) {
-      rcards.forEach(function (c, i) {
-        var b = document.createElement('button');
-        b.className = 'dot'; b.type = 'button';
-        b.setAttribute('aria-label', 'Recenzia ' + (i + 1));
-        if (i === 0) b.setAttribute('aria-current', 'true');
-        b.addEventListener('click', function () {
-          c.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', inline: 'center', block: 'nearest' });
-        });
-        dotsWrap.appendChild(b);
-      });
-      var dots = [].slice.call(dotsWrap.children);
-      if ('IntersectionObserver' in window) {
-        var rio = new IntersectionObserver(function (entries) {
-          entries.forEach(function (en) {
-            if (!en.isIntersecting) return;
-            var idx = rcards.indexOf(en.target);
-            dots.forEach(function (d, di) {
-              if (di === idx) d.setAttribute('aria-current', 'true');
-              else d.removeAttribute('aria-current');
-            });
-          });
-        }, { root: track, threshold: 0.6 });
-        rcards.forEach(function (c) { rio.observe(c); });
-      }
-    }
-  }
-
-  /* carduri: tilt 3D mic + spotlight care urmărește cursorul (doar desktop, mouse) */
-  var fine = matchMedia('(hover:hover) and (pointer:fine)').matches;
-  if (fine && !reduce) {
-    [].slice.call(document.querySelectorAll('.services .card')).forEach(function (card) {
-      card.addEventListener('pointermove', function (e) {
-        var r = card.getBoundingClientRect();
-        var x = (e.clientX - r.left) / r.width, y = (e.clientY - r.top) / r.height;
-        card.style.setProperty('--mx', (x * 100).toFixed(1) + '%');
-        card.style.setProperty('--my', (y * 100).toFixed(1) + '%');
-        var rx = (0.5 - y) * 5, ry = (x - 0.5) * 5;
-        card.style.transform = 'perspective(820px) rotateX(' + rx.toFixed(2) + 'deg) rotateY(' + ry.toFixed(2) + 'deg) translateY(-6px)';
-      });
-      card.addEventListener('pointerleave', function () { card.style.transform = ''; });
-    });
-  }
-
-  /* hartă „facade": încarcă iframe-ul Google DOAR la click (economie ~1MB la load) */
-  var facade = document.querySelector('.map-facade');
-  if (facade) {
-    var loadMap = function () {
-      var src = facade.getAttribute('data-map');
-      if (!src) return;
-      var f = document.createElement('iframe');
-      f.title = 'Hartă FLORSIMINTEX';
-      f.src = src;
-      f.loading = 'lazy';
-      f.setAttribute('referrerpolicy', 'no-referrer-when-downgrade');
-      facade.innerHTML = '';
-      facade.classList.remove('map-facade');
-      facade.removeAttribute('role'); facade.removeAttribute('tabindex'); facade.removeAttribute('aria-label');
-      facade.appendChild(f);
-    };
-    facade.addEventListener('click', loadMap);
-    facade.addEventListener('keydown', function (e) {
-      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); loadMap(); }
-    });
-  }
-
-  /* „Sunt blocat aici": trimite locația GPS live pe WhatsApp */
-  [].slice.call(document.querySelectorAll('a[data-geo]')).forEach(function (el) {
-    el.addEventListener('click', function (e) {
-      if (!navigator.geolocation) return; /* fallback: linkul WhatsApp normal */
-      e.preventDefault();
-      var wa = el.getAttribute('data-wa');
-      var fallback = el.getAttribute('href');
-      var done = false;
-      var go = function (href) { if (!done) { done = true; window.location.href = href; } };
-      el.classList.add('loc-loading');
-      navigator.geolocation.getCurrentPosition(function (pos) {
-        el.classList.remove('loc-loading');
-        var lat = pos.coords.latitude.toFixed(6), lng = pos.coords.longitude.toFixed(6);
-        var msg = encodeURIComponent('Bună ziua! Am rămas în pană și am nevoie de tractare. Sunt blocat aici: https://maps.google.com/?q=' + lat + ',' + lng);
-        go('https://wa.me/' + wa + '?text=' + msg);
-      }, function () {
-        el.classList.remove('loc-loading');
-        go(fallback);
-      }, { enableHighAccuracy: true, timeout: 9000, maximumAge: 60000 });
-    });
-  });
-
-  /* pauză animație ticker când nu e vizibil (economie CPU/baterie) */
-  var ticker = document.querySelector('.ticker-track');
-  if (ticker && !reduce && 'IntersectionObserver' in window) {
-    var tio = new IntersectionObserver(function (en) {
-      ticker.style.animationPlayState = en[0].isIntersecting ? 'running' : 'paused';
-    }, { threshold: 0 });
-    tio.observe(document.querySelector('.ticker'));
-  }
-
-  /* service worker — offline + load instant repetat */
-  ); });
-  }
 })();
+
+
+  /* Formular contact -> WhatsApp */
+  var leadForm = document.getElementById('lead-form');
+  if (leadForm) {
+    leadForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var name = document.getElementById('form-name').value;
+      var phone = document.getElementById('form-phone').value;
+      var srv = document.getElementById('form-service').value;
+      var msg = document.getElementById('form-message').value;
+      var waNumber = leadForm.getAttribute('data-wa');
+      
+      var text = "Bună ziua! Numele meu este " + name + " (tel: " + phone + "). " +
+                 "Aș dori o cotație pentru serviciul: " + srv + ". " +
+                 (msg ? "Detalii suplimentare: " + msg : "");
+      
+      var waUrl = "https://wa.me/" + waNumber + "?text=" + encodeURIComponent(text);
+      window.open(waUrl, '_blank');
+    });
+  }
 
 </script>
 </body>
