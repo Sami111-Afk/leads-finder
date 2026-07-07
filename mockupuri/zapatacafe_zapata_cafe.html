@@ -1,0 +1,897 @@
+<!doctype html>
+<html lang="ro" class="theme-clean">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zapata Cafe — Cafea proaspăt prăjită în inima orașului</title>
+<meta name="description" content="Zapata Cafe oferă cafea de specialitate 100% Arabica, prăjită local și preparată perfect în Sector 1. Sunați la 0734 442 211 pentru detalii.">
+<meta name="theme-color" content="#fbfaf7">
+<meta property="og:title" content="Zapata Cafe — Cafea proaspăt prăjită în inima orașului">
+<meta property="og:description" content="Zapata Cafe oferă cafea de specialitate 100% Arabica, prăjită local și preparată perfect în Sector 1.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://images.unsplash.com/photo-1581094288338-2314dddb7ecc?auto=format&fit=crop&w=1200&q=80">
+<link rel="preload" as="image" href="https://images.unsplash.com/photo-1581094288338-2314dddb7ecc?auto=format&fit=crop&w=1200&q=80" fetchpriority="high">
+<style>
+/* ============================================================
+   FLORSIMINTEX · base.css
+   Reset, fonturi self-hosted, tokens neutri, layout primitives,
+   header / footer / butoane de bază, animații.
+   Culorile + atmosfera vin din css/theme-*.css (suprascriu --vars).
+   ============================================================ */
+
+/* ---------- fonturi self-hosted (zero request extern, GDPR-friendly) ---------- */
+@font-face{font-family:'Anton';font-style:normal;font-weight:400;font-display:swap;
+  src:url(https://sami111-afk.github.io/leads-finder/florsimintex/assets/fonts/anton-latin-ext.woff2) format('woff2');
+  unicode-range:U+0100-02BA,U+0102-0103,U+0110-0111,U+0118-0119,U+015E-015F,U+0162-0163,U+0218-021B,U+1E00-1EFF,U+2C60-2C7F,U+A720-A7FF;}
+@font-face{font-family:'Anton';font-style:normal;font-weight:400;font-display:swap;
+  src:url(https://sami111-afk.github.io/leads-finder/florsimintex/assets/fonts/anton-latin.woff2) format('woff2');
+  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+2000-206F,U+20AC,U+2122,U+2212;}
+@font-face{font-family:'PJS';font-weight:400;font-display:swap;src:url(https://sami111-afk.github.io/leads-finder/florsimintex/assets/fonts/pjs-400-latin-ext.woff2) format('woff2');unicode-range:U+0100-024F,U+0218-021B,U+1E00-1EFF;}
+@font-face{font-family:'PJS';font-weight:400;font-display:swap;src:url(https://sami111-afk.github.io/leads-finder/florsimintex/assets/fonts/pjs-400-latin.woff2) format('woff2');unicode-range:U+0000-00FF;}
+@font-face{font-family:'PJS';font-weight:500;font-display:swap;src:url(https://sami111-afk.github.io/leads-finder/florsimintex/assets/fonts/pjs-500-latin-ext.woff2) format('woff2');unicode-range:U+0100-024F,U+0218-021B,U+1E00-1EFF;}
+@font-face{font-family:'PJS';font-weight:500;font-display:swap;src:url(https://sami111-afk.github.io/leads-finder/florsimintex/assets/fonts/pjs-500-latin.woff2) format('woff2');unicode-range:U+0000-00FF;}
+@font-face{font-family:'PJS';font-weight:600;font-display:swap;src:url(https://sami111-afk.github.io/leads-finder/florsimintex/assets/fonts/pjs-600-latin-ext.woff2) format('woff2');unicode-range:U+0100-024F,U+0218-021B,U+1E00-1EFF;}
+@font-face{font-family:'PJS';font-weight:600;font-display:swap;src:url(https://sami111-afk.github.io/leads-finder/florsimintex/assets/fonts/pjs-600-latin.woff2) format('woff2');unicode-range:U+0000-00FF;}
+@font-face{font-family:'PJS';font-weight:700;font-display:swap;src:url(https://sami111-afk.github.io/leads-finder/florsimintex/assets/fonts/pjs-700-latin-ext.woff2) format('woff2');unicode-range:U+0100-024F,U+0218-021B,U+1E00-1EFF;}
+@font-face{font-family:'PJS';font-weight:700;font-display:swap;src:url(https://sami111-afk.github.io/leads-finder/florsimintex/assets/fonts/pjs-700-latin.woff2) format('woff2');unicode-range:U+0000-00FF;}
+@font-face{font-family:'PJS';font-weight:800;font-display:swap;src:url(https://sami111-afk.github.io/leads-finder/florsimintex/assets/fonts/pjs-800-latin-ext.woff2) format('woff2');unicode-range:U+0100-024F,U+0218-021B,U+1E00-1EFF;}
+@font-face{font-family:'PJS';font-weight:800;font-display:swap;src:url(https://sami111-afk.github.io/leads-finder/florsimintex/assets/fonts/pjs-800-latin.woff2) format('woff2');unicode-range:U+0000-00FF;}
+
+/* ---------- tokens impliciti (suprascriși de teme) ---------- */
+:root{
+  --bg:#0d0f12; --bg2:#121519; --surface:#16191e; --surface2:#1c2026;
+  --line:#272c33; --text:#f2f3f1; --muted:#9aa1ab;
+  --accent:#ff2e2e; --accent2:#ffb300; --accent-ink:#fff;
+  --wa:#25d366; --wa-ink:#0a3d1f;
+  --font-display:'Anton',Impact,'Arial Narrow Bold',sans-serif;
+  --font-body:'PJS',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+  --maxw:1180px; --pad:clamp(20px,5vw,40px);
+  --r:16px; --r-sm:10px; --r-lg:26px;
+  --shadow:0 18px 50px rgba(0,0,0,.45);
+  --ease:cubic-bezier(.2,.7,.2,1);
+  --hero-grad:linear-gradient(180deg,rgba(8,9,11,.35) 0%,rgba(8,9,11,.55) 45%,rgba(8,9,11,.92) 100%);
+}
+
+/* ---------- reset ---------- */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{
+  font-family:var(--font-body);background:var(--bg);color:var(--text);
+  line-height:1.6;font-size:clamp(1rem,.97rem + .2vw,1.075rem);
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden;
+}
+img,svg{display:block;max-width:100%}
+img{height:auto}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+h1,h2,h3{line-height:1.05;font-weight:400}
+button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:4px}
+::selection{background:var(--accent);color:var(--accent-ink)}
+
+/* ---------- layout primitives ---------- */
+.wrap{width:100%;max-width:var(--maxw);margin-inline:auto;padding-inline:var(--pad)}
+.section{padding:clamp(64px,9vw,120px) 0}
+.section-alt{background:var(--bg2)}
+.kicker{font-family:var(--font-body);font-weight:800;text-transform:uppercase;letter-spacing:.22em;
+  font-size:.74rem;color:var(--accent);margin-bottom:1rem;display:flex;align-items:center;gap:.6rem}
+.sec-head{max-width:60ch;margin-bottom:clamp(36px,5vw,60px)}
+.sec-head h2,.feature-text h2,.contact-text h2{
+  font-family:var(--font-display);font-size:clamp(2rem,1.3rem + 3.4vw,3.6rem);
+  letter-spacing:.005em;text-transform:uppercase}
+.sub{color:var(--muted);font-size:1.08rem;margin-top:1rem;max-width:56ch}
+
+/* ---------- skip link ---------- */
+.skip{position:fixed;left:12px;top:-60px;z-index:200;background:var(--accent);color:var(--accent-ink);
+  padding:10px 16px;border-radius:8px;font-weight:700;transition:top .2s}
+.skip:focus{top:12px}
+
+/* ---------- butoane ---------- */
+.btn{display:inline-flex;align-items:center;gap:.6rem;font-weight:700;font-size:1rem;
+  padding:.85em 1.3em;border-radius:var(--r-sm);transition:transform .2s var(--ease),box-shadow .2s,background .2s,border-color .2s;
+  border:1px solid transparent;white-space:nowrap}
+.btn svg{width:1.25em;height:1.25em;flex:none}
+.btn:active{transform:translateY(1px)}
+.btn-call{background:var(--accent);color:var(--accent-ink);box-shadow:0 8px 24px -8px var(--accent)}
+.btn-call:hover{transform:translateY(-3px);box-shadow:0 14px 30px -10px var(--accent)}
+.btn-call svg{fill:currentColor;stroke:none}
+.btn-wa{background:var(--wa);color:#053a1c}
+.btn-wa svg{fill:currentColor;stroke:none}
+.btn-wa:hover{transform:translateY(-3px);box-shadow:0 12px 28px -10px var(--wa)}
+.btn-ghost{background:transparent;border-color:var(--line);color:var(--text)}
+.btn-ghost svg{fill:none;stroke:currentColor;stroke-width:2}
+.btn-ghost:hover{border-color:var(--accent);color:var(--accent)}
+
+/* iconițele inline din .btn-ghost / generale: linie */
+.btn-ghost svg path,.btn-ghost svg circle{vector-effect:non-scaling-stroke}
+
+/* ---------- HEADER ---------- */
+.site-head{position:sticky;top:0;z-index:100;background:color-mix(in srgb,var(--bg) 86%,transparent);
+  backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.head-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;height:72px}
+.brand{display:flex;align-items:center;gap:.7rem}
+.brand-mark{display:grid;place-items:center;width:42px;height:42px;border-radius:10px;
+  background:var(--accent);color:var(--accent-ink);flex:none}
+.brand-mark svg{width:26px;height:26px;fill:none;stroke:currentColor;stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round}
+.brand-txt{display:flex;flex-direction:column;line-height:1}
+.brand-txt b{font-family:var(--font-display);font-size:1.5rem;letter-spacing:.04em}
+.brand-txt i{font-style:normal;font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin-top:3px}
+.nav{display:flex;gap:1.6rem}
+.nav a{font-weight:600;font-size:.95rem;color:var(--muted);position:relative;padding:4px 0;transition:color .2s}
+.nav a::after{content:"";position:absolute;left:0;right:100%;bottom:-2px;height:2px;background:var(--accent);transition:right .25s var(--ease)}
+.nav a:hover{color:var(--text)}
+.nav a:hover::after{right:0}
+.head-cta{display:flex;align-items:center;gap:12px}
+.head-cta .btn-ghost{padding:.6em 1em}
+.burger{display:none;flex-direction:column;gap:5px;width:42px;height:42px;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:10px}
+.burger span{width:20px;height:2px;background:var(--text);transition:.25s}
+
+/* ---------- FOOTER ---------- */
+.site-foot{background:var(--bg2);border-top:1px solid var(--line);padding:clamp(40px,6vw,64px) 0 40px}
+.foot-inner{display:grid;gap:26px}
+.foot-brand{display:flex;align-items:center;gap:.8rem}
+.foot-brand .brand-mark{width:46px;height:46px}
+.foot-brand b{font-family:var(--font-display);font-size:1.4rem;letter-spacing:.04em;display:block}
+.foot-brand span{color:var(--muted);font-size:.85rem}
+.foot-nav{display:flex;gap:1.4rem;flex-wrap:wrap}
+.foot-nav a{color:var(--muted);font-weight:600;font-size:.95rem}
+.foot-nav a:hover{color:var(--accent)}
+.foot-legal{color:var(--muted);font-size:.82rem;line-height:1.7;border-top:1px solid var(--line);padding-top:22px}
+
+/* ---------- animații reveal ---------- */
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
+.reveal.in{opacity:1;transform:none}
+.reveal.d1{transition-delay:.08s}.reveal.d2{transition-delay:.16s}.reveal.d3{transition-delay:.24s}
+@media (prefers-reduced-motion:reduce){
+  .reveal{opacity:1;transform:none;transition:none}
+  *{animation:none!important}
+}
+
+/* ---------- responsive header ---------- */
+@media (max-width:880px){
+  .nav{position:fixed;inset:72px 0 auto 0;flex-direction:column;gap:0;background:var(--bg);
+    border-bottom:1px solid var(--line);padding:8px var(--pad) 18px;transform:translateY(-130%);
+    transition:transform .35s var(--ease);box-shadow:var(--shadow)}
+  .nav.open{transform:none}
+  .nav a{padding:14px 0;border-bottom:1px solid var(--line);font-size:1.05rem}
+  .nav a::after{display:none}
+  .burger{display:flex}
+  .head-cta .btn-ghost span{display:none}
+  .head-cta .btn-ghost{padding:.6em}
+}
+
+/* ============================================================
+   FLORSIMINTEX · components.css
+   Layout-ul secțiunilor. Folosește tokenii din base.css / teme.
+   ============================================================ */
+
+/* ---------------- HERO ---------------- */
+.hero{position:relative;min-height:clamp(560px,90vh,860px);display:flex;align-items:flex-end;
+  padding-block:clamp(40px,8vh,90px);overflow:hidden;isolation:isolate}
+.hero-media{position:absolute;inset:0;z-index:-2}
+.hero-media img{width:100%;height:100%;object-fit:cover;object-position:center 38%}
+.hero-overlay{position:absolute;inset:0;z-index:-1;background:var(--hero-grad)}
+.hero-inner{position:relative;max-width:760px}
+.eyebrow{display:inline-flex;align-items:center;gap:.6rem;font-weight:800;text-transform:uppercase;
+  letter-spacing:.16em;font-size:.78rem;color:#fff;background:color-mix(in srgb,var(--accent) 92%,#000);
+  padding:.5em 1em;border-radius:999px;margin-bottom:1.4rem}
+.ping{width:9px;height:9px;border-radius:50%;background:#fff;box-shadow:0 0 0 0 rgba(255,255,255,.7);animation:ping 1.8s infinite}
+@keyframes ping{0%{box-shadow:0 0 0 0 rgba(255,255,255,.6)}70%{box-shadow:0 0 0 12px rgba(255,255,255,0)}100%{box-shadow:0 0 0 0 rgba(255,255,255,0)}}
+.hero h1{font-family:var(--font-display);text-transform:uppercase;color:#fff;
+  font-size:clamp(2.7rem,1.4rem + 7vw,6rem);letter-spacing:.01em;text-shadow:0 6px 30px rgba(0,0,0,.5)}
+.hero h1 em{font-style:normal;color:var(--accent2);-webkit-text-stroke:0}
+.hero .lead{color:#e7e9ec;font-size:clamp(1.05rem,1rem + .5vw,1.3rem);max-width:54ch;margin:1.3rem 0 2rem;text-shadow:0 2px 12px rgba(0,0,0,.6)}
+.hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:1.8rem}
+.hero-actions .btn{font-size:1.06rem;padding:1em 1.5em}
+.hero-chips{display:flex;flex-wrap:wrap;gap:.6rem 1.4rem;color:#fff}
+.hero-chips li{display:inline-flex;align-items:center;gap:.45rem;font-weight:600;font-size:.92rem;text-shadow:0 2px 10px rgba(0,0,0,.7)}
+.hero-chips svg{width:18px;height:18px;fill:none;stroke:var(--accent2);stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+
+/* ---------------- TICKER ---------------- */
+.ticker{background:var(--accent);color:var(--accent-ink);overflow:hidden;border-block:3px solid color-mix(in srgb,var(--accent) 60%,#000);
+  -webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);
+          mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+.ticker-track{display:flex;gap:0;width:max-content;animation:scroll 32s linear infinite}
+.ticker:hover .ticker-track{animation-play-state:paused}
+.ticker-track span{display:inline-flex;align-items:center;gap:.5rem;padding:.7em 1.6em;font-family:var(--font-display);
+  font-size:1.15rem;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap}
+.ticker-track span svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2.4;opacity:.7}
+.ticker-track span::after{content:"";width:6px;height:6px;border-radius:50%;background:currentColor;opacity:.4;margin-left:1.4em}
+@keyframes scroll{to{transform:translateX(-33.333%)}}
+
+/* ---------------- STATS ---------------- */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(14px,2vw,28px);
+  margin-top:clamp(48px,7vw,76px);margin-bottom:clamp(8px,2vw,20px)}
+.stat{text-align:center;padding:18px 8px}
+.stat b{display:block;font-family:var(--font-display);font-size:clamp(2.4rem,1.5rem + 3.6vw,4.4rem);
+  line-height:1;color:var(--accent);letter-spacing:.01em}
+.stat span{display:block;color:var(--muted);font-size:.86rem;margin-top:.5rem;text-transform:uppercase;letter-spacing:.08em;font-weight:600}
+
+/* ---------------- SERVICII ---------------- */
+.services{display:grid;gap:clamp(16px,2vw,24px);grid-template-columns:repeat(auto-fit,minmax(290px,1fr))}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;
+  display:flex;flex-direction:column;transition:transform .3s var(--ease),border-color .3s,box-shadow .3s;position:relative}
+.card:hover{transform:translateY(-6px);border-color:color-mix(in srgb,var(--accent) 50%,var(--line));box-shadow:var(--shadow)}
+.card-media{aspect-ratio:16/10;overflow:hidden;background:var(--surface2)}
+.card-media img{width:100%;height:100%;object-fit:cover;transition:transform .6s var(--ease)}
+.card:hover .card-media img{transform:scale(1.06)}
+.card-body{padding:24px;display:flex;flex-direction:column;flex:1;gap:.5rem}
+.card-ico{display:grid;place-items:center;width:54px;height:54px;border-radius:13px;margin-bottom:.4rem;
+  background:color-mix(in srgb,var(--accent) 14%,transparent);color:var(--accent)}
+.card-ico svg{width:30px;height:30px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.card-tag{font-size:.7rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--accent2)}
+.card h3{font-family:var(--font-display);font-size:1.5rem;text-transform:uppercase;letter-spacing:.01em}
+.card p{color:var(--muted);font-size:.96rem;flex:1}
+.card-link{display:inline-flex;align-items:center;gap:.45rem;font-weight:700;color:var(--text);margin-top:.4rem;align-self:flex-start}
+.card-link svg{width:18px;height:18px;fill:none;stroke:var(--accent);stroke-width:2.4;transition:transform .25s var(--ease)}
+.card-link:hover{color:var(--accent)}
+.card-link:hover svg{transform:translateX(5px)}
+
+/* ---------------- FEATURE / DE CE NOI ---------------- */
+.feature{display:grid;grid-template-columns:1fr 1.05fr;gap:clamp(30px,5vw,70px);align-items:center}
+.feature-media{position:relative;border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--shadow)}
+.feature-media img{width:100%;aspect-ratio:3/4;object-fit:cover}
+.feature-badge{position:absolute;left:18px;bottom:18px;display:flex;align-items:center;gap:.7rem;
+  background:var(--accent);color:var(--accent-ink);padding:.8rem 1.1rem;border-radius:14px;box-shadow:0 12px 30px rgba(0,0,0,.4)}
+.feature-badge svg{width:30px;height:30px;fill:none;stroke:currentColor;stroke-width:2.2}
+.feature-badge b{font-family:var(--font-display);font-size:1.3rem;letter-spacing:.04em;display:block;line-height:1}
+.feature-badge span{font-size:.74rem;opacity:.85}
+.why{display:grid;gap:1.3rem;margin:2rem 0}
+.why li{display:flex;gap:1rem}
+.why-ico{flex:none;display:grid;place-items:center;width:48px;height:48px;border-radius:12px;
+  background:color-mix(in srgb,var(--accent) 14%,transparent);color:var(--accent)}
+.why-ico svg{width:26px;height:26px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.why b{font-size:1.1rem;display:block;margin-bottom:.15rem}
+.why p{color:var(--muted);font-size:.95rem}
+
+/* ---------------- ACOPERIRE ---------------- */
+.areas{display:flex;flex-wrap:wrap;gap:.7rem;margin-bottom:2.4rem}
+.area-pill{display:inline-flex;align-items:center;gap:.45rem;padding:.6em 1.1em;border-radius:999px;
+  border:1px solid var(--line);background:var(--surface);font-weight:600;transition:.25s}
+.area-pill:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-2px)}
+.area-pill svg{width:16px;height:16px;fill:none;stroke:var(--accent);stroke-width:2}
+.map-cta{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:18px;
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:clamp(20px,3vw,30px)}
+.map-cta b{font-size:1.15rem}
+.map-cta span{display:block;color:var(--muted);font-size:.92rem}
+
+/* ---------------- RECENZII ---------------- */
+.rating-line{display:flex;align-items:center;flex-wrap:wrap;gap:.4rem .6rem;margin-top:1rem;color:var(--muted)}
+.rating-line b{color:var(--text)}
+.stars{display:inline-flex;gap:2px}
+.stars .star{width:18px;height:18px;fill:var(--accent2);stroke:none}
+.stars .star.off{fill:color-mix(in srgb,var(--muted) 40%,transparent)}
+.reviews{display:grid;gap:clamp(16px,2vw,22px);grid-template-columns:repeat(auto-fit,minmax(270px,1fr))}
+.review{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:26px;display:flex;flex-direction:column;gap:1rem}
+.review .stars .star{width:20px;height:20px}
+.review blockquote{font-size:1.1rem;line-height:1.55;flex:1}
+.review figcaption{display:flex;align-items:center;gap:.7rem}
+.avatar{display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:var(--accent);
+  color:var(--accent-ink);font-weight:800;font-size:1.1rem;flex:none}
+.review figcaption b{display:block}
+.review figcaption i{font-style:normal;color:var(--muted);font-size:.85rem}
+
+/* ---------------- CONTACT ---------------- */
+.contact-inner{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(30px,5vw,60px);align-items:start}
+.contact-actions{display:flex;flex-wrap:wrap;gap:14px;margin:1.8rem 0}
+.contact-actions .btn{font-size:1.06rem;padding:1em 1.5em}
+.contact-list{display:grid;gap:.9rem}
+.contact-list li{display:flex;align-items:center;gap:.8rem;color:var(--muted)}
+.contact-list svg{width:22px;height:22px;fill:none;stroke:var(--accent);stroke-width:2;flex:none}
+.hours{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:clamp(22px,3vw,32px)}
+.hours h3{font-family:var(--font-display);font-size:1.6rem;text-transform:uppercase;margin-bottom:1rem}
+.hours table{width:100%;border-collapse:collapse}
+.hours td{padding:.85rem 0;border-bottom:1px solid var(--line);font-size:.96rem;vertical-align:top}
+.hours td:last-child{text-align:right;color:var(--muted);font-weight:600;white-space:nowrap;padding-left:14px}
+.hours td.hl{color:var(--accent);font-family:var(--font-display);letter-spacing:.05em;font-size:1.05rem}
+.hours tr:last-child td{border-bottom:0}
+.hours-note{display:flex;align-items:center;gap:.6rem;margin-top:1.1rem;color:var(--muted);font-size:.88rem}
+.hours-note svg{width:20px;height:20px;fill:none;stroke:var(--accent);stroke-width:2;flex:none}
+
+/* ---------------- DOCK (butoane flotante mobil) ---------------- */
+.dock{position:fixed;right:16px;bottom:16px;z-index:90;display:flex;flex-direction:column;gap:12px}
+.dock-btn{display:grid;place-items:center;width:58px;height:58px;border-radius:50%;box-shadow:0 10px 30px rgba(0,0,0,.45);
+  transition:transform .2s var(--ease)}
+.dock-btn svg{width:30px;height:30px;fill:currentColor}
+.dock-btn:hover{transform:scale(1.08)}
+.dock-call{background:var(--accent);color:var(--accent-ink)}
+.dock-call svg{width:26px;height:26px}
+.dock-wa{background:var(--wa);color:#fff;animation:bob 2.6s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+.dock-wa::after{content:"";position:absolute;inset:0;border-radius:50%;box-shadow:0 0 0 0 var(--wa);animation:ping2 2.4s infinite}
+.dock-wa{position:relative}
+@keyframes ping2{0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--wa) 70%,transparent)}70%{box-shadow:0 0 0 16px transparent}100%{box-shadow:0 0 0 0 transparent}}
+@media (min-width:881px){.dock{right:24px;bottom:24px}}
+
+/* ---------------- RESPONSIVE ---------------- */
+@media (max-width:880px){
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .feature{grid-template-columns:1fr}
+  .feature-media{max-width:440px;margin-inline:auto;order:-1}
+  .contact-inner{grid-template-columns:1fr}
+}
+@media (max-width:480px){
+  .hero-actions .btn{width:100%;justify-content:center}
+}
+
+/* ============================================================
+   UPGRADE UI — hero cinematic, semnătură, carduri, hartă,
+   carusel recenzii, bară de apel mobil
+   ============================================================ */
+
+/* ---------------- HERO: far care mătură (o singură dată) ---------------- */
+.hero-sweep{position:absolute;inset:0;z-index:-1;pointer-events:none;
+  background:linear-gradient(74deg,transparent 32%,color-mix(in srgb,var(--accent2) 60%,transparent) 46%,rgba(255,255,255,.10) 50%,transparent 64%);
+  transform:translateX(-130%);animation:heroSweep 2.3s var(--ease) .35s 1 both}
+@keyframes heroSweep{to{transform:translateX(130%)}}
+
+/* ---------------- SEMNĂTURĂ: banda hazard = progres de citire ---------------- */
+.chevron-bar{position:relative;overflow:hidden}
+.chevron-bar__fill{position:absolute;inset:0 100% 0 0;display:block;
+  background:repeating-linear-gradient(-45deg,var(--accent) 0 16px,#f3f3f0 16px 32px);
+  background-size:45px 100%;will-change:right,background-position;transition:right .12s linear}
+
+/* ---------------- CARD: spotlight care urmărește cursorul + placeholder ---------------- */
+.card{transform-style:preserve-3d;will-change:transform}
+.card-glow{position:absolute;inset:0;z-index:1;pointer-events:none;opacity:0;transition:opacity .35s var(--ease);
+  background:radial-gradient(240px circle at var(--mx,50%) var(--my,50%),color-mix(in srgb,var(--accent) 22%,transparent),transparent 62%)}
+.card:hover .card-glow{opacity:1}
+.card-body{position:relative;z-index:2}
+.card-media--ph{display:grid;place-items:center;position:relative;
+  background:radial-gradient(120% 120% at 70% 10%,color-mix(in srgb,var(--accent) 12%,var(--surface2)),var(--surface2))}
+.card-media--ph .ph-ico{display:grid;place-items:center;opacity:.9}
+.card-media--ph .ph-ico svg{width:88px;height:88px;fill:none;stroke:var(--accent);stroke-width:1.6;
+  stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 8px 18px rgba(0,0,0,.4))}
+
+/* ---------------- STATS: panou tip bord de mașină ---------------- */
+.stats{position:relative}
+.stat b{font-variant-numeric:tabular-nums;font-feature-settings:"tnum" 1}
+
+/* ---------------- HARTĂ încorporată ---------------- */
+.map-embed{position:relative;border-radius:var(--r);overflow:hidden;border:1px solid var(--line);
+  margin-bottom:18px;box-shadow:var(--shadow);background:var(--surface)}
+.map-embed iframe{display:block;width:100%;height:clamp(260px,38vw,400px);border:0;
+  filter:grayscale(.35) contrast(1.05) brightness(.92)}
+.map-embed .map-pin{position:absolute;left:50%;top:46%;transform:translate(-50%,-100%);pointer-events:none;
+  color:var(--accent);filter:drop-shadow(0 6px 10px rgba(0,0,0,.5))}
+.map-embed .map-pin svg{width:34px;height:34px;fill:var(--accent);stroke:#fff;stroke-width:1.4}
+
+/* ---------------- RECENZII: carusel mobil + dots + link Google ---------------- */
+.rating-link{color:var(--accent);font-weight:700;white-space:nowrap;border-bottom:1px solid color-mix(in srgb,var(--accent) 50%,transparent)}
+.rating-link:hover{color:var(--text);border-color:currentColor}
+.review-dots{display:none}
+.reviews-all{display:inline-flex;align-items:center;gap:.5rem;margin-top:1.6rem;font-weight:700;color:var(--text);
+  border:1px solid var(--line);padding:.7em 1.2em;border-radius:999px;transition:.25s}
+.reviews-all svg{width:18px;height:18px;fill:var(--accent2);stroke:none}
+.reviews-all:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-2px)}
+
+@media (max-width:720px){
+  .reviews{display:flex;flex-wrap:nowrap;overflow-x:auto;scroll-snap-type:x mandatory;
+    gap:14px;scroll-padding-inline:var(--pad);
+    margin-inline:calc(var(--pad) * -1);padding-inline:var(--pad);padding-bottom:6px;
+    scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .reviews::-webkit-scrollbar{display:none}
+  .review{flex:0 0 84%;scroll-snap-align:center}
+  .review-dots{display:flex;gap:8px;justify-content:center;margin-top:18px}
+  .review-dots .dot{width:8px;height:8px;padding:0;border-radius:50%;
+    background:color-mix(in srgb,var(--muted) 45%,transparent);transition:width .25s var(--ease),background .25s}
+  .review-dots .dot[aria-current="true"]{background:var(--accent);width:24px;border-radius:5px}
+}
+
+/* ---------------- BARĂ FIXĂ DE APEL (mobil) ---------------- */
+.callbar{display:none}
+@media (max-width:880px){
+  .callbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:95;
+    box-shadow:0 -8px 28px rgba(0,0,0,.45);padding-bottom:env(safe-area-inset-bottom)}
+  .callbar-call{flex:1;display:flex;align-items:center;justify-content:center;gap:.55rem;
+    background:var(--accent);color:#fff;font-family:var(--font-display);letter-spacing:.04em;
+    text-transform:uppercase;font-size:1.12rem;padding:1.05em 1em}
+  .callbar-call svg{width:22px;height:22px;fill:currentColor}
+  .callbar-wa{flex:none;display:grid;place-items:center;width:66px;background:var(--wa);color:#fff}
+  .callbar-wa svg{width:30px;height:30px;fill:currentColor}
+  .dock{display:none}
+  body{padding-bottom:62px}
+}
+
+/* ============================================================
+   TEMĂ: MODERN / CLEAN
+   Alb riguros, ROȘU = singurul accent, text bleu-cerneală.
+   Vernacular cartografic (coordonate, DN1) ca semnătură discretă.
+   Display: Plus Jakarta Sans 800 (tight). Aer mult, foto mari.
+   ============================================================ */
+:root{
+  --bg:#fbfaf7; --bg2:#f2f0ea; --surface:#ffffff; --surface2:#f5f3ee;
+  --line:#e3e0d7; --text:#15181d; --muted:#5d636d;
+  --accent:#d81e15;        /* roșu brand, unicul accent */
+  --accent2:#d81e15;
+  --accent-ink:#ffffff;
+  --wa:#1faa53; --wa-ink:#ffffff;
+  --font-display:'PJS',system-ui,sans-serif;
+  --shadow:0 24px 60px -24px rgba(20,24,30,.28);
+  --hero-grad:linear-gradient(180deg,rgba(10,12,16,.28) 0%,rgba(10,12,16,.42) 45%,rgba(10,12,16,.82) 100%);
+}
+
+body{background:var(--bg)}
+
+/* display PJS: foarte strâns + bold, ca să nu fie „neutru" */
+.hero h1,.sec-head h2,.feature-text h2,.contact-text h2,
+.brand-txt b,.foot-brand b,.card h3,.hours h3,.feature-badge b,.stat b{
+  font-weight:800;letter-spacing:-.02em;text-transform:none}
+.hero h1{letter-spacing:-.03em;line-height:1}
+.card h3{letter-spacing:-.01em}
+
+/* WA verde mai sobru pe alb */
+.btn-wa{color:#fff}
+.btn-wa svg{fill:#fff}
+
+/* SEMNĂTURĂ — fir roșu fin + coordonate (vernacular rutier/cartografic) */
+.chevron-bar{height:2px;background:var(--accent)}
+.kicker{color:var(--accent)}
+.kicker::before{content:"45.23°N · DN1";font-family:var(--font-body);font-weight:800;
+  letter-spacing:.12em;color:var(--muted);font-size:.7rem;
+  padding-right:.8rem;margin-right:.2rem;border-right:1px solid var(--line)}
+
+/* header pe alb */
+.site-head{background:color-mix(in srgb,#fff 86%,transparent);border-bottom:1px solid var(--line)}
+.brand-txt i{color:var(--muted)}
+
+/* ticker discret pe roșu */
+.ticker{border-block:0}
+
+/* carduri curate cu umbră fină, nu border greu */
+.card{border-color:var(--line);box-shadow:0 1px 0 var(--line)}
+.card:hover{box-shadow:var(--shadow)}
+.card-ico{background:color-mix(in srgb,var(--accent) 9%,#fff);}
+.area-pill,.hours,.map-cta,.review,.stat{background:var(--surface)}
+
+/* eyebrow hero rămâne roșu plin (lizibil pe foto) */
+.eyebrow{background:var(--accent)}
+
+/* footer luminos */
+.site-foot{background:var(--bg2)}
+
+</style>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "LocalBusiness", "name": "Zapata Cafe", "image": "https://images.unsplash.com/photo-1581094288338-2314dddb7ecc?auto=format&fit=crop&w=1200&q=80", "telephone": "0734 442 211", "address": {"@type": "PostalAddress", "streetAddress": "Bulevardul Ion Mihalache nr. 23, Piața Victoriei, Sector 1, București", "addressLocality": "Sector 1", "addressCountry": "RO"}}
+</script>
+</head>
+<body>
+
+<a class="skip" href="#main">Sari la conținut</a>
+
+<header class="site-head" id="top">
+  <div class="wrap head-inner">
+    <a class="brand" href="#top" aria-label="Zapata Cafe — acasă">
+      <span class="brand-mark" style="font-size: 1.5rem; display: grid; place-items: center; width: 42px; height: 42px; background: rgba(255,255,255,0.1); border-radius: 10px;">☕</span>
+      <span class="brand-txt"><b>Zapata Cafe</b><i>Sector 1</i></span>
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#servicii">Servicii</a>
+      <a href="#dece">De ce noi</a>
+      <a href="#acoperire">Acoperire</a>
+      <a href="#recenzii">Recenzii</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="head-cta">
+      <a class="btn btn-ghost" href="tel:0734442211"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 6l6 1 2 9-5 4a24 24 0 0 0 11 11l4-5 9 2 1 6a4 4 0 0 1-4 4A34 34 0 0 1 10 10a4 4 0 0 1 4-4z"/></svg><span>0734 442 211</span></a>
+      <button class="burger" aria-label="Meniu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <div class="chevron-bar" aria-hidden="true"><span class="chevron-bar__fill"></span></div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-media"><img src="https://images.unsplash.com/photo-1581094288338-2314dddb7ecc?auto=format&fit=crop&w=1200&q=80" alt="Zapata Cafe" width="1600" height="1200" fetchpriority="high"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-sweep" aria-hidden="true"></div>
+    <div class="wrap hero-inner">
+      <p class="eyebrow reveal"><span class="ping"></span> Sector 1 · Calitate Garantată</p>
+      <h1 class="reveal">Cafea proaspăt prăjită<br><em>în inima orașului</em></h1>
+      <p class="lead reveal">Servicii profesionale de cafea de specialitate 100% Arabica, prăjită local și preparată perfect cu echipamente moderne și personal cu experiență.</p>
+      <div class="hero-actions reveal">
+        <a class="btn btn-call" href="tel:0734442211"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 6l6 1 2 9-5 4a24 24 0 0 0 11 11l4-5 9 2 1 6a4 4 0 0 1-4 4A34 34 0 0 1 10 10a4 4 0 0 1 4-4z"/></svg><span>Sună acum · 0734 442 211</span></a>
+        <a class="btn btn-wa" href="https://wa.me/40734442211?text=Bun%C4%83%20ziua%21%20Am%20v%C4%83zut%20propunerea%20de%20site%20pentru%20Zapata%20Cafe%20%C8%99i%20a%C8%99%20dori%20mai%20multe%20detalii." target="_blank" rel="noopener"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11 19.6L3 29l6.6-2a13 13 0 1 0 6.4-24zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-4 1 1-3.9-.3-.4A10.6 10.6 0 1 1 16 26.6zm6-7.9c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.8.2s-.9 1.1-1.1 1.3-.4.2-.8 0a8.6 8.6 0 0 1-4.3-3.7c-.3-.6.3-.5.9-1.8.1-.2 0-.4 0-.6s-.8-1.9-1-2.6c-.3-.7-.6-.6-.8-.6h-.7a1.3 1.3 0 0 0-1 .4 4 4 0 0 0-1.2 2.9 6.9 6.9 0 0 0 1.4 3.6 15.7 15.7 0 0 0 6 5.3c2.2 1 3 1 4.1.9a3.5 3.5 0 0 0 2.3-1.6 2.9 2.9 0 0 0 .2-1.6c0-.2-.3-.3-.6-.5z"/></svg><span>Scrie pe WhatsApp</span></a>
+      </div>
+      <ul class="hero-chips reveal">
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13l4 4 10-12"/></svg> Servicii Rapide</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13l4 4 10-12"/></svg> Echipă Dedicată</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13l4 4 10-12"/></svg> Prețuri Transparente</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- TICKER ZONE -->
+  <div class="ticker" aria-label="Zone acoperite">
+    <div class="ticker-track">
+      <span>Sector 1</span><span>București</span><span>Zone limitrofe</span><span>Sector 1</span><span>București</span><span>Zone limitrofe</span><span>Sector 1</span><span>București</span><span>Zone limitrofe</span><span>Sector 1</span><span>București</span><span>Zone limitrofe</span>
+    </div>
+  </div>
+
+  <!-- STATS -->
+  <section class="stats wrap">
+    <div class="stat reveal"><b data-count="100%">100%</b><span>satisfacție clienți</span></div>
+    <div class="stat reveal"><b data-count="24/7">24/7</b><span>disponibilitate apeluri</span></div>
+    <div class="stat reveal"><b data-count="10+">10+</b><span>ani experiență</span></div>
+    <div class="stat reveal"><b data-count="0">0</b><span>costuri ascunse</span></div>
+  </section>
+
+  <!-- SERVICII -->
+  <section class="section" id="servicii">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="kicker">Servicii oferite</p>
+        <h2>Soluții adaptate pentru afacerea ta</h2>
+        <p class="sub">Vă punem la dispoziție servicii de înaltă calitate, executate de specialiști.</p>
+      </header>
+      <div class="services">
+        
+        <article class="card reveal has-img" style="--i:0">
+          <span class="card-glow" aria-hidden="true"></span>
+          <div class="card-media"><img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=600&q=80" alt="Cafea la cornet & to-go" width="600" height="450" loading="lazy"></div>
+          <div class="card-body">
+            <span class="card-ico" style="font-size: 1.8rem; display: grid; place-items: center; width: 48px; height: 48px;">☕</span>
+            <h3>Cafea la cornet & to-go</h3>
+            <p>Espresso, cappuccino și latte cremos preparate de barista pasionați.</p>
+          </div>
+        </article>
+        <article class="card reveal has-img" style="--i:1">
+          <span class="card-glow" aria-hidden="true"></span>
+          <div class="card-media"><img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80" alt="Vânzare cafea boabe" width="600" height="450" loading="lazy"></div>
+          <div class="card-body">
+            <span class="card-ico" style="font-size: 1.8rem; display: grid; place-items: center; width: 48px; height: 48px;">🫘</span>
+            <h3>Vânzare cafea boabe</h3>
+            <p>Cafea de origine proaspăt prăjită în loturi mici pentru acasă sau birou.</p>
+          </div>
+        </article>
+        <article class="card reveal has-img" style="--i:2">
+          <span class="card-glow" aria-hidden="true"></span>
+          <div class="card-media"><img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=600&q=80" alt="Băuturi speciale" width="600" height="450" loading="lazy"></div>
+          <div class="card-body">
+            <span class="card-ico" style="font-size: 1.8rem; display: grid; place-items: center; width: 48px; height: 48px;">🥤</span>
+            <h3>Băuturi speciale</h3>
+            <p>Cold brew răcoritor, ceaiuri matcha fine și ciocolată caldă artizanală.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- DE CE NOI -->
+  <section class="section section-alt" id="dece">
+    <div class="wrap feature">
+      <div class="feature-media reveal">
+        <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=1000&q=80" alt="Zapata Cafe" width="1000" height="1333" loading="lazy">
+        <div class="feature-badge"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="18"/><path d="M24 13v11l8 5"/></svg><div><b>CALITATE</b><span>garantată 100%</span></div></div>
+      </div>
+      <div class="feature-text">
+        <p class="kicker reveal">De ce noi</p>
+        <h2>Echipa potrivită pentru rezultate perfecte</h2>
+        <ul class="why">
+          <li class="reveal"><span class="why-ico"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M26 4 10 28h10l-2 16 18-26H26z"/></svg></span><div><b>Punctualitate și rapiditate</b><p>Răspundem prompt fiecărei solicitări și ne asigurăm că respectăm timpul clientului.</p></div></li>
+          <li class="reveal"><span class="why-ico"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 4l16 6v12c0 11-7 17-16 22-9-5-16-11-16-22V10z"/><path d="M17 24l5 5 9-11"/></svg></span><div><b>Standarde înalte</b><p>Folosim doar tehnologii moderne și materiale de cea mai bună calitate de pe piață.</p></div></li>
+          <li class="reveal"><span class="why-ico"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="18"/><path d="M24 13v11l8 5"/></svg></span><div><b>Orientare către client</b><p>Suntem atenți la cerințele specifice și adaptăm fiecare soluție bugetului tău.</p></div></li>
+          <li class="reveal"><span class="why-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13l4 4 10-12"/></svg></span><div><b>Fără costuri ascunse</b><p>Primești o estimare clară de preț, cu transparență deplină asupra serviciilor contractate.</p></div></li>
+        </ul>
+        <a class="btn btn-call reveal" href="tel:0734442211"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 6l6 1 2 9-5 4a24 24 0 0 0 11 11l4-5 9 2 1 6a4 4 0 0 1-4 4A34 34 0 0 1 10 10a4 4 0 0 1 4-4z"/></svg><span>0734 442 211</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACOPERIRE -->
+  <section class="section" id="acoperire">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="kicker">Unde ne găsești</p>
+        <h2>Locație și zone de intervenție</h2>
+        <p class="sub">Acoperim cu brio localitatea Sector 1 și împrejurimile.</p>
+      </header>
+      <div class="areas reveal">
+        <span class="area-pill"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z"/><circle cx="24" cy="20" r="5"/></svg>Sector 1</span>
+        <span class="area-pill"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z"/><circle cx="24" cy="20" r="5"/></svg>București</span>
+        <span class="area-pill"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z"/><circle cx="24" cy="20" r="5"/></svg>Ilfov</span>
+      </div>
+      <div class="map-embed reveal">
+        <iframe title="Hartă Zapata Cafe — Bulevardul Ion Mihalache nr. 23, Piața Victoriei, Sector 1, București" src="https://www.google.com/maps?q=Zapata%20Cafe%20Bulevardul%20Ion%20Mihalache%20nr.%2023%2C%20Pia%C8%9Ba%20Victoriei%2C%20Sector%201%2C%20Bucure%C8%99ti&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="map-cta reveal">
+        <div>
+          <b>Bulevardul Ion Mihalache nr. 23, Piața Victoriei, Sector 1, București</b>
+          <span>Sector 1</span>
+        </div>
+        <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=Zapata%20Cafe%20Bulevardul%20Ion%20Mihalache%20nr.%2023%2C%20Pia%C8%9Ba%20Victoriei%2C%20Sector%201%2C%20Bucure%C8%99ti" target="_blank" rel="noopener"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z"/><circle cx="24" cy="20" r="5"/></svg><span>Deschide în Google Maps</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- RECENZII -->
+  <section class="section section-alt" id="recenzii">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="kicker">Recenzii</p>
+        <h2>Ce spun clienții noștri</h2>
+        <p class="sub">Părerile clienților care au apelat la serviciile noastre.</p>
+      </header>
+      <div class="reviews" id="reviews-track">
+        
+        <figure class="review reveal">
+          <span class="stars"><svg viewBox='0 0 24 24' class='star' aria-hidden='true'><path d='M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z'/></svg><svg viewBox='0 0 24 24' class='star' aria-hidden='true'><path d='M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z'/></svg><svg viewBox='0 0 24 24' class='star' aria-hidden='true'><path d='M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z'/></svg><svg viewBox='0 0 24 24' class='star' aria-hidden='true'><path d='M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z'/></svg><svg viewBox='0 0 24 24' class='star' aria-hidden='true'><path d='M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z'/></svg></span>
+          <blockquote>"Un atelier de detailing auto unde se pune preț pe detalii. Atenție deosebită la finisaje, personal prietenos și servicii de înaltă calitate."</blockquote>
+          <figcaption><span class="avatar">D</span><span><b>Daniel Nistor</b><i>Client Google</i></span></figcaption>
+        </figure>
+        <figure class="review reveal">
+          <span class="stars"><svg viewBox='0 0 24 24' class='star' aria-hidden='true'><path d='M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z'/></svg><svg viewBox='0 0 24 24' class='star' aria-hidden='true'><path d='M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z'/></svg><svg viewBox='0 0 24 24' class='star' aria-hidden='true'><path d='M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z'/></svg><svg viewBox='0 0 24 24' class='star' aria-hidden='true'><path d='M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z'/></svg></span>
+          <blockquote>"Am dus mașina pentru detailing interior și polish exterior. Rezultatul a fost peste așteptări! Interiorul arată ca nou, iar zgârieturile fine au dispărut complet. Recomand Zapata Cafe!"</blockquote>
+          <figcaption><span class="avatar">C</span><span><b>Catalin Nistor</b><i>Client Google</i></span></figcaption>
+        </figure>
+        <figure class="review reveal">
+          <span class="stars"><svg viewBox='0 0 24 24' class='star' aria-hidden='true'><path d='M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z'/></svg><svg viewBox='0 0 24 24' class='star' aria-hidden='true'><path d='M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z'/></svg><svg viewBox='0 0 24 24' class='star' aria-hidden='true'><path d='M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z'/></svg><svg viewBox='0 0 24 24' class='star' aria-hidden='true'><path d='M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z'/></svg><svg viewBox='0 0 24 24' class='star' aria-hidden='true'><path d='M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z'/></svg></span>
+          <blockquote>"Protecția ceramică aplicată la Zapata Cafe își face treaba de minune. Apa fuge pur și simplu de pe caroserie, iar praful nu se mai prinde atât de ușor. Servicii premium de nota 10."</blockquote>
+          <figcaption><span class="avatar">C</span><span><b>Catalin Ionescu</b><i>Client Google</i></span></figcaption>
+        </figure>
+      </div>
+      <div class="review-dots" aria-label="Navigare recenzii"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="wrap contact">
+      <div class="contact-text">
+        <p class="kicker reveal">Contact direct</p>
+        <h2>Hai să discutăm despre ce ai nevoie</h2>
+        <p class="lead reveal">Suntem disponibili prin apel telefonic sau direct pe WhatsApp pentru un răspuns rapid.</p>
+        <div class="contact-actions reveal">
+          <a class="btn btn-call" href="tel:0734442211"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 6l6 1 2 9-5 4a24 24 0 0 0 11 11l4-5 9 2 1 6a4 4 0 0 1-4 4A34 34 0 0 1 10 10a4 4 0 0 1 4-4z"/></svg><span>Sună acum</span></a>
+          <a class="btn btn-wa" href="https://wa.me/40734442211?text=Bun%C4%83%20ziua%21%20Am%20v%C4%83zut%20propunerea%20de%20site%20pentru%20Zapata%20Cafe%20%C8%99i%20a%C8%99%20dori%20mai%20multe%20detalii." target="_blank" rel="noopener"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11 19.6L3 29l6.6-2a13 13 0 1 0 6.4-24zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-4 1 1-3.9-.3-.4A10.6 10.6 0 1 1 16 26.6zm6-7.9c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.8.2s-.9 1.1-1.1 1.3-.4.2-.8 0a8.6 8.6 0 0 1-4.3-3.7c-.3-.6.3-.5.9-1.8.1-.2 0-.4 0-.6s-.8-1.9-1-2.6c-.3-.7-.6-.6-.8-.6h-.7a1.3 1.3 0 0 0-1 .4 4 4 0 0 0-1.2 2.9 6.9 6.9 0 0 0 1.4 3.6 15.7 15.7 0 0 0 6 5.3c2.2 1 3 1 4.1.9a3.5 3.5 0 0 0 2.3-1.6 2.9 2.9 0 0 0 .2-1.6c0-.2-.3-.3-.6-.5z"/></svg><span>WhatsApp</span></a>
+        </div>
+      </div>
+      <div class="hours reveal">
+        <h3>Program de lucru</h3>
+        <table>
+          <tr><td>Program</td><td class="hl">Non-stop (24/7)</td></tr>
+        </table>
+        <p class="hours-note"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="18"/><path d="M24 13v11l8 5"/></svg> Ne puteți apela direct în timpul programului.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-foot">
+  <div class="wrap foot-inner">
+    <div class="foot-brand">
+      <b>Zapata Cafe</b>
+      <span>Sector 1</span>
+    </div>
+    <nav class="foot-nav" aria-label="Footer">
+      <a href="#servicii">Servicii</a><a href="#acoperire">Acoperire</a><a href="#recenzii">Recenzii</a><a href="#contact">Contact</a>
+    </nav>
+    <p class="foot-legal">© <span id="y"></span> Zapata Cafe · Toate drepturile rezervate.<br>Website de prezentare premium realizat automat.</p>
+  </div>
+</footer>
+
+<!-- BUTOANE FLOTANTE -->
+<div class="dock">
+  <a class="dock-btn dock-call" href="tel:0734442211" aria-label="Sună acum"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 6l6 1 2 9-5 4a24 24 0 0 0 11 11l4-5 9 2 1 6a4 4 0 0 1-4 4A34 34 0 0 1 10 10a4 4 0 0 1 4-4z"/></svg></a>
+  <a class="dock-btn dock-wa" href="https://wa.me/40734442211?text=Bun%C4%83%20ziua%21%20Am%20v%C4%83zut%20propunerea%20de%20site%20pentru%20Zapata%20Cafe%20%C8%99i%20a%C8%99%20dori%20mai%20multe%20detalii." target="_blank" rel="noopener" aria-label="Scrie pe WhatsApp"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11 19.6L3 29l6.6-2a13 13 0 1 0 6.4-24zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-4 1 1-3.9-.3-.4A10.6 10.6 0 1 1 16 26.6zm6-7.9c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.8.2s-.9 1.1-1.1 1.3-.4.2-.8 0a8.6 8.6 0 0 1-4.3-3.7c-.3-.6.3-.5.9-1.8.1-.2 0-.4 0-.6s-.8-1.9-1-2.6c-.3-.7-.6-.6-.8-.6h-.7a1.3 1.3 0 0 0-1 .4 4 4 0 0 0-1.2 2.9 6.9 6.9 0 0 0 1.4 3.6 15.7 15.7 0 0 0 6 5.3c2.2 1 3 1 4.1.9a3.5 3.5 0 0 0 2.3-1.6 2.9 2.9 0 0 0 .2-1.6c0-.2-.3-.3-.6-.5z"/></svg></a>
+</div>
+
+<div class="callbar">
+  <a class="callbar-call" href="tel:0734442211"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 6l6 1 2 9-5 4a24 24 0 0 0 11 11l4-5 9 2 1 6a4 4 0 0 1-4 4A34 34 0 0 1 10 10a4 4 0 0 1 4-4z"/></svg><span>Sună acum · 0734 442 211</span></a>
+  <a class="callbar-wa" href="https://wa.me/40734442211?text=Bun%C4%83%20ziua%21%20Am%20v%C4%83zut%20propunerea%20de%20site%20pentru%20Zapata%20Cafe%20%C8%99i%20a%C8%99%20dori%20mai%20multe%20detalii." target="_blank" rel="noopener" aria-label="Scrie pe WhatsApp"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11 19.6L3 29l6.6-2a13 13 0 1 0 6.4-24zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-4 1 1-3.9-.3-.4A10.6 10.6 0 1 1 16 26.6zm6-7.9c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.8.2s-.9 1.1-1.1 1.3-.4.2-.8 0a8.6 8.6 0 0 1-4.3-3.7c-.3-.6.3-.5.9-1.8.1-.2 0-.4 0-.6s-.8-1.9-1-2.6c-.3-.7-.6-.6-.8-.6h-.7a1.3 1.3 0 0 0-1 .4 4 4 0 0 0-1.2 2.9 6.9 6.9 0 0 0 1.4 3.6 15.7 15.7 0 0 0 6 5.3c2.2 1 3 1 4.1.9a3.5 3.5 0 0 0 2.3-1.6 2.9 2.9 0 0 0 .2-1.6c0-.2-.3-.3-.6-.5z"/></svg></a>
+</div>
+
+<script>
+/* FLORSIMINTEX · app.js — interacțiuni minime, fără dependențe. */
+(function () {
+  'use strict';
+  var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* anul curent în footer */
+  var y = document.getElementById('y');
+  if (y) y.textContent = new Date().getFullYear();
+
+  /* meniu mobil */
+  var burger = document.querySelector('.burger');
+  var nav = document.querySelector('.nav');
+  if (burger && nav) {
+    burger.addEventListener('click', function () {
+      var open = nav.classList.toggle('open');
+      burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    nav.addEventListener('click', function (e) {
+      if (e.target.closest('a')) { nav.classList.remove('open'); burger.setAttribute('aria-expanded', 'false'); }
+    });
+  }
+
+  /* reveal la scroll, cu mic decalaj pe grupuri */
+  var revs = [].slice.call(document.querySelectorAll('.reveal'));
+  if (reduce || !('IntersectionObserver' in window)) {
+    revs.forEach(function (el) { el.classList.add('in'); });
+  } else {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (!en.isIntersecting) return;
+        var el = en.target;
+        var sibs = [].slice.call((el.parentElement || document).children).filter(function (c) { return c.classList && c.classList.contains('reveal'); });
+        var idx = Math.max(0, sibs.indexOf(el));
+        el.style.transitionDelay = Math.min(idx * 80, 320) + 'ms';
+        el.classList.add('in');
+        io.unobserve(el);
+      });
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.12 });
+    revs.forEach(function (el) { io.observe(el); });
+  }
+
+  /* count-up pentru statistici numerice */
+  var counted = false;
+  function runCount() {
+    if (counted) return; counted = true;
+    document.querySelectorAll('.stat b[data-count]').forEach(function (el) {
+      var raw = el.getAttribute('data-count');
+      var m = /^(\d+)(.*)$/.exec(raw);
+      if (!m || raw.indexOf('/') > -1 || reduce) { el.textContent = raw; return; }
+      var target = parseInt(m[1], 10), suffix = m[2] || '', t0 = null, dur = 1200;
+      function step(ts) {
+        if (!t0) t0 = ts;
+        var p = Math.min((ts - t0) / dur, 1);
+        var e = 1 - Math.pow(1 - p, 3);
+        el.textContent = Math.round(target * e) + suffix;
+        if (p < 1) requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+    });
+  }
+  var statsEl = document.querySelector('.stats');
+  if (statsEl && 'IntersectionObserver' in window && !reduce) {
+    var io2 = new IntersectionObserver(function (e) {
+      if (e[0].isIntersecting) { runCount(); io2.disconnect(); }
+    }, { threshold: 0.4 });
+    io2.observe(statsEl);
+  } else { runCount(); }
+
+  /* header: umbră la scroll */
+  var head = document.querySelector('.site-head');
+  if (head) {
+    var onScroll = function () { head.classList.toggle('scrolled', window.scrollY > 8); };
+    addEventListener('scroll', onScroll, { passive: true }); onScroll();
+  }
+
+  /* parallax subtil pe hero + banda hazard ca progres de citire */
+  var heroImg = document.querySelector('.hero-media img');
+  var chevFill = document.querySelector('.chevron-bar__fill');
+  if (!reduce && (heroImg || chevFill)) {
+    var fxTick = false;
+    var runFx = function () {
+      var y = window.scrollY || 0;
+      var doc = document.documentElement;
+      var max = (doc.scrollHeight - doc.clientHeight) || 1;
+      var p = Math.min(Math.max(y / max, 0), 1);
+      if (chevFill) {
+        chevFill.style.right = (100 - p * 100).toFixed(2) + '%';
+        chevFill.style.backgroundPositionX = (-y * 0.35) + 'px';
+      }
+      if (heroImg && y < innerHeight) {
+        heroImg.style.transform = 'translate3d(0,' + (y * 0.08).toFixed(1) + 'px,0) scale(1.12)';
+      }
+      fxTick = false;
+    };
+    if (heroImg) { heroImg.style.transformOrigin = 'center'; heroImg.style.transform = 'scale(1.12)'; }
+    addEventListener('scroll', function () { if (!fxTick) { fxTick = true; requestAnimationFrame(runFx); } }, { passive: true });
+    runFx();
+  }
+
+  /* carusel recenzii pe mobil: dots + sincronizare cu swipe */
+  var track = document.getElementById('reviews-track');
+  var dotsWrap = document.querySelector('.review-dots');
+  if (track && dotsWrap) {
+    var rcards = [].slice.call(track.querySelectorAll('.review'));
+    if (rcards.length > 1) {
+      rcards.forEach(function (c, i) {
+        var b = document.createElement('button');
+        b.className = 'dot'; b.type = 'button';
+        b.setAttribute('aria-label', 'Recenzia ' + (i + 1));
+        if (i === 0) b.setAttribute('aria-current', 'true');
+        b.addEventListener('click', function () {
+          c.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', inline: 'center', block: 'nearest' });
+        });
+        dotsWrap.appendChild(b);
+      });
+      var dots = [].slice.call(dotsWrap.children);
+      if ('IntersectionObserver' in window) {
+        var rio = new IntersectionObserver(function (entries) {
+          entries.forEach(function (en) {
+            if (!en.isIntersecting) return;
+            var idx = rcards.indexOf(en.target);
+            dots.forEach(function (d, di) {
+              if (di === idx) d.setAttribute('aria-current', 'true');
+              else d.removeAttribute('aria-current');
+            });
+          });
+        }, { root: track, threshold: 0.6 });
+        rcards.forEach(function (c) { rio.observe(c); });
+      }
+    }
+  }
+
+  /* carduri: tilt 3D mic + spotlight care urmărește cursorul (doar desktop, mouse) */
+  var fine = matchMedia('(hover:hover) and (pointer:fine)').matches;
+  if (fine && !reduce) {
+    [].slice.call(document.querySelectorAll('.services .card')).forEach(function (card) {
+      card.addEventListener('pointermove', function (e) {
+        var r = card.getBoundingClientRect();
+        var x = (e.clientX - r.left) / r.width, y = (e.clientY - r.top) / r.height;
+        card.style.setProperty('--mx', (x * 100).toFixed(1) + '%');
+        card.style.setProperty('--my', (y * 100).toFixed(1) + '%');
+        var rx = (0.5 - y) * 5, ry = (x - 0.5) * 5;
+        card.style.transform = 'perspective(820px) rotateX(' + rx.toFixed(2) + 'deg) rotateY(' + ry.toFixed(2) + 'deg) translateY(-6px)';
+      });
+      card.addEventListener('pointerleave', function () { card.style.transform = ''; });
+    });
+  }
+
+  /* hartă „facade": încarcă iframe-ul Google DOAR la click (economie ~1MB la load) */
+  var facade = document.querySelector('.map-facade');
+  if (facade) {
+    var loadMap = function () {
+      var src = facade.getAttribute('data-map');
+      if (!src) return;
+      var f = document.createElement('iframe');
+      f.title = 'Hartă FLORSIMINTEX';
+      f.src = src;
+      f.loading = 'lazy';
+      f.setAttribute('referrerpolicy', 'no-referrer-when-downgrade');
+      facade.innerHTML = '';
+      facade.classList.remove('map-facade');
+      facade.removeAttribute('role'); facade.removeAttribute('tabindex'); facade.removeAttribute('aria-label');
+      facade.appendChild(f);
+    };
+    facade.addEventListener('click', loadMap);
+    facade.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); loadMap(); }
+    });
+  }
+
+  /* „Sunt blocat aici": trimite locația GPS live pe WhatsApp */
+  [].slice.call(document.querySelectorAll('a[data-geo]')).forEach(function (el) {
+    el.addEventListener('click', function (e) {
+      if (!navigator.geolocation) return; /* fallback: linkul WhatsApp normal */
+      e.preventDefault();
+      var wa = el.getAttribute('data-wa');
+      var fallback = el.getAttribute('href');
+      var done = false;
+      var go = function (href) { if (!done) { done = true; window.location.href = href; } };
+      el.classList.add('loc-loading');
+      navigator.geolocation.getCurrentPosition(function (pos) {
+        el.classList.remove('loc-loading');
+        var lat = pos.coords.latitude.toFixed(6), lng = pos.coords.longitude.toFixed(6);
+        var msg = encodeURIComponent('Bună ziua! Am rămas în pană și am nevoie de tractare. Sunt blocat aici: https://maps.google.com/?q=' + lat + ',' + lng);
+        go('https://wa.me/' + wa + '?text=' + msg);
+      }, function () {
+        el.classList.remove('loc-loading');
+        go(fallback);
+      }, { enableHighAccuracy: true, timeout: 9000, maximumAge: 60000 });
+    });
+  });
+
+  /* pauză animație ticker când nu e vizibil (economie CPU/baterie) */
+  var ticker = document.querySelector('.ticker-track');
+  if (ticker && !reduce && 'IntersectionObserver' in window) {
+    var tio = new IntersectionObserver(function (en) {
+      ticker.style.animationPlayState = en[0].isIntersecting ? 'running' : 'paused';
+    }, { threshold: 0 });
+    tio.observe(document.querySelector('.ticker'));
+  }
+
+  /* service worker — offline + load instant repetat */
+  ); });
+  }
+})();
+
+</script>
+</body>
+</html>

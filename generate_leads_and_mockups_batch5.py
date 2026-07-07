@@ -291,19 +291,23 @@ LEADS = [
     },
 
     # 6. Închirieri Rochii & Costume
-    {
-        "niche": "inchirieri_rochii", "emoji": "👗", "name": "Bella Sposa Închirieri Rochii",
-        "phone": "0722 444 555", "location": "Calea Dorobanți nr. 110, Sector 1, București",
-        "program": "Luni - Sâmbătă: 10:00 - 20:00 | Duminică: Închis (Probe cu programare)",
-        "slogan_part1": "Închiriere rochii de seară",
-        "slogan_part2": "și rochii de mireasă de lux",
-        "desc_niche": "închirieri rochii de ocazie, rochii de mireasă și accesorii festive",
+        {
+        "niche": "burgeri_fastfood",
+        "emoji": "🍔",
+        "name": "MgBurger Dorobanți",
+        "phone": "0720 533 223",
+        "location": "Piața Dorobanți nr. 6, Sector 1, București",
+        "program": "Luni - Duminică: 08:00 - 01:00",
+        "slogan_part1": "Burgeri suculenți premium",
+        "slogan_part2": "în Piața Dorobanți",
+        "desc_niche": "burgeri gourmet din carne de vită premium, sosuri speciale și cartofi proaspeți",
         "services": [
-            {"icon": "👗", "name": "Închirieri Rochii de Mireasă", "desc": "Rochii de mireasă din colecții premium, ajustate la milimetru de croitorii noștri pentru o potrivire perfectă în ziua nunții."},
-            {"icon": "✨", "name": "Rochii de Seară & Gală", "desc": "Gama largă de rochii lungi de gală, rochii de cocktail, ideale pentru nașe, domnișoare de onoare sau petreceri corporate."},
-            {"icon": "💎", "name": "Accesorii & Voaluri incluse", "desc": "Oferim spre închiriere voaluri fine, diademe, bijuterii fine și clutch-uri asortate pentru a-ți completa ținuta de vis."}
+            {"icon": "🍔", "name": "Burgeri Gourmet", "desc": "Burgeri din carne de vită Black Angus, cheddar topit, bacon crocant și sos special."},
+            {"icon": "🍟", "name": "Garnituri delicioase", "desc": "Cartofi prăjiți cu parmezan și usturoi, inele de ceapă și sosuri preparate zilnic."},
+            {"icon": "🥤", "name": "Meniuri combo", "desc": "Meniu complet cu burgerul preferat, cartofi crocanți și băutură răcoritoare la preț redus."}
         ],
-        "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=600&q=80", "prefix": "inchirieri_rochii_"
+        "image_url": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=600&q=80",
+        "prefix": "mgburger_"
     },
     {
         "niche": "inchirieri_rochii", "emoji": "👗", "name": "Bridal Rent București",

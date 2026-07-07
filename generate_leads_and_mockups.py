@@ -6,77 +6,77 @@ import json
 import subprocess
 
 LEADS = [
-    {
-        "niche": "detailing_auto",
-        "emoji": "✨",
-        "name": "Grig's Auto Detailing",
-        "phone": "0765 612 424",
-        "location": "Strada Mehadia Nr. 39, Sector 6, București",
-        "program": "Luni - Vineri: 09:00 - 18:00 | Sâmbătă: 09:00 - 14:00 | Duminică: Închis",
-        "slogan_part1": "Cosmetică auto &",
-        "slogan_part2": "detailing profesional",
-        "desc_niche": "detailing interior și exterior profesional",
+        {
+        "niche": "ceainarie_cafenea",
+        "emoji": "🍵",
+        "name": "SanThé Fitoceainărie",
+        "phone": "0730 370 290",
+        "location": "Strada Lipscani nr. 104, Centrul Vechi, Sector 3, București",
+        "program": "Joi - Duminică: 14:00 - 20:00",
+        "slogan_part1": "Ceaiuri fine &",
+        "slogan_part2": "atmosferă caldă la SanThé",
+        "desc_niche": "ceaiuri infuzate, dulciuri artizanale și evenimente culturale",
         "services": [
-            {"icon": "🚗", "name": "Detailing Interior Complet", "desc": "Curățare profundă tapițerie (piele/textil), igienizare cu ozon, curățare plafon, mochetă și plastice."},
-            {"icon": "✨", "name": "Polish Exterior & Corecție", "desc": "Eliminare zgârieturi fine, redare luciu intens vopsea și aplicare ceară protectoare de lungă durată."},
-            {"icon": "🛡️", "name": "Protecție Ceramică Gtechniq", "desc": "Aplicare strat ceramic profesional pentru protecție maximă împotriva razelor UV, zgârieturilor și murdăriei."}
+            {"icon": "🍵", "name": "Ceaiuri de specialitate", "desc": "Selecție premium de ceaiuri verzi, negre, albe și infuzii de fructe din întreaga lume."},
+            {"icon": "🎉", "name": "Evenimente private", "desc": "Spațiu cald și primitor pentru ateliere, lansări de carte sau întâlniri restrânse."},
+            {"icon": "🍰", "name": "Patiserie artizanală", "desc": "Prăjituri proaspete, brioșe și biscuiți delicioși pentru a însoți băutura caldă."}
         ],
-        "image_url": "https://images.unsplash.com/photo-1607860108855-64acf2078ed9?auto=format&fit=crop&w=600&q=80",
-        "prefix": "detailing_auto_"
+        "image_url": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=600&q=80",
+        "prefix": "ceainarie_"
     },
-    {
-        "niche": "detailing_auto",
-        "emoji": "🚗",
-        "name": "SKR Detailing",
-        "phone": "0769 919 936",
-        "location": "Bulevardul Theodor Pallady nr. 42, Sector 3, București",
-        "program": "Luni - Sâmbătă: 08:30 - 19:00 | Duminică: Închis",
-        "slogan_part1": "Protecții ceramice &",
-        "slogan_part2": "curățare tapițerii",
-        "desc_niche": "detailing auto profesional de interior și exterior",
+        {
+        "niche": "cofetarie_patiserie",
+        "emoji": "🍰",
+        "name": "Cofetăria Cimma",
+        "phone": "021 420 9844",
+        "location": "Strada Teiuș nr. 43, Rahova, Sector 5, București",
+        "program": "Luni - Duminică: 08:00 - 20:00",
+        "slogan_part1": "Prăjituri tradiționale &",
+        "slogan_part2": "torturi de poveste",
+        "desc_niche": "prăjituri de casă proaspete, torturi personalizate și produse de patiserie",
         "services": [
-            {"icon": "🧼", "name": "Igienizare Detaliată Interior", "desc": "Demontare scaune, aspirare umed-uscată cu injecție-extracție, curățare detaliată a grilelor de aerisire."},
-            {"icon": "🛡️", "name": "Polish Faruri & Stopuri", "desc": "Recondiționare faruri mătuite, eliminare oxizi și aplicare folie de protecție regenerabilă (PPF)."},
-            {"icon": "💎", "name": "Tratament Hidrofob Geamuri", "desc": "Aplicare tratament special pentru respingerea apei și murdăriei pe parbriz, lunetă și geamuri laterale."}
+            {"icon": "🎂", "name": "Torturi la comandă", "desc": "Torturi personalizate pentru nunți, botezuri, aniversări cu ingrediente naturale."},
+            {"icon": "🍰", "name": "Prăjituri de vitrină", "desc": "Amandine, savarine, eclere și tarte cu fructe preparate zilnic în laboratorul propriu."},
+            {"icon": "🥐", "name": "Patiserie caldă", "desc": "Merdenele cu brânză, croissante și sărățele calde pentru dimineți perfecte."}
         ],
-        "image_url": "https://images.unsplash.com/photo-1520340356584-f9917d1ecc6f?auto=format&fit=crop&w=600&q=80",
-        "prefix": "detailing_auto_"
+        "image_url": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=600&q=80",
+        "prefix": "cofetarie_"
     },
-    {
-        "niche": "detailing_auto",
-        "emoji": "🧼",
-        "name": "Detailing Auto Profesional Sector 5",
-        "phone": "0733 131 133",
-        "location": "Strada Echinoctiului nr. 52, Sector 5, București",
-        "program": "Luni - Vineri: 09:00 - 18:00 | Sâmbătă: 09:00 - 15:00 | Duminică: Închis",
-        "slogan_part1": "Redă strălucirea",
-        "slogan_part2": "mașinii tale",
-        "desc_niche": "servicii complete de cosmetică și detailing auto",
+        {
+        "niche": "placintarie_patiserie",
+        "emoji": "🥧",
+        "name": "La Căruța cu Plăcinte",
+        "phone": "0729 472 500",
+        "location": "Calea 13 Septembrie nr. 90, Piața Arsenalului, Sector 5, București",
+        "program": "Luni - Vineri: 10:00 - 18:00",
+        "slogan_part1": "Plăcinte calde rumene",
+        "slogan_part2": "făcute după rețete vechi",
+        "desc_niche": "plăcinte tradiționale la cuptor, dulci și sărate, proaspăt scoase din cuptor",
         "services": [
-            {"icon": "🚗", "name": "Cosmetică Auto Interior", "desc": "Curățare scaune cu spumă activă, hidratare elemente din piele, curățare portbagaj și compartiment roată rezervă."},
-            {"icon": "✨", "name": "Detailing Motor & Conservare", "desc": "Spălare sigură a motorului cu aburi sau soluții dielectrice și aplicare dressing de protecție pentru plastice."},
-            {"icon": "🔥", "name": "Decontaminare Argilă & Polish", "desc": "Eliminare particule de fier și bitum de pe caroserie urmată de un polish fin pentru luciu intens."}
+            {"icon": "🥧", "name": "Plăcinte sărate", "desc": "Plăcinte calde cu brânză sărată, mărar, cartofi sau ciuperci în foi fine fragede."},
+            {"icon": "🍏", "name": "Plăcinte dulci", "desc": "Plăcinte dulci cu mere aromate, dovleac copt sau brânză dulce și stafide."},
+            {"icon": "📦", "name": "Comenzi speciale", "desc": "Comenzi de plăcinte calde la tavă pentru evenimente de familie sau birou."}
         ],
-        "image_url": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
-        "prefix": "detailing_auto_"
+        "image_url": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=600&q=80",
+        "prefix": "placintarie_"
     },
-    {
-        "niche": "kinetoterapie",
-        "emoji": "🪢",
-        "name": "Cabinet Kinetoterapie Adriana Șerban",
-        "phone": "0723 206 954",
-        "location": "Strada Gaetano Donizetti nr. 3, Sector 2, București",
-        "program": "Luni - Vineri: 08:00 - 20:00 | Sâmbătă: 09:00 - 14:00 | Duminică: Închis",
-        "slogan_part1": "Recuperare medicală &",
-        "slogan_part2": "kinetoterapie personalizată",
-        "desc_niche": "kinetoterapie și fizioterapie la cabinet și domiciliu",
+        {
+        "niche": "cofetarie_laborator",
+        "emoji": "🍬",
+        "name": "Dulciuri Minunate",
+        "phone": "0732 117 044",
+        "location": "Strada Preciziei nr. 34, Hala D2, Sector 6, București",
+        "program": "Luni - Sâmbătă: 07:00 - 19:00",
+        "slogan_part1": "Deserturi artizanale premium",
+        "slogan_part2": "din ingrediente naturale",
+        "desc_niche": "torturi mousse, macarons fine și prăjituri gourmet de laborator",
         "services": [
-            {"icon": "💪", "name": "Kinetoterapie Adulți & Copii", "desc": "Programe personalizate de exerciții fizice pentru recuperare post-traumatică, post-operatorie sau corectarea posturii."},
-            {"icon": "🦴", "name": "Terapie Manuală & Mobilizări", "desc": "Tehnici speciale de manipulare osteo-articulară pentru reducerea durerilor și redobândirea mobilității."},
-            {"icon": "🩹", "name": "Kinesiotaping (Benzi Kinesiologice)", "desc": "Aplicare benzi elastice speciale pentru susținerea musculară, drenaj limfatic și reducerea inflamațiilor."}
+            {"icon": "🎂", "name": "Torturi Gourmet", "desc": "Torturi moderne cu mousse de ciocolată belgiană, fructe exotice și inserții fine."},
+            {"icon": "🍬", "name": "Macarons & Monoporții", "desc": "Macarons colorate și monoporții elegante cu design spectaculos pentru vitrină."},
+            {"icon": "🧁", "name": "Candy Bar Evenimente", "desc": "Bufet complet de dulciuri asortate pentru nunți, botezuri sau petreceri corporate."}
         ],
-        "image_url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=600&q=80",
-        "prefix": "kinetoterapie_"
+        "image_url": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=600&q=80",
+        "prefix": "dulciuri_"
     },
     {
         "niche": "kinetoterapie",
@@ -150,41 +150,41 @@ LEADS = [
         "image_url": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=600&q=80",
         "prefix": "foraje_puturi_"
     },
-    {
-        "niche": "foraje_puturi",
-        "emoji": "🌀",
-        "name": "Florin Nedelcu - Foraje & Reabilitări",
-        "phone": "0761 929 742",
-        "location": "Șoseaua Cernica nr. 82, Pantelimon, Ilfov",
-        "program": "Luni - Duminică: 07:30 - 21:00",
-        "slogan_part1": "Reabilitări puțuri &",
-        "slogan_part2": "denisipări rapide",
-        "desc_niche": "servicii complete de foraje, denisipări și întreținere puțuri de apă",
+        {
+        "niche": "cofetarie_aniversari",
+        "emoji": "🎂",
+        "name": "Twin Cake",
+        "phone": "0773 711 272",
+        "location": "Strada Borceag nr. 9-11, Sector 3, București",
+        "program": "Luni - Duminică: 08:00 - 21:00",
+        "slogan_part1": "Dublă savoare în",
+        "slogan_part2": "fiecare felie de tort",
+        "desc_niche": "torturi festive, prăjituri clasice de cofetărie și miniprăjituri asortate",
         "services": [
-            {"icon": "🧼", "name": "Denisipare Rapidă (Airlift)", "desc": "Curățare ecologică a puțului prin barbotare cu aer comprimat pentru eliminarea depunerilor de nisip și nămol."},
-            {"icon": "🔬", "name": "Tratare & Dezinfectare Apă", "desc": "Pielografiere puț și tratament chimic de șoc cu substanțe avizate pentru sterilizarea bacteriologică a forajului."},
-            {"icon": "💧", "name": "Foraje Diametru Mic/Mediu", "desc": "Foraje rapide pentru alimentarea caselor de vacanță, grădinilor sau pentru pompe de căldură geotermale."}
+            {"icon": "🎂", "name": "Torturi Personalizate", "desc": "Torturi tematice cu decoruri din marțipan sau imagini comestibile pentru copii."},
+            {"icon": "🍰", "name": "Prăjituri Tradiționale", "desc": "Eclere cu ciocolată, minitarte, diplomat și crempuș realizate zilnic."},
+            {"icon": "🧁", "name": "Catering Dulciuri", "desc": "Platouri cu miniprăjituri și fursecuri pentru evenimente festive la birou sau acasă."}
         ],
-        "image_url": "https://images.unsplash.com/photo-1581094288338-2314dddb7ecc?auto=format&fit=crop&w=600&q=80",
-        "prefix": "foraje_puturi_"
+        "image_url": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=600&q=80",
+        "prefix": "twincake_"
     },
-    {
-        "niche": "reparatii_termopane",
-        "emoji": "🪟",
-        "name": "TermoFix București",
-        "phone": "0722 839 999",
-        "location": "Șoseaua Olteniței nr. 104, Sector 4, București",
-        "program": "Luni - Duminică: Non-Stop (Urgențe Reparații)",
-        "slogan_part1": "Reparații termopane &",
-        "slogan_part2": "reglaje ferestre non-stop",
-        "desc_niche": "servicii de reparații termopane, reglaje ferestre și înlocuire accesorii",
+        {
+        "niche": "patiserie_artizanala",
+        "emoji": "🥐",
+        "name": "ART Cofetărie Patiserie",
+        "phone": "0745 135 194",
+        "location": "Bulevardul Metalurgiei nr. 29c, Berceni, Sector 4, București",
+        "program": "Luni - Duminică: 08:00 - 20:30",
+        "slogan_part1": "Arta gustului dulce",
+        "slogan_part2": "la tine în Berceni",
+        "desc_niche": "produse proaspete de patiserie, foietaje, torturi și cozonaci tradiționali",
         "services": [
-            {"icon": "🔧", "name": "Reglaje & Mentenanță Feronerie", "desc": "Ungere, calibrare și reglare feronerie pentru ferestre și uși care se închid greu sau lasă aerul să treacă."},
-            {"icon": "🪟", "name": "Înlocuire Geamuri Sparte", "desc": "Măsurare și înlocuire rapidă pentru sticle termopan sparte, fisurate sau aburite la interior (condens)."},
-            {"icon": "🛡️", "name": "Garnituri Ultra-Izolante", "desc": "Schimbarea garniturilor uzate din cauciuc cu modele premium EPDM pentru izolație termică și fonică maximă."}
+            {"icon": "🥐", "name": "Patiserie de casă", "desc": "Pateuri cu brânză, croissante cu unt, ștrudele cu mere și dovleac abia scoase."},
+            {"icon": "🍞", "name": "Cozonaci tradiționali", "desc": "Cozonaci pufoși cu nucă, cacao și stafide pregătiți după rețeta bunicii."},
+            {"icon": "🎂", "name": "Torturi la comandă", "desc": "Torturi aniversare personalizate cu creme fine de ciocolată sau fructe de pădure."}
         ],
-        "image_url": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80",
-        "prefix": "reparatii_termopane_"
+        "image_url": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=600&q=80",
+        "prefix": "artcofetarie_"
     },
     {
         "niche": "reparatii_termopane",
@@ -204,23 +204,23 @@ LEADS = [
         "image_url": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=600&q=80",
         "prefix": "reparatii_termopane_"
     },
-    {
-        "niche": "reparatii_termopane",
-        "emoji": "🚪",
-        "name": "Reparații Termopane Dristor",
-        "phone": "0722 408 934",
-        "location": "Strada Dristorului nr. 10, Sector 3, București",
-        "program": "Luni - Sâmbătă: 08:30 - 18:30 | Duminică: Urgențe",
-        "slogan_part1": "Reparații uși balcon &",
-        "slogan_part2": "reglaje termopane rapide",
-        "desc_niche": "servicii de reparații termopane, ferestre PVC/Aluminiu și uși de balcon",
+        {
+        "niche": "cafenea_prajitorie",
+        "emoji": "☕",
+        "name": "Zapata Cafe",
+        "phone": "0734 442 211",
+        "location": "Bulevardul Ion Mihalache nr. 23, Piața Victoriei, Sector 1, București",
+        "program": "Non-stop (24/7)",
+        "slogan_part1": "Cafea proaspăt prăjită",
+        "slogan_part2": "în inima orașului",
+        "desc_niche": "cafea de specialitate 100% Arabica, prăjită local și preparată perfect",
         "services": [
-            {"icon": "🚪", "name": "Reparații Uși de Balcon", "desc": "Reglaje balamale uși grele de balcon, înlocuire broaște, amortizoare, balamale rupte sau mânere defecte."},
-            {"icon": "🔧", "name": "Înlocuire Feronerie Completă", "desc": "Schimbăm mecanisme de închidere multipunct uzate sau blocate (Maco, Roto, Vorne, G-U)."},
-            {"icon": "📐", "name": "Calibrare Geam prin Cale", "desc": "Demontarea baghetelor și repoziționarea calelor de sticlă pentru ridicarea colțurilor ferestrelor lăsate."}
+            {"icon": "☕", "name": "Cafea la cornet & to-go", "desc": "Espresso, cappuccino și latte cremos preparate de barista pasionați."},
+            {"icon": "🫘", "name": "Vânzare cafea boabe", "desc": "Cafea de origine proaspăt prăjită în loturi mici pentru acasă sau birou."},
+            {"icon": "🥤", "name": "Băuturi speciale", "desc": "Cold brew răcoritor, ceaiuri matcha fine și ciocolată caldă artizanală."}
         ],
-        "image_url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80",
-        "prefix": "reparatii_termopane_"
+        "image_url": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=600&q=80",
+        "prefix": "zapatacafe_"
     },
     {
         "niche": "service_gsm",
@@ -240,23 +240,23 @@ LEADS = [
         "image_url": "https://images.unsplash.com/photo-1597740985671-2a8a3b80f01e?auto=format&fit=crop&w=600&q=80",
         "prefix": "service_gsm_"
     },
-    {
-        "niche": "service_gsm",
-        "emoji": "🔌",
-        "name": "BITS Service GSM & IT",
-        "phone": "0728 943 333",
-        "location": "Strada Apusului nr. 81, Sector 6, București",
-        "program": "Luni - Vineri: 09:00 - 18:30 | Sâmbătă: 09:30 - 14:00 | Duminică: Închis",
-        "slogan_part1": "Reparații telefoane &",
-        "slogan_part2": "laptopuri în Militari",
-        "desc_niche": "service gsm și reparații calculatoare/laptopuri hardware și software",
+        {
+        "niche": "shaormerie_fastfood",
+        "emoji": "🌯",
+        "name": "Shaorma La Băiatu",
+        "phone": "0771 636 291",
+        "location": "Strada D. I. Mendeleev nr. 7-15, Piața Romană, Sector 1, București",
+        "program": "Luni - Duminică: 10:00 - 04:00",
+        "slogan_part1": "Cea mai gustoasă shaorma",
+        "slogan_part2": "din Piața Romană",
+        "desc_niche": "shaorma caldă și savuroasă, kebab proaspăt și sosuri făcute în casă",
         "services": [
-            {"icon": "📱", "name": "Înlocuire Ecrane & Carcases", "desc": "Montaj display-uri originale sau compatibile pentru iPhone, Samsung, Huawei, Xiaomi și înlocuire capace spate."},
-            {"icon": "💻", "name": "Service Laptop & PC", "desc": "Curățare praf, înlocuire pastă termică, upgrade SSD/RAM, reinstalare Windows și devirusări rapide."},
-            {"icon": "💾", "name": "Recuperare Date & Decodări", "desc": "Recuperăm date de pe dispozitive blocate sau defecte și oferim decodări de rețea autorizate."}
+            {"icon": "🌯", "name": "Shaorma la lipie / farfurie", "desc": "Shaorma din carne de pui sau vită cu cartofi prăjiți, salate și sosuri la alegere."},
+            {"icon": "🥙", "name": "Kebab & Falafel", "desc": "Doner kebab tradițional și chiftele de falafel crocante pentru vegetarieni."},
+            {"icon": "🍟", "name": "Meniu Box", "desc": "Cutii asortate cu carne de shaorma, cartofi și sosuri, ideale pentru o gustare rapidă."}
         ],
-        "image_url": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=600&q=80",
-        "prefix": "service_gsm_"
+        "image_url": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=600&q=80",
+        "prefix": "labaiatu_"
     },
     {
         "niche": "service_gsm",
@@ -276,41 +276,41 @@ LEADS = [
         "image_url": "https://images.unsplash.com/photo-1581092921461-eab62e97a780?auto=format&fit=crop&w=600&q=80",
         "prefix": "service_gsm_"
     },
-    {
-        "niche": "servicii_funerare",
-        "emoji": "🕯️",
-        "name": "Servicii Funerare Baidoc",
-        "phone": "0766 402 060",
-        "location": "Șoseaua Giurgiului nr. 110, Sector 5, București",
-        "program": "Luni - Duminică: Non-Stop (24/7)",
-        "slogan_part1": "Servicii funerare non-stop",
-        "slogan_part2": "cu respect și decență",
-        "desc_niche": "servicii funerare complete non-stop în București și Ilfov",
+        {
+        "niche": "shaormerie_traditie",
+        "emoji": "🌯",
+        "name": "Shaorma Orient",
+        "phone": "0752 029 688",
+        "location": "Piața 1 Mai, Sector 1, București",
+        "program": "Luni - Duminică: 09:00 - 23:00",
+        "slogan_part1": "Gustul autentic oriental",
+        "slogan_part2": "cu tradiție din 1990",
+        "desc_niche": "shaorma preparată după rețete vechi siriene, cu condimente unice",
         "services": [
-            {"icon": "🕯️", "name": "Servicii Funerare Complete", "desc": "Pregătire defunct, îmbălsămare autorizată, toaletare, sicrie complet echipate din diverse esențe de lemn."},
-            {"icon": "🚚", "name": "Transport Funerar Autorizat", "desc": "Transport mortuar intern cu autospeciale funerare omologate și repatrieri decedați din Europa în condiții sigure."},
-            {"icon": "📜", "name": "Acte & Dosar Ajutor Înmormântare", "desc": "Întocmirea rapidă a actelor (certificat deces, adeverință înhumare) și decontare prin ajutorul de înmormântare CNPP."}
+            {"icon": "🌯", "name": "Shaorma Siriană", "desc": "Shaorma rulată fin cu sos de usturoi de casă, castraveți murați și carne condimentată."},
+            {"icon": "🍟", "name": "Gustări calde", "desc": "Hummus cremos, falafel proaspăt și cartofi prăjiți condimentați în stil oriental."},
+            {"icon": "📦", "name": "Meniuri de grup", "desc": "Pachete speciale de shaorma și băuturi pentru birouri sau întâlniri cu prietenii."}
         ],
-        "image_url": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=600&q=80",
-        "prefix": "servicii_funerare_"
+        "image_url": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=600&q=80",
+        "prefix": "shaormaorient_"
     },
-    {
-        "niche": "servicii_funerare",
-        "emoji": "🌹",
-        "name": "Anima Funerare București",
-        "phone": "0722 274 177",
-        "location": "Strada Lizeanu nr. 18, Sector 2, București",
-        "program": "Luni - Duminică: Non-Stop (24/7)",
-        "slogan_part1": "Servicii funerare de încredere",
-        "slogan_part2": "în momente dificile",
-        "desc_niche": "pompe funebre complete, repatrieri și aranjamente funerare non-stop",
+        {
+        "niche": "bistro_cafenea",
+        "emoji": "☕",
+        "name": "Puerto Cafe",
+        "phone": "0734 418 035",
+        "location": "Bulevardul Burebista, Sector 3, București",
+        "program": "Luni - Duminică: 08:00 - 23:00",
+        "slogan_part1": "Bistro urban & cafea",
+        "slogan_part2": "pe Bulevardul Burebista",
+        "desc_niche": "cafea aromată de dimineață, mic dejun consistent și prânz rapid",
         "services": [
-            {"icon": "🌹", "name": "Pachete Funerare Personalizate", "desc": "Oferim pachete adaptate bugetului dumneavoastră, inclusiv pachete speciale pentru pensionari decontate 100%."},
-            {"icon": "🥖", "name": "Organizare Colivă & Parastase", "desc": "Pregătire pachete de pomană, colivă, colaci, catering pentru parastase și închiriere capelă funerară."},
-            {"icon": "🌸", "name": "Coroane & Aranjamente Florale", "desc": "Realizare coroane, jerbe și aranjamente din flori naturale (garoafe, trandafiri, crini) cu mesaje funerare personalizate."}
+            {"icon": "☕", "name": "Mic dejun & Cafea", "desc": "Omlete pufoase, toast cald și espresso intens pentru un început de zi plin de energie."},
+            {"icon": "🍲", "name": "Meniu de prânz", "desc": "Supe calde, paste delicioase și salate proaspete servite rapid la prânz."},
+            {"icon": "🍹", "name": "Social Club & Drinks", "desc": "Limonade proaspete, cocktailuri clasice și bere craft pentru seri relaxante."}
         ],
-        "image_url": "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=600&q=80",
-        "prefix": "servicii_funerare_"
+        "image_url": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=600&q=80",
+        "prefix": "puertocafe_"
     },
     {
         "niche": "mobila_la_comanda",

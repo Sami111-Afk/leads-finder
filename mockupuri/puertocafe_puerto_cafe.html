@@ -1,16 +1,16 @@
 <!doctype html>
-<html lang="ro" class="theme-neon">
+<html lang="ro" class="theme-clean">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Detailing Auto Profesional Sector 5 — Redă strălucirea mașinii tale</title>
-<meta name="description" content="Detailing Auto Profesional Sector 5 oferă servicii complete de cosmetică și detailing auto în Sector 5. Sunați la 0733 131 133 pentru detalii.">
-<meta name="theme-color" content="#080a0e">
-<meta property="og:title" content="Detailing Auto Profesional Sector 5 — Redă strălucirea mașinii tale">
-<meta property="og:description" content="Detailing Auto Profesional Sector 5 oferă servicii complete de cosmetică și detailing auto în Sector 5.">
+<title>Puerto Cafe — Bistro urban & cafea pe Bulevardul Burebista</title>
+<meta name="description" content="Puerto Cafe oferă cafea aromată de dimineață, mic dejun consistent și prânz rapid în Sector 3. Sunați la 0734 418 035 pentru detalii.">
+<meta name="theme-color" content="#fbfaf7">
+<meta property="og:title" content="Puerto Cafe — Bistro urban & cafea pe Bulevardul Burebista">
+<meta property="og:description" content="Puerto Cafe oferă cafea aromată de dimineață, mic dejun consistent și prânz rapid în Sector 3.">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80">
-<link rel="preload" as="image" href="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80" fetchpriority="high">
+<meta property="og:image" content="https://images.unsplash.com/photo-1581094288338-2314dddb7ecc?auto=format&fit=crop&w=1200&q=80">
+<link rel="preload" as="image" href="https://images.unsplash.com/photo-1581094288338-2314dddb7ecc?auto=format&fit=crop&w=1200&q=80" fetchpriority="high">
 <style>
 /* ============================================================
    FLORSIMINTEX · base.css
@@ -395,70 +395,65 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
 }
 
 /* ============================================================
-   TEMĂ: DARK / NEON — „pană pe DN1 la 2 noaptea"
-   NU cyan/lime (clișeu AI). Chihlimbar de avarie + roșu-stop,
-   glow ca farurile și luminile de avarie pe asfalt ud.
-   Display: Anton cu halou subtil. Semnătură: glow nocturn + sweep far.
+   TEMĂ: MODERN / CLEAN
+   Alb riguros, ROȘU = singurul accent, text bleu-cerneală.
+   Vernacular cartografic (coordonate, DN1) ca semnătură discretă.
+   Display: Plus Jakarta Sans 800 (tight). Aer mult, foto mari.
    ============================================================ */
 :root{
-  --bg:#080a0e; --bg2:#0c0f15; --surface:#11151c; --surface2:#161b24;
-  --line:#222936; --text:#eef2f7; --muted:#8a93a3;
-  --accent:#ffb02e;        /* chihlimbar — lumină de avarie */
-  --accent2:#ff4536;       /* roșu-stop */
-  --accent-ink:#1a1206;
-  --wa:#25d366; --wa-ink:#0a3d1f;
-  --font-display:'Anton',Impact,sans-serif;
-  --hero-grad:linear-gradient(180deg,rgba(4,5,8,.40) 0%,rgba(4,5,8,.62) 45%,rgba(4,5,8,.96) 100%);
+  --bg:#fbfaf7; --bg2:#f2f0ea; --surface:#ffffff; --surface2:#f5f3ee;
+  --line:#e3e0d7; --text:#15181d; --muted:#5d636d;
+  --accent:#d81e15;        /* roșu brand, unicul accent */
+  --accent2:#d81e15;
+  --accent-ink:#ffffff;
+  --wa:#1faa53; --wa-ink:#ffffff;
+  --font-display:'PJS',system-ui,sans-serif;
+  --shadow:0 24px 60px -24px rgba(20,24,30,.28);
+  --hero-grad:linear-gradient(180deg,rgba(10,12,16,.28) 0%,rgba(10,12,16,.42) 45%,rgba(10,12,16,.82) 100%);
 }
 
-/* atmosferă nocturnă: două halouri de lumină (avarie + stop) pe asfalt ud */
-body{
-  background-color:var(--bg);
-  background-image:
-    radial-gradient(900px 520px at 12% -8%, rgba(255,176,46,.10), transparent 62%),
-    radial-gradient(760px 480px at 92% 4%, rgba(255,69,54,.09), transparent 60%);
-  background-attachment:fixed;
-}
+body{background:var(--bg)}
 
-/* titluri cu halou cald, ca neonul reflectat */
-.hero h1{text-shadow:0 0 38px rgba(255,176,46,.30),0 6px 30px rgba(0,0,0,.6)}
-.hero h1 em{color:var(--accent2);text-shadow:0 0 34px rgba(255,69,54,.45)}
-.sec-head h2,.feature-text h2,.contact-text h2{text-shadow:0 0 30px rgba(255,176,46,.12)}
+/* display PJS: foarte strâns + bold, ca să nu fie „neutru" */
+.hero h1,.sec-head h2,.feature-text h2,.contact-text h2,
+.brand-txt b,.foot-brand b,.card h3,.hours h3,.feature-badge b,.stat b{
+  font-weight:800;letter-spacing:-.02em;text-transform:none}
+.hero h1{letter-spacing:-.03em;line-height:1}
+.card h3{letter-spacing:-.01em}
 
-/* SEMNĂTURĂ — linie de lumină care „mătură" ca un far */
-.chevron-bar{height:2px;background:linear-gradient(90deg,transparent,var(--accent),var(--accent2),transparent);
-  background-size:240% 100%;animation:sweep 5s linear infinite;opacity:.9}
-@keyframes sweep{to{background-position:240% 0}}
+/* WA verde mai sobru pe alb */
+.btn-wa{color:#fff}
+.btn-wa svg{fill:#fff}
 
-/* kicker — punct de avarie pulsând */
+/* SEMNĂTURĂ — fir roșu fin + coordonate (vernacular rutier/cartografic) */
+.chevron-bar{height:2px;background:var(--accent)}
 .kicker{color:var(--accent)}
-.kicker::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--accent);
-  box-shadow:0 0 12px var(--accent);animation:flash 1.6s steps(1) infinite}
-@keyframes flash{0%,50%{opacity:1}51%,100%{opacity:.25}}
+.kicker::before{content:"45.23°N · DN1";font-family:var(--font-body);font-weight:800;
+  letter-spacing:.12em;color:var(--muted);font-size:.7rem;
+  padding-right:.8rem;margin-right:.2rem;border-right:1px solid var(--line)}
 
-/* accente luminoase pe elemente */
-.stat b{color:var(--accent);text-shadow:0 0 26px rgba(255,176,46,.4)}
-.brand-mark{box-shadow:0 0 18px rgba(255,176,46,.35)}
-.card{background:linear-gradient(180deg,var(--surface),var(--bg2))}
-.card:hover{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent),0 24px 60px -20px rgba(255,176,46,.25)}
-.card-ico{background:color-mix(in srgb,var(--accent) 16%,transparent);box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--accent) 30%,transparent)}
-.area-pill:hover{box-shadow:0 0 18px -4px var(--accent)}
-.eyebrow{background:linear-gradient(90deg,var(--accent),var(--accent2));color:#1a1206}
+/* header pe alb */
+.site-head{background:color-mix(in srgb,#fff 86%,transparent);border-bottom:1px solid var(--line)}
+.brand-txt i{color:var(--muted)}
 
-/* dock WA + call cu glow */
-.dock-call{box-shadow:0 0 24px -2px var(--accent),0 10px 30px rgba(0,0,0,.5)}
+/* ticker discret pe roșu */
+.ticker{border-block:0}
 
-/* ticker pe chihlimbar */
-.ticker{background:linear-gradient(90deg,var(--accent),var(--accent2));--accent-ink:#1a1206;color:#1a1206;border-block:0}
+/* carduri curate cu umbră fină, nu border greu */
+.card{border-color:var(--line);box-shadow:0 1px 0 var(--line)}
+.card:hover{box-shadow:var(--shadow)}
+.card-ico{background:color-mix(in srgb,var(--accent) 9%,#fff);}
+.area-pill,.hours,.map-cta,.review,.stat{background:var(--surface)}
 
-@media (prefers-reduced-motion:reduce){
-  .chevron-bar{animation:none;background:linear-gradient(90deg,var(--accent),var(--accent2))}
-  .kicker::before{animation:none}
-}
+/* eyebrow hero rămâne roșu plin (lizibil pe foto) */
+.eyebrow{background:var(--accent)}
+
+/* footer luminos */
+.site-foot{background:var(--bg2)}
 
 </style>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "LocalBusiness", "name": "Detailing Auto Profesional Sector 5", "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80", "telephone": "0733 131 133", "address": {"@type": "PostalAddress", "streetAddress": "Strada Echinoctiului nr. 52, Sector 5, București", "addressLocality": "Sector 5", "addressCountry": "RO"}}
+{"@context": "https://schema.org", "@type": "LocalBusiness", "name": "Puerto Cafe", "image": "https://images.unsplash.com/photo-1581094288338-2314dddb7ecc?auto=format&fit=crop&w=1200&q=80", "telephone": "0734 418 035", "address": {"@type": "PostalAddress", "streetAddress": "Bulevardul Burebista, Sector 3, București", "addressLocality": "Sector 3", "addressCountry": "RO"}}
 </script>
 </head>
 <body>
@@ -467,9 +462,9 @@ body{
 
 <header class="site-head" id="top">
   <div class="wrap head-inner">
-    <a class="brand" href="#top" aria-label="Detailing Auto Profesional Sector 5 — acasă">
-      <span class="brand-mark" style="font-size: 1.5rem; display: grid; place-items: center; width: 42px; height: 42px; background: rgba(255,255,255,0.1); border-radius: 10px;">🧼</span>
-      <span class="brand-txt"><b>Detailing Auto Profesional Sector 5</b><i>Sector 5</i></span>
+    <a class="brand" href="#top" aria-label="Puerto Cafe — acasă">
+      <span class="brand-mark" style="font-size: 1.5rem; display: grid; place-items: center; width: 42px; height: 42px; background: rgba(255,255,255,0.1); border-radius: 10px;">☕</span>
+      <span class="brand-txt"><b>Puerto Cafe</b><i>Sector 3</i></span>
     </a>
     <nav class="nav" aria-label="Principal">
       <a href="#servicii">Servicii</a>
@@ -479,7 +474,7 @@ body{
       <a href="#contact">Contact</a>
     </nav>
     <div class="head-cta">
-      <a class="btn btn-ghost" href="tel:0733131133"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 6l6 1 2 9-5 4a24 24 0 0 0 11 11l4-5 9 2 1 6a4 4 0 0 1-4 4A34 34 0 0 1 10 10a4 4 0 0 1 4-4z"/></svg><span>0733 131 133</span></a>
+      <a class="btn btn-ghost" href="tel:0734418035"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 6l6 1 2 9-5 4a24 24 0 0 0 11 11l4-5 9 2 1 6a4 4 0 0 1-4 4A34 34 0 0 1 10 10a4 4 0 0 1 4-4z"/></svg><span>0734 418 035</span></a>
       <button class="burger" aria-label="Meniu" aria-expanded="false"><span></span><span></span><span></span></button>
     </div>
   </div>
@@ -490,16 +485,16 @@ body{
 
   <!-- HERO -->
   <section class="hero">
-    <div class="hero-media"><img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80" alt="Detailing Auto Profesional Sector 5" width="1600" height="1200" fetchpriority="high"></div>
+    <div class="hero-media"><img src="https://images.unsplash.com/photo-1581094288338-2314dddb7ecc?auto=format&fit=crop&w=1200&q=80" alt="Puerto Cafe" width="1600" height="1200" fetchpriority="high"></div>
     <div class="hero-overlay"></div>
     <div class="hero-sweep" aria-hidden="true"></div>
     <div class="wrap hero-inner">
-      <p class="eyebrow reveal"><span class="ping"></span> Sector 5 · Calitate Garantată</p>
-      <h1 class="reveal">Redă strălucirea<br><em>mașinii tale</em></h1>
-      <p class="lead reveal">Servicii profesionale de servicii complete de cosmetică și detailing auto cu echipamente moderne și personal cu experiență.</p>
+      <p class="eyebrow reveal"><span class="ping"></span> Sector 3 · Calitate Garantată</p>
+      <h1 class="reveal">Bistro urban & cafea<br><em>pe Bulevardul Burebista</em></h1>
+      <p class="lead reveal">Servicii profesionale de cafea aromată de dimineață, mic dejun consistent și prânz rapid cu echipamente moderne și personal cu experiență.</p>
       <div class="hero-actions reveal">
-        <a class="btn btn-call" href="tel:0733131133"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 6l6 1 2 9-5 4a24 24 0 0 0 11 11l4-5 9 2 1 6a4 4 0 0 1-4 4A34 34 0 0 1 10 10a4 4 0 0 1 4-4z"/></svg><span>Sună acum · 0733 131 133</span></a>
-        <a class="btn btn-wa" href="https://wa.me/40733131133?text=Bun%C4%83%20ziua%21%20Am%20v%C4%83zut%20propunerea%20de%20site%20pentru%20Detailing%20Auto%20Profesional%20Sector%205%20%C8%99i%20a%C8%99%20dori%20mai%20multe%20detalii." target="_blank" rel="noopener"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11 19.6L3 29l6.6-2a13 13 0 1 0 6.4-24zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-4 1 1-3.9-.3-.4A10.6 10.6 0 1 1 16 26.6zm6-7.9c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.8.2s-.9 1.1-1.1 1.3-.4.2-.8 0a8.6 8.6 0 0 1-4.3-3.7c-.3-.6.3-.5.9-1.8.1-.2 0-.4 0-.6s-.8-1.9-1-2.6c-.3-.7-.6-.6-.8-.6h-.7a1.3 1.3 0 0 0-1 .4 4 4 0 0 0-1.2 2.9 6.9 6.9 0 0 0 1.4 3.6 15.7 15.7 0 0 0 6 5.3c2.2 1 3 1 4.1.9a3.5 3.5 0 0 0 2.3-1.6 2.9 2.9 0 0 0 .2-1.6c0-.2-.3-.3-.6-.5z"/></svg><span>Scrie pe WhatsApp</span></a>
+        <a class="btn btn-call" href="tel:0734418035"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 6l6 1 2 9-5 4a24 24 0 0 0 11 11l4-5 9 2 1 6a4 4 0 0 1-4 4A34 34 0 0 1 10 10a4 4 0 0 1 4-4z"/></svg><span>Sună acum · 0734 418 035</span></a>
+        <a class="btn btn-wa" href="https://wa.me/40734418035?text=Bun%C4%83%20ziua%21%20Am%20v%C4%83zut%20propunerea%20de%20site%20pentru%20Puerto%20Cafe%20%C8%99i%20a%C8%99%20dori%20mai%20multe%20detalii." target="_blank" rel="noopener"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11 19.6L3 29l6.6-2a13 13 0 1 0 6.4-24zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-4 1 1-3.9-.3-.4A10.6 10.6 0 1 1 16 26.6zm6-7.9c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.8.2s-.9 1.1-1.1 1.3-.4.2-.8 0a8.6 8.6 0 0 1-4.3-3.7c-.3-.6.3-.5.9-1.8.1-.2 0-.4 0-.6s-.8-1.9-1-2.6c-.3-.7-.6-.6-.8-.6h-.7a1.3 1.3 0 0 0-1 .4 4 4 0 0 0-1.2 2.9 6.9 6.9 0 0 0 1.4 3.6 15.7 15.7 0 0 0 6 5.3c2.2 1 3 1 4.1.9a3.5 3.5 0 0 0 2.3-1.6 2.9 2.9 0 0 0 .2-1.6c0-.2-.3-.3-.6-.5z"/></svg><span>Scrie pe WhatsApp</span></a>
       </div>
       <ul class="hero-chips reveal">
         <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13l4 4 10-12"/></svg> Servicii Rapide</li>
@@ -512,7 +507,7 @@ body{
   <!-- TICKER ZONE -->
   <div class="ticker" aria-label="Zone acoperite">
     <div class="ticker-track">
-      <span>Sector 5</span><span>București</span><span>Zone limitrofe</span><span>Sector 5</span><span>București</span><span>Zone limitrofe</span><span>Sector 5</span><span>București</span><span>Zone limitrofe</span><span>Sector 5</span><span>București</span><span>Zone limitrofe</span>
+      <span>Sector 3</span><span>București</span><span>Zone limitrofe</span><span>Sector 3</span><span>București</span><span>Zone limitrofe</span><span>Sector 3</span><span>București</span><span>Zone limitrofe</span><span>Sector 3</span><span>București</span><span>Zone limitrofe</span>
     </div>
   </div>
 
@@ -534,28 +529,31 @@ body{
       </header>
       <div class="services">
         
-        <article class="card reveal no-img" style="--i:0">
+        <article class="card reveal has-img" style="--i:0">
           <span class="card-glow" aria-hidden="true"></span>
+          <div class="card-media"><img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=600&q=80" alt="Mic dejun & Cafea" width="600" height="450" loading="lazy"></div>
           <div class="card-body">
-            <span class="card-ico" style="font-size: 1.8rem; display: grid; place-items: center; width: 48px; height: 48px;">🚗</span>
-            <h3>Cosmetică Auto Interior</h3>
-            <p>Curățare scaune cu spumă activă, hidratare elemente din piele, curățare portbagaj și compartiment roată rezervă.</p>
+            <span class="card-ico" style="font-size: 1.8rem; display: grid; place-items: center; width: 48px; height: 48px;">☕</span>
+            <h3>Mic dejun & Cafea</h3>
+            <p>Omlete pufoase, toast cald și espresso intens pentru un început de zi plin de energie.</p>
           </div>
         </article>
-        <article class="card reveal no-img" style="--i:1">
+        <article class="card reveal has-img" style="--i:1">
           <span class="card-glow" aria-hidden="true"></span>
+          <div class="card-media"><img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80" alt="Meniu de prânz" width="600" height="450" loading="lazy"></div>
           <div class="card-body">
-            <span class="card-ico" style="font-size: 1.8rem; display: grid; place-items: center; width: 48px; height: 48px;">✨</span>
-            <h3>Detailing Motor & Conservare</h3>
-            <p>Spălare sigură a motorului cu aburi sau soluții dielectrice și aplicare dressing de protecție pentru plastice.</p>
+            <span class="card-ico" style="font-size: 1.8rem; display: grid; place-items: center; width: 48px; height: 48px;">🍲</span>
+            <h3>Meniu de prânz</h3>
+            <p>Supe calde, paste delicioase și salate proaspete servite rapid la prânz.</p>
           </div>
         </article>
-        <article class="card reveal no-img" style="--i:2">
+        <article class="card reveal has-img" style="--i:2">
           <span class="card-glow" aria-hidden="true"></span>
+          <div class="card-media"><img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=600&q=80" alt="Social Club & Drinks" width="600" height="450" loading="lazy"></div>
           <div class="card-body">
-            <span class="card-ico" style="font-size: 1.8rem; display: grid; place-items: center; width: 48px; height: 48px;">🔥</span>
-            <h3>Decontaminare Argilă & Polish</h3>
-            <p>Eliminare particule de fier și bitum de pe caroserie urmată de un polish fin pentru luciu intens.</p>
+            <span class="card-ico" style="font-size: 1.8rem; display: grid; place-items: center; width: 48px; height: 48px;">🍹</span>
+            <h3>Social Club & Drinks</h3>
+            <p>Limonade proaspete, cocktailuri clasice și bere craft pentru seri relaxante.</p>
           </div>
         </article>
       </div>
@@ -566,7 +564,7 @@ body{
   <section class="section section-alt" id="dece">
     <div class="wrap feature">
       <div class="feature-media reveal">
-        <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80" alt="Detailing Auto Profesional Sector 5" width="1000" height="1333" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=1000&q=80" alt="Puerto Cafe" width="1000" height="1333" loading="lazy">
         <div class="feature-badge"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="18"/><path d="M24 13v11l8 5"/></svg><div><b>CALITATE</b><span>garantată 100%</span></div></div>
       </div>
       <div class="feature-text">
@@ -578,7 +576,7 @@ body{
           <li class="reveal"><span class="why-ico"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="18"/><path d="M24 13v11l8 5"/></svg></span><div><b>Orientare către client</b><p>Suntem atenți la cerințele specifice și adaptăm fiecare soluție bugetului tău.</p></div></li>
           <li class="reveal"><span class="why-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13l4 4 10-12"/></svg></span><div><b>Fără costuri ascunse</b><p>Primești o estimare clară de preț, cu transparență deplină asupra serviciilor contractate.</p></div></li>
         </ul>
-        <a class="btn btn-call reveal" href="tel:0733131133"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 6l6 1 2 9-5 4a24 24 0 0 0 11 11l4-5 9 2 1 6a4 4 0 0 1-4 4A34 34 0 0 1 10 10a4 4 0 0 1 4-4z"/></svg><span>0733 131 133</span></a>
+        <a class="btn btn-call reveal" href="tel:0734418035"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 6l6 1 2 9-5 4a24 24 0 0 0 11 11l4-5 9 2 1 6a4 4 0 0 1-4 4A34 34 0 0 1 10 10a4 4 0 0 1 4-4z"/></svg><span>0734 418 035</span></a>
       </div>
     </div>
   </section>
@@ -589,22 +587,22 @@ body{
       <header class="sec-head reveal">
         <p class="kicker">Unde ne găsești</p>
         <h2>Locație și zone de intervenție</h2>
-        <p class="sub">Acoperim cu brio localitatea Sector 5 și împrejurimile.</p>
+        <p class="sub">Acoperim cu brio localitatea Sector 3 și împrejurimile.</p>
       </header>
       <div class="areas reveal">
-        <span class="area-pill"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z"/><circle cx="24" cy="20" r="5"/></svg>Sector 5</span>
+        <span class="area-pill"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z"/><circle cx="24" cy="20" r="5"/></svg>Sector 3</span>
         <span class="area-pill"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z"/><circle cx="24" cy="20" r="5"/></svg>București</span>
         <span class="area-pill"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z"/><circle cx="24" cy="20" r="5"/></svg>Ilfov</span>
       </div>
       <div class="map-embed reveal">
-        <iframe title="Hartă Detailing Auto Profesional Sector 5 — Strada Echinoctiului nr. 52, Sector 5, București" src="https://www.google.com/maps?q=Detailing%20Auto%20Profesional%20Sector%205%20Strada%20Echinoctiului%20nr.%2052%2C%20Sector%205%2C%20Bucure%C8%99ti&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe title="Hartă Puerto Cafe — Bulevardul Burebista, Sector 3, București" src="https://www.google.com/maps?q=Puerto%20Cafe%20Bulevardul%20Burebista%2C%20Sector%203%2C%20Bucure%C8%99ti&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
       <div class="map-cta reveal">
         <div>
-          <b>Strada Echinoctiului nr. 52, Sector 5, București</b>
-          <span>Sector 5</span>
+          <b>Bulevardul Burebista, Sector 3, București</b>
+          <span>Sector 3</span>
         </div>
-        <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=Detailing%20Auto%20Profesional%20Sector%205%20Strada%20Echinoctiului%20nr.%2052%2C%20Sector%205%2C%20Bucure%C8%99ti" target="_blank" rel="noopener"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z"/><circle cx="24" cy="20" r="5"/></svg><span>Deschide în Google Maps</span></a>
+        <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=Puerto%20Cafe%20Bulevardul%20Burebista%2C%20Sector%203%2C%20Bucure%C8%99ti" target="_blank" rel="noopener"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z"/><circle cx="24" cy="20" r="5"/></svg><span>Deschide în Google Maps</span></a>
       </div>
     </div>
   </section>
@@ -622,17 +620,17 @@ body{
         <figure class="review reveal">
           <span class="stars"><svg viewBox='0 0 24 24' class='star' aria-hidden='true'><path d='M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z'/></svg><svg viewBox='0 0 24 24' class='star' aria-hidden='true'><path d='M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z'/></svg><svg viewBox='0 0 24 24' class='star' aria-hidden='true'><path d='M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z'/></svg><svg viewBox='0 0 24 24' class='star' aria-hidden='true'><path d='M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z'/></svg><svg viewBox='0 0 24 24' class='star' aria-hidden='true'><path d='M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z'/></svg></span>
           <blockquote>"Curățare tapițerie impecabilă în Sectorul 6. Tapițeria din piele a fost hidratată și curățată cu atenție. Profesioniști adevărați, prețuri foarte corecte."</blockquote>
-          <figcaption><span class="avatar">G</span><span><b>Gabriel Stoica</b><i>Client Google</i></span></figcaption>
+          <figcaption><span class="avatar">A</span><span><b>Alexandru Ionescu</b><i>Client Google</i></span></figcaption>
         </figure>
         <figure class="review reveal">
           <span class="stars"><svg viewBox='0 0 24 24' class='star' aria-hidden='true'><path d='M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z'/></svg><svg viewBox='0 0 24 24' class='star' aria-hidden='true'><path d='M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z'/></svg><svg viewBox='0 0 24 24' class='star' aria-hidden='true'><path d='M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z'/></svg><svg viewBox='0 0 24 24' class='star' aria-hidden='true'><path d='M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z'/></svg><svg viewBox='0 0 24 24' class='star' aria-hidden='true'><path d='M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z'/></svg></span>
-          <blockquote>"Am dus mașina pentru detailing interior și polish exterior. Rezultatul a fost peste așteptări! Interiorul arată ca nou, iar zgârieturile fine au dispărut complet. Recomand Detailing Auto Profesional Sector 5!"</blockquote>
-          <figcaption><span class="avatar">N</span><span><b>Nicoleta Petrescu</b><i>Client Google</i></span></figcaption>
+          <blockquote>"Am dus mașina pentru detailing interior și polish exterior. Rezultatul a fost peste așteptări! Interiorul arată ca nou, iar zgârieturile fine au dispărut complet. Recomand Puerto Cafe!"</blockquote>
+          <figcaption><span class="avatar">F</span><span><b>Florin Nica</b><i>Client Google</i></span></figcaption>
         </figure>
         <figure class="review reveal">
           <span class="stars"><svg viewBox='0 0 24 24' class='star' aria-hidden='true'><path d='M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z'/></svg><svg viewBox='0 0 24 24' class='star' aria-hidden='true'><path d='M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z'/></svg><svg viewBox='0 0 24 24' class='star' aria-hidden='true'><path d='M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z'/></svg><svg viewBox='0 0 24 24' class='star' aria-hidden='true'><path d='M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z'/></svg><svg viewBox='0 0 24 24' class='star' aria-hidden='true'><path d='M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z'/></svg></span>
-          <blockquote>"Protecția ceramică aplicată la Detailing Auto Profesional Sector 5 își face treaba de minune. Apa fuge pur și simplu de pe caroserie, iar praful nu se mai prinde atât de ușor. Servicii premium de nota 10."</blockquote>
-          <figcaption><span class="avatar">N</span><span><b>Nicoleta Marin</b><i>Client Google</i></span></figcaption>
+          <blockquote>"Un atelier de detailing auto unde se pune preț pe detalii. Atenție deosebită la finisaje, personal prietenos și servicii de înaltă calitate."</blockquote>
+          <figcaption><span class="avatar">D</span><span><b>Denisa Stancu</b><i>Client Google</i></span></figcaption>
         </figure>
       </div>
       <div class="review-dots" aria-label="Navigare recenzii"></div>
@@ -647,14 +645,14 @@ body{
         <h2>Hai să discutăm despre ce ai nevoie</h2>
         <p class="lead reveal">Suntem disponibili prin apel telefonic sau direct pe WhatsApp pentru un răspuns rapid.</p>
         <div class="contact-actions reveal">
-          <a class="btn btn-call" href="tel:0733131133"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 6l6 1 2 9-5 4a24 24 0 0 0 11 11l4-5 9 2 1 6a4 4 0 0 1-4 4A34 34 0 0 1 10 10a4 4 0 0 1 4-4z"/></svg><span>Sună acum</span></a>
-          <a class="btn btn-wa" href="https://wa.me/40733131133?text=Bun%C4%83%20ziua%21%20Am%20v%C4%83zut%20propunerea%20de%20site%20pentru%20Detailing%20Auto%20Profesional%20Sector%205%20%C8%99i%20a%C8%99%20dori%20mai%20multe%20detalii." target="_blank" rel="noopener"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11 19.6L3 29l6.6-2a13 13 0 1 0 6.4-24zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-4 1 1-3.9-.3-.4A10.6 10.6 0 1 1 16 26.6zm6-7.9c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.8.2s-.9 1.1-1.1 1.3-.4.2-.8 0a8.6 8.6 0 0 1-4.3-3.7c-.3-.6.3-.5.9-1.8.1-.2 0-.4 0-.6s-.8-1.9-1-2.6c-.3-.7-.6-.6-.8-.6h-.7a1.3 1.3 0 0 0-1 .4 4 4 0 0 0-1.2 2.9 6.9 6.9 0 0 0 1.4 3.6 15.7 15.7 0 0 0 6 5.3c2.2 1 3 1 4.1.9a3.5 3.5 0 0 0 2.3-1.6 2.9 2.9 0 0 0 .2-1.6c0-.2-.3-.3-.6-.5z"/></svg><span>WhatsApp</span></a>
+          <a class="btn btn-call" href="tel:0734418035"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 6l6 1 2 9-5 4a24 24 0 0 0 11 11l4-5 9 2 1 6a4 4 0 0 1-4 4A34 34 0 0 1 10 10a4 4 0 0 1 4-4z"/></svg><span>Sună acum</span></a>
+          <a class="btn btn-wa" href="https://wa.me/40734418035?text=Bun%C4%83%20ziua%21%20Am%20v%C4%83zut%20propunerea%20de%20site%20pentru%20Puerto%20Cafe%20%C8%99i%20a%C8%99%20dori%20mai%20multe%20detalii." target="_blank" rel="noopener"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11 19.6L3 29l6.6-2a13 13 0 1 0 6.4-24zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-4 1 1-3.9-.3-.4A10.6 10.6 0 1 1 16 26.6zm6-7.9c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.8.2s-.9 1.1-1.1 1.3-.4.2-.8 0a8.6 8.6 0 0 1-4.3-3.7c-.3-.6.3-.5.9-1.8.1-.2 0-.4 0-.6s-.8-1.9-1-2.6c-.3-.7-.6-.6-.8-.6h-.7a1.3 1.3 0 0 0-1 .4 4 4 0 0 0-1.2 2.9 6.9 6.9 0 0 0 1.4 3.6 15.7 15.7 0 0 0 6 5.3c2.2 1 3 1 4.1.9a3.5 3.5 0 0 0 2.3-1.6 2.9 2.9 0 0 0 .2-1.6c0-.2-.3-.3-.6-.5z"/></svg><span>WhatsApp</span></a>
         </div>
       </div>
       <div class="hours reveal">
         <h3>Program de lucru</h3>
         <table>
-          <tr><td>Program</td><td class="hl">Luni - Vineri: 09:00 - 18:00 | Sâmbătă: 09:00 - 15:00 | Duminică: Închis</td></tr>
+          <tr><td>Program</td><td class="hl">Luni - Duminică: 08:00 - 23:00</td></tr>
         </table>
         <p class="hours-note"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="18"/><path d="M24 13v11l8 5"/></svg> Ne puteți apela direct în timpul programului.</p>
       </div>
@@ -666,25 +664,25 @@ body{
 <footer class="site-foot">
   <div class="wrap foot-inner">
     <div class="foot-brand">
-      <b>Detailing Auto Profesional Sector 5</b>
-      <span>Sector 5</span>
+      <b>Puerto Cafe</b>
+      <span>Sector 3</span>
     </div>
     <nav class="foot-nav" aria-label="Footer">
       <a href="#servicii">Servicii</a><a href="#acoperire">Acoperire</a><a href="#recenzii">Recenzii</a><a href="#contact">Contact</a>
     </nav>
-    <p class="foot-legal">© <span id="y"></span> Detailing Auto Profesional Sector 5 · Toate drepturile rezervate.<br>Website de prezentare premium realizat automat.</p>
+    <p class="foot-legal">© <span id="y"></span> Puerto Cafe · Toate drepturile rezervate.<br>Website de prezentare premium realizat automat.</p>
   </div>
 </footer>
 
 <!-- BUTOANE FLOTANTE -->
 <div class="dock">
-  <a class="dock-btn dock-call" href="tel:0733131133" aria-label="Sună acum"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 6l6 1 2 9-5 4a24 24 0 0 0 11 11l4-5 9 2 1 6a4 4 0 0 1-4 4A34 34 0 0 1 10 10a4 4 0 0 1 4-4z"/></svg></a>
-  <a class="dock-btn dock-wa" href="https://wa.me/40733131133?text=Bun%C4%83%20ziua%21%20Am%20v%C4%83zut%20propunerea%20de%20site%20pentru%20Detailing%20Auto%20Profesional%20Sector%205%20%C8%99i%20a%C8%99%20dori%20mai%20multe%20detalii." target="_blank" rel="noopener" aria-label="Scrie pe WhatsApp"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11 19.6L3 29l6.6-2a13 13 0 1 0 6.4-24zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-4 1 1-3.9-.3-.4A10.6 10.6 0 1 1 16 26.6zm6-7.9c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.8.2s-.9 1.1-1.1 1.3-.4.2-.8 0a8.6 8.6 0 0 1-4.3-3.7c-.3-.6.3-.5.9-1.8.1-.2 0-.4 0-.6s-.8-1.9-1-2.6c-.3-.7-.6-.6-.8-.6h-.7a1.3 1.3 0 0 0-1 .4 4 4 0 0 0-1.2 2.9 6.9 6.9 0 0 0 1.4 3.6 15.7 15.7 0 0 0 6 5.3c2.2 1 3 1 4.1.9a3.5 3.5 0 0 0 2.3-1.6 2.9 2.9 0 0 0 .2-1.6c0-.2-.3-.3-.6-.5z"/></svg></a>
+  <a class="dock-btn dock-call" href="tel:0734418035" aria-label="Sună acum"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 6l6 1 2 9-5 4a24 24 0 0 0 11 11l4-5 9 2 1 6a4 4 0 0 1-4 4A34 34 0 0 1 10 10a4 4 0 0 1 4-4z"/></svg></a>
+  <a class="dock-btn dock-wa" href="https://wa.me/40734418035?text=Bun%C4%83%20ziua%21%20Am%20v%C4%83zut%20propunerea%20de%20site%20pentru%20Puerto%20Cafe%20%C8%99i%20a%C8%99%20dori%20mai%20multe%20detalii." target="_blank" rel="noopener" aria-label="Scrie pe WhatsApp"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11 19.6L3 29l6.6-2a13 13 0 1 0 6.4-24zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-4 1 1-3.9-.3-.4A10.6 10.6 0 1 1 16 26.6zm6-7.9c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.8.2s-.9 1.1-1.1 1.3-.4.2-.8 0a8.6 8.6 0 0 1-4.3-3.7c-.3-.6.3-.5.9-1.8.1-.2 0-.4 0-.6s-.8-1.9-1-2.6c-.3-.7-.6-.6-.8-.6h-.7a1.3 1.3 0 0 0-1 .4 4 4 0 0 0-1.2 2.9 6.9 6.9 0 0 0 1.4 3.6 15.7 15.7 0 0 0 6 5.3c2.2 1 3 1 4.1.9a3.5 3.5 0 0 0 2.3-1.6 2.9 2.9 0 0 0 .2-1.6c0-.2-.3-.3-.6-.5z"/></svg></a>
 </div>
 
 <div class="callbar">
-  <a class="callbar-call" href="tel:0733131133"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 6l6 1 2 9-5 4a24 24 0 0 0 11 11l4-5 9 2 1 6a4 4 0 0 1-4 4A34 34 0 0 1 10 10a4 4 0 0 1 4-4z"/></svg><span>Sună acum · 0733 131 133</span></a>
-  <a class="callbar-wa" href="https://wa.me/40733131133?text=Bun%C4%83%20ziua%21%20Am%20v%C4%83zut%20propunerea%20de%20site%20pentru%20Detailing%20Auto%20Profesional%20Sector%205%20%C8%99i%20a%C8%99%20dori%20mai%20multe%20detalii." target="_blank" rel="noopener" aria-label="Scrie pe WhatsApp"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11 19.6L3 29l6.6-2a13 13 0 1 0 6.4-24zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-4 1 1-3.9-.3-.4A10.6 10.6 0 1 1 16 26.6zm6-7.9c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.8.2s-.9 1.1-1.1 1.3-.4.2-.8 0a8.6 8.6 0 0 1-4.3-3.7c-.3-.6.3-.5.9-1.8.1-.2 0-.4 0-.6s-.8-1.9-1-2.6c-.3-.7-.6-.6-.8-.6h-.7a1.3 1.3 0 0 0-1 .4 4 4 0 0 0-1.2 2.9 6.9 6.9 0 0 0 1.4 3.6 15.7 15.7 0 0 0 6 5.3c2.2 1 3 1 4.1.9a3.5 3.5 0 0 0 2.3-1.6 2.9 2.9 0 0 0 .2-1.6c0-.2-.3-.3-.6-.5z"/></svg></a>
+  <a class="callbar-call" href="tel:0734418035"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 6l6 1 2 9-5 4a24 24 0 0 0 11 11l4-5 9 2 1 6a4 4 0 0 1-4 4A34 34 0 0 1 10 10a4 4 0 0 1 4-4z"/></svg><span>Sună acum · 0734 418 035</span></a>
+  <a class="callbar-wa" href="https://wa.me/40734418035?text=Bun%C4%83%20ziua%21%20Am%20v%C4%83zut%20propunerea%20de%20site%20pentru%20Puerto%20Cafe%20%C8%99i%20a%C8%99%20dori%20mai%20multe%20detalii." target="_blank" rel="noopener" aria-label="Scrie pe WhatsApp"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11 19.6L3 29l6.6-2a13 13 0 1 0 6.4-24zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-4 1 1-3.9-.3-.4A10.6 10.6 0 1 1 16 26.6zm6-7.9c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.8.2s-.9 1.1-1.1 1.3-.4.2-.8 0a8.6 8.6 0 0 1-4.3-3.7c-.3-.6.3-.5.9-1.8.1-.2 0-.4 0-.6s-.8-1.9-1-2.6c-.3-.7-.6-.6-.8-.6h-.7a1.3 1.3 0 0 0-1 .4 4 4 0 0 0-1.2 2.9 6.9 6.9 0 0 0 1.4 3.6 15.7 15.7 0 0 0 6 5.3c2.2 1 3 1 4.1.9a3.5 3.5 0 0 0 2.3-1.6 2.9 2.9 0 0 0 .2-1.6c0-.2-.3-.3-.6-.5z"/></svg></a>
 </div>
 
 <script>

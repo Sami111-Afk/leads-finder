@@ -222,23 +222,23 @@ LEADS = [
         "image_url": "https://images.unsplash.com/photo-1579684389782-64d84b5e901d?auto=format&fit=crop&w=600&q=80",
         "prefix": "dermatologie_"
     },
-    {
-        "niche": "logopedie",
-        "emoji": "🗣️",
-        "name": "Cabinet Logopedie Ioana Radu",
-        "phone": "0724 445 566",
-        "location": "Bulevardul Camil Ressu nr. 22, Sector 3, București",
-        "program": "Luni - Vineri: 08:30 - 19:30 | Sâmbătă: 09:00 - 14:00 | Duminică: Închis",
-        "slogan_part1": "Terapie logopedică &",
-        "slogan_part2": "dezvoltare vorbire copii",
-        "desc_niche": "evaluare logopedică și corectare pronunție copii",
+        {
+        "niche": "restaurant_italian",
+        "emoji": "🍝",
+        "name": "Trattoria Buoni Amici",
+        "phone": "0763 590 519",
+        "location": "Bulevardul Schitu Măgureanu nr. 35, Sector 5, București",
+        "program": "Luni - Duminică: 09:00 - 23:00",
+        "slogan_part1": "Paste proaspete & pizza",
+        "slogan_part2": "lângă Parcul Cișmigiu",
+        "desc_niche": "bucătărie tradițională italiană cu ingrediente din Italia, într-o atmosferă prietenoasă",
         "services": [
-            {"icon": "🗣️", "name": "Corectare Tulburări Pronunție", "desc": "Terapie logopedică pentru dislalie (pronunțarea incorectă a sunetelor, ex: R, S, L), dislexie, disgrafie și balbism."},
-            {"icon": "🧠", "name": "Evaluare Logopedică Completă", "desc": "Testarea nivelului limbajului, vocabularului, structurii gramaticale și stabilirea unui plan de intervenție personalizat."},
-            {"icon": "🧸", "name": "Logopedie prin Joc (Interactive)", "desc": "Ședințe interactive și atractive concepute sub formă de joc, special pentru copii mici de 3-7 ani."}
+            {"icon": "🍕", "name": "Pizza pe vatră", "desc": "Pizza cu aluat dospit lent, sos de roșii San Marzano și mozzarella fior di latte."},
+            {"icon": "🍝", "name": "Paste proaspete", "desc": "Tagliatelle, penne și lasagna preparate în casă după rețeta autentice italiene."},
+            {"icon": "🥂", "name": "Rezervări evenimente", "desc": "Mese festive, aniversări sau dineuri într-un cadru intim și primitor."}
         ],
-        "image_url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=600&q=80",
-        "prefix": "logopedie_"
+        "image_url": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=600&q=80",
+        "prefix": "buoniamici_"
     },
     {
         "niche": "logopedie",
