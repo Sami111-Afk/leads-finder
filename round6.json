@@ -1,0 +1,401 @@
+[
+  {
+    "slug": "ceasornicarie_magheru",
+    "palette": "leather",
+    "niche_key": "generic",
+    "name": "Ceasornicăria Magheru",
+    "brand_short": "Ceasornicăria Magheru",
+    "brand_sub": "Ceasornicărie de precizie",
+    "brand_svg": "<circle cx=\"24\" cy=\"24\" r=\"18\"/><path d=\"M24 13v11l8 5\"/>",
+    "phone_wa": "40727952861",
+    "phone_display": "0727 952 861",
+    "address": "Bulevardul Magheru 35, Sector 1, București",
+    "addr_line1": "Bulevardul Magheru 35",
+    "addr_city": "Sector 1, București",
+    "seo_title": "Ceasornicăria Magheru — Reparații Ceasuri Bulevardul Magheru",
+    "seo_desc": "Reparații ceasuri mecanice, automate și quartz pe Bulevardul Magheru. Baterii, curele, revizii complete. Rating 4,9 din 23 recenzii Google. Sună acum.",
+    "eyebrow": "Ceasornicărie & atelier de reparații",
+    "h1": "Ceasul tău merită <em>mâini de meșter</em>,<br>nu o reparație la întâmplare.",
+    "lead": "Reparăm ceasuri mecanice, automate și quartz chiar în centrul Bucureștiului, cu diagnostic corect și piese potrivite fiecărui mecanism — nu soluții universale la întâmplare.",
+    "chips": [
+      "Rating 4,9 din 23 recenzii Google",
+      "Ceasuri mecanice, automate & quartz",
+      "Chiar pe Bulevardul Magheru"
+    ],
+    "hero_img": "https://images.unsplash.com/photo-1508057198894-247b23fe5ade?auto=format&fit=crop&w=1600&q=80",
+    "feature_img": "https://images.unsplash.com/photo-1620625515032-6ed0c1790c75?auto=format&fit=crop&w=1000&q=80",
+    "serv_title": "Ce reparăm în atelier",
+    "serv_sub": "De la mecanisme automate până la ceasuri de zi cu zi — fiecare piesă trece prin control de calitate înainte de predare.",
+    "services": [
+      {
+        "title": "Reparații ceasuri mecanice & automate",
+        "desc": "Curățare, ungere și reglaj de mecanism, cu piese originale sau compatibile de calitate, pentru precizie pe termen lung.",
+        "tag": "Cel mai cerut",
+        "icon": "gem",
+        "img": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "title": "Schimb baterii, curele & sticle",
+        "desc": "Înlocuim baterii, curele de piele sau metal și sticle zgâriate — de obicei gata în aceeași zi, fără programare.",
+        "tag": "Rapid",
+        "icon": "check",
+        "img": "https://images.unsplash.com/photo-1526045431048-f857369baa09?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "title": "Revizii complete & curățare mecanism",
+        "desc": "Ceasul se demontează, se curăță, se unge și se recalibrează pentru precizie pe termen lung, recomandat anual.",
+        "tag": "Recomandat anual",
+        "icon": "clock",
+        "img": "https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "title": "Ceasuri de colecție & cadouri",
+        "desc": "Reparăm și ceasuri de colecție sau de familie, plus sfaturi pentru alegerea unui cadou potrivit ocaziei.",
+        "tag": "",
+        "icon": "star",
+        "img": "https://images.unsplash.com/photo-1508057198894-247b23fe5ade?auto=format&fit=crop&w=800&q=80"
+      }
+    ],
+    "why_title": "De ce aleg bucureștenii Ceasornicăria Magheru",
+    "why": [
+      { "title": "Meșter cu experiență reală", "desc": "Diagnostic corect din prima vizită, nu piese schimbate „la noroc”.", "icon": "gem" },
+      { "title": "Rating 4,9 din 23 recenzii", "desc": "Clienți mulțumiți, mulți revin cu al doilea sau al treilea ceas din colecție.", "icon": "star", "filled": true },
+      { "title": "Locație centrală, ușor de găsit", "desc": "Chiar pe Bulevardul Magheru, la doi pași de birourile și magazinele din zonă.", "icon": "pin" }
+    ],
+    "rating": "4.9",
+    "reviews_count": "23",
+    "areas": ["Sector 1", "Universitate", "Piața Romană", "Cișmigiu", "Dorobanți", "Sector 2"],
+    "areas_title": "Chiar în centrul Bucureștiului",
+    "areas_sub": "Situați pe Bulevardul Magheru, ușor accesibili din Universitate, Piața Romană și zona centrală a Sectorului 1.",
+    "reviews": [
+      "Am dus un ceas automat vechi de familie, m-am temut că nu mai poate fi reparat. A ieșit ca nou și merge perfect de atunci.",
+      "Mi-au schimbat bateria și cureaua în aceeași zi, fără programare în avans. Profesioniști și amabili.",
+      "Diagnostic corect din prima — mi-au explicat exact ce nu funcționa înainte să pună mâna pe ceas."
+    ],
+    "contact_sub": "Treceți pe la atelier sau sunați înainte — vă spunem din telefon dacă reparația se poate face pe loc.",
+    "hours": [
+      ["Luni – Vineri", "10:00 – 18:00", "hl"],
+      ["Sâmbătă", "Închis", "closed"],
+      ["Duminică", "Închis", "closed"]
+    ]
+  },
+  {
+    "slug": "vulcanizare_titu_maiorescu",
+    "palette": "graphite",
+    "niche_key": "auto",
+    "name": "Vulcanizare Titu Maiorescu",
+    "brand_short": "Vulcanizare Titu Maiorescu",
+    "brand_sub": "Anvelope & service roți",
+    "brand_svg": "<circle cx=\"24\" cy=\"24\" r=\"16\"/><circle cx=\"24\" cy=\"24\" r=\"5\"/><path d=\"M24 8v11M24 29v11M8 24h11M29 24h11\"/>",
+    "phone_wa": "40767659676",
+    "phone_display": "0767 659 676",
+    "address": "Strada Titu Maiorescu 4, Sector 2, București",
+    "addr_line1": "Strada Titu Maiorescu 4",
+    "addr_city": "Sector 2, București",
+    "seo_title": "Vulcanizare Titu Maiorescu — Anvelope & Jante Sector 2 București",
+    "seo_desc": "Vulcanizare, schimb anvelope, jante, echilibrare și hotel anvelope pe Strada Titu Maiorescu, Sector 2. Program lung, 7 zile din 7. Sună acum.",
+    "eyebrow": "Vulcanizare & service anvelope, non-stop program lung",
+    "h1": "Anvelope schimbate <em>rapid</em>,<br>fără să-ți strici toată ziua.",
+    "lead": "Schimb anvelope, echilibrare, geometrie și hotel anvelope — cu program lung, 7 zile din 7, ca să nu aștepți zile întregi pentru o pană sau un sezon.",
+    "chips": [
+      "Rating 3,8 din 460 recenzii Google",
+      "Program 7/7, până la ora 20:00",
+      "Hotel anvelope sezonier"
+    ],
+    "hero_img": "https://live.staticflickr.com/65535/49973032726_d153221cb6_b.jpg",
+    "feature_img": "https://live.staticflickr.com/3833/10960581703_955da7848b_b.jpg",
+    "serv_title": "Ce facem pentru mașina ta",
+    "serv_sub": "De la o pană rezolvată în 15 minute până la depozitarea completă a seturilor de anvelope pe sezon rece sau cald.",
+    "services": [
+      {
+        "title": "Vulcanizare & schimb anvelope",
+        "desc": "Montăm și demontăm anvelope pentru orice tip de mașină, cu utilaje profesionale și lucru rapid.",
+        "tag": "Cel mai cerut",
+        "icon": "wheel",
+        "img": "https://live.staticflickr.com/65535/49988558466_cbb2514fa9_b.jpg"
+      },
+      {
+        "title": "Reparații pană & anvelope deteriorate",
+        "desc": "Reparăm pene și tăieturi acolo unde se poate, cu materiale certificate, sau vă recomandăm cinstit înlocuirea.",
+        "tag": "Rapid",
+        "icon": "patch",
+        "img": "https://live.staticflickr.com/7126/27209360756_d3e224a38e_b.jpg"
+      },
+      {
+        "title": "Echilibrare roți & geometrie",
+        "desc": "Echilibrăm roțile și verificăm geometria, pentru un mers stabil și uzură uniformă a anvelopelor.",
+        "tag": "",
+        "icon": "wrench",
+        "img": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "title": "Hotel anvelope sezonier",
+        "desc": "Depozităm setul de anvelope de vară sau iarnă în condiții corecte, gata de montat la schimbarea sezonului.",
+        "tag": "Sezonier",
+        "icon": "shield",
+        "img": "https://live.staticflickr.com/65535/49973032726_d153221cb6_b.jpg"
+      }
+    ],
+    "why_title": "De ce vin șoferii tocmai pe Titu Maiorescu",
+    "why": [
+      { "title": "Program lung, 7 zile din 7", "desc": "Deschis de luni până duminică, până seara târziu — vă încadrați ușor programul, chiar și în weekend.", "icon": "clock", "filled": true },
+      { "title": "460 de recenzii pe Google", "desc": "Unul dintre cele mai căutate service-uri de anvelope din Sector 2, cu trafic constant de clienți.", "icon": "star" },
+      { "title": "Utilaje profesionale, lucru rapid", "desc": "Echipamente moderne pentru montaj, echilibrare și geometrie, fără așteptare inutilă.", "icon": "wheel" }
+    ],
+    "rating": "3.8",
+    "reviews_count": "460",
+    "areas": ["Sector 2", "Titan", "Pantelimon", "Iancului", "Obor", "Sector 3"],
+    "areas_title": "Aproape de zona Titan – Pantelimon",
+    "areas_sub": "Situați pe Strada Titu Maiorescu, ușor accesibili din Titan, Pantelimon și estul Sectorului 2.",
+    "reviews": [
+      "Am avut o pană dimineața și am ieșit de acolo în 20 de minute, fără programare. Rapid și corect la preț.",
+      "Program lung, am putut trece seara după muncă să schimb anvelopele de iarnă. Nu am mai stat la coadă ca la alte service-uri.",
+      "Hotelul de anvelope chiar funcționează — le-am lăsat toamna și le-am ridicat gata montate primăvara."
+    ],
+    "contact_sub": "Sunați sau treceți direct pe la service — cu program lung 7/7, aproape mereu găsim loc pentru mașina dumneavoastră.",
+    "hours": [
+      ["Luni – Sâmbătă", "07:30 – 20:00", "hl"],
+      ["Duminică", "08:00 – 20:00", ""]
+    ]
+  },
+  {
+    "slug": "cizmarie_marian_kogalniceanu",
+    "palette": "leather",
+    "niche_key": "generic",
+    "name": "Reparații Încălțăminte Marian",
+    "brand_short": "Atelier Marian",
+    "brand_sub": "Cizmărie & atelier piele",
+    "brand_svg": "<path d=\"M28 6l8 8-4 4-8-8z\"/><path d=\"M24 14L8 30a3 3 0 0 0 0 4l2 2a3 3 0 0 0 4 0l16-16\"/>",
+    "phone_wa": "40723345110",
+    "phone_display": "0723 345 110",
+    "address": "Piața Mihail Kogălniceanu 1, Sector 5, București",
+    "addr_line1": "Piața Mihail Kogălniceanu 1",
+    "addr_city": "Sector 5, București",
+    "seo_title": "Reparații Încălțăminte Marian — Cizmărie Piața Kogălniceanu",
+    "seo_desc": "Reparații tălpi, tocuri, cusături și vopsit pentru încălțăminte, genți și curele din piele. Piața Mihail Kogălniceanu, Sector 5. Rating 4,9 din 61 recenzii.",
+    "eyebrow": "Cizmărie & atelier piele, lucru manual",
+    "h1": "Pantofii buni <em>se repară</em>,<br>nu se aruncă.",
+    "lead": "Tălpi, tocuri, cusături, vopsit sau întins — dăm a doua viață pantofilor, genților și curelelor din piele, cu lucru manual atent la fiecare detaliu.",
+    "chips": [
+      "Rating 4,9 din 61 recenzii Google",
+      "Lucru manual, piele & textile",
+      "Și genți & curele din piele"
+    ],
+    "hero_img": "https://live.staticflickr.com/65535/49482716781_f4e0ba9873_b.jpg",
+    "feature_img": "https://live.staticflickr.com/65535/49482926232_95f25f839c_b.jpg",
+    "serv_title": "Ce reparăm în atelier",
+    "serv_sub": "De la pantofii de zi cu zi până la genți și curele din piele — fiecare reparație trece prin mâinile aceluiași meșter.",
+    "services": [
+      {
+        "title": "Reparații tălpi & tocuri",
+        "desc": "Înlocuim tălpi uzate și tocuri rupte, păstrând forma și confortul inițial al pantofului.",
+        "tag": "Cel mai cerut",
+        "icon": "wrench",
+        "img": "https://live.staticflickr.com/65535/49482919832_7fa7f801a3_b.jpg"
+      },
+      {
+        "title": "Cusături & consolidări piele",
+        "desc": "Recusem cusături desfăcute și întărim zonele slăbite, înainte să se rupă de tot.",
+        "tag": "",
+        "icon": "tools",
+        "img": "https://live.staticflickr.com/65535/49482714491_ac8daa910c_b.jpg"
+      },
+      {
+        "title": "Lipire & întins încălțăminte",
+        "desc": "Lipim tălpi desprinse și întindem pantofii care strâng, cu tehnici potrivite fiecărui tip de piele.",
+        "tag": "",
+        "icon": "sparkle",
+        "img": "https://live.staticflickr.com/65535/49521358848_b94c541b78_b.jpg"
+      },
+      {
+        "title": "Genți & curele din piele",
+        "desc": "Reparăm și întreținem genți, curele și alte accesorii din piele, nu doar încălțăminte.",
+        "tag": "",
+        "icon": "gem",
+        "img": "https://live.staticflickr.com/65535/49482924377_7f5eac299c_b.jpg"
+      }
+    ],
+    "why_title": "De ce revin clienții la Atelier Marian",
+    "why": [
+      { "title": "Rating 4,9 din 61 recenzii", "desc": "Unul dintre cele mai bune calificative din zonă, din partea unor clienți fideli.", "icon": "star", "filled": true },
+      { "title": "Lucru manual, atent la detalii", "desc": "Fiecare pereche e tratată individual, nu ca pe bandă rulantă.", "icon": "hammer" },
+      { "title": "Și accesorii din piele", "desc": "Genți, curele și alte obiecte din piele primesc aceeași atenție ca pantofii.", "icon": "gem" }
+    ],
+    "rating": "4.9",
+    "reviews_count": "61",
+    "areas": ["Sector 5", "Piața Kogălniceanu", "Rahova", "Cotroceni", "Sector 4", "Sector 1"],
+    "areas_title": "Chiar în Piața Mihail Kogălniceanu",
+    "areas_sub": "Situat în Piața Mihail Kogălniceanu, ușor accesibil din Rahova, Cotroceni și centrul Sectorului 5.",
+    "reviews": [
+      "Am adus niște pantofi de piele pe care îi credeam de aruncat. Au ieșit ca noi, cu tălpi și tocuri schimbate.",
+      "Mi-au reparat o geantă de piele cu o cusătură desfăcută — lucru curat, nu se vede unde a fost ruptă.",
+      "Meșter serios, îți spune direct dacă merită reparat sau nu, fără să te păcălească."
+    ],
+    "contact_sub": "Treceți pe la atelier cu perechea de pantofi sau geanta care are nevoie de reparație — vă spunem pe loc ce se poate face.",
+    "hours": [
+      ["Luni – Vineri", "09:00 – 18:00", "hl"],
+      ["Sâmbătă", "Închis", "closed"],
+      ["Duminică", "Închis", "closed"]
+    ]
+  },
+  {
+    "slug": "kinetoterapie_theramove",
+    "palette": "clean",
+    "niche_key": "generic",
+    "name": "TheraMove — Recuperare & Kinetoterapie",
+    "brand_short": "TheraMove",
+    "brand_sub": "Recuperare & kinetoterapie",
+    "brand_svg": "<path d=\"M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z\"/><circle cx=\"24\" cy=\"20\" r=\"5\"/>",
+    "phone_wa": "40762280981",
+    "phone_display": "0762 280 981",
+    "address": "Strada Locotenent Aviator Iuliu Tetrat 14, Sector 1, București",
+    "addr_line1": "Strada Locotenent Aviator Iuliu Tetrat 14",
+    "addr_city": "Sector 1, București",
+    "seo_title": "TheraMove — Kinetoterapie & Recuperare Medicală Sector 1",
+    "seo_desc": "Kinetoterapie, recuperare medicală, masaj terapeutic și fizioterapie în Sector 1, București. Rating 5,0 din 9 recenzii Google. Programează-te acum.",
+    "eyebrow": "Kinetoterapie & recuperare medicală",
+    "h1": "Recuperare făcută <em>cu răbdare</em>,<br>nu doar exerciții la grămadă.",
+    "lead": "Kinetoterapie, fizioterapie și masaj terapeutic într-un cabinet primitor, cu program adaptat exact nevoilor tale de recuperare, nu unul general pentru toată lumea.",
+    "chips": [
+      "Rating 5,0 din 9 recenzii Google",
+      "Kinetoterapie & fizioterapie",
+      "Program lung, Luni – Vineri"
+    ],
+    "hero_img": "https://images.unsplash.com/photo-1519824145371-296894a0daa9?auto=format&fit=crop&w=1600&q=80",
+    "feature_img": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=1000&q=80",
+    "serv_title": "Ce facem în cabinet",
+    "serv_sub": "De la evaluarea inițială până la programul de exerciții de acasă — o abordare adaptată fiecărui pacient, nu o schemă fixă.",
+    "services": [
+      {
+        "title": "Kinetoterapie & recuperare articulară",
+        "desc": "Exerciții ghidate pentru recuperare după accidentări, operații sau dureri articulare persistente.",
+        "tag": "Cel mai cerut",
+        "icon": "bolt",
+        "img": "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "title": "Masaj terapeutic & relaxare musculară",
+        "desc": "Masaj țintit pentru contracturi, tensiune musculară și dureri de spate acumulate în timp.",
+        "tag": "Recomandat",
+        "icon": "sparkle",
+        "img": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "title": "Terapie cu pietre calde",
+        "desc": "Tehnică de relaxare profundă a musculaturii, potrivită pentru tensiune cronică și stres acumulat.",
+        "tag": "",
+        "icon": "sparkle",
+        "img": "https://images.unsplash.com/photo-1600334129128-685c5582fd35?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "title": "Evaluare & plan de recuperare",
+        "desc": "Consultație completă înainte de a începe orice program, cu explicații clare despre etapele recuperării.",
+        "tag": "Prima vizită",
+        "icon": "doc",
+        "img": "https://images.unsplash.com/photo-1584982751601-97dcc096659c?auto=format&fit=crop&w=800&q=80"
+      }
+    ],
+    "why_title": "De ce aleg pacienții TheraMove",
+    "why": [
+      { "title": "Rating 5,0 din 9 recenzii", "desc": "Calificativ perfect, construit cu pacienți care simt diferența după primele ședințe.", "icon": "star", "filled": true },
+      { "title": "Plan de recuperare personalizat", "desc": "Fiecare pacient primește un program adaptat, nu o schemă generală de exerciții.", "icon": "bolt" },
+      { "title": "Program lung, Luni – Vineri", "desc": "Deschis de dimineața devreme până seara, ca să vă puteți programa ședințele fără să vă dați peste cap.", "icon": "clock" }
+    ],
+    "rating": "5.0",
+    "reviews_count": "9",
+    "areas": ["Sector 1", "Aviatorilor", "Băneasa", "Herăstrău", "Dorobanți", "Sector 2"],
+    "areas_title": "Cabinet liniștit, aproape de zona Aviatorilor",
+    "areas_sub": "Situat pe Strada Locotenent Aviator Iuliu Tetrat, ușor accesibil din Aviatorilor, Băneasa și nordul Sectorului 1.",
+    "reviews": [
+      "După o operație la genunchi, kinetoterapia de aici m-a ajutat să merg normal mult mai repede decât mă așteptam.",
+      "Masajul terapeutic mi-a rezolvat o durere de spate cu care mă chinuiam de luni întregi. Recomand cu toată încrederea.",
+      "Prima consultație a fost foarte completă, mi-au explicat exact ce urmează să facem și de ce, nu doar exerciții la întâmplare."
+    ],
+    "contact_sub": "Sunați sau scrieți pe WhatsApp pentru o primă evaluare — stabilim împreună un program de recuperare potrivit pentru dumneavoastră.",
+    "hours": [
+      ["Luni – Vineri", "07:00 – 20:00", "hl"],
+      ["Sâmbătă", "Închis", "closed"],
+      ["Duminică", "Închis", "closed"]
+    ]
+  },
+  {
+    "slug": "ceasornicarie_stefanescu",
+    "palette": "cyber",
+    "niche_key": "generic",
+    "name": "Ceasornicar Ștefănescu Constantin",
+    "brand_short": "Ceasornicar Ștefănescu",
+    "brand_sub": "Ceasornicărie de precizie",
+    "brand_svg": "<circle cx=\"24\" cy=\"24\" r=\"18\"/><path d=\"M24 13v11l8 5\"/>",
+    "phone_wa": "40752955449",
+    "phone_display": "0752 955 449",
+    "address": "Bulevardul Dacia 31, Sector 1, București",
+    "addr_line1": "Bulevardul Dacia 31",
+    "addr_city": "Sector 1, București",
+    "seo_title": "Ceasornicar Ștefănescu Constantin — Reparații Ceasuri Bd. Dacia",
+    "seo_desc": "Ceasornicărie de precizie pe Bulevardul Dacia: reparații ceasuri mecanice, automate, revizii, baterii și curele. Rating 4,7 din 15 recenzii Google.",
+    "eyebrow": "Ceasornicărie de precizie",
+    "h1": "Precizie de ceasornicar,<br><em>fără compromis</em> la calitate.",
+    "lead": "Reparații ceasuri mecanice și automate, revizii complete, baterii și curele — cu atenția la detaliu a unui ceasornicar care lucrează după metodele clasice ale meseriei.",
+    "chips": [
+      "Rating 4,7 din 15 recenzii Google",
+      "Ceasuri mecanice & automate",
+      "Chiar pe Bulevardul Dacia"
+    ],
+    "hero_img": "https://images.unsplash.com/photo-1548171915-e79a380a2a4b?auto=format&fit=crop&w=1600&q=80",
+    "feature_img": "https://images.unsplash.com/photo-1548169874-53e85f753f1e?auto=format&fit=crop&w=1000&q=80",
+    "serv_title": "Ce reparăm în atelier",
+    "serv_sub": "De la ceasuri mecanice de precizie până la revizii de rutină — fiecare mecanism e tratat cu aceeași grijă.",
+    "services": [
+      {
+        "title": "Reparații ceasuri mecanice & automate",
+        "desc": "Diagnostic corect și reglaj de mecanism, cu piese potrivite fiecărui model, nu soluții universale.",
+        "tag": "Cel mai cerut",
+        "icon": "gem",
+        "img": "https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "title": "Schimb baterii & curele",
+        "desc": "Înlocuim baterii și curele de piele sau metal, de obicei gata în aceeași vizită.",
+        "tag": "Rapid",
+        "icon": "check",
+        "img": "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "title": "Revizii complete de precizie",
+        "desc": "Curățare, ungere și recalibrare completă a mecanismului, recomandată anual pentru ceasurile mecanice.",
+        "tag": "Recomandat anual",
+        "icon": "clock",
+        "img": "https://images.unsplash.com/photo-1548171915-e79a380a2a4b?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "title": "Consultanță & evaluare ceasuri",
+        "desc": "Vă spunem cinstit dacă un ceas merită reparat sau nu, înainte să vă cheltuiți banii pe o reparație inutilă.",
+        "tag": "",
+        "icon": "star",
+        "img": "https://images.unsplash.com/photo-1548169874-53e85f753f1e?auto=format&fit=crop&w=800&q=80"
+      }
+    ],
+    "why_title": "De ce aleg clienții din zona Dacia acest ceasornicar",
+    "why": [
+      { "title": "Metodă clasică de lucru", "desc": "Diagnostic atent și reglaj manual, așa cum se făcea meseria dintotdeauna.", "icon": "gem" },
+      { "title": "Rating 4,7 din 15 recenzii", "desc": "Un calificativ solid, construit de la primii clienți din zona Dacia.", "icon": "star", "filled": true },
+      { "title": "Program clar, ușor de reținut", "desc": "Luni – Vineri, dimineața până după-amiaza — programați-vă din timp pentru orice reparație.", "icon": "clock" }
+    ],
+    "rating": "4.7",
+    "reviews_count": "15",
+    "areas": ["Sector 1", "Bulevardul Dacia", "Ștefan cel Mare", "Icoanei", "Universitate", "Sector 2"],
+    "areas_title": "Chiar pe Bulevardul Dacia",
+    "areas_sub": "Situat pe Bulevardul Dacia, ușor accesibil din zona Ștefan cel Mare, Icoanei și centrul Sectorului 1.",
+    "reviews": [
+      "Mi-a reparat un ceas automat moștenit de la bunicul, cu multă atenție la detalii. Merge perfect de atunci.",
+      "Mi-a explicat clar de ce nu merită să repar un ceas vechi de plastic și m-a sfătuit corect, fără să insiste să cheltui bani degeaba.",
+      "Schimb rapid de baterie și curea, într-o singură vizită. Serios și punctual."
+    ],
+    "contact_sub": "Sunați sau treceți pe la atelier cu ceasul dumneavoastră — primiți un diagnostic clar înainte de orice reparație.",
+    "hours": [
+      ["Luni – Vineri", "10:00 – 17:30", "hl"],
+      ["Sâmbătă", "Închis", "closed"],
+      ["Duminică", "Închis", "closed"]
+    ]
+  }
+]
