@@ -1,0 +1,389 @@
+[
+  {
+    "slug": "mobila_tavi_comanda",
+    "palette": "leather",
+    "niche_key": "mobila",
+    "name": "Tavi Mobilă la Comandă",
+    "brand_short": "Tavi Mobilă",
+    "brand_sub": "Mobilă la comandă · Sector 4",
+    "phone_wa": "40729687879",
+    "phone_display": "0729 687 879",
+    "address": "Strada Ilie Oprea 10A, Sector 4, București",
+    "addr_line1": "Strada Ilie Oprea 10A",
+    "addr_city": "Sector 4, București",
+    "seo_title": "Tavi Mobilă la Comandă — Bucătării, Dressing, Dulapuri | Sector 4",
+    "seo_desc": "Mobilă la comandă în Sector 4: bucătării, dressing-uri, dulapuri și mobilier living/dormitor, pe măsura casei tale. Rating 4,9 din 171 recenzii Google. Sună acum.",
+    "eyebrow": "Mobilă la comandă · atelier propriu",
+    "h1": "Mobila visată de tine,<br><em>făcută exact pe măsura casei</em>.",
+    "lead": "Bucătării, dressing-uri, dulapuri și mobilier de living sau dormitor — proiectate și montate pe măsura fiecărui spațiu, nu cumpărate din raft. Chiar în Sector 4, pe Ilie Oprea.",
+    "chips": [
+      "Rating 4,9 din 171 recenzii Google",
+      "Bucătării, dressing & dulapuri pe comandă",
+      "Strada Ilie Oprea 10A, Sector 4"
+    ],
+    "serv_title": "Ce facem la comandă",
+    "serv_sub": "De la o bucătărie completă până la un singur dulap pe măsură — proiectăm, producem și montăm noi, cap-coadă.",
+    "services": [
+      {
+        "title": "Bucătării la comandă",
+        "desc": "Proiectăm bucătăria pe măsura exactă a spațiului tău, cu materiale rezistente la umezeală și căldură și electrocasnice integrate.",
+        "tag": "Cel mai cerut",
+        "icon": "kitchen"
+      },
+      {
+        "title": "Dressing-uri & sisteme de depozitare",
+        "desc": "Dressing-uri personalizate cu rafturi, sertare și bare de haine, gândite să folosească fiecare colț de cameră.",
+        "tag": "Pe măsură",
+        "icon": "wardrobe"
+      },
+      {
+        "title": "Dulapuri la comandă",
+        "desc": "Dulapuri pentru hol, dormitor sau birou, cu uși glisante sau batante, în orice finisaj alegi.",
+        "tag": "Orice finisaj",
+        "icon": "wardrobe"
+      },
+      {
+        "title": "Mobilier living & dormitor",
+        "desc": "Biblioteci, comode, noptiere și mobilier de zi, realizate în atelier propriu după proiectul discutat cu tine.",
+        "tag": "Atelier propriu",
+        "icon": "sofa"
+      },
+      {
+        "title": "Proiectare & consultanță 3D",
+        "desc": "Îți arătăm mobila în randare 3D înainte să tăiem primul material, ca să știi exact ce urmează să primești.",
+        "tag": "Fără surprize",
+        "icon": "ruler"
+      }
+    ],
+    "why_title": "De ce aleg clienții atelierul Tavi",
+    "why": [
+      {"title": "Rating 4,9 din 171 recenzii", "desc": "Unul dintre cele mai bune ratinguri din zonă, cu recenzii constante an de an.", "icon": "star", "filled": true},
+      {"title": "Mobilă pe măsură, nu din raft", "desc": "Fiecare piesă e gândită pentru spațiul tău exact, nu adaptată dintr-un model standard.", "icon": "ruler"},
+      {"title": "Totul dintr-un singur loc", "desc": "Proiectare, producție și montaj — nu ai treabă cu mai mulți furnizori diferiți.", "icon": "gem"}
+    ],
+    "rating": 4.9,
+    "reviews_count": 171,
+    "areas_title": "Lucrăm pentru tot Bucureștiul",
+    "areas_sub": "Venim la tine pentru măsurători și montaj — spune-ne ce ai nevoie și programăm o vizită.",
+    "areas": ["Sector 4", "Sector 3", "Sector 5", "Sector 2", "Sector 6", "Ilfov"],
+    "reviews": [
+      "Bucătăria a ieșit exact cum am discutat-o, montaj curat și la timp.",
+      "Dressing-ul folosește fiecare colț de cameră, exact ce ne trebuia.",
+      "Comunicare foarte bună pe tot parcursul, de la proiect până la montaj final."
+    ],
+    "contact_sub": "Sună sau scrie pe WhatsApp cu ce ai nevoie — știm că ne găsești mai des pe Facebook, dar preferăm să vorbim direct cu tine la telefon și să stabilim rapid o vizită pentru măsurători.",
+    "hours": [
+      ["Luni – Duminică", "La programare telefonică", "hl"]
+    ]
+  },
+  {
+    "slug": "vopsitorie_ilmaliv",
+    "palette": "graphite",
+    "niche_key": "vopsitorie",
+    "name": "Ilmaliv — Service & Vopsitorie Auto",
+    "brand_short": "Ilmaliv Auto",
+    "brand_sub": "Service & vopsitorie auto · Sector 6",
+    "phone_wa": "40744860248",
+    "phone_display": "0744 860 248",
+    "address": "Strada Ghidigeni 2A, Sector 6, București",
+    "addr_line1": "Strada Ghidigeni 2A",
+    "addr_city": "Sector 6, București",
+    "seo_title": "Ilmaliv — Service & Vopsitorie Auto — Tinichigerie, Reparații | Sector 6",
+    "seo_desc": "Service auto, vopsitorie și tinichigerie în Sector 6 București. Reparații caroserie, revopsire, diagnoză. Rating 4,8 din 169 recenzii Google. Sună acum.",
+    "eyebrow": "Service auto & vopsitorie",
+    "h1": "Mașina lovită sau zgâriată<br>iese <em>ca din showroom</em>.",
+    "lead": "Vopsitorie, tinichigerie și reparații auto complete, într-un singur atelier — de la o zgârietură mică până la o lovitură serioasă de caroserie. Chiar pe Ghidigeni, Sector 6.",
+    "chips": [
+      "Rating 4,8 din 169 recenzii Google",
+      "Vopsitorie, tinichigerie & reparații",
+      "Strada Ghidigeni 2A, Sector 6"
+    ],
+    "serv_title": "Ce facem pentru mașina ta",
+    "serv_sub": "De la o zgârietură pe portieră până la o reparație completă de caroserie — totul verificat înainte de predare.",
+    "services": [
+      {
+        "title": "Vopsitorie auto integrală & parțială",
+        "desc": "Vopsim complet mașina sau doar piesele afectate, cu potrivire exactă de culoare, în cabină pregătită special.",
+        "tag": "Cel mai cerut",
+        "icon": "spray"
+      },
+      {
+        "title": "Tinichigerie & reparații caroserie",
+        "desc": "Îndreptăm tabla lovită, înlocuim piesele deformate ireparabil și pregătim caroseria pentru vopsire.",
+        "tag": "Reparații caroserie",
+        "icon": "hammer"
+      },
+      {
+        "title": "Reparații după accident RCA/CASCO",
+        "desc": "Preluăm dosarul de daună și reparăm mașina conform decontării, cu piese și materiale certificate.",
+        "tag": "Dosar daună",
+        "icon": "shield"
+      },
+      {
+        "title": "Reparații mecanice & revizii",
+        "desc": "Facem și reparațiile mecanice necesare după impact — suspensie, direcție, elemente de caroserie ascunse.",
+        "tag": "Mecanică",
+        "icon": "wrench"
+      },
+      {
+        "title": "Polish & finisaj final",
+        "desc": "Lustruim vopseaua nouă și verificăm fiecare panou, ca mașina să arate impecabil la predare.",
+        "tag": "Finisaj impecabil",
+        "icon": "car"
+      }
+    ],
+    "why_title": "De ce aleg clienții atelierul Ilmaliv",
+    "why": [
+      {"title": "Rating 4,8 din 169 recenzii", "desc": "Volum mare de lucrări finalizate, cu clienți mulțumiți constant.", "icon": "star", "filled": true},
+      {"title": "Vopsitorie și mecanică sub același acoperiș", "desc": "Nu mai umbli pe la mai multe ateliere — rezolvăm tot ce ține de caroserie și mecanică aici.", "icon": "gem"},
+      {"title": "Potrivire exactă de culoare", "desc": "Folosim rețete de vopsea calibrate, ca piesa reparată să nu se vadă lângă restul caroseriei.", "icon": "check"}
+    ],
+    "rating": 4.8,
+    "reviews_count": 169,
+    "areas_title": "Lucrăm pentru tot vestul Bucureștiului",
+    "areas_sub": "Aduci mașina la atelier pe Ghidigeni sau ne suni pentru o evaluare rapidă a daunei.",
+    "areas": ["Sector 6", "Sector 1", "Militari", "Drumul Taberei", "Crângași", "Ilfov"],
+    "reviews": [
+      "Portiera lovită a ieșit perfect, culoarea se potrivește exact cu restul mașinii.",
+      "Au preluat tot dosarul de la asigurare, nu am avut nicio bătaie de cap.",
+      "Lucru serios și rapid, mașina a fost gata mai devreme decât mă așteptam."
+    ],
+    "contact_sub": "Sună sau scrie pe WhatsApp cu poze la avarie — îți dăm o estimare rapidă de preț și termen.",
+    "hours": [
+      ["Luni – Vineri", "08:30 – 18:00", "hl"],
+      ["Sâmbătă", "09:00 – 12:00", ""],
+      ["Duminică", "Închis", "closed"]
+    ]
+  },
+  {
+    "slug": "service_japan_auto",
+    "palette": "cyber",
+    "niche_key": "auto",
+    "name": "Japan Auto Service",
+    "brand_short": "Japan Auto Service",
+    "brand_sub": "Service specializat mașini japoneze · Sector 2",
+    "phone_wa": "40762771623",
+    "phone_display": "0762 771 623",
+    "address": "Bulevardul Dimitrie Pompeiu 10A, Sector 2, București",
+    "addr_line1": "Bulevardul Dimitrie Pompeiu 10A",
+    "addr_city": "Sector 2, București",
+    "seo_title": "Japan Auto Service — Mecanică & Diagnoză Mașini Japoneze | Sector 2",
+    "seo_desc": "Service auto specializat pe mașini japoneze în Sector 2 București: mecanică, revizii, diagnoză computerizată. Rating 4,8 din 62 recenzii Google. Sună acum.",
+    "eyebrow": "Service specializat auto japoneze",
+    "h1": "Mașina ta japoneză,<br>pe mâna unor <em>mecanici specializați</em>.",
+    "lead": "Mecanică, revizii și diagnoză computerizată pentru Toyota, Honda, Nissan, Mazda și alte mărci japoneze — piese potrivite corect, nu improvizații. Pe Bulevardul Dimitrie Pompeiu, Sector 2.",
+    "chips": [
+      "Rating 4,8 din 62 recenzii Google",
+      "Specializați pe mașini japoneze",
+      "Bulevardul Dimitrie Pompeiu 10A"
+    ],
+    "serv_title": "Ce facem pentru mașina ta",
+    "serv_sub": "De la o revizie de rutină până la o problemă greu de depistat — diagnosticăm precis înainte să reparăm.",
+    "services": [
+      {
+        "title": "Revizii periodice & schimb ulei",
+        "desc": "Facem reviziile la timp, cu ulei și filtre potrivite exact modelului tău japonez, conform recomandărilor producătorului.",
+        "tag": "Cel mai cerut",
+        "icon": "wrench"
+      },
+      {
+        "title": "Diagnoză computerizată",
+        "desc": "Identificăm exact codul de eroare și cauza reală, cu echipamente de diagnoză dedicate mărcilor japoneze.",
+        "tag": "Diagnoză precisă",
+        "icon": "tools"
+      },
+      {
+        "title": "Reparații mecanice generale",
+        "desc": "Suspensie, frâne, ambreiaj, distribuție — reparăm tot ce ține de mecanica mașinii, cu piese verificate.",
+        "tag": "Mecanică completă",
+        "icon": "car"
+      },
+      {
+        "title": "Sistem de frânare & suspensie",
+        "desc": "Verificăm și înlocuim plăcuțe, discuri, amortizoare și bucșe, pentru o mașină sigură la condus.",
+        "tag": "Siguranță",
+        "icon": "shield"
+      },
+      {
+        "title": "Verificare pre-cumpărare",
+        "desc": "Vrei să cumperi o mașină japoneză la mâna a doua? O verificăm complet înainte să semnezi actele.",
+        "tag": "Sfat de încredere",
+        "icon": "check"
+      }
+    ],
+    "why_title": "De ce aleg șoferii de mașini japoneze acest service",
+    "why": [
+      {"title": "Rating 4,8 din 62 recenzii", "desc": "Clienți mulțumiți de diagnoza corectă și reparațiile de durată.", "icon": "star", "filled": true},
+      {"title": "Specializare pe mărci japoneze", "desc": "Cunoaștem particularitățile Toyota, Honda, Nissan, Mazda — nu tratăm mașina ca pe orice model.", "icon": "gem"},
+      {"title": "Diagnoză înainte de reparație", "desc": "Nu schimbăm piese la întâmplare — găsim întâi cauza reală a problemei.", "icon": "tools"}
+    ],
+    "rating": 4.8,
+    "reviews_count": 62,
+    "areas_title": "Lucrăm pentru tot estul Bucureștiului",
+    "areas_sub": "Programează-te ușor pe WhatsApp sau telefon — spune-ne modelul mașinii și ce probleme are.",
+    "areas": ["Sector 2", "Sector 1", "Sector 3", "Pantelimon", "Colentina", "Ilfov"],
+    "reviews": [
+      "Au găsit din prima problema pe care alt service nu a reușit s-o identifice.",
+      "Mecanici serioși, care chiar se pricep la mașini japoneze, nu doar zic asta.",
+      "Revizie completă, explicații clare și preț corect pentru piesele folosite."
+    ],
+    "contact_sub": "Sună sau scrie pe WhatsApp cu modelul mașinii și problema — îți spunem pe loc cum te putem ajuta.",
+    "hours": [
+      ["Luni – Vineri", "08:30 – 17:30", "hl"],
+      ["Sâmbătă", "Închis", "closed"],
+      ["Duminică", "Închis", "closed"]
+    ]
+  },
+  {
+    "slug": "service_tina",
+    "palette": "fresh",
+    "niche_key": "auto",
+    "name": "Tina Service Auto",
+    "brand_short": "Tina Service Auto",
+    "brand_sub": "Service auto · Sector 4",
+    "phone_wa": "40786970330",
+    "phone_display": "0786 970 330",
+    "address": "Strada 11 Iunie 31, Sector 4, București",
+    "addr_line1": "Strada 11 Iunie 31",
+    "addr_city": "Sector 4, București",
+    "seo_title": "Tina Service Auto — Mecanică, Reparații, Revizii | Sector 4 București",
+    "seo_desc": "Service auto pe Strada 11 Iunie: mecanică, reparații și revizii pentru orice marcă. Rating 4,4 din 56 recenzii Google. Sună acum sau scrie pe WhatsApp.",
+    "eyebrow": "Service auto · mecanică generală",
+    "h1": "Probleme la mașină?<br>Le rezolvăm <em>rapid și corect</em>.",
+    "lead": "Mecanică, reparații și revizii pentru orice marcă, la un service de cartier în care mașina rămâne pe mâini de încredere. Chiar pe 11 Iunie, Sector 4.",
+    "chips": [
+      "Rating 4,4 din 56 recenzii Google",
+      "Mecanică, reparații & revizii",
+      "Strada 11 Iunie 31, Sector 4"
+    ],
+    "serv_title": "Ce facem pentru mașina ta",
+    "serv_sub": "De la o revizie simplă până la o reparație mai complicată — diagnosticăm și reparăm cu piese potrivite.",
+    "services": [
+      {
+        "title": "Revizii & schimb ulei",
+        "desc": "Facem reviziile periodice cu ulei și filtre potrivite mașinii tale, la termenul recomandat de producător.",
+        "tag": "Cel mai cerut",
+        "icon": "wrench"
+      },
+      {
+        "title": "Reparații mecanice generale",
+        "desc": "Suspensie, frâne, distribuție, ambreiaj — reparăm orice problemă mecanică, indiferent de marcă.",
+        "tag": "Orice marcă",
+        "icon": "car"
+      },
+      {
+        "title": "Diagnoză & depanare",
+        "desc": "Verificăm mașina cu echipament de diagnoză și găsim cauza reală a problemei înainte să reparăm.",
+        "tag": "Diagnoză corectă",
+        "icon": "tools"
+      },
+      {
+        "title": "Sistem de frânare",
+        "desc": "Verificăm și înlocuim plăcuțe, discuri și lichid de frână, pentru o mașină sigură pe drum.",
+        "tag": "Siguranță",
+        "icon": "shield"
+      }
+    ],
+    "why_title": "De ce aleg clienții acest service",
+    "why": [
+      {"title": "Rating 4,4 din 56 recenzii", "desc": "Clienți mulțumiți de preț corect și reparații care țin.", "icon": "star", "filled": true},
+      {"title": "Service de cartier, de încredere", "desc": "Nu ești doar un număr — vorbim direct cu tine despre ce are nevoie mașina.", "icon": "gem"},
+      {"title": "Piese potrivite, nu improvizate", "desc": "Folosim piese corespunzătoare mașinii tale, nu orice e mai ieftin la îndemână.", "icon": "check"}
+    ],
+    "rating": 4.4,
+    "reviews_count": 56,
+    "areas_title": "Lucrăm pentru tot sudul Bucureștiului",
+    "areas_sub": "Suni sau scrii pe WhatsApp și stabilim rapid o programare pentru mașina ta.",
+    "areas": ["Sector 4", "Sector 3", "Sector 5", "Berceni", "Giurgiului", "Ilfov"],
+    "reviews": [
+      "Preț corect pentru revizie, mi-au explicat clar ce au făcut la mașină.",
+      "Am rezolvat o problemă mai veche pe care alt service nu o găsise.",
+      "Programare rapidă și lucru serios, revin cu încredere."
+    ],
+    "contact_sub": "Sună sau scrie pe WhatsApp cu problema mașinii — stabilim rapid o programare.",
+    "hours": [
+      ["Luni – Vineri", "09:00 – 17:00", "hl"],
+      ["Sâmbătă", "Închis", "closed"],
+      ["Duminică", "Închis", "closed"]
+    ]
+  },
+  {
+    "slug": "vopsitorie_ss_auto",
+    "palette": "clean",
+    "niche_key": "vopsitorie",
+    "name": "SS Auto — Vopsitorie & Daune",
+    "brand_short": "SS Auto",
+    "brand_sub": "Vopsitorie & daune auto · Sector 1",
+    "phone_wa": "40729221144",
+    "phone_display": "0729 221 144",
+    "address": "Strada Modestiei 120, Sector 1 (Bucureștii Noi), București",
+    "addr_line1": "Strada Modestiei 120",
+    "addr_city": "Sector 1, București",
+    "seo_title": "SS Auto — Vopsitorie & Reparații Daune RCA/CASCO | Sector 1",
+    "seo_desc": "Vopsitorie, tinichigerie și reparații daune RCA/CASCO în Bucureștii Noi, Sector 1. Rating 4,5 din 17 recenzii Google. Sună acum sau scrie pe WhatsApp.",
+    "eyebrow": "Vopsitorie & reparații daune",
+    "h1": "Daună RCA sau CASCO?<br>Rezolvăm tot, <em>de la dosar la vopsea</em>.",
+    "lead": "Vopsitorie, tinichigerie și reparații complete pentru dauna ta — preluăm dosarul de asigurare și predăm mașina gata reparată. Chiar în Bucureștii Noi, Sector 1.",
+    "chips": [
+      "Rating 4,5 din 17 recenzii Google",
+      "Vopsitorie, tinichigerie & daune RCA/CASCO",
+      "Strada Modestiei 120, Sector 1"
+    ],
+    "serv_title": "Ce facem pentru mașina ta",
+    "serv_sub": "De la o zgârietură până la o daună mai serioasă — ne ocupăm de reparație și de dosarul de asigurare.",
+    "services": [
+      {
+        "title": "Reparații daune RCA/CASCO",
+        "desc": "Preluăm dosarul de daună direct cu asigurătorul și reparăm mașina conform decontării aprobate.",
+        "tag": "Cel mai cerut",
+        "icon": "doc"
+      },
+      {
+        "title": "Vopsitorie auto integrală & parțială",
+        "desc": "Vopsim complet mașina sau doar piesele afectate, cu potrivire exactă de culoare.",
+        "tag": "Vopsitorie",
+        "icon": "spray"
+      },
+      {
+        "title": "Tinichigerie & reparații caroserie",
+        "desc": "Îndreptăm tabla lovită și înlocuim piesele deformate ireparabil, pregătind caroseria pentru vopsire.",
+        "tag": "Reparații caroserie",
+        "icon": "hammer"
+      },
+      {
+        "title": "Reparații după accident",
+        "desc": "Reparăm elementele de caroserie afectate de impact, vizibile sau ascunse, pentru o mașină sigură.",
+        "tag": "Siguranță",
+        "icon": "shield"
+      },
+      {
+        "title": "Polish & finisaj final",
+        "desc": "Lustruim vopseaua nouă și verificăm fiecare panou înainte de predarea mașinii.",
+        "tag": "Finisaj impecabil",
+        "icon": "car"
+      }
+    ],
+    "why_title": "De ce aleg clienții atelierul SS Auto",
+    "why": [
+      {"title": "Rating 4,5 din 17 recenzii", "desc": "Clienți mulțumiți de modul în care a fost gestionat dosarul de daună.", "icon": "star", "filled": true},
+      {"title": "Ne ocupăm și de dosarul de asigurare", "desc": "Nu trebuie să alergi tu după acte — preluăm legătura cu asigurătorul.", "icon": "doc"},
+      {"title": "Potrivire exactă de culoare", "desc": "Folosim rețete de vopsea calibrate, ca reparația să nu se vadă pe caroserie.", "icon": "check"}
+    ],
+    "rating": 4.5,
+    "reviews_count": 17,
+    "areas_title": "Lucrăm pentru tot nordul Bucureștiului",
+    "areas_sub": "Aduci mașina la atelier în Bucureștii Noi sau ne suni pentru o evaluare rapidă a daunei.",
+    "areas": ["Sector 1", "Bucureștii Noi", "Sector 6", "Chitila", "Militari", "Ilfov"],
+    "reviews": [
+      "Au preluat tot dosarul de la asigurare, nu am avut nicio bătaie de cap.",
+      "Vopseaua se potrivește perfect cu restul mașinii, nu se observă unde a fost lovită.",
+      "Comunicare bună pe tot parcursul reparației, mașina a fost gata la termenul promis."
+    ],
+    "contact_sub": "Sună sau scrie pe WhatsApp cu poze la avarie — te ajutăm și cu dosarul de asigurare.",
+    "hours": [
+      ["Luni – Vineri", "08:00 – 16:30", "hl"],
+      ["Sâmbătă", "Închis", "closed"],
+      ["Duminică", "Închis", "closed"]
+    ]
+  }
+]
