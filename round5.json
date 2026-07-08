@@ -1,0 +1,410 @@
+[
+  {
+    "slug": "ceasornicarie_antique",
+    "palette": "leather",
+    "niche_key": "generic",
+    "name": "Ceasornicăria Antique",
+    "brand_short": "Antique",
+    "brand_sub": "Ceasornicărie de precizie",
+    "brand_svg": "<circle cx=\"24\" cy=\"24\" r=\"18\"/><path d=\"M24 13v11l8 5\"/>",
+    "phone_wa": "40726697122",
+    "phone_display": "0726 697 122",
+    "address": "Strada Clucerului 8, Sector 1, București",
+    "addr_line1": "Strada Clucerului 8",
+    "addr_city": "Sector 1, București",
+    "seo_title": "Ceasornicăria Antique — Reparații Ceasuri Sector 1 București",
+    "seo_desc": "Reparații ceasuri mecanice, automate și quartz în Sector 1. Baterii, curele, revizii complete. Rating 4,7 din 204 recenzii Google. Sună acum.",
+    "eyebrow": "Ceasornicărie & atelier de reparații",
+    "h1": "Ceasul tău merită <em>mâini de meșter</em>,<br>nu o reparație la întâmplare.",
+    "lead": "Reparăm ceasuri mecanice, automate și quartz cu aceeași grijă cu care le-ați primit prima dată. Diagnostic corect, piese potrivite, lucru verificat înainte să vi-l dăm înapoi.",
+    "chips": [
+      "Rating 4,7 din 204 recenzii Google",
+      "Ceasuri mecanice, automate & quartz",
+      "Programare rapidă, fără așteptare lungă"
+    ],
+    "hero_img": "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?auto=format&fit=crop&w=1600&q=80",
+    "feature_img": "https://images.unsplash.com/photo-1622434641406-a158123450f9?auto=format&fit=crop&w=1000&q=80",
+    "serv_title": "Ce reparăm în atelier",
+    "serv_sub": "De la mecanisme automate până la ceasuri de zi cu zi — fiecare piesă trece prin control de calitate înainte de predare.",
+    "services": [
+      {
+        "title": "Reparații ceasuri mecanice & automate",
+        "desc": "Curățare, ungere și reglaj mecanism, cu piese originale sau compatibile de calitate.",
+        "tag": "Cel mai cerut",
+        "icon": "gem",
+        "img": "https://images.unsplash.com/photo-1585123334904-845d60e97b29?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "title": "Schimb baterii, curele & sticle",
+        "desc": "Înlocuim baterii, curele de piele sau metal și sticle zgâriate — de obicei gata în aceeași zi.",
+        "tag": "Rapid",
+        "icon": "check",
+        "img": "https://images.unsplash.com/photo-1547996160-81dfa63595aa?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "title": "Revizii complete & curățare mecanism",
+        "desc": "Ceasul se demontează, se curăță, se unge și se recalibrează pentru precizie pe termen lung.",
+        "tag": "Recomandat anual",
+        "icon": "clock",
+        "img": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "title": "Ceasuri de perete, pendule & cadouri",
+        "desc": "Reparăm și ceasuri de perete sau de colecție, plus sfaturi pentru alegerea unui cadou potrivit.",
+        "tag": "",
+        "icon": "star",
+        "img": "https://images.unsplash.com/photo-1495856458515-0637185db551?auto=format&fit=crop&w=800&q=80"
+      }
+    ],
+    "why_title": "De ce aleg bucureștenii Ceasornicăria Antique",
+    "why": [
+      { "title": "Meșter cu experiență reală", "desc": "Diagnostic corect din prima vizită, nu piese schimbate „la noroc”.", "icon": "gem" },
+      { "title": "Rating 4,7 din 204 recenzii", "desc": "Clienți mulțumiți an de an, mulți revin cu al doilea sau al treilea ceas.", "icon": "star", "filled": true },
+      { "title": "Program clar, fără bătăi de cap", "desc": "Luni–Joi dimineața, weekend liber — programează-te din timp și evită așteptarea.", "icon": "clock" }
+    ],
+    "rating": "4.7",
+    "reviews_count": "204",
+    "areas": ["Sector 1", "Dorobanți", "Aviatorilor", "Băneasa", "Herăstrău", "Sector 2"],
+    "areas_title": "Aducem atelierul aproape de dumneavoastră",
+    "areas_sub": "Situat pe Strada Clucerului, ușor accesibil din Dorobanți, Aviatorilor și zona de nord a Sectorului 1.",
+    "reviews": [
+      "Am dus un ceas automat vechi de familie, m-am temut că nu mai poate fi reparat. A ieșit ca nou și merge perfect de atunci.",
+      "Mi-au schimbat bateria și cureaua în aceeași zi, fără programare în avans. Profesioniști și amabili.",
+      "Diagnostic corect din prima — mi-au explicat exact ce nu funcționa înainte să pună mâna pe ceas."
+    ],
+    "contact_sub": "Treceți pe la atelier sau sunați înainte — vă spunem din telefon dacă reparația se poate face pe loc.",
+    "hours": [
+      ["Luni – Joi", "09:00 – 14:00", "hl"],
+      ["Vineri", "Închis", "closed"],
+      ["Sâmbătă", "Închis", "closed"],
+      ["Duminică", "Închis", "closed"]
+    ]
+  },
+  {
+    "slug": "florarie_emma_ionut",
+    "palette": "clean",
+    "niche_key": "generic",
+    "name": "Florăria Emma & Ionuț",
+    "brand_short": "Emma & Ionuț",
+    "brand_sub": "Florărie în Piața Amzei",
+    "phone_wa": "40720757800",
+    "phone_display": "0720 757 800",
+    "address": "Piața Amzei 5A, Sector 1, București",
+    "addr_line1": "Piața Amzei 5A",
+    "addr_city": "Sector 1, București",
+    "seo_title": "Florăria Emma & Ionuț — Buchete & Aranjamente Piața Amzei",
+    "seo_desc": "Buchete proaspete, aranjamente pentru nuntă și evenimente, livrare flori în București. Rating 5,0 din 197 recenzii Google, chiar în Piața Amzei.",
+    "eyebrow": "Florărie în inima Pieței Amzei",
+    "h1": "Flori proaspete, alese <em>cu suflet</em>,<br>pentru fiecare moment important.",
+    "lead": "De la un buchet simplu de „bună dimineața” până la aranjamentele unei nunți întregi — alegem florile ca și cum ar fi pentru propria familie.",
+    "chips": [
+      "Rating 5,0 din 197 recenzii Google",
+      "Flori proaspete, aduse zilnic",
+      "Livrare rapidă în București"
+    ],
+    "hero_img": "https://images.unsplash.com/photo-1487070183336-b863922373d4?auto=format&fit=crop&w=1600&q=80",
+    "feature_img": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=1000&q=80",
+    "serv_title": "Ce pregătim pentru tine",
+    "serv_sub": "Buchete de zi cu zi, aranjamente de eveniment și livrare — toate pornind din vitrina noastră din Piața Amzei.",
+    "services": [
+      {
+        "title": "Buchete pentru orice ocazie",
+        "desc": "Compoziții proaspete pentru aniversări, „îmi pare rău” sau pur și simplu o zi mai bună.",
+        "tag": "Cel mai popular",
+        "icon": "sparkle",
+        "img": "https://images.unsplash.com/photo-1520763185298-1b434c919102?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "title": "Aranjamente nuntă & evenimente",
+        "desc": "Decor floral pentru sală, mese și buchet de mireasă, gândit împreună cu voi de la zero.",
+        "tag": "Pe programare",
+        "icon": "star",
+        "img": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "title": "Buchete deosebite & personalizate",
+        "desc": "Culori și flori alese special, pentru un cadou care iese din tipar.",
+        "tag": "",
+        "icon": "gem",
+        "img": "https://images.unsplash.com/photo-1508610048659-a06b669e3321?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "title": "Livrare flori în București",
+        "desc": "Livrăm buchetul acolo unde e nevoie, la ora potrivită, cu aceeași grijă ca la ridicare din magazin.",
+        "tag": "Rapid",
+        "icon": "check",
+        "img": "https://images.unsplash.com/photo-1526047932273-341f2a7631f9?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "title": "Flori de sezon & plante decorative",
+        "desc": "Aducem zilnic flori proaspete de sezon și plante pentru casă sau birou.",
+        "tag": "",
+        "icon": "doc",
+        "img": "https://images.unsplash.com/photo-1462275646964-a0e3386b89fa?auto=format&fit=crop&w=800&q=80"
+      }
+    ],
+    "why_title": "De ce vin bucureștenii tocmai în Piața Amzei",
+    "why": [
+      { "title": "Rating 5,0 din 197 recenzii", "desc": "Un calificativ perfect, construit an de an cu clienți care revin.", "icon": "star", "filled": true },
+      { "title": "Flori proaspete zilnic", "desc": "Nu ținem stoc vechi — alegem florile în fiecare dimineață.", "icon": "sparkle" },
+      { "title": "Locație ușor de găsit", "desc": "Chiar în Piața Amzei, aproape de birouri și locuințe din zonă.", "icon": "pin" }
+    ],
+    "rating": "5.0",
+    "reviews_count": "197",
+    "areas": ["Piața Amzei", "Dorobanți", "Cotroceni", "Universitate", "Floreasca", "Sector 1"],
+    "areas_title": "Livrăm flori în tot Bucureștiul",
+    "areas_sub": "Plecăm din Piața Amzei și ajungem rapid în zonele centrale și de nord ale orașului.",
+    "reviews": [
+      "Cel mai frumos buchet pe care l-am primit vreodată — mirosea și arăta exact ca poza trimisă înainte de livrare.",
+      "Am comandat aranjamentele pentru nuntă cu doar o săptămână înainte și au ieșit perfecte.",
+      "Flori proaspete de fiecare dată, nu am avut niciodată o petală ofilită a doua zi."
+    ],
+    "contact_sub": "Treceți prin Piața Amzei sau sunați pentru o comandă — vă ajutăm să alegeți exact ce se potrivește ocaziei.",
+    "hours": [
+      ["Luni – Sâmbătă", "08:00 – 20:00", "hl"],
+      ["Duminică", "08:00 – 17:00", ""]
+    ]
+  },
+  {
+    "slug": "curatatorie_brothers_eco_clean",
+    "palette": "fresh",
+    "niche_key": "generic",
+    "name": "Brothers Eco Clean",
+    "brand_short": "Brothers Eco Clean",
+    "brand_sub": "Curățătorie & spălătorie",
+    "brand_svg": "<rect x=\"10\" y=\"6\" width=\"28\" height=\"36\" rx=\"3\"/><circle cx=\"24\" cy=\"26\" r=\"9\"/><circle cx=\"24\" cy=\"26\" r=\"4\"/><circle cx=\"16\" cy=\"12\" r=\"1.5\"/><circle cx=\"22\" cy=\"12\" r=\"1.5\"/>",
+    "phone_wa": "40741520052",
+    "phone_display": "0741 520 052",
+    "address": "Bulevardul Decebal 4, Sector 3, București",
+    "addr_line1": "Bulevardul Decebal 4",
+    "addr_city": "Sector 3, București",
+    "seo_title": "Brothers Eco Clean — Curățătorie Chimică Sector 3 București",
+    "seo_desc": "Curățătorie chimică și spălătorie pentru costume, rochii, paltoane, covoare și perdele. Bulevardul Decebal, Sector 3. Rating 4,7 din 195 recenzii.",
+    "eyebrow": "Curățătorie chimică & spălătorie premium",
+    "h1": "Haine curate ca <em>nou-nouțe</em>,<br>fără compromisuri pe textile delicate.",
+    "lead": "Costume, rochii de seară, paltoane, covoare sau perdele — tratăm fiecare material cu procesul potrivit, nu cu o singură rețetă pentru toate.",
+    "chips": [
+      "Rating 4,7 din 195 recenzii Google",
+      "Textile delicate tratate cu grijă",
+      "Program și sâmbăta"
+    ],
+    "hero_img": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=1600&q=80",
+    "feature_img": "https://images.unsplash.com/photo-1545173168-9f1947eebb7f?auto=format&fit=crop&w=1000&q=80",
+    "serv_title": "Servicii de curățătorie & spălătorie",
+    "serv_sub": "De la costumul de birou până la covorul din living — fiecare piesă trece prin procesul de curățare potrivit materialului ei.",
+    "services": [
+      {
+        "title": "Costume & rochii de ocazie",
+        "desc": "Curățare chimică profesională și călcat impecabil, gata pentru evenimentul tău.",
+        "tag": "Cel mai cerut",
+        "icon": "sparkle",
+        "img": "https://images.unsplash.com/photo-1489274495757-95c7c837b101?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "title": "Paltoane, geci & haine de sezon",
+        "desc": "Scoatem petele și mirosurile acumulate, păstrând forma și culoarea materialului.",
+        "tag": "",
+        "icon": "check",
+        "img": "https://images.unsplash.com/photo-1567113463300-102a7eb3cb26?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "title": "Textile delicate & lenjerii",
+        "desc": "Rochii de mireasă, mătase, lână — spălare specială pentru piese care nu suportă orice detergent.",
+        "tag": "Atenție sporită",
+        "icon": "shield",
+        "img": "https://images.unsplash.com/photo-1517677208171-0bc6725a3e60?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "title": "Covoare & perdele",
+        "desc": "Curățare profundă pentru covoare, perdele și draperii, direct la sediu sau cu ridicare.",
+        "tag": "",
+        "icon": "washer",
+        "img": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=800&q=80"
+      }
+    ],
+    "why_title": "De ce aleg clienții din Sector 3 Brothers Eco Clean",
+    "why": [
+      { "title": "Rating 4,7 din 195 recenzii", "desc": "Clienți mulțumiți constant, nu doar la prima vizită.", "icon": "star", "filled": true },
+      { "title": "Procese potrivite fiecărui material", "desc": "Nu tratăm mătasea la fel ca bumbacul — fiecare piesă primește tratamentul potrivit.", "icon": "shield" },
+      { "title": "Program lung, inclusiv sâmbăta", "desc": "Deschis de luni până sâmbătă, ca să vă încadrați ușor programul.", "icon": "clock" }
+    ],
+    "rating": "4.7",
+    "reviews_count": "195",
+    "areas": ["Sector 3", "Bulevardul Decebal", "Mihai Bravu", "Titan", "Muncii", "Sector 2"],
+    "areas_title": "Aproape de zona Decebal – Mihai Bravu",
+    "areas_sub": "Situați pe Bulevardul Decebal, ușor accesibili din Titan, Muncii și zona centrală a Sectorului 3.",
+    "reviews": [
+      "Mi-au scos o pată veche de pe un palton de lână pe care o credeam definitivă. A ieșit ca nou.",
+      "Rochia de mireasă a ieșit impecabilă, exact la timp pentru eveniment.",
+      "Singura curățătorie unde covorul chiar arată și miroase a curat, nu doar „mai puțin murdar”."
+    ],
+    "contact_sub": "Aduceți hainele la sediu sau sunați pentru detalii despre ridicare — vă spunem clar cât durează și cât costă.",
+    "hours": [
+      ["Luni – Vineri", "08:00 – 20:00", "hl"],
+      ["Sâmbătă", "08:00 – 15:00", ""],
+      ["Duminică", "Închis", "closed"]
+    ]
+  },
+  {
+    "slug": "cizmarie_atelier_vraca",
+    "palette": "leather",
+    "niche_key": "generic",
+    "name": "Atelier Reparații Încălțăminte",
+    "brand_short": "Atelier Vraca",
+    "brand_sub": "Cizmărie & atelier piele",
+    "brand_svg": "<path d=\"M28 6l8 8-4 4-8-8z\"/><path d=\"M24 14L8 30a3 3 0 0 0 0 4l2 2a3 3 0 0 0 4 0l16-16\"/>",
+    "phone_wa": "40768298084",
+    "phone_display": "0768 298 084",
+    "address": "Strada George Vraca 7, Sector 1, București",
+    "addr_line1": "Strada George Vraca 7",
+    "addr_city": "Sector 1, București",
+    "seo_title": "Atelier Reparații Încălțăminte — Cizmărie Sector 1 București",
+    "seo_desc": "Reparații tălpi, tocuri, cusături și vopsit pentru încălțăminte, genți și curele din piele. Strada George Vraca, Sector 1. Rating 4,9 din 66 recenzii.",
+    "eyebrow": "Cizmărie & atelier piele, lucru manual",
+    "h1": "Pantofii buni <em>se repară</em>,<br>nu se aruncă.",
+    "lead": "Tălpi, tocuri, cusături, vopsit sau întins — dăm a doua viață pantofilor, genților și curelelor din piele, cu lucru manual atent la detalii.",
+    "chips": [
+      "Rating 4,9 din 66 recenzii Google",
+      "Lucru manual, piele & textile",
+      "Și genți & curele din piele"
+    ],
+    "hero_img": "https://images.unsplash.com/photo-1449505278894-297fdb3edbc1?auto=format&fit=crop&w=1600&q=80",
+    "feature_img": "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&w=1000&q=80",
+    "serv_title": "Ce reparăm în atelier",
+    "serv_sub": "De la pantofii de zi cu zi până la genți și curele din piele — fiecare reparație trece prin mâinile aceluiași meșter.",
+    "services": [
+      {
+        "title": "Reparații tălpi & tocuri",
+        "desc": "Înlocuim tălpi uzate și tocuri rupte, păstrând forma și confortul inițial al pantofului.",
+        "tag": "Cel mai cerut",
+        "icon": "wrench",
+        "img": "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "title": "Cusături & consolidări piele",
+        "desc": "Recusem cusături desfăcute și întărim zonele slăbite, înainte să se rupă de tot.",
+        "tag": "",
+        "icon": "tools",
+        "img": "https://images.unsplash.com/photo-1449505278894-297fdb3edbc1?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "title": "Vopsit & recolorat încălțăminte",
+        "desc": "Aducem culoarea la viață pe pantofi decolorați sau zgâriați, cu produse potrivite fiecărei piei.",
+        "tag": "",
+        "icon": "sparkle",
+        "img": "https://images.unsplash.com/photo-1560343090-f0409e92791a?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "title": "Genți & curele din piele",
+        "desc": "Reparăm și întreținem genți, curele și alte accesorii din piele, nu doar încălțăminte.",
+        "tag": "",
+        "icon": "gem",
+        "img": "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?auto=format&fit=crop&w=800&q=80"
+      }
+    ],
+    "why_title": "De ce revin clienții la acest atelier",
+    "why": [
+      { "title": "Rating 4,9 din 66 recenzii", "desc": "Unul dintre cele mai bune calificative din zonă, din partea unor clienți fideli.", "icon": "star", "filled": true },
+      { "title": "Lucru manual, atent la detalii", "desc": "Fiecare pereche e tratată individual, nu ca pe bandă rulantă.", "icon": "hammer" },
+      { "title": "Și accesorii din piele", "desc": "Genți, curele și alte obiecte din piele primesc aceeași atenție ca pantofii.", "icon": "gem" }
+    ],
+    "rating": "4.9",
+    "reviews_count": "66",
+    "areas": ["Sector 1", "Dorobanți", "Aviatorilor", "Floreasca", "Herăstrău", "Sector 2"],
+    "areas_title": "Atelier discret, aproape de zona Dorobanți",
+    "areas_sub": "Situat pe Strada George Vraca, ușor accesibil din Dorobanți, Aviatorilor și nordul Sectorului 1.",
+    "reviews": [
+      "Am adus niște pantofi de piele pe care îi credeam de aruncat. Au ieșit ca noi, cu tălpi și tocuri schimbate.",
+      "Mi-au reparat o geantă de piele cu o cusătură desfăcută — lucru curat, nu se vede unde a fost ruptă.",
+      "Meșter serios, îți spune direct dacă merită reparat sau nu, fără să te păcălească."
+    ],
+    "contact_sub": "Treceți pe la atelier cu perechea de pantofi sau geanta care are nevoie de reparație — vă spunem pe loc ce se poate face.",
+    "hours": [
+      ["Luni – Joi", "08:00 – 17:00", "hl"],
+      ["Vineri", "08:00 – 13:00", ""],
+      ["Sâmbătă", "08:00 – 11:00", ""],
+      ["Duminică", "Închis", "closed"]
+    ]
+  },
+  {
+    "slug": "optica_good_optics_concept",
+    "palette": "cyber",
+    "niche_key": "generic",
+    "name": "Good Optics Concept",
+    "brand_short": "Good Optics",
+    "brand_sub": "Optică & optometrie",
+    "brand_svg": "<path d=\"M14 8h20l8 10-18 22L6 18z\"/><path d=\"M6 18h36M18 8l-4 10 10 22M30 8l4 10-10 22\"/>",
+    "phone_wa": "40722611237",
+    "phone_display": "0722 611 237",
+    "address": "Piața Alexandru Lahovari 5A, Sector 1, București",
+    "addr_line1": "Piața Alexandru Lahovari 5A",
+    "addr_city": "Sector 1, București",
+    "seo_title": "Good Optics Concept — Optică Piața Lahovari București",
+    "seo_desc": "Ochelari de vedere și de soare, examen optometric, lentile și rame în Piața Alexandru Lahovari. Rating 5,0 din 33 recenzii Google.",
+    "eyebrow": "Optică medicală & concept store",
+    "h1": "Vezi clar, arăți bine —<br><em>fără compromis</em> între cele două.",
+    "lead": "Examen optometric complet, rame alese cu atenție și lentile potrivite exact nevoilor tale — totul într-un singur loc, în Piața Lahovari.",
+    "chips": [
+      "Rating 5,0 din 33 recenzii Google",
+      "Examen optometric complet",
+      "Rame de vedere & soare"
+    ],
+    "hero_img": "https://images.unsplash.com/photo-1591076482161-42ce6da69f67?auto=format&fit=crop&w=1600&q=80",
+    "feature_img": "https://images.unsplash.com/photo-1574258495973-f010dfbb5371?auto=format&fit=crop&w=1000&q=80",
+    "serv_title": "Ce găsești la Good Optics Concept",
+    "serv_sub": "De la controlul vederii până la rama potrivită stilului tău — o echipă care te ajută să alegi, nu doar să vândă.",
+    "services": [
+      {
+        "title": "Ochelari de vedere",
+        "desc": "Rame moderne și clasice, potrivite pentru birou, citit sau purtat zilnic.",
+        "tag": "Cel mai cerut",
+        "icon": "gem",
+        "img": "https://images.unsplash.com/photo-1508296695146-257a814070b4?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "title": "Ochelari de soare",
+        "desc": "Protecție UV reală, în rame de la clasic la statement, pentru orice sezon.",
+        "tag": "",
+        "icon": "star",
+        "img": "https://images.unsplash.com/photo-1577803645773-f96470509666?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "title": "Examen optometric complet",
+        "desc": "Verificăm dioptriile și starea generală a vederii, cu explicații clare la final.",
+        "tag": "Recomandat anual",
+        "icon": "check",
+        "img": "https://images.unsplash.com/photo-1574258495973-f010dfbb5371?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "title": "Lentile & rame premium",
+        "desc": "Lentile potrivite stilului de viață, montate corect pe rama aleasă.",
+        "tag": "",
+        "icon": "sparkle",
+        "img": "https://images.unsplash.com/photo-1591076482161-42ce6da69f67?auto=format&fit=crop&w=800&q=80"
+      }
+    ],
+    "why_title": "De ce recomandă clienții Good Optics Concept",
+    "why": [
+      { "title": "Rating 5,0 din 33 recenzii", "desc": "Calificativ perfect, chiar dacă suntem încă un secret bine păstrat în zonă.", "icon": "star", "filled": true },
+      { "title": "Sfaturi reale, nu doar vânzare", "desc": "Vă ajutăm să alegeți rama și lentila potrivite, nu doar cea mai scumpă.", "icon": "gem" },
+      { "title": "Ne găsiți pe Facebook — și în Piața Lahovari", "desc": "Nu avem încă site propriu, dar suntem ușor de găsit chiar în piață, aproape de birourile din Sector 1.", "icon": "pin" }
+    ],
+    "rating": "5.0",
+    "reviews_count": "33",
+    "areas": ["Piața Lahovari", "Dorobanți", "Universitate", "Romană", "Cișmigiu", "Sector 1"],
+    "areas_title": "Chiar în Piața Alexandru Lahovari",
+    "areas_sub": "Ne găsiți ușor în zona Lahovari, aproape de Romană, Universitate și birourile din centrul Sectorului 1.",
+    "reviews": [
+      "Examenul optometric a fost cel mai complet pe care l-am făcut, cu explicații clare despre ce dioptrie am nevoie.",
+      "M-au ajutat să aleg o ramă care chiar mi se potrivește, nu doar prima disponibilă.",
+      "Ochelarii de soare sunt de calitate reală, nu doar accesoriu de vară — se simte diferența."
+    ],
+    "contact_sub": "Treceți prin Piața Lahovari sau scrieți-ne pe Facebook / WhatsApp pentru programare la examenul optometric.",
+    "hours": [
+      ["Luni – Joi", "10:00 – 18:00", "hl"],
+      ["Vineri", "09:00 – 18:00", ""],
+      ["Sâmbătă", "10:00 – 14:00", ""],
+      ["Duminică", "Închis", "closed"]
+    ]
+  }
+]
