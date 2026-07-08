@@ -1,0 +1,244 @@
+[
+  {
+    "slug": "parbrize_montaj_ieftin",
+    "palette": "graphite",
+    "niche_key": "auto",
+    "name": "Montaj Parbrize Ieftin",
+    "brand_short": "Parbrize Ieftin",
+    "brand_sub": "Sector 5 · București",
+    "phone_wa": "40724849954",
+    "phone_display": "0724 849 954",
+    "address": "Strada Înclinată 105, Sector 5, București",
+    "addr_line1": "Strada Înclinată 105",
+    "addr_city": "Sector 5, București",
+    "seo_title": "Montaj Parbrize Ieftin non-stop Sector 5 București | Schimb parbrize, geamuri auto, lunete",
+    "seo_desc": "Montaj și schimb parbrize non-stop în Sector 5, București. Geamuri auto, lunete, calibrare ADAS. Deplasare rapidă, prețuri corecte. Sună acum.",
+    "eyebrow": "Non-stop · Sector 5, București",
+    "h1": "Parbrizul spart nu așteaptă.<br>Noi nici atât — <em>montăm non-stop</em>.",
+    "lead": "Schimb și montaj parbrize, geamuri laterale și lunete pentru orice marcă, la orice oră din zi și din noapte. Sunați acum și vă spunem prețul pe loc.",
+    "chips": ["Non-stop 24/7", "Toate mărcile auto", "Preț pe loc, fără surprize"],
+    "serv_title": "Servicii parbrize & geamuri auto",
+    "serv_sub": "Montaj rapid, non-stop, pentru orice tip de mașină.",
+    "services": [
+      {"title": "Schimb parbrize", "desc": "Montăm parbrize noi pentru orice marcă și model, cu garanție la etanșeitate.", "tag": "Cel mai cerut", "icon": "car"},
+      {"title": "Geamuri laterale", "desc": "Înlocuim geamurile laterale sparte sau crăpate, rapid și curat.", "tag": "Montaj rapid", "icon": "wrench"},
+      {"title": "Lunetă spate", "desc": "Schimbăm luneta spate pentru toate mărcile, inclusiv cu dezaburire.", "tag": "Toate mărcile", "icon": "roof"},
+      {"title": "Reparație cioburi & fisuri", "desc": "Reparăm fisurile mici înainte să se extindă, fără să schimbăm parbrizul complet.", "tag": "Fără schimbare completă", "icon": "patch"},
+      {"title": "Calibrare senzori ADAS", "desc": "Recalibrăm senzorii de asistență după montaj, pentru siguranță deplină.", "tag": "Siguranță", "icon": "bolt"},
+      {"title": "Intervenție non-stop la domiciliu", "desc": "Venim la tine acasă sau la birou, oricând, pentru montaj rapid.", "tag": "24/7", "icon": "clock"}
+    ],
+    "why_title": "De ce sună clienții la noi",
+    "why": [
+      {"title": "4,6★ din 20 recenzii Google", "desc": "Clienți mulțumiți de rapiditate și prețuri corecte.", "icon": "star", "filled": true},
+      {"title": "Disponibili non-stop, 24/7", "desc": "Program non-stop, în fiecare zi a săptămânii, pentru urgențe.", "icon": "clock"},
+      {"title": "Montaj pentru orice marcă", "desc": "Lucrăm cu parbrize și geamuri pentru toate mărcile și modelele auto.", "icon": "car"}
+    ],
+    "rating": "4.6",
+    "reviews_count": "20",
+    "areas": ["Sector 5", "Sector 4", "Sector 6", "Ilfov"],
+    "areas_title": "Deplasare rapidă în tot Bucureștiul",
+    "areas_sub": "Intervenim non-stop în Sector 5 și sectoarele învecinate, precum și în Ilfov.",
+    "reviews": [
+      "Am sunat la 2 noaptea cu parbrizul spart și au venit în mai puțin de o oră. Profesioniști și rapizi.",
+      "Preț corect, comunicat din primul telefon, fără costuri ascunse la fața locului.",
+      "Montaj curat, fără scurgeri de apă, mașina a fost gata în aceeași zi."
+    ],
+    "contact_sub": "Sunați non-stop pentru o evaluare rapidă și programare imediată — venim la voi sau la sediu.",
+    "hours": [
+      ["Luni – Duminică", "Non-stop, 24/7", "hl"]
+    ]
+  },
+  {
+    "slug": "spalatorie_smart_car_wash",
+    "palette": "cyber",
+    "niche_key": "detailing",
+    "name": "Smart Car Wash",
+    "brand_short": "Smart Car Wash",
+    "brand_sub": "Sector 1 · București",
+    "phone_wa": "40721700709",
+    "phone_display": "0721 700 709",
+    "address": "Strada Buzești 34, Sector 1, București",
+    "addr_line1": "Strada Buzești 34",
+    "addr_city": "Sector 1, București",
+    "seo_title": "Smart Car Wash Sector 1 București | Spălătorie auto interior-exterior premium",
+    "seo_desc": "Spălătorie auto premium în Sector 1, București. Spălare interior și exterior, curățare tapițerie, polish. Peste 700 de recenzii Google. Deschis zilnic 08:00–20:00.",
+    "eyebrow": "Peste 760 recenzii · Sector 1",
+    "h1": "Mașina ta merită o <em>spălare smart</em>.",
+    "lead": "Spălare auto interior și exterior, la standard premium, în inima Sectorului 1. Mii de clienți mulțumiți ne-au făcut una dintre cele mai apreciate spălătorii din București.",
+    "chips": ["Deschis zilnic 08–20", "Interior + exterior", "Peste 760 recenzii"],
+    "serv_title": "Servicii spălătorie auto",
+    "serv_sub": "De la spălarea rapidă la detailing complet, interior și exterior.",
+    "services": [
+      {"title": "Spălare exterioară", "desc": "Spălare completă caroserie, jante și geamuri, fără zgârieturi.", "tag": "Rapid", "icon": "car"},
+      {"title": "Curățare interior", "desc": "Aspirare, curățare tapițerie și plastice, mașina arată și miroase impecabil.", "tag": "Cel mai cerut", "icon": "sofa"},
+      {"title": "Spălare motor", "desc": "Curățare atentă a compartimentului motor, în siguranță pentru electronice.", "tag": "La cerere", "icon": "wrench"},
+      {"title": "Polish & ceruire", "desc": "Strat de protecție și luciu pentru vopsea, rezistent la intemperii.", "tag": "Premium", "icon": "sparkle"},
+      {"title": "Curățare jante", "desc": "Îndepărtăm praful de frână și depunerile dificile de pe jante.", "tag": "Detaliu", "icon": "wheel"}
+    ],
+    "why_title": "De ce ne aleg clienții",
+    "why": [
+      {"title": "4,3★ din peste 760 recenzii Google", "desc": "Una dintre cele mai recenzate spălătorii auto din Sector 1.", "icon": "star", "filled": true},
+      {"title": "Deschis zilnic, 08:00–20:00", "desc": "Program lung, șapte zile din șapte, ca să vii oricând ai timp.", "icon": "clock"},
+      {"title": "Interior și exterior, într-o singură vizită", "desc": "Ieși cu mașina curată complet, în interior și exterior, fără să pierzi timp în două locuri.", "icon": "sparkle"}
+    ],
+    "rating": "4.3",
+    "reviews_count": "763",
+    "areas": ["Sector 1", "Sector 2", "Sector 6", "Ilfov"],
+    "areas_title": "Ne găsești ușor în Sector 1",
+    "areas_sub": "Suntem pe Strada Buzești, aproape de zona centrală, ușor accesibil din toate sectoarele.",
+    "reviews": [
+      "Spălătorie de încredere, mașina iese impecabilă de fiecare dată, interior și exterior.",
+      "Program lung, am reușit să trec și seara după muncă, fără să aștept mult.",
+      "Recomand pentru curățenia tapițeriei, au scos pete pe care le credeam permanente."
+    ],
+    "contact_sub": "Vino direct sau sună înainte ca să știi timpul de așteptare.",
+    "hours": [
+      ["Luni – Duminică", "08:00 – 20:00", "hl"]
+    ]
+  },
+  {
+    "slug": "spalatorie_professional_a",
+    "palette": "clean",
+    "niche_key": "auto",
+    "name": "Professional A Car Wash",
+    "brand_short": "Professional A",
+    "brand_sub": "Sector 1 · București",
+    "phone_wa": "40725101013",
+    "phone_display": "0725 101 013",
+    "address": "Strada Gheorghe Polizu 13, Sector 1, București",
+    "addr_line1": "Strada Gheorghe Polizu 13",
+    "addr_city": "Sector 1, București",
+    "seo_title": "Professional A Car Wash Sector 1 | Spălătorie auto & cosmetică auto București",
+    "seo_desc": "Spălătorie auto și cosmetică auto în Sector 1, București, lângă Politehnica. Spălare interior-exterior, polish, tratamente. Deschis zilnic 08:00–20:00.",
+    "eyebrow": "Cosmetică auto · Sector 1",
+    "h1": "Curățenie <em>profesională</em> pentru mașina ta, în fiecare zi.",
+    "lead": "Spălătorie auto și cosmetică auto pe Gheorghe Polizu, aproape de Politehnica. Servicii complete de curățare și îngrijire, la un preț corect.",
+    "chips": ["Deschis zilnic 08–20", "Cosmetică auto", "Aproape de Politehnica"],
+    "serv_title": "Servicii spălătorie & cosmetică auto",
+    "serv_sub": "Curățare și îngrijire completă, în interior și exterior.",
+    "services": [
+      {"title": "Spălare exterioară", "desc": "Spălare caroserie, jante și geamuri, fără zgârieturi, cu produse dedicate.", "tag": "Zilnic", "icon": "car"},
+      {"title": "Curățare interior", "desc": "Aspirare completă și curățare tapițerie, scaune și covorașe.", "tag": "Cel mai cerut", "icon": "sofa"},
+      {"title": "Cosmetică auto", "desc": "Tratamente pentru plastice, piele și vopsea, pentru un aspect îngrijit de durată.", "tag": "Premium", "icon": "sparkle"},
+      {"title": "Curățare jante & anvelope", "desc": "Curățăm în detaliu jantele și anvelopele, inclusiv depunerile dificile.", "tag": "Detaliu", "icon": "wheel"},
+      {"title": "Polish caroserie", "desc": "Șlefuire fină și polish pentru un luciu uniform al vopselei.", "tag": "La cerere", "icon": "gem"}
+    ],
+    "why_title": "De ce ne aleg clienții",
+    "why": [
+      {"title": "4,2★ din 436 recenzii Google", "desc": "Zeci de clienți fideli, mulțumiți de calitatea serviciilor.", "icon": "star", "filled": true},
+      {"title": "Deschis zilnic, 08:00–20:00", "desc": "Program lung, în fiecare zi a săptămânii.", "icon": "clock"},
+      {"title": "Locație accesibilă, lângă Politehnica", "desc": "Ușor de găsit pe Gheorghe Polizu, aproape de Universitatea Politehnica.", "icon": "pin"}
+    ],
+    "rating": "4.2",
+    "reviews_count": "436",
+    "areas": ["Sector 1", "Sector 2", "Sector 6", "Ilfov"],
+    "areas_title": "La doi pași de Politehnica",
+    "areas_sub": "Ne găsești pe Gheorghe Polizu, ușor accesibil din Sector 1 și zonele apropiate.",
+    "reviews": [
+      "Servicii de calitate, mașina arată impecabil după fiecare vizită.",
+      "Personal amabil, curățenie făcută cu atenție la detalii.",
+      "Locație ușor de găsit, aproape de facultate, prețuri corecte."
+    ],
+    "contact_sub": "Sună înainte de a veni ca să afli timpul de așteptare.",
+    "hours": [
+      ["Luni – Duminică", "08:00 – 20:00", "hl"]
+    ]
+  },
+  {
+    "slug": "reparatii_frigidere_albu",
+    "palette": "fresh",
+    "niche_key": "reparatii",
+    "name": "Service Frigidere Albu",
+    "brand_short": "Frigidere Albu",
+    "brand_sub": "Sector 2 · București",
+    "phone_wa": "40721899160",
+    "phone_display": "0721 899 160",
+    "address": "Șoseaua Ștefan cel Mare 33, Sector 2, București",
+    "addr_line1": "Șoseaua Ștefan cel Mare 33",
+    "addr_city": "Sector 2, București",
+    "seo_title": "Reparații frigidere la domiciliu Sector 2 București | Service Frigidere Albu",
+    "seo_desc": "Reparații frigidere, combine frigorifice și congelatoare la domiciliu, în Sector 2, București. Deplasare rapidă, programare telefonică. Sună acum.",
+    "eyebrow": "Reparații la domiciliu · Sector 2",
+    "h1": "Frigiderul nu (mai) merge?<br>Venim <em>la tine acasă</em>.",
+    "lead": "Reparăm frigidere, combine frigorifice și congelatoare direct la domiciliu, în Sector 2 și zonele apropiate. Programare simplă, telefonic.",
+    "chips": ["Deplasare la domiciliu", "Programare telefonică", "Toate mărcile"],
+    "serv_title": "Servicii reparații frigidere",
+    "serv_sub": "Diagnosticare și reparație la fața locului, pentru orice marcă.",
+    "services": [
+      {"title": "Reparații frigidere", "desc": "Diagnosticăm și reparăm frigidere de toate mărcile, direct la domiciliul tău.", "tag": "Cel mai cerut", "icon": "tools"},
+      {"title": "Reparații combine frigorifice", "desc": "Intervenim la combine frigorifice cu probleme de răcire sau zgomot.", "tag": "Frecvent", "icon": "wrench"},
+      {"title": "Reparații congelatoare", "desc": "Reparăm congelatoare lădiță și verticale, cu piese de calitate.", "tag": "La domiciliu", "icon": "patch"},
+      {"title": "Încărcare freon & etanșare", "desc": "Verificăm și completăm agentul de răcire acolo unde este necesar.", "tag": "Diagnostic", "icon": "bolt"}
+    ],
+    "why_title": "De ce sună clienții la noi",
+    "why": [
+      {"title": "Ani de experiență în reparații electrocasnice", "desc": "Reparăm frigidere și combine frigorifice de mulți ani, pentru toate mărcile.", "icon": "star", "filled": true},
+      {"title": "Deplasare rapidă la domiciliu", "desc": "Venim direct acasă la tine, în Sector 2 și zonele apropiate, cu programare telefonică simplă.", "icon": "clock"},
+      {"title": "Diagnostic corect, fără reparații inutile", "desc": "Identificăm problema reală și îți spunem clar ce este de făcut, înainte să intervenim.", "icon": "shield"}
+    ],
+    "rating": "3.4",
+    "reviews_count": "5",
+    "areas": ["Sector 2", "Sector 1", "Sector 3", "Ilfov"],
+    "areas_title": "Deplasare la domiciliu în Sector 2 și împrejurimi",
+    "areas_sub": "Intervenim rapid la adresa ta, în Sector 2 și zonele apropiate din București.",
+    "reviews": [
+      "A venit repede și a reparat frigiderul pe loc, fără să fie nevoie să-l duc la service.",
+      "Diagnostic corect, mi-a explicat clar problema înainte să înceapă reparația.",
+      "Programare ușoară la telefon, a ajuns chiar în ziua în care am sunat."
+    ],
+    "contact_sub": "Sună și programează o vizită la domiciliu — de obicei ajungem în aceeași zi.",
+    "hours": [
+      ["Program", "La programare, telefonic", "hl"]
+    ]
+  },
+  {
+    "slug": "amenajari_zugraveli_dirijorului",
+    "palette": "leather",
+    "niche_key": "casa",
+    "name": "Zugrăveli & Amenajări Interioare",
+    "brand_short": "Zugrăveli Dirijorului",
+    "brand_sub": "Sector 1 · București",
+    "phone_wa": "40720766518",
+    "phone_display": "0720 766 518",
+    "address": "Strada Dirijorului 53, Sector 1, București",
+    "addr_line1": "Strada Dirijorului 53",
+    "addr_city": "Sector 1, București",
+    "seo_title": "Zugrăveli & Amenajări Interioare Sector 1 București | Rigips, glet, faianță, gresie",
+    "seo_desc": "Echipă de zugrăveli și amenajări interioare în Sector 1, București: glet, rigips, vopsitorii, faianță și gresie. Lucrare îngrijită, la termen. Cere ofertă.",
+    "eyebrow": "Echipă locală · Sector 1, București",
+    "h1": "Amenajări interioare făcute <em>cu grijă</em>, de la zugrăveli până la gresie.",
+    "lead": "Echipă specializată în zugrăveli, glet, rigips și placări cu faianță și gresie, în Sector 1 și tot Bucureștiul. Lucrare curată, la termenul stabilit.",
+    "chips": ["Zugrăveli & glet", "Rigips & tavane", "Faianță & gresie"],
+    "serv_title": "Servicii amenajări interioare",
+    "serv_sub": "De la finisaje simple la renovări complete de interior.",
+    "services": [
+      {"title": "Zugrăveli interioare", "desc": "Vopsitorii lavabile, finisaje uniforme, curat și fără miros persistent.", "tag": "Cel mai cerut", "icon": "spray"},
+      {"title": "Glet & șlefuire pereți", "desc": "Pregătim pereții perfect pentru vopsit, cu suprafețe netede, fără fisuri.", "tag": "Finisaj premium", "icon": "tools"},
+      {"title": "Rigips & tavane false", "desc": "Montăm pereți și tavane din rigips, inclusiv nișe și spoturi de lumină.", "tag": "Amenajare", "icon": "roof"},
+      {"title": "Faianță & gresie", "desc": "Placăm băi și bucătării cu faianță și gresie, la nivel profesionist.", "tag": "Baie & bucătărie", "icon": "ruler"},
+      {"title": "Renovări complete de interior", "desc": "Preluăm proiectul integral, de la demolare până la finisaje finale.", "tag": "Proiect complet", "icon": "hammer"}
+    ],
+    "why_title": "De ce ne aleg clienții",
+    "why": [
+      {"title": "Echipă serioasă, atentă la detalii", "desc": "Lucrăm curat, respectăm termenele stabilite și comunicăm clar pe tot parcursul lucrării.", "icon": "star", "filled": true},
+      {"title": "Program lung, inclusiv sâmbăta", "desc": "Suntem disponibili de luni până sâmbătă, pentru a avansa rapid cu lucrarea.", "icon": "clock"},
+      {"title": "De la zugrăveli la gresie, într-o singură echipă", "desc": "Nu mai cauți meseriași separați — preluăm toate finisajele de interior.", "icon": "shield"}
+    ],
+    "rating": "5.0",
+    "reviews_count": "1",
+    "areas": ["Sector 1", "Sector 2", "Sector 6", "Ilfov"],
+    "areas_title": "Lucrăm în tot Bucureștiul",
+    "areas_sub": "Bază în Sector 1, ne deplasăm pentru amenajări în toate sectoarele și în Ilfov.",
+    "reviews": [
+      "Echipă punctuală, au respectat termenul stabilit și au lăsat totul curat la final.",
+      "Finisaje îngrijite la glet și zugrăveli, exact cum ne-am dorit.",
+      "Comunicare bună pe tot parcursul lucrării, fără surprize la final."
+    ],
+    "contact_sub": "Sună pentru o evaluare gratuită la fața locului și o ofertă clară de preț.",
+    "hours": [
+      ["Luni – Vineri", "06:00 – 20:00", "hl"],
+      ["Sâmbătă", "07:30 – 18:00", ""],
+      ["Duminică", "Închis", "closed"]
+    ]
+  }
+]
