@@ -1,0 +1,375 @@
+[
+  {
+    "slug": "electrica_auto_uverturii",
+    "palette": "cyber",
+    "niche_key": "auto",
+    "name": "Electrică Auto Uverturii",
+    "brand_short": "Electrică Auto Uverturii",
+    "brand_sub": "Electrician auto · Sector 6",
+    "phone_wa": "40768136365",
+    "phone_display": "0768 136 365",
+    "address": "Bulevardul Uverturii 136, Sector 6, București",
+    "addr_line1": "Bulevardul Uverturii 136",
+    "addr_city": "Sector 6, București",
+    "seo_title": "Electrică Auto Uverturii — Instalații, Senzori, Faruri, Diagnoză | Sector 6",
+    "seo_desc": "Electrician auto pe Bulevardul Uverturii, Sector 6: instalații electrice, senzori, faruri, confort și diagnoză computerizată. Rating 4,8 din 84 recenzii Google. Sună acum.",
+    "eyebrow": "Electrician auto specializat",
+    "h1": "Probleme electrice la mașină?<br>Le găsim și le <em>reparăm corect</em>.",
+    "lead": "Instalații electrice, senzori, faruri și confort electric — reparate de un electrician auto specializat, nu de un mecanic care „mai încearcă”. Chiar pe Bulevardul Uverturii, Sector 6.",
+    "chips": [
+      "Rating 4,8 din 84 recenzii Google",
+      "Electrician auto specializat, nu generalist",
+      "Bulevardul Uverturii 136, Sector 6"
+    ],
+    "serv_title": "Ce reparăm la instalația electrică",
+    "serv_sub": "De la un far care nu se aprinde până la un senzor care dă eroare intermitent — găsim cauza reală înainte să schimbăm orice piesă.",
+    "services": [
+      {
+        "title": "Reparații instalație electrică auto",
+        "desc": "Cabluri, conectori, siguranțe și module — depanăm orice defecțiune electrică, oricât de ascunsă ar fi.",
+        "tag": "Cel mai cerut",
+        "icon": "bolt"
+      },
+      {
+        "title": "Senzori & sisteme de asistență",
+        "desc": "Verificăm și reparăm senzorii de parcare, ABS, temperatură și alți senzori care dau erori pe bord.",
+        "tag": "Diagnoză precisă",
+        "icon": "tools"
+      },
+      {
+        "title": "Faruri & sisteme de iluminat",
+        "desc": "Reparăm faruri, stopuri și proiectoare care nu se aprind, pâlpâie sau dau erori pe modulul de lumini.",
+        "tag": "Vizibilitate & siguranță",
+        "icon": "bolt"
+      },
+      {
+        "title": "Confort electric (geamuri, oglinzi, climatizare)",
+        "desc": "Reparăm geamuri electrice blocate, oglinzi retractabile și comenzi de climatizare care nu mai răspund.",
+        "tag": "Confort la volan",
+        "icon": "car"
+      },
+      {
+        "title": "Diagnoză computerizată electrică",
+        "desc": "Citim codurile de eroare direct din calculatorul mașinii și localizăm exact circuitul defect.",
+        "tag": "Fără ghicit",
+        "icon": "wrench"
+      }
+    ],
+    "why_title": "De ce aleg șoferii acest electrician auto",
+    "why": [
+      {"title": "Rating 4,8 din 84 recenzii", "desc": "Clienți mulțumiți constant de faptul că problema e găsită din prima.", "icon": "star", "filled": true},
+      {"title": "Electrician specializat, nu mecanic generalist", "desc": "Ne ocupăm exclusiv de electrica auto, nu tratăm circuitele ca pe o reparație secundară.", "icon": "bolt"},
+      {"title": "Diagnoză înainte de reparație", "desc": "Nu schimbăm module sau senzori la întâmplare — localizăm exact defectul înainte să intervenim.", "icon": "tools"}
+    ],
+    "rating": 4.8,
+    "reviews_count": 84,
+    "areas_title": "Lucrăm pentru tot vestul Bucureștiului",
+    "areas_sub": "Aduci mașina la atelier pe Uverturii sau ne suni și îți spunem pe loc ce poate fi.",
+    "areas": ["Sector 6", "Militari", "Drumul Taberei", "Crângași", "Sector 1", "Ilfov"],
+    "reviews": [
+      "Au găsit din prima un scurtcircuit pe care alt service nu-l localizase.",
+      "Farul care pâlpâia de luni de zile s-a rezolvat într-o singură vizită.",
+      "Explicații clare despre ce era defect și de ce, fără termeni tehnici de neînțeles."
+    ],
+    "contact_sub": "Sună sau scrie pe WhatsApp cu ce probleme electrice ai la mașină — îți spunem rapid dacă e ceva simplu sau trebuie adusă la atelier.",
+    "hours": [
+      ["Luni – Vineri", "09:00 – 18:00", "hl"],
+      ["Sâmbătă", "Închis", "closed"],
+      ["Duminică", "Închis", "closed"]
+    ]
+  },
+  {
+    "slug": "electrica_auto_alternatoare",
+    "palette": "graphite",
+    "niche_key": "auto",
+    "name": "Service Electrică Auto — Reparații Alternatoare & Electromotoare",
+    "brand_short": "Electrică Auto Alternatoare",
+    "brand_sub": "Reparații alternatoare & electromotoare · Sector 6",
+    "phone_wa": "40766617188",
+    "phone_display": "0766 617 188",
+    "address": "Bulevardul Uverturii 118, Sector 6, București",
+    "addr_line1": "Bulevardul Uverturii 118",
+    "addr_city": "Sector 6, București",
+    "seo_title": "Reparații Alternatoare & Electromotoare — Service Electrică Auto | Sector 6",
+    "seo_desc": "Reparăm și recondiționăm alternatoare, electromotoare și demaroare în Sector 6 București. Costă mult mai puțin decât o piesă nouă. Rating 4,6 din 58 recenzii Google.",
+    "eyebrow": "Specialiști alternatoare & electromotoare",
+    "h1": "Alternatorul sau electromotorul cedează?<br><em>Recondiționăm, nu doar înlocuim</em>.",
+    "lead": "Reparăm și recondiționăm alternatoare, electromotoare și demaroare pentru orice marcă, la un cost mult mai mic decât o piesă nouă. Chiar pe Bulevardul Uverturii, Sector 6.",
+    "chips": [
+      "Rating 4,6 din 58 recenzii Google",
+      "Recondiționare alternatoare & electromotoare",
+      "Bulevardul Uverturii 118, Sector 6"
+    ],
+    "serv_title": "Ce reparăm în atelier",
+    "serv_sub": "Demontăm, testăm pe bancul de probă și recondiționăm piesa — nu sărim direct la înlocuire dacă nu e nevoie.",
+    "services": [
+      {
+        "title": "Reparații & recondiționare alternatoare",
+        "desc": "Înlocuim periile, rulmenții și regulatorul de tensiune uzat, cu piesa testată pe bancul de probă înainte de montaj.",
+        "tag": "Cel mai cerut",
+        "icon": "bolt"
+      },
+      {
+        "title": "Reparații electromotoare & demaroare",
+        "desc": "Recondiționăm bobinajul, periile și bendixul electromotorului, ca mașina să pornească din nou fără probleme.",
+        "tag": "Recondiționare",
+        "icon": "wrench"
+      },
+      {
+        "title": "Verificare & încărcare baterie",
+        "desc": "Testăm starea reală a bateriei și a sistemului de încărcare, ca să știi sigur dacă vina e la baterie sau la alternator.",
+        "tag": "Diagnoză corectă",
+        "icon": "tools"
+      },
+      {
+        "title": "Reparații instalație electrică auto",
+        "desc": "Depanăm și cablajul din jurul sistemului de încărcare — conectori, siguranțe și module de comandă.",
+        "tag": "Instalație electrică",
+        "icon": "bolt"
+      }
+    ],
+    "why_title": "De ce aleg șoferii acest atelier",
+    "why": [
+      {"title": "Rating 4,6 din 58 recenzii", "desc": "Clienți mulțumiți constant de faptul că piesa recondiționată ține la fel de bine ca una nouă.", "icon": "star", "filled": true},
+      {"title": "Recondiționăm, nu doar înlocuim", "desc": "De multe ori piesa se poate repara complet, la o fracțiune din prețul uneia noi.", "icon": "gem"},
+      {"title": "Testare pe bancul de probă", "desc": "Fiecare alternator sau electromotor e testat înainte de montaj, nu doar reparat „pe ochi”.", "icon": "check"}
+    ],
+    "rating": 4.6,
+    "reviews_count": 58,
+    "areas_title": "Lucrăm pentru tot vestul Bucureștiului",
+    "areas_sub": "Aduci piesa demontată sau mașina la atelier — îți spunem pe loc dacă se poate recondiționa.",
+    "areas": ["Sector 6", "Militari", "Drumul Taberei", "Crângași", "Sector 1", "Ilfov"],
+    "reviews": [
+      "Mi-au recondiționat alternatorul la jumătate din prețul unuia nou, merge perfect de atunci.",
+      "Electromotorul nu mai prindea deloc, acum pornește din prima de fiecare dată.",
+      "Mi-au explicat clar diferența dintre problema de baterie și cea de alternator."
+    ],
+    "contact_sub": "Sună sau scrie pe WhatsApp cu simptomul — pornire greoaie, martor pe bord sau baterie descărcată — și îți spunem ce poate fi.",
+    "hours": [
+      ["Luni – Vineri", "09:00 – 17:00", "hl"],
+      ["Sâmbătă", "Închis", "closed"],
+      ["Duminică", "Închis", "closed"]
+    ]
+  },
+  {
+    "slug": "electrica_auto_mihalache",
+    "palette": "fresh",
+    "niche_key": "auto",
+    "name": "Service Electrică Auto Ion Mihalache",
+    "brand_short": "Electrică Auto Ion Mihalache",
+    "brand_sub": "Electrică auto & diagnoză · Sector 1",
+    "phone_wa": "40726284451",
+    "phone_display": "0726 284 451",
+    "address": "Bulevardul Ion Mihalache 207, Sector 1, București",
+    "addr_line1": "Bulevardul Ion Mihalache 207",
+    "addr_city": "Sector 1, București",
+    "seo_title": "Service Electrică Auto Ion Mihalache — Diagnoză Computerizată | Sector 1",
+    "seo_desc": "Electrică auto și diagnoză computerizată pe Bulevardul Ion Mihalache, Sector 1. Peste 98 de recenzii Google, preț corect și experiență la volan. Sună acum.",
+    "eyebrow": "Electrică auto & diagnoză",
+    "h1": "Electrică auto cu experiență,<br>la <em>preț corect</em>.",
+    "lead": "Diagnoză computerizată și reparații de instalație electrică pentru orice marcă, într-un service de cartier cu ani de experiență pe Ion Mihalache, Sector 1.",
+    "chips": [
+      "Peste 98 de recenzii Google",
+      "Diagnoză computerizată & electrică auto",
+      "Bulevardul Ion Mihalache 207, Sector 1"
+    ],
+    "serv_title": "Ce facem pentru mașina ta",
+    "serv_sub": "De la o lumină de avarie pe bord până la o instalație electrică mai complicată — verificăm întâi, reparăm apoi.",
+    "services": [
+      {
+        "title": "Diagnoză computerizată",
+        "desc": "Citim codurile de eroare din calculatorul de bord și îți spunem clar ce înseamnă și ce trebuie reparat.",
+        "tag": "Cel mai cerut",
+        "icon": "tools"
+      },
+      {
+        "title": "Reparații instalație electrică auto",
+        "desc": "Depanăm cabluri, conectori și siguranțe defecte, oricât de greu de găsit ar fi problema.",
+        "tag": "Electrică auto",
+        "icon": "bolt"
+      },
+      {
+        "title": "Reparații lumini & senzori",
+        "desc": "Reparăm faruri, stopuri și senzori care dau erori intermitente sau nu mai funcționează deloc.",
+        "tag": "Lumini & senzori",
+        "icon": "bolt"
+      },
+      {
+        "title": "Verificare baterie & alternator",
+        "desc": "Testăm bateria și sistemul de încărcare, ca să știi exact de unde vine problema de pornire.",
+        "tag": "Verificare rapidă",
+        "icon": "wrench"
+      }
+    ],
+    "why_title": "De ce aleg șoferii acest service",
+    "why": [
+      {"title": "Peste 98 de recenzii Google", "desc": "Un service cunoscut de mulți ani în zonă, cu clienți care revin.", "icon": "star", "filled": true},
+      {"title": "Ani de experiență la electrică auto", "desc": "Am văzut majoritatea problemelor electrice posibile, pe majoritatea mărcilor.", "icon": "gem"},
+      {"title": "Preț corect, fără reparații inutile", "desc": "Spunem clar ce e de reparat și cât costă, fără să adăugăm lucrări care nu sunt necesare.", "icon": "check"}
+    ],
+    "rating": 3.8,
+    "reviews_count": 98,
+    "areas_title": "Lucrăm pentru tot nordul Bucureștiului",
+    "areas_sub": "Suni sau scrii pe WhatsApp cu problema mașinii, iar noi îți spunem cum te putem ajuta.",
+    "areas": ["Sector 1", "Sector 6", "Bucureștii Noi", "Chitila", "Sector 2", "Ilfov"],
+    "reviews": [
+      "Preț corect pentru diagnoză, mi-au explicat clar ce era de reparat.",
+      "Au rezolvat o problemă electrică veche pe care alt service nu o găsise.",
+      "Service de cartier serios, cu mecanici care chiar au experiență."
+    ],
+    "contact_sub": "Sună sau scrie pe WhatsApp cu problema electrică a mașinii — stabilim rapid o programare pentru diagnoză.",
+    "hours": [
+      ["Luni – Vineri", "09:00 – 17:00", "hl"],
+      ["Sâmbătă", "Închis", "closed"],
+      ["Duminică", "Închis", "closed"]
+    ]
+  },
+  {
+    "slug": "electrica_auto_racari",
+    "palette": "clean",
+    "niche_key": "auto",
+    "name": "Service Auto Electrician & Diagnoză Răcari",
+    "brand_short": "Service Auto Răcari",
+    "brand_sub": "Electrician auto & diagnoză · Sector 3",
+    "phone_wa": "40735588977",
+    "phone_display": "0735 588 977",
+    "address": "Strada Răcari 9, Sector 3, București",
+    "addr_line1": "Strada Răcari 9",
+    "addr_city": "Sector 3, București",
+    "seo_title": "Service Auto Electrician & Diagnoză Răcari — Deschis 7/7 | Sector 3",
+    "seo_desc": "Electrician auto, mecanic și diagnoză cu tester pe Strada Răcari, Sector 3. Deschis zilnic, inclusiv weekend. Rating 4,6 din 8 recenzii Google. Sună acum.",
+    "eyebrow": "Electrician auto & mecanic · deschis zilnic",
+    "h1": "Electrician auto și mecanic,<br>deschis <em>zilnic, chiar și weekend</em>.",
+    "lead": "Diagnoză cu tester, reparații electrice și mecanică generală, într-un service deschis zilnic — inclusiv sâmbătă și duminică. Chiar pe Strada Răcari, Sector 3.",
+    "chips": [
+      "Rating 4,6 din 8 recenzii Google",
+      "Deschis zilnic, inclusiv weekend",
+      "Strada Răcari 9, Sector 3"
+    ],
+    "serv_title": "Ce facem pentru mașina ta",
+    "serv_sub": "De la o eroare pe bord până la o reparație mecanică — verificăm cu testerul înainte să punem mâna pe șurubelniță.",
+    "services": [
+      {
+        "title": "Diagnoză cu tester",
+        "desc": "Conectăm testerul la calculatorul mașinii și localizăm exact eroarea, fie ea electrică sau mecanică.",
+        "tag": "Cel mai cerut",
+        "icon": "tools"
+      },
+      {
+        "title": "Reparații electrice auto",
+        "desc": "Depanăm instalația electrică, senzorii și luminile care dau erori sau nu mai funcționează.",
+        "tag": "Electrician auto",
+        "icon": "bolt"
+      },
+      {
+        "title": "Mecanică generală",
+        "desc": "Suspensie, frâne, distribuție și alte reparații mecanice, pentru orice marcă de mașină.",
+        "tag": "Orice marcă",
+        "icon": "car"
+      },
+      {
+        "title": "Verificări auto complete",
+        "desc": "Facem un control general al mașinii — electric și mecanic — înainte de o cursă lungă sau o cumpărare.",
+        "tag": "Verificare completă",
+        "icon": "check"
+      }
+    ],
+    "why_title": "De ce aleg șoferii acest service",
+    "why": [
+      {"title": "Rating 4,6 din 8 recenzii", "desc": "Clienți mulțumiți de faptul că sunt deschiși inclusiv weekend, când altă opțiune nu au.", "icon": "star", "filled": true},
+      {"title": "Deschis 7 zile din 7", "desc": "Poți aduce mașina și sâmbătă sau duminică, nu doar în timpul săptămânii de lucru.", "icon": "clock"},
+      {"title": "Electrică și mecanică sub același acoperiș", "desc": "Nu mai umbli pe la două service-uri diferite — verificăm și reparăm tot aici.", "icon": "gem"}
+    ],
+    "rating": 4.6,
+    "reviews_count": 8,
+    "areas_title": "Lucrăm pentru tot estul Bucureștiului",
+    "areas_sub": "Suni sau scrii pe WhatsApp oricând din săptămână — inclusiv weekend — și programăm rapid mașina.",
+    "areas": ["Sector 3", "Sector 2", "Dristor", "Titan", "Sector 4", "Ilfov"],
+    "reviews": [
+      "Singurul service deschis duminică pe care l-am găsit, m-au salvat cu o baterie descărcată.",
+      "Au verificat cu testerul și au găsit exact eroarea, fără reparații inutile.",
+      "Program flexibil, foarte utilă opțiunea de sâmbătă și duminică."
+    ],
+    "contact_sub": "Sună sau scrie pe WhatsApp în orice zi din săptămână — suntem deschiși zilnic și te putem programa rapid.",
+    "hours": [
+      ["Luni – Duminică", "09:00 – 17:00", "hl"]
+    ]
+  },
+  {
+    "slug": "diagnoza_auto_bucuresti",
+    "palette": "leather",
+    "niche_key": "auto",
+    "name": "Diagnoză Auto București",
+    "brand_short": "Diagnoză Auto București",
+    "brand_sub": "Diagnoză computerizată · Sector 5",
+    "phone_wa": "40730626656",
+    "phone_display": "0730 626 656",
+    "address": "Strada Înclinată 105, Sector 5, București",
+    "addr_line1": "Strada Înclinată 105",
+    "addr_city": "Sector 5, București",
+    "seo_title": "Diagnoză Auto București — Tester, Resetări, Electrică & Mecanică | Sector 5",
+    "seo_desc": "Diagnoză computerizată auto la programare, pe Strada Înclinată, Sector 5 București: tester, resetări, electrică și mecanică. Sună acum pentru programare.",
+    "eyebrow": "Diagnoză computerizată · la programare",
+    "h1": "Afli exact ce are mașina,<br><em>înainte să plătești reparația</em>.",
+    "lead": "Diagnoză computerizată completă cu tester profesional, resetări și depanare electrică sau mecanică — programată în avans, ca să nu pierzi timp așteptând la coadă.",
+    "chips": [
+      "Diagnoză computerizată cu tester profesional",
+      "Programare în avans, fără așteptare",
+      "Strada Înclinată 105, Sector 5"
+    ],
+    "serv_title": "Ce facem la diagnoză",
+    "serv_sub": "Conectăm testerul, citim exact ce spune calculatorul mașinii și îți explicăm ce înseamnă înainte să decizi orice reparație.",
+    "services": [
+      {
+        "title": "Diagnoză computerizată completă",
+        "desc": "Verificăm toate modulele mașinii cu tester profesional și îți dăm un raport clar al erorilor găsite.",
+        "tag": "Cel mai cerut",
+        "icon": "tools"
+      },
+      {
+        "title": "Resetări (service light, DPF, altele)",
+        "desc": "Resetăm indicatorul de service, martorul de DPF și alte avertismente, după ce problema reală e rezolvată.",
+        "tag": "Resetări",
+        "icon": "wrench"
+      },
+      {
+        "title": "Depanare electrică auto",
+        "desc": "Localizăm și reparăm defecțiuni electrice găsite la diagnoză — cabluri, senzori, module de comandă.",
+        "tag": "Electrică auto",
+        "icon": "bolt"
+      },
+      {
+        "title": "Verificare înainte de cumpărare",
+        "desc": "Vrei să cumperi o mașină la mâna a doua? O verificăm complet cu testerul înainte să semnezi actele.",
+        "tag": "Sfat de încredere",
+        "icon": "check"
+      },
+      {
+        "title": "Mecanică generală după diagnoză",
+        "desc": "Odată identificată cauza reală, facem și reparațiile mecanice necesare — nu doar diagnoza.",
+        "tag": "Mecanică",
+        "icon": "car"
+      }
+    ],
+    "why_title": "De ce aleg șoferii acest serviciu de diagnoză",
+    "why": [
+      {"title": "Diagnoză înainte de orice reparație", "desc": "Nu schimbăm piese la întâmplare — găsim întâi cauza reală, cu tester profesional.", "icon": "tools", "filled": true},
+      {"title": "Lucrăm strict la programare", "desc": "Vii direct la ora stabilită, fără să aștepți la coadă ca la un service aglomerat.", "icon": "clock"},
+      {"title": "Rezultate clare, explicate pe înțeles", "desc": "Primești un raport clar al erorilor găsite, nu doar un cod pe care nu-l înțelegi.", "icon": "check"}
+    ],
+    "rating": 4.0,
+    "reviews_count": 5,
+    "areas_title": "Lucrăm pentru tot sudul Bucureștiului",
+    "areas_sub": "Suni sau scrii pe WhatsApp pentru o programare — stabilim rapid ziua și ora potrivite pentru tine.",
+    "areas": ["Sector 5", "Sector 4", "Rahova", "Ferentari", "Sector 6", "Ilfov"],
+    "reviews": [
+      "Diagnoza a fost exactă, mi-au explicat clar ce cod de eroare am avut și ce înseamnă.",
+      "Programare rapidă la telefon, nu am pierdut timp așteptând la coadă.",
+      "Au verificat mașina înainte s-o cumpăr și mi-au spus onest ce probleme are."
+    ],
+    "contact_sub": "Sună sau scrie pe WhatsApp pentru o programare de diagnoză — lucrăm strict pe bază de programare, ca să nu aștepți.",
+    "hours": [
+      ["Luni – Duminică", "La programare telefonică", "hl"]
+    ]
+  }
+]
