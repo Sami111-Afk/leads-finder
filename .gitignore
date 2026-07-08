@@ -2,3 +2,12 @@ __pycache__/
 *.pyc
 .DS_Store
 *.log
+
+# --- unelte private (scraper + generatoare) — NU pe git ---
+_tools/
+leads_found.json
+pending_leads.json
+pending_leads.json.published
+.playwright-mcp/
+flor-*.jpeg
+v2-*.jpeg
