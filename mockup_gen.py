@@ -545,7 +545,7 @@ def build_mockup(d):
     m = dict(pal)
     m.update(dict(
       seo_title=d["seo_title"], seo_desc=d["seo_desc"], og_title=d.get("og_title",d["seo_title"]),
-      og_image=img_url(pool[0],1200), theme_color=pal["bg"], fonts=pal["fonts"], schema_json=schema,
+      og_image=hero_img, theme_color=pal["bg"], fonts=pal["fonts"], schema_json=schema,
       hero_img=hero_img, hero_alt=d.get("hero_alt", d["name"]), feature_img=feat_img,
       feature_alt=d.get("feature_alt", d["name"]),
       brand_short=d.get("brand_short", d["name"]), brand_sub=d.get("brand_sub","București"),

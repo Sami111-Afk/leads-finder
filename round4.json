@@ -1,0 +1,475 @@
+[
+  {
+    "slug": "electrica_auto_service_mobil_tester",
+    "palette": "cyber",
+    "niche_key": "auto",
+    "schema_type": "AutoRepair",
+    "name": "Service Mobil Tester — Electrician Auto",
+    "brand_short": "Tester Mobil Auto",
+    "brand_sub": "Electrician & Diagnoză · București & Ilfov",
+    "phone_wa": "40724780607",
+    "phone_display": "0724 780 607",
+    "address": "Serviciu mobil — București & Ilfov (Sector 3)",
+    "addr_line1": "Serviciu mobil la domiciliu",
+    "addr_city": "București & Ilfov",
+    "seo_title": "Electrician Auto Mobil cu Tester — vine acasă în București & Ilfov | Diagnoză computerizată",
+    "seo_desc": "Electrician auto și mecanic cu diagnoză computerizată (tester), serviciu mobil la domiciliu în București și Ilfov. Program lung, 265 recenzii Google 4.4★. Sună acum.",
+    "eyebrow": "Serviciu mobil · Vine la tine, non-stop aproape 15h/zi",
+    "h1": "Electrician auto cu tester,<br><em>direct la ușa ta</em>",
+    "lead": "Bec de avarie aprins, mașina nu pornește sau electrică ciudată? Venim cu aparatura de diagnoză computerizată chiar la adresa ta — acasă, la birou sau oriunde ai rămas blocat — în tot Bucureștiul și Ilfov.",
+    "chips": [
+      "Diagnoză computerizată (tester) la fața locului",
+      "Vine la tine, nu mai remorci mașina",
+      "265 recenzii Google · 4.4★"
+    ],
+    "serv_title": "Ce reparăm, direct la adresa ta",
+    "serv_sub": "Electrician auto, mecanic și diagnoză computerizată, cu deplasare rapidă în București și Ilfov.",
+    "services": [
+      {
+        "title": "Diagnoză computerizată (tester)",
+        "desc": "Identificăm exact cauza defecțiunii cu aparatură profesională de diagnoză, înainte să cheltui pe reparații inutile.",
+        "tag": "Cel mai cerut",
+        "icon": "bolt"
+      },
+      {
+        "title": "Reparații electrice auto",
+        "desc": "Instalație electrică, alternator, redresor, senzori și lumini de bord — reparate la fața locului.",
+        "tag": "Electrician auto",
+        "icon": "shield"
+      },
+      {
+        "title": "Pornire & baterie descărcată",
+        "desc": "Pornim mașina rapid și verificăm bateria sau alternatorul, oriunde te-ai oprit.",
+        "tag": "Intervenție rapidă",
+        "icon": "car"
+      },
+      {
+        "title": "Mecanică generală la domiciliu",
+        "desc": "Reparații mecanice curente fără să mai duci mașina la service — vin eu cu scula la tine.",
+        "tag": "Fără remorcare",
+        "icon": "wrench"
+      },
+      {
+        "title": "Verificare lumini bord & senzori",
+        "desc": "Citim codurile de eroare și explicăm clar ce înseamnă fiecare avertizare de pe bord.",
+        "tag": "Transparent",
+        "icon": "wheel"
+      }
+    ],
+    "why_title": "De ce sună clienții la Tester Mobil Auto",
+    "why": [
+      {
+        "title": "4,4★ din 265 recenzii Google",
+        "desc": "Unul dintre cele mai căutate servicii mobile de electrician auto din București.",
+        "icon": "star",
+        "filled": true
+      },
+      {
+        "title": "Vii tu la mine? Nu — vin eu la tine",
+        "desc": "Nu mai remorci mașina la service. Aduc aparatura de diagnoză și scule direct la adresa ta.",
+        "icon": "car"
+      },
+      {
+        "title": "Program lung, 7 zile din 7",
+        "desc": "Disponibil zilnic aproximativ 06:30–21:30, inclusiv weekend, pentru urgențe și programări.",
+        "icon": "clock"
+      }
+    ],
+    "rating": "4.4",
+    "reviews_count": "265",
+    "areas": ["Sector 1", "Sector 2", "Sector 3", "Sector 4", "Sector 5", "Sector 6", "Ilfov"],
+    "areas_title": "Deplasare în tot Bucureștiul și Ilfov",
+    "areas_sub": "Serviciu 100% mobil — vin cu aparatura de diagnoză și sculele la adresa ta, oriunde te afli.",
+    "reviews": [
+      "A venit în mai puțin de o oră și a găsit exact problema de la instalația electrică. Nu am mai remorcat mașina la niciun service.",
+      "Diagnoza cu tester mi-a arătat clar ce senzor era de vină, fără ghiceli și fără reparații inutile.",
+      "Program foarte lung, am putut suna și seara târziu și tot a venit să pornească mașina."
+    ],
+    "contact_sub": "Sună acum și spune-mi ce probleme are mașina — vin cu tester-ul și sculele direct la tine, oriunde ești în București sau Ilfov.",
+    "hours": [
+      ["Luni – Duminică", "06:30 – 21:30", "hl"]
+    ]
+  },
+  {
+    "slug": "service_auto_palade",
+    "palette": "graphite",
+    "niche_key": "auto",
+    "schema_type": "AutoRepair",
+    "name": "Service Auto București",
+    "brand_short": "Auto Palade",
+    "brand_sub": "Service & Diagnoză · Sector 2, București",
+    "phone_wa": "40722205510",
+    "phone_display": "0722 205 510",
+    "address": "Strada Gheorghe D. Palade 20, Sector 2, București",
+    "addr_line1": "Strada Gheorghe D. Palade 20",
+    "addr_city": "Sector 2, București",
+    "seo_title": "Service Auto Sector 2 București — mecanică, revizii, diagnoză | Strada Gheorghe D. Palade 20",
+    "seo_desc": "Service auto în Sector 2, București — mecanică generală, reparații, revizii și diagnoză computerizată. 4.3★ din 131 recenzii Google. Programează-te acum.",
+    "eyebrow": "Service auto · Sector 2, București",
+    "h1": "Service auto de încredere,<br><em>aproape de tine</em>",
+    "lead": "Mecanică generală, reparații și revizii complete, cu diagnoză computerizată înainte de orice lucrare. Peste 130 de clienți ne-au dat deja 4.3★ pe Google.",
+    "chips": [
+      "Diagnoză computerizată inclusă",
+      "Mecanici cu experiență",
+      "131 recenzii Google · 4.3★"
+    ],
+    "serv_title": "Servicii service auto",
+    "serv_sub": "De la revizia periodică la reparații complexe, totul într-un singur loc.",
+    "services": [
+      {
+        "title": "Revizii & întreținere periodică",
+        "desc": "Verificăm și înlocuim la timp piesele de uzură, conform planului de revizie al mașinii tale.",
+        "tag": "Recomandat",
+        "icon": "wrench"
+      },
+      {
+        "title": "Diagnoză computerizată completă",
+        "desc": "Citim codurile de eroare din calculatorul mașinii și localizăm exact defecțiunea.",
+        "tag": "Cel mai cerut",
+        "icon": "bolt"
+      },
+      {
+        "title": "Reparații mecanice",
+        "desc": "Motor, cutie de viteze, ambreiaj și transmisie — reparate de mecanici cu experiență.",
+        "tag": "Mecanică generală",
+        "icon": "car"
+      },
+      {
+        "title": "Sistem de frânare & suspensie",
+        "desc": "Verificăm și înlocuim plăcuțe, discuri, amortizoare și bucșe pentru siguranță pe drum.",
+        "tag": "Siguranță",
+        "icon": "wheel"
+      },
+      {
+        "title": "Schimb ulei, filtre & consumabile",
+        "desc": "Schimb rapid de ulei motor, filtre de ulei, aer și combustibil, cu produse de calitate.",
+        "tag": "Rapid",
+        "icon": "shield"
+      }
+    ],
+    "why_title": "De ce aleg clienții Auto Palade",
+    "why": [
+      {
+        "title": "4,3★ din 131 recenzii Google",
+        "desc": "Reputație construită în timp, cu clienți care revin pentru fiecare revizie.",
+        "icon": "star",
+        "filled": true
+      },
+      {
+        "title": "Diagnoză înainte de orice reparație",
+        "desc": "Nu schimbăm piese la întâmplare — verificăm întâi cu aparatura de diagnoză.",
+        "icon": "bolt"
+      },
+      {
+        "title": "Program clar, în fiecare săptămână",
+        "desc": "Luni–Vineri și sâmbătă dimineața, ca să-ți poți planifica ușor vizita.",
+        "icon": "clock"
+      }
+    ],
+    "rating": "4.3",
+    "reviews_count": "131",
+    "areas": ["Sector 2", "Sector 1", "Sector 3", "Ilfov"],
+    "areas_title": "Deservim Sector 2 și zonele apropiate",
+    "areas_sub": "Service fix pe Strada Gheorghe D. Palade 20, ușor accesibil din Sector 1, Sector 3 și Ilfov.",
+    "reviews": [
+      "Mi-au explicat clar ce e de reparat și de ce, fără presiune să cheltui în plus. Am rămas client fidel.",
+      "Diagnoza a fost precisă, au găsit din prima problema de la frâne, nu ca la alte service-uri.",
+      "Preț corect pentru o revizie completă, mașina a fost gata în ziua respectivă."
+    ],
+    "contact_sub": "Sună sau scrie pe WhatsApp pentru o programare — venim rapid cu un diagnostic clar și un preț corect.",
+    "hours": [
+      ["Luni – Vineri", "08:00 – 18:00", "hl"],
+      ["Sâmbătă", "08:00 – 12:00", ""],
+      ["Duminică", "Închis", "closed"]
+    ]
+  },
+  {
+    "slug": "gsm_kraft_service",
+    "palette": "fresh",
+    "niche_key": "generic",
+    "schema_type": "ElectronicsStore",
+    "name": "Kraft Service GSM",
+    "brand_short": "Kraft Service",
+    "brand_sub": "Reparații Telefoane & Tablete · Sector 1",
+    "phone_wa": "40799650699",
+    "phone_display": "0799 650 699",
+    "address": "Strada Stanislav Cihoschi 10, Sector 1, București",
+    "addr_line1": "Strada Stanislav Cihoschi 10",
+    "addr_city": "Sector 1, București",
+    "hero_img": "https://images.unsplash.com/photo-1550041473-d296a3a8a18a?auto=format&fit=crop&w=1600&q=80",
+    "feature_img": "https://images.unsplash.com/photo-1617299516258-eb06985065ff?auto=format&fit=crop&w=1000&q=80",
+    "seo_title": "Kraft Service GSM Sector 1 — reparații telefoane, display, baterie | Strada Stanislav Cihoschi 10",
+    "seo_desc": "Reparații telefoane și tablete în Sector 1, București — schimb display, baterie, mufă de încărcare, deblocări. Rapid și la preț corect. Sună acum.",
+    "eyebrow": "Reparații GSM · Sector 1, București",
+    "h1": "Telefonul stricat?<br><em>Rezolvăm rapid, la preț corect</em>",
+    "lead": "Display spart, baterie care nu mai ține sau telefon blocat? Reparăm telefoane și tablete la Kraft Service, cu diagnoză gratuită și piese verificate.",
+    "chips": [
+      "Diagnoză gratuită la orice defecțiune",
+      "Reparații rapide, în aceeași zi",
+      "109 recenzii Google"
+    ],
+    "serv_title": "Reparații telefoane & tablete",
+    "serv_sub": "Pentru orice model, cu piese verificate și explicații clare înainte de reparație.",
+    "services": [
+      {
+        "title": "Schimb display / touchscreen",
+        "desc": "Înlocuim ecranul spart sau care nu mai răspunde la atingere, pentru majoritatea modelelor.",
+        "tag": "Cel mai cerut",
+        "icon": "patch",
+        "img": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "title": "Înlocuire baterie",
+        "desc": "Bateria se descarcă prea repede sau telefonul se închide singur? Montăm baterie nouă, testată.",
+        "tag": "Rapid",
+        "icon": "bolt",
+        "img": "https://images.unsplash.com/photo-1617299516258-eb06985065ff?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "title": "Reparație mufă de încărcare",
+        "desc": "Telefonul nu se mai încarcă sau încarcă greu? Curățăm sau înlocuim conectorul de încărcare.",
+        "tag": "Aceeași zi",
+        "icon": "tools",
+        "img": "https://images.unsplash.com/photo-1550041473-d296a3a8a18a?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "title": "Deblocare & reinstalare software",
+        "desc": "Deblocăm telefoane și rezolvăm probleme de software, resetări sau blocaje de cont.",
+        "tag": "Software",
+        "icon": "shield",
+        "img": "https://images.unsplash.com/photo-1616410011236-7a42121dd981?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "title": "Diagnoză gratuită",
+        "desc": "Verificăm gratuit orice defecțiune și îți spunem clar ce se poate repara și cât costă, înainte să te decizi.",
+        "tag": "Gratuit",
+        "icon": "sparkle",
+        "img": "https://images.unsplash.com/photo-1573148195900-7845dcb9b127?auto=format&fit=crop&w=800&q=80"
+      }
+    ],
+    "why_title": "De ce vin clienții la Kraft Service",
+    "why": [
+      {
+        "title": "Diagnoză gratuită, fără angajament",
+        "desc": "Îți spunem clar ce e de reparat și cât costă, înainte să te decizi.",
+        "icon": "check"
+      },
+      {
+        "title": "Reparații rapide, în aceeași zi",
+        "desc": "Majoritatea reparațiilor curente se rezolvă cât aștepți sau în câteva ore.",
+        "icon": "clock"
+      },
+      {
+        "title": "Preț corect, fără costuri ascunse",
+        "desc": "Prețul stabilit la diagnoză rămâne prețul final, fără surprize la ridicare.",
+        "icon": "shield"
+      }
+    ],
+    "rating": "3.0",
+    "reviews_count": "109",
+    "areas": ["Sector 1", "Sector 2", "Sector 6", "București"],
+    "areas_title": "Ne găsești în Sector 1, București",
+    "areas_sub": "Atelier fix pe Strada Stanislav Cihoschi 10, ușor accesibil din toată zona de nord a Bucureștiului.",
+    "reviews": [
+      "Mi-au schimbat display-ul în aceeași zi, la un preț mult mai bun decât la alte service-uri din zonă.",
+      "Diagnoza a fost gratuită și mi-au explicat clar problema de la mufa de încărcare, fără să mă grăbească.",
+      "Reparație rapidă la baterie, telefonul ține acum mult mai mult decât înainte."
+    ],
+    "contact_sub": "Vino cu telefonul sau sună pentru diagnoză gratuită — îți spunem pe loc ce se poate repara și cât costă.",
+    "hours": [
+      ["Luni – Vineri", "10:00 – 19:00", "hl"],
+      ["Sâmbătă – Duminică", "Închis", "closed"]
+    ]
+  },
+  {
+    "slug": "cizmarie_expert_centru",
+    "palette": "leather",
+    "niche_key": "leather",
+    "schema_type": "Store",
+    "name": "Cizmărie Expert Centru",
+    "brand_short": "Cizmărie Expert",
+    "brand_sub": "Atelier Reparații Încălțăminte & Piele · Sector 3",
+    "phone_wa": "40727667039",
+    "phone_display": "0727 667 039",
+    "address": "Bulevardul Corneliu Coposu 4, Sector 3, București",
+    "addr_line1": "Bulevardul Corneliu Coposu 4",
+    "addr_city": "Sector 3, București",
+    "hero_img": "https://images.unsplash.com/photo-1449505278894-297fdb3edbc1?auto=format&fit=crop&w=1600&q=80",
+    "feature_img": "https://images.unsplash.com/photo-1477517787936-70ba786643fd?auto=format&fit=crop&w=1000&q=80",
+    "seo_title": "Cizmărie Expert Centru — reparații încălțăminte & piele Sector 3 | Bulevardul Corneliu Coposu 4",
+    "seo_desc": "Cizmărie și atelier de piele în Sector 3, București — talpă, tocuri, cusături, vopsit, întins pantofi, genți și curele. 4.8★ din 154 recenzii Google.",
+    "eyebrow": "Atelier de cizmărie · Sector 3, București",
+    "h1": "Meșteșug adevărat pentru<br><em>pantofii și pielea ta</em>",
+    "lead": "Talpă, tocuri, cusături, vopsit sau întins — readucem la viață pantofii, gențile și curelele din piele, cu lucru manual de atelier. 4.8★ din 154 recenzii Google.",
+    "chips": [
+      "4,8★ din 154 recenzii Google",
+      "Lucru manual, de atelier",
+      "Piele, talpă & accesorii de calitate"
+    ],
+    "serv_title": "Servicii cizmărie & atelier de piele",
+    "serv_sub": "De la o talpă nouă la restaurarea completă a unei genți din piele.",
+    "services": [
+      {
+        "title": "Schimbare talpă & tocuri",
+        "desc": "Montăm tălpi și tocuri noi, potrivite pentru fiecare model de pantof sau gheată.",
+        "tag": "Cel mai cerut",
+        "icon": "hammer",
+        "img": "https://images.unsplash.com/photo-1477517787936-70ba786643fd?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "title": "Cusături & refacere formă",
+        "desc": "Recoasem cusăturile desfăcute și refacem forma originală a încălțămintei.",
+        "tag": "Atelier manual",
+        "icon": "tools",
+        "img": "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "title": "Vopsit & lustruit piele",
+        "desc": "Recolorăm și lustruim pielea, ca pantofii sau geanta ta să arate ca noi.",
+        "tag": "Finisaj premium",
+        "icon": "sparkle",
+        "img": "https://images.unsplash.com/photo-1449505278894-297fdb3edbc1?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "title": "Întins & lărgit încălțăminte",
+        "desc": "Lărgim sau întindem pantofii care strâng, pentru un confort mai bun la purtare.",
+        "tag": "Confort",
+        "icon": "ruler",
+        "img": "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "title": "Genți & curele din piele",
+        "desc": "Reparăm fermoare, cusături și mânere la genți, precum și curele din piele naturală.",
+        "tag": "Accesorii piele",
+        "icon": "gem",
+        "img": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=800&q=80"
+      }
+    ],
+    "why_title": "De ce aleg clienții Cizmărie Expert",
+    "why": [
+      {
+        "title": "4,8★ din 154 recenzii Google",
+        "desc": "Unul dintre cele mai bine cotate ateliere de cizmărie din Sector 3.",
+        "icon": "star",
+        "filled": true
+      },
+      {
+        "title": "Meșteșug tradițional, lucru manual",
+        "desc": "Fiecare pereche de pantofi sau accesoriu din piele e reparat cu grijă, la atelier.",
+        "icon": "hammer"
+      },
+      {
+        "title": "Materiale & piele de calitate",
+        "desc": "Folosim tălpi, piele și accesorii verificate, pentru un rezultat durabil.",
+        "icon": "gem"
+      }
+    ],
+    "rating": "4.8",
+    "reviews_count": "154",
+    "areas": ["Sector 3", "Sector 2", "Sector 4", "București"],
+    "areas_title": "Ne găsești în Sector 3, București",
+    "areas_sub": "Atelier fix pe Bulevardul Corneliu Coposu 4, ușor accesibil din centrul Bucureștiului.",
+    "reviews": [
+      "Mi-au refăcut niște pantofi din piele pe care nu mai speram să-i port — arată ca noi.",
+      "Lucru de mare fineţe la cusături, se vede că e atelier adevărat, nu reparație de mântuială.",
+      "Mi-au întins niște ghete care mă strângeau și acum sunt cele mai comode ghete ale mele."
+    ],
+    "contact_sub": "Treci pe la atelier sau sună pentru o estimare rapidă — îți spunem clar ce se poate reface și cât durează.",
+    "hours": [
+      ["Luni – Vineri", "09:00 – 18:00", "hl"],
+      ["Sâmbătă", "09:00 – 14:00", ""],
+      ["Duminică", "Închis", "closed"]
+    ]
+  },
+  {
+    "slug": "electrica_auto_domiciliu_racari",
+    "palette": "clean",
+    "niche_key": "auto",
+    "schema_type": "AutoRepair",
+    "name": "Service Auto la Domiciliu — Electrician & Mecanic",
+    "brand_short": "Auto la Domiciliu",
+    "brand_sub": "Electrician, Mecanic & Moto · Sector 3",
+    "phone_wa": "40791524290",
+    "phone_display": "0791 524 290",
+    "address": "Strada Răcari 27, Sector 3, București (+ deplasare la domiciliu)",
+    "addr_line1": "Strada Răcari 27",
+    "addr_city": "Sector 3, București",
+    "seo_title": "Service Auto la Domiciliu Sector 3 — electrician, mecanic, diagnoză tester | Strada Răcari 27",
+    "seo_desc": "Electrician auto, mecanic și diagnoză tester la domiciliu, în Sector 3 și tot Bucureștiul. Deservim și moto. 4.3★ din 57 recenzii Google. Sună acum.",
+    "eyebrow": "Electrician & mecanic la domiciliu · Sector 3, București",
+    "h1": "Electrician & mecanic auto,<br><em>vin la domiciliul tău</em>",
+    "lead": "Nu-ți pierde timpul la service — venim noi, cu tester și scule complete, pentru electrică, mecanică sau diagnoză, la mașina sau motocicleta ta.",
+    "chips": [
+      "Electrician, mecanic & diagnoză tester",
+      "Deservim și motociclete",
+      "57 recenzii Google · 4.3★"
+    ],
+    "serv_title": "Ce reparăm la domiciliul tău",
+    "serv_sub": "Electrician auto, mecanică generală și diagnoză, pentru mașini și motociclete.",
+    "services": [
+      {
+        "title": "Electrician auto la domiciliu",
+        "desc": "Instalație electrică, baterie, alternator și lumini de bord — reparate acasă la tine.",
+        "tag": "Cel mai cerut",
+        "icon": "shield"
+      },
+      {
+        "title": "Diagnoză computerizată (tester)",
+        "desc": "Verificăm rapid codurile de eroare și localizăm exact defecțiunea, la fața locului.",
+        "tag": "Diagnoză rapidă",
+        "icon": "bolt"
+      },
+      {
+        "title": "Mecanică generală",
+        "desc": "Reparații mecanice curente, fără să mai duci mașina la un service fix.",
+        "tag": "Fără remorcare",
+        "icon": "wrench"
+      },
+      {
+        "title": "Pornire & probleme de baterie",
+        "desc": "Pornim mașina rămasă în pană și verificăm starea bateriei sau a alternatorului.",
+        "tag": "Intervenție rapidă",
+        "icon": "car"
+      },
+      {
+        "title": "Service moto la domiciliu",
+        "desc": "Reparații și verificări electrice sau mecanice și pentru motociclete, la adresa ta.",
+        "tag": "Și pentru moto",
+        "icon": "wheel"
+      }
+    ],
+    "why_title": "De ce sună clienții din Sector 3",
+    "why": [
+      {
+        "title": "4,3★ din 57 recenzii Google",
+        "desc": "Clienți mulțumiți de rapiditate și de faptul că nu mai trebuie să remorce mașina.",
+        "icon": "star",
+        "filled": true
+      },
+      {
+        "title": "Vin eu la tine, cu tot ce trebuie",
+        "desc": "Aparatură de diagnoză și scule complete, direct la adresa ta din București.",
+        "icon": "tools"
+      },
+      {
+        "title": "Program lung, în fiecare zi",
+        "desc": "Disponibil zilnic aproximativ 07:00–22:00, pentru urgențe și programări.",
+        "icon": "clock"
+      }
+    ],
+    "rating": "4.3",
+    "reviews_count": "57",
+    "areas": ["Sector 3", "Sector 1", "Sector 2", "Sector 4", "Ilfov"],
+    "areas_title": "Deplasare rapidă în tot Bucureștiul",
+    "areas_sub": "Pornim din Sector 3 și ajungem rapid oriunde ai nevoie, în toate sectoarele și în Ilfov.",
+    "reviews": [
+      "A venit acasă în mai puțin de o oră și mi-a rezolvat problema de la instalația electrică, fără să mai duc mașina nicăieri.",
+      "Diagnoza cu tester-ul a fost precisă, mi-a explicat clar ce senzor trebuia schimbat.",
+      "A reparat și motocicleta, nu doar mașina — greu de găsit cineva care se pricepe la ambele."
+    ],
+    "contact_sub": "Sună sau scrie pe WhatsApp și spune-mi unde ești — vin cu tester-ul și sculele direct la tine.",
+    "hours": [
+      ["Luni – Duminică", "07:00 – 22:00", "hl"]
+    ]
+  }
+]
