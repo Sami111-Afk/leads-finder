@@ -1,0 +1,641 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MAR-COM AUTO TOTAL — Vopsitorie & Tinichigerie Auto, Daune RCA București</title>
+<meta name="description" content="Vopsitorie auto, tinichigerie și reparații daune RCA/CASCO la MAR-COM AUTO TOTAL, Șoseaua Chitilei 86, Sector 1, București. Deviz gratuit, ne ocupăm noi de dosar. Sunați 0762 294 966.">
+<meta name="theme-color" content="#14161a">
+<meta property="og:title" content="MAR-COM AUTO TOTAL — Vopsitorie & Tinichigerie Auto, Daune RCA București">
+<meta property="og:description" content="Vopsitorie auto, tinichigerie și reparații daune RCA/CASCO. Deviz gratuit, colaborăm cu asigurătorii. Șoseaua Chitilei 86, Sector 1, București.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://images.unsplash.com/photo-1632823471565-1ecdf7ff2f01?auto=format&fit=crop&w=1200&q=80">
+<link rel="preload" as="image" href="https://images.unsplash.com/photo-1632823471565-1ecdf7ff2f01?auto=format&fit=crop&w=1200&q=80" fetchpriority="high">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"AutoBodyShop","name":"MAR-COM AUTO TOTAL","image":"https://images.unsplash.com/photo-1632823471565-1ecdf7ff2f01?auto=format&fit=crop&w=1200&q=80","telephone":"+40762294966","address":{"@type":"PostalAddress","streetAddress":"Șoseaua Chitilei 86","addressLocality":"Sector 1, Bucureștii Noi","addressRegion":"București","addressCountry":"RO"},"areaServed":["Sector 1","București","Bucureștii Noi","Ilfov"],"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"17:00"}],"makesOffer":[{"@type":"Offer","name":"Vopsitorie auto"},{"@type":"Offer","name":"Tinichigerie & îndreptare caroserie"},{"@type":"Offer","name":"Reparații daune RCA & CASCO"},{"@type":"Offer","name":"Polish & pregătire vopsea"},{"@type":"Offer","name":"Înlocuire elemente caroserie"},{"@type":"Offer","name":"Deviz gratuit"}],"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.8","reviewCount":"36"}}
+</script>
+<style>
+/* ============================================================
+   MAR-COM AUTO TOTAL — mockup self-contained
+   Paletă: grafit/argintiu metalic + accent roșu/galben siguranță.
+   ============================================================ */
+:root{
+  --bg:#14161a; --bg2:#1a1d22; --surface:#20242b; --surface2:#272c34;
+  --line:#343a42; --text:#f3f4f5; --muted:#9aa3ac; --silver:#c7ccd1;
+  --accent:#e2222d;        /* roșu siguranță / stop */
+  --accent2:#ffc409;       /* galben siguranță / hazard */
+  --accent-ink:#1a0304;
+  --wa:#25d366; --wa-ink:#053a1c;
+  --font-display:'Oswald','Arial Narrow Bold',Impact,sans-serif;
+  --font-body:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+  --maxw:1180px; --pad:clamp(20px,5vw,40px);
+  --r:16px; --r-sm:10px; --r-lg:26px;
+  --shadow:0 18px 50px rgba(0,0,0,.5);
+  --ease:cubic-bezier(.2,.7,.2,1);
+  --hero-grad:linear-gradient(180deg,rgba(10,11,13,.30) 0%,rgba(10,11,13,.55) 45%,rgba(10,11,13,.94) 100%);
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{
+  font-family:var(--font-body);color:var(--text);line-height:1.6;
+  font-size:clamp(1rem,.97rem + .2vw,1.075rem);
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden;
+  background-color:var(--bg);
+  background-image:
+    radial-gradient(900px 520px at 10% -6%, rgba(226,34,45,.09), transparent 60%),
+    radial-gradient(760px 480px at 94% 2%, rgba(255,196,9,.08), transparent 58%);
+  background-attachment:fixed;
+}
+img,svg{display:block;max-width:100%}
+img{height:auto}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+h1,h2,h3{line-height:1.06;font-weight:600;font-family:var(--font-display);text-transform:uppercase}
+button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
+:focus-visible{outline:3px solid var(--accent2);outline-offset:3px;border-radius:4px}
+::selection{background:var(--accent);color:#fff}
+
+.wrap{width:100%;max-width:var(--maxw);margin-inline:auto;padding-inline:var(--pad)}
+.section{padding:clamp(60px,9vw,110px) 0}
+.section-alt{background:var(--bg2)}
+.kicker{font-weight:800;text-transform:uppercase;letter-spacing:.2em;font-size:.74rem;color:var(--accent2);
+  margin-bottom:1rem;display:flex;align-items:center;gap:.6rem}
+.kicker::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--accent);box-shadow:0 0 10px var(--accent)}
+.sec-head{max-width:60ch;margin-bottom:clamp(34px,5vw,58px)}
+.sec-head h2,.feature-text h2,.contact-text h2{font-size:clamp(1.9rem,1.2rem + 3.2vw,3.3rem);letter-spacing:.01em}
+.sub{color:var(--muted);font-size:1.05rem;margin-top:1rem;max-width:56ch}
+
+.skip{position:fixed;left:12px;top:-60px;z-index:200;background:var(--accent);color:#fff;
+  padding:10px 16px;border-radius:8px;font-weight:700;transition:top .2s}
+.skip:focus{top:12px}
+
+.btn{display:inline-flex;align-items:center;gap:.6rem;font-weight:700;font-size:1rem;
+  padding:.85em 1.3em;border-radius:var(--r-sm);transition:transform .2s var(--ease),box-shadow .2s,background .2s,border-color .2s;
+  border:1px solid transparent;white-space:nowrap}
+.btn svg{width:1.25em;height:1.25em;flex:none}
+.btn:active{transform:translateY(1px)}
+.btn-call{background:var(--accent);color:#fff;box-shadow:0 10px 26px -8px var(--accent)}
+.btn-call:hover{transform:translateY(-3px);box-shadow:0 16px 32px -10px var(--accent)}
+.btn-call svg{fill:currentColor;stroke:none}
+.btn-wa{background:var(--wa);color:var(--wa-ink)}
+.btn-wa svg{fill:currentColor;stroke:none}
+.btn-wa:hover{transform:translateY(-3px);box-shadow:0 12px 28px -10px var(--wa)}
+.btn-ghost{background:transparent;border-color:var(--line);color:var(--text)}
+.btn-ghost svg{fill:none;stroke:currentColor;stroke-width:2}
+.btn-ghost:hover{border-color:var(--accent2);color:var(--accent2)}
+
+/* HEADER */
+.site-head{position:sticky;top:0;z-index:100;background:rgba(20,22,26,.88);
+  backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.head-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;height:74px}
+.brand{display:flex;align-items:center;gap:.7rem}
+.brand-mark{display:grid;place-items:center;width:44px;height:44px;border-radius:10px;
+  background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 60%,#000));color:#fff;flex:none;
+  box-shadow:0 0 16px rgba(226,34,45,.4)}
+.brand-mark svg{width:26px;height:26px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
+.brand-txt{display:flex;flex-direction:column;line-height:1}
+.brand-txt b{font-family:var(--font-display);font-size:1.28rem;letter-spacing:.03em;text-transform:uppercase}
+.brand-txt i{font-style:normal;font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-top:4px}
+.nav{display:flex;gap:1.6rem}
+.nav a{font-weight:600;font-size:.94rem;color:var(--muted);position:relative;padding:4px 0;transition:color .2s}
+.nav a::after{content:"";position:absolute;left:0;right:100%;bottom:-2px;height:2px;background:var(--accent2);transition:right .25s var(--ease)}
+.nav a:hover{color:var(--text)}
+.nav a:hover::after{right:0}
+.head-cta{display:flex;align-items:center;gap:12px}
+.head-cta .btn-ghost{padding:.6em 1em}
+.burger{display:none;flex-direction:column;gap:5px;width:42px;height:42px;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:10px}
+.burger span{width:20px;height:2px;background:var(--text);transition:.25s}
+.hazard-bar{height:5px;background:repeating-linear-gradient(-45deg,var(--accent) 0 18px,var(--accent2) 18px 36px);opacity:.9}
+
+/* HERO */
+.hero{position:relative;min-height:clamp(540px,86vh,820px);display:flex;align-items:flex-end;
+  padding-block:clamp(40px,8vh,86px);overflow:hidden;isolation:isolate}
+.hero-media{position:absolute;inset:0;z-index:-2}
+.hero-media img{width:100%;height:100%;object-fit:cover;object-position:center 42%}
+.hero-overlay{position:absolute;inset:0;z-index:-1;background:var(--hero-grad)}
+.hero-inner{position:relative;max-width:760px}
+.eyebrow{display:inline-flex;align-items:center;gap:.6rem;font-weight:800;text-transform:uppercase;
+  letter-spacing:.15em;font-size:.76rem;color:var(--accent-ink);background:linear-gradient(90deg,var(--accent2),var(--accent));
+  padding:.5em 1em;border-radius:999px;margin-bottom:1.4rem}
+.ping{width:9px;height:9px;border-radius:50%;background:#fff;box-shadow:0 0 0 0 rgba(255,255,255,.7);animation:ping 1.8s infinite}
+@keyframes ping{0%{box-shadow:0 0 0 0 rgba(255,255,255,.6)}70%{box-shadow:0 0 0 12px rgba(255,255,255,0)}100%{box-shadow:0 0 0 0 rgba(255,255,255,0)}}
+.hero h1{color:#fff;font-size:clamp(2.4rem,1.3rem + 6vw,5.2rem);letter-spacing:.005em;text-shadow:0 6px 30px rgba(0,0,0,.55)}
+.hero h1 em{font-style:normal;color:var(--accent2)}
+.hero .lead{color:#e8eaec;font-size:clamp(1.02rem,1rem + .45vw,1.25rem);max-width:54ch;margin:1.3rem 0 2rem;text-shadow:0 2px 12px rgba(0,0,0,.6)}
+.hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:1.8rem}
+.hero-actions .btn{font-size:1.04rem;padding:1em 1.5em}
+.hero-chips{display:flex;flex-wrap:wrap;gap:.6rem 1.4rem;color:#fff}
+.hero-chips li{display:inline-flex;align-items:center;gap:.45rem;font-weight:600;font-size:.9rem;text-shadow:0 2px 10px rgba(0,0,0,.7)}
+.hero-chips svg{width:18px;height:18px;fill:none;stroke:var(--accent2);stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+
+/* TICKER */
+.ticker{background:linear-gradient(90deg,var(--accent2),var(--accent));color:var(--accent-ink);overflow:hidden;
+  -webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);
+          mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+.ticker-track{display:flex;gap:0;width:max-content;animation:scroll 30s linear infinite}
+.ticker:hover .ticker-track{animation-play-state:paused}
+.ticker-track span{display:inline-flex;align-items:center;gap:.5rem;padding:.7em 1.6em;font-family:var(--font-display);
+  font-size:1.1rem;letter-spacing:.05em;text-transform:uppercase;white-space:nowrap;font-weight:700}
+.ticker-track span svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2.4;opacity:.75}
+.ticker-track span::after{content:"";width:6px;height:6px;border-radius:50%;background:currentColor;opacity:.45;margin-left:1.4em}
+@keyframes scroll{to{transform:translateX(-33.333%)}}
+
+/* STATS */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(14px,2vw,28px);
+  margin-top:clamp(46px,7vw,74px);margin-bottom:clamp(8px,2vw,18px)}
+.stat{text-align:center;padding:16px 8px}
+.stat b{display:block;font-family:var(--font-display);font-size:clamp(2.2rem,1.4rem + 3.2vw,3.9rem);
+  line-height:1;color:var(--accent2);text-shadow:0 0 24px rgba(255,196,9,.35);font-variant-numeric:tabular-nums}
+.stat span{display:block;color:var(--muted);font-size:.84rem;margin-top:.5rem;text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+
+/* SERVICII */
+.services{display:grid;gap:clamp(16px,2vw,24px);grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.card{background:linear-gradient(180deg,var(--surface),var(--bg2));border:1px solid var(--line);border-radius:var(--r);overflow:hidden;
+  display:flex;flex-direction:column;transition:transform .3s var(--ease),border-color .3s,box-shadow .3s;position:relative}
+.card:hover{transform:translateY(-6px);border-color:var(--accent2);box-shadow:0 0 0 1px var(--accent2),var(--shadow)}
+.card-media{aspect-ratio:16/10;overflow:hidden;background:var(--surface2)}
+.card-media img{width:100%;height:100%;object-fit:cover;transition:transform .6s var(--ease)}
+.card:hover .card-media img{transform:scale(1.06)}
+.card-body{padding:22px;display:flex;flex-direction:column;flex:1;gap:.5rem}
+.card-ico{display:grid;place-items:center;width:52px;height:52px;border-radius:13px;margin-bottom:.4rem;
+  background:color-mix(in srgb,var(--accent) 16%,transparent);color:var(--accent2)}
+.card-ico svg{width:28px;height:28px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.card-tag{font-size:.68rem;font-weight:800;letter-spacing:.13em;text-transform:uppercase;color:var(--accent2)}
+.card h3{font-size:1.35rem;letter-spacing:.01em}
+.card p{color:var(--muted);font-size:.94rem;flex:1}
+.card-link{display:inline-flex;align-items:center;gap:.45rem;font-weight:700;color:var(--text);margin-top:.4rem;align-self:flex-start}
+.card-link svg{width:18px;height:18px;fill:none;stroke:var(--accent2);stroke-width:2.4;transition:transform .25s var(--ease)}
+.card-link:hover{color:var(--accent2)}
+.card-link:hover svg{transform:translateX(5px)}
+
+/* DE CE NOI */
+.feature{display:grid;grid-template-columns:1fr 1.05fr;gap:clamp(30px,5vw,68px);align-items:center}
+.feature-media{position:relative;border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--shadow)}
+.feature-media img{width:100%;aspect-ratio:3/4;object-fit:cover}
+.feature-badge{position:absolute;left:18px;bottom:18px;display:flex;align-items:center;gap:.7rem;
+  background:linear-gradient(135deg,var(--accent2),var(--accent));color:var(--accent-ink);padding:.8rem 1.1rem;border-radius:14px;box-shadow:0 12px 30px rgba(0,0,0,.45)}
+.feature-badge svg{width:30px;height:30px;fill:none;stroke:currentColor;stroke-width:2.2}
+.feature-badge b{font-family:var(--font-display);font-size:1.2rem;letter-spacing:.03em;display:block;line-height:1}
+.feature-badge span{font-size:.72rem;opacity:.85}
+.why{display:grid;gap:1.2rem;margin:2rem 0}
+.why li{display:flex;gap:1rem}
+.why-ico{flex:none;display:grid;place-items:center;width:46px;height:46px;border-radius:12px;
+  background:color-mix(in srgb,var(--accent) 16%,transparent);color:var(--accent2)}
+.why-ico svg{width:25px;height:25px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.why b{font-size:1.06rem;display:block;margin-bottom:.15rem;font-family:var(--font-body);text-transform:none;font-weight:700}
+.why p{color:var(--muted);font-size:.94rem}
+
+/* ACOPERIRE */
+.areas{display:flex;flex-wrap:wrap;gap:.7rem;margin-bottom:2.2rem}
+.area-pill{display:inline-flex;align-items:center;gap:.45rem;padding:.6em 1.1em;border-radius:999px;
+  border:1px solid var(--line);background:var(--surface);font-weight:600;transition:.25s}
+.area-pill:hover{border-color:var(--accent2);color:var(--accent2);transform:translateY(-2px);box-shadow:0 0 16px -4px var(--accent2)}
+.area-pill svg{width:16px;height:16px;fill:none;stroke:var(--accent2);stroke-width:2}
+.map-cta{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:18px;
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:clamp(20px,3vw,30px)}
+.map-cta b{font-size:1.1rem}
+.map-cta span{display:block;color:var(--muted);font-size:.9rem}
+
+/* RECENZII */
+.rating-line{display:flex;align-items:center;flex-wrap:wrap;gap:.4rem .6rem;margin-top:1rem;color:var(--muted)}
+.rating-line b{color:var(--text)}
+.stars{display:inline-flex;gap:2px}
+.stars .star{width:18px;height:18px;fill:var(--accent2);stroke:none}
+.stars .star.half{fill:url(#halfstar)}
+.reviews{display:grid;gap:clamp(16px,2vw,22px);grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.review{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:26px;display:flex;flex-direction:column;gap:1rem}
+.review .stars .star{width:19px;height:19px}
+.review blockquote{font-size:1.05rem;line-height:1.55;flex:1}
+.review figcaption{display:flex;align-items:center;gap:.7rem}
+.avatar{display:grid;place-items:center;width:42px;height:42px;border-radius:50%;
+  background:linear-gradient(135deg,var(--accent2),var(--accent));color:var(--accent-ink);font-weight:800;font-size:1rem;flex:none}
+.review figcaption b{display:block}
+.review figcaption i{font-style:normal;color:var(--muted);font-size:.84rem}
+
+/* CONTACT */
+.contact-inner{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(30px,5vw,60px);align-items:start}
+.contact-actions{display:flex;flex-wrap:wrap;gap:14px;margin:1.8rem 0}
+.contact-actions .btn{font-size:1.04rem;padding:1em 1.5em}
+.contact-list{display:grid;gap:.9rem}
+.contact-list li{display:flex;align-items:center;gap:.8rem;color:var(--muted)}
+.contact-list svg{width:22px;height:22px;fill:none;stroke:var(--accent2);stroke-width:2;flex:none}
+.hours{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:clamp(22px,3vw,32px)}
+.hours h3{font-size:1.4rem;margin-bottom:1rem}
+.hours table{width:100%;border-collapse:collapse}
+.hours td{padding:.85rem 0;border-bottom:1px solid var(--line);font-size:.94rem;vertical-align:top}
+.hours td:last-child{text-align:right;color:var(--muted);font-weight:600;white-space:nowrap;padding-left:14px}
+.hours td.hl{color:var(--accent2);font-family:var(--font-display);letter-spacing:.04em;font-size:1rem}
+.hours td.closed{color:var(--muted);font-weight:600}
+.hours tr:last-child td{border-bottom:0}
+.hours-note{display:flex;align-items:center;gap:.6rem;margin-top:1.1rem;color:var(--muted);font-size:.87rem}
+.hours-note svg{width:20px;height:20px;fill:none;stroke:var(--accent2);stroke-width:2;flex:none}
+
+/* FOOTER */
+.site-foot{background:var(--bg2);border-top:1px solid var(--line);padding:clamp(40px,6vw,64px) 0 40px}
+.foot-inner{display:grid;gap:26px}
+.foot-brand{display:flex;align-items:center;gap:.8rem}
+.foot-brand .brand-mark{width:46px;height:46px}
+.foot-brand b{font-family:var(--font-display);font-size:1.3rem;letter-spacing:.03em;display:block;text-transform:uppercase}
+.foot-brand span{color:var(--muted);font-size:.85rem}
+.foot-nav{display:flex;gap:1.4rem;flex-wrap:wrap}
+.foot-nav a{color:var(--muted);font-weight:600;font-size:.94rem}
+.foot-nav a:hover{color:var(--accent2)}
+.foot-legal{color:var(--muted);font-size:.82rem;line-height:1.7;border-top:1px solid var(--line);padding-top:22px}
+
+/* REVEAL */
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}*{animation:none!important}}
+
+/* DOCK */
+.dock{position:fixed;right:16px;bottom:16px;z-index:90;display:flex;flex-direction:column;gap:12px}
+.dock-btn{display:grid;place-items:center;width:58px;height:58px;border-radius:50%;box-shadow:0 10px 30px rgba(0,0,0,.5);
+  transition:transform .2s var(--ease);position:relative}
+.dock-btn svg{width:28px;height:28px;fill:currentColor}
+.dock-btn:hover{transform:scale(1.08)}
+.dock-call{background:var(--accent);color:#fff;box-shadow:0 0 22px -2px var(--accent),0 10px 30px rgba(0,0,0,.5)}
+.dock-wa{background:var(--wa);color:#fff;animation:bob 2.6s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+.dock-wa::after{content:"";position:absolute;inset:0;border-radius:50%;box-shadow:0 0 0 0 var(--wa);animation:ping2 2.4s infinite}
+@keyframes ping2{0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--wa) 70%,transparent)}70%{box-shadow:0 0 0 16px transparent}100%{box-shadow:0 0 0 0 transparent}}
+@media (min-width:881px){.dock{right:24px;bottom:24px}}
+
+/* CALLBAR mobil */
+.callbar{display:none}
+@media (max-width:880px){
+  .callbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:95;
+    box-shadow:0 -8px 28px rgba(0,0,0,.5);padding-bottom:env(safe-area-inset-bottom)}
+  .callbar-call{flex:1;display:flex;align-items:center;justify-content:center;gap:.55rem;
+    background:var(--accent);color:#fff;font-family:var(--font-display);letter-spacing:.03em;
+    text-transform:uppercase;font-size:1.05rem;padding:1.05em 1em}
+  .callbar-call svg{width:22px;height:22px;fill:currentColor}
+  .callbar-wa{flex:none;display:grid;place-items:center;width:64px;background:var(--wa);color:#fff}
+  .callbar-wa svg{width:28px;height:28px;fill:currentColor}
+  .dock{display:none}
+  body{padding-bottom:60px}
+}
+
+/* RESPONSIVE */
+@media (max-width:880px){
+  .nav{position:fixed;inset:74px 0 auto 0;flex-direction:column;gap:0;background:var(--bg);
+    border-bottom:1px solid var(--line);padding:8px var(--pad) 18px;transform:translateY(-130%);
+    transition:transform .35s var(--ease);box-shadow:var(--shadow)}
+  .nav.open{transform:none}
+  .nav a{padding:14px 0;border-bottom:1px solid var(--line);font-size:1.02rem}
+  .nav a::after{display:none}
+  .burger{display:flex}
+  .head-cta .btn-ghost span{display:none}
+  .head-cta .btn-ghost{padding:.6em}
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .feature{grid-template-columns:1fr}
+  .feature-media{max-width:440px;margin-inline:auto;order:-1}
+  .contact-inner{grid-template-columns:1fr}
+}
+@media (max-width:480px){
+  .hero-actions .btn{width:100%;justify-content:center}
+}
+</style>
+</head>
+<body>
+
+<a class="skip" href="#main">Sari la conținut</a>
+
+<header class="site-head" id="top">
+  <div class="wrap head-inner">
+    <a class="brand" href="#top" aria-label="MAR-COM AUTO TOTAL — acasă">
+      <span class="brand-mark"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M6 30l4-12a6 6 0 0 1 6-4h16a6 6 0 0 1 6 4l4 12"/><path d="M4 30h40v8a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-3H12v3a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/><circle cx="13" cy="30" r="3"/><circle cx="35" cy="30" r="3"/><path d="M4 24h40"/></svg></span>
+      <span class="brand-txt"><b>MAR-COM AUTO TOTAL</b><i>Vopsitorie · Tinichigerie · Sector 1</i></span>
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#servicii">Servicii</a>
+      <a href="#dece">De ce noi</a>
+      <a href="#acoperire">Acoperire</a>
+      <a href="#recenzii">Recenzii</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="head-cta">
+      <a class="btn btn-ghost" href="tel:+40762294966"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 6l6 1 2 9-5 4a24 24 0 0 0 11 11l4-5 9 2 1 6a4 4 0 0 1-4 4A34 34 0 0 1 10 10a4 4 0 0 1 4-4z"/></svg><span>0762 294 966</span></a>
+      <button class="burger" aria-label="Meniu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <div class="hazard-bar" aria-hidden="true"></div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-media"><img src="https://images.unsplash.com/photo-1632823471565-1ecdf7ff2f01?auto=format&fit=crop&w=1600&q=80" alt="Vopsitorie și tinichigerie auto — cabină profesională MAR-COM AUTO TOTAL" width="1600" height="1067" fetchpriority="high"></div>
+    <div class="hero-overlay"></div>
+    <div class="wrap hero-inner">
+      <p class="eyebrow reveal"><span class="ping"></span> Sector 1 · Bucureștii Noi · Deviz gratuit</p>
+      <h1 class="reveal">Ai o daună?<br><em>Ne ocupăm noi de tot.</em></h1>
+      <p class="lead reveal">Vopsitorie auto, tinichigerie și reparații daune RCA & CASCO la MAR-COM AUTO TOTAL. Preluăm dosarul din partea casei, tu doar ne aduci mașina.</p>
+      <div class="hero-actions reveal">
+        <a class="btn btn-call" href="tel:+40762294966"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 6l6 1 2 9-5 4a24 24 0 0 0 11 11l4-5 9 2 1 6a4 4 0 0 1-4 4A34 34 0 0 1 10 10a4 4 0 0 1 4-4z"/></svg><span>Sună acum · 0762 294 966</span></a>
+        <a class="btn btn-wa" href="https://wa.me/40762294966?text=Bun%C4%83%20ziua%21%20Am%20o%20daun%C4%83%20la%20ma%C8%99in%C4%83%20%C8%99i%20vreau%20o%20programare/deviz." target="_blank" rel="noopener"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11 19.6L3 29l6.6-2a13 13 0 1 0 6.4-24zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-4 1 1-3.9-.3-.4A10.6 10.6 0 1 1 16 26.6zm6-7.9c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.8.2s-.9 1.1-1.1 1.3-.4.2-.8 0a8.6 8.6 0 0 1-4.3-3.7c-.3-.6.3-.5.9-1.8.1-.2 0-.4 0-.6s-.8-1.9-1-2.6c-.3-.7-.6-.6-.8-.6h-.7a1.3 1.3 0 0 0-1 .4 4 4 0 0 0-1.2 2.9 6.9 6.9 0 0 0 1.4 3.6 15.7 15.7 0 0 0 6 5.3c2.2 1 3 1 4.1.9a3.5 3.5 0 0 0 2.3-1.6 2.9 2.9 0 0 0 .2-1.6c0-.2-.3-.3-.6-.5z"/></svg><span>Scrie pe WhatsApp</span></a>
+      </div>
+      <ul class="hero-chips reveal">
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13l4 4 10-12"/></svg> Deviz gratuit</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13l4 4 10-12"/></svg> Colaborăm cu asigurătorii</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13l4 4 10-12"/></svg> Garanție la lucrări</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- TICKER -->
+  <div class="ticker" aria-label="Zone acoperite">
+    <div class="ticker-track">
+      <span><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z"/><circle cx="24" cy="20" r="5"/></svg>Sector 1</span><span><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z"/><circle cx="24" cy="20" r="5"/></svg>Bucureștii Noi</span><span><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z"/><circle cx="24" cy="20" r="5"/></svg>București</span><span><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z"/><circle cx="24" cy="20" r="5"/></svg>Ilfov</span><span><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z"/><circle cx="24" cy="20" r="5"/></svg>Daune RCA</span><span><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z"/><circle cx="24" cy="20" r="5"/></svg>Daune CASCO</span><span><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z"/><circle cx="24" cy="20" r="5"/></svg>Sector 1</span><span><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z"/><circle cx="24" cy="20" r="5"/></svg>Bucureștii Noi</span><span><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z"/><circle cx="24" cy="20" r="5"/></svg>București</span><span><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z"/><circle cx="24" cy="20" r="5"/></svg>Ilfov</span><span><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z"/><circle cx="24" cy="20" r="5"/></svg>Daune RCA</span><span><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z"/><circle cx="24" cy="20" r="5"/></svg>Daune CASCO</span>
+    </div>
+  </div>
+
+  <!-- STATS -->
+  <section class="stats wrap">
+    <div class="stat reveal"><b>4.8★</b><span>rating pe Google</span></div>
+    <div class="stat reveal"><b>36</b><span>recenzii Google</span></div>
+    <div class="stat reveal"><b>L-V</b><span>09:00–17:00 program</span></div>
+    <div class="stat reveal"><b>100%</b><span>deviz gratuit & transparent</span></div>
+  </section>
+
+  <!-- SERVICII -->
+  <section class="section" id="servicii">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="kicker">Ce facem</p>
+        <h2>Vopsitorie, tinichigerie & daune RCA</h2>
+        <p class="sub">De la o zgârietură mică până la o daună serioasă din accident — mașina ta iese din atelier ca nouă, iar hârtiile le rezolvăm noi.</p>
+      </header>
+      <div class="services">
+
+        <article class="card reveal">
+          <div class="card-media"><img src="https://images.unsplash.com/photo-1632823469850-2f77dd9c7f93?auto=format&fit=crop&w=700&q=80" alt="Vopsitorie auto în cabină profesională" width="700" height="438" loading="lazy"></div>
+          <div class="card-body">
+            <span class="card-ico"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 40V22a10 10 0 0 1 10-10h12a10 10 0 0 1 10 10v18"/><path d="M8 30h32"/><circle cx="16" cy="12" r="4"/><path d="M20 12h8"/></svg></span>
+            <span class="card-tag">Cabină de vopsit</span>
+            <h3>Vopsitorie auto</h3>
+            <p>Vopsim în cabină profesională, cu potrivire exactă de culoare (cod vopsea originală) și finisaj de calitate OEM.</p>
+            <a class="card-link" href="https://wa.me/40762294966?text=Bun%C4%83%20ziua%21%20Vreau%20un%20deviz%20pentru%3A%20Vopsitorie%20auto%20%28cabin%C4%83%29" target="_blank" rel="noopener">Cere deviz <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-media"><img src="https://images.unsplash.com/photo-1632823471565-1ecdf7ff2f01?auto=format&fit=crop&w=700&q=80" alt="Tinichigerie și îndreptare caroserie auto" width="700" height="438" loading="lazy"></div>
+          <div class="card-body">
+            <span class="card-ico"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M30 6l12 12-6 6-12-12z"/><path d="M24 18L8 34v6h6l16-16"/><path d="M14 34l-4 4"/></svg></span>
+            <span class="card-tag">Îndreptare caroserie</span>
+            <h3>Tinichigerie & îndreptare</h3>
+            <p>Corectăm deformările caroseriei și reparăm elementele lovite, cu scule specializate, pentru o geometrie perfectă.</p>
+            <a class="card-link" href="https://wa.me/40762294966?text=Bun%C4%83%20ziua%21%20Vreau%20un%20deviz%20pentru%3A%20Tinichigerie%20%26%20%C3%AEndreptare%20caroserie" target="_blank" rel="noopener">Cere deviz <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-media"><img src="https://images.unsplash.com/photo-1580414057403-c5f451f30e1c?auto=format&fit=crop&w=700&q=80" alt="Reparații daune RCA și CASCO pentru mașini avariate" width="700" height="438" loading="lazy"></div>
+          <div class="card-body">
+            <span class="card-ico"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 4l16 6v12c0 11-7 17-16 22-9-5-16-11-16-22V10z"/><path d="M17 24l5 5 9-11"/></svg></span>
+            <span class="card-tag">Fără bătăi de cap</span>
+            <h3>Daune RCA & CASCO</h3>
+            <p>Ne ocupăm de dosarul din partea casei — deschidere daună, constatare, decont direct cu asigurătorul. Tu doar ne lași mașina.</p>
+            <a class="card-link" href="https://wa.me/40762294966?text=Bun%C4%83%20ziua%21%20Am%20o%20daun%C4%83%20RCA/CASCO%20%C8%99i%20vreau%20s%C4%83%20m%C4%83%20ocup%20cu%20dosarul%20din%20partea%20casei" target="_blank" rel="noopener">Programează <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-media"><img src="https://images.unsplash.com/photo-1601362840469-51e4d8d58785?auto=format&fit=crop&w=700&q=80" alt="Polish și pregătire vopsea caroserie auto" width="700" height="438" loading="lazy"></div>
+          <div class="card-body">
+            <span class="card-ico"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="18"/><circle cx="24" cy="24" r="7"/><path d="M24 6v8M24 34v8M6 24h8M34 24h8"/></svg></span>
+            <span class="card-tag">Luciu ca la showroom</span>
+            <h3>Polish & pregătire vopsea</h3>
+            <p>Șlefuire, polish și corecție vopsea înainte sau după reparație, pentru un finisaj impecabil, fără urme.</p>
+            <a class="card-link" href="https://wa.me/40762294966?text=Bun%C4%83%20ziua%21%20Vreau%20un%20deviz%20pentru%3A%20Polish%20%26%20preg%C4%83tire%20vopsea" target="_blank" rel="noopener">Cere deviz <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-media"><img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=700&q=80" alt="Înlocuire elemente caroserie auto avariate" width="700" height="438" loading="lazy"></div>
+          <div class="card-body">
+            <span class="card-ico"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M6 40h24v-9H10a4 4 0 0 0-4 4z"/><path d="M30 31v-7l9-10 4 3-7 9"/><path d="M38 24l5 6-4 6h-6"/></svg></span>
+            <span class="card-tag">Piese noi/originale</span>
+            <h3>Înlocuire elemente</h3>
+            <p>Aripi, bare, capote, uși — înlocuim elementele grav avariate cu piese noi sau originale, montate corect.</p>
+            <a class="card-link" href="https://wa.me/40762294966?text=Bun%C4%83%20ziua%21%20Vreau%20un%20deviz%20pentru%3A%20%C3%8Enlocuire%20elemente%20caroserie" target="_blank" rel="noopener">Cere deviz <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-media"><img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&w=700&q=80" alt="Deviz gratuit pentru reparație auto" width="700" height="438" loading="lazy"></div>
+          <div class="card-body">
+            <span class="card-ico"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M12 6h18l8 8v28H12z"/><path d="M30 6v8h8"/><path d="M18 26h12M18 32h12"/></svg></span>
+            <span class="card-tag">Fără costuri ascunse</span>
+            <h3>Deviz gratuit</h3>
+            <p>Vii cu mașina sau trimiți poze pe WhatsApp — îți spunem exact ce e de făcut și cât costă, fără obligații.</p>
+            <a class="card-link" href="https://wa.me/40762294966?text=Bun%C4%83%20ziua%21%20A%C8%99%20dori%20un%20deviz%20gratuit%20pentru%20ma%C8%99ina%20mea" target="_blank" rel="noopener">Cere deviz <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- DE CE NOI -->
+  <section class="section section-alt" id="dece">
+    <div class="wrap feature">
+      <div class="feature-media reveal">
+        <img src="https://images.unsplash.com/photo-1615826167603-c9b5f4f9c1b5?auto=format&fit=crop&w=1000&q=80" alt="Atelier de tinichigerie și vopsitorie auto MAR-COM AUTO TOTAL" width="1000" height="1333" loading="lazy">
+        <div class="feature-badge"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 4l16 6v12c0 11-7 17-16 22-9-5-16-11-16-22V10z"/><path d="M17 24l5 5 9-11"/></svg><div><b>4.8★ / 36</b><span>recenzii Google</span></div></div>
+      </div>
+      <div class="feature-text">
+        <p class="kicker reveal">De ce MAR-COM AUTO TOTAL</p>
+        <h2 class="reveal">Un singur telefon și scapi de toate bătăile de cap</h2>
+        <ul class="why">
+          <li class="reveal"><span class="why-ico"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 4l16 6v12c0 11-7 17-16 22-9-5-16-11-16-22V10z"/><path d="M17 24l5 5 9-11"/></svg></span><div><b>4.8★ din 36 de recenzii Google</b><p>Clienți mulțumiți de calitatea lucrărilor și de seriozitatea echipei, atestați pe Google.</p></div></li>
+          <li class="reveal"><span class="why-ico"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M12 6h18l8 8v28H12z"/><path d="M30 6v8h8"/><path d="M18 26h12M18 32h12"/></svg></span><div><b>Colaborare directă cu asigurătorii</b><p>Preluăm dosarul de daună RCA sau CASCO din partea casei, de la deschidere până la decont.</p></div></li>
+          <li class="reveal"><span class="why-ico"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="18"/><path d="M17 24l5 5 9-11"/></svg></span><div><b>Garanție la lucrările executate</b><p>Vopsitorie, tinichigerie sau înlocuire de elemente — toate lucrările noastre vin cu garanție.</p></div></li>
+          <li class="reveal"><span class="why-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13l4 4 10-12"/></svg></span><div><b>Service auto complet, într-un singur loc</b><p>De la deviz la vopsitorie, tinichigerie și pregătirea finală — totul se rezolvă la aceeași adresă din Sector 1.</p></div></li>
+        </ul>
+        <a class="btn btn-call reveal" href="tel:+40762294966"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 6l6 1 2 9-5 4a24 24 0 0 0 11 11l4-5 9 2 1 6a4 4 0 0 1-4 4A34 34 0 0 1 10 10a4 4 0 0 1 4-4z"/></svg><span>0762 294 966</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACOPERIRE -->
+  <section class="section" id="acoperire">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="kicker">Unde ne găsești</p>
+        <h2>Sector 1, Bucureștii Noi — București & Ilfov</h2>
+        <p class="sub">Atelierul nostru e pe Șoseaua Chitilei 86, ușor de găsit în Bucureștii Noi. Preluăm mașini din tot Bucureștiul și din Ilfov.</p>
+      </header>
+      <div class="areas reveal">
+        <span class="area-pill"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z"/><circle cx="24" cy="20" r="5"/></svg>Sector 1</span>
+        <span class="area-pill"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z"/><circle cx="24" cy="20" r="5"/></svg>Bucureștii Noi</span>
+        <span class="area-pill"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z"/><circle cx="24" cy="20" r="5"/></svg>București</span>
+        <span class="area-pill"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z"/><circle cx="24" cy="20" r="5"/></svg>Ilfov</span>
+      </div>
+      <div class="map-cta reveal">
+        <div>
+          <b>Șoseaua Chitilei 86, Sector 1</b>
+          <span>Bucureștii Noi, București</span>
+        </div>
+        <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=MAR-COM%20AUTO%20TOTAL%20%C8%98oseaua%20Chitilei%2086%20Bucure%C8%99ti" target="_blank" rel="noopener"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z"/><circle cx="24" cy="20" r="5"/></svg><span>Deschide în Google Maps</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- RECENZII -->
+  <section class="section section-alt" id="recenzii">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="kicker">Ce spun clienții</p>
+        <h2>4.8★ pe Google, din 36 de recenzii</h2>
+        <div class="rating-line reveal"><span class="stars"><svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z"/></svg><svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z"/></svg><svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z"/></svg><svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z"/></svg><svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z"/></svg></span> <b>4.8</b> · 36 recenzii pe Google</div>
+      </header>
+      <div class="reviews">
+
+        <figure class="review reveal">
+          <span class="stars"><svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z"/></svg><svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z"/></svg><svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z"/></svg><svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z"/></svg><svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z"/></svg></span>
+          <blockquote>„Am avut o daună destul de urâtă pe aripă și portieră. S-au ocupat de tot dosarul cu asigurarea, eu doar am lăsat mașina. A ieșit perfect, culoare identică.”</blockquote>
+          <figcaption><span class="avatar">★</span><span><b>Client mulțumit</b><i>Recenzie ilustrativă · daună RCA</i></span></figcaption>
+        </figure>
+
+        <figure class="review reveal">
+          <span class="stars"><svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z"/></svg><svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z"/></svg><svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z"/></svg><svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z"/></svg><svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z"/></svg></span>
+          <blockquote>„Deviz clar de la început, fără costuri ascunse. Vopsitoria arată impecabil, nu se vede nicio diferență de culoare.”</blockquote>
+          <figcaption><span class="avatar">★</span><span><b>Client mulțumit</b><i>Recenzie ilustrativă · vopsitorie</i></span></figcaption>
+        </figure>
+
+        <figure class="review reveal">
+          <span class="stars"><svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z"/></svg><svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z"/></svg><svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z"/></svg><svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z"/></svg><svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z"/></svg></span>
+          <blockquote>„Echipă serioasă, m-au ținut la curent cu tot ce se întâmpla cu dosarul de daună. Recomand cu încredere pentru tinichigerie.”</blockquote>
+          <figcaption><span class="avatar">★</span><span><b>Client mulțumit</b><i>Recenzie ilustrativă · tinichigerie</i></span></figcaption>
+        </figure>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="wrap contact-inner">
+      <div class="contact-text">
+        <p class="kicker reveal">Contact</p>
+        <h2 class="reveal">Sună-ne sau scrie pe WhatsApp</h2>
+        <p class="sub reveal">Pentru daune RCA/CASCO, vopsitorie sau orice reparație de caroserie — răspundem rapid și îți spunem exact ce e de făcut.</p>
+        <div class="contact-actions reveal">
+          <a class="btn btn-call" href="tel:+40762294966"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 6l6 1 2 9-5 4a24 24 0 0 0 11 11l4-5 9 2 1 6a4 4 0 0 1-4 4A34 34 0 0 1 10 10a4 4 0 0 1 4-4z"/></svg><span>0762 294 966</span></a>
+          <a class="btn btn-wa" href="https://wa.me/40762294966?text=Bun%C4%83%20ziua%21%20Am%20o%20daun%C4%83%20la%20ma%C8%99in%C4%83%20%C8%99i%20vreau%20o%20programare/deviz." target="_blank" rel="noopener"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11 19.6L3 29l6.6-2a13 13 0 1 0 6.4-24zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-4 1 1-3.9-.3-.4A10.6 10.6 0 1 1 16 26.6zm6-7.9c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.8.2s-.9 1.1-1.1 1.3-.4.2-.8 0a8.6 8.6 0 0 1-4.3-3.7c-.3-.6.3-.5.9-1.8.1-.2 0-.4 0-.6s-.8-1.9-1-2.6c-.3-.7-.6-.6-.8-.6h-.7a1.3 1.3 0 0 0-1 .4 4 4 0 0 0-1.2 2.9 6.9 6.9 0 0 0 1.4 3.6 15.7 15.7 0 0 0 6 5.3c2.2 1 3 1 4.1.9a3.5 3.5 0 0 0 2.3-1.6 2.9 2.9 0 0 0 .2-1.6c0-.2-.3-.3-.6-.5z"/></svg><span>WhatsApp</span></a>
+        </div>
+        <ul class="contact-list reveal">
+          <li><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z"/><circle cx="24" cy="20" r="5"/></svg><span>Șoseaua Chitilei 86, Sector 1 (Bucureștii Noi), București</span></li>
+          <li><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 6l6 1 2 9-5 4a24 24 0 0 0 11 11l4-5 9 2 1 6a4 4 0 0 1-4 4A34 34 0 0 1 10 10a4 4 0 0 1 4-4z"/></svg><span>0762 294 966</span></li>
+        </ul>
+      </div>
+      <div class="hours reveal">
+        <h3>Program</h3>
+        <table>
+          <tr><td>Luni – Vineri</td><td class="hl">09:00 – 17:00</td></tr>
+          <tr><td>Sâmbătă</td><td class="closed">Închis</td></tr>
+          <tr><td>Duminică</td><td class="closed">Închis</td></tr>
+        </table>
+        <p class="hours-note"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="18"/><path d="M24 13v11l8 5"/></svg> Recomandăm programare telefonică sau pe WhatsApp înainte de a veni.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-foot">
+  <div class="wrap foot-inner">
+    <div class="foot-brand">
+      <span class="brand-mark"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M6 30l4-12a6 6 0 0 1 6-4h16a6 6 0 0 1 6 4l4 12"/><path d="M4 30h40v8a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-3H12v3a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/><circle cx="13" cy="30" r="3"/><circle cx="35" cy="30" r="3"/><path d="M4 24h40"/></svg></span>
+      <div><b>MAR-COM AUTO TOTAL</b><span>Vopsitorie · Tinichigerie · Daune RCA & CASCO · Sector 1, București</span></div>
+    </div>
+    <nav class="foot-nav" aria-label="Footer">
+      <a href="#servicii">Servicii</a><a href="#acoperire">Acoperire</a><a href="#recenzii">Recenzii</a><a href="#contact">Contact</a>
+    </nav>
+    <p class="foot-legal">© <span id="y"></span> MAR-COM AUTO TOTAL · Șoseaua Chitilei 86, Sector 1 (Bucureștii Noi), București<br>Vopsitorie auto · Tinichigerie · Reparații daune RCA & CASCO · Polish · Deviz gratuit.</p>
+  </div>
+</footer>
+
+<!-- BUTOANE FLOTANTE -->
+<div class="dock">
+  <a class="dock-btn dock-call" href="tel:+40762294966" aria-label="Sună acum"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 6l6 1 2 9-5 4a24 24 0 0 0 11 11l4-5 9 2 1 6a4 4 0 0 1-4 4A34 34 0 0 1 10 10a4 4 0 0 1 4-4z"/></svg></a>
+  <a class="dock-btn dock-wa" href="https://wa.me/40762294966?text=Bun%C4%83%20ziua%21%20Am%20o%20daun%C4%83%20la%20ma%C8%99in%C4%83%20%C8%99i%20vreau%20o%20programare/deviz." target="_blank" rel="noopener" aria-label="Scrie pe WhatsApp"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11 19.6L3 29l6.6-2a13 13 0 1 0 6.4-24zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-4 1 1-3.9-.3-.4A10.6 10.6 0 1 1 16 26.6zm6-7.9c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.8.2s-.9 1.1-1.1 1.3-.4.2-.8 0a8.6 8.6 0 0 1-4.3-3.7c-.3-.6.3-.5.9-1.8.1-.2 0-.4 0-.6s-.8-1.9-1-2.6c-.3-.7-.6-.6-.8-.6h-.7a1.3 1.3 0 0 0-1 .4 4 4 0 0 0-1.2 2.9 6.9 6.9 0 0 0 1.4 3.6 15.7 15.7 0 0 0 6 5.3c2.2 1 3 1 4.1.9a3.5 3.5 0 0 0 2.3-1.6 2.9 2.9 0 0 0 .2-1.6c0-.2-.3-.3-.6-.5z"/></svg></a>
+</div>
+
+<!-- BARĂ MOBILĂ -->
+<div class="callbar">
+  <a class="callbar-call" href="tel:+40762294966"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 6l6 1 2 9-5 4a24 24 0 0 0 11 11l4-5 9 2 1 6a4 4 0 0 1-4 4A34 34 0 0 1 10 10a4 4 0 0 1 4-4z"/></svg><span>Sună acum</span></a>
+  <a class="callbar-wa" href="https://wa.me/40762294966?text=Bun%C4%83%20ziua%21%20Am%20o%20daun%C4%83%20la%20ma%C8%99in%C4%83%20%C8%99i%20vreau%20o%20programare/deviz." target="_blank" rel="noopener" aria-label="Scrie pe WhatsApp"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11 19.6L3 29l6.6-2a13 13 0 1 0 6.4-24zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-4 1 1-3.9-.3-.4A10.6 10.6 0 1 1 16 26.6zm6-7.9c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.8.2s-.9 1.1-1.1 1.3-.4.2-.8 0a8.6 8.6 0 0 1-4.3-3.7c-.3-.6.3-.5.9-1.8.1-.2 0-.4 0-.6s-.8-1.9-1-2.6c-.3-.7-.6-.6-.8-.6h-.7a1.3 1.3 0 0 0-1 .4 4 4 0 0 0-1.2 2.9 6.9 6.9 0 0 0 1.4 3.6 15.7 15.7 0 0 0 6 5.3c2.2 1 3 1 4.1.9a3.5 3.5 0 0 0 2.3-1.6 2.9 2.9 0 0 0 .2-1.6c0-.2-.3-.3-.6-.5z"/></svg></a>
+</div>
+
+<script>
+(function () {
+  'use strict';
+  var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  var y = document.getElementById('y');
+  if (y) y.textContent = new Date().getFullYear();
+
+  var burger = document.querySelector('.burger');
+  var nav = document.querySelector('.nav');
+  if (burger && nav) {
+    burger.addEventListener('click', function () {
+      var open = nav.classList.toggle('open');
+      burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    nav.addEventListener('click', function (e) {
+      if (e.target.closest('a')) { nav.classList.remove('open'); burger.setAttribute('aria-expanded', 'false'); }
+    });
+  }
+
+  var revs = [].slice.call(document.querySelectorAll('.reveal'));
+  if (reduce || !('IntersectionObserver' in window)) {
+    revs.forEach(function (el) { el.classList.add('in'); });
+  } else {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (!en.isIntersecting) return;
+        var el = en.target;
+        var sibs = [].slice.call((el.parentElement || document).children).filter(function (c) { return c.classList && c.classList.contains('reveal'); });
+        var idx = Math.max(0, sibs.indexOf(el));
+        el.style.transitionDelay = Math.min(idx * 80, 320) + 'ms';
+        el.classList.add('in');
+        io.unobserve(el);
+      });
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.12 });
+    revs.forEach(function (el) { io.observe(el); });
+  }
+
+  var head = document.querySelector('.site-head');
+  if (head) {
+    var onScroll = function () { head.classList.toggle('scrolled', window.scrollY > 8); };
+    addEventListener('scroll', onScroll, { passive: true }); onScroll();
+  }
+
+  var ticker = document.querySelector('.ticker-track');
+  if (ticker && !reduce && 'IntersectionObserver' in window) {
+    var tio = new IntersectionObserver(function (en) {
+      ticker.style.animationPlayState = en[0].isIntersecting ? 'running' : 'paused';
+    }, { threshold: 0 });
+    tio.observe(document.querySelector('.ticker'));
+  }
+
+  var fine = matchMedia('(hover:hover) and (pointer:fine)').matches;
+  if (fine && !reduce) {
+    [].slice.call(document.querySelectorAll('.services .card')).forEach(function (card) {
+      card.addEventListener('pointermove', function (e) {
+        var r = card.getBoundingClientRect();
+        var x = (e.clientX - r.left) / r.width, y2 = (e.clientY - r.top) / r.height;
+        var rx = (0.5 - y2) * 4, ry = (x - 0.5) * 4;
+        card.style.transform = 'perspective(820px) rotateX(' + rx.toFixed(2) + 'deg) rotateY(' + ry.toFixed(2) + 'deg) translateY(-6px)';
+      });
+      card.addEventListener('pointerleave', function () { card.style.transform = ''; });
+    });
+  }
+})();
+</script>
+</body>
+</html>
