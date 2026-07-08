@@ -144,6 +144,31 @@ def fmt_hours(raw):
         segs.append(f"{lbl}: {d[keys[i]]}"); i=j+1
     return " | ".join(segs)
 
+
+EN2KEY={"Monday":"mon","Tuesday":"tue","Wednesday":"wed","Thursday":"thu","Friday":"fri","Saturday":"sat","Sunday":"sun"}
+def parse_hours_struct(raw):
+    """'Wednesday9 am-6 pmThursday...' -> {"mon":[9,18],...} | "nonstop" | None.
+    Jumătățile de oră devin x.5 (gen2 le afișează HH:30)."""
+    if not raw: return None
+    DY="Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday"
+    parts=re.findall(rf"({DY})(.*?)(?=(?:{DY})|$)", raw)
+    if not parts: return None
+    def t24(m):
+        hh=int(m.group(1)); mm=int(m.group(2) or 0); ap=m.group(3).lower()
+        if ap=="pm" and hh!=12: hh+=12
+        if ap=="am" and hh==12: hh=0
+        return hh + (0.5 if mm>=30 else 0)
+    out={}
+    for day,spec in parts:
+        k=EN2KEY[day]
+        if "Closed" in spec: out[k]=None; continue
+        if "24 hours" in spec or "Open 24" in spec: out[k]=[0,24]; continue
+        times=[t24(m) for m in re.finditer(r"(\d{1,2})(?::(\d{2}))?\s*([ap]m)", spec, re.I)]
+        out[k]=[times[0],times[-1]] if len(times)>=2 else None
+    if len(out)<7: return None
+    if all(v==[0,24] for v in out.values()): return "nonstop"
+    return out
+
 def scrape(args):
     from playwright.sync_api import sync_playwright
     exe = find_chromium()
@@ -199,6 +224,7 @@ def scrape(args):
                     lead.update({
                         "address": d.get("addr") or "", "web": web, "fb_only": fb_only,
                         "category": d.get("cat"), "program": fmt_hours(d.get("hours")),
+                        "hours_s": parse_hours_struct(d.get("hours")),
                     })
                 seen_global.add(ph); kept += 1; results.append(lead)
                 tag = " [doar FB]" if lead.get("fb_only") else ""

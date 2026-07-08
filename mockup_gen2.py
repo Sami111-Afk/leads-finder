@@ -127,7 +127,12 @@ def hours_rows_html(hours_s):
     """Rânduri tabel program din structura de ore, cu grupare pe zile consecutive identice."""
     if hours_s == "nonstop":
         return '<tr data-d="-1"><td>Luni – Duminică</td><td>NON-STOP</td></tr>', "toate"
-    def cell(v): return "Închis" if v is None else "%02d:00 – %02d:00" % (v[0], v[1])
+    def hhmm(x):
+        h=int(x); return "%02d:%s" % (h, "30" if (x-h)>=0.5 else "00")
+    def cell(v):
+        if v is None: return "Închis"
+        if v==[0,24]: return "NON-STOP"
+        return "%s – %s" % (hhmm(v[0]), hhmm(v[1]))
     rows, i = [], 0
     while i < 7:
         j = i
@@ -144,7 +149,7 @@ def hours_js_obj(hours_s):
     parts = []
     for k in ZI_ORD:
         v = hours_s.get(k)
-        parts.append('%d:%s' % (ZI_JS[k], "null" if v is None else "[%d,%d]" % (v[0], v[1])))
+        parts.append('%d:%s' % (ZI_JS[k], "null" if v is None else "[%g,%g]" % (v[0], v[1])))
     return "{" + ",".join(parts) + "}"
 
 # ─────────────────────────────────────────────────────── presets per nișă
@@ -1378,7 +1383,7 @@ def from_scraped(path):
                     phone_wa="40"+ph, phone_display=r["phone"].strip(),
                     address=addr, addr_line1=addr.split(",")[0], addr_city="București",
                     rating=r.get("rating") or "—", reviews_count=r.get("reviews") or 0,
-                    program_text=r.get("program"))
+                    program_text=r.get("program"), hours_s=r.get("hours_s"))
         out.append(lead)
     return out
 
