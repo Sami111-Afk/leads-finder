@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Precizio Craft — Mobilă la comandă București | Atelier tâmplărie de precizie</title>
+<meta name="description" content="Precizio Craft — atelier de tâmplărie de precizie în București. Mobilier la comandă pe măsură, bucătării, dressing, lemn masiv & MDF vopsit, finisaje impecabile. Sună 0769 655 359.">
+<meta name="theme-color" content="#14171a">
+<meta property="og:title" content="Precizio Craft — Mobilă la comandă în București">
+<meta property="og:description" content="Atelier de tâmplărie de precizie: mobilier personalizat, bucătării, dressing, finisaje fine. Precizie & finisaj impecabil. Sună 0769 655 359.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1200&q=80">
+<link rel="preload" as="image" href="https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1600&q=80" fetchpriority="high">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"HomeGoodsStore","name":"Precizio Craft","image":"https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1200&q=80","description":"Atelier de tâmplărie de precizie: mobilier la comandă, bucătării, dressing, lemn masiv și MDF vopsit, finisaje fine.","telephone":"+40769655359","address":{"@type":"PostalAddress","streetAddress":"Drumul Jilavei 115","addressLocality":"Sector 4","addressRegion":"București","addressCountry":"RO"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"18:00"}],"areaServed":["București","Ilfov"],"makesOffer":[{"@type":"Offer","name":"Mobilier la comandă pe măsură"},{"@type":"Offer","name":"Bucătării la comandă"},{"@type":"Offer","name":"Dressing & dulapuri"},{"@type":"Offer","name":"Lemn masiv & MDF vopsit"},{"@type":"Offer","name":"Restaurări & finisaje"},{"@type":"Offer","name":"Consultanță & măsurători"}],"aggregateRating":{"@type":"AggregateRating","ratingValue":"5.0","reviewCount":"2"}}
+</script>
+<style>
+:root{
+  --bg:#14171a; --bg2:#191d21; --surface:#1d2227; --surface2:#232a30;
+  --line:#2c343b; --line2:#39434c;
+  --text:#f3f1ec; --muted:#a3aab2; --muted2:#7d858e;
+  --brass:#c9a44c;         /* alamă — accent principal */
+  --brass-soft:#e0c584;
+  --emerald:#3f9d7c;       /* verde-smarald — accent secundar */
+  --brass-ink:#1a1408;
+  --wa:#25d366;
+  --font-display:'Fraunces',Georgia,'Times New Roman',serif;
+  --font-body:'Manrope',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+  --maxw:1180px; --pad:clamp(20px,5vw,44px);
+  --r:16px; --r-sm:11px; --r-lg:26px;
+  --shadow:0 26px 60px -28px rgba(0,0,0,.7);
+  --ease:cubic-bezier(.2,.7,.2,1);
+  --hero-grad:linear-gradient(180deg,rgba(15,17,19,.28) 0%,rgba(15,17,19,.5) 45%,rgba(15,17,19,.93) 100%);
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{font-family:var(--font-body);background:var(--bg);color:var(--text);
+  line-height:1.6;font-size:clamp(1rem,.97rem + .2vw,1.075rem);
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden}
+img,svg{display:block;max-width:100%}
+img{height:auto}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+h1,h2,h3{line-height:1.08;font-weight:600}
+button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
+:focus-visible{outline:3px solid var(--brass);outline-offset:3px;border-radius:4px}
+::selection{background:var(--brass);color:var(--brass-ink)}
+
+.wrap{width:100%;max-width:var(--maxw);margin-inline:auto;padding-inline:var(--pad)}
+.section{padding:clamp(64px,9vw,120px) 0}
+.section-alt{background:var(--bg2)}
+.kicker{font-family:var(--font-body);font-weight:700;text-transform:uppercase;letter-spacing:.24em;
+  font-size:.72rem;color:var(--brass);margin-bottom:1rem;display:flex;align-items:center;gap:.7rem}
+.kicker::before{content:"";width:26px;height:1px;background:var(--brass);opacity:.7}
+.sec-head{max-width:60ch;margin-bottom:clamp(36px,5vw,60px)}
+.sec-head h2,.feature-text h2,.contact-text h2{
+  font-family:var(--font-display);font-size:clamp(2rem,1.3rem + 3.2vw,3.4rem);
+  letter-spacing:-.01em;font-weight:600}
+.sub{color:var(--muted);font-size:1.08rem;margin-top:1rem;max-width:56ch}
+
+.skip{position:fixed;left:12px;top:-60px;z-index:200;background:var(--brass);color:var(--brass-ink);
+  padding:10px 16px;border-radius:8px;font-weight:700;transition:top .2s}
+.skip:focus{top:12px}
+
+/* butoane */
+.btn{display:inline-flex;align-items:center;gap:.6rem;font-weight:700;font-size:1rem;
+  padding:.85em 1.35em;border-radius:var(--r-sm);
+  transition:transform .2s var(--ease),box-shadow .2s,background .2s,border-color .2s,color .2s;
+  border:1px solid transparent;white-space:nowrap}
+.btn svg{width:1.2em;height:1.2em;flex:none}
+.btn:active{transform:translateY(1px)}
+.btn-call{background:var(--brass);color:var(--brass-ink);box-shadow:0 10px 26px -10px var(--brass)}
+.btn-call:hover{transform:translateY(-3px);box-shadow:0 16px 32px -12px var(--brass);background:var(--brass-soft)}
+.btn-call svg{fill:currentColor;stroke:none}
+.btn-wa{background:var(--wa);color:#053a1c}
+.btn-wa svg{fill:currentColor;stroke:none}
+.btn-wa:hover{transform:translateY(-3px);box-shadow:0 14px 28px -12px var(--wa)}
+.btn-ghost{background:transparent;border-color:var(--line2);color:var(--text)}
+.btn-ghost svg{fill:none;stroke:currentColor;stroke-width:2}
+.btn-ghost:hover{border-color:var(--brass);color:var(--brass-soft)}
+
+/* HEADER */
+.site-head{position:sticky;top:0;z-index:100;background:color-mix(in srgb,var(--bg) 84%,transparent);
+  backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.head-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;height:74px}
+.brand{display:flex;align-items:center;gap:.75rem}
+.brand-mark{display:grid;place-items:center;width:44px;height:44px;border-radius:12px;flex:none;
+  background:linear-gradient(140deg,var(--brass),#9d7d2e);color:var(--brass-ink);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.35)}
+.brand-mark svg{width:25px;height:25px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
+.brand-txt{display:flex;flex-direction:column;line-height:1}
+.brand-txt b{font-family:var(--font-display);font-size:1.4rem;letter-spacing:-.01em;font-weight:600}
+.brand-txt i{font-style:normal;font-size:.66rem;letter-spacing:.22em;text-transform:uppercase;color:var(--muted2);margin-top:4px}
+.nav{display:flex;gap:1.7rem}
+.nav a{font-weight:600;font-size:.95rem;color:var(--muted);position:relative;padding:4px 0;transition:color .2s}
+.nav a::after{content:"";position:absolute;left:0;right:100%;bottom:-2px;height:2px;background:var(--brass);transition:right .25s var(--ease)}
+.nav a:hover{color:var(--text)}
+.nav a:hover::after{right:0}
+.head-cta{display:flex;align-items:center;gap:12px}
+.head-cta .btn-ghost{padding:.6em 1em}
+.burger{display:none;flex-direction:column;gap:5px;width:44px;height:44px;align-items:center;justify-content:center;border:1px solid var(--line2);border-radius:11px}
+.burger span{width:20px;height:2px;background:var(--text);transition:.25s}
+
+/* FOOTER */
+.site-foot{background:#101315;border-top:1px solid var(--line);padding:clamp(40px,6vw,64px) 0 40px}
+.foot-inner{display:grid;gap:26px}
+.foot-brand{display:flex;align-items:center;gap:.85rem}
+.foot-brand .brand-mark{width:48px;height:48px}
+.foot-brand b{font-family:var(--font-display);font-size:1.35rem;letter-spacing:-.01em;display:block;font-weight:600}
+.foot-brand span{color:var(--muted);font-size:.85rem}
+.foot-nav{display:flex;gap:1.5rem;flex-wrap:wrap}
+.foot-nav a{color:var(--muted);font-weight:600;font-size:.95rem}
+.foot-nav a:hover{color:var(--brass-soft)}
+.foot-legal{color:var(--muted2);font-size:.82rem;line-height:1.7;border-top:1px solid var(--line);padding-top:22px}
+
+/* reveal */
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}*{animation:none!important}}
+
+/* HERO */
+.hero{position:relative;min-height:clamp(580px,92vh,880px);display:flex;align-items:flex-end;
+  padding-block:clamp(40px,8vh,90px);overflow:hidden;isolation:isolate}
+.hero-media{position:absolute;inset:0;z-index:-2}
+.hero-media img{width:100%;height:100%;object-fit:cover;object-position:center 42%}
+.hero-overlay{position:absolute;inset:0;z-index:-1;background:var(--hero-grad)}
+.hero-inner{position:relative;max-width:780px}
+.eyebrow{display:inline-flex;align-items:center;gap:.6rem;font-weight:700;text-transform:uppercase;
+  letter-spacing:.16em;font-size:.76rem;color:var(--brass-ink);
+  background:var(--brass);padding:.5em 1em;border-radius:999px;margin-bottom:1.4rem}
+.ping{width:9px;height:9px;border-radius:50%;background:var(--brass-ink);box-shadow:0 0 0 0 rgba(26,20,8,.6);animation:ping 1.9s infinite}
+@keyframes ping{0%{box-shadow:0 0 0 0 rgba(26,20,8,.55)}70%{box-shadow:0 0 0 11px rgba(26,20,8,0)}100%{box-shadow:0 0 0 0 rgba(26,20,8,0)}}
+.hero h1{font-family:var(--font-display);color:#fff;font-weight:600;
+  font-size:clamp(2.6rem,1.3rem + 6vw,5.2rem);letter-spacing:-.02em;text-shadow:0 6px 34px rgba(0,0,0,.55)}
+.hero h1 em{font-style:italic;color:var(--brass-soft)}
+.hero .lead{color:#e7e5df;font-size:clamp(1.05rem,1rem + .5vw,1.28rem);max-width:56ch;margin:1.4rem 0 2rem;text-shadow:0 2px 12px rgba(0,0,0,.55)}
+.hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:1.9rem}
+.hero-actions .btn{font-size:1.06rem;padding:1em 1.5em}
+.hero-chips{display:flex;flex-wrap:wrap;gap:.6rem 1.5rem;color:#fff}
+.hero-chips li{display:inline-flex;align-items:center;gap:.45rem;font-weight:600;font-size:.92rem;text-shadow:0 2px 10px rgba(0,0,0,.7)}
+.hero-chips svg{width:18px;height:18px;fill:none;stroke:var(--brass-soft);stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+
+/* TICKER */
+.ticker{background:var(--brass);color:var(--brass-ink);overflow:hidden;
+  -webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);
+          mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+.ticker-track{display:flex;gap:0;width:max-content;animation:scroll 34s linear infinite}
+.ticker:hover .ticker-track{animation-play-state:paused}
+.ticker-track span{display:inline-flex;align-items:center;gap:.5rem;padding:.7em 1.5em;font-family:var(--font-display);
+  font-size:1.1rem;letter-spacing:0;font-weight:600;white-space:nowrap}
+.ticker-track span::after{content:"";width:5px;height:5px;border-radius:50%;background:currentColor;opacity:.5;margin-left:1.3em}
+@keyframes scroll{to{transform:translateX(-50%)}}
+
+/* STATS */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(14px,2vw,28px);
+  margin-top:clamp(48px,7vw,76px)}
+.stat{text-align:center;padding:18px 8px}
+.stat b{display:block;font-family:var(--font-display);font-size:clamp(2.3rem,1.5rem + 3.4vw,4rem);
+  line-height:1;color:var(--brass-soft);font-weight:600;letter-spacing:-.01em}
+.stat span{display:block;color:var(--muted);font-size:.82rem;margin-top:.55rem;text-transform:uppercase;letter-spacing:.09em;font-weight:600}
+
+/* SERVICII */
+.services{display:grid;gap:clamp(16px,2vw,24px);grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;
+  display:flex;flex-direction:column;transition:transform .3s var(--ease),border-color .3s,box-shadow .3s;position:relative}
+.card:hover{transform:translateY(-6px);border-color:color-mix(in srgb,var(--brass) 55%,var(--line));box-shadow:var(--shadow)}
+.card-media{aspect-ratio:16/10;overflow:hidden;background:var(--surface2)}
+.card-media img{width:100%;height:100%;object-fit:cover;transition:transform .6s var(--ease)}
+.card:hover .card-media img{transform:scale(1.06)}
+.card-body{padding:26px;display:flex;flex-direction:column;flex:1;gap:.5rem}
+.card-ico{display:grid;place-items:center;width:52px;height:52px;border-radius:13px;margin-bottom:.4rem;
+  background:color-mix(in srgb,var(--brass) 15%,transparent);color:var(--brass-soft)}
+.card-ico svg{width:28px;height:28px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.card-tag{font-size:.68rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--emerald)}
+.card h3{font-family:var(--font-display);font-size:1.4rem;font-weight:600;letter-spacing:-.01em}
+.card p{color:var(--muted);font-size:.96rem;flex:1}
+.card-link{display:inline-flex;align-items:center;gap:.45rem;font-weight:700;color:var(--text);margin-top:.5rem;align-self:flex-start}
+.card-link svg{width:18px;height:18px;fill:none;stroke:var(--brass);stroke-width:2.4;transition:transform .25s var(--ease)}
+.card-link:hover{color:var(--brass-soft)}
+.card-link:hover svg{transform:translateX(5px)}
+
+/* FEATURE / DE CE NOI */
+.feature{display:grid;grid-template-columns:1fr 1.05fr;gap:clamp(30px,5vw,70px);align-items:center}
+.feature-media{position:relative;border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--shadow)}
+.feature-media img{width:100%;aspect-ratio:3/4;object-fit:cover}
+.feature-badge{position:absolute;left:18px;bottom:18px;display:flex;align-items:center;gap:.7rem;
+  background:var(--brass);color:var(--brass-ink);padding:.8rem 1.1rem;border-radius:14px;box-shadow:0 12px 30px rgba(0,0,0,.45)}
+.feature-badge svg{width:28px;height:28px;fill:none;stroke:currentColor;stroke-width:2}
+.feature-badge b{font-family:var(--font-display);font-size:1.4rem;font-weight:600;display:block;line-height:1}
+.feature-badge span{font-size:.74rem;opacity:.85}
+.why{display:grid;gap:1.3rem;margin:2rem 0}
+.why li{display:flex;gap:1rem}
+.why-ico{flex:none;display:grid;place-items:center;width:48px;height:48px;border-radius:12px;
+  background:color-mix(in srgb,var(--brass) 14%,transparent);color:var(--brass-soft)}
+.why-ico svg{width:25px;height:25px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.why b{font-size:1.1rem;display:block;margin-bottom:.15rem;font-family:var(--font-body);font-weight:700}
+.why p{color:var(--muted);font-size:.95rem}
+
+/* ACOPERIRE */
+.areas{display:flex;flex-wrap:wrap;gap:.7rem;margin-bottom:2.4rem}
+.area-pill{display:inline-flex;align-items:center;gap:.45rem;padding:.6em 1.15em;border-radius:999px;
+  border:1px solid var(--line2);background:var(--surface);font-weight:600;transition:.25s}
+.area-pill:hover{border-color:var(--brass);color:var(--brass-soft);transform:translateY(-2px)}
+.area-pill svg{width:16px;height:16px;fill:none;stroke:var(--brass);stroke-width:2}
+.map-cta{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:18px;
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:clamp(20px,3vw,30px)}
+.map-cta b{font-size:1.15rem}
+.map-cta span{display:block;color:var(--muted);font-size:.92rem}
+
+/* RECENZII */
+.rating-line{display:flex;align-items:center;gap:.6rem;margin-top:1rem;color:var(--muted);flex-wrap:wrap}
+.rating-line b{color:var(--text)}
+.stars{display:inline-flex;gap:2px}
+.stars .star{width:18px;height:18px;fill:var(--brass);stroke:none}
+.reviews{display:grid;gap:clamp(16px,2vw,22px);grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.review{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:28px;display:flex;flex-direction:column;gap:1rem}
+.review .stars .star{width:20px;height:20px}
+.review blockquote{font-size:1.08rem;line-height:1.55;flex:1;font-family:var(--font-display);font-weight:500;font-style:italic;color:#eae7e0}
+.review figcaption{display:flex;align-items:center;gap:.7rem}
+.avatar{display:grid;place-items:center;width:44px;height:44px;border-radius:50%;
+  background:linear-gradient(140deg,var(--brass),#9d7d2e);color:var(--brass-ink);font-weight:800;font-size:1.05rem;flex:none}
+.review figcaption b{display:block}
+.review figcaption i{font-style:normal;color:var(--muted);font-size:.85rem}
+.review-note{margin-top:1.6rem;color:var(--muted2);font-size:.86rem;display:flex;align-items:center;gap:.5rem}
+.review-note svg{width:16px;height:16px;fill:var(--brass);stroke:none;flex:none}
+
+/* CONTACT */
+.contact-inner{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(30px,5vw,60px);align-items:start}
+.contact-actions{display:flex;flex-wrap:wrap;gap:14px;margin:1.8rem 0}
+.contact-actions .btn{font-size:1.06rem;padding:1em 1.5em}
+.contact-list{display:grid;gap:.9rem}
+.contact-list li{display:flex;align-items:center;gap:.8rem;color:var(--muted)}
+.contact-list svg{width:22px;height:22px;fill:none;stroke:var(--brass);stroke-width:2;flex:none}
+.hours{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:clamp(22px,3vw,32px)}
+.hours h3{font-family:var(--font-display);font-size:1.5rem;font-weight:600;margin-bottom:1rem}
+.hours table{width:100%;border-collapse:collapse}
+.hours td{padding:.85rem 0;border-bottom:1px solid var(--line);font-size:.96rem;vertical-align:top}
+.hours td:last-child{text-align:right;color:var(--muted);font-weight:600;white-space:nowrap;padding-left:14px}
+.hours td.hl{color:var(--brass-soft);font-weight:700}
+.hours td.closed{color:var(--muted2)}
+.hours tr:last-child td{border-bottom:0}
+.hours-note{display:flex;align-items:center;gap:.6rem;margin-top:1.1rem;color:var(--muted);font-size:.88rem}
+.hours-note svg{width:20px;height:20px;fill:none;stroke:var(--brass);stroke-width:2;flex:none}
+
+/* DOCK */
+.dock{position:fixed;right:18px;bottom:18px;z-index:90;display:flex;flex-direction:column;gap:12px}
+.dock-btn{position:relative;display:grid;place-items:center;width:58px;height:58px;border-radius:50%;
+  box-shadow:0 12px 30px rgba(0,0,0,.5);transition:transform .2s var(--ease)}
+.dock-btn svg{width:28px;height:28px;fill:currentColor}
+.dock-btn:hover{transform:scale(1.08)}
+.dock-call{background:var(--brass);color:var(--brass-ink)}
+.dock-call svg{width:25px;height:25px}
+.dock-wa{background:var(--wa);color:#fff;animation:bob 2.6s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+.dock-wa::after{content:"";position:absolute;inset:0;border-radius:50%;box-shadow:0 0 0 0 var(--wa);animation:ping2 2.5s infinite}
+@keyframes ping2{0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--wa) 70%,transparent)}70%{box-shadow:0 0 0 16px transparent}100%{box-shadow:0 0 0 0 transparent}}
+@media (min-width:881px){.dock{right:24px;bottom:24px}}
+
+/* RESPONSIVE */
+@media (max-width:880px){
+  .nav{position:fixed;inset:74px 0 auto 0;flex-direction:column;gap:0;background:var(--bg);
+    border-bottom:1px solid var(--line);padding:8px var(--pad) 18px;transform:translateY(-130%);
+    transition:transform .35s var(--ease);box-shadow:var(--shadow)}
+  .nav.open{transform:none}
+  .nav a{padding:14px 0;border-bottom:1px solid var(--line);font-size:1.05rem}
+  .nav a::after{display:none}
+  .burger{display:flex}
+  .head-cta .btn-ghost span{display:none}
+  .head-cta .btn-ghost{padding:.6em}
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .feature{grid-template-columns:1fr}
+  .feature-media{max-width:440px;margin-inline:auto;order:-1}
+  .contact-inner{grid-template-columns:1fr}
+}
+@media (max-width:480px){
+  .hero-actions .btn{width:100%;justify-content:center}
+}
+</style>
+</head>
+<body>
+
+<a class="skip" href="#main">Sari la conținut</a>
+
+<header class="site-head" id="top">
+  <div class="wrap head-inner">
+    <a class="brand" href="#top" aria-label="Precizio Craft — acasă">
+      <span class="brand-mark"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M6 14l18-8 18 8-18 8z"/><path d="M6 14v20l18 8 18-8V14"/><path d="M24 22v20"/><path d="M15 18l18 8"/></svg></span>
+      <span class="brand-txt"><b>Precizio Craft</b><i>Atelier de precizie · București</i></span>
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#servicii">Servicii</a>
+      <a href="#dece">De ce noi</a>
+      <a href="#acoperire">Acoperire</a>
+      <a href="#recenzii">Recenzii</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="head-cta">
+      <a class="btn btn-ghost" href="tel:+40769655359"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 6l6 1 2 9-5 4a24 24 0 0 0 11 11l4-5 9 2 1 6a4 4 0 0 1-4 4A34 34 0 0 1 10 10a4 4 0 0 1 4-4z"/></svg><span>0769 655 359</span></a>
+      <button class="burger" aria-label="Meniu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-media"><img src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1600&q=80" alt="Atelier de tâmplărie de precizie Precizio Craft — mobilier din lemn masiv" width="1600" height="1067" fetchpriority="high"></div>
+    <div class="hero-overlay"></div>
+    <div class="wrap hero-inner">
+      <p class="eyebrow reveal"><span class="ping"></span> Atelier de tâmplărie de precizie · București</p>
+      <h1 class="reveal">Mobilă la comandă,<br><em>cu finisaj impecabil.</em></h1>
+      <p class="lead reveal">Proiectăm și executăm mobilier personalizat pe măsura casei tale — bucătării, dressing, mobilier din lemn masiv sau MDF vopsit. Precizie în fiecare îmbinare, atenție la fiecare detaliu.</p>
+      <div class="hero-actions reveal">
+        <a class="btn btn-call" href="tel:+40769655359"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 6l6 1 2 9-5 4a24 24 0 0 0 11 11l4-5 9 2 1 6a4 4 0 0 1-4 4A34 34 0 0 1 10 10a4 4 0 0 1 4-4z"/></svg><span>Sună acum · 0769 655 359</span></a>
+        <a class="btn btn-wa" href="https://wa.me/40769655359?text=Bun%C4%83%20ziua!%20Am%20v%C4%83zut%20site-ul%20Precizio%20Craft%20%C8%99i%20doresc%20o%20ofert%C4%83%20pentru%20mobil%C4%83%20la%20comand%C4%83." target="_blank" rel="noopener"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11 19.6L3 29l6.6-2a13 13 0 1 0 6.4-24zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-4 1 1-3.9-.3-.4A10.6 10.6 0 1 1 16 26.6zm6-7.9c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.8.2s-.9 1.1-1.1 1.3-.4.2-.8 0a8.6 8.6 0 0 1-4.3-3.7c-.3-.6.3-.5.9-1.8.1-.2 0-.4 0-.6s-.8-1.9-1-2.6c-.3-.7-.6-.6-.8-.6h-.7a1.3 1.3 0 0 0-1 .4 4 4 0 0 0-1.2 2.9 6.9 6.9 0 0 0 1.4 3.6 15.7 15.7 0 0 0 6 5.3c2.2 1 3 1 4.1.9a3.5 3.5 0 0 0 2.3-1.6 2.9 2.9 0 0 0 .2-1.6c0-.2-.3-.3-.6-.5z"/></svg><span>Scrie pe WhatsApp</span></a>
+      </div>
+      <ul class="hero-chips reveal">
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13l4 4 10-12"/></svg> Proiect & măsurători</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13l4 4 10-12"/></svg> Finisaje fine</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13l4 4 10-12"/></svg> Montaj de precizie</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- TICKER -->
+  <div class="ticker" aria-label="Ce lucrăm">
+    <div class="ticker-track">
+      <span>Mobilier pe măsură</span><span>Bucătării</span><span>Dressing</span><span>Lemn masiv</span><span>MDF vopsit</span><span>Restaurări</span><span>Finisaje fine</span>
+      <span>Mobilier pe măsură</span><span>Bucătării</span><span>Dressing</span><span>Lemn masiv</span><span>MDF vopsit</span><span>Restaurări</span><span>Finisaje fine</span>
+    </div>
+  </div>
+
+  <!-- STATS -->
+  <section class="stats wrap">
+    <div class="stat reveal"><b>5.0★</b><span>rating pe Google</span></div>
+    <div class="stat reveal"><b>100%</b><span>pe măsura ta</span></div>
+    <div class="stat reveal"><b>1:1</b><span>consultanță & proiect</span></div>
+    <div class="stat reveal"><b>0</b><span>compromisuri la finisaj</span></div>
+  </section>
+
+  <!-- SERVICII -->
+  <section class="section" id="servicii">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="kicker">Ce facem în atelier</p>
+        <h2>Mobilier gândit pentru spațiul tău</h2>
+        <p class="sub">Fiecare proiect pornește de la măsurători exacte și se termină cu un finisaj pe care îl poți atinge. Alege serviciul și hai să discutăm.</p>
+      </header>
+      <div class="services">
+
+        <article class="card reveal">
+          <div class="card-media"><img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=800&q=80" alt="Mobilier la comandă pe măsură — Precizio Craft" width="800" height="500" loading="lazy"></div>
+          <div class="card-body">
+            <span class="card-ico"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="6" y="10" width="36" height="28" rx="2"/><path d="M6 22h36M18 22v16M30 10v12"/></svg></span>
+            <span class="card-tag">Cel mai cerut</span>
+            <h3>Mobilier la comandă pe măsură</h3>
+            <p>Corpuri, biblioteci, mobilier de living și dormitor executate exact pe dimensiunile spațiului tău. Nimic standard — totul croit pe casa ta.</p>
+            <a class="card-link" href="https://wa.me/40769655359?text=Bun%C4%83%20ziua!%20Doresc%20o%20ofert%C4%83%20pentru%3A%20Mobilier%20la%20comand%C4%83%20pe%20m%C4%83sur%C4%83." target="_blank" rel="noopener">Cere ofertă <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-media"><img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=800&q=80" alt="Bucătării la comandă — Precizio Craft" width="800" height="500" loading="lazy"></div>
+          <div class="card-body">
+            <span class="card-ico"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="7" y="8" width="34" height="32" rx="2"/><path d="M7 24h34M16 8v16M32 8v16M20 32h8"/></svg></span>
+            <span class="card-tag">La cheie</span>
+            <h3>Bucătării la comandă</h3>
+            <p>Bucătării ergonomice, cu fronturi din MDF vopsit sau furnir, blaturi la alegere și sisteme de feronerie de calitate. Proiectate să fie folosite zilnic, ani de zile.</p>
+            <a class="card-link" href="https://wa.me/40769655359?text=Bun%C4%83%20ziua!%20Doresc%20o%20ofert%C4%83%20pentru%3A%20Buc%C4%83t%C4%83rie%20la%20comand%C4%83." target="_blank" rel="noopener">Cere ofertă <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-media"><img src="https://images.unsplash.com/photo-1558997519-83ea9252edf8?auto=format&fit=crop&w=800&q=80" alt="Dressing și dulapuri la comandă — Precizio Craft" width="800" height="500" loading="lazy"></div>
+          <div class="card-body">
+            <span class="card-ico"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="9" y="6" width="30" height="36" rx="2"/><path d="M24 6v36"/><circle cx="20" cy="24" r="1.4"/><circle cx="28" cy="24" r="1.4"/></svg></span>
+            <span class="card-tag">Optimizare spațiu</span>
+            <h3>Dressing & dulapuri</h3>
+            <p>Dressinguri și dulapuri glisante care folosesc fiecare centimetru. Compartimentare gândită împreună cu tine, până la ultimul sertar.</p>
+            <a class="card-link" href="https://wa.me/40769655359?text=Bun%C4%83%20ziua!%20Doresc%20o%20ofert%C4%83%20pentru%3A%20Dressing%20%2F%20dulap%20la%20comand%C4%83." target="_blank" rel="noopener">Cere ofertă <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-media"><img src="https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&w=800&q=80" alt="Lemn masiv și MDF vopsit — Precizio Craft" width="800" height="500" loading="lazy"></div>
+          <div class="card-body">
+            <span class="card-ico"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="18"/><circle cx="24" cy="24" r="11"/><circle cx="24" cy="24" r="4"/></svg></span>
+            <span class="card-tag">Materiale premium</span>
+            <h3>Lemn masiv & MDF vopsit</h3>
+            <p>Stejar, nuc, frasin sau MDF vopsit în orice nuanță. Alegem împreună materialul potrivit pentru aspectul și bugetul tău.</p>
+            <a class="card-link" href="https://wa.me/40769655359?text=Bun%C4%83%20ziua!%20Doresc%20o%20ofert%C4%83%20pentru%3A%20Mobilier%20din%20lemn%20masiv%20%2F%20MDF%20vopsit." target="_blank" rel="noopener">Cere ofertă <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-media"><img src="https://images.unsplash.com/photo-1572297870735-d5a3c0f5da5e?auto=format&fit=crop&w=800&q=80" alt="Restaurări și finisaje fine — Precizio Craft" width="800" height="500" loading="lazy"></div>
+          <div class="card-body">
+            <span class="card-ico"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M30 8l10 10-20 20-10 2 2-10z"/><path d="M26 12l10 10"/></svg></span>
+            <span class="card-tag">Grijă pentru detaliu</span>
+            <h3>Restaurări & finisaje</h3>
+            <p>Readucem la viață mobilierul de valoare: reparații, refinisări și lăcuiri fine. Rezultatul arată curat, natural și rezistent.</p>
+            <a class="card-link" href="https://wa.me/40769655359?text=Bun%C4%83%20ziua!%20Doresc%20o%20ofert%C4%83%20pentru%3A%20Restaur%C4%83ri%20%2F%20finisaje." target="_blank" rel="noopener">Cere ofertă <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-media"><img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80" alt="Consultanță și măsurători la fața locului — Precizio Craft" width="800" height="500" loading="lazy"></div>
+          <div class="card-body">
+            <span class="card-ico"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M6 30l12-12 8 8 16-16"/><path d="M42 10v10h-10"/><path d="M6 40h36"/></svg></span>
+            <span class="card-tag">Fără costuri surpriză</span>
+            <h3>Consultanță & măsurători</h3>
+            <p>Venim la tine, măsurăm exact și îți propunem soluții. Primești un proiect clar și o ofertă transparentă înainte să începem.</p>
+            <a class="card-link" href="https://wa.me/40769655359?text=Bun%C4%83%20ziua!%20Doresc%20o%20ofert%C4%83%20pentru%3A%20Consultan%C8%9B%C4%83%20%C8%99i%20m%C4%83sur%C4%83tori." target="_blank" rel="noopener">Cere ofertă <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- DE CE NOI -->
+  <section class="section section-alt" id="dece">
+    <div class="wrap feature">
+      <div class="feature-media reveal">
+        <img src="https://images.unsplash.com/photo-1601058268499-e52f16e15c67?auto=format&fit=crop&w=1000&q=80" alt="Detaliu îmbinare de precizie în atelierul Precizio Craft" width="1000" height="1333" loading="lazy">
+        <div class="feature-badge"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 4l5 5 7-1 1 7 5 5-5 5-1 7-7-1-5 5-5-5-7 1-1-7-5-5 5-5 1-7 7 1z"/><path d="M17 24l5 5 9-11"/></svg><div><b>Precizie</b><span>în fiecare îmbinare</span></div></div>
+      </div>
+      <div class="feature-text">
+        <p class="kicker reveal">De ce Precizio Craft</p>
+        <h2 class="reveal">Lucrăm curat, exact și cu răspundere</h2>
+        <ul class="why">
+          <li class="reveal"><span class="why-ico"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M6 30l12-12 8 8 16-16"/><path d="M42 10v10h-10"/></svg></span><div><b>Măsurători exacte</b><p>Începem de la milimetru. Mobilierul se așază perfect, fără ajustări forțate la montaj.</p></div></li>
+          <li class="reveal"><span class="why-ico"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="18"/><circle cx="24" cy="24" r="7"/></svg></span><div><b>Finisaje fine</b><p>Suprafețe netede, muchii tratate corect, lac aplicat uniform. Detaliul se vede și se simte.</p></div></li>
+          <li class="reveal"><span class="why-ico"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 4l16 6v12c0 11-7 17-16 22-9-5-16-11-16-22V10z"/><path d="M17 24l5 5 9-11"/></svg></span><div><b>Materiale de calitate</b><p>Lemn masiv, MDF vopsit și feronerie durabilă. Îți spunem exact ce folosim și de ce.</p></div></li>
+          <li class="reveal"><span class="why-ico"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 40V22l16-12 16 12v18H28V28h-8v12z"/></svg></span><div><b>De la proiect la montaj</b><p>Un singur atelier îți duce ideea de la schiță la mobilierul montat în casă. Fără intermediari.</p></div></li>
+        </ul>
+        <a class="btn btn-call reveal" href="tel:+40769655359"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 6l6 1 2 9-5 4a24 24 0 0 0 11 11l4-5 9 2 1 6a4 4 0 0 1-4 4A34 34 0 0 1 10 10a4 4 0 0 1 4-4z"/></svg><span>0769 655 359</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACOPERIRE -->
+  <section class="section" id="acoperire">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="kicker">Unde lucrăm</p>
+        <h2>București & Ilfov</h2>
+        <p class="sub">Atelierul nostru este în Sectorul 4. Ne deplasăm pentru măsurători și montaj în tot Bucureștiul și zonele limitrofe din Ilfov.</p>
+      </header>
+      <div class="areas reveal">
+        <span class="area-pill"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z"/><circle cx="24" cy="20" r="5"/></svg>Sector 4</span>
+        <span class="area-pill"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z"/><circle cx="24" cy="20" r="5"/></svg>Berceni</span>
+        <span class="area-pill"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z"/><circle cx="24" cy="20" r="5"/></svg>Tineretului</span>
+        <span class="area-pill"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z"/><circle cx="24" cy="20" r="5"/></svg>București</span>
+        <span class="area-pill"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z"/><circle cx="24" cy="20" r="5"/></svg>Popești-Leordeni</span>
+        <span class="area-pill"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z"/><circle cx="24" cy="20" r="5"/></svg>Ilfov</span>
+      </div>
+      <div class="map-cta reveal">
+        <div>
+          <b>Drumul Jilavei 115, Sector 4</b>
+          <span>București</span>
+        </div>
+        <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=Precizio%20Craft%20Drumul%20Jilavei%20115%20Bucure%C8%99ti" target="_blank" rel="noopener"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z"/><circle cx="24" cy="20" r="5"/></svg><span>Deschide în Google Maps</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- RECENZII -->
+  <section class="section section-alt" id="recenzii">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="kicker">Ce spun clienții</p>
+        <h2>Apreciați pentru grija la detaliu</h2>
+        <div class="rating-line reveal"><span class="stars"><svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z"/></svg><svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z"/></svg><svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z"/></svg><svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z"/></svg><svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z"/></svg></span> <b>5,0</b> pe Google · 2 recenzii</div>
+      </header>
+      <div class="reviews">
+
+        <figure class="review reveal">
+          <span class="stars"><svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z"/></svg><svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z"/></svg><svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z"/></svg><svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z"/></svg><svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z"/></svg></span>
+          <blockquote>Lucrare curată, exact pe măsură. Finisajul se vede că e făcut cu atenție — recomand cu încredere.</blockquote>
+          <figcaption><span class="avatar">C</span><span><b>Client Precizio Craft</b><i>Recenzie Google · 5★</i></span></figcaption>
+        </figure>
+
+        <figure class="review reveal">
+          <span class="stars"><svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z"/></svg><svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z"/></svg><svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z"/></svg><svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z"/></svg><svg viewBox="0 0 24 24" class="star" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z"/></svg></span>
+          <blockquote>Oameni serioși și punctuali. Au măsurat corect, au respectat termenul și montajul a fost impecabil.</blockquote>
+          <figcaption><span class="avatar">C</span><span><b>Client Precizio Craft</b><i>Recenzie Google · 5★</i></span></figcaption>
+        </figure>
+
+      </div>
+      <p class="review-note"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.7L18.5 22 12 18.3 5.5 22l1.7-8L2 9.3l7-.8z"/></svg> Rating real 5,0★ din 2 recenzii pe Google. Testimonialele de mai sus sunt ilustrative.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT / CTA -->
+  <section class="section contact" id="contact">
+    <div class="wrap contact-inner">
+      <div class="contact-text">
+        <p class="kicker reveal">Contact</p>
+        <h2 class="reveal">Hai să dăm formă proiectului tău.</h2>
+        <p class="sub reveal">Sună-ne sau scrie-ne pe WhatsApp. Îți răspundem cu întrebările potrivite și stabilim o măsurătoare.</p>
+        <div class="contact-actions reveal">
+          <a class="btn btn-call" href="tel:+40769655359"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 6l6 1 2 9-5 4a24 24 0 0 0 11 11l4-5 9 2 1 6a4 4 0 0 1-4 4A34 34 0 0 1 10 10a4 4 0 0 1 4-4z"/></svg><span>0769 655 359</span></a>
+          <a class="btn btn-wa" href="https://wa.me/40769655359?text=Bun%C4%83%20ziua!%20Am%20v%C4%83zut%20site-ul%20Precizio%20Craft%20%C8%99i%20doresc%20o%20ofert%C4%83%20pentru%20mobil%C4%83%20la%20comand%C4%83." target="_blank" rel="noopener"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11 19.6L3 29l6.6-2a13 13 0 1 0 6.4-24zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-4 1 1-3.9-.3-.4A10.6 10.6 0 1 1 16 26.6zm6-7.9c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.8.2s-.9 1.1-1.1 1.3-.4.2-.8 0a8.6 8.6 0 0 1-4.3-3.7c-.3-.6.3-.5.9-1.8.1-.2 0-.4 0-.6s-.8-1.9-1-2.6c-.3-.7-.6-.6-.8-.6h-.7a1.3 1.3 0 0 0-1 .4 4 4 0 0 0-1.2 2.9 6.9 6.9 0 0 0 1.4 3.6 15.7 15.7 0 0 0 6 5.3c2.2 1 3 1 4.1.9a3.5 3.5 0 0 0 2.3-1.6 2.9 2.9 0 0 0 .2-1.6c0-.2-.3-.3-.6-.5z"/></svg><span>WhatsApp</span></a>
+        </div>
+        <ul class="contact-list reveal">
+          <li><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44s14-12 14-24a14 14 0 1 0-28 0c0 12 14 24 14 24z"/><circle cx="24" cy="20" r="5"/></svg><span>Drumul Jilavei 115, Sector 4, București</span></li>
+          <li><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 6l6 1 2 9-5 4a24 24 0 0 0 11 11l4-5 9 2 1 6a4 4 0 0 1-4 4A34 34 0 0 1 10 10a4 4 0 0 1 4-4z"/></svg><span>0769 655 359</span></li>
+        </ul>
+      </div>
+      <div class="hours reveal">
+        <h3>Program</h3>
+        <table>
+          <tr><td>Luni – Vineri</td><td class="hl">09:00 – 18:00</td></tr>
+          <tr><td>Sâmbătă</td><td class="closed">Închis</td></tr>
+          <tr><td>Duminică</td><td class="closed">Închis</td></tr>
+        </table>
+        <p class="hours-note"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="18"/><path d="M24 13v11l8 5"/></svg> Ne poți scrie oricând pe WhatsApp — revenim în timpul programului.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap foot-inner">
+    <div class="foot-brand">
+      <span class="brand-mark"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M6 14l18-8 18 8-18 8z"/><path d="M6 14v20l18 8 18-8V14"/><path d="M24 22v20"/><path d="M15 18l18 8"/></svg></span>
+      <div><b>Precizio Craft</b><span>Mobilă la comandă · Atelier de tâmplărie de precizie · București</span></div>
+    </div>
+    <nav class="foot-nav" aria-label="Footer">
+      <a href="#servicii">Servicii</a><a href="#dece">De ce noi</a><a href="#acoperire">Acoperire</a><a href="#recenzii">Recenzii</a><a href="#contact">Contact</a>
+    </nav>
+    <p class="foot-legal">© <span id="y"></span> Precizio Craft · Drumul Jilavei 115, Sector 4, București · Tel: 0769 655 359<br>Mobilier la comandă · Bucătării · Dressing · Lemn masiv & MDF vopsit · Restaurări & finisaje. Precizie & finisaj impecabil.</p>
+  </div>
+</footer>
+
+<!-- BUTOANE FLOTANTE -->
+<div class="dock">
+  <a class="dock-btn dock-call" href="tel:+40769655359" aria-label="Sună acum la 0769 655 359"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 6l6 1 2 9-5 4a24 24 0 0 0 11 11l4-5 9 2 1 6a4 4 0 0 1-4 4A34 34 0 0 1 10 10a4 4 0 0 1 4-4z"/></svg></a>
+  <a class="dock-btn dock-wa" href="https://wa.me/40769655359?text=Bun%C4%83%20ziua!%20Am%20v%C4%83zut%20site-ul%20Precizio%20Craft%20%C8%99i%20doresc%20o%20ofert%C4%83%20pentru%20mobil%C4%83%20la%20comand%C4%83." target="_blank" rel="noopener" aria-label="Scrie pe WhatsApp"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11 19.6L3 29l6.6-2a13 13 0 1 0 6.4-24zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-4 1 1-3.9-.3-.4A10.6 10.6 0 1 1 16 26.6zm6-7.9c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.8.2s-.9 1.1-1.1 1.3-.4.2-.8 0a8.6 8.6 0 0 1-4.3-3.7c-.3-.6.3-.5.9-1.8.1-.2 0-.4 0-.6s-.8-1.9-1-2.6c-.3-.7-.6-.6-.8-.6h-.7a1.3 1.3 0 0 0-1 .4 4 4 0 0 0-1.2 2.9 6.9 6.9 0 0 0 1.4 3.6 15.7 15.7 0 0 0 6 5.3c2.2 1 3 1 4.1.9a3.5 3.5 0 0 0 2.3-1.6 2.9 2.9 0 0 0 .2-1.6c0-.2-.3-.3-.6-.5z"/></svg></a>
+</div>
+
+<script>
+(function(){
+  // an curent în footer
+  var y=document.getElementById('y'); if(y) y.textContent=new Date().getFullYear();
+
+  // meniu mobil
+  var burger=document.querySelector('.burger'), nav=document.querySelector('.nav');
+  if(burger&&nav){
+    burger.addEventListener('click',function(){
+      var open=nav.classList.toggle('open');
+      burger.setAttribute('aria-expanded',open?'true':'false');
+    });
+    nav.querySelectorAll('a').forEach(function(a){
+      a.addEventListener('click',function(){nav.classList.remove('open');burger.setAttribute('aria-expanded','false');});
+    });
+  }
+
+  // reveal on scroll
+  var els=document.querySelectorAll('.reveal');
+  if('IntersectionObserver'in window){
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});
+    },{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+    els.forEach(function(el){io.observe(el);});
+  }else{els.forEach(function(el){el.classList.add('in');});}
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+================================================================================
+📋 SITEURI DE TESTAT — LEADS-FINDER BUCUREȘTI (firme REALE fără site + mockup live)
+================================================================================
+Notă: firme reale din București, verificate pe Google Maps (fără câmp Website =
+nu dețin site propriu), cu telefon real din listarea Maps. Fiecare are un mockup
+live funcțional (butoane Sună / WhatsApp / Hartă cu datele lor reale) pe GitHub
+Pages. De sunat / trimis pitch. Generat în runde de câte 5.
+================================================================================
+
+--------------------------------------------------------------------------------
+🪑 1. Daz Design Furniture (Mobilă la comandă / Sector 4)
+--------------------------------------------------------------------------------
+*   Locație: Strada Melinești 21, Bl 12 Ap 64, Sector 4, București
+*   Telefon: 0738 044 191
+*   Program de Lucru: Flexibil, la programare (disponibili non-stop)
+*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/mobila_daz_design_furniture.html
+*   Stare: Activ, NU deține site web propriu. Reputație 4.8★ (30 recenzii Google). Verificat Google Maps 2026-07-08.
+*   Pitch (Mesaj WhatsApp de trimis):
+Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în București. Am găsit atelierul dumneavoastră Daz Design Furniture și recenziile foarte bune, dar am observat că nu aveți un site web de prezentare propriu. Am creat un prototip de site mobil premium, unde clienții vă găsesc rapid serviciile, programul și vă pot trimite direct o cerere de ofertă pe WhatsApp. Îl puteți testa live aici:
+https://sami111-afk.github.io/leads-finder/mockupuri/mobila_daz_design_furniture.html
+
+Dacă vă place și doriți să îl adaptăm cu detaliile exacte și să îl lansăm ca site oficial, vă ajut cu mare drag. O zi excelentă!
+
+--------------------------------------------------------------------------------
+🪑 2. Precizio Craft (Mobilă la comandă / Sector 4)
+--------------------------------------------------------------------------------
+*   Locație: Drumul Jilavei 115, Sector 4, București
+*   Telefon: 0769 655 359
+*   Program de Lucru: Luni - Vineri: 09:00 - 18:00 | Sâmbătă - Duminică: Închis
+*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/mobila_precizio_craft.html
+*   Stare: Activ, NU deține site web propriu. Reputație 5.0★ (2 recenzii Google). Verificat Google Maps 2026-07-08.
+*   Pitch (Mesaj WhatsApp de trimis):
+Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în București. Am descoperit atelierul Precizio Craft, dar am observat că nu aveți un site web de prezentare propriu. Am creat un prototip de site mobil premium, unde clienții vă găsesc rapid serviciile, programul și vă pot cere o ofertă direct pe WhatsApp. Îl puteți testa live aici:
+https://sami111-afk.github.io/leads-finder/mockupuri/mobila_precizio_craft.html
+
+Dacă vă place și doriți să îl adaptăm cu detaliile exacte și să îl lansăm ca site oficial, vă ajut cu mare drag. O zi excelentă!
+
+--------------------------------------------------------------------------------
+🚗 3. CARKERA Detailing București (Detailing auto / Str. Lugoj)
+--------------------------------------------------------------------------------
+*   Locație: Strada Lugoj 18, București
+*   Telefon: 0724 174 667
+*   Program de Lucru: Luni - Sâmbătă: 09:00 - 19:00 | Duminică: 11:00 - 17:00
+*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/detailing_carkera_bucuresti.html
+*   Stare: Activ, NU deține site web propriu. Reputație 4.4★ (7 recenzii Google). Verificat Google Maps 2026-07-08.
+*   Pitch (Mesaj WhatsApp de trimis):
+Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în București. Am găsit CARKERA Detailing, dar am observat că nu aveți un site web de prezentare propriu. Am creat un prototip de site mobil premium, unde clienții vă găsesc rapid serviciile, programul și vă pot face o programare direct pe WhatsApp. Îl puteți testa live aici:
+https://sami111-afk.github.io/leads-finder/mockupuri/detailing_carkera_bucuresti.html
+
+Dacă vă place și doriți să îl adaptăm cu detaliile exacte și să îl lansăm ca site oficial, vă ajut cu mare drag. O zi excelentă!
+
+--------------------------------------------------------------------------------
+✨ 4. Detailing Auto (Studio detailing / Sector 2)
+--------------------------------------------------------------------------------
+*   Locație: Strada Locotenent Alexandru Paulescu 15, Sector 2, București
+*   Telefon: 0762 300 900
+*   Program de Lucru: Luni - Vineri: 09:00 - 18:00 | Sâmbătă: 09:00 - 14:00 | Duminică: Închis
+*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/detailing_auto_paulescu.html
+*   Stare: Activ, NU deține site web propriu. Reputație excelentă 4.9★ (17 recenzii Google). Verificat Google Maps 2026-07-08.
+*   Pitch (Mesaj WhatsApp de trimis):
+Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în București. Am găsit studioul dumneavoastră de detailing și recenziile excelente (4.9★), dar am observat că nu aveți un site web propriu. Am creat un prototip de site mobil premium, unde clienții vă găsesc rapid serviciile, programul și vă pot face o programare direct pe WhatsApp. Îl puteți testa live aici:
+https://sami111-afk.github.io/leads-finder/mockupuri/detailing_auto_paulescu.html
+
+Dacă vă place și doriți să îl adaptăm cu detaliile exacte și să îl lansăm ca site oficial, vă ajut cu mare drag. O zi excelentă!
+
+--------------------------------------------------------------------------------
+💡 5. Polish Faruri & Folie Faruri (Restaurare faruri / Sector 2)
+--------------------------------------------------------------------------------
+*   Locație: Șoseaua Ștefan cel Mare 7-9, Sector 2, București
+*   Telefon: 0770 690 653
+*   Program de Lucru: Flexibil, la programare (telefonic)
+*   Link Prototip Live: https://sami111-afk.github.io/leads-finder/mockupuri/detailing_polish_faruri.html
+*   Stare: Activ, NU deține site web propriu. Reputație 4.0★ (4 recenzii Google). Verificat Google Maps 2026-07-08.
+*   Pitch (Mesaj WhatsApp de trimis):
+Bună ziua! Numele meu este Savu Mihai Samuel, sunt programator local în București. Am găsit serviciul dumneavoastră de polish și folie faruri, dar am observat că nu aveți un site web propriu. Am creat un prototip de site mobil premium, unde clienții vă găsesc rapid serviciile și vă pot face o programare direct pe WhatsApp. Îl puteți testa live aici:
+https://sami111-afk.github.io/leads-finder/mockupuri/detailing_polish_faruri.html
+
+Dacă vă place și doriți să îl adaptăm cu detaliile exacte și să îl lansăm ca site oficial, vă ajut cu mare drag. O zi excelentă!
