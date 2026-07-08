@@ -1,0 +1,373 @@
+[
+  {
+    "slug": "reparatii_masini_spalat_chitila",
+    "palette": "fresh",
+    "niche_key": "reparatii",
+    "name": "Reparații Mașini de Spălat Chitila",
+    "brand_short": "Reparații Mașini de Spălat",
+    "brand_sub": "Reparații la domiciliu · Chitila, Ilfov",
+    "phone_wa": "40721025014",
+    "phone_display": "0721 025 014",
+    "address": "Strada Aurel Vlaicu 30, Chitila, Ilfov",
+    "addr_line1": "Strada Aurel Vlaicu 30",
+    "addr_city": "Chitila, Ilfov",
+    "seo_title": "Reparații Mașini de Spălat Rufe & Uscătoare la Domiciliu — Chitila | Ilfov",
+    "seo_desc": "Reparăm mașini de spălat rufe și uscătoare direct la tine acasă, în Chitila și împrejurimi. Rating 5,0 din 18 recenzii Google. Sună acum pentru o programare.",
+    "eyebrow": "Reparații electrocasnice la domiciliu",
+    "h1": "Mașina de spălat s-a stricat?<br>Venim noi și o <em>reparăm acasă la tine</em>.",
+    "lead": "Reparăm mașini de spălat rufe și uscătoare direct la domiciliu, în Chitila și zonele din jur — fără să cari aparatul până la un service. Diagnoză la fața locului și piesă montată în aceeași vizită, ori de câte ori se poate.",
+    "chips": [
+      "Rating 5,0 din 18 recenzii Google",
+      "Reparăm direct la tine acasă",
+      "Strada Aurel Vlaicu 30, Chitila"
+    ],
+    "serv_title": "Ce reparăm la domiciliu",
+    "serv_sub": "De la o mașină care nu mai pornește până la un uscător care nu mai încălzește — venim cu piesele de uzură cele mai des cerute chiar de la prima vizită.",
+    "services": [
+      {
+        "title": "Reparații mașini de spălat rufe",
+        "desc": "Nu pornește, nu stoarce, face zgomot sau pierde apă — depanăm orice defecțiune, la orice marcă de mașină de spălat.",
+        "tag": "Cel mai cerut",
+        "icon": "washer"
+      },
+      {
+        "title": "Reparații uscătoare de rufe",
+        "desc": "Uscătorul nu mai încălzește, se oprește singur sau usucă greu — verificăm rezistența, senzorii și pompa de condens.",
+        "tag": "Uscătoare",
+        "icon": "wrench"
+      },
+      {
+        "title": "Înlocuire pompe, rulmenți & rezistențe",
+        "desc": "Montăm piese de calitate pentru cele mai frecvente defecțiuni, direct la tine acasă, fără transport.",
+        "tag": "Piese de calitate",
+        "icon": "tools"
+      },
+      {
+        "title": "Diagnoză gratuită la fața locului",
+        "desc": "Venim, verificăm aparatul și îți spunem clar ce e stricat și cât costă reparația, înainte să pornim lucrul.",
+        "tag": "Fără costuri ascunse",
+        "icon": "check"
+      },
+      {
+        "title": "Intervenții rapide, inclusiv urgențe",
+        "desc": "Te sunăm înapoi repede și ne organizăm să venim cât mai curând, mai ales dacă mașina pierde apă.",
+        "tag": "Intervenție rapidă",
+        "icon": "clock"
+      }
+    ],
+    "why_title": "De ce te sună 18 clienți mulțumiți",
+    "why": [
+      {"title": "Rating 5,0 din 18 recenzii", "desc": "Toți clienții care au lăsat recenzie sunt mulțumiți 100% de intervenție.", "icon": "star", "filled": true},
+      {"title": "Reparăm direct la tine acasă", "desc": "Nu cari aparatul greu până la un service — venim noi cu sculele și piesele necesare.", "icon": "washer"},
+      {"title": "Diagnoză onestă, fără reparații inutile", "desc": "Îți spunem clar dacă merită reparat aparatul sau nu, înainte să cheltuiești bani degeaba.", "icon": "check"}
+    ],
+    "rating": 5.0,
+    "reviews_count": 18,
+    "areas_title": "Lucrăm în Chitila și zonele apropiate din Ilfov",
+    "areas_sub": "Suni sau scrii pe WhatsApp cu problema mașinii, iar noi stabilim rapid o vizită la tine acasă.",
+    "areas": ["Chitila", "Buftea", "Mogoșoaia", "Sector 1", "Sector 6", "Ilfov"],
+    "reviews": [
+      "Au venit repede și mi-au reparat mașina de spălat chiar în ziua în care am sunat.",
+      "Diagnoză clară, mi-au spus exact ce piesă e de schimbat și cât costă, fără să mă mai plimbe.",
+      "Uscătorul nu mai încălzea deloc, acum funcționează ca nou, fără să-l fi dus nicăieri."
+    ],
+    "contact_sub": "Sună sau scrie pe WhatsApp cu problema mașinii de spălat sau a uscătorului — venim la tine acasă în Chitila și zonele din jur.",
+    "hours": [
+      ["Luni – Vineri", "11:00 – 22:00", "hl"],
+      ["Sâmbătă", "11:00 – 20:00", "hl"],
+      ["Duminică", "Închis", "closed"]
+    ]
+  },
+  {
+    "slug": "spalatorie_auto_nelu",
+    "palette": "cyber",
+    "niche_key": "detailing",
+    "name": "Spălătorie Auto Nelu",
+    "brand_short": "Spălătorie Auto Nelu",
+    "brand_sub": "Spălare & cosmetică auto · Sector 2",
+    "phone_wa": "40722508283",
+    "phone_display": "0722 508 283",
+    "address": "Strada Șoltuzului 22, Sector 2, București",
+    "addr_line1": "Strada Șoltuzului 22",
+    "addr_city": "Sector 2, București",
+    "seo_title": "Spălătorie Auto Nelu — Spălare Exterior/Interior & Cosmetică Auto | Sector 2",
+    "seo_desc": "Spălătorie auto pe Strada Șoltuzului, Sector 2 București: spălare exterior, interior și cosmetică auto. Rating 4,8 din 33 recenzii Google. Sună acum.",
+    "eyebrow": "Spălătorie auto de cartier",
+    "h1": "Mașina ta, curată<br>ca la <em>prima ieșire din showroom</em>.",
+    "lead": "Spălare exterior și interior, curățare tapițerie și cosmetică auto, făcute cu grijă de o echipă care lucrează în același loc de ani buni, pe Strada Șoltuzului, Sector 2.",
+    "chips": [
+      "Rating 4,8 din 33 recenzii Google",
+      "Spălare exterior, interior & cosmetică",
+      "Strada Șoltuzului 22, Sector 2"
+    ],
+    "serv_title": "Ce facem pentru mașina ta",
+    "serv_sub": "De la o spălare rapidă între drumuri până la o curățare completă interior — alegi ce ai nevoie, noi avem grijă de detalii.",
+    "services": [
+      {
+        "title": "Spălare exterior caroserie",
+        "desc": "Spălare manuală cu șampon auto, jante și anvelope, pentru o mașină curată și lucioasă în fiecare zi.",
+        "tag": "Cel mai cerut",
+        "icon": "car"
+      },
+      {
+        "title": "Curățare interior completă",
+        "desc": "Aspirare, curățare bord, praguri și portiere — interiorul arată și miroase ca nou.",
+        "tag": "Interior impecabil",
+        "icon": "seat"
+      },
+      {
+        "title": "Cosmetică auto & polish",
+        "desc": "Polish caroserie, tratamente de protecție și igienizare, pentru o mașină care arată de parcă abia a ieșit din service.",
+        "tag": "Cosmetică auto",
+        "icon": "sparkle"
+      },
+      {
+        "title": "Spălare jante & anvelope",
+        "desc": "Curățăm jantele de praf de frână și tratăm anvelopele, ca mașina să arate finisată din orice unghi.",
+        "tag": "Detaliu la roți",
+        "icon": "wheel"
+      }
+    ],
+    "why_title": "De ce revin clienții la Nelu",
+    "why": [
+      {"title": "Rating 4,8 din 33 recenzii", "desc": "Clienți mulțumiți constant de curățenia și grija la detalii de la fiecare spălare.", "icon": "star", "filled": true},
+      {"title": "Echipă stabilă, în același loc", "desc": "Nu suntem o spălătorie de o zi — lucrăm la aceeași adresă și cunoaștem nevoile clienților fideli.", "icon": "gem"},
+      {"title": "Atenție la detalii, nu doar spălare rapidă", "desc": "Verificăm jantele, pragurile și interiorul, nu doar caroseria la suprafață.", "icon": "check"}
+    ],
+    "rating": 4.8,
+    "reviews_count": 33,
+    "areas_title": "Lucrăm pentru tot estul Bucureștiului",
+    "areas_sub": "Vii direct la spălătorie pe Șoltuzului sau suni înainte ca să nu aștepți la rând.",
+    "areas": ["Sector 2", "Sector 1", "Sector 3", "Iancului", "Obor", "Ilfov"],
+    "reviews": [
+      "Mașina arată impecabil de fiecare dată, iar interiorul miroase de parcă e nou-nouță.",
+      "Am mers de mai multe ori și de fiecare dată aceeași atenție la jante și praguri.",
+      "Cosmetica auto mi-a scos zgârieturile mici de pe caroserie, sunt foarte mulțumit."
+    ],
+    "contact_sub": "Sună sau scrie pe WhatsApp înainte să vii, ca să știi dacă e loc liber la ora potrivită pentru tine.",
+    "hours": [
+      ["Luni – Vineri", "08:00 – 19:00", "hl"],
+      ["Sâmbătă", "09:00 – 15:00", "hl"],
+      ["Duminică", "Închis", "closed"]
+    ]
+  },
+  {
+    "slug": "spalatorie_self_help",
+    "palette": "graphite",
+    "niche_key": "detailing",
+    "name": "Self & Help Car Wash",
+    "brand_short": "Self & Help Car Wash",
+    "brand_sub": "Spălătorie self-service non-stop · Sector 3",
+    "phone_wa": "40755077246",
+    "phone_display": "0755 077 246",
+    "address": "Strada Delea Nouă 9, Sector 3, București",
+    "addr_line1": "Strada Delea Nouă 9",
+    "addr_city": "Sector 3, București",
+    "seo_title": "Self & Help Car Wash — Spălătorie Auto Self-Service Non-Stop | Sector 3",
+    "seo_desc": "Spălătorie auto self-service non-stop și spălare manuală pe Strada Delea Nouă, Sector 3 București. Rating 4,5 din 415 recenzii Google. Deschis non-stop.",
+    "eyebrow": "Spălătorie self-service · non-stop, 24/7",
+    "h1": "Speli mașina<br>oricând vrei, <em>non-stop, 24/7</em>.",
+    "lead": "Boxe self-service disponibile non-stop, plus opțiunea de spălare manuală atunci când preferi să lase altcineva treaba. Pe Strada Delea Nouă, Sector 3 — deschis zi și noapte, în fiecare zi a săptămânii.",
+    "chips": [
+      "Rating 4,5 din 415 recenzii Google",
+      "Deschis non-stop, 24/7",
+      "Strada Delea Nouă 9, Sector 3"
+    ],
+    "serv_title": "Cum poți spăla mașina aici",
+    "serv_sub": "Alegi între boxa self-service, disponibilă oricând, sau spălarea manuală făcută de echipa noastră — tu decizi cât timp ai.",
+    "services": [
+      {
+        "title": "Boxe self-service non-stop",
+        "desc": "Aparate cu presiune, șampon și spumă activă, disponibile 24 din 24, în fiecare zi a săptămânii.",
+        "tag": "Cel mai cerut",
+        "icon": "spray"
+      },
+      {
+        "title": "Spălare manuală caroserie",
+        "desc": "Dacă preferi să lași treaba pe mâna noastră, spălăm mașina manual, cu atenție la detalii.",
+        "tag": "Spălare manuală",
+        "icon": "car"
+      },
+      {
+        "title": "Spălare jante & anvelope",
+        "desc": "Curățăm praful de frână de pe jante și tratăm anvelopele pentru un aspect îngrijit.",
+        "tag": "Detaliu la roți",
+        "icon": "wheel"
+      },
+      {
+        "title": "Aspirare & curățare interior",
+        "desc": "Aspiratoare puternice disponibile non-stop, pentru un interior curat în câteva minute.",
+        "tag": "Interior rapid",
+        "icon": "seat"
+      },
+      {
+        "title": "Spumă activă & tratamente protecție",
+        "desc": "Program de spumă activă și ceară de protecție, pentru o caroserie lucioasă mai mult timp.",
+        "tag": "Protecție caroserie",
+        "icon": "sparkle"
+      }
+    ],
+    "why_title": "De ce aleg șoferii Self & Help",
+    "why": [
+      {"title": "Rating 4,5 din 415 recenzii", "desc": "Una dintre cele mai vizitate spălătorii din zonă, cu sute de clienți mulțumiți.", "icon": "star", "filled": true},
+      {"title": "Deschis non-stop, în fiecare zi", "desc": "Poți veni la orice oră, indiferent de program — dimineața devreme sau noaptea târziu.", "icon": "clock"},
+      {"title": "Self-service sau manual, tu alegi", "desc": "Ai control total: speli tu mașina rapid sau lași echipa noastră să se ocupe de tot.", "icon": "check"}
+    ],
+    "rating": 4.5,
+    "reviews_count": 415,
+    "areas_title": "Lucrăm pentru tot centrul și estul Bucureștiului",
+    "areas_sub": "Vii direct oricând, non-stop — nu ai nevoie de programare pentru boxele self-service.",
+    "areas": ["Sector 3", "Sector 2", "Centrul Vechi", "Unirii", "Dristor", "Ilfov"],
+    "reviews": [
+      "Foarte util faptul că e non-stop, am putut spăla mașina și la miezul nopții.",
+      "Presiune bună la apă și spumă activă eficientă, mașina iese curată rapid.",
+      "Am folosit și opțiunea de spălare manuală, au avut grijă la jante și praguri."
+    ],
+    "contact_sub": "Vii direct oricând, zi sau noapte — spălătoria e deschisă non-stop. Pentru spălare manuală, sună înainte.",
+    "hours": [
+      ["Luni – Duminică", "Non-stop, 24/7", "hl"]
+    ]
+  },
+  {
+    "slug": "spalatorie_speli_singur",
+    "palette": "clean",
+    "niche_key": "detailing",
+    "name": "Speli-Singur Self Wash",
+    "brand_short": "Speli-Singur Self Wash",
+    "brand_sub": "Spălătorie self-service non-stop · Sector 4",
+    "phone_wa": "40770786513",
+    "phone_display": "0770 786 513",
+    "address": "Strada Cuțitul de Argint 20, Sector 4, București",
+    "addr_line1": "Strada Cuțitul de Argint 20",
+    "addr_city": "Sector 4, București",
+    "seo_title": "Speli-Singur Self Wash — Spălătorie Auto Self-Service Non-Stop | Sector 4",
+    "seo_desc": "Spălătorie auto self-service non-stop pe Strada Cuțitul de Argint, Sector 4 București. Peste 987 recenzii Google, una dintre cele mai căutate din zonă. Deschis 24/7.",
+    "eyebrow": "Spălătorie self-service · non-stop, 24/7",
+    "h1": "Cea mai <em>căutată</em> spălătorie self-service<br>din Sectorul 4.",
+    "lead": "Boxe self-service disponibile non-stop, cu aparate puternice și spumă activă — locul unde vin zilnic sute de șoferi din Sectorul 4. Pe Strada Cuțitul de Argint, deschis 24/7.",
+    "chips": [
+      "Peste 987 de recenzii Google",
+      "Deschis non-stop, 24/7",
+      "Strada Cuțitul de Argint 20, Sector 4"
+    ],
+    "serv_title": "Ce găsești în boxele self-service",
+    "serv_sub": "Aparate întreținute constant, disponibile la orice oră, ca să speli mașina exact cum și cât ai nevoie.",
+    "services": [
+      {
+        "title": "Boxe self-service non-stop",
+        "desc": "Aparate cu presiune mare, șampon și spumă activă, disponibile 24 din 24, în fiecare zi.",
+        "tag": "Cel mai cerut",
+        "icon": "spray"
+      },
+      {
+        "title": "Spumă activă & ceară de protecție",
+        "desc": "Program dedicat de spumă activă și ceară, pentru o caroserie curată și protejată mai mult timp.",
+        "tag": "Protecție caroserie",
+        "icon": "sparkle"
+      },
+      {
+        "title": "Spălare jante & anvelope",
+        "desc": "Curățăm praful de frână de pe jante, direct de la boxa self-service, fără să aștepți la coadă.",
+        "tag": "Detaliu la roți",
+        "icon": "wheel"
+      },
+      {
+        "title": "Aspirare interior rapidă",
+        "desc": "Aspiratoare puternice disponibile non-stop, pentru un interior curat în câteva minute.",
+        "tag": "Interior rapid",
+        "icon": "seat"
+      }
+    ],
+    "why_title": "De ce vin sute de șoferi aici zilnic",
+    "why": [
+      {"title": "Peste 987 de recenzii Google", "desc": "Una dintre cele mai vizitate spălătorii self-service din Sectorul 4, cu trafic constant.", "icon": "star", "filled": true},
+      {"title": "Deschis non-stop, în fiecare zi", "desc": "Vii la orice oră, chiar și dimineața devreme înainte de muncă sau noaptea târziu.", "icon": "clock"},
+      {"title": "Boxe întreținute constant", "desc": "Aparatele funcționează bine și sunt verificate regulat, ca să nu pierzi timp cu echipamente stricate.", "icon": "check"}
+    ],
+    "rating": 4.1,
+    "reviews_count": 987,
+    "areas_title": "Lucrăm pentru tot sudul Bucureștiului",
+    "areas_sub": "Vii direct oricând, non-stop — nu ai nevoie de programare, boxele sunt mereu disponibile.",
+    "areas": ["Sector 4", "Sector 3", "Berceni", "Tineretului", "Sector 5", "Ilfov"],
+    "reviews": [
+      "Cea mai la îndemână spălătorie non-stop din zonă, vin aici constant de câțiva ani.",
+      "Presiune foarte bună la apă, mașina iese curată rapid chiar și după drumuri lungi.",
+      "Boxele sunt mereu ocupate, dar merită așteptarea — echipamentele funcționează foarte bine."
+    ],
+    "contact_sub": "Vii direct oricând, zi sau noapte — spălătoria e deschisă non-stop, fără programare necesară.",
+    "hours": [
+      ["Luni – Duminică", "Non-stop, 24/7", "hl"]
+    ]
+  },
+  {
+    "slug": "spalatorie_downtown",
+    "palette": "leather",
+    "niche_key": "detailing",
+    "name": "Downtown Car Wash",
+    "brand_short": "Downtown Car Wash",
+    "brand_sub": "Spălătorie auto & self-service · Sector 2",
+    "phone_wa": "40723792666",
+    "phone_display": "0723 792 666",
+    "address": "Strada Călușei 35, Sector 2, București",
+    "addr_line1": "Strada Călușei 35",
+    "addr_city": "Sector 2, București",
+    "seo_title": "Downtown Car Wash — Spălătorie Auto & Self-Service | Sector 2 București",
+    "seo_desc": "Spălătorie auto și boxe self-service pe Strada Călușei, Sector 2 București. Rating 4,3 din 176 recenzii Google. Deschis zilnic 08:00–22:00. Sună acum.",
+    "eyebrow": "Spălătorie auto & self-service",
+    "h1": "Mașina curată,<br>fără să-ți strici <em>toată ziua</em>.",
+    "lead": "Spălare completă cu echipa noastră sau boxă self-service dacă preferi să faci tu treaba — alegi ce ți se potrivește, pe Strada Călușei, Sector 2, deschis zilnic până seara târziu.",
+    "chips": [
+      "Rating 4,3 din 176 recenzii Google",
+      "Spălare cu echipa sau self-service",
+      "Strada Călușei 35, Sector 2"
+    ],
+    "serv_title": "Ce facem pentru mașina ta",
+    "serv_sub": "De la o spălare completă cu echipa noastră până la o boxă self-service rapidă — alegi în funcție de timpul pe care îl ai.",
+    "services": [
+      {
+        "title": "Spălare exterior & interior completă",
+        "desc": "Spălare caroserie, aspirare și curățare interior, făcute de echipa noastră cât timp tu aștepți sau rezolvi altceva.",
+        "tag": "Cel mai cerut",
+        "icon": "car"
+      },
+      {
+        "title": "Boxă self-service",
+        "desc": "Dacă ai puțin timp, folosești boxa self-service cu presiune și spumă activă, direct la fața locului.",
+        "tag": "Rapid",
+        "icon": "spray"
+      },
+      {
+        "title": "Cosmetică auto & polish",
+        "desc": "Polish caroserie și tratamente de protecție, pentru o mașină care arată îngrijită mai mult timp.",
+        "tag": "Cosmetică auto",
+        "icon": "sparkle"
+      },
+      {
+        "title": "Spălare jante & anvelope",
+        "desc": "Curățăm jantele de praf de frână și tratăm anvelopele pentru un aspect finisat.",
+        "tag": "Detaliu la roți",
+        "icon": "wheel"
+      }
+    ],
+    "why_title": "De ce aleg șoferii Downtown Car Wash",
+    "why": [
+      {"title": "Rating 4,3 din 176 recenzii", "desc": "Clienți mulțumiți constant de calitatea spălării și de opțiunile flexibile disponibile.", "icon": "star", "filled": true},
+      {"title": "Program lung, în fiecare zi", "desc": "Deschis zilnic de dimineața până seara târziu, șapte zile din șapte.", "icon": "clock"},
+      {"title": "Cu echipa sau self-service, tu alegi", "desc": "Ai libertatea să alegi ce variantă ți se potrivește, în funcție de timpul pe care îl ai la dispoziție.", "icon": "check"}
+    ],
+    "rating": 4.3,
+    "reviews_count": 176,
+    "areas_title": "Lucrăm pentru tot estul Bucureștiului",
+    "areas_sub": "Vii direct la spălătorie pe Călușei, în orice zi a săptămânii, între orele de program.",
+    "areas": ["Sector 2", "Sector 1", "Sector 3", "Iancului", "Obor", "Ilfov"],
+    "reviews": [
+      "Mi-a plăcut că am opțiunea de self-service când sunt grăbit și spălare completă când am timp.",
+      "Mașina a ieșit foarte curată, iar jantele au fost curățate perfect de praf de frână.",
+      "Program lung, am putut veni și seara după muncă, fără probleme."
+    ],
+    "contact_sub": "Sună sau scrie pe WhatsApp pentru orice întrebare — venim în ajutor între orele 08:00 și 22:00, în fiecare zi.",
+    "hours": [
+      ["Luni – Duminică", "08:00 – 22:00", "hl"]
+    ]
+  }
+]
