@@ -1,0 +1,401 @@
+[
+  {
+    "slug": "tapiterie_auto_alex",
+    "palette": "leather",
+    "niche_key": "tapiterie",
+    "name": "Tapițerie Auto la Alex",
+    "brand_short": "Tapițerie la Alex",
+    "brand_sub": "Atelier tapițerie auto · Otopeni",
+    "phone_wa": "40732093224",
+    "phone_display": "0732 093 224",
+    "address": "Strada Dealul Negru 23A, Otopeni, Ilfov",
+    "addr_line1": "Strada Dealul Negru 23A",
+    "addr_city": "Otopeni, Ilfov",
+    "seo_title": "Tapițerie Auto la Alex — Scaune Piele, Plafon, Volan | Otopeni",
+    "seo_desc": "Tapițerie auto la Otopeni: scaune piele/textil, plafon, volan, reparații interior. Rating 5,0 din 159 recenzii Google. Sună acum sau scrie pe WhatsApp.",
+    "eyebrow": "Tapițerie auto & atelier interior",
+    "h1": "Interiorul mașinii tale,<br><em>refăcut ca la casă pe piele</em>.",
+    "lead": "Scaune piele și textil, plafon, volan și reparații de interior — lucrate manual, cu materiale alese pe bune, nu peticite la repezeală. Chiar la Otopeni, lângă Dealul Negru.",
+    "chips": [
+      "Rating 5,0 din 159 recenzii Google",
+      "Scaune piele, textil, plafon & volan",
+      "Otopeni, Dealul Negru 23A"
+    ],
+    "hero_alt": "Scaun auto din piele refăcut în atelier de tapițerie",
+    "feature_alt": "Detaliu cusătură piele pe scaun auto",
+    "serv_title": "Ce lucrăm în atelier",
+    "serv_sub": "De la un scaun ars de soare până la un interior complet recondiționat — fiecare piesă iese din atelier verificată.",
+    "services": [
+      {
+        "title": "Refacere scaune piele & textil",
+        "desc": "Înlocuim tapițeria uzată, ruptă sau decolorată cu piele naturală sau ecologică, cusută manual pe forma originală a scaunului.",
+        "tag": "Cel mai cerut",
+        "icon": "seat"
+      },
+      {
+        "title": "Plafon auto — recondiționare",
+        "desc": "Scoatem plafonul lăsat, pătat sau desprins și îl refacem cu material nou, întins corect, fără cute sau bule de aer.",
+        "tag": "Fără cute",
+        "icon": "roof"
+      },
+      {
+        "title": "Îmbrăcare & reparații volan",
+        "desc": "Volan lucios, crăpat sau uzat pe margini — îl reîmbrăcăm în piele nouă, cu grip mai bun la condus.",
+        "tag": "Piele nouă",
+        "icon": "wheel"
+      },
+      {
+        "title": "Reparații interior & huse",
+        "desc": "Arsuri de țigară, tăieturi, cusături desfăcute — reparăm punctual sau facem huse la comandă, pe măsura mașinii tale.",
+        "tag": "La comandă",
+        "icon": "patch"
+      },
+      {
+        "title": "Curățare & tratament piele",
+        "desc": "Curățăm profund pielea și textilul, apoi aplicăm tratament de protecție care ține murdăria și razele UV departe.",
+        "tag": "Întreținere",
+        "icon": "sparkle"
+      }
+    ],
+    "why_title": "De ce vin clienții tocmai la Otopeni",
+    "why": [
+      {"title": "Rating 5,0 din 159 recenzii", "desc": "Cel mai mare punct forte al atelierului — clienți mulțumiți constant, an de an.", "icon": "star", "filled": true},
+      {"title": "Lucru manual, nu în serie", "desc": "Fiecare cusătură se face pe forma reală a scaunului tău, nu pe un șablon universal.", "icon": "gem"},
+      {"title": "Materiale alese, nu cele mai ieftine", "desc": "Piele și textile de calitate, care rezistă ani buni la uzură zilnică.", "icon": "shield"}
+    ],
+    "rating": 5.0,
+    "reviews_count": 159,
+    "areas_title": "Lucrăm pentru toată zona București-Ilfov",
+    "areas_sub": "Aducem mașina la atelier în Otopeni sau ne înțelegem pentru predare — spune-ne de unde vii.",
+    "areas": ["Otopeni", "Sector 1", "Sector 6", "Voluntari", "Chitila", "Ilfov"],
+    "reviews": [
+      "Scaunele arătau ca noi când le-am luat înapoi. Piele de calitate, cusături perfecte.",
+      "Mi-au refăcut plafonul căzut și volanul — parcă am altă mașină la interior.",
+      "Preț corect, lucru serios, gata la timpul promis. Recomand cu toată încrederea."
+    ],
+    "contact_sub": "Sună sau scrie pe WhatsApp pentru o estimare rapidă — spune-ne ce vrei să refacem și îți zicem termenul.",
+    "hours": [
+      ["Luni – Vineri", "09:00 – 17:30", "hl"],
+      ["Sâmbătă", "Închis", "closed"],
+      ["Duminică", "Închis", "closed"]
+    ]
+  },
+  {
+    "slug": "polish_faruri_war",
+    "palette": "cyber",
+    "niche_key": "detailing",
+    "name": "WAR Polish Faruri",
+    "brand_short": "WAR Polish Faruri",
+    "brand_sub": "Restaurare faruri · Sector 6",
+    "phone_wa": "40768399214",
+    "phone_display": "0768 399 214",
+    "address": "Bulevardul Geniului 40, Sector 6, București",
+    "addr_line1": "Bulevardul Geniului 40",
+    "addr_city": "Sector 6, București",
+    "seo_title": "WAR Polish Faruri — Restaurare & Folie Protecție Faruri | Sector 6",
+    "seo_desc": "Polish și restaurare faruri îngălbenite sau oxidate, plus folie de protecție, în Sector 6 București. Rating 5,0 din 52 recenzii Google. Sună acum.",
+    "eyebrow": "Polish & restaurare faruri",
+    "h1": "Faruri îngălbenite?<br>Ies din atelier <em>limpezi ca sticla</em>.",
+    "lead": "Îndepărtăm oxidarea și îngălbenirea de pe faruri și aplicăm folie de protecție, ca lumina să bată la fel de puternic ca la mașina scoasă din showroom.",
+    "chips": [
+      "Rating 5,0 din 52 recenzii Google",
+      "Polish oxidare + folie protecție",
+      "Bulevardul Geniului, Sector 6"
+    ],
+    "hero_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/2014_Toyota_Corolla_LED_Headlight.jpg/1920px-2014_Toyota_Corolla_LED_Headlight.jpg",
+    "hero_alt": "Far auto limpede, lustruit profesional",
+    "feature_img": "https://upload.wikimedia.org/wikipedia/commons/2/29/Car_headlamp.png",
+    "feature_alt": "Far auto demontat pentru verificare și restaurare în atelier",
+    "serv_title": "Ce facem pentru farurile tale",
+    "serv_sub": "Diagnostic rapid, polish de precizie și protecție pe termen lung — fără să înlocuiești farul întreg.",
+    "services": [
+      {
+        "title": "Polish & îndepărtare oxidare / îngălbenire",
+        "desc": "Șlefuim și lustruim lentila farului pentru a elimina stratul îngălbenit sau oxidat, redând transparența originală.",
+        "tag": "Cel mai cerut",
+        "icon": "sparkle",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Yellowed_headlight_of_a_Toyota_car.jpg"
+      },
+      {
+        "title": "Folie protecție faruri (PPF)",
+        "desc": "Aplicăm folie transparentă de protecție care întârzie oxidarea și apără farul de pietre și zgârieturi.",
+        "tag": "Protecție pe termen lung",
+        "icon": "shield",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/2014_Toyota_Corolla_LED_Headlight.jpg/960px-2014_Toyota_Corolla_LED_Headlight.jpg"
+      },
+      {
+        "title": "Lustruire finală & sigilare UV",
+        "desc": "Aplicăm un strat de sigilare rezistent la UV, care întârzie reapariția îngălbenirii cauzate de soare.",
+        "tag": "Rezistent UV",
+        "icon": "bolt"
+      },
+      {
+        "title": "Verificare & reglaj faruri",
+        "desc": "Verificăm etanșeitatea, condensul din far și reglăm fasciculul de lumină pentru vizibilitate corectă pe timp de noapte.",
+        "tag": "Siguranță la condus",
+        "icon": "check"
+      }
+    ],
+    "why_title": "De ce alegi WAR Polish Faruri",
+    "why": [
+      {"title": "Rating 5,0 din 52 recenzii", "desc": "Clienți mulțumiți de claritatea farurilor și de durata rezultatului.", "icon": "star", "filled": true},
+      {"title": "Rezultat vizibil imediat", "desc": "Diferența se vede din prima — far limpede, fără pete îngălbenite.", "icon": "sparkle"},
+      {"title": "Fără schimbat farul întreg", "desc": "Restaurăm farul existent, mult mai ieftin decât un far nou original.", "icon": "bolt"}
+    ],
+    "rating": 5.0,
+    "reviews_count": 52,
+    "areas_title": "Acoperim tot vestul Bucureștiului",
+    "areas_sub": "Programează-te ușor pe WhatsApp — lucrarea durează de obicei sub o oră per far.",
+    "areas": ["Sector 6", "Sector 1", "Militari", "Drumul Taberei", "Crângași", "Ilfov"],
+    "reviews": [
+      "Farurile arătau ca noi când am plecat de acolo — lumină mult mai puternică noaptea.",
+      "Rapid, curat, prețuri corecte. Le-am pus și folie de protecție, recomand.",
+      "Nu credeam că se poate scoate îngălbenirea așa de bine. Rezultat impecabil."
+    ],
+    "contact_sub": "Sună sau scrie pe WhatsApp cu poza farurilor tale — îți spunem pe loc dacă se pot restaura.",
+    "hours": [
+      ["Luni – Vineri", "09:00 – 18:00", "hl"],
+      ["Sâmbătă", "Închis", "closed"],
+      ["Duminică", "Închis", "closed"]
+    ]
+  },
+  {
+    "slug": "reconditionare_volan_auto",
+    "palette": "graphite",
+    "niche_key": "detailing",
+    "name": "Recondiționare Volan Auto",
+    "brand_short": "Recondiționare Volan Auto",
+    "brand_sub": "Atelier îmbrăcare volan · Sector 5",
+    "phone_wa": "40724463636",
+    "phone_display": "0724 463 636",
+    "address": "Strada Sergent Nuțu Ion 2, Sector 5, București",
+    "addr_line1": "Strada Sergent Nuțu Ion 2",
+    "addr_city": "Sector 5, București",
+    "seo_title": "Recondiționare Volan Auto — Îmbrăcare Piele Volan | Sector 5",
+    "seo_desc": "Recondiționare și îmbrăcare volan auto în piele, în Sector 5 București. Volan lucios sau uzat reparat ca nou. Rating 4,6 din 143 recenzii Google.",
+    "eyebrow": "Recondiționare & îmbrăcare volan",
+    "h1": "Volanul lucios și uzat<br>devine <em>piele nouă, la mâna ta</em>.",
+    "lead": "Îmbrăcăm și recondiționăm volanul auto în piele naturală, cusut manual pe scheletul original — grip mai bun și un interior care arată impecabil.",
+    "chips": [
+      "Rating 4,6 din 143 recenzii Google",
+      "Îmbrăcare volan în piele naturală",
+      "Sergent Nuțu Ion 2, Sector 5"
+    ],
+    "hero_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/2014_Mercedes-Benz_steering_wheel_%288403244933%29.jpg/1920px-2014_Mercedes-Benz_steering_wheel_%288403244933%29.jpg",
+    "hero_alt": "Volan auto îmbrăcat în piele neagră, recondiționat",
+    "feature_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/AMG_%28Mercedes-Benz%29_interior%2C_AMG_BiTurbo%2C_red_leather.jpg/1280px-AMG_%28Mercedes-Benz%29_interior%2C_AMG_BiTurbo%2C_red_leather.jpg",
+    "feature_alt": "Detaliu piele auto cusută manual în atelier",
+    "serv_title": "Ce facem pentru volanul tău",
+    "serv_sub": "De la un volan lucios de la uzul zilnic până la unul crăpat sau decojit — îl aducem la aspect de showroom.",
+    "services": [
+      {
+        "title": "Îmbrăcare volan în piele naturală",
+        "desc": "Scoatem materialul vechi și cusem manual piele naturală nouă pe scheletul volanului, păstrând forma originală.",
+        "tag": "Cel mai cerut",
+        "icon": "wheel",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/2014_Mercedes-Benz_steering_wheel_%288403244933%29.jpg/960px-2014_Mercedes-Benz_steering_wheel_%288403244933%29.jpg"
+      },
+      {
+        "title": "Reparații piele crăpată sau decojită",
+        "desc": "Reparăm zonele uzate, crăpate sau lucioase de pe volanul original, fără să fie nevoie de îmbrăcare completă.",
+        "tag": "Reparație punctuală",
+        "icon": "patch",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/AMG_%28Mercedes-Benz%29_interior%2C_AMG_BiTurbo%2C_red_leather.jpg/960px-AMG_%28Mercedes-Benz%29_interior%2C_AMG_BiTurbo%2C_red_leather.jpg"
+      },
+      {
+        "title": "Cusătură decorativă & culoare la cerere",
+        "desc": "Alegi culoarea pielii și modelul de cusătură — de la clasic negru la contrast colorat, exact cum vrei tu.",
+        "tag": "Personalizat",
+        "icon": "gem"
+      },
+      {
+        "title": "Recondiționare completă interior",
+        "desc": "Pe lângă volan, recondiționăm și schimbătorul de viteze sau alte piese îmbrăcate în piele din habitaclu.",
+        "tag": "Pachet complet",
+        "icon": "sofa"
+      }
+    ],
+    "why_title": "De ce aleg clienții acest atelier",
+    "why": [
+      {"title": "Rating 4,6 din 143 recenzii", "desc": "Un volumul mare de lucrări finalizate, cu clienți care revin pentru alte piese din interior.", "icon": "star", "filled": true},
+      {"title": "Cusătură manuală, nu lipici", "desc": "Pielea e cusută pe schelet, nu doar lipită — rezistă ani buni la uz zilnic.", "icon": "hammer"},
+      {"title": "Termen scurt de execuție", "desc": "De obicei volanul e gata în aceeași zi sau a doua zi, fără să stai fără mașină.", "icon": "clock"}
+    ],
+    "rating": 4.6,
+    "reviews_count": 143,
+    "areas_title": "Lucrăm pentru tot Bucureștiul",
+    "areas_sub": "Aduci volanul demontat sau vii cu mașina la atelier — ne înțelegem la telefon cum e mai simplu.",
+    "areas": ["Sector 5", "Sector 4", "Sector 6", "Rahova", "Ferentari", "Ilfov"],
+    "reviews": [
+      "Volanul era lucios și crăpat, acum arată și se simte ca la mașină nouă.",
+      "Cusătură foarte curată, culoare exact cum am cerut. Mulțumit de rezultat.",
+      "Rapid și fără bătaie de cap — mi-au explicat tot procesul înainte să încep."
+    ],
+    "contact_sub": "Sună sau scrie pe WhatsApp și trimite o poză cu volanul — îți spunem pe loc ce se poate face.",
+    "hours": [
+      ["Luni – Vineri", "09:00 – 19:00", "hl"],
+      ["Sâmbătă", "10:00 – 14:00", ""],
+      ["Duminică", "Închis", "closed"]
+    ]
+  },
+  {
+    "slug": "tapiterie_auto_cosmin",
+    "palette": "clean",
+    "niche_key": "tapiterie",
+    "name": "Tapițerie Auto Cosmin",
+    "brand_short": "Tapițerie Auto Cosmin",
+    "brand_sub": "Atelier tapițerie & piele auto",
+    "phone_wa": "40769999203",
+    "phone_display": "0769 999 203",
+    "address": "Șoseaua Alexandriei 168-170, Sector 5, București",
+    "addr_line1": "Șoseaua Alexandriei 168-170",
+    "addr_city": "Sector 5, București",
+    "seo_title": "Tapițerie Auto Cosmin — Scaune, Plafon, Volan, Vopsire Piele | Sector 5",
+    "seo_desc": "Tapițerie auto pe Șoseaua Alexandriei: scaune, plafon, volan, vopsire piele, restaurare interior. Rating 4,8 din 31 recenzii Google. Sună acum.",
+    "eyebrow": "Tapițerie auto & vopsire piele",
+    "h1": "Interiorul uzat al mașinii,<br><em>restaurat complet</em> în atelier.",
+    "lead": "Scaune, plafon, volan și vopsire piele — recondiționăm interiorul mașinii tale la fel de atent ca la o mașină de showroom, chiar pe Șoseaua Alexandriei.",
+    "chips": [
+      "Rating 4,8 din 31 recenzii Google",
+      "Scaune, plafon, volan & vopsire piele",
+      "Șoseaua Alexandriei, Sector 5"
+    ],
+    "hero_alt": "Interior auto restaurat, scaune din piele",
+    "feature_alt": "Detaliu piele auto vopsită și recondiționată",
+    "serv_title": "Ce lucrăm în atelier",
+    "serv_sub": "De la o pată pe scaun până la restaurarea completă a interiorului — totul iese verificat înainte de predare.",
+    "services": [
+      {
+        "title": "Refacere scaune piele & textil",
+        "desc": "Reînnoim tapițeria scaunelor uzate sau decolorate, cu piele naturală sau textil rezistent, cusut pe forma originală.",
+        "tag": "Cel mai cerut",
+        "icon": "seat"
+      },
+      {
+        "title": "Vopsire piele auto",
+        "desc": "Vopsim pielea decolorată sau zgâriată a scaunelor și volanului, redându-i culoarea și aspectul inițial.",
+        "tag": "Recolorare",
+        "icon": "spray"
+      },
+      {
+        "title": "Plafon auto — recondiționare",
+        "desc": "Înlocuim plafonul căzut sau pătat cu material nou, întins corect, fără cute vizibile.",
+        "tag": "Fără cute",
+        "icon": "roof"
+      },
+      {
+        "title": "Îmbrăcare & reparații volan",
+        "desc": "Volan uzat sau lucios — îl reîmbrăcăm în piele nouă, cu o cusătură curată și grip mai bun.",
+        "tag": "Piele nouă",
+        "icon": "wheel"
+      },
+      {
+        "title": "Restaurare completă interior",
+        "desc": "Pachet complet pentru mașini mai vechi: scaune, plafon, volan și panouri de uși, aduse la un aspect unitar.",
+        "tag": "Pachet complet",
+        "icon": "sofa"
+      }
+    ],
+    "why_title": "De ce aleg clienții atelierul Cosmin",
+    "why": [
+      {"title": "Rating 4,8 din 31 recenzii", "desc": "Clienți mulțumiți de calitatea lucrului și de atenția la detalii.", "icon": "star", "filled": true},
+      {"title": "Vopsire + tapițerie sub același acoperiș", "desc": "Nu mai umbli pe la mai multe ateliere — rezolvăm tot interiorul într-un singur loc.", "icon": "gem"},
+      {"title": "Materiale alese cu grijă", "desc": "Piele și textile care rezistă la uzura zilnică, nu doar arată bine la predare.", "icon": "shield"}
+    ],
+    "rating": 4.8,
+    "reviews_count": 31,
+    "areas_title": "Lucrăm pentru tot sudul Bucureștiului",
+    "areas_sub": "Aduci mașina la atelier pe Șoseaua Alexandriei — programare rapidă prin telefon sau WhatsApp.",
+    "areas": ["Sector 5", "Sector 4", "Sector 6", "Rahova", "Ferentari", "Ilfov"],
+    "reviews": [
+      "Mi-au vopsit scaunele de piele zgâriate și arată exact ca la mașina nouă.",
+      "Interiorul complet refăcut — plafon, volan, scaune. Rezultat foarte bun.",
+      "Preț corect și lucru serios, exact ce mi-au promis la telefon."
+    ],
+    "contact_sub": "Sună sau scrie pe WhatsApp pentru o estimare — spune-ne ce vrei să refacem la interior.",
+    "hours": [
+      ["Luni – Vineri", "09:00 – 18:00", "hl"],
+      ["Sâmbătă", "Închis", "closed"],
+      ["Duminică", "Închis", "closed"]
+    ]
+  },
+  {
+    "slug": "tapiterie_auto_stiucii",
+    "palette": "fresh",
+    "niche_key": "tapiterie",
+    "name": "Tapițerie Auto Știucii",
+    "brand_short": "Tapițerie Auto Știucii",
+    "brand_sub": "Atelier tapițerie auto · non-stop",
+    "phone_wa": "40724908478",
+    "phone_display": "0724 908 478",
+    "address": "Strada Știucii 75, Sector 2, București",
+    "addr_line1": "Strada Știucii 75",
+    "addr_city": "Sector 2, București",
+    "seo_title": "Tapițerie Auto Știucii — Program Non-Stop | Sector 2 București",
+    "seo_desc": "Tapițerie auto non-stop pe Strada Știucii: scaune, plafon, volan, reparații interior. Program 24/7. Rating 4,7 din 39 recenzii Google. Sună acum.",
+    "eyebrow": "Tapițerie auto non-stop · 24/7",
+    "h1": "Interiorul mașinii nu așteaptă<br>program — <em>noi lucrăm non-stop</em>.",
+    "lead": "Scaune, plafon, volan și reparații de interior, oricând ai nevoie — program non-stop, șapte zile din șapte, chiar pe Strada Știucii.",
+    "chips": [
+      "Rating 4,7 din 39 recenzii Google",
+      "Program non-stop, 24/7",
+      "Strada Știucii 75, Sector 2"
+    ],
+    "hero_alt": "Atelier tapițerie auto deschis non-stop, scaun din piele",
+    "feature_alt": "Detaliu cusătură piele auto lucrată noaptea în atelier",
+    "serv_title": "Ce lucrăm, oricând vii",
+    "serv_sub": "Program non-stop pentru cine nu are timp ziua — aceeași calitate, indiferent de oră.",
+    "services": [
+      {
+        "title": "Refacere scaune piele & textil",
+        "desc": "Reînnoim tapițeria uzată sau ruptă a scaunelor, cu materiale de calitate, cusute manual pe forma originală.",
+        "tag": "Cel mai cerut",
+        "icon": "seat"
+      },
+      {
+        "title": "Plafon auto — recondiționare",
+        "desc": "Refacem plafonul lăsat sau pătat cu material nou, întins corect, fără cute sau bule de aer.",
+        "tag": "Fără cute",
+        "icon": "roof"
+      },
+      {
+        "title": "Îmbrăcare & reparații volan",
+        "desc": "Volan uzat, lucios sau crăpat — îl reîmbrăcăm în piele nouă pentru un grip mai bun la condus.",
+        "tag": "Piele nouă",
+        "icon": "wheel"
+      },
+      {
+        "title": "Reparații interior de urgență",
+        "desc": "Tăieturi, arsuri sau cusături desfăcute reparate rapid, chiar și noaptea, fără să aștepți ziua următoare.",
+        "tag": "Non-stop",
+        "icon": "bolt"
+      },
+      {
+        "title": "Curățare & tratament piele",
+        "desc": "Curățăm profund pielea și textilul și aplicăm tratament de protecție împotriva murdăriei și razelor UV.",
+        "tag": "Întreținere",
+        "icon": "sparkle"
+      }
+    ],
+    "why_title": "De ce vin clienții și la miezul nopții",
+    "why": [
+      {"title": "Rating 4,7 din 39 recenzii", "desc": "Clienți mulțumiți inclusiv de cei care au venit în afara programului normal.", "icon": "star", "filled": true},
+      {"title": "Program 24/7, fără excepție", "desc": "Nu contează ora — atelierul e deschis și în weekend, și noaptea.", "icon": "clock"},
+      {"title": "Lucru manual, nu în grabă", "desc": "Chiar și non-stop, fiecare cusătură se face cu aceeași atenție la detalii.", "icon": "gem"}
+    ],
+    "rating": 4.7,
+    "reviews_count": 39,
+    "areas_title": "Lucrăm pentru tot estul Bucureștiului",
+    "areas_sub": "Vino oricând, ziua sau noaptea — programare rapidă prin telefon sau WhatsApp.",
+    "areas": ["Sector 2", "Sector 1", "Sector 3", "Pantelimon", "Colentina", "Ilfov"],
+    "reviews": [
+      "Am ajuns la ora 23:00 cu o urgență și mi-au reparat scaunul pe loc. Incredibil de utili.",
+      "Program non-stop chiar real — am fost sâmbătă seara și lucrul a fost impecabil.",
+      "Volanul recondiționat arată perfect, iar faptul că sunt deschiși oricând m-a scăpat de o bătaie de cap."
+    ],
+    "contact_sub": "Sună sau scrie pe WhatsApp oricând — suntem deschiși non-stop, 7 zile din 7.",
+    "hours": [
+      ["Luni – Duminică", "Non-stop · 24/7", "hl"]
+    ]
+  }
+]
